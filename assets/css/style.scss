@@ -327,7 +327,7 @@ $parchment-bottom-height: 120px;
   background-size: 100% 100%;
 }
 
-/* Mobile : parchemin pleine largeur */
+/* Mobile : parchemin pleine largeur (technique full-bleed) */
 @media (max-width: 768px) {
   html {
     width: 100%;
@@ -344,12 +344,18 @@ $parchment-bottom-height: 120px;
   .page-wrapper {
     padding: 0;
     align-items: stretch;
+    overflow-x: visible;
+    overflow-y: scroll;
   }
 
+  /* Full-bleed : parchemin sur toute la largeur du viewport */
   .parchment {
-    width: 100%;
-    min-width: 0;
-    max-width: none;
+    width: 100vw;
+    max-width: 100vw;
+    min-width: 100vw;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    box-sizing: border-box;
   }
 
   .parchment-top,
