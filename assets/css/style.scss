@@ -322,10 +322,15 @@ $parchment-bottom-height: 120px;
   background-size: 100% 100%;
 }
 
-/* Mobile : parchemin stable, contenu élargi */
+/* Mobile : parchemin plus large, texte lisible */
 @media (max-width: 768px) {
+  .parchment {
+    max-width: 96vw;
+  }
+
   .parchment-content {
-    max-width: 95%;
+    max-width: 42ch;
+    margin: 0 auto;
     padding: 1rem;
     font-size: 1rem;
   }
