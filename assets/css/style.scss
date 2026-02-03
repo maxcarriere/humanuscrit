@@ -6,6 +6,7 @@ body {
   background: #0b0b0b;
   margin: 0;
   font-family: Georgia, "Times New Roman", serif;
+  overflow-x: hidden;
 }
 
 /* ===== 2. Bannière ===== */
@@ -25,7 +26,7 @@ body {
 }
 
 .logo img {
-  width: 60px;
+  width: 90px;
   display: block;
 }
 
@@ -36,7 +37,7 @@ body {
 .site-title {
   color: #f3e8cf;
   letter-spacing: 0.3em;
-  font-size: 1.6rem;
+  font-size: 1.9rem;
   margin-bottom: 0.5rem;
   text-transform: uppercase;
 }
@@ -63,7 +64,7 @@ body {
   text-decoration: underline;
 }
 
-/* Bannière responsive — empilement vertical et centré sur mobile */
+/* Bannière responsive — empilement vertical, centré, texte 1.5rem sur mobile */
 @media (max-width: 768px) {
   .header-inner {
     flex-direction: column;
@@ -71,10 +72,19 @@ body {
     gap: 1rem;
   }
 
+  .logo img {
+    width: 100px;
+  }
+
+  .site-title {
+    font-size: 1.5rem;
+  }
+
   .site-nav a {
     display: block;
     margin-bottom: 0.5rem;
     margin-right: 0;
+    font-size: 1.5rem;
   }
 }
 
@@ -167,16 +177,38 @@ $parchment-bottom-height: 120px;
 
 @media (max-width: 768px) {
   .page-wrapper {
+    width: 100%;
+    max-width: 100%;
     padding: 0.25rem 0;
+    box-sizing: border-box;
+  }
+
+  .parchment {
+    width: 100%;
+    max-width: none;
+    min-width: 0;
+    box-sizing: border-box;
   }
 
   .parchment-middle {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
 
   .parchment-content {
     padding: 0.75rem 1rem;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+  }
+
+  .arborescence-textes,
+  .arborescence-textes a,
+  .navigation-dossier,
+  .navigation-dossier a {
+    font-size: 1.5rem;
+  }
+
+  .site-footer,
+  .site-footer a {
+    font-size: 1.5rem;
   }
 }
 
