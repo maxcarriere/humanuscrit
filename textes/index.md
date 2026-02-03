@@ -2,5 +2,13 @@
 title: Textes
 ---
 
-Cette page présente la matière textuelle du corpus Humanuscrit, conçue comme un ensemble de textes évolutifs servant de substrat à partir duquel peuvent émerger, se transformer et se régénérer sous différentes formes présentées dans la section [Productions]({{ "/productions/" | relative_url }}).  
-Le corpus est organisé en une arborescence évolutive dont chaque texte peut être consulté individuellement.
+Cette page présente la matière textuelle du projet Humanuscrit.  
+Elle regroupe un ensemble de textes évolutifs constituant le substrat à partir duquel peuvent émerger, se transformer et se structurer différentes productions humaines et artificielles.
+
+Les textes du corpus ont un statut évolutif : réflexions, fragments, essais, notes, textes bruts ou en cours de maturation.
+
+---
+
+### Arborescence du corpus
+
+{% include arborescence_textes.html %}

@@ -7,3 +7,4 @@ theme: minima
 header_pages:
   - textes/index.md
   - productions/index.md
+  - a-propos.md

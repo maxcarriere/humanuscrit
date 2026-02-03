@@ -4,7 +4,7 @@
 /* Fond parchemin global */
 body {
   background-color: #fdfcf9;
-  background-image: url("{{ '/assets/images/parchemin.jpg' | relative_url }}");
+  background-image: url("{{ '/assets/images/parchemin.png' | relative_url }}");
   background-repeat: repeat;
   background-size: 800px auto;
   color: #1a1a1a;
@@ -15,7 +15,37 @@ body {
   background: transparent;
 }
 
-/* Texte un peu plus respirant */
+/* Typographie humaniste, lisible */
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.65;
+}
+
+/* Texte respirant */
 p {
-  line-height: 1.6;
+  margin-bottom: 1em;
+}
+
+/* Arborescence textes — calme, lisible */
+.arborescence-textes {
+  list-style: none;
+  padding-left: 0;
+  margin: 1em 0;
+}
+.arborescence-textes li {
+  margin: 0.4em 0;
+  padding-left: 1em;
+  position: relative;
+}
+.arborescence-textes li::before {
+  content: "— ";
+  opacity: 0.6;
+}
+.arborescence-textes a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0,0,0,0.15);
+}
+.arborescence-textes a:hover {
+  border-bottom-color: rgba(0,0,0,0.4);
 }

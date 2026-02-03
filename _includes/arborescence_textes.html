@@ -1,0 +1,15 @@
+{% assign texte_pages = site.pages | where_exp: "p", "p.path contains 'textes/' and p.path != 'textes/index.md' and p.path != 'textes/README.md'" | sort: "path" %}
+{% assign current_dir = "" %}
+{% for p in texte_pages %}
+  {% assign path_parts = p.path | split: "/" %}
+  {% assign dir_name = path_parts[1] %}
+  {% if dir_name != current_dir %}
+    {% if current_dir != "" %}</ul>{% endif %}
+    <h3>{{ dir_name }}</h3>
+    <ul class="arborescence-textes">
+    {% assign current_dir = dir_name %}
+  {% endif %}
+  {% assign titre = p.title | default: p.name | replace: ".md", "" | replace: ".html", "" %}
+  <li><a href="{{ p.url | relative_url }}">{{ titre }}</a></li>
+{% endfor %}
+{% if current_dir != "" %}</ul>{% endif %}
