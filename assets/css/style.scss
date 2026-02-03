@@ -233,12 +233,41 @@ $parchment-bottom-height: 120px;
   border-bottom-color: rgba(13, 13, 13, 0.6);
 }
 
-/* ===== 6. Footer — adaptation au fond sombre ===== */
+/* ===== 6. Pied de page — sobre, discret, hors du parchemin ===== */
 .site-footer {
-  color: #888;
+  background: #0e0e0e;
+  color: #a89f8a;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  padding: 2rem 1rem;
   border-top: 1px solid #222;
 }
 
+.footer-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.footer-left,
+.footer-right {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.footer-right span {
+  opacity: 0.6;
+}
+
 .site-footer a {
-  color: #d8ccb0;
+  color: #a89f8a;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
 }
