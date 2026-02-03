@@ -11,10 +11,10 @@
       {% continue %}
     {% endif %}
     {% if nb_parts == 3 and p.name == "index.md" %}
-      {% comment %} Sous-dossier : 00_prescriptum → Prescriptum {% endcomment %}
+      {% assign folder_name = p_parts[1] %}
       <li>
         <a href="{{ p.url | relative_url }}">
-          {% include lib_display_name.html name=p_parts[1] title=p.title %}
+          {% include lib_display_name.html name=folder_name title=p.title %}
         </a>
       </li>
     {% elsif nb_parts == 2 %}
