@@ -1,6 +1,6 @@
 {% comment %}
-  Navigation dans un dossier : Texte précédent / suivant / Retour au sommaire
-  Affichée pour les pages dans un sous-dossier de textes/ ou productions/
+  Navigation : Texte précédent / suivant (ordre logique 00_, 01_), Retour au dossier parent
+  Ordre basé sur le tri des chemins (00_avertissement avant 01_prefaceA)
 {% endcomment %}
 {% assign path = page.path %}
 {% assign is_texte = false %}
@@ -12,7 +12,6 @@
   {% assign is_production = true %}
 {% endif %}
 {% if is_texte or is_production %}
-  {% comment %} Extraire le dossier courant (ex: textes/0-presciptum) {% endcomment %}
   {% assign parts = path | split: "/" %}
   {% assign dir = "" %}
   {% for part in parts %}
@@ -21,34 +20,76 @@
     {% assign dir = dir | append: part %}
   {% endfor %}
 
-  {% comment %} Trouver les pages du même dossier, triées, et calculer prev/next {% endcomment %}
+  {% comment %} Parent = dossier contenant dir. Pour index.md, on remonte d'un niveau. {% endcomment %}
+  {% if page.name == "index.md" %}
+    {% assign dir_parts = dir | split: "/" %}
+    {% assign n_parent = dir_parts | size | minus: 1 %}
+    {% if n_parent > 0 %}
+      {% assign parent_dir = dir_parts[0] %}
+      {% for i in (1..n_parent) %}
+        {% if i < n_parent %}
+          {% assign parent_dir = parent_dir | append: "/" | append: dir_parts[i] %}
+        {% endif %}
+      {% endfor %}
+    {% else %}
+      {% assign parent_dir = dir %}
+    {% endif %}
+  {% else %}
+    {% assign parent_dir = dir %}
+  {% endif %}
+
+  {% comment %} Siblings : fichiers directs + index des sous-dossiers, triés par path (00_, 01_) {% endcomment %}
   {% assign prev_page = "" %}
   {% assign next_page = "" %}
   {% assign found_current = false %}
+  {% assign prefix = dir | append: "/" %}
   {% assign sorted = site.pages | sort: "path" %}
   {% for p in sorted %}
-    {% if p.path contains "textes/" or p.path contains "productions/" %}
-    {% if p.name != "index.md" and p.name != "README.md" %}
-      {% assign p_parts = p.path | split: "/" %}
-      {% assign p_dir = "" %}
-      {% for part in p_parts %}
-        {% if forloop.last %}{% break %}{% endif %}
-        {% if p_dir != "" %}{% assign p_dir = p_dir | append: "/" %}{% endif %}
-        {% assign p_dir = p_dir | append: part %}
-      {% endfor %}
-      {% if p_dir == dir %}
-        {% if p.url == page.url %}
-          {% assign found_current = true %}
-        {% elsif found_current %}
-          {% assign next_page = p %}
-          {% break %}
-        {% else %}
-          {% assign prev_page = p %}
-        {% endif %}
+    {% unless p.path contains prefix %}{% continue %}{% endunless %}
+    {% assign full_idx = dir | append: "/index.md" %}
+    {% if p.path == full_idx %}{% continue %}{% endif %}
+    {% assign rel_path = p.path | remove_first: prefix %}
+    {% assign rel_parts = rel_path | split: "/" %}
+    {% assign depth = rel_parts | size %}
+    {% if depth == 1 and p.name != "index.md" and p.name != "README.md" %}
+      {% if p.url == page.url %}
+        {% assign found_current = true %}
+      {% elsif found_current %}
+        {% assign next_page = p %}
+        {% break %}
+      {% else %}
+        {% assign prev_page = p %}
+      {% endif %}
+    {% elsif depth == 2 and p.name == "index.md" %}
+      {% if p.url == page.url %}
+        {% assign found_current = true %}
+      {% elsif found_current %}
+        {% assign next_page = p %}
+        {% break %}
+      {% else %}
+        {% assign prev_page = p %}
       {% endif %}
     {% endif %}
-    {% endif %}
   {% endfor %}
+
+  {% comment %} Si on est sur l'index, "suivant" = premier item du dossier {% endcomment %}
+  {% if page.name == "index.md" and next_page == "" and prev_page == "" %}
+    {% for p in sorted %}
+      {% unless p.path contains prefix %}{% continue %}{% endunless %}
+      {% assign full_idx = dir | append: "/index.md" %}
+      {% if p.path == full_idx %}{% continue %}{% endif %}
+      {% assign rel_path = p.path | remove_first: prefix %}
+      {% assign rel_parts = rel_path | split: "/" %}
+      {% assign depth = rel_parts | size %}
+      {% if depth == 1 and p.name != "index.md" and p.name != "README.md" %}
+        {% assign next_page = p %}
+        {% break %}
+      {% elsif depth == 2 and p.name == "index.md" %}
+        {% assign next_page = p %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
 
   <nav class="navigation-dossier" aria-label="Navigation dans le dossier">
     <p>
@@ -58,8 +99,8 @@
       {% if next_page != "" %}
         <a href="{{ next_page.url | relative_url }}">Texte suivant →</a> ·
       {% endif %}
-      {% assign sommaire_url = dir | prepend: "/" | append: "/" %}
-      <a href="{{ sommaire_url | relative_url }}">Retour au sommaire</a>
+      {% assign parent_url = parent_dir | prepend: "/" | append: "/" %}
+      <a href="{{ parent_url | relative_url }}">Retour au dossier parent</a>
     </p>
   </nav>
 {% endif %}

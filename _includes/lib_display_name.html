@@ -1,0 +1,22 @@
+{% comment %}
+  Nom d'affichage : titre (front matter) ou nettoyage du nom (retire préfixe 00_, 01_, etc.)
+  Ex: 00_avertissement → Avertissement, 01_prefaceA → PrefaceA (ou titre en front matter)
+{% endcomment %}
+{% if include.title and include.title != "" %}
+{{ include.title }}
+{% else %}
+{% assign base = include.name | replace: ".md", "" %}
+{% assign parts = base | split: "_" %}
+{% if parts.size > 1 %}
+  {% assign rest = "" %}
+  {% for part in parts %}
+    {% if forloop.index0 > 0 %}
+      {% if rest != "" %}{% assign rest = rest | append: "_" %}{% endif %}
+      {% assign rest = rest | append: part %}
+    {% endif %}
+  {% endfor %}
+  {% if rest != "" %}{{ rest | capitalize }}{% else %}{{ base | capitalize }}{% endif %}
+{% else %}
+{{ base | capitalize }}
+{% endif %}
+{% endif %}

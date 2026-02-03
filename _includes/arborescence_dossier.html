@@ -37,23 +37,23 @@
     {% if depth == 1 %}
       {% if p.name == "index.md" %}
         <li>
-          <a href="{{ p.url | relative_url }}">{{ p.title | default: rel_parts[0] }}</a>
+          <a href="{{ p.url | relative_url }}">{% include lib_display_name.html name=rel_parts[0] title=p.title %}</a>
         </li>
       {% elsif p.name != "README.md" %}
         <li>
           <a href="{{ p.url | relative_url }}">
-            {{ p.title | default: p.name | replace: ".md", "" }}
+            {% include lib_display_name.html name=p.name title=p.title %}
           </a>
         </li>
       {% endif %}
     {% elsif depth == 2 and p.name == "index.md" %}
       <li>
-        <a href="{{ p.url | relative_url }}">{{ p.title | default: rel_parts[0] }}</a>
+        <a href="{{ p.url | relative_url }}">{% include lib_display_name.html name=rel_parts[0] title=p.title %}</a>
       </li>
     {% elsif depth == 2 and p.name != "README.md" %}
       <li>
         <a href="{{ p.url | relative_url }}">
-          {{ p.title | default: p.name | replace: ".md", "" }}
+          {% include lib_display_name.html name=p.name title=p.title %}
         </a>
       </li>
     {% endif %}
