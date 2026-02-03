@@ -2,7 +2,13 @@
 ---
 
 /* ===== 1. Fond général ===== */
-html,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
 body {
   height: 100%;
   margin: 0;
@@ -181,9 +187,11 @@ body {
 
   /* Parchemin pleine largeur avec menu hamburger */
   .page-wrapper {
+    padding: 0;
+  }
+
+  .parchment {
     max-width: none;
-    margin-left: 0;
-    margin-right: 0;
   }
 
   /* Liens footer dans le menu quand hamburger affiché */
@@ -201,7 +209,7 @@ body {
 $parchment-top-height: 120px;
 $parchment-bottom-height: 120px;
 
-/* Zone scrollable = parchemin (bannière et pied de page fixes) */
+/* Zone scrollable entre bannière et pied de page */
 .page-wrapper {
   flex: 1 1 0;
   min-height: 0;
@@ -210,11 +218,9 @@ $parchment-bottom-height: 120px;
   -webkit-overflow-scrolling: touch;
   display: flex;
   flex-direction: column;
-  padding: 0;
+  align-items: center;
+  padding: 4rem 0;
   width: 100%;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
   box-sizing: border-box;
 
   /* Scrollbar : gris visible sur fond noir */
@@ -239,12 +245,18 @@ $parchment-bottom-height: 120px;
   background: #888;
 }
 
-/* Parchemin (fusionné avec page-wrapper) : structure flex */
-.page-wrapper.parchment {
+/* Parchemin : conteneur centré, max 1200px */
+.parchment {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
   margin: 0;
   padding: 0;
   gap: 0;
   align-items: stretch;
+  flex-shrink: 0;
+  box-sizing: border-box;
 }
 
 .parchment-top,
@@ -318,8 +330,8 @@ $parchment-bottom-height: 120px;
 /* Mobile : parchemin pleine largeur */
 @media (max-width: 768px) {
   html {
-    overflow-x: hidden;
     width: 100%;
+    min-width: 0;
   }
 
   body {
@@ -329,12 +341,15 @@ $parchment-bottom-height: 120px;
     width: 100%;
   }
 
-  /* page-wrapper = parchemin : pleine largeur, pas de max-width */
   .page-wrapper {
+    padding: 0;
+    align-items: stretch;
+  }
+
+  .parchment {
     width: 100%;
+    min-width: 0;
     max-width: none;
-    margin-left: 0;
-    margin-right: 0;
   }
 
   .parchment-top,
