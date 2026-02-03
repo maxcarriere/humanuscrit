@@ -15,7 +15,9 @@ et sur le rôle de la conscience comme possible vecteur d’émancipation.
 
 ### Explorer
 
-- [Textes]({{ "/textes/" | relative_url }}) — La matière du projet  
-- [Productions]({{ "/productions/" | relative_url }}) — Formes issues de la matière  
-- [À propos]({{ "/a-propos/" | relative_url }})
+<ul class="arborescence-textes">
+  <li><a href="{{ '/textes/' | relative_url }}">Textes</a> — La matière du projet</li>
+  <li><a href="{{ '/productions/' | relative_url }}">Productions</a> — Formes issues de la matière</li>
+  <li><a href="{{ '/a-propos/' | relative_url }}">À propos</a></li>
+</ul>
 
