@@ -334,6 +334,11 @@ $parchment-bottom-height: 120px;
     max-width: 96vw;
   }
 
+  /* Image milieu adaptée au mobile */
+  .parchment-middle {
+    background-image: url("{{ '/assets/images/parchemin_middle2.png' | relative_url }}");
+  }
+
   .parchment-content {
     max-width: 42ch;
     margin: 0 auto;
