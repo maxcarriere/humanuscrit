@@ -118,9 +118,9 @@ $parchment-bottom-height: 120px;
   width: 100%;
   box-sizing: border-box;
 
-  /* Scrollbar thème : fond noir, contour crème */
+  /* Scrollbar : gris visible sur fond noir */
   scrollbar-width: thin;
-  scrollbar-color: #0e0e0e #0b0b0b;
+  scrollbar-color: #666 #1a1a1a;
 }
 
 .page-wrapper::-webkit-scrollbar {
@@ -128,17 +128,16 @@ $parchment-bottom-height: 120px;
 }
 
 .page-wrapper::-webkit-scrollbar-track {
-  background: #0b0b0b;
+  background: #1a1a1a;
 }
 
 .page-wrapper::-webkit-scrollbar-thumb {
-  background: #0e0e0e;
-  border: 1px solid #d8ccb0;
+  background: #666;
   border-radius: 4px;
 }
 
 .page-wrapper::-webkit-scrollbar-thumb:hover {
-  background: #1a1a1a;
+  background: #888;
 }
 
 /* Conteneur centré, hauteur = contenu (scroll dans page-wrapper) */
