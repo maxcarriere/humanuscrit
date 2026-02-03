@@ -185,13 +185,8 @@ body {
     margin: 0.5rem 1rem;
   }
 
-  /* Parchemin pleine largeur avec menu hamburger */
   .page-wrapper {
     padding: 0;
-  }
-
-  .parchment {
-    max-width: none;
   }
 
   /* Liens footer dans le menu quand hamburger affiché */
@@ -327,64 +322,12 @@ $parchment-bottom-height: 120px;
   background-size: 100% 100%;
 }
 
-/* Mobile : layout scroll body, parchemin pleine largeur */
+/* Mobile : parchemin stable, contenu élargi */
 @media (max-width: 768px) {
-  html {
-    width: 100%;
-    min-width: 0;
-  }
-
-  /* Scroll sur body au lieu de page-wrapper */
-  body {
-    padding: 0;
-    margin: 0;
-    min-width: 0;
-    width: 100%;
-    overflow-y: auto;
-    overflow-x: hidden;
-  }
-
-  /* Pas de scroll interne, stretch pour pleine largeur */
-  .page-wrapper {
-    padding: 0;
-    align-items: stretch;
-    overflow: visible;
-    flex: 0 0 auto;
-    min-height: 0;
-  }
-
-  /* Parchemin : supprimer max-width, forcer width 100% */
-  .parchment {
-    width: 100%;
-    max-width: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  /* Images parchemin : toute la largeur (background-size 100% auto) */
-  .parchment-top {
-    background-size: 100% auto;
-  }
-
-  .parchment-middle {
-    background-size: 100% auto;
-  }
-
-  .parchment-bottom {
-    background-size: 100% auto;
-  }
-
-  .parchment-top,
-  .parchment-middle,
-  .parchment-bottom {
-    width: 100%;
-    box-sizing: border-box;
-  }
-
   .parchment-content {
-    padding: 0.75rem 1rem 1rem;
+    max-width: 95%;
+    padding: 1rem;
     font-size: 1rem;
-    max-width: 100%;
   }
 
   .parchment-content img,
