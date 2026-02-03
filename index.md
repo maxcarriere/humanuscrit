@@ -10,5 +10,5 @@ et sur le rôle de la conscience comme possible vecteur d’émancipation.
 
 ### Explorer
 
-- [Textes](textes.md)
-- [Productions](productions.md)
+- [Textes](/textes)
+- [Productions](/productions)
