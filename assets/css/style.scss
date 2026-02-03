@@ -89,24 +89,9 @@ $parchment-bottom-height: 120px;
   padding: 4rem 1rem;
 }
 
-@media (max-width: 768px) {
-  .page-wrapper {
-    padding: 0.25rem 0;
-  }
-
-  .parchment {
-    max-width: 100%;
-  }
-
-  .parchment-content {
-    padding: 0.75rem 1rem;
-    font-size: 1.1rem;
-  }
-}
-
 .parchment {
-  max-width: 1280px;
   width: 100%;
+  max-width: 1000px;
   display: flex;
   flex-direction: column;
   margin: 0;
@@ -180,6 +165,16 @@ $parchment-bottom-height: 120px;
   background-size: 100% 100%;
 }
 
+@media (max-width: 768px) {
+  .page-wrapper {
+    padding: 0.25rem 0;
+  }
+
+  .parchment-content {
+    padding: 0.75rem 1rem;
+    font-size: 1.1rem;
+  }
+}
 
 /* Séparateurs Markdown (---) */
 .parchment-content hr {
