@@ -322,16 +322,24 @@ $parchment-bottom-height: 120px;
   background-size: 100% 100%;
 }
 
-/* Mobile : fond parchemin global, texte direct, pas de cadre */
-@media (max-width: 768px) {
-  /* Texture parchemin comme fond global */
+/* < 1000px : fond unique parchemin (plus de bande sur fond perdu) */
+@media (max-width: 999px) {
+  /* Fond parchemin sur toute la surface visible */
+  html {
+    background: #e8e0d0;
+  }
+
   body {
-    background: #e8e0d0 url("{{ '/assets/images/parchemin_middle.png' | relative_url }}") repeat-y top center;
+    background-color: #e8e0d0;
+    background-image: url("{{ '/assets/images/parchemin_middle.png' | relative_url }}");
+    background-repeat: repeat-y;
+    background-position: top center;
     background-size: 100% auto;
   }
 
   .page-wrapper {
     align-items: stretch;
+    background: transparent;
   }
 
   /* Masquer le cadre (haut et bas) */
@@ -340,7 +348,7 @@ $parchment-bottom-height: 120px;
     display: none;
   }
 
-  /* Supprimer le fond illustré du parchemin */
+  /* Supprimer le fond illustré — texte directement sur le fond parchemin */
   .parchment,
   .parchment-middle {
     background: none;
