@@ -12,10 +12,10 @@ body {
 body {
   background: #0b0b0b;
   font-family: Georgia, "Times New Roman", serif;
-  overflow-x: hidden;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  height: 100vh;
 }
 
 /* ===== 2. Bannière — cadre fixe en haut ===== */
@@ -106,8 +106,10 @@ $parchment-bottom-height: 120px;
 
 /* Zone scrollable entre bannière et pied de page */
 .page-wrapper {
-  flex: 1;
+  flex: 1 1 0;
+  min-height: 0;
   overflow-y: auto;
+  overflow-x: hidden;
   display: flex;
   justify-content: center;
   padding: 4rem 1rem;
@@ -197,9 +199,10 @@ $parchment-bottom-height: 120px;
     box-sizing: border-box;
   }
 
+  /* Parchemin : largeur 100%, hauteur s'adapte au contenu (descend jusqu'en bas) */
   .parchment {
     width: 100%;
-    max-width: none;
+    max-width: 100%;
     min-width: 0;
     box-sizing: border-box;
   }
