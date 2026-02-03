@@ -1,5 +1,5 @@
-baseurl: "/humanuscrit"
-url: "https://maxcarriere.github.io"
+baseurl: ""
+url: "https://humanuscrit.com"
 
 title: Humanuscrit
 theme: minima
