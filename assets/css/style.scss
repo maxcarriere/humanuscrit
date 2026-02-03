@@ -322,34 +322,33 @@ $parchment-bottom-height: 120px;
   background-size: 100% 100%;
 }
 
-/* Mobile : parchemin plus large, texte lisible */
+/* Mobile : fond parchemin global, texte direct, pas de cadre */
 @media (max-width: 768px) {
-  /* align-items: stretch pour que le parchemin prenne toute la largeur disponible */
+  /* Texture parchemin comme fond global */
+  body {
+    background: #e8e0d0 url("{{ '/assets/images/parchemin_middle.png' | relative_url }}") repeat-y top center;
+    background-size: 100% auto;
+  }
+
   .page-wrapper {
     align-items: stretch;
   }
 
+  /* Masquer le cadre (haut et bas) */
+  .parchment-top,
+  .parchment-bottom {
+    display: none;
+  }
+
+  /* Supprimer le fond illustré du parchemin */
+  .parchment,
+  .parchment-middle {
+    background: none;
+  }
+
   .parchment {
     width: 100%;
-    max-width: 96vw;
-  }
-
-  /* Images : étirement horizontal uniquement (pas de déformation verticale) */
-  .parchment-top {
-    background-size: 100% auto;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
-  .parchment-middle {
-    background-size: 100% auto;
-    background-repeat: repeat-y;
-  }
-
-  .parchment-bottom {
-    background-size: 100% auto;
-    background-position: center;
-    background-repeat: no-repeat;
+    max-width: none;
   }
 
   .parchment-content {
