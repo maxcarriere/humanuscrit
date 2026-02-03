@@ -324,7 +324,13 @@ $parchment-bottom-height: 120px;
 
 /* Mobile : parchemin plus large, texte lisible */
 @media (max-width: 768px) {
+  /* align-items: stretch pour que le parchemin prenne toute la largeur disponible */
+  .page-wrapper {
+    align-items: stretch;
+  }
+
   .parchment {
+    width: 100%;
     max-width: 96vw;
   }
 
