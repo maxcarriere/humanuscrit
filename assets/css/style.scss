@@ -96,34 +96,40 @@ $parchment-bottom-height: 120px;
   padding: 0;
   gap: 0;
   align-items: stretch;
+  overflow: hidden;
+}
+
+.parchment-top,
+.parchment-middle,
+.parchment-bottom {
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  vertical-align: top;
 }
 
 .parchment-top {
   flex-shrink: 0;
-  margin: 0;
-  padding: 0;
-  border: none;
   height: $parchment-top-height;
   min-height: $parchment-top-height;
-  background: url("{{ '/assets/images/parchemin_up.png' | relative_url }}") no-repeat 0 0;
-  background-size: 100% $parchment-top-height;
-  background-position: top center;
+  line-height: 0;
+  font-size: 0;
+  background: url("{{ '/assets/images/parchemin_up.png' | relative_url }}") no-repeat top center;
+  background-size: 100% 100%;
 }
 
 .parchment-middle {
   flex: 1 0 auto;
-  margin: 0;
-  padding: 0;
-  border: none;
   min-height: 200px;
   line-height: 1.8;
   font-size: 1rem;
   color: #1f2a44;
   text-transform: uppercase;
-  box-sizing: border-box;
   background-image: url("{{ '/assets/images/parchemin_middle.png' | relative_url }}");
   background-repeat: repeat-y;
-  background-position: 0 0;
+  background-position: top left;
   background-size: 100% auto;
 }
 
@@ -134,20 +140,22 @@ $parchment-bottom-height: 120px;
   box-sizing: border-box;
 }
 
+.parchment-content > *:first-child {
+  margin-top: 0;
+}
+
 .parchment-middle p {
   margin-bottom: 1em;
 }
 
 .parchment-bottom {
   flex-shrink: 0;
-  margin: 0;
-  padding: 0;
-  border: none;
   height: $parchment-bottom-height;
   min-height: $parchment-bottom-height;
-  background: url("{{ '/assets/images/parchemin_bottom.png' | relative_url }}") no-repeat 0 0;
-  background-size: 100% $parchment-bottom-height;
-  background-position: bottom center;
+  line-height: 0;
+  font-size: 0;
+  background: url("{{ '/assets/images/parchemin_bottom.png' | relative_url }}") no-repeat bottom center;
+  background-size: 100% 100%;
 }
 
 @media (max-width: 768px) {

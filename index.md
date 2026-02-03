@@ -1,5 +1,6 @@
 ---
 title: Humanuscrit
+layout: home
 ---
 
 **Humanuscrit** est un manuscrit évolutif.
