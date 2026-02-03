@@ -1,19 +1,27 @@
 <header class="site-header">
   <div class="header-inner">
-    <div class="logo">
-      <a href="{{ '/' | relative_url }}">
-        <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="Humanuscrit">
-      </a>
-    </div>
-    <div class="header-text">
-      <div class="site-title">
-        <a href="{{ '/' | relative_url }}">HUMANUSCRIT</a>
+    <a href="{{ '/' | relative_url }}" class="header-brand">
+      <div class="logo">
+        <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="">
       </div>
-      <nav class="site-nav">
-        <a href="{{ '/textes/' | relative_url }}">Textes</a>
-        <a href="{{ '/productions/' | relative_url }}">Productions</a>
-        <a href="{{ '/a-propos/' | relative_url }}">À propos</a>
-      </nav>
+      <div class="site-title">HUMANUSCRIT</div>
+    </a>
+    <nav class="site-nav">
+      <a href="{{ '/textes/' | relative_url }}">Textes</a>
+      <a href="{{ '/productions/' | relative_url }}">Productions</a>
+      <a href="{{ '/a-propos/' | relative_url }}">À propos</a>
+    </nav>
+    <button class="menu-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav-menu">
+      <span class="menu-toggle-icon"></span>
+    </button>
+    <div id="nav-menu" class="nav-menu" aria-hidden="true">
+      <a href="{{ '/textes/' | relative_url }}">Textes</a>
+      <a href="{{ '/productions/' | relative_url }}">Productions</a>
+      <a href="{{ '/a-propos/' | relative_url }}">À propos</a>
+      <span class="nav-menu-sep"></span>
+      <a href="{{ '/mentions-legales/' | relative_url }}">Mentions légales</a>
+      <a href="{{ '/confidentialite/' | relative_url }}">Confidentialité</a>
+      <a href="{{ '/contact/' | relative_url }}">Contact</a>
     </div>
   </div>
 </header>
