@@ -1,0 +1,21 @@
+---
+---
+
+/* Fond parchemin global */
+body {
+  background-color: #fdfcf9;
+  background-image: url("{{ '/assets/images/parchment.jpg' | relative_url }}");
+  background-repeat: repeat;
+  background-size: 800px auto;
+  color: #1a1a1a;
+}
+
+/* Amélioration lisibilité */
+.page-content {
+  background: transparent;
+}
+
+/* Texte un peu plus respirant */
+p {
+  line-height: 1.6;
+}
