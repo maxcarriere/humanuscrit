@@ -2,15 +2,25 @@
 ---
 
 /* ===== 1. Fond général ===== */
+html,
 body {
-  background: #0b0b0b;
+  height: 100%;
   margin: 0;
-  font-family: Georgia, "Times New Roman", serif;
-  overflow-x: hidden;
+  padding: 0;
 }
 
-/* ===== 2. Bannière ===== */
+body {
+  background: #0b0b0b;
+  font-family: Georgia, "Times New Roman", serif;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* ===== 2. Bannière — cadre fixe en haut ===== */
 .site-header {
+  flex-shrink: 0;
   background: #0e0e0e;
   padding: 1.5rem 2rem;
 }
@@ -93,7 +103,10 @@ body {
 $parchment-top-height: 120px;
 $parchment-bottom-height: 120px;
 
+/* Zone scrollable entre bannière et pied de page */
 .page-wrapper {
+  flex: 1;
+  overflow-y: auto;
   display: flex;
   justify-content: center;
   padding: 4rem 1rem;
@@ -268,8 +281,9 @@ $parchment-bottom-height: 120px;
   border-bottom-color: rgba(13, 13, 13, 0.6);
 }
 
-/* ===== 6. Pied de page — sobre, discret, hors du parchemin ===== */
+/* ===== 6. Pied de page — cadre fixe en bas ===== */
 .site-footer {
+  flex-shrink: 0;
   background: #0e0e0e;
   color: #a89f8a;
   font-size: 0.75rem;
