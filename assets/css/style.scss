@@ -117,6 +117,28 @@ $parchment-bottom-height: 120px;
   padding: 4rem 1rem;
   width: 100%;
   box-sizing: border-box;
+
+  /* Scrollbar thème : fond noir, contour crème */
+  scrollbar-width: thin;
+  scrollbar-color: #0e0e0e #0b0b0b;
+}
+
+.page-wrapper::-webkit-scrollbar {
+  width: 10px;
+}
+
+.page-wrapper::-webkit-scrollbar-track {
+  background: #0b0b0b;
+}
+
+.page-wrapper::-webkit-scrollbar-thumb {
+  background: #0e0e0e;
+  border: 1px solid #d8ccb0;
+  border-radius: 4px;
+}
+
+.page-wrapper::-webkit-scrollbar-thumb:hover {
+  background: #1a1a1a;
 }
 
 /* Conteneur centré, hauteur = contenu (scroll dans page-wrapper) */
