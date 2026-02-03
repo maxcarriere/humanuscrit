@@ -76,7 +76,11 @@ body {
   }
 }
 
-/* ===== 3. Parchemin ===== */
+/* ===== 3. Parchemin (3 pièces : haut unique, milieu répété, bas unique) ===== */
+/* Ajuster les hauteurs si les images changent. Le milieu se répète verticalement. */
+$parchment-top-height: 120px;
+$parchment-bottom-height: 120px;
+
 .page-wrapper {
   display: flex;
   justify-content: center;
@@ -90,6 +94,7 @@ body {
   flex-direction: column;
   margin: 0;
   padding: 0;
+  gap: 0;
   align-items: stretch;
 }
 
@@ -97,25 +102,29 @@ body {
   flex-shrink: 0;
   margin: 0;
   padding: 0;
-  height: 220px;
-  min-height: 220px;
-  background: url("{{ '/assets/images/parchemin_up.png' | relative_url }}") no-repeat center top;
-  background-size: 100% auto;
-  background-position: center top;
+  border: none;
+  height: $parchment-top-height;
+  min-height: $parchment-top-height;
+  background: url("{{ '/assets/images/parchemin_up.png' | relative_url }}") no-repeat 0 0;
+  background-size: 100% $parchment-top-height;
+  background-position: top center;
 }
 
 .parchment-middle {
   flex: 1 0 auto;
   margin: 0;
   padding: 0;
+  border: none;
+  min-height: 200px;
   line-height: 1.8;
   font-size: 1rem;
-  min-height: 200px;
-  background: url("{{ '/assets/images/parchemin_middle.png' | relative_url }}") repeat-y center top;
-  background-size: 100% auto;
   color: #1f2a44;
   text-transform: uppercase;
   box-sizing: border-box;
+  background-image: url("{{ '/assets/images/parchemin_middle.png' | relative_url }}");
+  background-repeat: repeat-y;
+  background-position: 0 0;
+  background-size: 100% auto;
 }
 
 .parchment-content {
@@ -129,21 +138,22 @@ body {
   margin-bottom: 1em;
 }
 
-@media (max-width: 768px) {
-  .parchment-content {
-    padding: 2rem 1.5rem;
-  }
-}
-
 .parchment-bottom {
   flex-shrink: 0;
   margin: 0;
   padding: 0;
-  height: 220px;
-  min-height: 220px;
-  background: url("{{ '/assets/images/parchemin_bottom.png' | relative_url }}") no-repeat center bottom;
-  background-size: 100% auto;
-  background-position: center bottom;
+  border: none;
+  height: $parchment-bottom-height;
+  min-height: $parchment-bottom-height;
+  background: url("{{ '/assets/images/parchemin_bottom.png' | relative_url }}") no-repeat 0 0;
+  background-size: 100% $parchment-bottom-height;
+  background-position: bottom center;
+}
+
+@media (max-width: 768px) {
+  .parchment-content {
+    padding: 2rem 1.5rem;
+  }
 }
 
 /* ===== 4. Arborescence textes ===== */

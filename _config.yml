@@ -4,6 +4,12 @@ url: "https://maxcarriere.github.io"
 title: Humanuscrit
 theme: minima
 
+defaults:
+  - scope:
+      path: "a-propos.md"
+    values:
+      permalink: /a-propos/
+
 header_pages:
   - textes/index.md
   - productions/index.md
