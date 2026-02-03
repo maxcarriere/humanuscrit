@@ -16,6 +16,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
+  width: 100%;
 }
 
 /* ===== 2. Bannière — cadre fixe en haut ===== */
@@ -108,13 +109,17 @@ $parchment-bottom-height: 120px;
 .page-wrapper {
   flex: 1 1 0;
   min-height: 0;
-  overflow-y: auto;
+  overflow-y: scroll;
   overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
   display: flex;
   justify-content: center;
   padding: 4rem 1rem;
+  width: 100%;
+  box-sizing: border-box;
 }
 
+/* Conteneur centré, hauteur = contenu (scroll dans page-wrapper) */
 .parchment {
   width: 100%;
   max-width: 1200px;
@@ -124,7 +129,7 @@ $parchment-bottom-height: 120px;
   padding: 0;
   gap: 0;
   align-items: stretch;
-  overflow: hidden;
+  flex-shrink: 0;
 }
 
 .parchment-top,
@@ -149,8 +154,7 @@ $parchment-bottom-height: 120px;
 }
 
 .parchment-middle {
-  flex: 1 0 auto;
-  min-height: 200px;
+  flex-shrink: 0;
   line-height: 1.8;
   font-size: 1rem;
   color: #0d0d0d;
@@ -164,8 +168,10 @@ $parchment-bottom-height: 120px;
 .parchment-content {
   max-width: 72ch;
   margin: 0 auto;
-  padding: 2.5rem 5rem;
+  padding: 1.25rem 5rem 2.5rem;
   box-sizing: border-box;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 .parchment-content .post-title,
@@ -195,11 +201,11 @@ $parchment-bottom-height: 120px;
   .page-wrapper {
     width: 100%;
     max-width: 100%;
-    padding: 0.25rem 0;
+    padding: 0;
     box-sizing: border-box;
   }
 
-  /* Parchemin : largeur 100%, hauteur s'adapte au contenu (descend jusqu'en bas) */
+  /* Parchemin : largeur 100% écran, hauteur = contenu, scroll vertical */
   .parchment {
     width: 100%;
     max-width: 100%;
@@ -212,7 +218,7 @@ $parchment-bottom-height: 120px;
   }
 
   .parchment-content {
-    padding: 2rem 1.5rem;
+    padding: 1.25rem 1rem 2rem;
     font-size: 1.5rem;
   }
 
