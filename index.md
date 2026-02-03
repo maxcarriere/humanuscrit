@@ -10,6 +10,6 @@ et sur le rôle de la conscience comme possible vecteur d’émancipation.
 
 ### Explorer
 
-- [Textes]({{ "/textes.html" | relative_url }})
-- [Productions]({{ "/productions.html" | relative_url }})
+- [Textes]({{ "/textes/" | relative_url }})
+- [Productions]({{ "/productions/" | relative_url }})
 
