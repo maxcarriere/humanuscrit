@@ -302,26 +302,51 @@ $parchment-bottom-height: 120px;
 }
 
 @media (max-width: 768px) {
+  html {
+    overflow-x: hidden;
+    width: 100%;
+  }
+
   body {
     padding: 0;
     margin: 0;
+    min-width: 0;
+    width: 100%;
+    max-width: 100vw;
   }
 
   .page-wrapper {
-    width: 100%;
-    max-width: 100%;
+    width: 100vw;
+    max-width: 100vw;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
   }
 
-  /* Parchemin : pleine largeur écran, sans marge extérieure */
+  /* Parchemin : 100vw force la largeur viewport sur mobile */
   .parchment {
+    width: 100vw;
+    min-width: 100vw;
+    max-width: 100vw;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+
+  .parchment-top,
+  .parchment-middle,
+  .parchment-bottom {
     width: 100%;
     max-width: 100%;
-    min-width: 0;
-    margin: 0;
     box-sizing: border-box;
+  }
+
+  .parchment-content img,
+  .parchment-content video,
+  .parchment-content iframe {
+    max-width: 100%;
+    height: auto;
   }
 
   .parchment-middle {
