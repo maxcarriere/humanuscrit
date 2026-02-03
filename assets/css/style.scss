@@ -49,3 +49,19 @@ p {
 .arborescence-textes a:hover {
   border-bottom-color: rgba(0,0,0,0.4);
 }
+
+/* Navigation dossier — liens discret, cohérent avec l'ensemble */
+.navigation-dossier {
+  margin-top: 2em;
+  padding-top: 1em;
+  border-top: 1px solid rgba(0,0,0,0.12);
+  font-size: 0.95em;
+}
+.navigation-dossier a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.navigation-dossier a:hover {
+  border-bottom-color: rgba(0,0,0,0.5);
+}
