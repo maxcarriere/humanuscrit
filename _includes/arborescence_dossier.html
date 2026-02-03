@@ -1,0 +1,62 @@
+{% comment %}
+  Arborescence du dossier courant ou indiqué : sous-dossiers et fichiers.
+  Utilisation : {% include arborescence_dossier.html %}
+  Ou : {% include arborescence_dossier.html dossier="textes/prescriptum" %}
+  Dynamique : nouveau fichier ou sous-dossier = apparition automatique.
+{% endcomment %}
+{% if include.dossier %}
+  {% assign dossier = include.dossier %}
+{% elsif page.name == "index.md" %}
+  {% assign path_parts = page.path | split: "/" %}
+  {% assign n = path_parts | size | minus: 2 %}
+  {% assign dossier = path_parts[0] %}
+  {% for i in (1..n) %}
+    {% assign dossier = dossier | append: "/" | append: path_parts[i] %}
+  {% endfor %}
+{% endif %}
+{% if dossier %}
+{% assign prefix = dossier | append: "/" %}
+<ul class="arborescence-textes">
+  {% assign all_pages = site.pages | sort: "path" %}
+  {% for p in all_pages %}
+    {% assign path_str = p.path %}
+    {% unless path_str contains prefix %}
+      {% continue %}
+    {% endunless %}
+    {% if path_str == dossier %}
+      {% continue %}
+    {% endif %}
+    {% assign full_idx = dossier | append: "/index.md" %}
+    {% assign full_readme = dossier | append: "/README.md" %}
+    {% if path_str == full_idx or path_str == full_readme %}
+      {% continue %}
+    {% endif %}
+    {% assign rel_path = path_str | remove_first: prefix %}
+    {% assign rel_parts = rel_path | split: "/" %}
+    {% assign depth = rel_parts | size %}
+    {% if depth == 1 %}
+      {% if p.name == "index.md" %}
+        <li>
+          <a href="{{ p.url | relative_url }}">{{ p.title | default: rel_parts[0] }}</a>
+        </li>
+      {% elsif p.name != "README.md" %}
+        <li>
+          <a href="{{ p.url | relative_url }}">
+            {{ p.title | default: p.name | replace: ".md", "" }}
+          </a>
+        </li>
+      {% endif %}
+    {% elsif depth == 2 and p.name == "index.md" %}
+      <li>
+        <a href="{{ p.url | relative_url }}">{{ p.title | default: rel_parts[0] }}</a>
+      </li>
+    {% elsif depth == 2 and p.name != "README.md" %}
+      <li>
+        <a href="{{ p.url | relative_url }}">
+          {{ p.title | default: p.name | replace: ".md", "" }}
+        </a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+{% endif %}

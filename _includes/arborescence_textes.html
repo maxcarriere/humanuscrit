@@ -1,10 +1,27 @@
+{% comment %}
+  Arborescence de la section Textes : dossiers et fichiers à la racine.
+  Se met à jour automatiquement : nouveau dossier ou fichier = apparition dans la liste.
+{% endcomment %}
 <ul class="arborescence-textes">
-  {% assign pages_textes = site.pages | where_exp: "p", "p.path contains 'textes/'" %}
-  {% for p in pages_textes %}
-    {% if p.name != "index.md" and p.name != "README.md" %}
+  {% assign all_pages = site.pages | where_exp: "p", "p.path contains 'textes/'" | sort: "path" %}
+  {% for p in all_pages %}
+    {% assign p_parts = p.path | split: "/" %}
+    {% assign nb_parts = p_parts | size %}
+    {% if p.path == "textes/index.md" or p.path == "textes/README.md" %}
+      {% continue %}
+    {% endif %}
+    {% if nb_parts == 3 and p.name == "index.md" %}
+      {% comment %} Sous-dossier avec index : textes/FOLDER/index.md {% endcomment %}
       <li>
         <a href="{{ p.url | relative_url }}">
-          {{ p.title | default: p.name }}
+          {{ p.title | default: p_parts[1] }}
+        </a>
+      </li>
+    {% elsif nb_parts == 2 %}
+      {% comment %} Fichier à la racine : textes/file.md {% endcomment %}
+      <li>
+        <a href="{{ p.url | relative_url }}">
+          {{ p.title | default: p.name | replace: ".md", "" }}
         </a>
       </li>
     {% endif %}

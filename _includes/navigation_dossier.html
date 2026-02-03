@@ -58,11 +58,8 @@
       {% if next_page != "" %}
         <a href="{{ next_page.url | relative_url }}">Texte suivant →</a> ·
       {% endif %}
-      {% if is_texte %}
-      <a href="{{ '/textes/' | relative_url }}">Retour au sommaire</a>
-      {% else %}
-      <a href="{{ '/productions/' | relative_url }}">Retour au sommaire</a>
-      {% endif %}
+      {% assign sommaire_url = dir | prepend: "/" | append: "/" %}
+      <a href="{{ sommaire_url | relative_url }}">Retour au sommaire</a>
     </p>
   </nav>
 {% endif %}
