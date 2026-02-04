@@ -322,15 +322,18 @@ $parchment-bottom-height: 120px;
   background-size: 100% 100%;
 }
 
-/* < 1000px : parchemin_mobile pleine largeur, sans cadre haut/bas */
+/* < 1000px : parchemin_mobile de la bannière au pied de page */
 @media (max-width: 999px) {
   .page-wrapper {
     align-items: stretch;
+    padding: 0;
   }
 
   .parchment {
     width: 100%;
     max-width: none;
+    flex: 1;
+    min-height: 100%;
   }
 
   .parchment-top,
@@ -339,6 +342,8 @@ $parchment-bottom-height: 120px;
   }
 
   .parchment-middle {
+    flex: 1;
+    min-height: 100%;
     background-image: url("{{ '/assets/images/parchemin_mobile.png' | relative_url }}");
     background-size: 100% auto;
     background-repeat: repeat-y;
