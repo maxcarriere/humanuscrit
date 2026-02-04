@@ -199,48 +199,67 @@ body {
   }
 }
 
-/* ===== 3. Parchemin (3 pièces : haut unique, milieu répété, bas unique) ===== */
-/* Ajuster les hauteurs si les images changent. Le milieu se répète verticalement. */
-$parchment-top-height: 120px;
-$parchment-bottom-height: 120px;
-
-/* Zone scrollable entre bannière et pied de page */
+/* ===== 3. Parchemin : image statique bannière→footer, texte défile dessus ===== */
+/* Zone scrollable : scroll au niveau du body pour background-attachment: fixed */
 .page-wrapper {
   flex: 1 1 0;
   min-height: 0;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  -webkit-overflow-scrolling: touch;
+  overflow: visible;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 4rem 0;
   width: 100%;
   box-sizing: border-box;
+}
 
-  /* Scrollbar : gris visible sur fond noir */
+body {
+  overflow-y: auto;
+  overflow-x: hidden;
   scrollbar-width: thin;
   scrollbar-color: #666 #1a1a1a;
 }
 
-.page-wrapper::-webkit-scrollbar {
+body::-webkit-scrollbar {
   width: 10px;
 }
 
-.page-wrapper::-webkit-scrollbar-track {
+body::-webkit-scrollbar-track {
   background: #1a1a1a;
 }
 
-.page-wrapper::-webkit-scrollbar-thumb {
+body::-webkit-scrollbar-thumb {
   background: #666;
   border-radius: 4px;
 }
 
-.page-wrapper::-webkit-scrollbar-thumb:hover {
+body::-webkit-scrollbar-thumb:hover {
   background: #888;
 }
 
-/* Parchemin : conteneur centré, max 1200px */
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.site-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.page-wrapper {
+  padding-top: 140px;
+  padding-bottom: 70px;
+  min-height: 100vh;
+}
+
+/* Parchemin : image statique de la bannière au pied de page */
 .parchment {
   width: 100%;
   max-width: 1200px;
@@ -255,46 +274,26 @@ $parchment-bottom-height: 120px;
   box-sizing: border-box;
 }
 
-.parchment-top,
-.parchment-middle,
-.parchment-bottom {
-  display: block;
+.parchment-middle {
+  flex: 1;
+  min-height: 100%;
+  min-width: 0;
   margin: 0;
   padding: 0;
-  border: none;
-  box-sizing: border-box;
-  vertical-align: top;
-}
-
-.parchment-top {
-  flex-shrink: 0;
-  height: $parchment-top-height;
-  min-height: $parchment-top-height;
-  margin-bottom: -2px; /* chevauchement pour masquer le raccord */
-  line-height: 0;
-  font-size: 0;
-  background: url("{{ '/assets/images/parchemin_up2.png' | relative_url }}") no-repeat center;
-  background-size: calc(100% + 160px) 100%;
-  background-position: center;
-}
-
-.parchment-middle {
-  flex-shrink: 0;
-  min-width: 0;
-  margin-top: -2px;
-  margin-bottom: -2px; /* chevauchement pour masquer les raccords */
   line-height: 1.8;
   font-size: 1rem;
   color: #0d0d0d;
   text-transform: none;
-  background-image:
-    linear-gradient(to bottom, rgba(255, 248, 235, 0.35) 0%, transparent 12px),
-    linear-gradient(to top, rgba(255, 248, 235, 0.35) 0%, transparent 12px),
-    url("{{ '/assets/images/parchemin_middle2.png' | relative_url }}");
-  background-repeat: no-repeat, no-repeat, repeat-y;
-  background-position: center top, center bottom, center top;
-  background-size: 100% 12px, 100% 12px, calc(100% + 160px) auto;
   overflow-x: hidden;
+}
+
+/* PC : parchemin_pc statique bannière→footer */
+@media (min-width: 1200px) {
+  .parchment-middle {
+    background: url("{{ '/assets/images/parchemin_pc.png' | relative_url }}") no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
 }
 
 .parchment-content {
@@ -342,42 +341,11 @@ $parchment-bottom-height: 120px;
   border-bottom-color: rgba(13, 13, 13, 0.6);
 }
 
-.parchment-bottom {
-  flex-shrink: 0;
-  height: $parchment-bottom-height;
-  min-height: $parchment-bottom-height;
-  margin-top: -2px; /* chevauchement pour masquer le raccord */
-  line-height: 0;
-  font-size: 0;
-  background: url("{{ '/assets/images/parchemin_bottom2.png' | relative_url }}") no-repeat center;
-  background-size: calc(100% + 160px) 100%;
-  background-position: center bottom;
-}
-
-/* PC ≥ 1200px : parchemin_pc unique (comme mobile), défile avec le texte */
-@media (min-width: 1200px) {
-  .parchment-top,
-  .parchment-bottom {
-    display: none;
-  }
-
-  .parchment-middle {
-    flex: 1;
-    min-height: 100%;
-    margin-top: 0;
-    margin-bottom: 0;
-    background-image: url("{{ '/assets/images/parchemin_pc.png' | relative_url }}");
-    background-size: 100% auto;
-    background-repeat: repeat-y;
-    background-position: center top;
-  }
-}
-
-/* < 1200px : parchemin_mobile de la bannière au pied de page */
+/* < 1200px : parchemin_mobile2 statique bannière→footer */
 @media (max-width: 1199px) {
   .page-wrapper {
     align-items: stretch;
-    padding: 0;
+    padding: 100px 0 60px;
   }
 
   .parchment {
@@ -387,19 +355,10 @@ $parchment-bottom-height: 120px;
     min-height: 100%;
   }
 
-  .parchment-top,
-  .parchment-bottom {
-    display: none;
-  }
-
   .parchment-middle {
-    flex: 1;
-    min-height: 100%;
-    margin-top: 0;
-    margin-bottom: 0;
-    background-image: url("{{ '/assets/images/parchemin_mobile2.png' | relative_url }}");
-    background-size: 100% auto;
-    background-repeat: repeat-y;
+    background: url("{{ '/assets/images/parchemin_mobile2.png' | relative_url }}") no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
   }
 
   .parchment-content {
