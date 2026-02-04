@@ -452,11 +452,11 @@ $parchment-bottom-height: 120px;
 .navigation-dossier a {
   color: inherit;
   text-decoration: none;
-  border-bottom: 1px solid rgba(13, 13, 13, 0.3);
+  border-bottom: none;
 }
 
 .navigation-dossier a:hover {
-  border-bottom-color: rgba(13, 13, 13, 0.6);
+  text-decoration: underline;
 }
 
 /* ===== 6. Pied de page — cadre fixe en bas ===== */
