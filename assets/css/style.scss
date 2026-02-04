@@ -100,7 +100,7 @@ body {
 }
 
 /* Mobile / tablette : header compact, menu hamburger (inclut paysage) */
-@media (max-width: 992px) {
+@media (max-width: 1199px) {
   .site-header {
     padding: 0.6rem 1rem;
   }
@@ -244,6 +244,7 @@ $parchment-bottom-height: 120px;
 .parchment {
   width: 100%;
   max-width: 1200px;
+  min-width: 0;
   display: flex;
   flex-direction: column;
   margin: 0;
@@ -278,6 +279,7 @@ $parchment-bottom-height: 120px;
 
 .parchment-middle {
   flex-shrink: 0;
+  min-width: 0;
   line-height: 1.8;
   font-size: 1rem;
   color: #0d0d0d;
@@ -324,8 +326,8 @@ $parchment-bottom-height: 120px;
   background-position: center bottom;
 }
 
-/* < 1000px : parchemin_mobile de la bannière au pied de page */
-@media (max-width: 999px) {
+/* < 1200px : parchemin_mobile de la bannière au pied de page */
+@media (max-width: 1199px) {
   .page-wrapper {
     align-items: stretch;
     padding: 0;
@@ -352,10 +354,10 @@ $parchment-bottom-height: 120px;
   }
 
   .parchment-content {
-    max-width: calc(100% - 2.5rem);
+    max-width: calc(100% - 3rem);
     width: 100%;
     margin: 0 auto;
-    padding: 1.25rem 1.25rem;
+    padding: 1.5rem 1.5rem;
     font-size: 1rem;
   }
 
