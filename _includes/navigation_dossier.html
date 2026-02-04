@@ -97,7 +97,7 @@
         <a href="{{ prev_page.url | relative_url }}" title="Texte précédent">← Précédent</a> ·
       {% endif %}
       {% if next_page != "" %}
-        <a href="{{ next_page.url | relative_url }}" title="Texte suivant">Suivant →</a> ·
+        <a href="{{ next_page.url | relative_url }}" title="Texte suivant">→ Suivant</a> ·
       {% endif %}
       {% assign parent_url = parent_dir | prepend: "/" | append: "/" %}
       <a href="{{ parent_url | relative_url }}" title="Retour au dossier parent">↑ Retour</a>
