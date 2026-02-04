@@ -325,6 +325,17 @@ $parchment-bottom-height: 120px;
   margin-bottom: 1em;
 }
 
+/* Liens dans le contenu (même style que arborescence) */
+.parchment-content a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(13, 13, 13, 0.3);
+}
+
+.parchment-content a:hover {
+  border-bottom-color: rgba(13, 13, 13, 0.6);
+}
+
 .parchment-bottom {
   flex-shrink: 0;
   height: $parchment-bottom-height;

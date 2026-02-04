@@ -6,6 +6,10 @@ theme: minima
 
 defaults:
   - scope:
+      path: ""
+    values:
+      layout: page
+  - scope:
       path: "a-propos.md"
     values:
       permalink: /a-propos/
