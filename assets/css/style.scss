@@ -270,6 +270,7 @@ $parchment-bottom-height: 120px;
   flex-shrink: 0;
   height: $parchment-top-height;
   min-height: $parchment-top-height;
+  margin-bottom: -2px; /* chevauchement pour masquer le raccord */
   line-height: 0;
   font-size: 0;
   background: url("{{ '/assets/images/parchemin_up2.png' | relative_url }}") no-repeat center;
@@ -280,14 +281,19 @@ $parchment-bottom-height: 120px;
 .parchment-middle {
   flex-shrink: 0;
   min-width: 0;
+  margin-top: -2px;
+  margin-bottom: -2px; /* chevauchement pour masquer les raccords */
   line-height: 1.8;
   font-size: 1rem;
   color: #0d0d0d;
   text-transform: none;
-  background-image: url("{{ '/assets/images/parchemin_middle2.png' | relative_url }}");
-  background-repeat: repeat-y;
-  background-position: center top;
-  background-size: calc(100% + 160px) auto;
+  background-image:
+    linear-gradient(to bottom, rgba(255, 248, 235, 0.35) 0%, transparent 12px),
+    linear-gradient(to top, rgba(255, 248, 235, 0.35) 0%, transparent 12px),
+    url("{{ '/assets/images/parchemin_middle2.png' | relative_url }}");
+  background-repeat: no-repeat, no-repeat, repeat-y;
+  background-position: center top, center bottom, center top;
+  background-size: 100% 12px, 100% 12px, calc(100% + 160px) auto;
   overflow-x: hidden;
 }
 
@@ -340,11 +346,31 @@ $parchment-bottom-height: 120px;
   flex-shrink: 0;
   height: $parchment-bottom-height;
   min-height: $parchment-bottom-height;
+  margin-top: -2px; /* chevauchement pour masquer le raccord */
   line-height: 0;
   font-size: 0;
   background: url("{{ '/assets/images/parchemin_bottom2.png' | relative_url }}") no-repeat center;
   background-size: calc(100% + 160px) 100%;
   background-position: center bottom;
+}
+
+/* PC ≥ 1200px : parchemin_pc unique (comme mobile), défile avec le texte */
+@media (min-width: 1200px) {
+  .parchment-top,
+  .parchment-bottom {
+    display: none;
+  }
+
+  .parchment-middle {
+    flex: 1;
+    min-height: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-image: url("{{ '/assets/images/parchemin_pc.png' | relative_url }}");
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+    background-position: center top;
+  }
 }
 
 /* < 1200px : parchemin_mobile de la bannière au pied de page */
@@ -369,6 +395,8 @@ $parchment-bottom-height: 120px;
   .parchment-middle {
     flex: 1;
     min-height: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
     background-image: url("{{ '/assets/images/parchemin_mobile2.png' | relative_url }}");
     background-size: 100% auto;
     background-repeat: repeat-y;
