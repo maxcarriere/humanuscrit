@@ -3,19 +3,14 @@
 
 /* ===== 1. Fond général ===== */
 html {
-  height: 100%;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
 }
 
 body {
-  height: 100%;
   margin: 0;
   padding: 0;
-}
-
-body {
   background: #0b0b0b;
   font-family: Georgia, "Times New Roman", serif;
   min-height: 100vh;
@@ -263,7 +258,7 @@ body::before {
   min-height: 100vh;
   box-sizing: border-box;
   padding-top: 140px;
-  padding-bottom: 70px;
+  padding-bottom: 180px; /* Espace pour footer + boutons navigation + fin du contenu */
 }
 
 .parchment {
@@ -295,7 +290,7 @@ body::before {
 
   .page-wrapper {
     padding-top: 100px;
-    padding-bottom: 60px;
+    padding-bottom: 120px;
   }
 }
 
@@ -305,7 +300,7 @@ body::before {
   max-width: min(72ch, calc(100% - 160px));
   width: 100%;
   margin: 0 auto;
-  padding: 1.25rem 2rem 2.5rem;
+  padding: 1.25rem 2rem 4rem 2.5rem; /* padding-bottom accru pour navigation visible */
   box-sizing: border-box;
   overflow-wrap: break-word;
   word-wrap: break-word;
