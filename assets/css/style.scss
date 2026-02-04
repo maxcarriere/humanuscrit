@@ -347,6 +347,31 @@ $parchment-bottom-height: 120px;
   background-position: center bottom;
 }
 
+/* PC ≥ 1200px : parchemin_cadre en une pièce, défile sur 200px haut/bas puis milieu statique */
+@media (min-width: 1200px) {
+  .parchment {
+    background: url("{{ '/assets/images/parchemin_cadre.png' | relative_url }}") no-repeat top center;
+    background-size: calc(100% + 160px) 100%;
+    background-position: center top;
+  }
+
+  .parchment-top {
+    height: 200px;
+    min-height: 200px;
+    background: none;
+  }
+
+  .parchment-middle {
+    background: none;
+  }
+
+  .parchment-bottom {
+    height: 200px;
+    min-height: 200px;
+    background: none;
+  }
+}
+
 /* < 1200px : parchemin_mobile de la bannière au pied de page */
 @media (max-width: 1199px) {
   .page-wrapper {
