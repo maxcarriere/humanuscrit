@@ -253,6 +253,8 @@ body::before {
 
 /* Contenu : padding pour éviter header/footer, défile sur le parchemin */
 .page-wrapper {
+  position: relative;
+  z-index: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -273,6 +275,8 @@ body::before {
 }
 
 .parchment-middle {
+  position: relative;
+  z-index: 1;
   min-width: 0;
   margin: 0;
   padding: 0;
@@ -296,6 +300,8 @@ body::before {
 }
 
 .parchment-content {
+  position: relative;
+  z-index: 1;
   max-width: min(72ch, calc(100% - 160px));
   width: 100%;
   margin: 0 auto;
