@@ -302,6 +302,16 @@ $parchment-bottom-height: 120px;
   overflow-x: hidden;
 }
 
+/* Page d'accueil : texte centré (mobile et PC) */
+.page-home .parchment-content {
+  text-align: center;
+}
+
+.page-home .arborescence-textes {
+  display: inline-block;
+  text-align: left;
+}
+
 .parchment-content .post-title,
 .parchment-content h1 {
   text-align: center;
@@ -354,10 +364,10 @@ $parchment-bottom-height: 120px;
   }
 
   .parchment-content {
-    max-width: calc(100% - 3rem);
+    max-width: calc(100% - 10vw);
     width: 100%;
     margin: 0 auto;
-    padding: 1.5rem 1.5rem;
+    padding: 1rem 5vw;
     font-size: 1rem;
   }
 
