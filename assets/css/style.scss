@@ -271,8 +271,9 @@ $parchment-bottom-height: 120px;
   min-height: $parchment-top-height;
   line-height: 0;
   font-size: 0;
-  background: url("{{ '/assets/images/parchemin_up.png' | relative_url }}") no-repeat top center;
-  background-size: 100% 100%;
+  background: url("{{ '/assets/images/parchemin_up.png' | relative_url }}") no-repeat center;
+  background-size: calc(100% + 160px) 100%;
+  background-position: center;
 }
 
 .parchment-middle {
@@ -283,13 +284,13 @@ $parchment-bottom-height: 120px;
   text-transform: none;
   background-image: url("{{ '/assets/images/parchemin_middle.png' | relative_url }}");
   background-repeat: repeat-y;
-  background-position: top left;
-  background-size: 100% auto;
+  background-position: center top;
+  background-size: calc(100% + 160px) auto;
   overflow-x: hidden;
 }
 
 .parchment-content {
-  max-width: min(72ch, 100%);
+  max-width: min(72ch, calc(100% - 160px));
   width: 100%;
   margin: 0 auto;
   padding: 1.25rem 2rem 2.5rem;
@@ -318,8 +319,9 @@ $parchment-bottom-height: 120px;
   min-height: $parchment-bottom-height;
   line-height: 0;
   font-size: 0;
-  background: url("{{ '/assets/images/parchemin_bottom.png' | relative_url }}") no-repeat bottom center;
-  background-size: 100% 100%;
+  background: url("{{ '/assets/images/parchemin_bottom.png' | relative_url }}") no-repeat center;
+  background-size: calc(100% + 160px) 100%;
+  background-position: center bottom;
 }
 
 /* < 1000px : parchemin_mobile de la bannière au pied de page */
@@ -350,9 +352,10 @@ $parchment-bottom-height: 120px;
   }
 
   .parchment-content {
-    max-width: 42ch;
+    max-width: calc(100% - 2.5rem);
+    width: 100%;
     margin: 0 auto;
-    padding: 1rem;
+    padding: 1.25rem 1.25rem;
     font-size: 1rem;
   }
 
