@@ -94,13 +94,13 @@
   <nav class="navigation-dossier" aria-label="Navigation dans le dossier">
     <p>
       {% if prev_page != "" %}
-        <a href="{{ prev_page.url | relative_url }}" title="Texte précédent">←</a> ·
+        <a href="{{ prev_page.url | relative_url }}" title="Texte précédent">← Précédent</a> ·
       {% endif %}
       {% if next_page != "" %}
-        <a href="{{ next_page.url | relative_url }}" title="Texte suivant">→</a> ·
+        <a href="{{ next_page.url | relative_url }}" title="Texte suivant">Suivant →</a> ·
       {% endif %}
       {% assign parent_url = parent_dir | prepend: "/" | append: "/" %}
-      <a href="{{ parent_url | relative_url }}" title="Retour au dossier parent">↑</a>
+      <a href="{{ parent_url | relative_url }}" title="Retour au dossier parent">↑ Retour</a>
     </p>
   </nav>
 {% endif %}
