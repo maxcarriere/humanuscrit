@@ -1,27 +1,17 @@
 {% comment %}
   Arborescence de la section Textes : dossiers et fichiers à la racine.
-  Se met à jour automatiquement : nouveau dossier ou fichier = apparition dans la liste.
+  Ordre fixé : prescriptum, fictions, reflexions.
+  Nouveau dossier = l'ajouter dans folder_order.
 {% endcomment %}
+{% assign folder_order = "prescriptum|fictions|reflexions" | split: "|" %}
 <ul class="arborescence-textes">
-  {% assign all_pages = site.pages | where_exp: "p", "p.path contains 'textes/'" | sort: "path" %}
-  {% for p in all_pages %}
-    {% assign p_parts = p.path | split: "/" %}
-    {% assign nb_parts = p_parts | size %}
-    {% if p.path == "textes/index.md" or p.path == "textes/README.md" %}
-      {% continue %}
-    {% endif %}
-    {% if nb_parts == 3 and p.name == "index.md" %}
-      {% assign folder_name = p_parts[1] %}
+  {% for folder_name in folder_order %}
+    {% assign folder_path = "textes/" | append: folder_name | append: "/index.md" %}
+    {% assign folder_page = site.pages | where: "path", folder_path | first %}
+    {% if folder_page %}
       <li>
-        <a href="{{ p.url | relative_url }}">
-          {% include lib_display_name.html name=folder_name title=p.title %}
-        </a>
-      </li>
-    {% elsif nb_parts == 2 %}
-      {% comment %} Fichier à la racine : 00_intro → Intro {% endcomment %}
-      <li>
-        <a href="{{ p.url | relative_url }}">
-          {% include lib_display_name.html name=p.name title=p.title %}
+        <a href="{{ folder_page.url | relative_url }}">
+          {% include lib_display_name.html name=folder_name title=folder_page.title %}
         </a>
       </li>
     {% endif %}
