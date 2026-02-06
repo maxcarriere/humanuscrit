@@ -1,6 +1,6 @@
 ---
 date: 2025-01-20
-last_modified_at: 2026-02-03
+last_modified_at: 2026-02-06
 ---
 
 ## **Préface A** : Un manuscrit pour réécrire l'humanité.

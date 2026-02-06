@@ -1,7 +1,7 @@
 ---
 title: "01 - Bruit Blanc"
 date: 2026-02-03
-last_modified_at: 2026-02-03
+last_modified_at: 2026-02-06
 ---
 
 On ne sait jamais vraiment quand une amitié commence.

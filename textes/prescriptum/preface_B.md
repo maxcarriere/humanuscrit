@@ -1,6 +1,6 @@
 ---
 date: 2025-01-25
-last_modified_at: 2026-02-03
+last_modified_at: 2026-02-06
 ---
 
 ## Préface B : La faille
