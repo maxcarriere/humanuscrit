@@ -322,6 +322,23 @@ body::before {
   text-align: center;
 }
 
+.post-meta {
+  text-align: center;
+  font-size: 0.9em;
+  color: rgba(13, 13, 13, 0.6);
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.post-date,
+.post-modified {
+  font-style: italic;
+}
+
+.meta-separator {
+  margin: 0 0.5rem;
+}
+
 .parchment-content > *:first-child {
   margin-top: 0;
 }
