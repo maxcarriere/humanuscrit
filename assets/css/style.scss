@@ -7,21 +7,40 @@ html {
   padding: 0;
   overflow-x: hidden;
   /* Empêche Dark Reader et autres extensions de modifier les couleurs */
-  color-scheme: light;
-  print-color-adjust: exact;
-  -webkit-print-color-adjust: exact;
+  color-scheme: light !important;
+  print-color-adjust: exact !important;
+  -webkit-print-color-adjust: exact !important;
+  color-adjust: exact !important;
+}
+
+html[data-darkreader-mode],
+html[data-darkreader-mode] *,
+html[data-darkreader-scheme],
+html[data-darkreader-scheme] * {
+  color-scheme: light !important;
 }
 
 body {
   margin: 0;
   padding: 0;
-  background: #0b0b0b;
+  background: #0b0b0b !important;
   font-family: Georgia, "Times New Roman", serif;
   min-height: 100vh;
   width: 100%;
   /* Protection contre les modifications de couleur par les extensions */
-  print-color-adjust: exact;
-  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact !important;
+  -webkit-print-color-adjust: exact !important;
+  color-adjust: exact !important;
+  color: inherit !important;
+}
+
+/* Protection absolue contre toutes les extensions de modification de couleur */
+body *,
+body *::before,
+body *::after {
+  print-color-adjust: exact !important;
+  -webkit-print-color-adjust: exact !important;
+  color-adjust: exact !important;
 }
 
 /* ===== 2. Bannière — cadre fixe en haut ===== */
@@ -288,8 +307,24 @@ body::before {
   text-transform: none;
   overflow-x: hidden;
   /* Empêche Dark Reader de modifier la couleur du texte */
-  print-color-adjust: exact;
-  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact !important;
+  -webkit-print-color-adjust: exact !important;
+  color-adjust: exact !important;
+}
+
+/* Protection ultra-spécifique pour .parchment-middle et tous ses enfants */
+.parchment-middle,
+.parchment-middle *,
+.parchment-middle *::before,
+.parchment-middle *::after,
+html[data-darkreader-mode] .parchment-middle,
+html[data-darkreader-mode] .parchment-middle *,
+html[data-darkreader-scheme] .parchment-middle,
+html[data-darkreader-scheme] .parchment-middle * {
+  color: #0d0d0d !important;
+  print-color-adjust: exact !important;
+  -webkit-print-color-adjust: exact !important;
+  color-adjust: exact !important;
 }
 
 /* Mobile : parchemin_mobile2 en fond fixe, padding réduit */
@@ -317,8 +352,26 @@ body::before {
   overflow-x: hidden;
   /* Empêche Dark Reader de modifier la couleur du texte */
   color: #0d0d0d !important;
-  print-color-adjust: exact;
-  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact !important;
+  -webkit-print-color-adjust: exact !important;
+  color-adjust: exact !important;
+}
+
+/* Protection ultra-spécifique pour .parchment-content et tous ses enfants */
+.parchment-content,
+.parchment-content *,
+.parchment-content *::before,
+.parchment-content *::after,
+html[data-darkreader-mode] .parchment-content,
+html[data-darkreader-mode] .parchment-content *,
+html[data-darkreader-scheme] .parchment-content,
+html[data-darkreader-scheme] .parchment-content *,
+body .parchment-content,
+body .parchment-content * {
+  color: #0d0d0d !important;
+  print-color-adjust: exact !important;
+  -webkit-print-color-adjust: exact !important;
+  color-adjust: exact !important;
 }
 
 /* Page d'accueil : texte centré (mobile et PC) */
@@ -332,14 +385,27 @@ body::before {
 }
 
 .parchment-content .post-title,
-.parchment-content h1 {
+.parchment-content h1,
+html[data-darkreader-mode] .parchment-content .post-title,
+html[data-darkreader-mode] .parchment-content h1 {
   text-align: center;
   color: #0d0d0d !important;
+  print-color-adjust: exact !important;
+  -webkit-print-color-adjust: exact !important;
+  color-adjust: exact !important;
 }
 
-/* Protection de tous les éléments de texte dans le parchemin */
-.parchment-content * {
-  color: inherit !important;
+/* Protection absolue de tous les éléments de texte dans le parchemin */
+.parchment-content *,
+.parchment-content *::before,
+.parchment-content *::after,
+html[data-darkreader-mode] .parchment-content *,
+html[data-darkreader-scheme] .parchment-content *,
+body .parchment-content * {
+  color: #0d0d0d !important;
+  print-color-adjust: exact !important;
+  -webkit-print-color-adjust: exact !important;
+  color-adjust: exact !important;
 }
 
 .parchment-content h1,
@@ -347,8 +413,17 @@ body::before {
 .parchment-content h3,
 .parchment-content h4,
 .parchment-content h5,
-.parchment-content h6 {
+.parchment-content h6,
+html[data-darkreader-mode] .parchment-content h1,
+html[data-darkreader-mode] .parchment-content h2,
+html[data-darkreader-mode] .parchment-content h3,
+html[data-darkreader-mode] .parchment-content h4,
+html[data-darkreader-mode] .parchment-content h5,
+html[data-darkreader-mode] .parchment-content h6 {
   color: #0d0d0d !important;
+  print-color-adjust: exact !important;
+  -webkit-print-color-adjust: exact !important;
+  color-adjust: exact !important;
 }
 
 .parchment-content p,
@@ -357,16 +432,37 @@ body::before {
 .parchment-content div,
 .parchment-content blockquote,
 .parchment-content code,
-.parchment-content pre {
+.parchment-content pre,
+.parchment-content strong,
+.parchment-content em,
+.parchment-content b,
+.parchment-content i,
+.parchment-content u,
+html[data-darkreader-mode] .parchment-content p,
+html[data-darkreader-mode] .parchment-content li,
+html[data-darkreader-mode] .parchment-content span,
+html[data-darkreader-mode] .parchment-content div,
+html[data-darkreader-mode] .parchment-content blockquote,
+html[data-darkreader-mode] .parchment-content code,
+html[data-darkreader-mode] .parchment-content pre {
   color: #0d0d0d !important;
+  print-color-adjust: exact !important;
+  -webkit-print-color-adjust: exact !important;
+  color-adjust: exact !important;
 }
 
-.post-meta {
+.post-meta,
+.post-meta *,
+html[data-darkreader-mode] .post-meta,
+html[data-darkreader-mode] .post-meta * {
   text-align: center;
   font-size: 0.9em;
   color: rgba(13, 13, 13, 0.6) !important;
   margin-top: 0.5rem;
   margin-bottom: 1.5rem;
+  print-color-adjust: exact !important;
+  -webkit-print-color-adjust: exact !important;
+  color-adjust: exact !important;
 }
 
 .post-date,
@@ -387,15 +483,30 @@ body::before {
 }
 
 /* Liens dans le contenu (même style que arborescence) */
-.parchment-content a {
+.parchment-content a,
+.parchment-content a:link,
+.parchment-content a:visited,
+.parchment-content a:hover,
+.parchment-content a:active,
+.parchment-content a:focus,
+html[data-darkreader-mode] .parchment-content a,
+html[data-darkreader-mode] .parchment-content a:link,
+html[data-darkreader-mode] .parchment-content a:visited,
+html[data-darkreader-mode] .parchment-content a:hover,
+html[data-darkreader-mode] .parchment-content a:active,
+html[data-darkreader-mode] .parchment-content a:focus {
   color: #0d0d0d !important;
-  text-decoration: none;
-  border-bottom: 1px solid rgba(13, 13, 13, 0.3);
+  text-decoration: none !important;
+  border-bottom: 1px solid rgba(13, 13, 13, 0.3) !important;
+  print-color-adjust: exact !important;
+  -webkit-print-color-adjust: exact !important;
+  color-adjust: exact !important;
 }
 
-.parchment-content a:hover {
+.parchment-content a:hover,
+html[data-darkreader-mode] .parchment-content a:hover {
   color: #0d0d0d !important;
-  border-bottom-color: rgba(13, 13, 13, 0.6);
+  border-bottom-color: rgba(13, 13, 13, 0.6) !important;
 }
 
 /* < 1200px : ajustements mobile */
@@ -450,56 +561,103 @@ body::before {
 }
 
 /* ===== 4. Arborescence textes ===== */
-.arborescence-textes {
+.arborescence-textes,
+.arborescence-textes *,
+html[data-darkreader-mode] .arborescence-textes,
+html[data-darkreader-mode] .arborescence-textes * {
   list-style: none;
   padding-left: 0;
   margin: 1em 0;
   color: #0d0d0d !important;
+  print-color-adjust: exact !important;
+  -webkit-print-color-adjust: exact !important;
+  color-adjust: exact !important;
 }
 
-.arborescence-textes li {
+.arborescence-textes li,
+html[data-darkreader-mode] .arborescence-textes li {
   margin: 0.4em 0;
   padding-left: 1em;
   position: relative;
   color: #0d0d0d !important;
+  print-color-adjust: exact !important;
+  -webkit-print-color-adjust: exact !important;
+  color-adjust: exact !important;
 }
 
-.arborescence-textes li::before {
+.arborescence-textes li::before,
+html[data-darkreader-mode] .arborescence-textes li::before {
   content: "— ";
   opacity: 0.6;
   color: #0d0d0d !important;
 }
 
-.arborescence-textes a {
+.arborescence-textes a,
+.arborescence-textes a:link,
+.arborescence-textes a:visited,
+.arborescence-textes a:hover,
+.arborescence-textes a:active,
+.arborescence-textes a:focus,
+html[data-darkreader-mode] .arborescence-textes a,
+html[data-darkreader-mode] .arborescence-textes a:link,
+html[data-darkreader-mode] .arborescence-textes a:visited,
+html[data-darkreader-mode] .arborescence-textes a:hover,
+html[data-darkreader-mode] .arborescence-textes a:active,
+html[data-darkreader-mode] .arborescence-textes a:focus {
   color: #0d0d0d !important;
-  text-decoration: none;
-  border-bottom: 1px solid rgba(13, 13, 13, 0.3);
+  text-decoration: none !important;
+  border-bottom: 1px solid rgba(13, 13, 13, 0.3) !important;
+  print-color-adjust: exact !important;
+  -webkit-print-color-adjust: exact !important;
+  color-adjust: exact !important;
 }
 
-.arborescence-textes a:hover {
+.arborescence-textes a:hover,
+html[data-darkreader-mode] .arborescence-textes a:hover {
   color: #0d0d0d !important;
-  border-bottom-color: rgba(13, 13, 13, 0.6);
+  border-bottom-color: rgba(13, 13, 13, 0.6) !important;
 }
 
 /* ===== 5. Navigation dossier ===== */
-.navigation-dossier {
+.navigation-dossier,
+.navigation-dossier *,
+html[data-darkreader-mode] .navigation-dossier,
+html[data-darkreader-mode] .navigation-dossier * {
   margin-top: 2em;
   padding-top: 1em;
   border-top: 1px solid rgba(13, 13, 13, 0.2);
   text-align: center;
   font-size: 0.95em;
   color: #0d0d0d !important;
+  print-color-adjust: exact !important;
+  -webkit-print-color-adjust: exact !important;
+  color-adjust: exact !important;
 }
 
-.navigation-dossier a {
+.navigation-dossier a,
+.navigation-dossier a:link,
+.navigation-dossier a:visited,
+.navigation-dossier a:hover,
+.navigation-dossier a:active,
+.navigation-dossier a:focus,
+html[data-darkreader-mode] .navigation-dossier a,
+html[data-darkreader-mode] .navigation-dossier a:link,
+html[data-darkreader-mode] .navigation-dossier a:visited,
+html[data-darkreader-mode] .navigation-dossier a:hover,
+html[data-darkreader-mode] .navigation-dossier a:active,
+html[data-darkreader-mode] .navigation-dossier a:focus {
   color: #0d0d0d !important;
-  text-decoration: none;
-  border-bottom: none;
+  text-decoration: none !important;
+  border-bottom: none !important;
+  print-color-adjust: exact !important;
+  -webkit-print-color-adjust: exact !important;
+  color-adjust: exact !important;
 }
 
-.navigation-dossier a:hover {
+.navigation-dossier a:hover,
+html[data-darkreader-mode] .navigation-dossier a:hover {
   color: #0d0d0d !important;
-  text-decoration: underline;
+  text-decoration: underline !important;
 }
 
 /* ===== 6. Pied de page — cadre fixe en bas ===== */
@@ -540,4 +698,55 @@ body::before {
 
 .site-footer a:hover {
   text-decoration: underline;
+}
+
+/* ===== 7. Protection absolue contre toutes les extensions de modification de couleur ===== */
+/* Règle globale pour empêcher toute modification de couleur par Dark Reader et autres extensions */
+html[data-darkreader-mode],
+html[data-darkreader-mode] body,
+html[data-darkreader-mode] .parchment-middle,
+html[data-darkreader-mode] .parchment-content,
+html[data-darkreader-mode] .parchment-content *,
+html[data-darkreader-mode] .arborescence-textes,
+html[data-darkreader-mode] .arborescence-textes *,
+html[data-darkreader-mode] .navigation-dossier,
+html[data-darkreader-mode] .navigation-dossier *,
+html[data-darkreader-mode] .post-meta,
+html[data-darkreader-mode] .post-meta *,
+html[data-darkreader-scheme],
+html[data-darkreader-scheme] body,
+html[data-darkreader-scheme] .parchment-middle,
+html[data-darkreader-scheme] .parchment-content,
+html[data-darkreader-scheme] .parchment-content *,
+html[data-darkreader-scheme] .arborescence-textes,
+html[data-darkreader-scheme] .arborescence-textes *,
+html[data-darkreader-scheme] .navigation-dossier,
+html[data-darkreader-scheme] .navigation-dossier *,
+html[data-darkreader-scheme] .post-meta,
+html[data-darkreader-scheme] .post-meta * {
+  color-scheme: light !important;
+  print-color-adjust: exact !important;
+  -webkit-print-color-adjust: exact !important;
+  color-adjust: exact !important;
+}
+
+/* Protection contre les filtres CSS que Dark Reader pourrait appliquer */
+html[data-darkreader-mode] .parchment-content,
+html[data-darkreader-mode] .parchment-content *,
+html[data-darkreader-scheme] .parchment-content,
+html[data-darkreader-scheme] .parchment-content * {
+  filter: none !important;
+  -webkit-filter: none !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
+
+/* Protection supplémentaire pour tous les éléments de texte */
+.parchment-middle,
+.parchment-content,
+.parchment-content *,
+.parchment-content *::before,
+.parchment-content *::after {
+  -webkit-text-fill-color: #0d0d0d !important;
+  text-fill-color: #0d0d0d !important;
 }
