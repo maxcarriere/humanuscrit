@@ -6,6 +6,10 @@ html {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  /* Empêche Dark Reader et autres extensions de modifier les couleurs */
+  color-scheme: light;
+  print-color-adjust: exact;
+  -webkit-print-color-adjust: exact;
 }
 
 body {
@@ -15,6 +19,9 @@ body {
   font-family: Georgia, "Times New Roman", serif;
   min-height: 100vh;
   width: 100%;
+  /* Protection contre les modifications de couleur par les extensions */
+  print-color-adjust: exact;
+  -webkit-print-color-adjust: exact;
 }
 
 /* ===== 2. Bannière — cadre fixe en haut ===== */
@@ -277,9 +284,12 @@ body::before {
   padding: 0;
   line-height: 1.8;
   font-size: 1rem;
-  color: #0d0d0d;
+  color: #0d0d0d !important;
   text-transform: none;
   overflow-x: hidden;
+  /* Empêche Dark Reader de modifier la couleur du texte */
+  print-color-adjust: exact;
+  -webkit-print-color-adjust: exact;
 }
 
 /* Mobile : parchemin_mobile2 en fond fixe, padding réduit */
@@ -305,6 +315,10 @@ body::before {
   overflow-wrap: break-word;
   word-wrap: break-word;
   overflow-x: hidden;
+  /* Empêche Dark Reader de modifier la couleur du texte */
+  color: #0d0d0d !important;
+  print-color-adjust: exact;
+  -webkit-print-color-adjust: exact;
 }
 
 /* Page d'accueil : texte centré (mobile et PC) */
@@ -320,12 +334,37 @@ body::before {
 .parchment-content .post-title,
 .parchment-content h1 {
   text-align: center;
+  color: #0d0d0d !important;
+}
+
+/* Protection de tous les éléments de texte dans le parchemin */
+.parchment-content * {
+  color: inherit !important;
+}
+
+.parchment-content h1,
+.parchment-content h2,
+.parchment-content h3,
+.parchment-content h4,
+.parchment-content h5,
+.parchment-content h6 {
+  color: #0d0d0d !important;
+}
+
+.parchment-content p,
+.parchment-content li,
+.parchment-content span,
+.parchment-content div,
+.parchment-content blockquote,
+.parchment-content code,
+.parchment-content pre {
+  color: #0d0d0d !important;
 }
 
 .post-meta {
   text-align: center;
   font-size: 0.9em;
-  color: rgba(13, 13, 13, 0.6);
+  color: rgba(13, 13, 13, 0.6) !important;
   margin-top: 0.5rem;
   margin-bottom: 1.5rem;
 }
@@ -349,12 +388,13 @@ body::before {
 
 /* Liens dans le contenu (même style que arborescence) */
 .parchment-content a {
-  color: inherit;
+  color: #0d0d0d !important;
   text-decoration: none;
   border-bottom: 1px solid rgba(13, 13, 13, 0.3);
 }
 
 .parchment-content a:hover {
+  color: #0d0d0d !important;
   border-bottom-color: rgba(13, 13, 13, 0.6);
 }
 
@@ -414,26 +454,30 @@ body::before {
   list-style: none;
   padding-left: 0;
   margin: 1em 0;
+  color: #0d0d0d !important;
 }
 
 .arborescence-textes li {
   margin: 0.4em 0;
   padding-left: 1em;
   position: relative;
+  color: #0d0d0d !important;
 }
 
 .arborescence-textes li::before {
   content: "— ";
   opacity: 0.6;
+  color: #0d0d0d !important;
 }
 
 .arborescence-textes a {
-  color: inherit;
+  color: #0d0d0d !important;
   text-decoration: none;
   border-bottom: 1px solid rgba(13, 13, 13, 0.3);
 }
 
 .arborescence-textes a:hover {
+  color: #0d0d0d !important;
   border-bottom-color: rgba(13, 13, 13, 0.6);
 }
 
@@ -444,15 +488,17 @@ body::before {
   border-top: 1px solid rgba(13, 13, 13, 0.2);
   text-align: center;
   font-size: 0.95em;
+  color: #0d0d0d !important;
 }
 
 .navigation-dossier a {
-  color: inherit;
+  color: #0d0d0d !important;
   text-decoration: none;
   border-bottom: none;
 }
 
 .navigation-dossier a:hover {
+  color: #0d0d0d !important;
   text-decoration: underline;
 }
 
