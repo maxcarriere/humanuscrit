@@ -4,7 +4,7 @@ date: 2026-02-09
 last_modified_at: 2026-02-09
 ---
 
-# Epilogue 2 - La voix de l'auteur
+# La voix de l'auteur
 
 ---
 
