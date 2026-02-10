@@ -698,8 +698,4 @@ Yann ferma les yeux.
 
 ---
 
-*Fin*
-
----
-
-*Chapitre suivant : Extinction*
+*Fin - A suivre : L'extinction*
