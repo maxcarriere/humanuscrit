@@ -374,8 +374,12 @@ body .parchment-content * {
   color-adjust: exact !important;
 }
 
-/* Page d'accueil : première phrase centrée, reste justifié */
-.page-home .parchment-content > p:first-of-type {
+/* Page d'accueil : tout le texte centré */
+.page-home .parchment-content {
+  text-align: center;
+}
+
+.page-home .parchment-content p {
   text-align: center;
 }
 
