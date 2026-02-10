@@ -1,5 +1,7 @@
 ---
 title: "02 - Le Cercle"
+date: 2026-02-09
+last_modified_at: 2026-02-09
 ---
 
 # Le Cercle
