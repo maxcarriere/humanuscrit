@@ -482,6 +482,11 @@ html[data-darkreader-mode] .post-meta * {
   margin-bottom: 1em;
 }
 
+/* Justification du texte pour améliorer la lecture */
+.parchment-content p {
+  text-align: justify;
+}
+
 /* Liens dans le contenu (même style que arborescence) */
 .parchment-content a,
 .parchment-content a:link,
@@ -561,21 +566,13 @@ html[data-darkreader-mode] .parchment-content a:hover {
 }
 
 /* Style pour "Fin" : centré et en italique */
-/* Cible les paragraphes qui suivent un séparateur (hr) et qui contiennent du texte en italique */
-.parchment-content hr + p {
+/* Cible uniquement les paragraphes contenant "Fin" (derniers paragraphes avec em) */
+.parchment-content p:last-of-type {
   text-align: center;
 }
 
-.parchment-content hr + p em {
-  display: block;
-  font-style: italic;
-  margin: 1em 0;
-}
-
-/* Alternative pour les navigateurs qui ne supportent pas le sélecteur adjacent : cibler les derniers paragraphes */
 .parchment-content p:last-of-type em {
   display: block;
-  text-align: center;
   font-style: italic;
   margin: 1em 0;
 }
