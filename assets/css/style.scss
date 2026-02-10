@@ -569,12 +569,13 @@ html[data-darkreader-mode] .parchment-content a:hover {
 /* Cible uniquement les paragraphes contenant "Fin" (derniers paragraphes avec em) */
 .parchment-content p:last-of-type {
   text-align: center;
+  margin-bottom: 0;
 }
 
 .parchment-content p:last-of-type em {
   display: block;
   font-style: italic;
-  margin: 1em 0;
+  margin: 0;
 }
 
 /* ===== 4. Arborescence textes ===== */
