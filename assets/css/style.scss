@@ -560,6 +560,26 @@ html[data-darkreader-mode] .parchment-content a:hover {
   opacity: 0.8;
 }
 
+/* Style pour "Fin" : centré et en italique */
+/* Cible les paragraphes qui suivent un séparateur (hr) et qui contiennent du texte en italique */
+.parchment-content hr + p {
+  text-align: center;
+}
+
+.parchment-content hr + p em {
+  display: block;
+  font-style: italic;
+  margin: 1em 0;
+}
+
+/* Alternative pour les navigateurs qui ne supportent pas le sélecteur adjacent : cibler les derniers paragraphes */
+.parchment-content p:last-of-type em {
+  display: block;
+  text-align: center;
+  font-style: italic;
+  margin: 1em 0;
+}
+
 /* ===== 4. Arborescence textes ===== */
 .arborescence-textes,
 .arborescence-textes *,
