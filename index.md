@@ -2,7 +2,6 @@
 title: Humanuscrit
 layout: home
 ---
-
 **Humanuscrit** est un manuscrit évolutif.
 
 Un espace de réflexion ouvert sur la condition humaine,  

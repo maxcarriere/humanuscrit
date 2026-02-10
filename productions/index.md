@@ -1,7 +1,6 @@
 ---
 title: Productions
 ---
-
 Cette page regroupe les productions d'Humanuscrit, conçues à partir de la matière textuelle du projet.  
 Elles résultent de processus de transformation — humains, artificiels ou hybrides — appliqués au corpus afin de produire des formes structurées, cohérentes et diffusables.
 
