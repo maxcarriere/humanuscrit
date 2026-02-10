@@ -569,6 +569,16 @@ html[data-darkreader-mode] .parchment-content a:hover {
   opacity: 0.8;
 }
 
+/* Masquer le séparateur qui précède directement la navigation (celui avant "Fin") */
+.parchment-content hr:last-of-type {
+  display: none;
+}
+
+/* Réduire la marge supérieure de la navigation quand elle suit directement un hr */
+.parchment-content hr + p + nav.navigation-dossier {
+  margin-top: 0;
+}
+
 
 /* ===== 4. Arborescence textes ===== */
 .arborescence-textes,
@@ -635,7 +645,7 @@ html[data-darkreader-mode] .navigation-dossier,
 html[data-darkreader-mode] .navigation-dossier * {
   margin-top: 2em;
   padding-top: 1em;
-  border-top: 1px solid rgba(13, 13, 13, 0.2);
+  border-top: none;
   text-align: center;
   font-size: 0.95em;
   color: #0d0d0d !important;
