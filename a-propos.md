@@ -10,4 +10,4 @@ Ce site est réalisé sans formation technique en informatique ou développement
 - tester les possibilités actuelles de création sans compétence technique ;
 - explorer les modes de collaboration humain–IA.
 
-Un lien futur avec le projet [Lectura](https://lectura.fr) est envisageable, sans développement prévu à ce stade.
+Le projet [Lectura](https://www.lec-tu-ra.com){:target="_blank" rel="noopener noreferrer"}, consacré à l'exploration des systèmes de lecture et des outils algorithmiques liés au langage, constitue un projet frère de Humanuscrit.
