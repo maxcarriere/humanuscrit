@@ -292,7 +292,7 @@ body::before {
   min-height: 100vh;
   box-sizing: border-box;
   padding-top: 108px;
-  padding-bottom: 180px; /* Espace pour footer + boutons navigation + fin du contenu */
+  padding-bottom: 150px; /* Espace pour footer + boutons navigation + fin du contenu */
 }
 
 .parchment {
@@ -586,8 +586,8 @@ html[data-darkreader-mode] .parchment-content a:hover {
   }
 
   .site-footer {
-    padding: 1rem;
-    font-size: 0.75rem;
+    padding: 0.7rem 1rem;
+    font-size: 0.7rem;
   }
 }
 
@@ -710,9 +710,9 @@ html[data-darkreader-mode] .navigation-dossier a:hover {
   flex-shrink: 0;
   background: #0e0e0e;
   color: #a89f8a;
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   letter-spacing: 0.08em;
-  padding: 2rem 1rem;
+  padding: 0.85rem 1rem;
   border-top: 1px solid #222;
 }
 
