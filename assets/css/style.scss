@@ -415,8 +415,9 @@ body .parchment-content * {
   text-align: center;
 }
 
-.parchment-content p.cycle-corpus {
-  text-align: center;
+.parchment-content p.cycle-corpus,
+.parchment-content .post-content p.cycle-corpus {
+  text-align: center !important;
 }
 
 .parchment-content .post-title,
