@@ -667,12 +667,16 @@ html[data-darkreader-mode] .navigation-dossier * {
   margin-top: 2em;
   padding-top: 1em;
   border-top: none;
-  text-align: center;
+  text-align: center !important;
   font-size: 0.95em;
   color: #0d0d0d !important;
   print-color-adjust: exact !important;
   -webkit-print-color-adjust: exact !important;
   color-adjust: exact !important;
+}
+
+.navigation-dossier p {
+  text-align: center !important;
 }
 
 .navigation-dossier a,
