@@ -409,6 +409,11 @@ body .parchment-content * {
   text-align: left;
 }
 
+/* Pages de section (index d’un dossier sous textes) : centrer le verbe en haut */
+.page-section-index .parchment-content .post-content > p:first-of-type {
+  text-align: center;
+}
+
 .parchment-content .post-title,
 .parchment-content h1,
 html[data-darkreader-mode] .parchment-content .post-title,

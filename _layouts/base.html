@@ -3,7 +3,7 @@
 
   {%- include head.html -%}
 
-  <body>
+  <body class="{% if page.path contains 'textes/' and page.path != 'textes/index.md' and page.name == 'index.md' %}page-section-index{% endif %}">
 
     {%- include header.html -%}
 
