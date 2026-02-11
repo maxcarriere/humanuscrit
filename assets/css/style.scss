@@ -61,6 +61,18 @@ body *::after {
   flex-wrap: wrap;
 }
 
+/* Desktop : espace ~200px entre titre et menu */
+@media (min-width: 1200px) {
+  .header-inner {
+    justify-content: flex-start;
+    gap: 0;
+  }
+
+  .site-nav {
+    margin-left: 200px;
+  }
+}
+
 .header-brand {
   display: flex;
   align-items: center;
@@ -295,6 +307,13 @@ body::before {
   box-sizing: border-box;
 }
 
+/* Desktop : zone parchemin et texte plus larges */
+@media (min-width: 1200px) {
+  .parchment {
+    max-width: 1400px;
+  }
+}
+
 .parchment-middle {
   position: relative;
   z-index: 1;
@@ -355,6 +374,13 @@ html[data-darkreader-scheme] .parchment-middle * {
   print-color-adjust: exact !important;
   -webkit-print-color-adjust: exact !important;
   color-adjust: exact !important;
+}
+
+/* Desktop : texte plus large (100px de place en plus de chaque côté) */
+@media (min-width: 1200px) {
+  .parchment-content {
+    max-width: min(85ch, calc(100% - 0px));
+  }
 }
 
 /* Protection ultra-spécifique pour .parchment-content et tous ses enfants */
