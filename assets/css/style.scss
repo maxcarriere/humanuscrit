@@ -61,15 +61,10 @@ body *::after {
   flex-wrap: wrap;
 }
 
-/* Desktop : espace ~200px entre titre et menu */
+/* Desktop : titre à gauche, menu à droite (space-between) */
 @media (min-width: 1200px) {
   .header-inner {
-    justify-content: flex-start;
-    gap: 0;
-  }
-
-  .site-nav {
-    margin-left: 200px;
+    justify-content: space-between;
   }
 }
 
