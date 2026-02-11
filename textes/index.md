@@ -15,4 +15,4 @@ Les sections sont ordonnées selon une progression conceptuelle. Chaque section 
 
 ### Cycle du corpus
 
-*Avertir → Raconter → Penser → Se penser → Éveiller → S'incarner → Être transformé*
+<p class="cycle-corpus">⊳ <em>Avertir → Raconter → Penser → Se penser → Éveiller → S'incarner → Être transformé</em> ⊲</p>
