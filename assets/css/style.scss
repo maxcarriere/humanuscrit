@@ -77,7 +77,8 @@ body *::after {
 }
 
 .header-brand:hover .site-title {
-  text-decoration: underline;
+  color: #fffef8;
+  text-shadow: 0 0 12px rgba(255, 254, 248, 0.6), 0 0 24px rgba(255, 254, 248, 0.3);
 }
 
 .logo img {
