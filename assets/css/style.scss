@@ -713,6 +713,49 @@ html[data-darkreader-mode] .navigation-dossier a:hover {
   text-decoration: underline !important;
 }
 
+/* Formulaire contact */
+.contact-form label {
+  display: block;
+  margin-bottom: 0.25em;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  max-width: 28em;
+  padding: 0.5em;
+  font-family: inherit;
+  font-size: 1rem;
+  color: #0d0d0d !important;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(13, 13, 13, 0.25);
+  box-sizing: border-box;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  min-height: 6em;
+}
+
+.contact-form button {
+  padding: 0.5em 1.25em;
+  font-family: inherit;
+  font-size: 1rem;
+  color: #0d0d0d;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(13, 13, 13, 0.3);
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: rgba(255, 255, 255, 1);
+  border-color: rgba(13, 13, 13, 0.5);
+}
+
+.contact-form p {
+  margin-bottom: 1em;
+}
+
 /* ===== 6. Pied de page — cadre fixe en bas ===== */
 .site-footer {
   flex-shrink: 0;

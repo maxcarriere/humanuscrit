@@ -1,93 +1,86 @@
 # Contribuer à Humanuscrit
 
-Contribuer à Humanuscrit ne signifie pas nécessairement
-écrire dans ce dépôt.
+Contribuer à Humanuscrit ne commence pas par écrire.
 
-La participation commence toujours par la **lecture attentive**.
+Cela commence par lire.
 
----
-
-## Esprit de la contribution
-
-Humanuscrit n’est pas un projet à défendre,
-ni une vision à promouvoir,
-ni un message à relayer.
-
-Il se veut un **espace de questionnement**,
-non un outil de persuasion.
-
-Toute contribution — directe ou indirecte —
-doit préserver cet esprit.
+Lire le manuscrit.
+Le laisser résonner.
+Laisser les idées se déplacer.
+Accepter, peut-être, qu’il modifie quelque chose dans la manière de regarder le monde.
 
 ---
 
-## Formes de participation
+## Première forme de contribution
 
-Il existe plusieurs manières de participer,
-aucune n’étant privilégiée :
+La première contribution est invisible.
 
-- proposer un texte, un fragment ou une réflexion,
-- suggérer une reformulation ou un déplacement conceptuel,
-- établir des liens entre différents textes,
-- questionner explicitement certaines hypothèses,
-- prolonger certaines idées dans d’autres contextes ou d’autres formes.
+- Lire attentivement.
+- Réfléchir.
+- Questionner.
+- En parler autour de soi.
+- Le diffuser si cela semble juste.
 
-Les contributions peuvent être :
-- affirmatives ou interrogatives,
-- structurées ou fragmentaires,
-- convergentes ou dissonantes.
+Il n’y a aucune attente.
+Aucune stratégie.
+Aucune injonction.
 
-L’objectif n’est pas de renforcer une thèse,
-mais de **maintenir un espace de pensée vivant**.
+Si le manuscrit circule, c’est parce qu’il trouve un écho.
+Sinon, il reste là, disponible.
 
 ---
 
-## Diffusion et prolongements
+## Deuxième forme de contribution
 
-Humanuscrit n’a pas vocation à devenir une plateforme centralisatrice.
+Certains prolongeront ces réflexions.
 
-Il n’existe :
-- aucune stratégie de diffusion,
-- aucune attente de relais,
-- aucune incitation au prosélytisme.
+- En écrivant leurs propres textes.
+- En réalisant des productions (articles, vidéos, œuvres, sites, recherches…).
+- En développant des idées qui dialoguent avec celles du manuscrit.
+- En utilisant certains concepts comme points d’appui.
 
-Si certaines idées résonnent,
-elles peuvent être partagées librement :
-- par la discussion,
-- par le bouche-à-oreille,
-- par l’écriture de nouveaux textes,
-- par la création de contenus (articles, vidéos, œuvres, sites),
-- ou par toute autre forme jugée pertinente.
+Ces prolongements peuvent exister ailleurs.
+Ils n’ont aucune obligation d’être publiés ici.
 
-Ces prolongements peuvent citer Humanuscrit,
-s’en inspirer,
-ou simplement en porter l’empreinte,
-sans obligation de référence explicite.
+Humanuscrit n’est pas une plateforme centrale.
+Il n’a pas vocation à agréger ou absorber ce qui naît autour de lui.
+
+Il est un point de départ, pas un centre.
 
 ---
 
-## Contribuer directement au dépôt
+## Publier sur le site
 
-Des contributions directes au dépôt sont possibles,
-mais elles doivent rester **mesurées et réfléchies**.
+Des contributions directes peuvent exister,
+mais elles ne constituent ni un objectif ni une nécessité.
 
-L’objectif n’est pas d’accumuler des textes,
-mais de préserver une cohérence minimale
-et une lisibilité d’ensemble.
+Ce qui importe n’est pas d’enrichir ce dépôt,
+mais de maintenir un espace de pensée libre,
+cohérent,
+et ouvert.
 
-Si un doute existe quant à la pertinence d’une contribution,
-il est préférable de prolonger les réflexions ailleurs,
-plutôt que de chercher à les intégrer ici.
+---
+
+## Liberté et cadre
+
+Les textes peuvent être partagés et prolongés,
+dans le respect de la licence du projet.
+
+Mais l’essentiel n’est pas juridique.
+Il est intellectuel.
+
+Contribuer, ici, signifie surtout :
+penser par soi-même.
 
 ---
 
 ## En résumé
 
-Humanuscrit n’est pas un point de convergence,
-mais un **point de départ**.
+Humanuscrit ne cherche pas des membres.
+Il ne cherche pas des relais.
+Il ne cherche pas des défenseurs.
 
-Si ce manuscrit a un rôle,
-c’est celui de déclencher,
-déplacer,
-ou accompagner des réflexions —
-où qu’elles aient lieu.
+Il cherche des esprits en mouvement.
+
+S’il provoque un déplacement,
+alors la contribution a déjà commencé.
