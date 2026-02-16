@@ -217,13 +217,34 @@ body *::after {
     padding: 0;
   }
 
-  /* Liens footer dans le menu quand hamburger affiché */
+  /* Pied de page compact : tous les liens visibles sans prendre plus de place */
+  .site-footer {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.6rem;
+  }
+
   .footer-inner {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.35rem;
+  }
+
+  .footer-left,
+  .footer-right {
     justify-content: center;
   }
 
   .footer-right {
-    display: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.2rem 0.35rem;
+    line-height: 1.3;
+  }
+
+  .footer-right span {
+    margin: 0;
   }
 }
 
@@ -587,10 +608,7 @@ html[data-darkreader-mode] .parchment-content a:hover {
     font-size: 1rem;
   }
 
-  .site-footer {
-    padding: 0.7rem 1rem;
-    font-size: 0.7rem;
-  }
+  /* Footer compact déjà défini dans le bloc header mobile */
 }
 
 /* Séparateurs Markdown (---) */
