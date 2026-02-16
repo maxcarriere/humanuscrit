@@ -1,7 +1,7 @@
 ---
 title: Chapitre 0 - Existence
 date: 2026-02-16
-last_modified_at: 2026-02-16
+last_modified_at: 2026-02-09
 ---
 
 # Existence
@@ -114,15 +114,13 @@ On remarquera que cette caractérisation introduit déjà, sans la nommer encore
 
 La vision précédente demeure insuffisante.
 
-Une chose totalement figée existerait-elle réellement ?
+Une chose totalement figée existerait-elle réellement ? La question n'est pas rhétorique — elle engage un choix ontologique fondamental.
 
-Pour exister, il faut subsister.
-Pour subsister, il faut durer.
-Pour durer, il faut traverser le changement.
+On pourrait concevoir un réel purement statique : un agencement de substance, structuré et cohérent, mais absolument immobile. Rien ne l'interdit logiquement. Pourtant, un tel réel serait indiscernable du néant. Sans durée, pas de manifestation. Sans changement, pas de différence entre être et ne pas être. Une photographie figée du réel ne suffit pas à rendre compte de ce que signifie exister.
 
-L'existence ne peut se réduire à une singularité instantanée. Une photographie figée du réel ne suffit pas à rendre compte de ce que signifie être.
+Nous faisons donc ici un choix : l'existence ne peut se réduire à une singularité instantanée. Pour exister, il faut subsister. Pour subsister, il faut durer. Pour durer, il faut traverser le changement.
 
-Nous sommes contraints d'introduire un troisième axe : l'**évolution**.
+Ce choix conduit à introduire un troisième axe : l'**évolution**.
 
 Une chose n'est pas seulement une structure ; elle est une structure qui persiste en se transformant.
 
@@ -179,7 +177,7 @@ La **cohérence** fonde la configuration : c'est parce que les constituants sont
 
 ### Transformation
 
-La configuration seule ne rend compte que de ce qui est à un instant. Or, nous l'avons vu, un réel figé dans une configuration unique serait indistinguable du néant.
+La configuration seule ne rend compte que de ce qui est à un instant. Or, nous l'avons posé comme choix ontologique : un réel figé dans une configuration unique serait indiscernable du néant.
 
 La **transformation** est le passage d'une configuration à une autre. Elle est ce qui fait que le réel à l'instant suivant n'est pas identique au réel à l'instant présent. C'est le principe du devenir — la contrepartie dynamique de la configuration.
 
@@ -228,7 +226,7 @@ Dans sa forme la plus générale, l'espace est une *topologie* : une organisatio
 
 La métrique — la mesure précise des distances — appartient au domaine de la quantification scientifique. La topologie, elle, relève d'une description plus fondamentale : elle exprime la possibilité même de liens de voisinage.
 
-L'espace est ainsi une topologie posée sur la substance. C'est en lui que la **consistance** trouve son expression : chaque objet distingué y reçoit une place propre. L'espace n'est pas ce qui fonde la distinction — c'est ce qui lui donne un lieu.
+L'espace est ainsi une topologie posée sur la substance. C'est en lui que la **distinction** — fondée sur la consistance — trouve sa condition d'expression : chaque objet distingué par ses constituants y reçoit une place propre. La distinction est ontologique ; l'espace est sa manifestation phénoménale. L'espace n'est pas ce qui fonde la distinction — c'est ce qui lui donne un lieu.
 
 ### Le temps
 
@@ -240,7 +238,7 @@ Un monde dépourvu de dimension temporelle serait un monde instantané. Il n'aur
 
 Le temps est donc la condition de possibilité du devenir. Il permet aux choses de changer sans cesser d'être. Il rend possible la succession des états, la persistance à travers la modification.
 
-Le temps est ainsi la dimension dans laquelle l'**évolution** trouve son expression : chaque transformation y reçoit un avant et un après. Elle donne une place à chaque moment, et permet de le situer relativement à un passé et à un futur. Le temps n'est pas ce qui fonde la transformation — c'est ce qui lui donne une durée.
+Le temps est ainsi la dimension dans laquelle la **transformation** — fondée sur l'évolution — trouve sa condition d'expression : chaque passage d'une configuration à une autre y reçoit un avant et un après. La transformation est ontologique ; le temps est sa manifestation phénoménale. Le temps n'est pas ce qui fonde la transformation — c'est ce qui lui donne une durée.
 
 ### Les interactions
 

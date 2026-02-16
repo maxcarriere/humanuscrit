@@ -1,8 +1,3 @@
----
-title: Licence
-permalink: /licence/
----
-
 # Licence — Humanuscrit
 
 © 2026 Maxime Carrière
@@ -36,7 +31,8 @@ https://creativecommons.org/licenses/by-nc/4.0/
 
 Toute utilisation commerciale des textes (vente, intégration dans un produit payant, exploitation éditoriale, formation rémunérée, etc.) nécessite une autorisation explicite de l’auteur.
 
-Pour toute demande d'autorisation commerciale, merci d'utiliser la [page Contact]({{ '/contact/' | relative_url }}).
+Pour toute demande :  
+[adresse email ou contact à insérer]
 
 ---
 
