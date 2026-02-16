@@ -16,7 +16,7 @@ Les échanges peuvent se faire via les *Issues* ou les discussions du dépôt.
 
 ## Envoyer un message
 
-Vous pouvez aussi nous contacter par courriel. Le formulaire ci-dessous ouvrira votre logiciel de messagerie avec l’adresse humanuscrit@proton.me.
+Vous pouvez aussi nous contacter par courriel. Le formulaire ci-dessous ouvrira votre logiciel de messagerie avec les informations pré-remplies.
 
 <form id="contact-form" class="contact-form" action="#" method="get">
   <p>
