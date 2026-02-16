@@ -109,7 +109,8 @@ body *::after {
 }
 
 .site-nav a:hover {
-  text-decoration: underline;
+  color: #fffef8;
+  text-shadow: 0 0 12px rgba(255, 254, 248, 0.6), 0 0 24px rgba(255, 254, 248, 0.3);
 }
 
 .menu-toggle {
@@ -201,7 +202,8 @@ body *::after {
   }
 
   .nav-menu a:hover {
-    text-decoration: underline;
+    color: #fffef8;
+    text-shadow: 0 0 12px rgba(255, 254, 248, 0.6), 0 0 24px rgba(255, 254, 248, 0.3);
     background: rgba(255, 255, 255, 0.05);
   }
 

@@ -1,7 +1,7 @@
 ---
 title: Préambule
 date: 2026-02-15
-last_modified_at: 2026-02-16
+last_modified_at: 2026-02-09
 ---
 
 # PRÉAMBULE
@@ -102,7 +102,7 @@ Ce texte ne peut pas revendiquer l'étendue. Il peut en revanche revendiquer la 
 
 Et c'est là que l'absence de références rejoint l'usage de l'intelligence artificielle.
 
-Un des objectifs implicite de ce texte est de proposer un cadre de pensée à l'IA — non pas un résumé d'idées, mais un *filtre* à travers lequel percevoir et organiser la connaissance. Il ne s'agit pas de demander à l'intelligence artificielle d'ignorer le reste du savoir humain — ce serait absurde, et contraire à sa nature. Il s'agit de lui apprendre à penser *comme l'auteur* : à traverser l'immensité de ce qu'elle sait en l'ordonnant selon une grammaire particulière, celle qui est posée ici. Non pas restreindre, mais orienter. Non pas effacer la connaissance, mais la faire passer à travers le prisme d'une vision singulière — afin que le dialogue qui en résulte soit véritablement une co-réflexion, et non une simple consultation.
+Ce corpus de textes a vocation à servir de base à partir de laquelle des productions seront générées. Un de ses objectifs implicites est donc de proposer à l'intelligence artificielle un cadre de pensée — non pas un résumé d'idées, mais un *filtre* à travers lequel percevoir et organiser la connaissance. Il ne s'agit pas de lui demander d'ignorer le reste du savoir humain — ce serait absurde, et contraire à sa nature. Il s'agit de lui fournir une grammaire particulière pour qu'elle puisse produire selon l'état d'esprit de l'auteur : traverser l'immensité de ce qu'elle sait en l'ordonnant selon la vision posée ici. Non pas restreindre, mais orienter. Non pas effacer la connaissance, mais la faire passer à travers le prisme d'une pensée singulière — afin que ce qui en résulte soit véritablement une co-réflexion, et non une simple consultation.
 
 ---
 
