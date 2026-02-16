@@ -1,10 +1,10 @@
 ---
-title: Chapitre 0 — L'existence
+title: Chapitre 0 - Existence
 date: 2026-02-16
 last_modified_at: 2026-02-16
 ---
 
-# Chapitre 0 — Existence
+# Existence
 
 *Seuil ontologique*
 
