@@ -546,6 +546,10 @@ html[data-darkreader-mode] .post-meta * {
   text-align: justify;
 }
 
+.parchment-content p.subtitle-centre {
+  text-align: center;
+}
+
 /* Liens dans le contenu (même style que arborescence) */
 .parchment-content a,
 .parchment-content a:link,

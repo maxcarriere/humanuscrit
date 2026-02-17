@@ -7,7 +7,7 @@ last_modified_at: 2026-02-09
 
 # Existence
 
-*Seuil ontologique*
+<p class="subtitle-centre"><em>Seuil ontologique</em></p>
 
 ---
 
