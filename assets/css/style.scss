@@ -816,6 +816,44 @@ html[data-darkreader-mode] .navigation-dossier a:hover {
   text-decoration: underline;
 }
 
+/* Compteur visiteurs (page accueil) — visible, discret */
+.visitor-counter,
+#visitor-counter {
+  display: block;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(13, 13, 13, 0.12);
+  font-size: 0.95rem;
+  color: #6b5d4f;
+  min-height: 1.5em;
+}
+
+/* Page Évolution — filtres et graphique */
+.evolution-filters,
+#filters {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.evolution-filters button,
+#filters button {
+  margin: 5px;
+  cursor: pointer;
+  font-family: inherit;
+  padding: 0.4em 0.8em;
+  color: #0d0d0d;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(13, 13, 13, 0.25);
+}
+
+.evolution-chart,
+#trafficChart {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
 /* ===== 7. Protection absolue contre toutes les extensions de modification de couleur ===== */
 /* Règle globale pour empêcher toute modification de couleur par Dark Reader et autres extensions */
 html[data-darkreader-mode],

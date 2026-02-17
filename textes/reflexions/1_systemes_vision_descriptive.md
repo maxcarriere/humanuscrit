@@ -94,7 +94,7 @@ Chaque lien possible est soit présent, soit absent. C'est un choix binaire — 
 > 
 > Pour des liens binaires non orientés, le nombre de paires possibles entre $n$ éléments est $n(n-1)/2$. Chaque paire pouvant être liée ou non, l'espace des configurations contient :
 > 
-> $|Y(X)| = 2^{n(n-1)/2}$
+> $$\lvert Y(X) \rvert = 2^{n(n-1)/2}$$
 > 
 > éléments.
 
@@ -362,7 +362,7 @@ De même que $Y$ contient toutes les configurations concevables, on peut défini
 > 
 > L'**espace des transformations** de $Y$, noté $Z(Y)$, est l'ensemble de toutes les actions logiquement concevables :
 > 
-> $Z(Y) = \bigcup_{D \subseteq Y} D^D = \{a:D\rightarrow D \in D^D| D\subseteq Y\}$
+> $$Z(Y) = \bigcup_{D \subseteq Y} D^D = \{a:D\rightarrow D \in D^D \mid D\subseteq Y\}$$
 > 
 > où $D^D$ désigne l'ensemble de toutes les applications de $D$ dans $D$ *(voir Annexe — Prérequis mathématiques : Applications)*.
 > 

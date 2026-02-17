@@ -4,6 +4,12 @@ url: "https://humanuscrit.com"
 title: Humanuscrit
 theme: minima
 
+# Laisser $$ et $ intacts pour KaTeX ; limiter l’interprétation tableau (pipe en blockquote)
+kramdown:
+  input: GFM
+  math_engine: nil
+  parse_block_html: true
+
 defaults:
   - scope:
       path: ""
