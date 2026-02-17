@@ -32,9 +32,7 @@ Le chapitre se divise en trois parties. La première introduit le graphe comme s
 
 ---
 
-
 ## I — Le graphe
-
 
 ### De la distinction au graphe
 
@@ -44,7 +42,6 @@ Il nous faut maintenant une structure formelle capable d'exprimer ces idées —
 
 Cette structure existe. C'est le **graphe**.
 
----
 
 > **Définition 1 — Graphe**
 > 
@@ -53,7 +50,6 @@ Cette structure existe. C'est le **graphe**.
 > - $X$ est un ensemble fini d'éléments, appelés **sommets** ;
 > - $L$ est un ensemble de **liens** entre ces sommets.
 
----
 
 Un sommet représente un élément distingué — une entité identifiable, séparée des autres. Un lien représente une relation — une dépendance, une proximité, une compatibilité. Le lien ne présuppose rien de physique : il exprime simplement le fait que deux éléments ne sont pas indépendants l'un de l'autre.
 
@@ -71,7 +67,6 @@ Le graphe est la traduction directe, en langage formel, de ce que le chapitre 0 
 
 L'ensemble $X$ des sommets d'un graphe constitue le premier espace fondamental.
 
----
 
 > **Définition 2 — Espace des distinctions**
 > 
@@ -79,7 +74,6 @@ L'ensemble $X$ des sommets d'un graphe constitue le premier espace fondamental.
 > 
 > C'est l'alphabet du système — le répertoire de tout ce qui peut être nommé, identifié, séparé.
 
----
 
 $X$ ne dit rien sur les relations entre ses éléments. Il dit seulement : voici les briques élémentaires. Tout ce qui suit — configurations, transformations, systèmes — sera construit à partir de cet ensemble.
 
@@ -91,7 +85,6 @@ $X$ ne dit rien sur les relations entre ses éléments. Il dit seulement : voici
 
 Chaque lien possible est soit présent, soit absent. C'est un choix binaire — et c'est de ce choix que naît l'immensité combinatoire.
 
----
 
 > **Définition 3 — Espace des configurations**
 > 
@@ -105,7 +98,6 @@ Chaque lien possible est soit présent, soit absent. C'est un choix binaire — 
 > 
 > éléments.
 
----
 
 Ce nombre croît vertigineusement. Pour 3 éléments, il y a 3 paires possibles et donc $2^3 = 8$ configurations — de l'absence totale de lien à la connexion complète. Pour 5 éléments, 10 paires et 1 024 configurations. Pour 10 éléments, 45 paires et plus de 35 000 milliards de configurations.
 
@@ -154,7 +146,6 @@ On peut formaliser cette notion de deux manières, selon le degré de générali
 
 #### Relation logique
 
-
 > **Définition 4 — Relation logique**
 > 
 > Une **relation possible** $R_i$ de degré $n_i$ sur $X$ est un sous-ensemble de $X^{n_i}$ :
@@ -163,7 +154,6 @@ On peut formaliser cette notion de deux manières, selon le degré de générali
 > 
 > Elle désigne l'ensemble des $n_i$-uplets d'éléments entre lesquels la relation *peut* exister. La relation est **binaire** : pour un $n_i$-uplet donné, le lien est possible ou ne l'est pas.
 
----
 
 Ces relations décrivent non pas ce qui est effectivement réalisé, mais tout ce qui *pourrait l'être*.
 
@@ -198,7 +188,6 @@ Cette séparation entre le possible et l'effectif est l'une des idées les plus 
 
 La relation logique admet une généralisation naturelle. Au lieu de se limiter à « le lien existe ou n'existe pas », on peut associer à chaque $n_i$-uplet une **valeur** — une intensité, un poids, une mesure.
 
----
 
 > **Définition 4 (bis) — Relation valuée**
 > 
@@ -210,7 +199,6 @@ La relation logique admet une généralisation naturelle. Au lieu de se limiter 
 > 
 > L'ensemble $W_i$ est appelé **espace de valuation** de la relation $R_i$. Il contient un élément distingué, noté $0$ (ou $\bot$), qui signifie *absence de relation*.
 
----
 
 L'espace de valuation $W_i$ capture la richesse du lien. Selon le choix de $W_i$, on retrouve différents cadres :
 
@@ -256,7 +244,6 @@ La relation effective $r_i$ est alors une application de $A^{n_i}$ dans $W_i$ te
 > 
 > Les relations effectives sont incluses dans la restriction des relations possibles aux éléments présents. Toute relation possible n'est pas nécessairement activée.
 
----
 
 L'état dit *quoi* existe et *comment* c'est relié, à un instant donné. Il est la photographie du réel — non pas ce que le réel *pourrait* être, mais ce qu'il *est*.
 
@@ -270,7 +257,6 @@ Autrement dit : un état décrit une situation concrète. Il identifie les élé
 
 Lorsque l'ensemble $X$ est muni d'une famille de relations possibles $R_p$, l'espace des configurations s'enrichit.
 
----
 
 > **Définition 6 — Espace des configurations relationnelles**
 > 
@@ -278,7 +264,6 @@ Lorsque l'ensemble $X$ est muni d'une famille de relations possibles $R_p$, l'es
 > 
 > L'espace des configurations relationnelles, noté $Y(X, R_p)$, est l'ensemble de tous les états logiquement concevables : toutes les façons de choisir des éléments présents et d'activer des relations entre eux, dans le respect des relations possibles.
 
----
 
 Cet espace contient toutes les configurations relationnelles possibles. Il généralise $Y(X)$ de la section I : là où $Y(X)$ ne considérait que les liens binaires entre éléments, $Y(X, R_p)$ intègre la structure relationnelle complète.
 
@@ -292,7 +277,6 @@ On retrouve ici les trois niveaux d'être : la **structure potentielle** $(X, R_
 
 Les éléments d'un ensemble ne sont pas seulement caractérisés par leurs relations — ils peuvent aussi être caractérisés par leur *disposition*. Certains sont proches les uns des autres, d'autres sont éloignés. Cette notion de proximité, indépendante des relations, est ce qu'on appelle une **topologie**.
 
----
 
 > **Définition 7 — Topologie**
 > 
@@ -302,7 +286,6 @@ Les éléments d'un ensemble ne sont pas seulement caractérisés par leurs rela
 > 
 > On note $\mathcal{V}(x)$ la collection des voisinages de $x$.
 
----
 
 Autrement dit, une topologie répond à la question : *pour chaque élément, quels sont ses voisins ?* — sans mesurer la distance qui les sépare. Deux éléments sont « proches » s'ils apparaissent ensemble dans un voisinage de petite taille ; ils sont « éloignés » s'ils n'apparaissent ensemble dans aucun voisinage restreint.
 
@@ -340,7 +323,6 @@ Dans ce paragraphe on considère une structure potentielle $(X, R_p)$ et on note
 > 
 > L'action prend une configuration appartenant à son domaine et produit une nouvelle configuration dans ce même domaine, de façon univoque.
 
----
 
 Une action n'est pas nécessairement définie sur toutes les configurations concevables. Elle n'opère que sur celles qui relèvent de son champ d'application — les configurations pour lesquelles la transformation a un sens.
 
@@ -356,7 +338,6 @@ Une action n'est pas nécessairement définie sur toutes les configurations conc
 > 
 > Une configuration dans le domaine mais hors de la portée est **inerte** face à l'action : l'action s'y applique, mais ne change rien.
 
----
 
 La portée est toujours un sous-ensemble du domaine : $\text{Port}(a) \subseteq D$. Elle peut coïncider avec le domaine (toute configuration applicable est effectivement modifiée) ou en être un sous-ensemble strict (certaines configurations restent inchangées).
 
@@ -376,7 +357,6 @@ Aux échecs, la situation est différente : le coup « cavalier de g1 en f3 » n
 
 De même que $Y$ contient toutes les configurations concevables, on peut définir un espace contenant toutes les transformations concevables. Cet espace dépend de $Y$ — on ne peut concevoir les transformations qu'une fois les configurations posées.
 
----
 
 > **Définition 10 — Espace des transformations**
 > 
@@ -388,7 +368,6 @@ De même que $Y$ contient toutes les configurations concevables, on peut défini
 > 
 > Chaque élément de $Z(Y)$ est une action définie sur un certain domaine de configurations.
 
----
 
 $Z(Y)$ joue pour les transformations le même rôle que $Y$ pour les configurations : il représente le champ de tout ce qui est possible en termes de changement, sans restriction.
 
@@ -414,7 +393,6 @@ Chaque espace correspond exactement à l'un des trois principes fondamentaux ide
 
 Le temps est le cadre dans lequel les transformations s'ordonnent.
 
----
 
 > **Définition 11 — Temps**
 > 
@@ -425,7 +403,6 @@ Le temps est le cadre dans lequel les transformations s'ordonnent.
 > - le **passé** : $T_{<t} = \{ u \in T \mid u < t \}$
 > - le **futur** : $T_{>t} = \{ u \in T \mid t < u \}$
 
----
 
 Le temps n'est pas nécessairement régulier, ni même linéaire. Sa définition minimale est celle que le chapitre 0 avait déjà posée : un *avant* et un *après*. Le temps est l'ordre causal.
 
@@ -453,7 +430,6 @@ Le choix entre temps discret et temps continu n'est pas posé ici comme un axiom
 
 ### Trajectoire
 
-
 > **Définition 12 — Trajectoire**
 > 
 > Une **trajectoire** est une suite d'états indexée par le temps :
@@ -464,7 +440,6 @@ Le choix entre temps discret et temps continu n'est pas posé ici comme un axiom
 > 
 > La trajectoire est l'**histoire** — le film, par opposition à la photographie qu'est l'état.
 
----
 
 À ce stade, aucune contrainte n'est imposée sur la succession des états. Toute suite de configurations constitue une trajectoire légitime.
 
@@ -476,7 +451,6 @@ Le choix entre temps discret et temps continu n'est pas posé ici comme un axiom
 
 Il reste à préciser *comment* une action est sélectionnée à chaque instant. Cette sélection peut être certaine — une seule action s'impose — ou incertaine — plusieurs actions sont possibles, et le hasard tranche entre elles. C'est le concept de **force** qui formalise cette idée.
 
----
 
 > **Définition 13 — Force**
 > 
@@ -488,7 +462,6 @@ Il reste à préciser *comment* une action est sélectionnée à chaque instant.
 > 
 > Pour chaque issue $\omega \in \Omega$ du hasard, $f(\omega)$ est l'action effectivement sélectionnée.
 
----
 
 La force est ce qui *pousse* le système à changer. Elle ne crée pas les actions — celles-ci existent dans $Z(Y)$ — mais elle en sélectionne une, possiblement au hasard.
 
@@ -540,9 +513,7 @@ Ces pistes ne sont pas mutuellement exclusives. Elles peuvent coexister dans un 
 
 ---
 
-
 ## III — Les systèmes
-
 
 Le vocabulaire est posé. Les concepts de configuration, d'état, d'action, de force, de hasard, de temps et de trajectoire ont été définis pour eux-mêmes, sans référence à un objet englobant.
 
@@ -560,7 +531,6 @@ Un système statique décrit une structure figée. Il ne contient aucune notion 
 
 #### Système passif
 
-
 > **Définition 14 — Système passif**
 > 
 > Un **système statique passif** est un triplet :
@@ -573,7 +543,6 @@ Un système statique décrit une structure figée. Il ne contient aucune notion 
 > - $R_p$ la famille des relations possibles ;
 > - $E \subseteq Y$ l'ensemble des **états admissibles**.
 
----
 
 Le système passif est une **cartographie du possible** : il dit quels agencements sont admissibles, mais ne contient aucune notion de transformation. Il délimite ce qui *peut* exister sans dire comment cela peut changer.
 
@@ -584,7 +553,6 @@ C'est ici que la **contrainte** entre en jeu. Elle n'est pas un élément explic
 ---
 
 #### Système actif
-
 
 > **Définition 15 — Système actif**
 > 
@@ -598,7 +566,6 @@ C'est ici que la **contrainte** entre en jeu. Elle n'est pas un élément explic
 > 
 > Toute action admissible prend un état admissible et produit un état admissible.
 
----
 
 Le système actif enrichit le système passif : il décrit non seulement ce qui peut exister, mais aussi comment cela peut être *transformé*. C'est le premier niveau où apparaît la transformation au sens du chapitre 0.
 
@@ -612,12 +579,10 @@ Toutefois, le système actif ne précise pas encore *quand* ni *comment* ces act
 
 #### Système valué
 
-
 > **Définition 16 — Système valué**
 > 
 > Un système (passif ou actif) est dit **valué** lorsque ses relations possibles sont des relations valuées (Définition 4 bis) — c'est-à-dire lorsqu'elles prennent leurs valeurs dans des espaces de valuation $W_i$ plus riches que $\{0, 1\}$.
 
----
 
 Le qualificatif *valué* n'est pas un type de système supplémentaire : c'est une **propriété** qui peut s'appliquer à tout système. Un système passif peut être valué ou non ; un système actif peut être valué ou non. Cette distinction sera également pertinente pour les systèmes dynamiques.
 
@@ -637,7 +602,6 @@ Selon la nature du mécanisme de sélection des forces, on distingue trois nivea
 
 #### Système dynamique simple
 
-
 > **Définition 17 — Système dynamique simple**
 > 
 > Un **système dynamique simple** est un sextuplet :
@@ -653,7 +617,6 @@ Selon la nature du mécanisme de sélection des forces, on distingue trois nivea
 > 
 > $a_t = f(\omega_t), \quad \text{puis} \quad e_{t+1} = a_t(e_t)$
 
----
 
 Le système dynamique simple est le niveau le plus élémentaire d'évolution. La même force s'applique partout, tout le temps — indépendamment de l'état courant et de l'instant.
 
@@ -667,7 +630,6 @@ Si la force est stochastique, la trajectoire est un **processus aléatoire** : �
 
 #### Système dynamique évolutif
 
-
 > **Définition 18 — Système dynamique évolutif**
 > 
 > Un **système dynamique évolutif** est un sextuplet :
@@ -680,7 +642,6 @@ Si la force est stochastique, la trajectoire est un **processus aléatoire** : �
 > 
 > $a_t = f_t(\omega_t), \quad \text{puis} \quad e_{t+1} = a_t(e_t)$
 
----
 
 Le système évolutif introduit une dépendance temporelle : les forces changent au cours du temps, mais indépendamment de l'état du système. Les règles du jeu changent — mais elles changent selon un programme extérieur, sans réaction à ce qui se passe dans le système.
 
@@ -689,7 +650,6 @@ Le système évolutif introduit une dépendance temporelle : les forces changent
 ---
 
 #### Système dynamique réflexif
-
 
 > **Définition 19 — Système dynamique réflexif**
 > 
@@ -707,7 +667,6 @@ Le système évolutif introduit une dépendance temporelle : les forces changent
 > 
 > $a_t = \mathcal{D}(e_t)(\omega_t), \quad \text{puis} \quad e_{t+1} = a_t(e_t)$
 
----
 
 Le système réflexif est fondamentalement différent des précédents : la force exercée **dépend de l'état courant**. Le système « réfléchit » — au sens optique du terme — sa propre configuration dans le choix de la transformation à appliquer.
 
@@ -768,7 +727,6 @@ Mais le flot est un *résultat* — la trajectoire produite par une loi d'évolu
 
 La hiérarchie simple / évolutif / réflexif se transpose donc au temps continu.
 
----
 
 > **Définition 20 — Système dynamique continu simple**
 > 
@@ -783,7 +741,6 @@ La hiérarchie simple / évolutif / réflexif se transpose donc au temps continu
 > 
 > La même loi d'évolution s'applique en tout état et à tout instant.
 
----
 
 > **Définition 21 — Système dynamique continu évolutif**
 > 
@@ -798,7 +755,6 @@ La hiérarchie simple / évolutif / réflexif se transpose donc au temps continu
 > 
 > La loi d'évolution change au cours du temps, mais ne dépend pas de l'état. La propriété de semi-groupe simple n'est plus satisfaite — elle est remplacée par cette condition de **composition** plus générale.
 
----
 
 > **Définition 22 — Système dynamique continu réflexif**
 > 
@@ -810,7 +766,6 @@ La hiérarchie simple / évolutif / réflexif se transpose donc au temps continu
 > 
 > La loi d'évolution dépend de l'état courant. C'est l'analogue continu du champ de forces $\mathcal{D}$ du cas discret : à chaque état, une dynamique propre.
 
----
 
 Dans chacun de ces trois cas, la loi d'évolution peut être **déterministe** — elle prescrit une trajectoire unique à partir de chaque état initial — ou **stochastique** — elle prescrit un **ensemble de flots possibles**, un pour chaque issue $\omega \in \Omega$ du hasard, structuré par une mesure de probabilité. Dans le cas stochastique, le flot devient un **flot aléatoire** : à chaque réalisation du hasard correspond une évolution différente.
 
@@ -892,7 +847,6 @@ La hiérarchie simple / évolutif / réflexif est déclinée en temps **discret*
 Et c'est cette hiérarchie qui structurera la suite de la réflexion. Les systèmes physiques simples relèvent souvent du niveau dynamique simple ou réflexif. Les systèmes vivants sont réflexifs au sens faible ou fort. Les systèmes conscients sont réflexifs au sens complet.
 
 ---
-
 
 ## Clôture du chapitre 1
 
