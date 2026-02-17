@@ -1,7 +1,7 @@
 ---
 title: Préambule
 date: 2026-02-15
-last_modified_at: 2026-02-16
+last_modified_at: 2026-02-17
 ---
 
 # PRÉAMBULE
@@ -64,6 +64,8 @@ Le langage naturel offre la souplesse. Il permet la métaphore — cette manièr
 Le langage formel impose la rigueur. Une notion qui ne peut se traduire symboliquement n'est peut-être pas aussi claire qu'elle le semble. Formaliser oblige à épurer : chaque concept doit être réduit à ce qui lui est propre, débarrassé de ses associations implicites. Le formalisme transforme la manipulation d'idées en manipulation de symboles et rend possible le calcul — c'est-à-dire l'application de règles sans reconstruction mentale de chaque étape intermédiaire — et ouvre la voie vers l'automatisation.
 
 Nous tenterons donc de proposer un formalisme minimal des notions avancées ici. Le langage mathématique sera mobilisé non pour produire une quantification exhaustive du réel, mais pour structurer une vision qualitative cohérente. C'est sans doute l'une des étapes les plus délicates du projet.
+
+*Note au lecteur.* Aucun prérequis particulier en mathématiques n'est nécessaire pour aborder ce texte, si ce n'est une certaine familiarité avec son langage. Les notions mathématiques mobilisées (ensembles, fonctions, relations, ordres, probabilités) sont rappelées dans l'**Annexe — Prérequis mathématiques**, à laquelle le texte renvoie lorsque nécessaire. Le lecteur qui n'est pas familier avec la notation formelle peut omettre la lecture des formules sans perdre le fil du raisonnement : chaque expression mathématique n'est qu'une formalisation de ce qui est dit dans le texte en langage naturel.
 
 ---
 
