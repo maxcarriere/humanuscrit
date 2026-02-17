@@ -830,6 +830,21 @@ html[data-darkreader-mode] .navigation-dossier a:hover {
   min-height: 1.5em;
 }
 
+.visitor-counter-link {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  font-size: 0.9em;
+}
+
+.visitor-counter-link a {
+  color: #6b5d4f;
+  text-decoration: none;
+}
+
+.visitor-counter-link a:hover {
+  text-decoration: underline;
+}
+
 /* Page Évolution — filtres et graphique */
 .evolution-filters,
 #filters {

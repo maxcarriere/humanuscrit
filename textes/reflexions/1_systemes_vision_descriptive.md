@@ -42,14 +42,12 @@ Il nous faut maintenant une structure formelle capable d'exprimer ces idées —
 
 Cette structure existe. C'est le **graphe**.
 
-
 > **Définition 1 — Graphe**
 > 
 > Un **graphe** est un couple $G = (X, L)$ où :
 > 
 > - $X$ est un ensemble fini d'éléments, appelés **sommets** ;
 > - $L$ est un ensemble de **liens** entre ces sommets.
-
 
 Un sommet représente un élément distingué — une entité identifiable, séparée des autres. Un lien représente une relation — une dépendance, une proximité, une compatibilité. Le lien ne présuppose rien de physique : il exprime simplement le fait que deux éléments ne sont pas indépendants l'un de l'autre.
 
@@ -67,13 +65,11 @@ Le graphe est la traduction directe, en langage formel, de ce que le chapitre 0 
 
 L'ensemble $X$ des sommets d'un graphe constitue le premier espace fondamental.
 
-
 > **Définition 2 — Espace des distinctions**
 > 
 > L'**espace des distinctions**, noté $X$, est l'ensemble de tous les éléments susceptibles d'être distingués.
 > 
 > C'est l'alphabet du système — le répertoire de tout ce qui peut être nommé, identifié, séparé.
-
 
 $X$ ne dit rien sur les relations entre ses éléments. Il dit seulement : voici les briques élémentaires. Tout ce qui suit — configurations, transformations, systèmes — sera construit à partir de cet ensemble.
 
@@ -84,7 +80,6 @@ $X$ ne dit rien sur les relations entre ses éléments. Il dit seulement : voici
 Étant donné un ensemble $X$ de $n$ éléments distingués, une **configuration** est une manière de les relier entre eux. Elle décrit, pour chaque groupe d'éléments, si un lien existe ou non.
 
 Chaque lien possible est soit présent, soit absent. C'est un choix binaire — et c'est de ce choix que naît l'immensité combinatoire.
-
 
 > **Définition 3 — Espace des configurations**
 > 
@@ -97,7 +92,6 @@ Chaque lien possible est soit présent, soit absent. C'est un choix binaire — 
 > $$\lvert Y(X) \rvert = 2^{n(n-1)/2}$$
 > 
 > éléments.
-
 
 Ce nombre croît vertigineusement. Pour 3 éléments, il y a 3 paires possibles et donc $2^3 = 8$ configurations — de l'absence totale de lien à la connexion complète. Pour 5 éléments, 10 paires et 1 024 configurations. Pour 10 éléments, 45 paires et plus de 35 000 milliards de configurations.
 
@@ -154,7 +148,6 @@ On peut formaliser cette notion de deux manières, selon le degré de générali
 > 
 > Elle désigne l'ensemble des $n_i$-uplets d'éléments entre lesquels la relation *peut* exister. La relation est **binaire** : pour un $n_i$-uplet donné, le lien est possible ou ne l'est pas.
 
-
 Ces relations décrivent non pas ce qui est effectivement réalisé, mais tout ce qui *pourrait l'être*.
 
 À un instant donné, seules certaines de ces relations sont actives. Cette distinction est capitale : un lien possible n'est pas un lien effectif.
@@ -163,11 +156,11 @@ Ces relations décrivent non pas ce qui est effectivement réalisé, mais tout c
 
 - Les **relations effectives** $r_i$ — ce qui est actuellement réalisé.
 
-Soit $A \subseteq X$ une partie de $X$. La **restriction** de $R_i$ à $A$, notée ${R_i}|_A$, est l'ensemble des $n_i$-uplets de $R_i$ dont tous les éléments appartiennent à $A$ :
+Soit $A \subseteq X$ une partie de $X$. La **restriction** de $R\_i$ à $A$, notée ${R\_i}|\_A$, est l'ensemble des $n\_i$-uplets de $R\_i$ dont tous les éléments appartiennent à $A$ :
 
-$${R_i}|_A = R_i \cap A^{n_i}$$
+$${R\_i}|\_A = R\_i \cap A^{n\_i}$$
 
-On a nécessairement $r_i \subseteq {R_i}|_A$ : une relation effective entre les éléments présents ne peut exister que si la relation possible l'autorise.
+On a nécessairement $r\_i \subseteq {R\_i}|\_A$ : une relation effective entre les éléments présents ne peut exister que si la relation possible l'autorise.
 
 Cette séparation entre le possible et l'effectif est l'une des idées les plus importantes de toute la construction. Une structure ne se définit pas seulement par ce qui *est*, mais par ce qui *pourrait être*.
 
@@ -188,7 +181,6 @@ Cette séparation entre le possible et l'effectif est l'une des idées les plus 
 
 La relation logique admet une généralisation naturelle. Au lieu de se limiter à « le lien existe ou n'existe pas », on peut associer à chaque $n_i$-uplet une **valeur** — une intensité, un poids, une mesure.
 
-
 > **Définition 4 (bis) — Relation valuée**
 > 
 > Une **relation possible** $R_i$ de degré $n_i$, valuée dans un ensemble $W_i$, est une application :
@@ -198,7 +190,6 @@ La relation logique admet une généralisation naturelle. Au lieu de se limiter 
 > qui associe à chaque $n_i$-uplet d'éléments de $X$ une **valeur** dans $W_i$.
 > 
 > L'ensemble $W_i$ est appelé **espace de valuation** de la relation $R_i$. Il contient un élément distingué, noté $0$ (ou $\bot$), qui signifie *absence de relation*.
-
 
 L'espace de valuation $W_i$ capture la richesse du lien. Selon le choix de $W_i$, on retrouve différents cadres :
 
@@ -212,13 +203,13 @@ La **relation logique est un cas particulier de la relation valuée**, retrouvé
 
 Les relations effectives sont alors des applications $r_i : A^{n_i} \to W_i$, avec la contrainte qu'une relation effective ne peut prendre une valeur non nulle que là où la relation possible le permet :
 
-$$r_i(x_1, \ldots, x_{n_i}) \neq 0 \implies R_i(x_1, \ldots, x_{n_i}) \neq 0$$
+$$r\_i(x\_1, \ldots, x\_{n\_i}) \neq 0 \implies R\_i(x\_1, \ldots, x\_{n\_i}) \neq 0$$
 
-Pour une partie $A \subseteq X$, la **restriction** de $R_i$ à $A$, notée ${R_i}|_A$, est l'application obtenue en restreignant le domaine de $R_i$ aux $n_i$-uplets d'éléments de $A$ :
+Pour une partie $A \subseteq X$, la **restriction** de $R\_i$ à $A$, notée ${R\_i}|\_A$, est l'application obtenue en restreignant le domaine de $R\_i$ aux $n\_i$-uplets d'éléments de $A$ :
 
-$${R_i}|_A : A^{n_i} \to W_i, \quad {R_i}|_A(x_1, \ldots, x_{n_i}) = R_i(x_1, \ldots, x_{n_i})$$
+$${R\_i}|\_A : A^{n\_i} \to W\_i, \quad {R\_i}|\_A(x\_1, \ldots, x\_{n\_i}) = R\_i(x\_1, \ldots, x\_{n\_i})$$
 
-La relation effective $r_i$ est alors une application de $A^{n_i}$ dans $W_i$ telle que $r_i(x_1, \ldots, x_{n_i}) \neq 0$ implique ${R_i}|_A(x_1, \ldots, x_{n_i}) \neq 0$.
+La relation effective $r\_i$ est alors une application de $A^{n\_i}$ dans $W\_i$ telle que $r\_i(x\_1, \ldots, x\_{n\_i}) \neq 0$ implique ${R\_i}|\_A(x\_1, \ldots, x\_{n\_i}) \neq 0$.
 
 *Exemple.* Dans le même réseau social, on peut enrichir la description : l'amitié n'est plus seulement présente ou absente, elle porte une intensité. $R_1 : X^2 \to [0, 1]$ mesure le degré d'affinité ; $R_2 : X^2 \to \{0, 1\}$ reste binaire (on est parent ou non) ; $R_3 : X^2 \to \{\text{nul}, \text{collègue}, \text{hiérarchique}\}$ est qualitative. Dire que $x$ et $y$ sont amis avec une affinité de $0.8$ s'écrit $r_1(x,y) = 0.8$.
 
@@ -240,10 +231,9 @@ La relation effective $r_i$ est alors une application de $A^{n_i}$ dans $W_i$ te
 > 
 > - $A \subseteq X$ est l'ensemble des éléments **présents** — ceux qui participent effectivement à la configuration ;
 > 
-> - $R = (r_i)_{i \in I}$ est une famille de **relations effectives** sur $A$ entre les éléments présents — avec $r_i \subset {R_i}|_{A}$ 
+> - $R = (r_i)_{i \in I}$ est une famille de **relations effectives** sur $A$ entre les éléments présents — avec $r\_i \subset {R\_i}|\_{A}$ 
 > 
 > Les relations effectives sont incluses dans la restriction des relations possibles aux éléments présents. Toute relation possible n'est pas nécessairement activée.
-
 
 L'état dit *quoi* existe et *comment* c'est relié, à un instant donné. Il est la photographie du réel — non pas ce que le réel *pourrait* être, mais ce qu'il *est*.
 
@@ -257,13 +247,11 @@ Autrement dit : un état décrit une situation concrète. Il identifie les élé
 
 Lorsque l'ensemble $X$ est muni d'une famille de relations possibles $R_p$, l'espace des configurations s'enrichit.
 
-
 > **Définition 6 — Espace des configurations relationnelles**
 > 
 > Soit une structure potentielle $(X, R_p)$.
 > 
 > L'espace des configurations relationnelles, noté $Y(X, R_p)$, est l'ensemble de tous les états logiquement concevables : toutes les façons de choisir des éléments présents et d'activer des relations entre eux, dans le respect des relations possibles.
-
 
 Cet espace contient toutes les configurations relationnelles possibles. Il généralise $Y(X)$ de la section I : là où $Y(X)$ ne considérait que les liens binaires entre éléments, $Y(X, R_p)$ intègre la structure relationnelle complète.
 
@@ -277,7 +265,6 @@ On retrouve ici les trois niveaux d'être : la **structure potentielle** $(X, R_
 
 Les éléments d'un ensemble ne sont pas seulement caractérisés par leurs relations — ils peuvent aussi être caractérisés par leur *disposition*. Certains sont proches les uns des autres, d'autres sont éloignés. Cette notion de proximité, indépendante des relations, est ce qu'on appelle une **topologie**.
 
-
 > **Définition 7 — Topologie**
 > 
 > Une **topologie** sur un ensemble $A$ est la donnée, pour chaque élément $x \in A$, d'une collection de **voisinages** de $x$.
@@ -285,7 +272,6 @@ Les éléments d'un ensemble ne sont pas seulement caractérisés par leurs rela
 > Un voisinage de $x$ est un sous-ensemble $V \subseteq A$ qui contient $x$ et les éléments considérés comme « proches » de $x$ à une certaine échelle.
 > 
 > On note $\mathcal{V}(x)$ la collection des voisinages de $x$.
-
 
 Autrement dit, une topologie répond à la question : *pour chaque élément, quels sont ses voisins ?* — sans mesurer la distance qui les sépare. Deux éléments sont « proches » s'ils apparaissent ensemble dans un voisinage de petite taille ; ils sont « éloignés » s'ils n'apparaissent ensemble dans aucun voisinage restreint.
 
@@ -323,7 +309,6 @@ Dans ce paragraphe on considère une structure potentielle $(X, R_p)$ et on note
 > 
 > L'action prend une configuration appartenant à son domaine et produit une nouvelle configuration dans ce même domaine, de façon univoque.
 
-
 Une action n'est pas nécessairement définie sur toutes les configurations concevables. Elle n'opère que sur celles qui relèvent de son champ d'application — les configurations pour lesquelles la transformation a un sens.
 
 *Remarque.* Lorsque les relations sont valuées, une action peut modifier non seulement la *présence* de liens, mais aussi leur *intensité*. Par exemple, une action peut renforcer une amitié, créer un nouveau lien, ou affaiblir une connexion sans la supprimer.
@@ -337,7 +322,6 @@ Une action n'est pas nécessairement définie sur toutes les configurations conc
 > $\text{Port}(a) = \{ y \in D \mid a(y) \neq y \}$
 > 
 > Une configuration dans le domaine mais hors de la portée est **inerte** face à l'action : l'action s'y applique, mais ne change rien.
-
 
 La portée est toujours un sous-ensemble du domaine : $\text{Port}(a) \subseteq D$. Elle peut coïncider avec le domaine (toute configuration applicable est effectivement modifiée) ou en être un sous-ensemble strict (certaines configurations restent inchangées).
 
@@ -357,7 +341,6 @@ Aux échecs, la situation est différente : le coup « cavalier de g1 en f3 » n
 
 De même que $Y$ contient toutes les configurations concevables, on peut définir un espace contenant toutes les transformations concevables. Cet espace dépend de $Y$ — on ne peut concevoir les transformations qu'une fois les configurations posées.
 
-
 > **Définition 10 — Espace des transformations**
 > 
 > L'**espace des transformations** de $Y$, noté $Z(Y)$, est l'ensemble de toutes les actions logiquement concevables :
@@ -367,7 +350,6 @@ De même que $Y$ contient toutes les configurations concevables, on peut défini
 > où $D^D$ désigne l'ensemble de toutes les applications de $D$ dans $D$ *(voir Annexe — Prérequis mathématiques : Applications)*.
 > 
 > Chaque élément de $Z(Y)$ est une action définie sur un certain domaine de configurations.
-
 
 $Z(Y)$ joue pour les transformations le même rôle que $Y$ pour les configurations : il représente le champ de tout ce qui est possible en termes de changement, sans restriction.
 
@@ -393,7 +375,6 @@ Chaque espace correspond exactement à l'un des trois principes fondamentaux ide
 
 Le temps est le cadre dans lequel les transformations s'ordonnent.
 
-
 > **Définition 11 — Temps**
 > 
 > Le **temps** est un ensemble $T$ muni d'un **ordre** $(T, \leq)$.
@@ -402,7 +383,6 @@ Le temps est le cadre dans lequel les transformations s'ordonnent.
 > 
 > - le **passé** : $T_{<t} = \{ u \in T \mid u < t \}$
 > - le **futur** : $T_{>t} = \{ u \in T \mid t < u \}$
-
 
 Le temps n'est pas nécessairement régulier, ni même linéaire. Sa définition minimale est celle que le chapitre 0 avait déjà posée : un *avant* et un *après*. Le temps est l'ordre causal.
 
@@ -440,7 +420,6 @@ Le choix entre temps discret et temps continu n'est pas posé ici comme un axiom
 > 
 > La trajectoire est l'**histoire** — le film, par opposition à la photographie qu'est l'état.
 
-
 À ce stade, aucune contrainte n'est imposée sur la succession des états. Toute suite de configurations constitue une trajectoire légitime.
 
 *Remarque.* On verra dans la section suivante que la notion de système impose des contraintes sur les successions admissibles — en particulier, la condition que chaque transition entre $e_t$ et $e_{t+1}$ soit le résultat d'une action.
@@ -451,7 +430,6 @@ Le choix entre temps discret et temps continu n'est pas posé ici comme un axiom
 
 Il reste à préciser *comment* une action est sélectionnée à chaque instant. Cette sélection peut être certaine — une seule action s'impose — ou incertaine — plusieurs actions sont possibles, et le hasard tranche entre elles. C'est le concept de **force** qui formalise cette idée.
 
-
 > **Définition 13 — Force**
 > 
 > Soit $(\Omega, P)$ un espace de probabilité et $\mathcal{A}$ un ensemble d'actions.
@@ -461,7 +439,6 @@ Il reste à préciser *comment* une action est sélectionnée à chaque instant.
 > $f : \Omega \to \mathcal{A}$
 > 
 > Pour chaque issue $\omega \in \Omega$ du hasard, $f(\omega)$ est l'action effectivement sélectionnée.
-
 
 La force est ce qui *pousse* le système à changer. Elle ne crée pas les actions — celles-ci existent dans $Z(Y)$ — mais elle en sélectionne une, possiblement au hasard.
 
@@ -543,7 +520,6 @@ Un système statique décrit une structure figée. Il ne contient aucune notion 
 > - $R_p$ la famille des relations possibles ;
 > - $E \subseteq Y$ l'ensemble des **états admissibles**.
 
-
 Le système passif est une **cartographie du possible** : il dit quels agencements sont admissibles, mais ne contient aucune notion de transformation. Il délimite ce qui *peut* exister sans dire comment cela peut changer.
 
 C'est ici que la **contrainte** entre en jeu. Elle n'est pas un élément explicite du triplet — elle est ce qui *définit* $E$ comme sous-ensemble de $Y$. La contrainte est la frontière entre le concevable et l'admissible. Retirer une contrainte élargit $E$ ; ajouter une contrainte le restreint.
@@ -566,7 +542,6 @@ C'est ici que la **contrainte** entre en jeu. Elle n'est pas un élément explic
 > 
 > Toute action admissible prend un état admissible et produit un état admissible.
 
-
 Le système actif enrichit le système passif : il décrit non seulement ce qui peut exister, mais aussi comment cela peut être *transformé*. C'est le premier niveau où apparaît la transformation au sens du chapitre 0.
 
 Le fait que les actions soient définies directement sur $E$ traduit une exigence de **cohérence** : une action ne peut s'appliquer qu'à un état admissible, et doit produire un état lui-même admissible. Le système ne peut pas s'échapper de ses propres contraintes par une action interne.
@@ -582,7 +557,6 @@ Toutefois, le système actif ne précise pas encore *quand* ni *comment* ces act
 > **Définition 16 — Système valué**
 > 
 > Un système (passif ou actif) est dit **valué** lorsque ses relations possibles sont des relations valuées (Définition 4 bis) — c'est-à-dire lorsqu'elles prennent leurs valeurs dans des espaces de valuation $W_i$ plus riches que $\{0, 1\}$.
-
 
 Le qualificatif *valué* n'est pas un type de système supplémentaire : c'est une **propriété** qui peut s'appliquer à tout système. Un système passif peut être valué ou non ; un système actif peut être valué ou non. Cette distinction sera également pertinente pour les systèmes dynamiques.
 
@@ -617,7 +591,6 @@ Selon la nature du mécanisme de sélection des forces, on distingue trois nivea
 > 
 > $a_t = f(\omega_t), \quad \text{puis} \quad e_{t+1} = a_t(e_t)$
 
-
 Le système dynamique simple est le niveau le plus élémentaire d'évolution. La même force s'applique partout, tout le temps — indépendamment de l'état courant et de l'instant.
 
 Si la force est déterministe ($f$ constante, sélectionnant toujours la même action $a_0$), la trajectoire est entièrement déterminée par l'état initial : $e_{t+1} = a_0(e_t)$ pour tout $t$. C'est l'**itération d'une application** — la forme la plus élémentaire d'un système dynamique discret. Lorsque l'ensemble $E$ est fini, la trajectoire est nécessairement *périodique* ou *éventuellement périodique* : après un nombre fini de pas, le système repasse par un état déjà visité et boucle indéfiniment.
@@ -642,7 +615,6 @@ Si la force est stochastique, la trajectoire est un **processus aléatoire** : �
 > 
 > $a_t = f_t(\omega_t), \quad \text{puis} \quad e_{t+1} = a_t(e_t)$
 
-
 Le système évolutif introduit une dépendance temporelle : les forces changent au cours du temps, mais indépendamment de l'état du système. Les règles du jeu changent — mais elles changent selon un programme extérieur, sans réaction à ce qui se passe dans le système.
 
 *Exemple.* Un environnement soumis à des cycles saisonniers : au printemps, certaines transformations sont favorisées (croissance, reproduction) ; en hiver, d'autres s'imposent (ralentissement, hibernation). La force change selon le calendrier, pas selon l'état du système.
@@ -666,7 +638,6 @@ Le système évolutif introduit une dépendance temporelle : les forces changent
 > **Propriété de la trajectoire.** À chaque instant $t$ :
 > 
 > $a_t = \mathcal{D}(e_t)(\omega_t), \quad \text{puis} \quad e_{t+1} = a_t(e_t)$
-
 
 Le système réflexif est fondamentalement différent des précédents : la force exercée **dépend de l'état courant**. Le système « réfléchit » — au sens optique du terme — sa propre configuration dans le choix de la transformation à appliquer.
 
@@ -727,7 +698,6 @@ Mais le flot est un *résultat* — la trajectoire produite par une loi d'évolu
 
 La hiérarchie simple / évolutif / réflexif se transpose donc au temps continu.
 
-
 > **Définition 20 — Système dynamique continu simple**
 > 
 > Un **système dynamique continu simple** est un quintuplet :
@@ -740,7 +710,6 @@ La hiérarchie simple / évolutif / réflexif se transpose donc au temps continu
 > - $\Phi = (\Phi_t)_{t \geq 0}$ est un **flot** sur $E$ — une famille d'applications $\Phi_t : E \to E$ satisfaisant la propriété de semi-groupe.
 > 
 > La même loi d'évolution s'applique en tout état et à tout instant.
-
 
 > **Définition 21 — Système dynamique continu évolutif**
 > 
@@ -755,7 +724,6 @@ La hiérarchie simple / évolutif / réflexif se transpose donc au temps continu
 > 
 > La loi d'évolution change au cours du temps, mais ne dépend pas de l'état. La propriété de semi-groupe simple n'est plus satisfaite — elle est remplacée par cette condition de **composition** plus générale.
 
-
 > **Définition 22 — Système dynamique continu réflexif**
 > 
 > Un **système dynamique continu réflexif** est un quintuplet :
@@ -765,7 +733,6 @@ La hiérarchie simple / évolutif / réflexif se transpose donc au temps continu
 > où $\mathcal{D}$ est une **loi d'évolution locale** qui associe à chaque état $e \in E$ la direction et le rythme du changement en cet état.
 > 
 > La loi d'évolution dépend de l'état courant. C'est l'analogue continu du champ de forces $\mathcal{D}$ du cas discret : à chaque état, une dynamique propre.
-
 
 Dans chacun de ces trois cas, la loi d'évolution peut être **déterministe** — elle prescrit une trajectoire unique à partir de chaque état initial — ou **stochastique** — elle prescrit un **ensemble de flots possibles**, un pour chaque issue $\omega \in \Omega$ du hasard, structuré par une mesure de probabilité. Dans le cas stochastique, le flot devient un **flot aléatoire** : à chaque réalisation du hasard correspond une évolution différente.
 

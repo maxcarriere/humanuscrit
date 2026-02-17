@@ -10,7 +10,8 @@ layout: default
 
 <!-- Compteur de visites public (countapi.xyz, sans backend) — visible uniquement sur l’accueil -->
 <section id="visitor-counter" class="visitor-counter" aria-label="Compteur de visites">
-  <span aria-hidden="true">👁️</span> Visiteurs : <strong id="visits">—</strong>
+  <p><span aria-hidden="true">👁️</span> Nombre de visiteurs : <strong id="visits">…</strong></p>
+  <p class="visitor-counter-link"><a href="{{ '/evolution/' | relative_url }}">Suivre l'évolution (graphique)</a></p>
 </section>
 <script>
 (function() {
