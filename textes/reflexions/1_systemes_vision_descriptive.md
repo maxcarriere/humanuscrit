@@ -1,5 +1,6 @@
 ---
-title: Chapitre 1 - Systèmes : Vision descriptive
+title: Chapitre 1 — Système : vision descriptive
+short_title: Système : vision descriptive
 permalink: /textes/reflexions/chapitre-1-systemes-vision-descriptive/
 order: 3
 date: 2026-02-17
@@ -130,7 +131,7 @@ Cette section pose les concepts nécessaires pour décrire la structure et le mo
 
 Un ensemble de distinctions $X$ peut être muni d'une famille de **relations possibles** :
 
-$$R_p = (R\_i)_{i \in I}$$
+$$R_p = (R_i)_{i \in I}$$
 
 où chaque $R\_i$ est une relation de degré quelconque définie sur $X$. Chaque relation $R\_i$ correspond à un type de lien possible entre les éléments de $X$.
 
@@ -158,7 +159,7 @@ Ces relations décrivent non pas ce qui est effectivement réalisé, mais tout c
 
 Soit $A \subseteq X$ une partie de $X$. La **restriction** de $R\_i$ à $A$, notée $R\_i \restriction_A$, est l'ensemble des $n\_i$-uplets de $R\_i$ dont tous les éléments appartiennent à $A$ :
 
-$$R\_i \restriction_A = R\_i \cap A^{n\_i}$$
+$$R_i \restriction_A = R_i \cap A^{n_i}$$
 
 On a nécessairement $r\_i \subseteq R\_i \restriction_A$ : une relation effective entre les éléments présents ne peut exister que si la relation possible l'autorise.
 
@@ -203,11 +204,11 @@ La **relation logique est un cas particulier de la relation valuée**, retrouvé
 
 Les relations effectives sont alors des applications $r\_i : A^{n\_i} \to W\_i$, avec la contrainte qu'une relation effective ne peut prendre une valeur non nulle que là où la relation possible le permet :
 
-$$r\_i(x\_1, \ldots, x\_{n\_i}) \neq 0 \implies R\_i(x\_1, \ldots, x\_{n\_i}) \neq 0$$
+$$r_i(x_1, \ldots, x_{n_i}) \neq 0 \implies R_i(x_1, \ldots, x_{n_i}) \neq 0$$
 
 Pour une partie $A \subseteq X$, la **restriction** de $R\_i$ à $A$, notée $R\_i \restriction_A$, est l'application obtenue en restreignant le domaine de $R\_i$ aux $n\_i$-uplets d'éléments de $A$ :
 
-$$R\_i \restriction_A : A^{n\_i} \to W\_i, \quad (R\_i \restriction_A)(x\_1, \ldots, x\_{n\_i}) = R\_i(x\_1, \ldots, x\_{n\_i})$$
+$$R_i \restriction_A : A^{n_i} \to W_i, \quad (R_i \restriction_A)(x_1, \ldots, x_{n_i}) = R_i(x_1, \ldots, x_{n_i})$$
 
 La relation effective $r\_i$ est alors une application de $A^{n\_i}$ dans $W\_i$ telle que $r\_i(x\_1, \ldots, x\_{n\_i}) \neq 0$ implique $(R\_i \restriction_A)(x\_1, \ldots, x\_{n\_i}) \neq 0$.
 

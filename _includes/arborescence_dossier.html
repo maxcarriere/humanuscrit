@@ -24,7 +24,7 @@
     {% for ref_path in ref_order %}
       {% assign p = site.pages | where: "path", ref_path | first %}
       {% if p %}
-        <li><a href="{{ p.url | relative_url }}">{% include lib_display_name.html name=p.name title=p.title %}</a></li>
+        <li><a href="{{ p.url | relative_url }}">{% include lib_display_name.html name=p.name title=p.short_title | default: p.title %}</a></li>
       {% endif %}
     {% endfor %}
   {% else %}
@@ -51,24 +51,24 @@
       {% if p.name == "index.md" %}
         {% assign item_name = rel_parts[0] %}
         <li>
-          <a href="{{ p.url | relative_url }}">{% include lib_display_name.html name=item_name title=p.title %}</a>
+          <a href="{{ p.url | relative_url }}">{% include lib_display_name.html name=item_name title=p.short_title | default: p.title %}</a>
         </li>
       {% elsif p.name != "README.md" %}
         <li>
           <a href="{{ p.url | relative_url }}">
-            {% include lib_display_name.html name=p.name title=p.title %}
+            {% include lib_display_name.html name=p.name title=p.short_title | default: p.title %}
           </a>
         </li>
       {% endif %}
     {% elsif depth == 2 and p.name == "index.md" %}
       {% assign item_name = rel_parts[0] %}
       <li>
-        <a href="{{ p.url | relative_url }}">{% include lib_display_name.html name=item_name title=p.title %}</a>
+        <a href="{{ p.url | relative_url }}">{% include lib_display_name.html name=item_name title=p.short_title | default: p.title %}</a>
       </li>
     {% elsif depth == 2 and p.name != "README.md" %}
       <li>
         <a href="{{ p.url | relative_url }}">
-          {% include lib_display_name.html name=p.name title=p.title %}
+          {% include lib_display_name.html name=p.name title=p.short_title | default: p.title %}
         </a>
       </li>
     {% endif %}
