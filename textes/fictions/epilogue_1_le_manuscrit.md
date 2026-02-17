@@ -1,5 +1,6 @@
 ---
 title: "Epilogue 1 - Le manuscrit"
+order: 7
 date: 2026-02-09
 last_modified_at: 2026-02-09
 ---

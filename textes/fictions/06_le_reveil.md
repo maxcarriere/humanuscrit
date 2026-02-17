@@ -1,5 +1,6 @@
 ---
 title: "06 - Le Réveil"
+order: 6
 date: 2026-02-09
 last_modified_at: 2026-02-09
 ---

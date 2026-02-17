@@ -1,10 +1,11 @@
 ---
 title: Chapitre 1 - Systèmes : Vision descriptive
+order: 3
 date: 2026-02-17
 last_modified_at: 2026-02-16
 ---
 
-# Chapitre 1 — Système : vision descriptive
+# Système : vision descriptive
 
 *De la structure au mouvement*
 
@@ -30,11 +31,9 @@ Le chapitre se divise en trois parties. La première introduit le graphe comme s
 
 ---
 
----
 
 ## I — Le graphe
 
----
 
 ### De la distinction au graphe
 
@@ -154,7 +153,6 @@ On peut formaliser cette notion de deux manières, selon le degré de générali
 
 #### Relation logique
 
----
 
 > **Définition 4 — Relation logique**
 > 
@@ -454,7 +452,6 @@ Le choix entre temps discret et temps continu n'est pas posé ici comme un axiom
 
 ### Trajectoire
 
----
 
 > **Définition 12 — Trajectoire**
 > 
@@ -542,11 +539,9 @@ Ces pistes ne sont pas mutuellement exclusives. Elles peuvent coexister dans un 
 
 ---
 
----
 
 ## III — Les systèmes
 
----
 
 Le vocabulaire est posé. Les concepts de configuration, d'état, d'action, de force, de hasard, de temps et de trajectoire ont été définis pour eux-mêmes, sans référence à un objet englobant.
 
@@ -564,7 +559,6 @@ Un système statique décrit une structure figée. Il ne contient aucune notion 
 
 #### Système passif
 
----
 
 > **Définition 14 — Système passif**
 > 
@@ -590,7 +584,6 @@ C'est ici que la **contrainte** entre en jeu. Elle n'est pas un élément explic
 
 #### Système actif
 
----
 
 > **Définition 15 — Système actif**
 > 
@@ -618,7 +611,6 @@ Toutefois, le système actif ne précise pas encore *quand* ni *comment* ces act
 
 #### Système valué
 
----
 
 > **Définition 16 — Système valué**
 > 
@@ -644,7 +636,6 @@ Selon la nature du mécanisme de sélection des forces, on distingue trois nivea
 
 #### Système dynamique simple
 
----
 
 > **Définition 17 — Système dynamique simple**
 > 
@@ -675,7 +666,6 @@ Si la force est stochastique, la trajectoire est un **processus aléatoire** : �
 
 #### Système dynamique évolutif
 
----
 
 > **Définition 18 — Système dynamique évolutif**
 > 
@@ -699,7 +689,6 @@ Le système évolutif introduit une dépendance temporelle : les forces changent
 
 #### Système dynamique réflexif
 
----
 
 > **Définition 19 — Système dynamique réflexif**
 > 
@@ -903,7 +892,6 @@ Et c'est cette hiérarchie qui structurera la suite de la réflexion. Les systè
 
 ---
 
----
 
 ## Clôture du chapitre 1
 

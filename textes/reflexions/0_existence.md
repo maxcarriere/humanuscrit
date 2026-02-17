@@ -1,4 +1,11 @@
-# Chapitre 0 — Existence
+---
+title: Chapitre 0 - Existence
+order: 2
+date: 2026-02-16
+last_modified_at: 2026-02-09
+---
+
+# Existence
 
 *Seuil ontologique*
 

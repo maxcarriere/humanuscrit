@@ -17,7 +17,7 @@
 {% if dossier %}
 {% assign prefix = dossier | append: "/" %}
 <ul class="arborescence-textes">
-  {% assign all_pages = site.pages | where_exp: "p", "p.path contains prefix" | sort: "date" %}
+  {% assign all_pages = site.pages | where_exp: "p", "p.path contains prefix" | sort: "order" %}
   {% for p in all_pages %}
     {% assign path_str = p.path %}
     {% unless path_str contains prefix %}

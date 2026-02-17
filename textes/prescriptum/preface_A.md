@@ -1,3 +1,6 @@
+---
+order: 4
+---
 ## **Préface A** : Un manuscrit pour réécrire l'humanité.
 
 Je ne considère pas ce livre comme le mien. Je suis d'ailleurs convaincu que les idées qui y sont présentées existent déjà ailleurs, portées par d’autres formes, d’autres projets, et qu’il est même possible que leur mise en œuvre est déjà commencée. Je considère donc ce manuscrit non pas comme une création individuelle, mais comme un phénomène émergent, qui se manifeste de par notre condition humaine, dans notre environnement actuel.
