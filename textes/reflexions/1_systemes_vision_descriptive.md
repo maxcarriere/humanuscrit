@@ -130,9 +130,9 @@ Cette section pose les concepts nécessaires pour décrire la structure et le mo
 
 Un ensemble de distinctions $X$ peut être muni d'une famille de **relations possibles** :
 
-$$R_p = (R_i)_{i \in I}$$
+$$R_p = (R\_i)_{i \in I}$$
 
-où chaque $R_i$ est une relation de degré quelconque définie sur $X$. Chaque relation $R_i$ correspond à un type de lien possible entre les éléments de $X$.
+où chaque $R\_i$ est une relation de degré quelconque définie sur $X$. Chaque relation $R\_i$ correspond à un type de lien possible entre les éléments de $X$.
 
 On peut formaliser cette notion de deux manières, selon le degré de généralité souhaité.
 
@@ -142,25 +142,25 @@ On peut formaliser cette notion de deux manières, selon le degré de générali
 
 > **Définition 4 — Relation logique**
 > 
-> Une **relation possible** $R_i$ de degré $n_i$ sur $X$ est un sous-ensemble de $X^{n_i}$ :
-> 
-> $R_i \subseteq X^{n_i}$
-> 
-> Elle désigne l'ensemble des $n_i$-uplets d'éléments entre lesquels la relation *peut* exister. La relation est **binaire** : pour un $n_i$-uplet donné, le lien est possible ou ne l'est pas.
+> Une **relation possible** $R\_i$ de degré $n\_i$ sur $X$ est un sous-ensemble de $X^{n\_i}$ :
+>
+> $R\_i \subseteq X^{n\_i}$
+>
+> Elle désigne l'ensemble des $n\_i$-uplets d'éléments entre lesquels la relation *peut* exister. La relation est **binaire** : pour un $n\_i$-uplet donné, le lien est possible ou ne l'est pas.
 
 Ces relations décrivent non pas ce qui est effectivement réalisé, mais tout ce qui *pourrait l'être*.
 
 À un instant donné, seules certaines de ces relations sont actives. Cette distinction est capitale : un lien possible n'est pas un lien effectif.
 
-- Les **relations possibles** $R_i$ — le champ de tout ce qui pourrait lier les éléments ;
+- Les **relations possibles** $R\_i$ — le champ de tout ce qui pourrait lier les éléments ;
 
-- Les **relations effectives** $r_i$ — ce qui est actuellement réalisé.
+- Les **relations effectives** $r\_i$ — ce qui est actuellement réalisé.
 
-Soit $A \subseteq X$ une partie de $X$. La **restriction** de $R\_i$ à $A$, notée ${R\_i}|\_A$, est l'ensemble des $n\_i$-uplets de $R\_i$ dont tous les éléments appartiennent à $A$ :
+Soit $A \subseteq X$ une partie de $X$. La **restriction** de $R\_i$ à $A$, notée $R\_i \restriction_A$, est l'ensemble des $n\_i$-uplets de $R\_i$ dont tous les éléments appartiennent à $A$ :
 
-$${R\_i}|\_A = R\_i \cap A^{n\_i}$$
+$$R\_i \restriction_A = R\_i \cap A^{n\_i}$$
 
-On a nécessairement $r\_i \subseteq {R\_i}|\_A$ : une relation effective entre les éléments présents ne peut exister que si la relation possible l'autorise.
+On a nécessairement $r\_i \subseteq R\_i \restriction_A$ : une relation effective entre les éléments présents ne peut exister que si la relation possible l'autorise.
 
 Cette séparation entre le possible et l'effectif est l'une des idées les plus importantes de toute la construction. Une structure ne se définit pas seulement par ce qui *est*, mais par ce qui *pourrait être*.
 
@@ -179,37 +179,37 @@ Cette séparation entre le possible et l'effectif est l'une des idées les plus 
 
 #### Relation valuée
 
-La relation logique admet une généralisation naturelle. Au lieu de se limiter à « le lien existe ou n'existe pas », on peut associer à chaque $n_i$-uplet une **valeur** — une intensité, un poids, une mesure.
+La relation logique admet une généralisation naturelle. Au lieu de se limiter à « le lien existe ou n'existe pas », on peut associer à chaque $n\_i$-uplet une **valeur** — une intensité, un poids, une mesure.
 
 > **Définition 4 (bis) — Relation valuée**
 > 
-> Une **relation possible** $R_i$ de degré $n_i$, valuée dans un ensemble $W_i$, est une application :
-> 
-> $R_i : X^{n_i} \to W_i$
-> 
-> qui associe à chaque $n_i$-uplet d'éléments de $X$ une **valeur** dans $W_i$.
-> 
-> L'ensemble $W_i$ est appelé **espace de valuation** de la relation $R_i$. Il contient un élément distingué, noté $0$ (ou $\bot$), qui signifie *absence de relation*.
+> Une **relation possible** $R\_i$ de degré $n\_i$, valuée dans un ensemble $W\_i$, est une application :
+>
+> $R\_i : X^{n\_i} \to W\_i$
+>
+> qui associe à chaque $n\_i$-uplet d'éléments de $X$ une **valeur** dans $W\_i$.
+>
+> L'ensemble $W\_i$ est appelé **espace de valuation** de la relation $R\_i$. Il contient un élément distingué, noté $0$ (ou $\bot$), qui signifie *absence de relation*.
 
-L'espace de valuation $W_i$ capture la richesse du lien. Selon le choix de $W_i$, on retrouve différents cadres :
+L'espace de valuation $W\_i$ capture la richesse du lien. Selon le choix de $W\_i$, on retrouve différents cadres :
 
-- **$W_i = \{0, 1\}$** : la relation est binaire — le lien existe ($1$) ou n'existe pas ($0$). On retrouve exactement la **relation logique** de la définition précédente.
+- **$W\_i = \{0, 1\}$** : la relation est binaire — le lien existe ($1$) ou n'existe pas ($0$). On retrouve exactement la **relation logique** de la définition précédente.
 
-- **$W_i = \mathbb{R}^+$** : la relation porte une **intensité** continue — une force d'attraction, un débit, une affinité. Le lien n'est plus « tout ou rien » ; il possède un poids.
+- **$W\_i = \mathbb{R}^+$** : la relation porte une **intensité** continue — une force d'attraction, un débit, une affinité. Le lien n'est plus « tout ou rien » ; il possède un poids.
 
-- **$W_i$ fini** (par exemple $\{\text{nul}, \text{faible}, \text{moyen}, \text{fort}\}$) : la relation est **qualitative et graduée**.
+- **$W\_i$ fini** (par exemple $\{\text{nul}, \text{faible}, \text{moyen}, \text{fort}\}$) : la relation est **qualitative et graduée**.
 
-La **relation logique est un cas particulier de la relation valuée**, retrouvé lorsque $W_i = \{0, 1\}$ pour toutes les relations.
+La **relation logique est un cas particulier de la relation valuée**, retrouvé lorsque $W\_i = \{0, 1\}$ pour toutes les relations.
 
-Les relations effectives sont alors des applications $r_i : A^{n_i} \to W_i$, avec la contrainte qu'une relation effective ne peut prendre une valeur non nulle que là où la relation possible le permet :
+Les relations effectives sont alors des applications $r\_i : A^{n\_i} \to W\_i$, avec la contrainte qu'une relation effective ne peut prendre une valeur non nulle que là où la relation possible le permet :
 
 $$r\_i(x\_1, \ldots, x\_{n\_i}) \neq 0 \implies R\_i(x\_1, \ldots, x\_{n\_i}) \neq 0$$
 
-Pour une partie $A \subseteq X$, la **restriction** de $R\_i$ à $A$, notée ${R\_i}|\_A$, est l'application obtenue en restreignant le domaine de $R\_i$ aux $n\_i$-uplets d'éléments de $A$ :
+Pour une partie $A \subseteq X$, la **restriction** de $R\_i$ à $A$, notée $R\_i \restriction_A$, est l'application obtenue en restreignant le domaine de $R\_i$ aux $n\_i$-uplets d'éléments de $A$ :
 
-$${R\_i}|\_A : A^{n\_i} \to W\_i, \quad {R\_i}|\_A(x\_1, \ldots, x\_{n\_i}) = R\_i(x\_1, \ldots, x\_{n\_i})$$
+$$R\_i \restriction_A : A^{n\_i} \to W\_i, \quad (R\_i \restriction_A)(x\_1, \ldots, x\_{n\_i}) = R\_i(x\_1, \ldots, x\_{n\_i})$$
 
-La relation effective $r\_i$ est alors une application de $A^{n\_i}$ dans $W\_i$ telle que $r\_i(x\_1, \ldots, x\_{n\_i}) \neq 0$ implique ${R\_i}|\_A(x\_1, \ldots, x\_{n\_i}) \neq 0$.
+La relation effective $r\_i$ est alors une application de $A^{n\_i}$ dans $W\_i$ telle que $r\_i(x\_1, \ldots, x\_{n\_i}) \neq 0$ implique $(R\_i \restriction_A)(x\_1, \ldots, x\_{n\_i}) \neq 0$.
 
 *Exemple.* Dans le même réseau social, on peut enrichir la description : l'amitié n'est plus seulement présente ou absente, elle porte une intensité. $R_1 : X^2 \to [0, 1]$ mesure le degré d'affinité ; $R_2 : X^2 \to \{0, 1\}$ reste binaire (on est parent ou non) ; $R_3 : X^2 \to \{\text{nul}, \text{collègue}, \text{hiérarchique}\}$ est qualitative. Dire que $x$ et $y$ sont amis avec une affinité de $0.8$ s'écrit $r_1(x,y) = 0.8$.
 
@@ -217,7 +217,7 @@ La relation effective $r\_i$ est alors une application de $A^{n\_i}$ dans $W\_i$
 
 #### Convention
 
-**Dans la suite de ce texte, le mot *relation* désigne indifféremment une relation logique ou valuée.** Les définitions et raisonnements s'appliquent aux deux cas. Le lecteur peut, selon sa préférence, adopter l'une ou l'autre formalisation — la relation logique pour la simplicité, la relation valuée pour la généralité. La notation reste la même : $R_i$ pour les relations possibles, $r_i$ pour les relations effectives.
+**Dans la suite de ce texte, le mot *relation* désigne indifféremment une relation logique ou valuée.** Les définitions et raisonnements s'appliquent aux deux cas. Le lecteur peut, selon sa préférence, adopter l'une ou l'autre formalisation — la relation logique pour la simplicité, la relation valuée pour la généralité. La notation reste la même : $R\_i$ pour les relations possibles, $r\_i$ pour les relations effectives.
 
 *(Voir Annexe — Prérequis mathématiques : N-uplets, Relations, Applications.)*
 
@@ -231,7 +231,7 @@ La relation effective $r\_i$ est alors une application de $A^{n\_i}$ dans $W\_i$
 > 
 > - $A \subseteq X$ est l'ensemble des éléments **présents** — ceux qui participent effectivement à la configuration ;
 > 
-> - $R = (r_i)_{i \in I}$ est une famille de **relations effectives** sur $A$ entre les éléments présents — avec $r\_i \subset {R\_i}|\_{A}$ 
+> - $R = (r_i)_{i \in I}$ est une famille de **relations effectives** sur $A$ entre les éléments présents — avec $r\_i \subset R\_i \restriction_A$ 
 > 
 > Les relations effectives sont incluses dans la restriction des relations possibles aux éléments présents. Toute relation possible n'est pas nécessairement activée.
 

@@ -8,6 +8,8 @@ permalink: /evolution/
 
 <p>Visualisation de l’évolution des visites du projet. Données issues de <code>assets/data/visits.json</code>, mises à jour manuellement ou par automatisation.</p>
 
+<p><strong>À noter :</strong> le <strong>graphique</strong> ci‑dessous lit un fichier de données (historique). Le <strong>Nombre de visiteurs</strong> sur la page d’accueil vient, lui, du compteur en direct (countapi.xyz). Ce sont deux sources différentes — il est donc normal que les chiffres ne correspondent pas tant que <code>visits.json</code> n’est pas synchronisé avec ce compteur.</p>
+
 <div id="filters" class="evolution-filters">
   <button type="button" onclick="updateRange(7)">1 semaine</button>
   <button type="button" onclick="updateRange(30)">1 mois</button>
