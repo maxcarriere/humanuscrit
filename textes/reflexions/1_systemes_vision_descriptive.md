@@ -1,11 +1,12 @@
 ---
 title: Chapitre 1 - Systèmes : Vision descriptive
+permalink: /textes/reflexions/chapitre-1-systemes-vision-descriptive/
 order: 3
 date: 2026-02-17
 last_modified_at: 2026-02-16
 ---
 
-# Système : vision descriptive
+# Chapitre 1 — Système : vision descriptive
 
 *De la structure au mouvement*
 
@@ -143,7 +144,7 @@ Cette section pose les concepts nécessaires pour décrire la structure et le mo
 
 Un ensemble de distinctions $X$ peut être muni d'une famille de **relations possibles** :
 
-$R_p = (R_i)_{i \in I}$
+$$R_p = (R_i)_{i \in I}$$
 
 où chaque $R_i$ est une relation de degré quelconque définie sur $X$. Chaque relation $R_i$ correspond à un type de lien possible entre les éléments de $X$.
 
@@ -174,7 +175,7 @@ Ces relations décrivent non pas ce qui est effectivement réalisé, mais tout c
 
 Soit $A \subseteq X$ une partie de $X$. La **restriction** de $R_i$ à $A$, notée ${R_i}|_A$, est l'ensemble des $n_i$-uplets de $R_i$ dont tous les éléments appartiennent à $A$ :
 
-${R_i}|_A = R_i \cap A^{n_i}$
+$${R_i}|_A = R_i \cap A^{n_i}$$
 
 On a nécessairement $r_i \subseteq {R_i}|_A$ : une relation effective entre les éléments présents ne peut exister que si la relation possible l'autorise.
 
@@ -223,11 +224,11 @@ La **relation logique est un cas particulier de la relation valuée**, retrouvé
 
 Les relations effectives sont alors des applications $r_i : A^{n_i} \to W_i$, avec la contrainte qu'une relation effective ne peut prendre une valeur non nulle que là où la relation possible le permet :
 
-$r_i(x_1, \ldots, x_{n_i}) \neq 0 \implies R_i(x_1, \ldots, x_{n_i}) \neq 0$
+$$r_i(x_1, \ldots, x_{n_i}) \neq 0 \implies R_i(x_1, \ldots, x_{n_i}) \neq 0$$
 
 Pour une partie $A \subseteq X$, la **restriction** de $R_i$ à $A$, notée ${R_i}|_A$, est l'application obtenue en restreignant le domaine de $R_i$ aux $n_i$-uplets d'éléments de $A$ :
 
-${R_i}|_A : A^{n_i} \to W_i, \quad {R_i}|_A(x_1, \ldots, x_{n_i}) = R_i(x_1, \ldots, x_{n_i})$
+$${R_i}|_A : A^{n_i} \to W_i, \quad {R_i}|_A(x_1, \ldots, x_{n_i}) = R_i(x_1, \ldots, x_{n_i})$$
 
 La relation effective $r_i$ est alors une application de $A^{n_i}$ dans $W_i$ telle que $r_i(x_1, \ldots, x_{n_i}) \neq 0$ implique ${R_i}|_A(x_1, \ldots, x_{n_i}) \neq 0$.
 
@@ -395,7 +396,7 @@ Cette définition contient en elle-même une structure riche. Certaines actions 
 
 Les trois espaces fondamentaux sont maintenant posés, et leur dépendance logique est explicite :
 
-$X \longrightarrow Y(X) \longrightarrow Z(Y(X))$
+$$X \longrightarrow Y(X) \longrightarrow Z(Y(X))$$
 
 Les distinctions engendrent les configurations, qui engendrent les transformations. Chaque espace est construit à partir du précédent. En notation abrégée :
 
@@ -493,13 +494,13 @@ La force est ce qui *pousse* le système à changer. Elle ne crée pas les actio
 
 Une force est **déterministe** lorsqu'elle sélectionne toujours la même action, quel que soit le résultat du hasard :
 
-$f(\omega) = a_0 \quad \text{pour tout } \omega \in \Omega$
+$$f(\omega) = a_0 \quad \text{pour tout } \omega \in \Omega$$
 
 L'action est alors prescrite avec certitude. Il n'y a pas d'incertitude.
 
 Une force est **stochastique** lorsqu'elle peut sélectionner des actions différentes selon l'issue du hasard. La probabilité de chaque action est donnée par la loi de $f$ :
 
-$P(f = a) = P(\{ \omega \in \Omega \mid f(\omega) = a \})$
+$$P(f = a) = P(\{ \omega \in \Omega \mid f(\omega) = a \})$$
 
 *Exemple.* La gravité qui attire une pierre : force déterministe — une seule action (tomber) est sélectionnée avec certitude. Le vent qui souffle sur une feuille : force stochastique — la direction et l'intensité varient selon des facteurs imprévisibles, et plusieurs trajectoires sont possibles.
 
@@ -748,7 +749,7 @@ La notion d'action doit alors être reformulée. En temps discret, une action es
 
 Une dynamique continue sur l'espace des états $E$ est définie par une famille d'applications :
 
-$(\Phi_t)_{t \geq 0}, \quad \Phi_t : E \to E$
+$$(\Phi_t)_{t \geq 0}, \quad \Phi_t : E \to E$$
 
 satisfaisant :
 

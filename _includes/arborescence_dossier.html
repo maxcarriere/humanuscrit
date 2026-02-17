@@ -16,22 +16,35 @@
 {% endif %}
 {% if dossier %}
 {% assign prefix = dossier | append: "/" %}
+{% assign dossier_norm = dossier | replace: "\\", "/" %}
 <ul class="arborescence-textes">
+  {% comment %} Section Réflexions : ordre fixe Préambule, Chapitre 0, Chapitre 1 {% endcomment %}
+  {% if dossier_norm == "textes/reflexions" %}
+    {% assign ref_order = "textes/reflexions/préambule.md|textes/reflexions/0_existence.md|textes/reflexions/1_systemes_vision_descriptive.md" | split: "|" %}
+    {% for ref_path in ref_order %}
+      {% assign p = site.pages | where: "path", ref_path | first %}
+      {% if p %}
+        <li><a href="{{ p.url | relative_url }}">{% include lib_display_name.html name=p.name title=p.title %}</a></li>
+      {% endif %}
+    {% endfor %}
+  {% else %}
   {% assign all_pages = site.pages | where_exp: "p", "p.path contains prefix" | sort: "order" %}
   {% for p in all_pages %}
-    {% assign path_str = p.path %}
-    {% unless path_str contains prefix %}
+    {% assign path_str = p.path | replace: "\\", "/" %}
+    {% assign prefix_norm = prefix | replace: "\\", "/" %}
+    {% unless path_str contains prefix_norm %}
       {% continue %}
     {% endunless %}
-    {% if path_str == dossier %}
+    {% assign dossier_norm = dossier | replace: "\\", "/" %}
+    {% if path_str == dossier_norm %}
       {% continue %}
     {% endif %}
-    {% assign full_idx = dossier | append: "/index.md" %}
+    {% assign full_idx = dossier_norm | append: "/index.md" %}
     {% assign full_readme = dossier | append: "/README.md" %}
     {% if path_str == full_idx or path_str == full_readme %}
       {% continue %}
     {% endif %}
-    {% assign rel_path = path_str | remove_first: prefix %}
+    {% assign rel_path = path_str | remove_first: prefix_norm %}
     {% assign rel_parts = rel_path | split: "/" %}
     {% assign depth = rel_parts | size %}
     {% if depth == 1 %}
@@ -60,5 +73,6 @@
       </li>
     {% endif %}
   {% endfor %}
+  {% endif %}
 </ul>
 {% endif %}
