@@ -749,7 +749,7 @@ C'est ici que les **relations valuées** révèlent leur importance. Sans elles,
 
 C'est dans cette ontologie que le champ $\mathcal{D}$ du système réflexif (Définition 22) prend sa forme la plus naturelle : à chaque point de l'espace des états, une loi locale est prescrite, et les trajectoires sont les chemins que trace le système en suivant ce champ. C'est exactement ce que la physique classique appelle un *champ de forces*.
 
-*Remarque.* Lorsque $E$ possède en outre une structure différentiable, le flot local $\mathcal{D}(e) = (\Phi_t^{(e)})_{t \geq 0}$ admet un **générateur infinitésimal** $v(e) = \frac{d}{dt}\Phi_t^{(e)}(e)\big|_{t=0}$, et $\mathcal{D}$ prend la forme d'un **champ de vecteurs** $v : E \to TE$. L'évolution peut alors être décrite par une équation différentielle. Cette écriture est une spécialisation analytique : la dérivée n'est pas le fondement de la dynamique continue, elle en est une représentation particulière lorsque la structure de $E$ le permet.
+*Remarque.* Lorsque $E$ possède en outre une structure différentiable, le flot local $\mathcal{D}(e) = (\Phi_t^{(e)})_{t \geq 0}$ admet un **générateur infinitésimal** $v(e)$, défini par $v(e) = \frac{d}{dt}\Phi_t^{(e)}(e)$ évalué en $t = 0$, et $\mathcal{D}$ prend la forme d'un **champ de vecteurs** $v : E \to TE$. L'évolution peut alors être décrite par une équation différentielle. Cette écriture est une spécialisation analytique : la dérivée n'est pas le fondement de la dynamique continue, elle en est une représentation particulière lorsque la structure de $E$ le permet.
 
 ---
 
