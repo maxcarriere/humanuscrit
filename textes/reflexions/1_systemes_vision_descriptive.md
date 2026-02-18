@@ -8,7 +8,7 @@ last_modified_at: 2026-02-16
 
 # Système — Vision descriptive
 
-*De la structure au mouvement*
+<p class="subtitle-centre"><em>De la structure au mouvement</em></p>
 
 ---
 
