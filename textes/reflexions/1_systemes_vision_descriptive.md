@@ -775,3 +775,15 @@ Il a posé le **flot** comme analogue continu de l'action itérée, décliné la
 Mais une question demeure ouverte. Le formalisme décrit *quels* états sont possibles, *quelles* actions existent, *comment* les trajectoires sont construites. Il ne dit pas encore *pourquoi* certaines transformations se produisent réellement. Qu'est-ce qui oriente les forces ? Qu'est-ce qui privilégie certaines trajectoires plutôt que d'autres ?
 
 La réponse ne relève plus de la structure logique, mais d'une dimension supplémentaire : la répartition des quantités qui circulent entre les éléments — ce que le chapitre suivant introduira sous la forme d'une **vision énergétique**.
+
+---
+
+## Références
+
+- **Bertalanffy, Ludwig von** — *Théorie générale des systèmes* (Dunod, trad. fr.). Le texte fondateur de la pensée systémique. Pose les bases d'une théorie du système applicable à tous les domaines — biologie, physique, sciences sociales — et anticipe une grande partie du vocabulaire développé dans ce chapitre.
+
+- **Morin, Edgar** — *Introduction à la pensée complexe* (Seuil, 1990). Moins formel que le présent texte, mais riche en intuitions sur les notions de relation, de rétroaction et d'émergence. À lire comme complément qualitatif — une façon d'habiter les concepts avant de les formaliser.
+
+- **Ashby, W. Ross** — *Introduction to Cybernetics* (Chapman & Hall, 1956 ; disponible librement en ligne). Un classique fondateur, progressif et très accessible, sur la régulation, le contrôle et la réponse à l'état dans les systèmes. Directement lié aux concepts de force, de rétroaction et de réflexivité abordés ici.
+
+- **Strogatz, Steven H.** — *Nonlinear Dynamics and Chaos* (Westview Press). La meilleure introduction accessible aux systèmes dynamiques — attracteurs, bifurcations, chaos. Écrit avec un souci pédagogique rare, il donne à voir concrètement ce que signifie l'évolution d'un système au fil du temps.

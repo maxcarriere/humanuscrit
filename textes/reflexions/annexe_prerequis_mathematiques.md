@@ -4,7 +4,7 @@ permalink: /textes/reflexions/annexe-prerequis-mathematiques/
 order: 4
 ---
 
-# Prérequis mathématiques
+# Annexe — Prérequis mathématiques
 
 Cette annexe rassemble les notions mathématiques mobilisées dans le texte. Elle s'adresse au lecteur qui n'est pas nécessairement familier avec le langage formel, et vise à rendre chaque notion accessible par l'intuition avant de la préciser par la notation.
 
@@ -122,53 +122,53 @@ Les relations possibles entre les éléments d'un système admettent deux formal
 
 #### Relation logique
 
-> **Définition 4 — Relation logique**
-> 
-> Une **relation possible** $R\_i$ de degré $n\_i$ sur $X$ est un sous-ensemble de $X^{n\_i}$ :
-> 
-> $R\_i \subseteq X^{n\_i}$
-> 
-> Elle désigne l'ensemble des $n\_i$-uplets d'éléments entre lesquels la relation *peut* exister. La relation est **binaire** : pour un $n\_i$-uplet donné, le lien est possible ou ne l'est pas.
+> **Définition — Relation logique**
+>
+> Une **relation possible** $R$ de degré $n$ sur $X$ est un sous-ensemble de $X^n$ :
+>
+> $R \subseteq X^n$
+>
+> Elle désigne l'ensemble des $n$-uplets d'éléments entre lesquels la relation *peut* exister. La relation est **binaire** : pour un $n$-uplet donné, le lien est possible ou ne l'est pas.
 
-La **restriction** de $R\_i$ à un sous-ensemble $A \subseteq X$ d'éléments présents, notée $R\_i \restriction_A$, est l'ensemble des $n\_i$-uplets de $R\_i$ dont tous les éléments appartiennent à $A$ :
+La **restriction** de $R$ à un sous-ensemble $A \subseteq X$ d'éléments présents, notée $R \restriction_A$, est l'ensemble des $n$-uplets de $R$ dont tous les éléments appartiennent à $A$ :
 
-$$R_i \restriction_A = R_i \cap A^{n_i}$$
+$$R \restriction_A = R \cap A^n$$
 
-Les **relations effectives** $r\_i$ sont des sous-ensembles de $R\_i \restriction_A$ : une relation effective entre les éléments présents ne peut exister que si la relation possible l'autorise ($r\_i \subseteq R\_i \restriction_A$).
+Une **relation effective** $r$ est un sous-ensemble de $R \restriction_A$ : une relation effective entre les éléments présents ne peut exister que si la relation possible l'autorise ($r \subseteq R \restriction_A$).
 
 #### Relation valuée
 
-La relation logique admet une généralisation naturelle. Au lieu de se limiter à « le lien existe ou n'existe pas », on peut associer à chaque $n\_i$-uplet une **valeur** — une intensité, un poids, une mesure.
+La relation logique admet une généralisation naturelle. Au lieu de se limiter à « le lien existe ou n'existe pas », on peut associer à chaque $n$-uplet une **valeur** — une intensité, un poids, une mesure.
 
-> **Définition 4 (bis) — Relation valuée**
-> 
-> Une **relation possible** $R\_i$ de degré $n\_i$, valuée dans un ensemble $W\_i$, est une application :
-> 
-> $R\_i : X^{n\_i} \to W\_i$
-> 
-> qui associe à chaque $n\_i$-uplet d'éléments de $X$ une **valeur** dans $W\_i$.
-> 
-> L'ensemble $W\_i$ est appelé **espace de valuation** de la relation $R\_i$. Il contient un élément distingué, noté $0$ (ou $\bot$), qui signifie *absence de relation*.
+> **Définition — Relation valuée**
+>
+> Une **relation possible** $R$ de degré $n$, valuée dans un ensemble $W$, est une application :
+>
+> $R : X^n \to W$
+>
+> qui associe à chaque $n$-uplet d'éléments de $X$ une **valeur** dans $W$.
+>
+> L'ensemble $W$ est appelé **espace de valuation** de la relation. Il contient un élément distingué, noté $0$ (ou $\bot$), qui signifie *absence de relation*.
 
-L'espace de valuation $W\_i$ capture la richesse du lien. Selon le choix de $W\_i$, on retrouve différents cadres :
+L'espace de valuation $W$ capture la richesse du lien. Selon le choix de $W$, on retrouve différents cadres :
 
-- **$W\_i = \{0, 1\}$** : la relation est binaire — le lien existe ($1$) ou n'existe pas ($0$). On retrouve exactement la **relation logique** de la définition précédente.
+- **$W = \{0, 1\}$** : la relation est binaire — le lien existe ($1$) ou n'existe pas ($0$). On retrouve exactement la **relation logique** de la définition précédente.
 
-- **$W\_i = \mathbb{R}^+$** : la relation porte une **intensité** continue — une force d'attraction, un débit, une affinité. Le lien n'est plus « tout ou rien » ; il possède un poids.
+- **$W = \mathbb{R}^+$** : la relation porte une **intensité** continue — une force d'attraction, un débit, une affinité. Le lien n'est plus « tout ou rien » ; il possède un poids.
 
-- **$W\_i$ fini** (par exemple $\{\text{nul}, \text{faible}, \text{moyen}, \text{fort}\}$) : la relation est **qualitative et graduée**.
+- **$W$ fini** (par exemple $\{\text{nul}, \text{faible}, \text{moyen}, \text{fort}\}$) : la relation est **qualitative et graduée**.
 
-La **relation logique est un cas particulier de la relation valuée**, retrouvé lorsque $W\_i = \{0, 1\}$ pour toutes les relations.
+La **relation logique est un cas particulier de la relation valuée**, retrouvé lorsque $W = \{0, 1\}$.
 
-Les relations effectives sont alors des applications $r\_i : A^{n\_i} \to W\_i$, avec la contrainte qu'une relation effective ne peut prendre une valeur non nulle que là où la relation possible le permet :
+Une **relation effective** est alors une application $r : A^n \to W$, avec la contrainte qu'elle ne peut prendre une valeur non nulle que là où la relation possible le permet :
 
-$$r_i(x_1, \ldots, x_{n_i}) \neq 0 \implies R_i(x_1, \ldots, x_{n_i}) \neq 0$$
+$$r(x_1, \ldots, x_n) \neq 0 \implies R(x_1, \ldots, x_n) \neq 0$$
 
-La **restriction** de $R\_i$ à une partie $A \subseteq X$, notée $R\_i \restriction_A$, est l'application obtenue en restreignant le domaine aux $n\_i$-uplets d'éléments de $A$ :
+La **restriction** de $R$ à une partie $A \subseteq X$, notée $R \restriction_A$, est l'application obtenue en restreignant le domaine aux $n$-uplets d'éléments de $A$ :
 
-$$R_i \restriction_A : A^{n_i} \to W_i, \quad (R_i \restriction_A)(x_1, \ldots, x_{n_i}) = R_i(x_1, \ldots, x_{n_i})$$
+$$R \restriction_A : A^n \to W, \quad (R \restriction_A)(x_1, \ldots, x_n) = R(x_1, \ldots, x_n)$$
 
-La relation effective $r\_i$ est alors une application de $A^{n\_i}$ dans $W\_i$ telle que $r\_i(x\_1, \ldots, x\_{n\_i}) \neq 0$ implique $(R\_i \restriction_A)(x\_1, \ldots, x\_{n\_i}) \neq 0$.
+La relation effective $r$ est alors une application de $A^n$ dans $W$ telle que $r(x_1, \ldots, x_n) \neq 0$ implique $(R \restriction_A)(x_1, \ldots, x_n) \neq 0$.
 
 ---
 
@@ -381,31 +381,10 @@ Pour chaque issue $\omega$ du hasard, $f(\omega)$ est l'action sélectionnée. S
 
 ---
 
-## Bibliographie indicative
+## Pour aller plus loin
 
-Les notions présentées dans cette annexe sont des concepts fondamentaux des mathématiques, traités dans tout manuel d'introduction. Voici quelques références accessibles pour le lecteur souhaitant approfondir.
+Les notions présentées dans cette annexe sont le point de départ d'un vaste territoire mathématique. Deux ouvrages permettent de les approfondir sans prérequis particuliers :
 
-### Ensembles, relations, applications
+- **Lipschutz, Seymour & Lipson, Marc** — *Mathématiques discrètes*, Schaum/McGraw-Hill (trad. fr.). Un manuel pratique et progressif qui couvre l'essentiel : ensembles, relations, fonctions, graphes, combinatoire et probabilités. Très accessible, riche en exemples et exercices résolus — la meilleure ressource pour consolider les fondements abordés dans cette annexe.
 
-- **Halmos, P.** — *Naive Set Theory* (1960). Introduction classique et accessible à la théorie des ensembles, sans formalisme excessif.
-- **Dehornoy, P.** — *La théorie des ensembles : introduction à une théorie de l'infini et des grands cardinaux* (2017). En français, plus avancé mais avec une bonne introduction.
-
-### Relations d'ordre
-
-- **Davey, B. A. & Priestley, H. A.** — *Introduction to Lattices and Order* (2002). Référence standard sur les ordres partiels et les structures ordonnées.
-
-### Topologie
-
-- **Munkres, J.** — *Topology* (2000). Le manuel de référence, clair et progressif. Les chapitres 1 à 4 couvrent les fondements (espaces topologiques, continuité, connexité, compacité).
-- **Mendelson, B.** — *Introduction to Topology* (1990). Plus court et plus élémentaire que Munkres, adapté à une première approche.
-- **Alexandroff, P.** — *Elementary Concepts of Topology* (1961). Petit texte remarquable d'un des fondateurs de la discipline, axé sur l'intuition géométrique.
-
-### Probabilités
-
-- **Foata, D. & Fuchs, A.** — *Calcul des probabilités* (1998). Manuel en français, clair et progressif, avec de nombreux exemples.
-- **Feller, W.** — *An Introduction to Probability Theory and Its Applications* (vol. 1, 1968). Classique incontournable, riche en intuitions et en exemples concrets.
-- **Rosenthal, J. S.** — *A First Look at Rigorous Probability Theory* (2006). Pour le lecteur souhaitant comprendre les fondements formels (mesures, tribus) après une première approche intuitive.
-
-### Ouvrages transversaux
-
-- **Courant, R. & Robbins, H.** — *What is Mathematics?* (1941, réédité). Vue d'ensemble magistrale des mathématiques fondamentales, accessible sans prérequis.
+- **Courant, Richard & Robbins, Herbert** — *What is Mathematics ?*, Oxford University Press (1941, rééd. 1996 ; trad. fr. disponible). Un panorama intuitif et profond des mathématiques fondamentales — arithmétique, algèbre, géométrie, topologie, calcul. Le plus accessible des grands livres de mathématiques générales, destiné à quiconque veut comprendre ce qu'est réellement la pensée mathématique.

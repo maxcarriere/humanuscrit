@@ -301,3 +301,17 @@ C'est être constitué, être structuré, durer, évoluer dans un cadre spatial 
 Ce chapitre constitue le seuil d'entrée de la réflexion systémique qui va suivre. Il ne traite pas encore explicitement de la notion de système. Mais il en a posé, sans la nommer, la matière première : des éléments distingués, agencés en une configuration cohérente, qui se transforme dans un cadre d'espace et de temps. Ce qui reste à faire, désormais, c'est reconnaître ce motif pour ce qu'il est — et lui donner un nom.
 
 Ce chapitre ne parle pas de système mais il a posé les conditions minimales à partir desquelles la notion de système pourra apparaître non comme un outil arbitraire, mais comme l'expression formelle de ce que signifie exister.
+
+---
+
+## Références
+
+- **Prigogine, Ilya & Stengers, Isabelle** — *La Nouvelle Alliance* (Gallimard, 1979). Explore la relation entre existence, temps et transformation à travers les sciences de la nature. Une réflexion profonde et accessible sur l'irréversibilité et le devenir — en résonance directe avec les questions posées dans ce chapitre.
+
+- **Russell, Bertrand** — *Problèmes de philosophie* (trad. fr., Payot). Une introduction brève et remarquablement claire aux grandes questions philosophiques — dont celle de l'existence et du rapport entre pensée et réalité. Le meilleur point d'entrée pour le lecteur non-philosophe.
+
+- **Wittgenstein, Ludwig** — *Tractatus logico-philosophicus* (trad. fr., Gallimard). Court et dense, ce texte explore les relations entre langage, logique et structure du monde. Sa proposition d'ouverture — « Le monde est tout ce qui est le cas » — résonne directement avec la question de ce que signifie exister.
+
+- **Meillassoux, Quentin** — *Après la finitude* (Seuil, 2006). Court et accessible, ce texte pose frontalement la question de ce qui peut exister indépendamment de la pensée. Une des contributions les plus stimulantes de la philosophie contemporaine française sur l'ontologie — idéale pour prolonger la réflexion de ce chapitre.
+
+- **Badiou, Alain** — *L'Être et l'Événement* (Seuil, 1988). Tente de fonder une ontologie formelle sur la théorie des ensembles : « les mathématiques sont l'ontologie ». Plus exigeant, mais en résonance directe avec la clôture de ce chapitre sur l'existence logique — pour ceux qui souhaitent explorer jusqu'où peut aller la formalisation de la philosophie.

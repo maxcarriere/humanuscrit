@@ -91,7 +91,7 @@ Ce texte possède donc une double vocation. Il est d'abord un effort de clarific
 
 ---
 
-## 5 — Absence de références bibliographiques
+## 5 — Références bibliographiques
 
 L'auteur doit reconnaître d'emblée une lacune : sa culture bibliographique est limitée. Ce texte ne s'appuie pas sur une connaissance approfondie de la littérature scientifique ou philosophique existante. L'auteur n'est pas scientifique ni philosophe. Il ne prétend à aucune maîtrise des traditions intellectuelles dans lesquelles cette réflexion pourrait s'inscrire. Il est d'ailleurs sans doute probable que certaines des idées avancées ici aient été formulées ailleurs, sous d'autres formes et avec d'autres méthodes.
 
@@ -103,11 +103,11 @@ C'est précisément la cohérence qui constitue ici la réponse à cette fragili
 
 Ce texte ne peut pas revendiquer l'étendue. Il peut en revanche revendiquer la tenue : une architecture conceptuelle où chaque notion découle des précédentes, où les définitions se répondent, où le vocabulaire reste stable d'un bout à l'autre. La cohérence interne ne remplace pas la confrontation extérieure — mais elle offre un socle vérifiable : si le système tient debout en lui-même, il devient possible de le mettre à l'épreuve.
 
-Et c'est là que l'absence de références rejoint l'usage de l'intelligence artificielle.
+Des références bibliographiques sont néanmoins proposées à la fin de chaque texte. Elles ne constituent pas des sources — l'auteur n'y a pas eu recours pour construire sa réflexion. Elles sont citées *a posteriori*, comme des jalons permettant au lecteur d'approfondir ou de situer le sujet dans un paysage intellectuel plus large. Ce sont des œuvres qui traitent de questions similaires ou qui prolongent la réflexion dans des directions que ce texte ne fait qu'esquisser. Leur lecture n'est pas nécessaire pour suivre l'argument — elle est proposée à ceux qui souhaitent aller plus loin.
 
-L'IA possède déjà la connaissance. La littérature scientifique, les traditions philosophiques, les corpus techniques — tout cela fait partie de ce sur quoi elle a été formée. Lui fournir un résumé de plus, une synthèse supplémentaire de ce qui existe déjà, ne l'enrichirait en rien. La seule manière de lui apporter quelque chose qu'elle ne possède pas encore, c'est précisément de l'alimenter avec une pensée propre — une vision singulière, irréductible à ce qu'elle a déjà absorbé.
+Ce choix est cohérent avec l'usage de l'intelligence artificielle.
 
-Ce corpus de textes a donc vocation à servir de base à partir de laquelle des productions seront générées. Son objectif implicite est de proposer à l'intelligence artificielle un cadre de pensée — non pas un résumé d'idées, mais un *filtre* à travers lequel percevoir et organiser la connaissance qu'elle détient déjà. Il s'agit de lui fournir une grammaire particulière pour qu'elle puisse produire selon l'état d'esprit de l'auteur : traverser l'immensité de ce qu'elle sait en l'ordonnant selon la vision posée ici. Non pas restreindre, mais orienter. Non pas effacer la connaissance, mais la faire passer à travers le prisme d'une pensée singulière — afin que ce qui en résulte soit véritablement une co-réflexion, et non une simple consultation.
+Ce corpus de textes a vocation à servir de base à partir de laquelle des productions seront générées : son objectif implicite est de proposer à l'IA un cadre de pensée, et non un résumé de ce qui existe déjà. L'IA possède déjà la connaissance — la littérature scientifique, les traditions philosophiques, les corpus techniques font partie de ce sur quoi elle a été formée. Lui fournir une synthèse supplémentaire ne l'enrichirait en rien. La seule manière de lui apporter quelque chose qu'elle ne possède pas encore, c'est de l'alimenter avec une pensée propre — une vision singulière, irréductible à ce qu'elle a déjà absorbé. Il s'agit de lui fournir un *filtre* à travers lequel percevoir et organiser la connaissance qu'elle détient déjà : une grammaire particulière pour qu'elle puisse produire selon l'état d'esprit de l'auteur. Non pas restreindre, mais orienter. Non pas effacer la connaissance, mais la faire passer à travers le prisme d'une pensée singulière — afin que ce qui en résulte soit véritablement une co-réflexion, et non une simple consultation.
 
 ---
 
