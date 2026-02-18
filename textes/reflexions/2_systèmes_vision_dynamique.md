@@ -56,13 +56,13 @@ Ces deux grandeurs enrichissent l'état. Un état énergétique n'est plus seule
 Le **potentiel** d'un élément est la *pression* que son stock exerce vers l'extérieur. C'est la grandeur qui détermine dans quelle direction et avec quelle intensité l'énergie tend à circuler. Un réservoir plein presse vers ses voisins ; un réservoir vide aspire.
 
 > **Définition 23 — Potentiel**
->
+> 
 > Soit $\varphi : \mathbb{R}^+ \to \mathbb{R}$ une fonction **croissante**, appelée **fonction de potentiel**.
->
+> 
 > Le **potentiel** de l'élément $x$ est :
->
+> 
 > $$P_x = \varphi(E_x)$$
->
+> 
 > La seule contrainte universelle sur $\varphi$ est sa croissance : un stock plus élevé correspond toujours à un potentiel plus élevé.
 
 La forme exacte de $\varphi$ dépend du domaine d'instanciation. En thermodynamique, la température est le potentiel associé à l'énergie thermique (relation non linéaire). En électricité, la tension est le potentiel associé à la charge. En hydraulique, la pression est le potentiel associé au volume. Mais dans tous les cas, la structure est la même : plus le stock est haut, plus le potentiel est haut.
@@ -76,14 +76,14 @@ Un point est essentiel : **seules les différences de potentiel comptent.** Un �
 Les ingrédients sont posés. Nous pouvons maintenant les assembler en une définition formelle.
 
 > **Définition 24 — Système énergétique**
->
+> 
 > Un **système énergétique** est un système valué (au sens de la Définition 16 du chapitre 1) dont la structure de valuation est spécifiée comme suit :
->
+> 
 > - Les éléments présents $A$ sont munis d'une **fonction de stock** $E : A \to \mathbb{R}^+$ ;
 > - Les liens effectifs $L$ sont munis d'une **fonction de conductivité** $K : L \to \mathbb{R}^+$ ;
 > - Une **fonction de potentiel** $\varphi : \mathbb{R}^+ \to \mathbb{R}$ croissante dérive le potentiel $P_x = \varphi(E_x)$ de chaque élément ;
 > - Une **loi de flux** détermine, à partir des potentiels et des conductivités, le flux effectif sur chaque lien.
->
+> 
 > L'état énergétique du système à un instant donné est le quadruplet $e = (A, R, E, K)$.
 
 Un système énergétique est donc un système valué muni d'une loi supplémentaire — la loi de flux — qui transforme la valuation statique en une dynamique. Cette loi fait du système énergétique un **système dynamique réflexif** au sens du chapitre 1 (Définitions 19 et 22) : la force exercée sur le système dépend de son état, puisque les flux dépendent des stocks et des conductivités qui constituent cet état.
@@ -103,11 +103,11 @@ Nous commençons par le cas le plus simple : un système fermé, qui n'échange 
 L'écart de potentiel entre deux éléments reliés s'appelle le **gradient**. C'est lui qui détermine si l'énergie circule et dans quelle direction.
 
 > **Définition 25 — Gradient**
->
+> 
 > Le **gradient** entre deux éléments $x$ et $y$ reliés par un lien est :
->
+> 
 > $$\Delta P_{xy} = P_x - P_y = \varphi(E_x) - \varphi(E_y)$$
->
+> 
 > Le gradient est orienté : positif si $x$ a un potentiel plus élevé que $y$ (l'énergie tend à aller de $x$ vers $y$), négatif dans le cas inverse, nul si les potentiels sont égaux.
 
 L'universalité du gradient est remarquable. La chaleur va du chaud vers le froid — gradient de température. Le courant va du potentiel élevé vers le faible — gradient électrique. La matière diffuse de la zone concentrée vers la zone diluée — gradient de concentration. Le capital circule vers les opportunités de rendement — gradient économique. L'eau descend la pente — gradient de pression.
@@ -121,11 +121,11 @@ Dans tous les cas, la structure est la même : **le flux naît du gradient**. Ce
 Un gradient crée une tendance à la circulation. Mais cette tendance est modulée par le lien lui-même — sa conductivité détermine l'intensité effective du flux.
 
 > **Définition 26 — Loi de flux**
->
+> 
 > Le **flux** de l'élément $x$ vers l'élément $y$, noté $F_{xy}$, est :
->
+> 
 > $$F_{xy} = K_{xy} \times (P_x - P_y)$$
->
+> 
 > Le flux est le produit de la conductivité du lien par le gradient entre ses deux extrémités.
 
 Cette formule est à la fois très simple et très profonde. Elle dit que deux choses — et deux choses seulement — déterminent l'intensité d'un flux : l'écart de potentiel et la facilité de passage. Un fort gradient avec une faible conductivité peut produire le même flux qu'un faible gradient avec une forte conductivité. Si l'un des deux facteurs est nul, le flux est nul — qu'il n'y ait pas de différence de potentiel ou que le lien soit bloqué.
@@ -139,17 +139,17 @@ La conductivité n'est pas une quantité d'énergie. Ce n'est pas non plus un fl
 La loi de flux dit comment les flux sont déterminés. Le **principe de bilan** dit comment ces flux modifient les stocks. Ce principe n'est pas une loi physique — c'est une identité comptable, un fait de logique pure.
 
 > **Définition 27 — Équation de bilan**
->
+> 
 > Pour un élément $x$ relié aux éléments $y_1, y_2, \ldots, y_k$, la variation de son stock est la somme de tous les flux entrants moins tous les flux sortants. Chaque terme est positif si l'énergie entre (le voisin $y$ a un potentiel plus élevé que $x$) et négatif si elle sort.
->
+> 
 > Cette identité s'écrit selon la nature du temps :
->
+> 
 > **Temps discret** :
 > $$E_x(t+1) - E_x(t) = \sum_y K_{xy} \times (P_y(t) - P_x(t))$$
->
+> 
 > **Temps continu** :
 > $$\frac{dE_x}{dt} = \sum_y K_{xy} \times (P_y - P_x)$$
->
+> 
 > Les deux formulations expriment le même principe ; seul l'incrément temporel diffère — fini dans un cas, infinitésimal dans l'autre.
 
 Si un réservoir reçoit plus qu'il ne perd, il se remplit. S'il perd plus qu'il ne reçoit, il se vide. Il n'y a aucune autre possibilité — que le temps soit discret ou continu.
@@ -196,18 +196,18 @@ Le préambule avait signalé cette récurrence : la loi de Fourier, la loi d'Ohm
 
 Le tableau suivant traduit chaque grandeur abstraite dans quatre domaines physiques.
 
-| Grandeur abstraite | Électricité | Hydraulique | Thermique | Diffusion |
-|---|---|---|---|---|
-| **Nœud** | jonction | réservoir | corps / masse | compartiment |
-| **Stock $E_x$** | charge $Q$ \[C\] | volume $V$ \[m³\] | énergie thermique $U$ \[J\] | quantité de matière $n$ \[mol\] |
-| **Potentiel $P_x$** | tension $U$ \[V\] | pression $p$ \[Pa\] | température $T$ \[K\] | concentration $c$ \[mol/L\] |
-| **Fonction $\varphi$ : stock → potentiel** | $U = Q/C$ | $p = \rho g h$ | $T = U / m c_p$ | $c = n / V$ |
-| **Conductivité $K_{xy}$** | conductance $G = 1/R$ \[S\] | conductance hydraulique $G_h$ | conductance thermique $\lambda S / e$ \[W/K\] | perméabilité $\times$ surface / épaisseur |
-| **Gradient $\Delta P$** | différence de tension $\Delta U$ | différence de pression $\Delta p$ | différence de température $\Delta T$ | différence de concentration $\Delta c$ |
-| **Flux $F_{xy}$** | courant $I$ \[A\] | débit $Q_v$ \[m³/s\] | flux thermique $\Phi$ \[W\] | flux de matière $J$ \[mol/s\] |
-| **Loi de flux $F = K \Delta P$** | loi d'Ohm : $I = \Delta U / R$ | loi de Poiseuille : $Q_v = G_h \Delta p$ | loi de Fourier : $\Phi = (\lambda S/e) \Delta T$ | loi de Fick : $J = D (S/e) \Delta c$ |
-| **Bilan $\delta E_x = \sum K \Delta P$** | loi des nœuds (Kirchhoff) | conservation du débit | 1er principe de la thermo | conservation de la matière |
-| **Équilibre** | tension uniforme | pression uniforme | température uniforme | concentration uniforme |
+| Grandeur abstraite                         | Électricité                           | Hydraulique                              | Thermique                                          | Diffusion                                   |
+| ------------------------------------------ | ------------------------------------- | ---------------------------------------- | -------------------------------------------------- | ------------------------------------------- |
+| **Nœud**                                   | jonction                              | réservoir                                | corps / masse                                      | compartiment                                |
+| **Stock $E_x$**                            | charge<br/>$Q$ \[C\]                  | volume<br/> $V$ \[m³\]                   | énergie thermique<br/> $U$ \[J\]                   | quantité de matière<br/> $n$ \[mol\]        |
+| **Potentiel $P_x$**                        | tension<br/> $U$ \[V\]                | pression<br/>$p$ \[Pa\]                  | température<br/>$T$ \[K\]                          | concentration<br/>$c$ \[mol/L\]             |
+| **Fonction $\varphi$ : stock → potentiel** | $U = Q/C$                             | $p = \rho g h$                           | $T = U / m c_p$                                    | $c = n / V$                                 |
+| **Conductivité $K_{xy}$**                  | conductance<br/>$G = 1/R$ \[S\]       | conductance hydraulique<br/> $G_h$       | conductance thermique<br/> $\lambda S / e$ \[W/K\] | perméabilité $\times$ surface / épaisseur   |
+| **Gradient $\Delta P$**                    | différence de tension<br/> $\Delta U$ | différence de pression<br/> $\Delta p$   | différence de température<br/> $\Delta T$          | différence de concentration<br/> $\Delta c$ |
+| **Flux $F_{xy}$**                          | courant<br/> $I$ \[A\]                | débit <br/>$Q_v$ \[m³/s\]                | flux thermique<br/> $\Phi$ \[W\]                   | flux de matière<br/> $J$ \[mol/s\]          |
+| **Loi de flux $F = K \Delta P$**           | loi d'Ohm : $I = \Delta U / R$        | loi de Poiseuille : $Q_v = G_h \Delta p$ | loi de Fourier : $\Phi = (\lambda S/e) \Delta T$   | loi de Fick : $J = D (S/e) \Delta c$        |
+| **Bilan $\delta E_x = \sum K \Delta P$**   | loi des nœuds (Kirchhoff)             | conservation du débit                    | 1er principe de la thermo                          | conservation de la matière                  |
+| **Équilibre**                              | tension uniforme                      | pression uniforme                        | température uniforme                               | concentration uniforme                      |
 
 Chaque colonne du tableau est une science. Chaque ligne est un concept. Le formalisme du système énergétique est ce qui permet de lire le tableau horizontalement — de voir la même loi à travers des habillages différents.
 
@@ -246,15 +246,15 @@ Dans un système ouvert, une configuration remarquable devient possible : les st
 C'est l'**état stationnaire** : une stabilité sans équilibre.
 
 > **Définition 28 — État stationnaire**
->
+> 
 > Un système énergétique est en **état stationnaire** lorsque les stocks ne varient plus pour aucun élément :
->
+> 
 > **Temps discret** : $E_x(t+1) = E_x(t) \quad \text{pour tout } x \in A$
->
+> 
 > **Temps continu** : $\dfrac{dE_x}{dt} = 0 \quad \text{pour tout } x \in A$
->
+> 
 > malgré la présence de flux non nuls : $\exists\, (x, y) \in L$ tel que $F_{xy} \neq 0$.
->
+> 
 > L'apport extérieur $S_x$ compense exactement la dissipation par les flux sortants, maintenant les stocks constants.
 
 La distinction entre équilibre et état stationnaire est fondamentale.
@@ -427,12 +427,12 @@ Ce chapitre a introduit de nombreux concepts et plusieurs formules, dans leurs v
 L'occasion est donnée d'introduire une notation qui rend cette unité visible.
 
 > **Convention — Opérateur de variation $\delta$**
->
+> 
 > On note $\delta f$ la **variation d'une grandeur $f$ par unité de temps**, au sens adapté à la structure temporelle du système :
->
+> 
 > - **Temps discret** : $\delta f(t) = f(t+1) - f(t)$ — variation finie entre deux instants consécutifs
 > - **Temps continu** : $\delta f = \dfrac{df}{dt}$ — taux de variation instantané
->
+> 
 > Cette convention s'applique à toute grandeur : stocks $E_x$, conductivités $K_{xy}$, potentiels $P_x$.
 
 Avec cette notation, l'ensemble des principes du chapitre se formule en quelques lignes :
