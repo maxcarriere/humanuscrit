@@ -156,7 +156,7 @@ Cette séparation entre le possible et l'effectif est l'une des idées les plus 
 - $r_1, r_2, r_3$ indiquent comment sont réellement reliés les individus :
   Dire que deux individus $x,y \in X$ sont effectivement amis s'écrit $(x,y) \in r_1$.
 
-Lorsque les relations sont valuées, on peut enrichir cette description : l'amitié n'est plus seulement présente ou absente, elle porte une intensité. $R_1 : X^2 \to [0, 1]$ mesure le degré d'affinité ; $R_2 : X^2 \to \{0, 1\}$ reste binaire (on est parent ou non) ; $R_3 : X^2 \to \{\text{nul}, \text{collègue}, \text{hiérarchique}\}$ est qualitative. Dire que $x$ et $y$ sont amis avec une affinité de $0.8$ s'écrit $r_1(x,y) = 0.8$.
+Lorsque les relations sont valuées, on peut enrichir cette description : l'amitié n'est plus seulement présente ou absente, elle porte une intensité. $R_1 : X^2 \to [0, 1]$ mesure le degré d'affinité ; $R_2 : X^2 \to \\{0, 1\\}$ reste binaire (on est parent ou non) ; $R_3 : X^2 \to \\{\text{nul}, \text{collègue}, \text{hiérarchique}\\}$ est qualitative. Dire que $x$ et $y$ sont amis avec une affinité de $0.8$ s'écrit $r_1(x,y) = 0.8$.
 
 ---
 
@@ -268,7 +268,7 @@ Une action n'est pas nécessairement définie sur toutes les configurations conc
 
 > La **portée** d'une action $a : E \to E$ est l'ensemble des configurations de son domaine qu'elle modifie effectivement :
 >
-> $\text{Port}(a) = \{ y \in E \mid a(y) \neq y \}$
+> $\text{Port}(a) = \\{ y \in E \mid a(y) \neq y \\}$
 >
 > Une configuration dans le domaine mais hors de la portée est **inerte** face à l'action : l'action s'y applique, mais ne change rien.
 
@@ -294,7 +294,7 @@ De même que $Y$ contient toutes les configurations concevables, on peut défini
 >
 > L'**espace des transformations** de $Y$, noté $Z(Y)$, est l'ensemble de toutes les actions logiquement concevables :
 >
-> $$Z(Y) = \bigcup_{E \subseteq Y} E^E = \{a:E\rightarrow E \in E^E \mid E\subseteq Y\}$$
+> $$Z(Y) = \bigcup_{E \subseteq Y} E^E = \\{a:E\rightarrow E \in E^E \mid E\subseteq Y\\}$$
 >
 > où $E^E$ désigne l'ensemble de toutes les applications de $E$ dans $E$ *(voir Annexe — Prérequis mathématiques : Applications)*.
 >
@@ -330,8 +330,8 @@ Le temps est le cadre dans lequel les transformations s'ordonnent.
 > 
 > Pour un instant $t \in T$, on définit :
 > 
-> - le **passé** : $T_{<t} = \{ u \in T \mid u < t \}$
-> - le **futur** : $T_{>t} = \{ u \in T \mid t < u \}$
+> - le **passé** : $T_{<t} = \\{ u \in T \mid u < t \\}$
+> - le **futur** : $T_{>t} = \\{ u \in T \mid t < u \\}$
 
 Le temps n'est pas nécessairement régulier, ni même linéaire. Sa définition minimale est celle que le chapitre 0 avait déjà posée : un *avant* et un *après*. Le temps est l'ordre causal.
 
@@ -343,7 +343,7 @@ La nature de l'ordre que l'on impose sur $T$ détermine ce que l'on autorise com
 
 **Ordre total.** Si l'on exige que deux instants quelconques soient toujours comparables, le temps devient **linéaire** : il n'y a qu'une seule ligne temporelle, et tout événement se situe soit avant, soit après tout autre. C'est l'hypothèse la plus courante. Elle laisse cependant ouverte la question de savoir si le temps a un début. Par exemple, $T = \mathbb{Z}$ (les entiers relatifs) est totalement ordonné mais n'a ni premier ni dernier instant — le temps s'étend indéfiniment vers le passé comme vers le futur.
 
-**Bon ordre.** Si l'on exige en plus que tout sous-ensemble non vide de $T$ admette un plus petit élément, on obtient un **bon ordre**. Cette hypothèse garantit l'existence d'un premier instant, et plus généralement d'un instant « le plus ancien » dans toute collection d'instants. L'ensemble $\mathbb{N} = \{0, 1, 2, \ldots\}$ est un bon ordre ; $\mathbb{Z}$ ne l'est pas (l'ensemble des entiers négatifs n'a pas de plus petit élément).
+**Bon ordre.** Si l'on exige en plus que tout sous-ensemble non vide de $T$ admette un plus petit élément, on obtient un **bon ordre**. Cette hypothèse garantit l'existence d'un premier instant, et plus généralement d'un instant « le plus ancien » dans toute collection d'instants. L'ensemble $\mathbb{N} = \\{0, 1, 2, \ldots\\}$ est un bon ordre ; $\mathbb{Z}$ ne l'est pas (l'ensemble des entiers négatifs n'a pas de plus petit élément).
 
 On distingue par ailleurs deux grandes familles de temps, selon la structure de $T$ :
 
@@ -399,7 +399,7 @@ L'action est alors prescrite avec certitude. Il n'y a pas d'incertitude.
 
 Une force est **stochastique** lorsqu'elle peut sélectionner des actions différentes selon l'issue du hasard. La probabilité de chaque action est donnée par la loi de $f$ :
 
-$$P(f = a) = P(\{ \omega \in \Omega \mid f(\omega) = a \})$$
+$$P(f = a) = P(\\{ \omega \in \Omega \mid f(\omega) = a \\})$$
 
 *Exemple.* La gravité qui attire une pierre : force déterministe — une seule action (tomber) est sélectionnée avec certitude. Le vent qui souffle sur une feuille : force stochastique — la direction et l'intensité varient selon des facteurs imprévisibles, et plusieurs trajectoires sont possibles.
 
@@ -505,11 +505,11 @@ Toutefois, le système actif ne précise pas encore *quand* ni *comment* ces act
 
 > **Définition 16 — Système valué**
 > 
-> Un système (passif ou actif) est dit **valué** lorsque ses relations possibles sont des relations valuées *(voir Annexe — Relations logiques et valuées)* — c'est-à-dire lorsqu'elles prennent leurs valeurs dans des espaces de valuation $W_i$ plus riches que $\{0, 1\}$.
+> Un système (passif ou actif) est dit **valué** lorsque ses relations possibles sont des relations valuées *(voir Annexe — Relations logiques et valuées)* — c'est-à-dire lorsqu'elles prennent leurs valeurs dans des espaces de valuation $W_i$ plus riches que $\\{0, 1\\}$.
 
 Le qualificatif *valué* n'est pas un type de système supplémentaire : c'est une **propriété** qui peut s'appliquer à tout système. Un système passif peut être valué ou non ; un système actif peut être valué ou non. Cette distinction sera également pertinente pour les systèmes dynamiques.
 
-Un système dont toutes les relations sont logiques *(voir Annexe — Relations logiques et valuées)* est dit **logique**. Tout système logique est un cas particulier d'un système valué (avec $W_i = \{0, 1\}$).
+Un système dont toutes les relations sont logiques *(voir Annexe — Relations logiques et valuées)* est dit **logique**. Tout système logique est un cas particulier d'un système valué (avec $W_i = \\{0, 1\\}$).
 
 ---
 
@@ -598,7 +598,7 @@ Si $\mathcal{D}$ est déterministe en tout état, la trajectoire est entièremen
 
 *Exemple.* Un automate cellulaire : la règle est fixe, mais l'action appliquée à chaque cellule dépend de sa configuration locale. Un écosystème : les pressions sélectives (forces) dépendent de la composition actuelle des populations (état).
 
-*Remarque.* On peut combiner les dépendances. Un système dont le champ de forces évolue dans le temps — $(\mathcal{D}_t)_{t \in T}$ — est à la fois évolutif et réflexif : les forces dépendent de l'état *et* changent au cours du temps. Ce cas, plus général, sera exploré dans les chapitres suivants.
+*Remarque.* On peut combiner les dépendances. Un système dont le champ de forces évolue dans le temps — $(\mathcal{D}\_t)\_{t \in T}$ — est à la fois évolutif et réflexif : les forces dépendent de l'état *et* changent au cours du temps. Ce cas, plus général, sera exploré dans les chapitres suivants.
 
 ---
 
@@ -639,9 +639,7 @@ Cette propriété — appelée **propriété de flot** ou **propriété de semi-
 
 La famille complète $(\Phi_t)_{t \geq 0}$ constitue l'**action continue**. En temps continu, l'action n'est plus une application isolée, mais une **structure temporelle paramétrée**.
 
-En temps discret, cette propriété est automatiquement satisfaite par l'itération : $\Phi_n = a^n$ (appliquer $n$ fois la même action). Le passage au continu consiste à construire un opérateur $\Phi_t$ défini pour tout $t \in \mathbb{R}^+$ qui satisfait cette propriété — et dont les itérations discrètes sont retrouvées en posant $t = n \cdot \Delta t$.
-
-La correspondance avec le cadre discret est explicite. En temps discret, une action $a : E \to E$ transforme un état en un pas, et l'itération $a^n$ donne l'évolution sur $n$ pas. Le flot $(\Phi_t)_{t \geq 0}$ généralise cette itération à une durée arbitraire : c'est l'**analogue continu de l'action itérée**.
+En temps discret, la propriété de semi-groupe est automatiquement satisfaite par la composition successive des actions : si $a_1, a_2, \ldots, a_n$ désignent les actions appliquées aux pas $1, 2, \ldots, n$, alors $\Phi_n = a_n \circ \cdots \circ a_1$. Dans le cas particulier d'un système simple et déterministe — où la même action $a_0$ est toujours sélectionnée — cette composition se réduit à $\Phi_n = a_0^n$. Le flot $(\Phi_t)_{t \geq 0}$ est l'**analogue continu de cette composition** : une famille d'opérateurs paramétrée par le temps réel, satisfaisant la même propriété de cohérence.
 
 Mais le flot est un *résultat* — la trajectoire produite par une loi d'évolution. De même qu'en temps discret une force sélectionne une action à chaque pas, en temps continu une **loi d'évolution** détermine, à chaque instant, la direction et le rythme du changement. C'est cette loi qui peut varier — dans le temps, selon l'état, ou les deux.
 
@@ -679,21 +677,17 @@ La hiérarchie simple / évolutif / réflexif se transpose donc au temps continu
 > 
 > $S = (X, R_p, E, T, \mathcal{D})$
 > 
-> où $\mathcal{D}$ est une **loi d'évolution locale** qui associe à chaque état $e \in E$ la direction et le rythme du changement en cet état.
-> 
-> La loi d'évolution dépend de l'état courant. C'est l'analogue continu du champ de forces $\mathcal{D}$ du cas discret : à chaque état, une dynamique propre.
+> où $\mathcal{D}$ est un **champ de lois d'évolution** — une application qui associe à chaque état $e \in E$ une loi $\mathcal{D}(e)$ décrivant la dynamique locale en $e$.
+>
+> C'est l'analogue continu du champ de forces du cas discret (Définition 19) : de même que $\mathcal{D}(e)$ y désignait la force exercée en $e$, ici $\mathcal{D}(e)$ prescrit la loi régissant l'évolution du système *depuis* $e$. L'évolution globale — le flot — est la trajectoire engendrée par l'intégration de ce champ à partir de chaque état initial.
 
 Dans chacun de ces trois cas, la loi d'évolution peut être **déterministe** — elle prescrit une trajectoire unique à partir de chaque état initial — ou **stochastique** — elle prescrit un **ensemble de flots possibles**, un pour chaque issue $\omega \in \Omega$ du hasard, structuré par une mesure de probabilité. Dans le cas stochastique, le flot devient un **flot aléatoire** : à chaque réalisation du hasard correspond une évolution différente.
 
-La nature concrète du flot — la forme que prend l'évolution — n'est pas fixée par ces définitions. Elle dépend de la **régularité** de la trajectoire.
-
-#### Deux régularités de l'évolution
-
-À ce stade, aucune hypothèse supplémentaire n'est faite sur la nature de l'évolution. La distinction entre deux ontologies du changement dépend de la **régularité** de la trajectoire $t \mapsto \Phi_t(e)$ pour un état initial $e \in E$.
+La nature concrète du flot — la forme que prend l'évolution — n'est pas fixée par ces définitions. Elle dépend de la **régularité** de la trajectoire $t \mapsto \Phi_t(e)$ pour un état initial $e \in E$. Selon cette régularité, deux ontologies du changement se distinguent.
 
 ---
 
-##### Ontologie A — Le changement par événements
+#### Ontologie A — Le changement par événements
 
 Dans cette vision, la trajectoire $t \mapsto \Phi_t(e)$ est **constante par morceaux** : l'état reste inchangé pendant certains intervalles de temps, puis subit des transitions ponctuelles à des instants particuliers.
 
@@ -705,7 +699,7 @@ Les instants de transition peuvent être déterministes, aléatoires, dépendant
 
 ---
 
-##### Ontologie B — Le changement par déformation
+#### Ontologie B — Le changement par déformation
 
 Dans cette vision, la trajectoire $t \mapsto \Phi_t(e)$ est **continue** : l'état se déforme progressivement, sans sauts.
 
@@ -713,9 +707,9 @@ Pour que cette notion ait un sens, l'espace des états $E$ doit être muni d'une
 
 C'est ici que les **relations valuées** révèlent leur importance. Sans elles, les états sont des configurations discrètes entre lesquelles il n'y a pas de notion naturelle de proximité. Avec elles, l'espace des états acquiert une géométrie — et le passage progressif d'un état à un autre devient pensable.
 
-Si l'espace $E$ possède en outre une structure différentiable, l'évolution peut être décrite de manière infinitésimale — par une loi locale de variation qui prescrit, en chaque état, la direction et la vitesse du changement. Mais cette écriture est une spécialisation analytique : la dérivée n'est pas le fondement de la dynamique continue, elle en est une représentation particulière lorsque la structure de $E$ le permet.
+C'est dans cette ontologie que le champ $\mathcal{D}$ du système réflexif (Définition 22) prend sa forme la plus naturelle : à chaque point de l'espace des états, une loi locale est prescrite, et les trajectoires sont les chemins que trace le système en suivant ce champ. C'est exactement ce que la physique classique appelle un *champ de forces*.
 
-C'est dans cette ontologie que la loi d'évolution locale $\mathcal{D}$ du système réflexif (Définition 22) prend sa forme la plus naturelle : un **champ de vecteurs** — à chaque point de l'espace des états, une direction est prescrite, et les trajectoires sont les chemins que trace le système soumis à ce champ. C'est exactement ce que la physique classique appelle un *champ de forces*.
+*Remarque.* Lorsque $E$ possède en outre une structure différentiable, $\mathcal{D}$ prend la forme d'un **champ de vecteurs** $v : E \to TE$, et l'évolution peut être décrite de manière infinitésimale. Cette écriture est une spécialisation analytique : la dérivée n'est pas le fondement de la dynamique continue, elle en est une représentation particulière lorsque la structure de $E$ le permet.
 
 ---
 
