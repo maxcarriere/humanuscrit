@@ -439,6 +439,40 @@ Ces pistes ne sont pas mutuellement exclusives. Elles peuvent coexister dans un 
 
 ---
 
+### L'infini
+
+Le formalisme construit dans ce chapitre convoque, presque sans le dire, des ensembles qui peuvent être infinis. L'espace des distinctions $X$, l'espace des configurations $Y$, l'espace des transformations $Z$, le temps $T$ — aucun de ces objets n'est a priori fini. La question de l'infini est donc latente dans chaque définition.
+
+Mais de quel infini s'agit-il ? Et surtout : cet infini est-il une réalité ou un outil ?
+
+**L'infini requiert un axiome.** Dans la théorie des ensembles standard (ZFC), l'existence d'un ensemble infini ne se démontre pas — elle se postule. L'**axiome de l'infini** affirme qu'il existe un ensemble ayant infiniment nombreux éléments. Sans cet axiome, toute la construction mathématique se ramènerait aux ensembles finis. L'infini entre donc dans les mathématiques par décision, non par déduction. On peut l'interpréter comme la description d'une réalité, ou comme une fiction utile dont on ne saurait se passer. La question reste ouverte.
+
+**Deux figures de l'infini.** L'infini n'est pas uniforme. Il se présente sous deux formes qualitativement distinctes.
+
+**L'infiniment grand** est l'infini de la cardinalité — la question du nombre d'éléments d'un ensemble. Le plus petit infini est celui des entiers naturels $\mathbb{N}$ : *dénombrable*, car ses éléments peuvent être alignés en une liste exhaustive $0, 1, 2, \ldots$ Au-delà, Cantor a démontré qu'il existe des infinis strictement plus grands. L'ensemble des réels $\mathbb{R}$ est *indénombrable* — aucune liste ne peut l'épuiser — et la hiérarchie des infinis est elle-même infinie.
+
+**L'infiniment petit** est l'infini de la divisibilité. Si entre deux instants quelconques il en existe toujours un troisième, le temps est *dense*. Si de plus cet espace est *complet* — sans lacune —, on obtient le continu de $\mathbb{R}$. C'est l'infini qui fonde la notion de continuité, les trajectoires lisses, les relations à valeurs dans $\mathbb{R}^+$. Sans lui, le changement graduel n'aurait pas de support formel.
+
+Ces deux visages de l'infini ne sont pas indépendants : le continu de $\mathbb{R}$ est à la fois infiniment divisible et strictement plus grand que $\mathbb{N}$.
+
+**L'infini dans le formalisme.** La question de l'infinité traverse chacune des composantes définies dans ce chapitre. L'espace des distinctions $X$ peut-il contenir infiniment nombreux éléments distinguables ? L'espace des configurations $Y(X)$ croît exponentiellement avec la taille de $X$ — si $X$ est infini, $Y$ peut devenir indénombrable. Le temps $T$ peut être fini ou infini, discret ou continu, chaque choix engageant une ontologie différente. Les relations valuées dans des espaces continus introduisent l'infini jusque dans les états eux-mêmes.
+
+La réponse à ces questions n'est pas fixée ici, et elle n'affecte pas la validité des définitions données — celles-ci s'appliquent aux cas finis comme aux cas infinis. On notera cependant que certaines constructions sur des ensembles infinis peuvent requérir l'**axiome du choix** — qui affirme qu'on peut sélectionner simultanément un élément dans chacun d'une infinité d'ensembles. Cet axiome, lui aussi non évident, fait l'objet de débats fondationnels.
+
+**Le paradoxe du temps.** La question de l'infini prend une tournure particulièrement inconfortable lorsqu'on l'applique au temps.
+
+Si le temps est **fini**, il possède un premier instant. Avant ce premier instant, rien n'existait — pas même le temps. Mais alors, comment le monde a-t-il pu surgir du néant ? Toute cause supposée précéderait le temps, ce qui contredit l'hypothèse. L'infinité du temps semble s'imposer comme une nécessité logique.
+
+Si le temps est **infini**, le monde a toujours existé, sans commencement. L'esprit, habitué à chercher des origines, se heurte à une régression sans fond : pourquoi l'état présent plutôt qu'un autre, si le passé est infini ? L'infinité du passé ne résout pas la question de l'existence — elle la déplace indéfiniment.
+
+Les deux alternatives sont inconfortables. Ce n'est peut-être pas un défaut du raisonnement : c'est la marque que la question touche quelque chose d'irréductible, une limite de la pensée face à ce qui la dépasse.
+
+Ce texte ne tranche pas. Le temps est modélisé comme un ensemble ordonné — fini ou infini, discret ou continu selon le système étudié. La question de son étendue réelle demeure sans réponse.
+
+*(Voir Annexe — Prérequis mathématiques : Ensembles, Infini et cardinalité.)*
+
+---
+
 ## III — Les systèmes
 
 Le vocabulaire est posé. Les concepts de configuration, d'état, d'action, de force, de hasard, de temps et de trajectoire ont été définis pour eux-mêmes, sans référence à un objet englobant.
@@ -764,7 +798,7 @@ Ce chapitre a posé le vocabulaire formel de la description systémique.
 
 Il a introduit trois espaces fondamentaux — $X$ (distinctions), $Y(X)$ (configurations), $Z(Y)$ (transformations) — qui traduisent en formalisme les trois principes du chapitre 0 et forment une chaîne de dépendance logique : $X \to Y(X) \to Z(Y(X))$.
 
-Il a défini le **graphe** comme structure minimale, l'**état** comme couple d'éléments présents et de relations effectives — $e = (A, R)$ —, la **topologie** comme structure de voisinage dont un état peut être muni, faisant de lui un espace topologique $e = (A, R, T)$, l'**action** comme transformation d'une configuration, la **force** comme sélection — possiblement aléatoire — d'une action, le **hasard** comme espace d'indétermination ($\Omega$) dont la nature — épistémique ou ontologique — reste ouverte, le **temps** comme ordre causal, et la **trajectoire** comme histoire. Il a proposé deux formalisations des relations — **logique** (binaire) et **valuée** (à valeurs dans un espace $W_i$) — la première étant un cas particulier de la seconde.
+Il a défini le **graphe** comme structure minimale, l'**état** comme couple d'éléments présents et de relations effectives — $e = (A, R)$ —, la **topologie** comme structure de voisinage dont un état peut être muni, faisant de lui un espace topologique $e = (A, R, T)$, l'**action** comme transformation d'une configuration, la **force** comme sélection — possiblement aléatoire — d'une action, le **hasard** comme espace d'indétermination ($\Omega$) dont la nature — épistémique ou ontologique — reste ouverte, le **temps** comme ordre causal, et la **trajectoire** comme histoire. Il a questionné le statut de l'**infini** — axiome mathématique ou réalité, infiniment grand ou infiniment petit — et noté le paradoxe auquel conduit toute hypothèse sur l'étendue du temps. Il a proposé deux formalisations des relations — **logique** (binaire) et **valuée** (à valeurs dans un espace $W_i$) — la première étant un cas particulier de la seconde.
 
 Il a proposé une **typologie** des systèmes — statique (passif ou actif), dynamique (simple, évolutif ou réflexif) — qui constitue une hiérarchie de niveaux d'organisation. Le concept de **dynamique** — un champ de forces associant à chaque état la force qui s'y exerce — émerge naturellement au niveau réflexif comme la structure qui lie l'état à sa propre évolution.
 

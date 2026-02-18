@@ -51,6 +51,16 @@ En général, si $A$ contient $n$ éléments, $\mathcal{P}(A)$ contient $2^n$ é
 
 *Exemple.* Si $A = \\{1, 2, 3\\}$ et $B = \\{2, 3, 4\\}$, alors $A \cup B = \\{1, 2, 3, 4\\}$, $A \cap B = \\{2, 3\\}$, et $A \setminus B = \\{1\\}$.
 
+### Infini et cardinalité
+
+Un ensemble peut être **fini** — il contient un nombre $n \in \mathbb{N}$ d'éléments — ou **infini**.
+
+L'infini admet lui-même une hiérarchie. Un ensemble est **dénombrable** s'il peut être mis en correspondance biunivoque avec $\mathbb{N}$ : ses éléments peuvent être alignés en une liste exhaustive $a_0, a_1, a_2, \ldots$ Les ensembles $\mathbb{N}$, $\mathbb{Z}$ et $\mathbb{Q}$ sont dénombrables. Un ensemble est **indénombrable** s'il est trop grand pour être listé : Cantor a démontré que $\mathbb{R}$ est indénombrable — aucune suite $a_0, a_1, a_2, \ldots$ ne peut contenir tous les réels. La hiérarchie des infinis est elle-même infinie.
+
+L'existence d'un ensemble infini ne se démontre pas à partir des autres axiomes : elle requiert l'**axiome de l'infini**, l'un des axiomes fondateurs de la théorie des ensembles standard (ZFC). Sans cet axiome, la construction mathématique se restreint aux ensembles finis.
+
+Certaines constructions sur des ensembles infinis (par exemple, sélectionner simultanément un élément dans chacun d'une infinité d'ensembles) requièrent en outre l'**axiome du choix**, dont l'acceptation est elle-même l'objet de débats fondationnels.
+
 ---
 
 ## 2 — N-uplets et produit cartésien
