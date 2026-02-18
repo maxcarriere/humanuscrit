@@ -21,7 +21,7 @@
   {% comment %} Section Réflexions : ordre fixe Préambule, Chapitre 0, Chapitre 1 {% endcomment %}
   {% if dossier_norm == "textes/reflexions" %}
     {% comment %} Ordre fixe : on cherche chaque page par son chemin complet (robuste Windows/Linux) {% endcomment %}
-    {% assign ref_files = "préambule.md|0_existence.md|1_systemes_vision_descriptive.md" | split: "|" %}
+    {% assign ref_files = "préambule.md|0_existence.md|1_systemes_vision_descriptive.md|annexe_prerequis_mathematiques.md" | split: "|" %}
     {% for ref_file in ref_files %}
       {% assign p = "" %}
       {% assign expected_path = dossier_norm | append: "/" | append: ref_file %}
