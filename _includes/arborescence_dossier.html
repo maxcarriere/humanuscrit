@@ -20,13 +20,12 @@
 <ul class="arborescence-textes">
   {% comment %} Section Réflexions : ordre fixe Préambule, Chapitre 0, Chapitre 1 {% endcomment %}
   {% if dossier_norm == "textes/reflexions" %}
-    {% assign ref_order = "textes/reflexions/préambule.md|textes/reflexions/0_existence.md|textes/reflexions/1_systemes_vision_descriptive.md" | split: "|" %}
-    {% for ref_path in ref_order %}
-      {% assign ref_path_norm = ref_path | replace: "\\", "/" %}
+    {% comment %} Ordre fixe : on cherche chaque page par son nom de fichier (robuste Windows/Linux, encodage) {% endcomment %}
+    {% assign ref_files = "préambule.md|0_existence.md|1_systemes_vision_descriptive.md" | split: "|" %}
+    {% for ref_file in ref_files %}
       {% assign p = "" %}
       {% for candidat in site.pages %}
-        {% assign candidat_path_norm = candidat.path | replace: "\\", "/" %}
-        {% if candidat_path_norm == ref_path_norm %}
+        {% if candidat.path contains ref_file %}
           {% assign p = candidat %}
           {% break %}
         {% endif %}
