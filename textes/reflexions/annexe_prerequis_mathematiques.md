@@ -4,7 +4,7 @@ permalink: /textes/reflexions/annexe-prerequis-mathematiques/
 order: 4
 ---
 
-# Annexe — Prérequis mathématiques
+# Prérequis mathématiques
 
 Cette annexe rassemble les notions mathématiques mobilisées dans le texte. Elle s'adresse au lecteur qui n'est pas nécessairement familier avec le langage formel, et vise à rendre chaque notion accessible par l'intuition avant de la préciser par la notation.
 
@@ -123,11 +123,11 @@ Les relations possibles entre les éléments d'un système admettent deux formal
 #### Relation logique
 
 > **Définition 4 — Relation logique**
->
+> 
 > Une **relation possible** $R\_i$ de degré $n\_i$ sur $X$ est un sous-ensemble de $X^{n\_i}$ :
->
+> 
 > $R\_i \subseteq X^{n\_i}$
->
+> 
 > Elle désigne l'ensemble des $n\_i$-uplets d'éléments entre lesquels la relation *peut* exister. La relation est **binaire** : pour un $n\_i$-uplet donné, le lien est possible ou ne l'est pas.
 
 La **restriction** de $R\_i$ à un sous-ensemble $A \subseteq X$ d'éléments présents, notée $R\_i \restriction_A$, est l'ensemble des $n\_i$-uplets de $R\_i$ dont tous les éléments appartiennent à $A$ :
@@ -141,13 +141,13 @@ Les **relations effectives** $r\_i$ sont des sous-ensembles de $R\_i \restrictio
 La relation logique admet une généralisation naturelle. Au lieu de se limiter à « le lien existe ou n'existe pas », on peut associer à chaque $n\_i$-uplet une **valeur** — une intensité, un poids, une mesure.
 
 > **Définition 4 (bis) — Relation valuée**
->
+> 
 > Une **relation possible** $R\_i$ de degré $n\_i$, valuée dans un ensemble $W\_i$, est une application :
->
+> 
 > $R\_i : X^{n\_i} \to W\_i$
->
+> 
 > qui associe à chaque $n\_i$-uplet d'éléments de $X$ une **valeur** dans $W\_i$.
->
+> 
 > L'ensemble $W\_i$ est appelé **espace de valuation** de la relation $R\_i$. Il contient un élément distingué, noté $0$ (ou $\bot$), qui signifie *absence de relation*.
 
 L'espace de valuation $W\_i$ capture la richesse du lien. Selon le choix de $W\_i$, on retrouve différents cadres :
