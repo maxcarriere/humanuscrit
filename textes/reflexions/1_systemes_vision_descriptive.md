@@ -1,13 +1,13 @@
 ---
-title: Chapitre 1 — Système : vision descriptive
-short_title: Système : vision descriptive
+title: Chapitre 1 — Système — vision descriptive
+short_title: Système — vision descriptive
 permalink: /textes/reflexions/chapitre-1-systemes-vision-descriptive/
 order: 3
 date: 2026-02-17
 last_modified_at: 2026-02-16
 ---
 
-# Système : vision descriptive
+# Système — Vision descriptive
 
 *De la structure au mouvement*
 

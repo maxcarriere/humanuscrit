@@ -867,6 +867,26 @@ html[data-darkreader-mode] .navigation-dossier a:hover {
   margin: 0 auto;
 }
 
+/* Page Évolution — graphique Looker Studio */
+.analytics-wrapper {
+  width: 100%;
+  max-width: 900px;
+  margin: 40px auto;
+}
+
+.analytics-wrapper iframe {
+  width: 100%;
+  height: 650px;
+  border: 0;
+  border-radius: 6px;
+}
+
+@media (max-width: 640px) {
+  .analytics-wrapper iframe {
+    height: 500px;
+  }
+}
+
 /* ===== 7. Protection absolue contre toutes les extensions de modification de couleur ===== */
 /* Règle globale pour empêcher toute modification de couleur par Dark Reader et autres extensions */
 html[data-darkreader-mode],
