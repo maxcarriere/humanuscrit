@@ -116,6 +116,60 @@ Certaines relations binaires possèdent des propriétés remarquables :
 
 Ces propriétés se combinent pour définir des structures particulières — par exemple, une relation d'**ordre** est réflexive, antisymétrique et transitive (voir section 5).
 
+### Relations logiques et valuées
+
+Les relations possibles entre les éléments d'un système admettent deux formalisations, selon le degré de richesse qu'on souhaite capturer.
+
+#### Relation logique
+
+> **Définition 4 — Relation logique**
+>
+> Une **relation possible** $R\_i$ de degré $n\_i$ sur $X$ est un sous-ensemble de $X^{n\_i}$ :
+>
+> $R\_i \subseteq X^{n\_i}$
+>
+> Elle désigne l'ensemble des $n\_i$-uplets d'éléments entre lesquels la relation *peut* exister. La relation est **binaire** : pour un $n\_i$-uplet donné, le lien est possible ou ne l'est pas.
+
+La **restriction** de $R\_i$ à un sous-ensemble $A \subseteq X$ d'éléments présents, notée $R\_i \restriction_A$, est l'ensemble des $n\_i$-uplets de $R\_i$ dont tous les éléments appartiennent à $A$ :
+
+$$R_i \restriction_A = R_i \cap A^{n_i}$$
+
+Les **relations effectives** $r\_i$ sont des sous-ensembles de $R\_i \restriction_A$ : une relation effective entre les éléments présents ne peut exister que si la relation possible l'autorise ($r\_i \subseteq R\_i \restriction_A$).
+
+#### Relation valuée
+
+La relation logique admet une généralisation naturelle. Au lieu de se limiter à « le lien existe ou n'existe pas », on peut associer à chaque $n\_i$-uplet une **valeur** — une intensité, un poids, une mesure.
+
+> **Définition 4 (bis) — Relation valuée**
+>
+> Une **relation possible** $R\_i$ de degré $n\_i$, valuée dans un ensemble $W\_i$, est une application :
+>
+> $R\_i : X^{n\_i} \to W\_i$
+>
+> qui associe à chaque $n\_i$-uplet d'éléments de $X$ une **valeur** dans $W\_i$.
+>
+> L'ensemble $W\_i$ est appelé **espace de valuation** de la relation $R\_i$. Il contient un élément distingué, noté $0$ (ou $\bot$), qui signifie *absence de relation*.
+
+L'espace de valuation $W\_i$ capture la richesse du lien. Selon le choix de $W\_i$, on retrouve différents cadres :
+
+- **$W\_i = \{0, 1\}$** : la relation est binaire — le lien existe ($1$) ou n'existe pas ($0$). On retrouve exactement la **relation logique** de la définition précédente.
+
+- **$W\_i = \mathbb{R}^+$** : la relation porte une **intensité** continue — une force d'attraction, un débit, une affinité. Le lien n'est plus « tout ou rien » ; il possède un poids.
+
+- **$W\_i$ fini** (par exemple $\{\text{nul}, \text{faible}, \text{moyen}, \text{fort}\}$) : la relation est **qualitative et graduée**.
+
+La **relation logique est un cas particulier de la relation valuée**, retrouvé lorsque $W\_i = \{0, 1\}$ pour toutes les relations.
+
+Les relations effectives sont alors des applications $r\_i : A^{n\_i} \to W\_i$, avec la contrainte qu'une relation effective ne peut prendre une valeur non nulle que là où la relation possible le permet :
+
+$$r_i(x_1, \ldots, x_{n_i}) \neq 0 \implies R_i(x_1, \ldots, x_{n_i}) \neq 0$$
+
+La **restriction** de $R\_i$ à une partie $A \subseteq X$, notée $R\_i \restriction_A$, est l'application obtenue en restreignant le domaine aux $n\_i$-uplets d'éléments de $A$ :
+
+$$R_i \restriction_A : A^{n_i} \to W_i, \quad (R_i \restriction_A)(x_1, \ldots, x_{n_i}) = R_i(x_1, \ldots, x_{n_i})$$
+
+La relation effective $r\_i$ est alors une application de $A^{n\_i}$ dans $W\_i$ telle que $r\_i(x\_1, \ldots, x\_{n\_i}) \neq 0$ implique $(R\_i \restriction_A)(x\_1, \ldots, x\_{n\_i}) \neq 0$.
+
 ---
 
 ## 4 — Applications
