@@ -22,7 +22,15 @@
   {% if dossier_norm == "textes/reflexions" %}
     {% assign ref_order = "textes/reflexions/préambule.md|textes/reflexions/0_existence.md|textes/reflexions/1_systemes_vision_descriptive.md" | split: "|" %}
     {% for ref_path in ref_order %}
-      {% assign p = site.pages | where: "path", ref_path | first %}
+      {% assign ref_path_norm = ref_path | replace: "\\", "/" %}
+      {% assign p = "" %}
+      {% for candidat in site.pages %}
+        {% assign candidat_path_norm = candidat.path | replace: "\\", "/" %}
+        {% if candidat_path_norm == ref_path_norm %}
+          {% assign p = candidat %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
       {% if p %}
         {% assign affichage_titre = p.short_title | default: p.title %}
         <li><a href="{{ p.url | relative_url }}">{% include lib_display_name.html name=p.name title=affichage_titre %}</a></li>
