@@ -821,17 +821,11 @@ html[data-darkreader-mode] .navigation-dossier a:hover {
 }
 
 /* Compteur visiteurs (page accueil) — visible, discret */
-.visitor-counter,
 #visitor-counter {
-  display: block;
   text-align: center;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  padding-top: 1.5rem;
-  border-top: 1px solid rgba(13, 13, 13, 0.12);
-  font-size: 0.95rem;
-  color: #6b5d4f;
-  min-height: 1.5em;
+  margin-top: 20px;
+  opacity: 0.8;
+  font-size: 0.9em;
 }
 
 .visitor-counter-link {

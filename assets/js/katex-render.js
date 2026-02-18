@@ -16,7 +16,8 @@ function runKatex() {
     ],
     throwOnError: false,
     preProcess: function (math) {
-      return math.replace(/\s+/g, " ").trim();
+      // \_ dans le source (échappement Markdown) → _ pour que KaTeX affiche les indices
+      return math.replace(/\\_/g, "_").replace(/\s+/g, " ").trim();
     }
   });
 }

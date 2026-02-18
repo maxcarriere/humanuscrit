@@ -24,7 +24,8 @@
     {% for ref_path in ref_order %}
       {% assign p = site.pages | where: "path", ref_path | first %}
       {% if p %}
-        <li><a href="{{ p.url | relative_url }}">{% include lib_display_name.html name=p.name title=p.short_title | default: p.title %}</a></li>
+        {% assign affichage_titre = p.short_title | default: p.title %}
+        <li><a href="{{ p.url | relative_url }}">{% include lib_display_name.html name=p.name title=affichage_titre %}</a></li>
       {% endif %}
     {% endfor %}
   {% else %}
@@ -48,27 +49,30 @@
     {% assign rel_parts = rel_path | split: "/" %}
     {% assign depth = rel_parts | size %}
     {% if depth == 1 %}
+      {% assign affichage_titre = p.short_title | default: p.title %}
       {% if p.name == "index.md" %}
         {% assign item_name = rel_parts[0] %}
         <li>
-          <a href="{{ p.url | relative_url }}">{% include lib_display_name.html name=item_name title=p.short_title | default: p.title %}</a>
+          <a href="{{ p.url | relative_url }}">{% include lib_display_name.html name=item_name title=affichage_titre %}</a>
         </li>
       {% elsif p.name != "README.md" %}
         <li>
           <a href="{{ p.url | relative_url }}">
-            {% include lib_display_name.html name=p.name title=p.short_title | default: p.title %}
+            {% include lib_display_name.html name=p.name title=affichage_titre %}
           </a>
         </li>
       {% endif %}
     {% elsif depth == 2 and p.name == "index.md" %}
+      {% assign affichage_titre = p.short_title | default: p.title %}
       {% assign item_name = rel_parts[0] %}
       <li>
-        <a href="{{ p.url | relative_url }}">{% include lib_display_name.html name=item_name title=p.short_title | default: p.title %}</a>
+        <a href="{{ p.url | relative_url }}">{% include lib_display_name.html name=item_name title=affichage_titre %}</a>
       </li>
     {% elsif depth == 2 and p.name != "README.md" %}
+      {% assign affichage_titre = p.short_title | default: p.title %}
       <li>
         <a href="{{ p.url | relative_url }}">
-          {% include lib_display_name.html name=p.name title=p.short_title | default: p.title %}
+          {% include lib_display_name.html name=p.name title=affichage_titre %}
         </a>
       </li>
     {% endif %}
