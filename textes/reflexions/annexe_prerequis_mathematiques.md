@@ -4,7 +4,7 @@ permalink: /textes/reflexions/annexe-prerequis-mathematiques/
 order: 4
 ---
 
-# Annexe — Prérequis mathématiques
+# Prérequis mathématiques
 
 Cette annexe rassemble les notions mathématiques mobilisées dans le texte. Elle s'adresse au lecteur qui n'est pas nécessairement familier avec le langage formel, et vise à rendre chaque notion accessible par l'intuition avant de la préciser par la notation.
 
@@ -79,7 +79,43 @@ En général, si $X$ contient $k$ éléments, $X^n$ contient $k^n$ éléments.
 
 ---
 
-## 3 — Relations
+## 3 — Applications
+
+### L'idée
+
+Une **application** (ou **fonction**) est une règle qui associe à chaque élément d'un ensemble de départ *exactement un* élément d'un ensemble d'arrivée. Le mot clé est *exactement un* : chaque entrée produit une et une seule sortie.
+
+On note $f : A \to B$ pour dire « $f$ est une application de $A$ dans $B$ ». Pour un élément $x \in A$, on note $f(x) \in B$ l'élément qui lui est associé — son **image** par $f$.
+
+*Exemple du quotidien.* L'application « capitale de » associe à chaque pays sa capitale : $f(\text{France}) = \text{Paris}$, $f(\text{Japon}) = \text{Tokyo}$. Chaque pays a exactement une capitale — c'est bien une application. En revanche, « ville de » n'est pas une application : un pays contient plusieurs villes.
+
+### Vocabulaire
+
+- $A$ est le **domaine** (ou ensemble de départ) — l'ensemble des entrées.
+- $B$ est le **codomaine** (ou ensemble d'arrivée) — l'ensemble dans lequel vivent les sorties.
+- L'**image** de $f$ est l'ensemble des éléments de $B$ effectivement atteints : $\text{Im}(f) = \\{f(x) \mid x \in A\\}$.
+
+### L'ensemble des applications $B^A$
+
+L'ensemble de toutes les applications de $A$ dans $B$ est noté $B^A$.
+
+Cette notation s'explique par le comptage : si $A$ contient $m$ éléments et $B$ contient $n$ éléments, alors le nombre d'applications de $A$ dans $B$ est $n^m$ — chaque élément de $A$ peut être envoyé sur l'un des $n$ éléments de $B$, et ces choix sont indépendants.
+
+*Exemple.* Si $A = \\{1, 2\\}$ et $B = \\{a, b, c\\}$, alors $B^A$ contient $3^2 = 9$ applications. Par exemple : $f(1) = a, f(2) = a$ ; ou $f(1) = b, f(2) = c$ ; etc.
+
+En particulier, $D^D$ désigne l'ensemble de toutes les applications de $D$ dans $D$ — toutes les transformations possibles de $D$ vers lui-même. Si $D$ contient $n$ éléments, $D^D$ contient $n^n$ applications. Pour $n = 3$, cela fait déjà 27 transformations ; pour $n = 10$, dix milliards.
+
+### Composition
+
+Si $f : A \to B$ et $g : B \to C$, la **composition** $g \circ f : A \to C$ est l'application qui fait d'abord $f$, puis $g$ :
+
+$(g \circ f)(x) = g(f(x))$
+
+La composition est au coeur de la notion de trajectoire : appliquer une action, puis une autre, c'est composer.
+
+---
+
+## 4 — Relations
 
 ### L'idée
 
@@ -128,13 +164,11 @@ Les relations possibles entre les éléments d'un système admettent deux formal
 >
 > $R \subseteq X^n$
 >
-> Elle désigne l'ensemble des $n$-uplets d'éléments entre lesquels la relation *peut* exister. La relation est **binaire** : pour un $n$-uplet donné, le lien est possible ou ne l'est pas.
+> Elle désigne l'ensemble des $n$-uplets d'éléments entre lesquels la relation *peut* exister. La valeur de la relation est **binaire** : pour un $n$-uplet donné, le lien est possible ou ne l'est pas.
 
 La **restriction** de $R$ à un sous-ensemble $A \subseteq X$ d'éléments présents, notée $R \restriction_A$, est l'ensemble des $n$-uplets de $R$ dont tous les éléments appartiennent à $A$ :
 
 $$R \restriction_A = R \cap A^n$$
-
-Une **relation effective** $r$ est un sous-ensemble de $R \restriction_A$ : une relation effective entre les éléments présents ne peut exister que si la relation possible l'autorise ($r \subseteq R \restriction_A$).
 
 #### Relation valuée
 
@@ -152,59 +186,13 @@ La relation logique admet une généralisation naturelle. Au lieu de se limiter 
 
 L'espace de valuation $W$ capture la richesse du lien. Selon le choix de $W$, on retrouve différents cadres :
 
-- **$W = \{0, 1\}$** : la relation est binaire — le lien existe ($1$) ou n'existe pas ($0$). On retrouve exactement la **relation logique** de la définition précédente.
+- **$W = \\{0, 1\\}$** : la relation est binaire — le lien existe ($1$) ou n'existe pas ($0$). On retrouve exactement la **relation logique** de la définition précédente.
 
 - **$W = \mathbb{R}^+$** : la relation porte une **intensité** continue — une force d'attraction, un débit, une affinité. Le lien n'est plus « tout ou rien » ; il possède un poids.
 
 - **$W$ fini** (par exemple $\{\text{nul}, \text{faible}, \text{moyen}, \text{fort}\}$) : la relation est **qualitative et graduée**.
 
 La **relation logique est un cas particulier de la relation valuée**, retrouvé lorsque $W = \{0, 1\}$.
-
-Une **relation effective** est alors une application $r : A^n \to W$, avec la contrainte qu'elle ne peut prendre une valeur non nulle que là où la relation possible le permet :
-
-$$r(x_1, \ldots, x_n) \neq 0 \implies R(x_1, \ldots, x_n) \neq 0$$
-
-La **restriction** de $R$ à une partie $A \subseteq X$, notée $R \restriction_A$, est l'application obtenue en restreignant le domaine aux $n$-uplets d'éléments de $A$ :
-
-$$R \restriction_A : A^n \to W, \quad (R \restriction_A)(x_1, \ldots, x_n) = R(x_1, \ldots, x_n)$$
-
-La relation effective $r$ est alors une application de $A^n$ dans $W$ telle que $r(x_1, \ldots, x_n) \neq 0$ implique $(R \restriction_A)(x_1, \ldots, x_n) \neq 0$.
-
----
-
-## 4 — Applications
-
-### L'idée
-
-Une **application** (ou **fonction**) est une règle qui associe à chaque élément d'un ensemble de départ *exactement un* élément d'un ensemble d'arrivée. Le mot clé est *exactement un* : chaque entrée produit une et une seule sortie.
-
-On note $f : A \to B$ pour dire « $f$ est une application de $A$ dans $B$ ». Pour un élément $x \in A$, on note $f(x) \in B$ l'élément qui lui est associé — son **image** par $f$.
-
-*Exemple du quotidien.* L'application « capitale de » associe à chaque pays sa capitale : $f(\text{France}) = \text{Paris}$, $f(\text{Japon}) = \text{Tokyo}$. Chaque pays a exactement une capitale — c'est bien une application. En revanche, « ville de » n'est pas une application : un pays contient plusieurs villes.
-
-### Vocabulaire
-
-- $A$ est le **domaine** (ou ensemble de départ) — l'ensemble des entrées.
-- $B$ est le **codomaine** (ou ensemble d'arrivée) — l'ensemble dans lequel vivent les sorties.
-- L'**image** de $f$ est l'ensemble des éléments de $B$ effectivement atteints : $\text{Im}(f) = \\{f(x) \mid x \in A\\}$.
-
-### L'ensemble des applications $B^A$
-
-L'ensemble de toutes les applications de $A$ dans $B$ est noté $B^A$.
-
-Cette notation s'explique par le comptage : si $A$ contient $m$ éléments et $B$ contient $n$ éléments, alors le nombre d'applications de $A$ dans $B$ est $n^m$ — chaque élément de $A$ peut être envoyé sur l'un des $n$ éléments de $B$, et ces choix sont indépendants.
-
-*Exemple.* Si $A = \\{1, 2\\}$ et $B = \\{a, b, c\\}$, alors $B^A$ contient $3^2 = 9$ applications. Par exemple : $f(1) = a, f(2) = a$ ; ou $f(1) = b, f(2) = c$ ; etc.
-
-En particulier, $D^D$ désigne l'ensemble de toutes les applications de $D$ dans $D$ — toutes les transformations possibles de $D$ vers lui-même. Si $D$ contient $n$ éléments, $D^D$ contient $n^n$ applications. Pour $n = 3$, cela fait déjà 27 transformations ; pour $n = 10$, dix milliards.
-
-### Composition
-
-Si $f : A \to B$ et $g : B \to C$, la **composition** $g \circ f : A \to C$ est l'application qui fait d'abord $f$, puis $g$ :
-
-$(g \circ f)(x) = g(f(x))$
-
-La composition est au coeur de la notion de trajectoire : appliquer une action, puis une autre, c'est composer.
 
 ---
 
@@ -267,6 +255,21 @@ Les voisinages doivent satisfaire quelques règles de bon sens :
 - Si $V$ est un voisinage de $x$ et $V \subseteq W$, alors $W$ est aussi un voisinage de $x$ (un ensemble plus grand qu'un voisinage est encore un voisinage).
 - L'intersection de deux voisinages de $x$ est un voisinage de $x$ (la zone commune à deux voisinages est encore un voisinage).
 
+> **Définition — Topologie**
+>
+> Une **topologie** sur un ensemble $A$ est une famille :
+>
+> $$T = (\mathcal{V}(x))_{x \in A}$$
+>
+> qui associe à chaque élément $x \in A$ une collection $\mathcal{V}(x)$ de **voisinages**, vérifiant :
+>
+> - $x \in V$ pour tout $V \in \mathcal{V}(x)$ — on est toujours dans ses propres voisinages ;
+> - si $V \in \mathcal{V}(x)$ et $V \subseteq W \subseteq A$, alors $W \in \mathcal{V}(x)$ — tout surensemble d'un voisinage est un voisinage ;
+> - si $V, W \in \mathcal{V}(x)$, alors $V \cap W \in \mathcal{V}(x)$ — l'intersection de deux voisinages est un voisinage ;
+> - si $V \in \mathcal{V}(x)$, il existe $W \in \mathcal{V}(x)$ tel que $V \in \mathcal{V}(y)$ pour tout $y \in W$ — tout voisinage de $x$ est également un voisinage de tous les points qui lui sont proches.
+>
+> L'ensemble $A$ muni de $T$ est appelé **espace topologique**, noté $(A, T)$.
+
 ### Ouverts et fermés
 
 Un **ouvert** est un ensemble $U$ tel que chacun de ses points est « à l'intérieur » : pour tout $x \in U$, il existe un voisinage de $x$ entièrement contenu dans $U$. Autrement dit, aucun point d'un ouvert n'est « au bord ».
@@ -314,9 +317,9 @@ La topologie permet de définir la **continuité** sans recourir aux limites num
 
 ### Topologie dans le texte
 
-Dans le texte principal, la topologie intervient pour formaliser la disposition spatiale des éléments d'un système, indépendamment de leurs relations. Deux éléments peuvent être topologiquement voisins (proches dans l'espace) sans être en relation (connectés dans le graphe), et réciproquement.
+Dans le texte principal, la topologie intervient comme troisième composante d'un état : $e = (A, R, T)$, où $T = (\mathcal{V}(x))_{x \in A}$ est la topologie sur l'ensemble $A$ des éléments présents. Elle formalise la disposition spatiale des éléments, indépendamment de leurs relations. Deux éléments peuvent être topologiquement voisins (proches dans l'espace) sans être en relation (connectés dans le graphe), et réciproquement.
 
-La topologie effective $T_e$, qui dépend de l'état $e$, capture l'idée que la configuration d'un système peut modifier la structure de proximité — de la même manière que, en relativité générale, la distribution de masse courbe l'espace-temps.
+La topologie d'un état peut être influencée par ses relations : si la configuration des relations modifie la structure de voisinage, on obtient une topologie effective différente de la topologie de base. Cette influence est analogue à la courbure de l'espace-temps en relativité générale, où la distribution de masse déforme la géométrie de l'espace.
 
 ---
 

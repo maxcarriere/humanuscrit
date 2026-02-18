@@ -3,7 +3,7 @@ title: Chapitre 1 - Système - Vision descriptive
 permalink: /textes/reflexions/chapitre-1-systemes-vision-descriptive/
 order: 3
 date: 2026-02-17
-last_modified_at: 2026-02-16
+last_modified_at: 2026-02-18
 ---
 
 # Système — Vision descriptive
@@ -172,19 +172,53 @@ Lorsque les relations sont valuées, on peut enrichir cette description : l'amit
 
 **Définition 5 — État**
 
-> Un **état** est un couple $e = (A, R)$ où :
-> 
+> Un **état** est un triplet $e = (A, R, T)$ où :
+>
 > - $A \subseteq X$ est l'ensemble des éléments **présents** — ceux qui participent effectivement à la configuration ;
-> 
-> - $R = (r_i)_{i \in I}$ est une famille de **relations effectives** sur $A$ entre les éléments présents — avec $r\_i \subset R\_i \restriction_A$ 
-> 
+>
+> - $R = (r_i)_{i \in I}$ est une famille de **relations effectives** sur $A$ entre les éléments présents — avec $r\_i \subset R\_i \restriction_A$ ;
+>
+> - $T$ est une **topologie** sur $A$ — une structure de voisinage sur les éléments présents (définie à la section suivante).
+>
 > Les relations effectives sont incluses dans la restriction des relations possibles aux éléments présents. Toute relation possible n'est pas nécessairement activée.
 
-L'état dit *quoi* existe et *comment* c'est relié, à un instant donné. Il est la photographie du réel — non pas ce que le réel *pourrait* être, mais ce qu'il *est*.
+L'état dit *quoi* existe, *comment* c'est relié, et *dans quelle disposition* — à un instant donné. Il est la photographie du réel — non pas ce que le réel *pourrait* être, mais ce qu'il *est*.
 
-Autrement dit : un état décrit une situation concrète. Il identifie les éléments qui participent effectivement à la configuration (l'ensemble $A$), et précise, parmi toutes les relations concevables entre ces éléments, lesquelles sont actuellement actives.
+Autrement dit : un état décrit une situation concrète. Il identifie les éléments qui participent effectivement à la configuration (l'ensemble $A$), précise les relations actives entre eux, et spécifie la structure de voisinage — la topologie — dans laquelle ils s'inscrivent.
 
-*Remarque.* L'état ne se réduit pas à une configuration du graphe au sens de la section I. Il est plus riche : il précise non seulement quels liens existent, mais aussi *quels éléments sont présents*. Un état peut contenir tous les éléments de $X$, ou seulement certains d'entre eux. Dans le cas de relations valuées, l'état précise en outre la *valeur* de chaque relation.
+*Remarque.* L'état ne se réduit pas à une configuration du graphe au sens de la section I. Il est plus riche : il précise non seulement quels liens existent, mais aussi *quels éléments sont présents* et *dans quelle disposition topologique*. Un état peut contenir tous les éléments de $X$, ou seulement certains d'entre eux. Dans le cas de relations valuées, l'état précise en outre la *valeur* de chaque relation.
+
+---
+
+### Topologie
+
+Les éléments d'un état ne sont pas seulement caractérisés par leurs relations — ils peuvent aussi être caractérisés par leur *disposition*. Certains sont proches les uns des autres, d'autres sont éloignés. Cette notion de proximité est ce qu'on appelle une **topologie**.
+
+> **Définition 6 — Topologie**
+>
+> Une **topologie** sur un ensemble $A$ est une famille $T = (\mathcal{V}(x))_{x \in A}$ qui associe à chaque élément $x \in A$ une collection $\mathcal{V}(x)$ de **voisinages** de $x$.
+>
+> Un voisinage de $x$ est un sous-ensemble $V \subseteq A$ qui contient $x$ et les éléments considérés comme « proches » de $x$ à une certaine échelle.
+>
+> L'ensemble $A$ muni de la topologie $T$ est appelé **espace topologique**.
+
+Autrement dit, une topologie répond à la question : *pour chaque élément, quels sont ses voisins ?* — sans mesurer la distance qui les sépare. Deux éléments sont « proches » s'ils apparaissent ensemble dans un voisinage de petite taille ; ils sont « éloignés » s'ils n'apparaissent ensemble dans aucun voisinage restreint.
+
+Un état $e = (A, R, T)$ est donc un **espace topologique** : $A$ en est le support, $R$ décrit les relations effectives entre ses éléments, et $T$ fournit la structure de voisinage.
+
+*Exemple.* Sur une carte, trois villes — Paris, Lyon, Marseille — ont une disposition géographique : Paris est plus proche de Lyon que de Marseille. Cette proximité est une propriété topologique. Elle ne dépend pas de l'existence d'une route entre ces villes (qui serait une relation) — elle dépend de leur position dans l'espace.
+
+*Exemple.* Dans un réseau social, on pourrait définir une topologie par la proximité géographique des individus : deux personnes habitant la même ville sont topologiquement voisines, même si elles n'entretiennent aucune relation.
+
+La topologie est donc, *a priori*, indépendante des relations. Deux éléments peuvent être voisins dans la topologie sans être en relation (des voisins de palier qui ne se connaissent pas), et réciproquement, deux éléments peuvent être en relation sans être topologiquement voisins (des amis vivant dans des pays différents). La topologie est une propriété de l'*espace* dans lequel les éléments se situent ; les relations sont des propriétés des *éléments* entre eux.
+
+Toutefois, les relations peuvent *influencer* la topologie. Si la configuration d'un état modifie la structure de voisinage, la topologie effective s'en trouve altérée. Cette influence peut être interprétée comme une **courbure** de la topologie de base, induite par les relations — de la même manière que, en physique, la distribution de masse courbe l'espace-temps.
+
+*Remarque.* Lorsque les relations sont valuées et portent des valeurs numériques (par exemple une intensité ou une affinité), elles peuvent induire naturellement une notion de distance entre éléments — et donc une topologie. La topologie n'est alors plus seulement indépendante des relations : elle peut en *émerger*.
+
+*(Voir Annexe — Prérequis mathématiques : Topologie.)*
+
+Lorsqu'on dispose d'une **distance** — une fonction qui assigne à chaque paire d'éléments un nombre positif mesurant leur écart — celle-ci induit naturellement une topologie : les voisinages sont les « boules » de rayon donné autour de chaque point. Mais une topologie est plus générale qu'une distance : elle capture la proximité sans exiger de la quantifier.
 
 ---
 
@@ -192,10 +226,10 @@ Autrement dit : un état décrit une situation concrète. Il identifie les élé
 
 Lorsque l'ensemble $X$ est muni d'une famille de relations possibles $R_p$, l'espace des configurations s'enrichit.
 
-> **Définition 6 — Espace des configurations relationnelles**
-> 
+> **Définition 7 — Espace des configurations relationnelles**
+>
 > Soit une structure potentielle $(X, R_p)$.
-> 
+>
 > L'espace des configurations relationnelles, noté $Y(X, R_p)$, est l'ensemble de tous les états logiquement concevables : toutes les façons de choisir des éléments présents et d'activer des relations entre eux, dans le respect des relations possibles.
 
 Cet espace contient toutes les configurations relationnelles possibles. Il généralise $Y(X)$ de la section I : là où $Y(X)$ ne considérait que les liens binaires entre éléments, $Y(X, R_p)$ intègre la structure relationnelle complète.
@@ -204,35 +238,7 @@ Lorsque les relations sont logiques (binaires), le nombre d'états concevables e
 
 On retrouve ici les trois niveaux d'être : la **structure potentielle** $(X, R_p)$ — l'univers des éléments et des relations concevables ; l'**espace combinatoire** $Y$ — toutes les configurations logiquement compatibles ; et, bientôt, le **système** — la sélection des configurations effectivement admissibles, c'est-à-dire un sous-ensemble de $Y$.
 
----
-
-### Topologie
-
-Les éléments d'un ensemble ne sont pas seulement caractérisés par leurs relations — ils peuvent aussi être caractérisés par leur *disposition*. Certains sont proches les uns des autres, d'autres sont éloignés. Cette notion de proximité, indépendante des relations, est ce qu'on appelle une **topologie**.
-
-> **Définition 7 — Topologie**
-> 
-> Une **topologie** sur un ensemble $A$ est la donnée, pour chaque élément $x \in A$, d'une collection de **voisinages** de $x$.
-> 
-> Un voisinage de $x$ est un sous-ensemble $V \subseteq A$ qui contient $x$ et les éléments considérés comme « proches » de $x$ à une certaine échelle.
-> 
-> On note $\mathcal{V}(x)$ la collection des voisinages de $x$.
-
-Autrement dit, une topologie répond à la question : *pour chaque élément, quels sont ses voisins ?* — sans mesurer la distance qui les sépare. Deux éléments sont « proches » s'ils apparaissent ensemble dans un voisinage de petite taille ; ils sont « éloignés » s'ils n'apparaissent ensemble dans aucun voisinage restreint.
-
-*Exemple.* Sur une carte, trois villes — Paris, Lyon, Marseille — ont une disposition géographique : Paris est plus proche de Lyon que de Marseille. Cette proximité est une propriété topologique. Elle ne dépend pas de l'existence d'une route entre ces villes (qui serait une relation) — elle dépend de leur position dans l'espace.
-
-*Exemple.* Dans un réseau social, on pourrait définir une topologie par la proximité géographique des individus : deux personnes habitant la même ville sont topologiquement voisines, même si elles n'entretiennent aucune relation.
-
-La topologie est donc *indépendante* des relations. Deux éléments peuvent être voisins dans la topologie sans être en relation (des voisins de palier qui ne se connaissent pas), et réciproquement, deux éléments peuvent être en relation sans être topologiquement voisins (des amis vivant dans des pays différents). La topologie est une propriété de l'*espace* dans lequel les éléments se situent ; les relations sont des propriétés des *éléments* entre eux.
-
-Toutefois, les relations peuvent *influencer* la topologie. Si la configuration d'un état modifie la structure de voisinage, on obtient une topologie effective $T_e$, dépendante de l'état $e$. Cette topologie effective peut être interprétée comme une **courbure** de la topologie initiale, induite par l'état — de la même manière que, en physique, la distribution de masse courbe l'espace-temps.
-
-*Remarque.* Lorsque les relations sont valuées et portent des valeurs numériques (par exemple une intensité ou une affinité), elles peuvent induire naturellement une notion de distance entre éléments — et donc une topologie. La topologie n'est alors plus seulement indépendante des relations : elle peut en *émerger*.
-
-*(Voir Annexe — Prérequis mathématiques : Ensembles, Topologie.)*
-
-Lorsqu'on dispose d'une **distance** — une fonction qui assigne à chaque paire d'éléments un nombre positif mesurant leur écart — celle-ci induit naturellement une topologie : les voisinages sont les « boules » de rayon donné autour de chaque point. Mais une topologie est plus générale qu'une distance : elle capture la proximité sans exiger de la quantifier.
+*Remarque.* En pratique, dans la définition d'un système, on considère un sous-ensemble $E \subseteq Y$ — l'ensemble des **états admissibles** — qui peut être plus restreint que l'ensemble des concevables. Les contraintes du système opèrent cette sélection : elles déterminent, au sein de $Y$, quelles configurations sont effectivement pertinentes.
 
 ---
 
@@ -244,14 +250,14 @@ Dans ce paragraphe on considère une structure potentielle $(X, R_p)$ et on note
 
 **Définition 8 — Action**
 
-> Soit $D \subseteq Y$ un sous-ensemble de configurations.
-> 
+> Soit $E \subseteq Y$ un sous-ensemble de configurations.
+>
 > Une **action** est une application :
-> 
-> $a : D \to D$
-> 
-> où $D$ est le **domaine** de l'action — c'est-à-dire l'ensemble des configurations sur lesquelles elle est définie.
-> 
+>
+> $a : E \to E$
+>
+> où $E$ est le **domaine** de l'action — c'est-à-dire l'ensemble des configurations sur lesquelles elle est définie.
+>
 > L'action prend une configuration appartenant à son domaine et produit une nouvelle configuration dans ce même domaine, de façon univoque.
 
 Une action n'est pas nécessairement définie sur toutes les configurations concevables. Elle n'opère que sur celles qui relèvent de son champ d'application — les configurations pour lesquelles la transformation a un sens.
@@ -262,17 +268,17 @@ Une action n'est pas nécessairement définie sur toutes les configurations conc
 
 **Définition 9 — Portée d'une action**
 
-> La **portée** d'une action $a : D \to D$ est l'ensemble des configurations de son domaine qu'elle modifie effectivement :
-> 
-> $\text{Port}(a) = \{ y \in D \mid a(y) \neq y \}$
-> 
+> La **portée** d'une action $a : E \to E$ est l'ensemble des configurations de son domaine qu'elle modifie effectivement :
+>
+> $\text{Port}(a) = \{ y \in E \mid a(y) \neq y \}$
+>
 > Une configuration dans le domaine mais hors de la portée est **inerte** face à l'action : l'action s'y applique, mais ne change rien.
 
-La portée est toujours un sous-ensemble du domaine : $\text{Port}(a) \subseteq D$. Elle peut coïncider avec le domaine (toute configuration applicable est effectivement modifiée) ou en être un sous-ensemble strict (certaines configurations restent inchangées).
+La portée est toujours un sous-ensemble du domaine : $\text{Port}(a) \subseteq E$. Elle peut coïncider avec le domaine (toute configuration applicable est effectivement modifiée) ou en être un sous-ensemble strict (certaines configurations restent inchangées).
 
 *Exemple.* Reprenons le réseau social à trois personnes — Alice, Bob et Carole — avec l'amitié comme seule relation possible. L'espace des configurations $Y$ contient toutes les combinaisons de liens d'amitié concevables entre ces trois personnes : personne n'est ami, seuls Alice et Bob le sont, tout le monde est ami de tout le monde, etc. — soit 8 configurations au total (dans le cas binaire).
 
-Considérons l'action « Alice et Bob deviennent amis ». Son **domaine** $D$ est $Y$ tout entier : on peut tenter de lier Alice et Bob quelle que soit la situation courante. L'action ajoute le lien Alice-Bob s'il n'est pas déjà présent, et ne change rien sinon.
+Considérons l'action « Alice et Bob deviennent amis ». Son **domaine** $E$ est $Y$ tout entier : on peut tenter de lier Alice et Bob quelle que soit la situation courante. L'action ajoute le lien Alice-Bob s'il n'est pas déjà présent, et ne change rien sinon.
 
 Sa **portée** est l'ensemble des configurations où Alice et Bob ne sont *pas encore* amis — par exemple la configuration où personne ne se connaît, ou celle où seuls Bob et Carole sont amis. Ce sont les seules configurations effectivement modifiées par cette action.
 
@@ -287,13 +293,13 @@ Aux échecs, la situation est différente : le coup « cavalier de g1 en f3 » n
 De même que $Y$ contient toutes les configurations concevables, on peut définir un espace contenant toutes les transformations concevables. Cet espace dépend de $Y$ — on ne peut concevoir les transformations qu'une fois les configurations posées.
 
 > **Définition 10 — Espace des transformations**
-> 
+>
 > L'**espace des transformations** de $Y$, noté $Z(Y)$, est l'ensemble de toutes les actions logiquement concevables :
-> 
-> $$Z(Y) = \bigcup_{D \subseteq Y} D^D = \{a:D\rightarrow D \in D^D \mid D\subseteq Y\}$$
-> 
-> où $D^D$ désigne l'ensemble de toutes les applications de $D$ dans $D$ *(voir Annexe — Prérequis mathématiques : Applications)*.
-> 
+>
+> $$Z(Y) = \bigcup_{E \subseteq Y} E^E = \{a:E\rightarrow E \in E^E \mid E\subseteq Y\}$$
+>
+> où $E^E$ désigne l'ensemble de toutes les applications de $E$ dans $E$ *(voir Annexe — Prérequis mathématiques : Applications)*.
+>
 > Chaque élément de $Z(Y)$ est une action définie sur un certain domaine de configurations.
 
 $Z(Y)$ joue pour les transformations le même rôle que $Y$ pour les configurations : il représente le champ de tout ce qui est possible en termes de changement, sans restriction.
@@ -501,11 +507,11 @@ Toutefois, le système actif ne précise pas encore *quand* ni *comment* ces act
 
 > **Définition 16 — Système valué**
 > 
-> Un système (passif ou actif) est dit **valué** lorsque ses relations possibles sont des relations valuées (Définition 4 bis) — c'est-à-dire lorsqu'elles prennent leurs valeurs dans des espaces de valuation $W_i$ plus riches que $\{0, 1\}$.
+> Un système (passif ou actif) est dit **valué** lorsque ses relations possibles sont des relations valuées *(voir Annexe — Relations logiques et valuées)* — c'est-à-dire lorsqu'elles prennent leurs valeurs dans des espaces de valuation $W_i$ plus riches que $\{0, 1\}$.
 
 Le qualificatif *valué* n'est pas un type de système supplémentaire : c'est une **propriété** qui peut s'appliquer à tout système. Un système passif peut être valué ou non ; un système actif peut être valué ou non. Cette distinction sera également pertinente pour les systèmes dynamiques.
 
-Un système dont toutes les relations sont logiques (Définition 4) est dit **logique**. Tout système logique est un cas particulier d'un système valué (avec $W_i = \{0, 1\}$).
+Un système dont toutes les relations sont logiques *(voir Annexe — Relations logiques et valuées)* est dit **logique**. Tout système logique est un cas particulier d'un système valué (avec $W_i = \{0, 1\}$).
 
 ---
 
@@ -766,7 +772,7 @@ Ce chapitre a posé le vocabulaire formel de la description systémique.
 
 Il a introduit trois espaces fondamentaux — $X$ (distinctions), $Y(X)$ (configurations), $Z(Y)$ (transformations) — qui traduisent en formalisme les trois principes du chapitre 0 et forment une chaîne de dépendance logique : $X \to Y(X) \to Z(Y(X))$.
 
-Il a défini le **graphe** comme structure minimale, l'**état** comme couple d'éléments présents et de relations effectives, l'**action** comme transformation d'une configuration, la **force** comme sélection — possiblement aléatoire — d'une action, le **hasard** comme espace d'indétermination ($\Omega$) dont la nature — épistémique ou ontologique — reste ouverte, le **temps** comme ordre causal, et la **trajectoire** comme histoire. Il a proposé deux formalisations des relations — **logique** (binaire) et **valuée** (à valeurs dans un espace $W_i$) — la première étant un cas particulier de la seconde.
+Il a défini le **graphe** comme structure minimale, l'**état** comme triplet d'éléments présents, de relations effectives et d'une topologie — $e = (A, R, T)$ —, la **topologie** comme structure de voisinage sur les éléments d'un état, l'**action** comme transformation d'une configuration, la **force** comme sélection — possiblement aléatoire — d'une action, le **hasard** comme espace d'indétermination ($\Omega$) dont la nature — épistémique ou ontologique — reste ouverte, le **temps** comme ordre causal, et la **trajectoire** comme histoire. Il a proposé deux formalisations des relations — **logique** (binaire) et **valuée** (à valeurs dans un espace $W_i$) — la première étant un cas particulier de la seconde.
 
 Il a proposé une **typologie** des systèmes — statique (passif ou actif), dynamique (simple, évolutif ou réflexif) — qui constitue une hiérarchie de niveaux d'organisation. Le concept de **dynamique** — un champ de forces associant à chaque état la force qui s'y exerce — émerge naturellement au niveau réflexif comme la structure qui lie l'état à sa propre évolution.
 
