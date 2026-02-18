@@ -821,7 +821,7 @@ html[data-darkreader-mode] .navigation-dossier a:hover {
 }
 
 /* Compteur visiteurs (page accueil) — visible, discret */
-#visitor-counter {
+.visitors-counter {
   text-align: center;
   margin-top: 20px;
   opacity: 0.8;

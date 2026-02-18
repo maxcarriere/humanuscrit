@@ -8,28 +8,14 @@ layout: default
 
 {{ content }}
 
-<!-- Compteur de visites public (countapi.xyz, sans backend) — visible uniquement sur l’accueil -->
-<div id="visitor-counter" aria-label="Compteur de visites">
-  Humanuscrit — visiteurs depuis l'origine : <span id="visitors-counter">0</span>
+<!-- Compteur de visites public (counter.dev, sans backend) — visible uniquement sur l’accueil -->
+<div class="visitors-counter" aria-label="Compteur de visites">
+  Humanuscrit — visiteurs depuis l'origine :
+  <span id="counter-dev">—</span>
 </div>
 <p class="visitor-counter-link"><a href="{{ '/evolution/' | relative_url }}">Suivre l'évolution</a></p>
-<script>
-fetch('/assets/data/visits.json')
-  .then(function(r){ return r.json(); })
-  .then(function(data){
-    var total = 0;
-    if(Array.isArray(data)){
-      total = data.reduce(function(sum, d){ return sum + (d.sessions || 0); }, 0);
-    }
-    var el = document.getElementById('visitors-counter');
-    if(el){
-      el.textContent = total;
-    }
-  })
-  .catch(function(){
-    var el = document.getElementById('visitors-counter');
-    if(el){
-      el.textContent = "0";
-    }
-  });
-</script>
+<script async src="https://cdn.counter.dev/script.js"
+        data-id="humanuscrit"
+        data-utcoffset="1"
+        data-reset="never"
+        data-target="counter-dev"></script>
