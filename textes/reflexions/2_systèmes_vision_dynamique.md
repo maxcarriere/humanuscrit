@@ -281,9 +281,9 @@ Dans la terminologie du chapitre 1, c'est le niveau des **systèmes dynamiques s
 
 On peut le formaliser simplement :
 
-**Temps discret** : $K_{xy}(t+1) - K_{xy}(t) = \alpha \times |F_{xy}(t)| - \beta \times K_{xy}(t)$
+**Temps discret** : $K_{xy}(t+1) - K_{xy}(t) = \alpha \times \lvert F_{xy}(t) \rvert - \beta \times K_{xy}(t)$
 
-**Temps continu** : $\dfrac{dK_{xy}}{dt} = \alpha \times |F_{xy}| - \beta \times K_{xy}$
+**Temps continu** : $\dfrac{dK_{xy}}{dt} = \alpha \times \lvert F_{xy} \rvert - \beta \times K_{xy}$
 
 Le paramètre $\alpha$ mesure le renforcement par l'usage, $\beta$ la dégradation par le non-usage. C'est une version abstraite de la règle de Hebb en neuroscience : *ce qui est utilisé se renforce, ce qui ne l'est pas s'atrophie.*
 
@@ -465,7 +465,7 @@ $$\delta E_x = 0 \quad \text{pour tout } x, \quad \text{avec } \exists\, F_{xy} 
 
 **Plasticité** — Les conductivités évoluent avec l'usage :
 
-$$\delta K_{xy} = \alpha \times |F_{xy}| - \beta \times K_{xy}$$
+$$\delta K_{xy} = \alpha \times \lvert F_{xy} \rvert - \beta \times K_{xy}$$
 
 ---
 
