@@ -7,7 +7,7 @@ date: 2026-02-17
 last_modified_at: 2026-02-16
 ---
 
-# Chapitre 1 — Système : vision descriptive
+# Système : vision descriptive
 
 *De la structure au mouvement*
 
@@ -144,9 +144,9 @@ On peut formaliser cette notion de deux manières, selon le degré de générali
 > **Définition 4 — Relation logique**
 > 
 > Une **relation possible** $R\_i$ de degré $n\_i$ sur $X$ est un sous-ensemble de $X^{n\_i}$ :
->
+> 
 > $R\_i \subseteq X^{n\_i}$
->
+> 
 > Elle désigne l'ensemble des $n\_i$-uplets d'éléments entre lesquels la relation *peut* exister. La relation est **binaire** : pour un $n\_i$-uplet donné, le lien est possible ou ne l'est pas.
 
 Ces relations décrivent non pas ce qui est effectivement réalisé, mais tout ce qui *pourrait l'être*.
@@ -185,11 +185,11 @@ La relation logique admet une généralisation naturelle. Au lieu de se limiter 
 > **Définition 4 (bis) — Relation valuée**
 > 
 > Une **relation possible** $R\_i$ de degré $n\_i$, valuée dans un ensemble $W\_i$, est une application :
->
+> 
 > $R\_i : X^{n\_i} \to W\_i$
->
+> 
 > qui associe à chaque $n\_i$-uplet d'éléments de $X$ une **valeur** dans $W\_i$.
->
+> 
 > L'ensemble $W\_i$ est appelé **espace de valuation** de la relation $R\_i$. Il contient un élément distingué, noté $0$ (ou $\bot$), qui signifie *absence de relation*.
 
 L'espace de valuation $W\_i$ capture la richesse du lien. Selon le choix de $W\_i$, on retrouve différents cadres :
