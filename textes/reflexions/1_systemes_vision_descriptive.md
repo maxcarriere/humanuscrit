@@ -294,9 +294,11 @@ De même que $Y$ contient toutes les configurations concevables, on peut défini
 >
 > L'**espace des transformations** de $Y$, noté $Z(Y)$, est l'ensemble de toutes les actions logiquement concevables :
 >
-> $$Z(Y) = \bigcup_{E \subseteq Y} E^E = \\{a:E\rightarrow E \in E^E \mid E\subseteq Y\\}$$
+> $$Z(Y) = \{a:E\rightarrow E \in E^E \mid E\subseteq Y\}$$
 >
 > où $E^E$ désigne l'ensemble de toutes les applications de $E$ dans $E$ *(voir Annexe — Prérequis mathématiques : Applications)*.
+>
+> *Remarque.* On peut aussi écrire $Z(Y) = \bigcup_{E \subseteq Y} E^E$, l'union étant prise sur tous les sous-ensembles $E$ de $Y$.
 >
 > Chaque élément de $Z(Y)$ est une action définie sur un certain domaine de configurations.
 
@@ -706,14 +708,18 @@ La hiérarchie simple / évolutif / réflexif se transpose donc au temps continu
 > La loi d'évolution change au cours du temps, mais ne dépend pas de l'état. La propriété de semi-groupe simple n'est plus satisfaite — elle est remplacée par cette condition de **composition** plus générale.
 
 > **Définition 22 — Système dynamique continu réflexif**
-> 
-> Un **système dynamique continu réflexif** est un quintuplet :
-> 
-> $S = (X, R_p, E, T, \mathcal{D})$
-> 
-> où $\mathcal{D}$ est un **champ de lois d'évolution** — une application qui associe à chaque état $e \in E$ une loi $\mathcal{D}(e)$ décrivant la dynamique locale en $e$.
 >
-> C'est l'analogue continu du champ de forces du cas discret (Définition 19) : de même que $\mathcal{D}(e)$ y désignait la force exercée en $e$, ici $\mathcal{D}(e)$ prescrit la loi régissant l'évolution du système *depuis* $e$. L'évolution globale — le flot — est la trajectoire engendrée par l'intégration de ce champ à partir de chaque état initial.
+> Un **système dynamique continu réflexif** est un quintuplet :
+>
+> $S = (X, R_p, E, T, \mathcal{D})$
+>
+> où $\mathcal{D}$ est un **champ de flots** — une application :
+>
+> $$\mathcal{D} : E \to \mathcal{F}(E)$$
+>
+> qui associe à chaque état $e \in E$ un flot $\mathcal{D}(e) = (\Phi_t^{(e)})_{t \geq 0}$ — la loi d'évolution prescrite lorsque le système se trouve en $e$.
+>
+> C'est l'analogue continu du champ de forces du cas discret (Définition 19) : de même que $\mathcal{D}(e)$ y désignait la force exercée en $e$, ici $\mathcal{D}(e)$ désigne le flot local en $e$. La trajectoire globale est construite en suivant, à chaque instant $t$, le flot $\mathcal{D}(e(t))$ prescrit par l'état courant.
 
 Dans chacun de ces trois cas, la loi d'évolution peut être **déterministe** — elle prescrit une trajectoire unique à partir de chaque état initial — ou **stochastique** — elle prescrit un **ensemble de flots possibles**, un pour chaque issue $\omega \in \Omega$ du hasard, structuré par une mesure de probabilité. Dans le cas stochastique, le flot devient un **flot aléatoire** : à chaque réalisation du hasard correspond une évolution différente.
 
@@ -743,7 +749,7 @@ C'est ici que les **relations valuées** révèlent leur importance. Sans elles,
 
 C'est dans cette ontologie que le champ $\mathcal{D}$ du système réflexif (Définition 22) prend sa forme la plus naturelle : à chaque point de l'espace des états, une loi locale est prescrite, et les trajectoires sont les chemins que trace le système en suivant ce champ. C'est exactement ce que la physique classique appelle un *champ de forces*.
 
-*Remarque.* Lorsque $E$ possède en outre une structure différentiable, $\mathcal{D}$ prend la forme d'un **champ de vecteurs** $v : E \to TE$, et l'évolution peut être décrite de manière infinitésimale. Cette écriture est une spécialisation analytique : la dérivée n'est pas le fondement de la dynamique continue, elle en est une représentation particulière lorsque la structure de $E$ le permet.
+*Remarque.* Lorsque $E$ possède en outre une structure différentiable, le flot local $\mathcal{D}(e) = (\Phi_t^{(e)})_{t \geq 0}$ admet un **générateur infinitésimal** $v(e) = \frac{d}{dt}\Phi_t^{(e)}(e)\big|_{t=0}$, et $\mathcal{D}$ prend la forme d'un **champ de vecteurs** $v : E \to TE$. L'évolution peut alors être décrite par une équation différentielle. Cette écriture est une spécialisation analytique : la dérivée n'est pas le fondement de la dynamique continue, elle en est une représentation particulière lorsque la structure de $E$ le permet.
 
 ---
 
