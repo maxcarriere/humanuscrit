@@ -1,6 +1,5 @@
 ---
 title: Chapitre 2 - Système - Vision énergétique
-permalink: /textes/reflexions/chapitre-2-systemes-vision-energetique/
 order: 4
 date: 2026-02-18
 last_modified_at: 2026-02-18
@@ -89,7 +88,7 @@ Les ingrédients sont posés. Nous pouvons maintenant les assembler en une défi
 
 Un système énergétique est donc un système valué muni d'une loi supplémentaire — la loi de flux — qui transforme la valuation statique en une dynamique. Cette loi fait du système énergétique un **système dynamique réflexif** au sens du chapitre 1 (Définitions 19 et 22) : la force exercée sur le système dépend de son état, puisque les flux dépendent des stocks et des conductivités qui constituent cet état.
 
-Ce point mérite d'être souligné. Au chapitre précédent, le champ de forces $\mathcal{D} : E \to (\Omega \to \mathcal{A})$ était posé de manière abstraite — il associait à chaque état une force, sans dire comment. Le système énergétique est la première réponse concrète à cette abstraction : $\mathcal{D}(e) = (K_{xy} \times (P_x - P_y))_{(x,y) \in L}$. Le champ de forces est déterminé par les stocks et les conductivités. La structure commande la dynamique.
+Ce point mérite d'être souligné. Au chapitre précédent, le champ de forces $\mathcal{D}$ était posé de manière abstraite — il associait à chaque état une force, sans dire comment cette force était déterminée. Le système énergétique est la première réponse concrète à cette abstraction. La force y est **déterministe** : les gradients prescrivent entièrement l'évolution, sans hasard résiduel. Le champ $\mathcal{D}$ associe à chaque état $e = (A, R, E, K)$ la force qui sélectionne l'action du bilan — c'est-à-dire la transformation qui fait évoluer chaque stock selon la somme des flux nets. La structure — les stocks et les conductivités — commande entièrement la dynamique.
 
 ---
 
@@ -155,7 +154,13 @@ La loi de flux dit comment les flux sont déterminés. Le **principe de bilan** 
 
 Si un réservoir reçoit plus qu'il ne perd, il se remplit. S'il perd plus qu'il ne reçoit, il se vide. Il n'y a aucune autre possibilité — que le temps soit discret ou continu.
 
-Ce principe *est* la dynamique du système énergétique. Il constitue, dans la terminologie du chapitre 1, un **système dynamique réflexif** (Définitions 19 ou 22 selon que le temps est discret ou continu) : l'état courant $(A, R, E, K)$ détermine les potentiels, qui déterminent les flux via $F = K \times \Delta P$, qui déterminent l'évolution des stocks. Le champ de forces reçoit ici sa forme concrète. Ce que le chapitre 1 posait abstraitement — « la force dépend de l'état » — se réalise ici dans le mécanisme précis de la circulation par gradient.
+Ce principe *est* la dynamique du système énergétique. Il constitue, dans la terminologie du chapitre 1, un **système dynamique réflexif** (Définitions 19 ou 22 selon que le temps est discret ou continu).
+
+Ce que le chapitre 1 posait abstraitement — « la force dépend de l'état » — reçoit ici un contenu précis. Dans le système énergétique, la force est **déterministe** : il n'y a pas de hasard dans le choix de l'action, car les gradients la prescrivent entièrement. En temps discret, l'action sélectionnée dans l'état $e$ est la transformation qui avance chaque stock de la somme des flux nets :
+
+$$a_e : E_x \;\mapsto\; E_x + \sum_y K_{xy}(P_y - P_x)$$
+
+En temps continu, c'est le flot engendré par l'équation différentielle du bilan. Dans les deux cas, le champ de forces $\mathcal{D}$ associe à chaque état la force déterministe qui prescrit cette action. La structure — les stocks et les conductivités — commande entièrement la dynamique.
 
 ---
 
