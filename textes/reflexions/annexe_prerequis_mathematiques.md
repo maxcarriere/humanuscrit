@@ -103,7 +103,7 @@ Cette notation s'explique par le comptage : si $A$ contient $m$ éléments et $B
 
 *Exemple.* Si $A = \\{1, 2\\}$ et $B = \\{a, b, c\\}$, alors $B^A$ contient $3^2 = 9$ applications. Par exemple : $f(1) = a, f(2) = a$ ; ou $f(1) = b, f(2) = c$ ; etc.
 
-En particulier, $D^D$ désigne l'ensemble de toutes les applications de $D$ dans $D$ — toutes les transformations possibles de $D$ vers lui-même. Si $D$ contient $n$ éléments, $D^D$ contient $n^n$ applications. Pour $n = 3$, cela fait déjà 27 transformations ; pour $n = 10$, dix milliards.
+En particulier, $A^A$ désigne l'ensemble de toutes les applications de $A$ dans $A$ — toutes les transformations possibles de $A$ vers lui-même. Si $A$ contient $n$ éléments, $A^A$ contient $n^n$ applications. Pour $n = 3$, cela fait déjà 27 transformations ; pour $n = 10$, dix milliards.
 
 ### Composition
 

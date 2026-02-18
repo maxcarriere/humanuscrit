@@ -172,21 +172,19 @@ Lorsque les relations sont valuées, on peut enrichir cette description : l'amit
 
 **Définition 5 — État**
 
-> Un **état** est un triplet $e = (A, R, T)$ où :
+> Un **état** est un couple $e = (A, R)$ où :
 >
 > - $A \subseteq X$ est l'ensemble des éléments **présents** — ceux qui participent effectivement à la configuration ;
 >
-> - $R = (r_i)_{i \in I}$ est une famille de **relations effectives** sur $A$ entre les éléments présents — avec $r\_i \subset R\_i \restriction_A$ ;
->
-> - $T$ est une **topologie** sur $A$ — une structure de voisinage sur les éléments présents (définie à la section suivante).
+> - $R = (r_i)_{i \in I}$ est une famille de **relations effectives** sur $A$ entre les éléments présents — avec $r\_i \subset R\_i \restriction_A$.
 >
 > Les relations effectives sont incluses dans la restriction des relations possibles aux éléments présents. Toute relation possible n'est pas nécessairement activée.
 
-L'état dit *quoi* existe, *comment* c'est relié, et *dans quelle disposition* — à un instant donné. Il est la photographie du réel — non pas ce que le réel *pourrait* être, mais ce qu'il *est*.
+L'état dit *quoi* existe et *comment* c'est relié, à un instant donné. Il est la photographie du réel — non pas ce que le réel *pourrait* être, mais ce qu'il *est*.
 
-Autrement dit : un état décrit une situation concrète. Il identifie les éléments qui participent effectivement à la configuration (l'ensemble $A$), précise les relations actives entre eux, et spécifie la structure de voisinage — la topologie — dans laquelle ils s'inscrivent.
+Autrement dit : un état décrit une situation concrète. Il identifie les éléments qui participent effectivement à la configuration (l'ensemble $A$), et précise, parmi toutes les relations concevables entre ces éléments, lesquelles sont actuellement actives.
 
-*Remarque.* L'état ne se réduit pas à une configuration du graphe au sens de la section I. Il est plus riche : il précise non seulement quels liens existent, mais aussi *quels éléments sont présents* et *dans quelle disposition topologique*. Un état peut contenir tous les éléments de $X$, ou seulement certains d'entre eux. Dans le cas de relations valuées, l'état précise en outre la *valeur* de chaque relation.
+*Remarque.* L'état ne se réduit pas à une configuration du graphe au sens de la section I. Il est plus riche : il précise non seulement quels liens existent, mais aussi *quels éléments sont présents*. Un état peut contenir tous les éléments de $X$, ou seulement certains d'entre eux. Dans le cas de relations valuées, l'état précise en outre la *valeur* de chaque relation.
 
 ---
 
@@ -204,7 +202,7 @@ Les éléments d'un état ne sont pas seulement caractérisés par leurs relatio
 
 Autrement dit, une topologie répond à la question : *pour chaque élément, quels sont ses voisins ?* — sans mesurer la distance qui les sépare. Deux éléments sont « proches » s'ils apparaissent ensemble dans un voisinage de petite taille ; ils sont « éloignés » s'ils n'apparaissent ensemble dans aucun voisinage restreint.
 
-Un état $e = (A, R, T)$ est donc un **espace topologique** : $A$ en est le support, $R$ décrit les relations effectives entre ses éléments, et $T$ fournit la structure de voisinage.
+Un état $e = (A, R)$ peut être **muni d'une topologie** $T$ sur $A$ : on obtient alors un triplet $e = (A, R, T)$, qui fait de l'état un **espace topologique**. $A$ en est le support, $R$ décrit les relations effectives entre ses éléments, et $T$ fournit la structure de voisinage dans laquelle ils s'inscrivent.
 
 *Exemple.* Sur une carte, trois villes — Paris, Lyon, Marseille — ont une disposition géographique : Paris est plus proche de Lyon que de Marseille. Cette proximité est une propriété topologique. Elle ne dépend pas de l'existence d'une route entre ces villes (qui serait une relation) — elle dépend de leur position dans l'espace.
 
@@ -772,7 +770,7 @@ Ce chapitre a posé le vocabulaire formel de la description systémique.
 
 Il a introduit trois espaces fondamentaux — $X$ (distinctions), $Y(X)$ (configurations), $Z(Y)$ (transformations) — qui traduisent en formalisme les trois principes du chapitre 0 et forment une chaîne de dépendance logique : $X \to Y(X) \to Z(Y(X))$.
 
-Il a défini le **graphe** comme structure minimale, l'**état** comme triplet d'éléments présents, de relations effectives et d'une topologie — $e = (A, R, T)$ —, la **topologie** comme structure de voisinage sur les éléments d'un état, l'**action** comme transformation d'une configuration, la **force** comme sélection — possiblement aléatoire — d'une action, le **hasard** comme espace d'indétermination ($\Omega$) dont la nature — épistémique ou ontologique — reste ouverte, le **temps** comme ordre causal, et la **trajectoire** comme histoire. Il a proposé deux formalisations des relations — **logique** (binaire) et **valuée** (à valeurs dans un espace $W_i$) — la première étant un cas particulier de la seconde.
+Il a défini le **graphe** comme structure minimale, l'**état** comme couple d'éléments présents et de relations effectives — $e = (A, R)$ —, la **topologie** comme structure de voisinage dont un état peut être muni, faisant de lui un espace topologique $e = (A, R, T)$, l'**action** comme transformation d'une configuration, la **force** comme sélection — possiblement aléatoire — d'une action, le **hasard** comme espace d'indétermination ($\Omega$) dont la nature — épistémique ou ontologique — reste ouverte, le **temps** comme ordre causal, et la **trajectoire** comme histoire. Il a proposé deux formalisations des relations — **logique** (binaire) et **valuée** (à valeurs dans un espace $W_i$) — la première étant un cas particulier de la seconde.
 
 Il a proposé une **typologie** des systèmes — statique (passif ou actif), dynamique (simple, évolutif ou réflexif) — qui constitue une hiérarchie de niveaux d'organisation. Le concept de **dynamique** — un champ de forces associant à chaque état la force qui s'y exerce — émerge naturellement au niveau réflexif comme la structure qui lie l'état à sa propre évolution.
 
