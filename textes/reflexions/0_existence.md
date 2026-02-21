@@ -106,7 +106,7 @@ L'ensemble de toutes les substances des choses du réel forme ce que l'on appell
 
 **Définition.** Les substances satisfont $E(s)$, donc elles appartiennent à $R$. On les identifie directement comme les éléments ∈-minimaux de $R$ :
 
-$$U = \\{s \in R \mid \forall s',\, s' \in s \Rightarrow s' \in V\\}$$
+$$U = \left\{ s \in R \mid \forall s',\ s' \in s \Rightarrow s' \in V \right\}$$
 
 $U$ est le **fond** de $R$ — ce sur quoi tout repose, ce qui existe sans être constitué de quoi que ce soit d'existant.
 
@@ -161,7 +161,7 @@ La **cohérence** exprime que tout constituant de $x$ est accessible depuis tout
 > **Formalisme :**
 > Soit $x$ une chose consistante et $L \subseteq x \times x$ un ensemble de liens. On note $c_i \mathbin{-} c_j$ lorsque $(c_i, c_j) \in L$.
 > 
-> $x$ est **cohérent** si pour tout couple $(c_i, c_j) \in x^2$, il existe une suite finie $c_i = c_1' \mathbin{-} c_2' \mathbin{-} \cdots \mathbin{-} c_k' = c_j$.
+> $x$ est **cohérent** si pour tout couple $(c_i, c_j) \in x^2$, il existe une suite finie&nbsp;$c_i = c_1' \mathbin{-} c_2' \mathbin{-} \cdots \mathbin{-} c_k' = c_j$.
 > 
 > Autrement dit : le graphe $(x, L)$ est connexe. Cette structure sera entièrement formalisée au chapitre 1.
 
@@ -176,9 +176,7 @@ Les trois conditions précédentes permettent maintenant d'énoncer deux propri�
 
 **Deuxième principe — Cohérence.** $x$ satisfait le deuxième principe si le graphe $(x, L)$ est connexe : tout constituant est accessible depuis tout autre par une chaîne de liens. Une chose n'est pas seulement ce dont elle est faite, mais la manière dont ses parties s'organisent et se tiennent ensemble.
 
-Ces deux principes caractérisent l'**existence statique** — l'existence d'une chose à un instant donné, ce qu'on pourrait noter $E$ au sens plein. Mais cette vision demeure incomplète. La section suivante introduit une propriété plus forte, $E^*$, qui traduit l'existence non plus comme état mais comme inscription dans un devenir.
-
----
+Ces deux principes caractérisent l'**existence statique** — l'existence d'une chose à un instant donné, ce qu'on pourrait noter $E$ au sens plein. Mais cette vision demeure incomplète. La section suivante introduit une propriété plus forte, $E^{\ast}$, qui traduit l'existence non plus comme état mais comme inscription dans un devenir.
 
 ## III — Vision dynamique : évolution et propriété forte d'existence
 
@@ -205,23 +203,21 @@ Le même raisonnement s'applique à sa fin. Ces paradoxes montrent que l'existen
 
 Exister pleinement, ce n'est pas apparaître ponctuellement. C'est participer à une continuité dynamique — être terme d'un phénomène.
 
-### La propriété forte d'existence $E^*$
+### La propriété forte d'existence $E^{\ast}$
 
-Cette intuition conduit à distinguer deux niveaux d'existence. La propriété $E$ — exister comme chose — est la condition minimale posée au paragraphe précédent. La propriété forte $E^*$ est une propriété des **phénomènes** : elle exprime que l'existence n'est pas ponctuelle mais processuelle, inscrite dans une succession.
+Cette intuition conduit à distinguer deux niveaux d'existence. La propriété $E$ — exister comme chose — est la condition minimale posée au paragraphe précédent. La propriété forte $E^{\ast}$ est une propriété des **phénomènes** : elle exprime que l'existence n'est pas ponctuelle mais processuelle, inscrite dans une succession.
 
 > **Formalisme :**
 > Un **phénomène** est une famille $(x_i)_{i \in I}$ de choses, où $I$ est un ensemble d'indices et chaque $x_i$ satisfait $E$. 
 > 
-> Un existant $x$ satisfait $E^*$ s'il figure comme terme dans quelque phénomène :
-> $$E^*(x) \;\Longleftrightarrow\; \exists\, (x_i)_{i \in I},\; \exists\, j \in I : x_j = x$$
+> Un existant $x$ satisfait $E^{\ast}$ s'il figure comme terme dans quelque phénomène :
+> $$E^{\ast}(x) \;\Longleftrightarrow\; \exists\, (x_i)_{i \in I},\; \exists\, j \in I : x_j = x$$
 > 
 > L'ensemble d'indices $I$ n'est pas précisé ici — il recevra plus tard la structure d'un ensemble ordonné, qui sera le **temps** (chapitre 3). C'est à ce niveau que l'existence hérite de sa composante temporelle, de même que $U$ hérite de sa composante spatiale par la topologie.
 
-$E(x)$ n'implique pas $E^*(x)$ : une chose peut exister sans s'inscrire dans un phénomène — exister à l'état de pure singularité, sans avant ni après. Mais une telle existence serait indiscernable du néant. $E^*$ est la condition d'une existence *manifeste*.
+$E(x)$ n'implique pas $E^{\ast}(x)$ : une chose peut exister sans s'inscrire dans un phénomène — exister à l'état de pure singularité, sans avant ni après. Mais une telle existence serait indiscernable du néant. $E^{\ast}$ est la condition d'une existence *manifeste*.
 
-Cette vision de l'existence comme processus résonne avec plusieurs traditions philosophiques. La pensée bouddhiste, et en particulier la Mādhyamaka de Nāgārjuna (IIᵉ s.), pose l'impermanence et la co-origination dépendante (*pratītyasamutpāda*) comme fondements de tout ce qui est : rien n'a d'existence intrinsèque fixe — seuls les enchaînements de moments, les processus, sont réels. La propriété $E^*$ formalise précisément cette intuition : exister pleinement, c'est être terme d'un devenir, non point d'une géométrie.
-
----
+Cette vision de l'existence comme processus résonne avec plusieurs traditions philosophiques. La pensée bouddhiste, et en particulier la Mādhyamaka de Nāgārjuna (IIᵉ s.), pose l'impermanence et la co-origination dépendante (*pratītyasamutpāda*) comme fondements de tout ce qui est : rien n'a d'existence intrinsèque fixe — seuls les enchaînements de moments, les processus, sont réels. La propriété $E^{\ast}$ formalise précisément cette intuition : exister pleinement, c'est être terme d'un devenir, non point d'une géométrie.
 
 ## IV — Trois principes ontologiques : Distinction, Configuration, Transformation
 
@@ -299,8 +295,6 @@ Ces trois principes ne sont pas indépendants. Ils forment une triade articulée
 Le réel peut ainsi être pensé comme une succession de configurations, engendrée par des transformations, opérant sur des éléments distingués.
 
 Reste à comprendre dans quel cadre cette triade se déploie.
-
----
 
 ## V — Les cadres : Espace et Temps
 

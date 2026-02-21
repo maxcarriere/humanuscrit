@@ -657,6 +657,13 @@ html[data-darkreader-mode] .arborescence-textes li::before {
   color: #0d0d0d !important;
 }
 
+.arborescence-textes li.arborescence-part-title::before,
+.arborescence-textes li.arborescence-separator::before,
+html[data-darkreader-mode] .arborescence-textes li.arborescence-part-title::before,
+html[data-darkreader-mode] .arborescence-textes li.arborescence-separator::before {
+  content: none;
+}
+
 .arborescence-textes a,
 .arborescence-textes a:link,
 .arborescence-textes a:visited,
