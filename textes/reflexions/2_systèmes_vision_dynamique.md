@@ -1,8 +1,10 @@
 ---
-title: Chapitre 2 - Système - Vision énergétique
+title: Chapitre 2 — Systèmes : Vision dynamique
+permalink: /textes/reflexions/chapitre-2-systemes-vision-dynamique/
 order: 4
 date: 2026-02-18
 last_modified_at: 2026-02-18
+brouillon: true
 ---
 
 # Système — Vision énergétique

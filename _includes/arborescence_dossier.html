@@ -18,11 +18,11 @@
 {% assign prefix = dossier | append: "/" %}
 {% assign dossier_norm = dossier | replace: "\\", "/" %}
 <ul class="arborescence-textes">
-  {% comment %} Section Réflexions : ordre fixe Préambule, Chapitre 0, Chapitre 1, Chapitre 2, Annexe {% endcomment %}
+  {% comment %} Section Réflexions : structure PRESCRIPTUM, PARTIE 1, brouillons {% endcomment %}
   {% if dossier_norm == "textes/reflexions" %}
-    {% comment %} Ordre fixe : on cherche chaque page par son chemin complet (robuste Windows/Linux) {% endcomment %}
-    {% assign ref_files = "préambule.md|0_existence.md|1_systemes_vision_descriptive.md|2_systèmes_vision_dynamique.md|annexe_prerequis_mathematiques.md" | split: "|" %}
-    {% for ref_file in ref_files %}
+    <li class="arborescence-part-title">PRESCRIPTUM</li>
+    {% assign prescriptum_files = "préambule.md|prerequis_mathematiques.md" | split: "|" %}
+    {% for ref_file in prescriptum_files %}
       {% assign p = "" %}
       {% assign expected_path = dossier_norm | append: "/" | append: ref_file %}
       {% for candidat in site.pages %}
@@ -34,6 +34,25 @@
       {% endfor %}
       {% if p %}
         {% assign affichage_titre = p.short_title | default: p.title %}
+        <li><a href="{{ p.url | relative_url }}">{% include lib_display_name.html name=p.name title=affichage_titre %}</a></li>
+      {% endif %}
+    {% endfor %}
+    <li class="arborescence-separator" role="presentation">---</li>
+    <li class="arborescence-part-title">PARTIE 1 — Systèmes : Vision descriptive</li>
+    {% assign part1_files = "0_existence.md|1_systemes_vision_descriptive.md|2_systèmes_vision_dynamique.md" | split: "|" %}
+    {% for ref_file in part1_files %}
+      {% assign p = "" %}
+      {% assign expected_path = dossier_norm | append: "/" | append: ref_file %}
+      {% for candidat in site.pages %}
+        {% assign path_norm = candidat.path | replace: "\\", "/" %}
+        {% if path_norm == expected_path %}
+          {% assign p = candidat %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+      {% if p %}
+        {% assign affichage_titre = p.short_title | default: p.title %}
+        {% if p.brouillon %}{% assign affichage_titre = affichage_titre | append: " (brouillon)" %}{% endif %}
         <li><a href="{{ p.url | relative_url }}">{% include lib_display_name.html name=p.name title=affichage_titre %}</a></li>
       {% endif %}
     {% endfor %}
