@@ -155,9 +155,10 @@ On note $c \mathbin{-} c'$ le fait que deux constituants de $x$ sont en lien et 
 La **cohérence** exprime que tout constituant de $x$ est accessible depuis tout autre par une chaîne de liens. Si certains constituants sont isolés, on n'est pas en présence d'une chose, mais de plusieurs fragments coexistant sans unité.
 
 > **Formalisme :**
-> Soit $x$ une chose consistante et $L \subseteq x \times x$ un ensemble de liens. On note $c_i \mathbin{-} c_j$ lorsque $(c_i, c_j) \in L$.
+> Soit $x$ une chose consistante et $L \subseteq x \times x$ un ensemble de liens. 
+> On note $c_i \mathbin{-} c_j$ lorsque $(c_i, c_j) \in L$.
 > 
-> $x$ est **cohérent** si pour tout couple $(c_i, c_j) \in x^2$, il existe une suite finie
+> $x$ est **cohérent** si pour tout couple $(c_i, c_j) \in x^2$, il existe une suite finie 
 > $c_i = c_1' \mathbin{-} c_2' \mathbin{-} \cdots \mathbin{-} c_k' = c_j$.
 > 
 > Autrement dit : le graphe $(x, L)$ est connexe. Cette structure sera entièrement formalisée au chapitre 1.

@@ -8,11 +8,32 @@ layout: default
 
 {{ content }}
 
-<!-- Compteur de visites public (counter.dev, sans backend) — visible uniquement sur l’accueil -->
-<!-- Suivi counter.dev (tracking uniquement ; le script n’affiche pas le total). La courbe « Suivre l’évolution » vient de Google Analytics. -->
+<!-- Compteur affiché via CountAPI ; suivi counter.dev conservé pour le tableau de bord -->
 <div class="visitors-counter" aria-label="Fréquentation">
-  <a href="{{ '/evolution/' | relative_url }}">Voir l’évolution de la fréquentation</a>
+  Humanuscrit — visiteurs depuis l'origine : <span id="visitor-count">…</span>
+  · <a href="{{ '/evolution/' | relative_url }}">Voir l'évolution</a>
 </div>
+<script>
+(function() {
+  var el = document.getElementById('visitor-count');
+  if (!el) return;
+  var namespace = 'humanuscrit';
+  var key = 'visits';
+  var counted = sessionStorage.getItem('humanuscrit_counted');
+  function show(n) { el.textContent = n >= 0 ? n.toLocaleString('fr-FR') : '—'; }
+  if (!counted) {
+    fetch('https://api.countapi.xyz/hit/' + namespace + '/' + key)
+      .then(function(r) { return r.json(); })
+      .then(function(d) { show(d.value); sessionStorage.setItem('humanuscrit_counted', '1'); })
+      .catch(function() { fetch('https://api.countapi.xyz/get/' + namespace + '/' + key).then(function(r) { return r.json(); }).then(function(d) { show(d.value); }); });
+  } else {
+    fetch('https://api.countapi.xyz/get/' + namespace + '/' + key)
+      .then(function(r) { return r.json(); })
+      .then(function(d) { show(d.value); })
+      .catch(function() { show(-1); });
+  }
+})();
+</script>
 <script async src="https://cdn.counter.dev/script.js"
         data-id="humanuscrit"
         data-utcoffset="1"></script>
