@@ -38,8 +38,8 @@ Puisque l'existence ne peut être définie à partir d'une notion plus simple, n
 
 À partir de ce prédicat, deux classes se définissent par compréhension :
 
-- Le **Réel** $R = \{x \mid E(x)\}$ — la classe de tout ce qui possède la propriété E.
-- Le **Vide** $V = \{x \mid \neg E(x)\}$ — la classe de ce qui ne possède pas E.
+- Le **Réel** $R = \\{x \mid E(x)\\}$ — la classe de tout ce qui possède la propriété E.
+- Le **Vide** $V = \\{x \mid \neg E(x)\\}$ — la classe de ce qui ne possède pas E.
 
 Tout x ∈ R est appelé une **chose**. La partition est absolue : pour tout x, soit E(x) et x ∈ R, soit ¬E(x) et x ∈ V. Il n'y a pas de troisième terme.
 
@@ -50,8 +50,8 @@ Réciproquement, on peut définir le Réel comme l'ensemble de ce qui existe, et
 > **Formalisme :**
 > Soit E un prédicat primitif (la propriété d'exister). On définit par compréhension :
 > 
-> - $R = \{x \mid E(x)\}$ — la classe du Réel
-> - $V = \{x \mid \neg E(x)\}$ — la classe du Vide
+> - $R = \\{x \mid E(x)\\}$ — la classe du Réel
+> - $V = \\{x \mid \neg E(x)\\}$ — la classe du Vide
 > 
 > Ces deux objets ne sont pas des ensembles au sens de ZFC — ce sont des **classes propres** au sens de la théorie de von Neumann–Bernays–Gödel (NBG). La distinction sera rappelée dans les prérequis mathématiques. Tout x ∈ R est une **chose**.
 > 
@@ -80,7 +80,7 @@ Cette intuition s'esquisse en une première propriété : une chose $x$ existera
 > 
 > Autrement dit : $x$ a au moins un constituant, et tous ses constituants existent.
 
-Une remarque : Si cette propriété est vérifiée, les constituants $C_x$ de $x$ coïncident avec $x$ lui-même — on a $C_x:=\{c \in x \mid E(c)\} = x$. 
+Une remarque : Si cette propriété est vérifiée, les constituants $C_x$ de $x$ coïncident avec $x$ lui-même — on a $C_x:=\\{c \in x \mid E(c)\\} = x$. 
 
 Mais cette propriété est-elle vraiment suffisante pour fonder l'existence de $x$ ? Et de quoi sont faits ces propres constituants ? La question sera creusée dans le paragraphe suivant.
 
@@ -106,7 +106,7 @@ L'ensemble de toutes les substances des choses du réel forme ce que l'on appell
 
 **Définition.** Les substances satisfont $E(s)$, donc elles appartiennent à $R$. On les identifie directement comme les éléments ∈-minimaux de $R$ :
 
-$$U = \{s \in R \mid \forall s',\, s' \in s \Rightarrow s' \in V\}$$
+$$U = \\{s \in R \mid \forall s',\, s' \in s \Rightarrow s' \in V\\}$$
 
 $U$ est le **fond** de $R$ — ce sur quoi tout repose, ce qui existe sans être constitué de quoi que ce soit d'existant.
 

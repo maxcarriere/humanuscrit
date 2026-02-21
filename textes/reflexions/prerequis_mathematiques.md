@@ -83,16 +83,16 @@ Cette distinction est importante pour interpréter les définitions par compréh
 
 ### Notation de compréhension
 
-La notation $\{x \mid P(x)\}$ désigne la collection de tous les objets $x$ satisfaisant la propriété $P(x)$. On dit que cette collection est définie **par compréhension**.
+La notation $\\{x \mid P(x)\\}$ désigne la collection de tous les objets $x$ satisfaisant la propriété $P(x)$. On dit que cette collection est définie **par compréhension**.
 
 *Exemples.*
 
-- $\{n \in \mathbb{N} \mid n \text{ est pair}\} = \{0, 2, 4, 6, \ldots\}$
-- $\{x \in \mathbb{R} \mid x^2 < 1\} = (-1, 1)$
+- $\\{n \in \mathbb{N} \mid n \text{ est pair}\\} = \\{0, 2, 4, 6, \ldots\\}$
+- $\\{x \in \mathbb{R} \mid x^2 < 1\\} = (-1, 1)$
 
 Dans le chapitre 0, cette notation fonde les classes fondamentales :
 
-$$R = \{x \mid E(x)\}, \qquad V = \{x \mid \neg E(x)\}$$
+$$R = \\{x \mid E(x)\\}, \qquad V = \\{x \mid \neg E(x)\\}$$
 
 La notation est intuitive — mais prise sans contrainte, elle conduit à des paradoxes. La théorie axiomatique des ensembles, présentée dans la section 2, précise dans quels cadres elle est légitime.
 
@@ -108,22 +108,22 @@ On note $x \in A$ pour dire « $x$ appartient à l'ensemble $A$ », et $x \notin
 
 Un ensemble peut être décrit de deux manières :
 
-- **En extension** — en listant ses éléments : $A = \{1, 2, 3\}$
-- **En compréhension** — en décrivant une propriété : $A = \{x \in \mathbb{N} \mid x < 4\}$ (les entiers naturels strictement inférieurs à 4)
+- **En extension** — en listant ses éléments : $A = \\{1, 2, 3\\}$
+- **En compréhension** — en décrivant une propriété : $A = \\{x \in \mathbb{N} \mid x < 4\\}$ (les entiers naturels strictement inférieurs à 4)
 
 ### Sous-ensembles
 
 Un **sous-ensemble** (ou **partie**) de $A$ est un ensemble dont tous les éléments appartiennent à $A$. On note $B \subseteq A$ et on dit « $B$ est inclus dans $A$ ».
 
-*Exemple.* Si $A = \{1, 2, 3, 4, 5\}$, alors $\{2, 4\}$ est un sous-ensemble de $A$, de même que $\{1\}$, $A$ lui-même, et l'ensemble vide $\emptyset$ (qui ne contient aucun élément).
+*Exemple.* Si $A = \\{1, 2, 3, 4, 5\\}$, alors $\\{2, 4\\}$ est un sous-ensemble de $A$, de même que $\\{1\\}$, $A$ lui-même, et l'ensemble vide $\emptyset$ (qui ne contient aucun élément).
 
 ### Ensemble des parties
 
 L'**ensemble des parties** de $A$, noté $\mathcal{P}(A)$, est l'ensemble de *tous* les sous-ensembles de $A$ — y compris l'ensemble vide et $A$ lui-même.
 
-*Exemple.* Si $A = \{1, 2\}$, alors :
+*Exemple.* Si $A = \\{1, 2\\}$, alors :
 
-$\mathcal{P}(A) = \{\emptyset, \{1\}, \{2\}, \{1, 2\}\}$
+$\mathcal{P}(A) = \\{\emptyset, \\{1\\}, \\{2\\}, \\{1, 2\\}\\}$
 
 Quatre sous-ensembles : rien, seulement le 1, seulement le 2, les deux.
 
@@ -135,7 +135,7 @@ En général, si $A$ contient $n$ éléments, $\mathcal{P}(A)$ contient $2^n$ é
 - L'**intersection** $A \cap B$ contient les éléments qui sont dans $A$ *et* dans $B$.
 - La **différence** $A \setminus B$ contient les éléments de $A$ qui ne sont *pas* dans $B$.
 
-*Exemple.* Si $A = \{1, 2, 3\}$ et $B = \{2, 3, 4\}$, alors $A \cup B = \{1, 2, 3, 4\}$, $A \cap B = \{2, 3\}$, et $A \setminus B = \{1\}$.
+*Exemple.* Si $A = \\{1, 2, 3\\}$ et $B = \\{2, 3, 4\\}$, alors $A \cup B = \\{1, 2, 3, 4\\}$, $A \cap B = \\{2, 3\\}$, et $A \setminus B = \\{1\\}$.
 
 ### Infini et cardinalité
 
@@ -155,7 +155,7 @@ Certaines constructions sur des ensembles infinis (par exemple, sélectionner si
 
 La théorie naïve des ensembles repose sur un principe séduisant : pour toute propriété $P$, il existe un ensemble contenant exactement les objets qui la satisfont. Ce **principe de compréhension** est intuitif — mais sans restriction, il conduit à des contradictions.
 
-**Le paradoxe de Russell.** Considérons la propriété $P(x) := (x \notin x)$ — avoir la propriété de ne pas s'appartenir soi-même. Si le principe naïf est valide, il existe un ensemble $\mathcal{R} = \{x \mid x \notin x\}$. Maintenant demandons : $\mathcal{R}$ appartient-il à lui-même ?
+**Le paradoxe de Russell.** Considérons la propriété $P(x) := (x \notin x)$ — avoir la propriété de ne pas s'appartenir soi-même. Si le principe naïf est valide, il existe un ensemble $\mathcal{R} = \\{x \mid x \notin x\\}$. Maintenant demandons : $\mathcal{R}$ appartient-il à lui-même ?
 
 - Si $\mathcal{R} \in \mathcal{R}$ : par définition de $\mathcal{R}$, $\mathcal{R} \notin \mathcal{R}$. Contradiction.
 - Si $\mathcal{R} \notin \mathcal{R}$ : par définition de $\mathcal{R}$, $\mathcal{R} \in \mathcal{R}$. Contradiction.
@@ -180,7 +180,7 @@ $$\exists x\, \forall y,\; y \notin x$$
 
 Cet ensemble est unique (par extensionnalité) et noté $\emptyset$.
 
-**Paire.** Pour tous objets $a$ et $b$, il existe un ensemble $\{a, b\}$ contenant exactement ces deux éléments.
+**Paire.** Pour tous objets $a$ et $b$, il existe un ensemble $\\{a, b\\}$ contenant exactement ces deux éléments.
 
 **Réunion.** Pour toute famille $\mathcal{F}$ d'ensembles, il existe un ensemble $\bigcup \mathcal{F}$ contenant exactement les éléments des membres de $\mathcal{F}$ :
 
@@ -190,21 +190,21 @@ $$\forall \mathcal{F},\;\exists z,\;\forall x\;\bigl(x \in z \Leftrightarrow \ex
 
 $$\forall A,\;\exists z,\;\forall x\;\bigl(x \in z \Leftrightarrow x \subseteq A\bigr)$$
 
-**Schéma de séparation.** Pour tout ensemble $A$ et toute propriété $P$, l'ensemble $\{x \in A \mid P(x)\}$ existe :
+**Schéma de séparation.** Pour tout ensemble $A$ et toute propriété $P$, l'ensemble $\\{x \in A \mid P(x)\\}$ existe :
 
 $$\forall A,\;\exists z,\;\forall x\;\bigl(x \in z \Leftrightarrow x \in A \wedge P(x)\bigr)$$
 
 C'est la version *restreinte* et sûre du principe de compréhension : on ne peut pas former librement l'ensemble de tous les $x$ satisfaisant $P$, mais on peut former l'ensemble des $x$ *appartenant déjà à un ensemble donné $A$* qui satisfont $P$. Cette restriction suffit à bloquer le paradoxe de Russell — car $\mathcal{R}$ exigerait un ensemble de *tous* les $x$, pas des $x$ d'un ensemble préalable.
 
-**Axiome de l'infini.** Il existe un ensemble infini. L'axiome le construit explicitement : il postule un ensemble $I$ contenant $\emptyset$ et stable par l'opération $x \mapsto x \cup \{x\}$ :
+**Axiome de l'infini.** Il existe un ensemble infini. L'axiome le construit explicitement : il postule un ensemble $I$ contenant $\emptyset$ et stable par l'opération $x \mapsto x \cup \\{x\\}$ :
 
-$$\exists I\;\bigl(\emptyset \in I \;\wedge\; \forall x \in I,\; x \cup \{x\} \in I\bigr)$$
+$$\exists I\;\bigl(\emptyset \in I \;\wedge\; \forall x \in I,\; x \cup \\{x\\} \in I\bigr)$$
 
 En appliquant cette opération depuis $\emptyset$, on obtient la suite :
 
-$$\emptyset,\quad \{\emptyset\},\quad \{\emptyset, \{\emptyset\}\},\quad \{\emptyset, \{\emptyset\}, \{\emptyset, \{\emptyset\}\}\},\quad \ldots$$
+$$\emptyset,\quad \\{\emptyset\\},\quad \\{\emptyset, \\{\emptyset\\}\\},\quad \\{\emptyset, \\{\emptyset\\}, \\{\emptyset, \\{\emptyset\\}\\}\\},\quad \ldots$$
 
-Ce sont les **entiers naturels** construits à l'intérieur de la théorie des ensembles : $0 := \emptyset$, $1 := \{0\}$, $2 := \{0, 1\}$, $3 := \{0, 1, 2\}$, etc. Sans cet axiome, aucun ensemble infini — et donc ni $\mathbb{N}$, ni $\mathbb{R}$, ni aucune structure mathématique infinie — ne peut être garanti.
+Ce sont les **entiers naturels** construits à l'intérieur de la théorie des ensembles : $0 := \emptyset$, $1 := \\{0\\}$, $2 := \\{0, 1\\}$, $3 := \\{0, 1, 2\\}$, etc. Sans cet axiome, aucun ensemble infini — et donc ni $\mathbb{N}$, ni $\mathbb{R}$, ni aucune structure mathématique infinie — ne peut être garanti.
 
 **Schéma de remplacement.** Si $F$ est une relation fonctionnelle (à chaque $x \in A$ est associé au plus un $y$ tel que $F(x, y)$), alors l'image de tout ensemble $A$ par $F$ est un ensemble :
 
@@ -214,7 +214,7 @@ Ce schéma est essentiel pour les constructions par **itération transfinite** �
 
 $$\mathrm{TC}(R) = \bigcup_{n \in \omega}\; \bigcup^n R$$
 
-Cette union infinie est légitime précisément parce que le schéma de remplacement permet de former l'ensemble $\{\bigcup^n R \mid n \in \omega\}$ à partir de l'ensemble $\omega$ (les entiers), et que l'axiome de réunion permet ensuite d'en prendre l'union.
+Cette union infinie est légitime précisément parce que le schéma de remplacement permet de former l'ensemble $\\{\bigcup^n R \mid n \in \omega\\}$ à partir de l'ensemble $\omega$ (les entiers), et que l'axiome de réunion permet ensuite d'en prendre l'union.
 
 **Axiome de fondation** (ou **de régularité**). Tout ensemble non vide contient un élément disjoint de lui-même :
 
@@ -240,25 +240,25 @@ Cet axiome est **indépendant** de ZF : on ne peut ni le prouver ni le réfuter 
 
 - La collection de *tous* les ensembles — l'univers $V$ de ZF — ne peut pas être un ensemble dans ZF (sinon on reproduit des contradictions analogues au paradoxe de Russell).
 - La collection de tous les ordinaux (les nombres ordinaux transfinis) n'est pas un ensemble.
-- Dans le chapitre 0, le **Réel** $R = \{x \mid E(x)\}$ — la collection de tout ce qui existe — est une collection trop vaste pour être un ensemble.
+- Dans le chapitre 0, le **Réel** $R = \\{x \mid E(x)\\}$ — la collection de tout ce qui existe — est une collection trop vaste pour être un ensemble.
 
 **Classes et classes propres.** La théorie **NBG** (von Neumann–Bernays–Gödel), une extension conservative de ZF, résout cette tension en introduisant une distinction entre deux types d'objets :
 
 - Un **ensemble** est une collection qui peut elle-même être membre d'autres collections. C'est un objet ordinaire — il peut figurer à droite du symbole $\in$.
-- Une **classe** est une collection définie par une propriété $P$ : $\{x \mid P(x)\}$. Si tous ses membres forment un ensemble (au sens de ZF), la classe est elle-même un ensemble. Sinon, on parle de **classe propre**.
+- Une **classe** est une collection définie par une propriété $P$ : $\\{x \mid P(x)\\}$. Si tous ses membres forment un ensemble (au sens de ZF), la classe est elle-même un ensemble. Sinon, on parle de **classe propre**.
 
 Une classe propre est une collection trop grande pour être un ensemble. Elle peut être nommée et servir de domaine de quantification, mais elle ne peut pas figurer comme membre d'une autre classe ou d'un ensemble — c'est précisément ce qui la distingue d'un ensemble.
 
 **Exemples de classes propres.**
 
-- $\mathbf{V} = \{x \mid x = x\}$ : la classe de *tous* les ensembles — l'univers de ZF. Trop grande pour être un ensemble. (On la note $\mathbf{V}$ pour la distinguer de la classe suivante.)
-- $\mathrm{Ord} = \{x \mid x \text{ est un ordinal}\}$ : la classe de tous les ordinaux.
-- $R = \{x \mid E(x)\}$ : la classe du **Réel** dans le chapitre 0 — la collection de tout ce qui possède la propriété d'exister. Puisqu'elle contient absolument tout ce qui est, elle ne peut être contenue dans aucun ensemble, et n'en est pas un.
-- $V = \{x \mid \neg E(x)\}$ : la classe du **Vide** dans le chapitre 0 — les cas logiques sans instanciation.
+- $\mathbf{V} = \\{x \mid x = x\\}$ : la classe de *tous* les ensembles — l'univers de ZF. Trop grande pour être un ensemble. (On la note $\mathbf{V}$ pour la distinguer de la classe suivante.)
+- $\mathrm{Ord} = \\{x \mid x \text{ est un ordinal}\\}$ : la classe de tous les ordinaux.
+- $R = \\{x \mid E(x)\\}$ : la classe du **Réel** dans le chapitre 0 — la collection de tout ce qui possède la propriété d'exister. Puisqu'elle contient absolument tout ce qui est, elle ne peut être contenue dans aucun ensemble, et n'en est pas un.
+- $V = \\{x \mid \neg E(x)\\}$ : la classe du **Vide** dans le chapitre 0 — les cas logiques sans instanciation.
 
 > **Rappel du chapitre 0.**
 > 
-> Les classes $R = \{x \mid E(x)\}$ et $V = \{x \mid \neg E(x)\}$ sont des **classes propres** au sens de NBG. Elles ne sont pas des ensembles au sens de ZFC. Cette distinction est essentielle : sans elle, la notation $\{x \mid E(x)\}$ sans restriction d'un ensemble préalable tomberait sous le coup du paradoxe de Russell. NBG permet de les nommer, de raisonner à leur sujet, et d'y appliquer des quantificateurs — sans pour autant les traiter comme des membres d'autres objets.
+> Les classes $R = \\{x \mid E(x)\\}$ et $V = \\{x \mid \neg E(x)\\}$ sont des **classes propres** au sens de NBG. Elles ne sont pas des ensembles au sens de ZFC. Cette distinction est essentielle : sans elle, la notation $\\{x \mid E(x)\\}$ sans restriction d'un ensemble préalable tomberait sous le coup du paradoxe de Russell. NBG permet de les nommer, de raisonner à leur sujet, et d'y appliquer des quantificateurs — sans pour autant les traiter comme des membres d'autres objets.
 > 
 > La partition est exhaustive et exclusive : $R \cup V$ contient tout, $R \cap V = \emptyset$.
 
@@ -273,9 +273,9 @@ $$V_0 = \emptyset, \qquad V_{\alpha+1} = \mathcal{P}(V_\alpha), \qquad V_\lambda
 Les premiers niveaux :
 
 - $V_0 = \emptyset$
-- $V_1 = \{\emptyset\}$ — un seul ensemble : l'ensemble vide
-- $V_2 = \{\emptyset, \{\emptyset\}\}$ — deux éléments
-- $V_3 = \{\emptyset, \{\emptyset\}, \{\{\emptyset\}\}, \{\emptyset, \{\emptyset\}\}\}$ — quatre éléments
+- $V_1 = \\{\emptyset\\}$ — un seul ensemble : l'ensemble vide
+- $V_2 = \\{\emptyset, \\{\emptyset\\}\\}$ — deux éléments
+- $V_3 = \\{\emptyset, \\{\emptyset\\}, \\{\\{\emptyset\\}\\}, \\{\emptyset, \\{\emptyset\\}\\}\\}$ — quatre éléments
 
 L'univers entier $V = \bigcup_\alpha V_\alpha$ est la classe de tous les ensembles. Sous l'axiome de fondation, tout ensemble appartient à un certain niveau $V_\alpha$ — c'est la garantie que la descente dans $\in$ s'arrête toujours.
 
@@ -297,15 +297,15 @@ Un **$n$-uplet** est une liste ordonnée de $n$ éléments. L'ordre compte : la 
 
 Si $X$ est un ensemble, $X^n$ désigne l'ensemble de tous les $n$-uplets d'éléments de $X$. C'est le **produit cartésien** de $X$ avec lui-même, $n$ fois.
 
-*Exemple.* Si $X = \{a, b\}$, alors :
+*Exemple.* Si $X = \\{a, b\\}$, alors :
 
-- $X^1 = \{a, b\}$ — deux éléments
-- $X^2 = \{(a,a), (a,b), (b,a), (b,b)\}$ — quatre couples
+- $X^1 = \\{a, b\\}$ — deux éléments
+- $X^2 = \\{(a,a), (a,b), (b,a), (b,b)\\}$ — quatre couples
 - $X^3$ contient $2^3 = 8$ triplets : $(a,a,a)$, $(a,a,b)$, $(a,b,a)$, etc.
 
 En général, si $X$ contient $k$ éléments, $X^n$ contient $k^n$ éléments.
 
-*Remarque.* On peut aussi former le produit cartésien de deux ensembles *différents* : $A \times B = \{(a, b) \mid a \in A, b \in B\}$. Par exemple, si $A = \{1, 2\}$ et $B = \{x, y, z\}$, alors $A \times B$ contient $2 \times 3 = 6$ couples.
+*Remarque.* On peut aussi former le produit cartésien de deux ensembles *différents* : $A \times B = \\{(a, b) \mid a \in A, b \in B\\}$. Par exemple, si $A = \\{1, 2\\}$ et $B = \\{x, y, z\\}$, alors $A \times B$ contient $2 \times 3 = 6$ couples.
 
 ---
 
@@ -323,7 +323,7 @@ On note $f : A \to B$ pour dire « $f$ est une application de $A$ dans $B$ ». P
 
 - $A$ est le **domaine** (ou ensemble de départ) — l'ensemble des entrées.
 - $B$ est le **codomaine** (ou ensemble d'arrivée) — l'ensemble dans lequel vivent les sorties.
-- L'**image** de $f$ est l'ensemble des éléments de $B$ effectivement atteints : $\text{Im}(f) = \{f(x) \mid x \in A\}$.
+- L'**image** de $f$ est l'ensemble des éléments de $B$ effectivement atteints : $\text{Im}(f) = \\{f(x) \mid x \in A\\}$.
 
 ### L'ensemble des applications $B^A$
 
@@ -331,7 +331,7 @@ L'ensemble de toutes les applications de $A$ dans $B$ est noté $B^A$.
 
 Cette notation s'explique par le comptage : si $A$ contient $m$ éléments et $B$ contient $n$ éléments, alors le nombre d'applications de $A$ dans $B$ est $n^m$ — chaque élément de $A$ peut être envoyé sur l'un des $n$ éléments de $B$, et ces choix sont indépendants.
 
-*Exemple.* Si $A = \{1, 2\}$ et $B = \{a, b, c\}$, alors $B^A$ contient $3^2 = 9$ applications. Par exemple : $f(1) = a, f(2) = a$ ; ou $f(1) = b, f(2) = c$ ; etc.
+*Exemple.* Si $A = \\{1, 2\\}$ et $B = \\{a, b, c\\}$, alors $B^A$ contient $3^2 = 9$ applications. Par exemple : $f(1) = a, f(2) = a$ ; ou $f(1) = b, f(2) = c$ ; etc.
 
 En particulier, $A^A$ désigne l'ensemble de toutes les applications de $A$ dans $A$ — toutes les transformations possibles de $A$ vers lui-même. Si $A$ contient $n$ éléments, $A^A$ contient $n^n$ applications. Pour $n = 3$, cela fait déjà 27 transformations ; pour $n = 10$, dix milliards.
 
@@ -359,9 +359,9 @@ La relation la plus courante relie *deux* éléments. On l'appelle **relation bi
 
 Si $(x, y) \in R$, on dit que « $x$ est en relation avec $y$ » et on écrit $R(x, y)$.
 
-*Exemple.* Soit $X = \{A, B, C\}$ un ensemble de trois personnes. La relation d'amitié pourrait être :
+*Exemple.* Soit $X = \\{A, B, C\\}$ un ensemble de trois personnes. La relation d'amitié pourrait être :
 
-$R = \{(A,B), (B,A), (B,C), (C,B)\}$
+$R = \\{(A,B), (B,A), (B,C), (C,B)\\}$
 
 Cela signifie : A et B sont amis (la relation va dans les deux sens), B et C sont amis, mais A et C ne le sont pas. La relation d'amitié est ici **symétrique** — si $R(x,y)$ alors $R(y,x)$ — mais ce n'est pas toujours le cas. La relation « $x$ admire $y$ » peut ne pas être symétrique.
 
@@ -416,13 +416,13 @@ La relation logique admet une généralisation naturelle. Au lieu de se limiter 
 
 L'espace de valuation $W$ capture la richesse du lien. Selon le choix de $W$, on retrouve différents cadres :
 
-- **$W = \{0, 1\}$** : la relation est binaire — le lien existe ($1$) ou n'existe pas ($0$). On retrouve exactement la **relation logique** de la définition précédente.
+- **$W = \\{0, 1\\}$** : la relation est binaire — le lien existe ($1$) ou n'existe pas ($0$). On retrouve exactement la **relation logique** de la définition précédente.
 
 - **$W = \mathbb{R}^+$** : la relation porte une **intensité** continue — une force d'attraction, un débit, une affinité. Le lien n'est plus « tout ou rien » ; il possède un poids.
 
-- **$W$ fini** (par exemple $\{\text{nul}, \text{faible}, \text{moyen}, \text{fort}\}$) : la relation est **qualitative et graduée**.
+- **$W$ fini** (par exemple $\\{\text{nul}, \text{faible}, \text{moyen}, \text{fort}\\}$) : la relation est **qualitative et graduée**.
 
-La **relation logique est un cas particulier de la relation valuée**, retrouvé lorsque $W = \{0, 1\}$.
+La **relation logique est un cas particulier de la relation valuée**, retrouvé lorsque $W = \\{0, 1\\}$.
 
 ---
 
@@ -442,7 +442,7 @@ Un **ordre** (ou **ordre partiel**) sur un ensemble $T$ est une relation binaire
 
 L'adjectif *partiel* signifie que certains éléments peuvent ne pas être comparables : on ne peut dire ni $t \leq u$ ni $u \leq t$.
 
-*Exemple.* L'inclusion entre ensembles est un ordre partiel. Si $A = \{1\}$, $B = \{2\}$ et $C = \{1, 2\}$, alors $A \subseteq C$ et $B \subseteq C$, mais $A$ et $B$ ne sont pas comparables — aucun n'est inclus dans l'autre.
+*Exemple.* L'inclusion entre ensembles est un ordre partiel. Si $A = \\{1\\}$, $B = \\{2\\}$ et $C = \\{1, 2\\}$, alors $A \subseteq C$ et $B \subseteq C$, mais $A$ et $B$ ne sont pas comparables — aucun n'est inclus dans l'autre.
 
 ### Ordre total
 
@@ -454,8 +454,8 @@ Un ordre est **total** si deux éléments quelconques sont toujours comparables 
 
 Un ordre total est un **bon ordre** si tout sous-ensemble non vide admet un plus petit élément.
 
-- $\mathbb{N} = \{0, 1, 2, \ldots\}$ est un bon ordre : dans n'importe quelle collection non vide d'entiers naturels, il y en a un qui est le plus petit.
-- $\mathbb{Z} = \{\ldots, -2, -1, 0, 1, 2, \ldots\}$ n'est **pas** un bon ordre : l'ensemble $\{\ldots, -3, -2, -1\}$ n'a pas de plus petit élément.
+- $\mathbb{N} = \\{0, 1, 2, \ldots\\}$ est un bon ordre : dans n'importe quelle collection non vide d'entiers naturels, il y en a un qui est le plus petit.
+- $\mathbb{Z} = \\{\ldots, -2, -1, 0, 1, 2, \ldots\\}$ n'est **pas** un bon ordre : l'ensemble $\\{\ldots, -3, -2, -1\\}$ n'a pas de plus petit élément.
 
 La différence est essentielle pour le temps : un bon ordre garantit l'existence d'un **premier instant**. L'ensemble $\mathbb{N}$ a un début (zéro) ; $\mathbb{Z}$ n'en a pas.
 
@@ -477,7 +477,7 @@ Soit $A$ un ensemble. Une **topologie** sur $A$ consiste à attribuer, à chaque
 
 Un voisinage de $x$ est un sous-ensemble de $A$ qui contient $x$ et les éléments considérés comme « proches » de $x$. Plus le voisinage est petit, plus les éléments qu'il contient sont proches de $x$.
 
-*Exemple concret.* Imaginons trois villes : Paris, Lyon, Marseille. Un voisinage de Lyon pourrait être $\{$Paris, Lyon$\}$ (les villes à moins de 500 km de Lyon) ou $\{$Lyon$\}$ seul (les villes à moins de 50 km). Marseille n'apparaît dans aucun petit voisinage de Lyon — elle est « topologiquement éloignée ».
+*Exemple concret.* Imaginons trois villes : Paris, Lyon, Marseille. Un voisinage de Lyon pourrait être $\\{$Paris, Lyon$\\}$ (les villes à moins de 500 km de Lyon) ou $\\{$Lyon$\\}$ seul (les villes à moins de 50 km). Marseille n'apparaît dans aucun petit voisinage de Lyon — elle est « topologiquement éloignée ».
 
 Les voisinages doivent satisfaire quelques règles de bon sens :
 
@@ -508,8 +508,8 @@ Un **fermé** est le complémentaire d'un ouvert : un ensemble dont le « bord �
 
 *Analogie.* Sur la droite des nombres réels :
 
-- L'intervalle ouvert $(0, 1) = \{x \mid 0 < x < 1\}$ est un ouvert : pour chaque point à l'intérieur, on peut trouver un petit intervalle autour de lui qui reste à l'intérieur. Mais les extrémités 0 et 1 ne sont pas incluses.
-- L'intervalle fermé $[0, 1] = \{x \mid 0 \leq x \leq 1\}$ est un fermé : les extrémités sont incluses.
+- L'intervalle ouvert $(0, 1) = \\{x \mid 0 < x < 1\\}$ est un ouvert : pour chaque point à l'intérieur, on peut trouver un petit intervalle autour de lui qui reste à l'intérieur. Mais les extrémités 0 et 1 ne sont pas incluses.
+- L'intervalle fermé $[0, 1] = \\{x \mid 0 \leq x \leq 1\\}$ est un fermé : les extrémités sont incluses.
 - L'intervalle $[0, 1)$ n'est ni ouvert ni fermé.
 
 ### Distance et espace métrique
@@ -526,7 +526,7 @@ Un ensemble muni d'une distance s'appelle un **espace métrique**.
 
 Dans un espace métrique, les voisinages sont les **boules ouvertes** :
 
-$B(x, r) = \{y \in A \mid d(x, y) < r\}$
+$B(x, r) = \\{y \in A \mid d(x, y) < r\\}$
 
 La boule $B(x, r)$ contient tous les points situés à une distance strictement inférieure à $r$ de $x$.
 
@@ -565,11 +565,11 @@ Un **espace de probabilité** $(\Omega, P)$ modélise une situation d'incertitud
 
 **L'univers** $\Omega$ est l'ensemble de toutes les **issues** possibles — tous les résultats élémentaires que l'expérience pourrait produire. Chaque issue $\omega \in \Omega$ est un résultat concret, indivisible.
 
-*Exemple.* Lancer un dé à six faces : $\Omega = \{1, 2, 3, 4, 5, 6\}$. Tirer une carte d'un jeu : $\Omega$ contient 52 éléments.
+*Exemple.* Lancer un dé à six faces : $\Omega = \\{1, 2, 3, 4, 5, 6\\}$. Tirer une carte d'un jeu : $\Omega$ contient 52 éléments.
 
 **Un événement** est un sous-ensemble de $\Omega$ — un ensemble d'issues. Un événement se produit lorsque l'issue observée lui appartient.
 
-*Exemple.* « Obtenir un nombre pair » est l'événement $\{2, 4, 6\} \subset \Omega$. « Obtenir 6 » est l'événement $\{6\}$. « Obtenir quelque chose » est l'événement $\Omega$ tout entier.
+*Exemple.* « Obtenir un nombre pair » est l'événement $\\{2, 4, 6\\} \subset \Omega$. « Obtenir 6 » est l'événement $\\{6\\}$. « Obtenir quelque chose » est l'événement $\Omega$ tout entier.
 
 **La probabilité** $P$ est une fonction qui attribue à chaque événement un nombre entre 0 et 1 :
 
@@ -589,7 +589,7 @@ L'idée est la suivante : l'issue $\omega$ (le résultat brut du hasard) n'est p
 
 La **loi** de $f$ décrit les probabilités des différents résultats :
 
-$P(f = a) = P(\{\omega \in \Omega \mid f(\omega) = a\})$
+$P(f = a) = P(\\{\omega \in \Omega \mid f(\omega) = a\\})$
 
 Elle dit : « quelle est la probabilité que la variable aléatoire prenne telle valeur ? »
 
@@ -597,10 +597,10 @@ Elle dit : « quelle est la probabilité que la variable aléatoire prenne telle
 
 Un joueur lance un dé et gagne 10 € s'il obtient 6, perd 2 € sinon.
 
-- **Univers** : $\Omega = \{1, 2, 3, 4, 5, 6\}$ — les six issues possibles.
+- **Univers** : $\Omega = \\{1, 2, 3, 4, 5, 6\\}$ — les six issues possibles.
 - **Probabilité** : $P$ uniforme — chaque face a une probabilité de $1/6$.
-- **Événement** « obtenir 6 » : le sous-ensemble $\{6\}$, de probabilité $1/6$.
-- **Événement** « ne pas obtenir 6 » : le sous-ensemble $\{1, 2, 3, 4, 5\}$, de probabilité $5/6$.
+- **Événement** « obtenir 6 » : le sous-ensemble $\\{6\\}$, de probabilité $1/6$.
+- **Événement** « ne pas obtenir 6 » : le sous-ensemble $\\{1, 2, 3, 4, 5\\}$, de probabilité $5/6$.
 - **Variable aléatoire** « gain du joueur » : $G : \Omega \to \mathbb{R}$ définie par $G(6) = 10$ et $G(\omega) = -2$ pour $\omega \neq 6$. La variable $G$ n'est pas l'identité — elle transforme le résultat du dé en une conséquence (un gain ou une perte).
 - **Loi** de $G$ : $P(G = 10) = 1/6$ et $P(G = -2) = 5/6$.
 
