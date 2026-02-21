@@ -6,7 +6,7 @@ date: 2026-02-20
 last_modified_at: 2026-02-21
 ---
 
-# Chapitre 0 — Existence
+# Existence
 
 *Première version — 2026-02-20*
 
