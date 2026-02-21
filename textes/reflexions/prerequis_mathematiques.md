@@ -40,13 +40,13 @@ Un prédicat peut dépendre de plusieurs variables : $R(x, y)$ signifie « $x$ e
 
 Les propositions se combinent à l'aide de **connecteurs logiques** :
 
-| Symbole               | Lecture                        | La proposition composée est vraie quand… |
-| --------------------- | ------------------------------ | ---------------------------------------- |
-| $\neg P$              | « non $P$ »                    | $P$ est fausse                           |
-| $P \wedge Q$          | « $P$ et $Q$ »                 | $P$ et $Q$ sont toutes deux vraies       |
-| $P \vee Q$            | « $P$ ou $Q$ »                 | au moins l'une est vraie                 |
-| $P \Rightarrow Q$     | « si $P$ alors $Q$ »           | $P$ est fausse, ou $Q$ est vraie         |
-| $P \Leftrightarrow Q$ | « $P$ si et seulement si $Q$ » | $P$ et $Q$ ont la même valeur de vérité  |
+| Symbole | Lecture | La proposition composée est vraie quand… |
+|:--------|:--------|:------------------------------------------|
+| $\neg P$ | « non $P$ » | $P$ est fausse |
+| $P \wedge Q$ | « $P$ et $Q$ » | $P$ et $Q$ sont toutes deux vraies |
+| $P \vee Q$ | « $P$ ou $Q$ » | au moins l'une est vraie |
+| $P \Rightarrow Q$ | « si $P$ alors $Q$ » | $P$ est fausse, ou $Q$ est vraie |
+| $P \Leftrightarrow Q$ | « $P$ si et seulement si $Q$ » | $P$ et $Q$ ont la même valeur de vérité |
 
 *Remarque sur l'implication.* L'implication $P \Rightarrow Q$ n'est fausse que dans un seul cas : $P$ vraie et $Q$ fausse. Si $P$ est fausse, l'implication est vraie quelle que soit $Q$ — on ne peut reprocher à une promesse de ne pas avoir été tenue que si elle a effectivement été formulée. Cette convention peut surprendre, mais elle est la seule qui rende l'implication compatible avec le raisonnement mathématique.
 
@@ -92,7 +92,7 @@ La notation $\\{x \mid P(x)\\}$ désigne la collection de tous les objets $x$ sa
 
 Dans le chapitre 0, cette notation fonde les classes fondamentales :
 
-$$R = \\{x \mid E(x)\\}, \qquad V = \\{x \mid \neg E(x)\\}$$
+$$R = \left\{ x \mid E(x) \right\}, \qquad V = \left\{ x \mid \neg E(x) \right\}$$
 
 La notation est intuitive — mais prise sans contrainte, elle conduit à des paradoxes. La théorie axiomatique des ensembles, présentée dans la section 2, précise dans quels cadres elle est légitime.
 
@@ -135,7 +135,8 @@ En général, si $A$ contient $n$ éléments, $\mathcal{P}(A)$ contient $2^n$ é
 - L'**intersection** $A \cap B$ contient les éléments qui sont dans $A$ *et* dans $B$.
 - La **différence** $A \setminus B$ contient les éléments de $A$ qui ne sont *pas* dans $B$.
 
-*Exemple.* Si $A = \\{1, 2, 3\\}$ et $B = \\{2, 3, 4\\}$, alors $A \cup B = \\{1, 2, 3, 4\\}$, $A \cap B = \\{2, 3\\}$, et $A \setminus B = \\{1\\}$.
+*Exemple.* Si $A = \\{1, 2, 3\\}$ et $B = \\{2, 3, 4\\}$, alors :
+$A \cup B = \\{1, 2, 3, 4\\}$, $A \cap B = \\{2, 3\\}$, et $A \setminus B = \\{1\\}$.
 
 ### Infini et cardinalité
 
@@ -198,7 +199,7 @@ C'est la version *restreinte* et sûre du principe de compréhension : on ne peu
 
 **Axiome de l'infini.** Il existe un ensemble infini. L'axiome le construit explicitement : il postule un ensemble $I$ contenant $\emptyset$ et stable par l'opération $x \mapsto x \cup \\{x\\}$ :
 
-$$\exists I\;\bigl(\emptyset \in I \;\wedge\; \forall x \in I,\; x \cup \\{x\\} \in I\bigr)$$
+$$\exists I\;\bigl(\emptyset \in I \;\wedge\; \forall x \in I,\; x \cup \nobreak\left\{x\right\}\nobreak \in I\bigr)$$
 
 En appliquant cette opération depuis $\emptyset$, on obtient la suite :
 
@@ -380,7 +381,7 @@ Certaines relations binaires possèdent des propriétés remarquables :
 - **Transitive** : si $R(x, y)$ et $R(y, z)$ alors $R(x, z)$. « Être ancêtre de » est transitif ; « être ami de » ne l'est pas.
 - **Antisymétrique** : si $R(x, y)$ et $R(y, x)$ alors $x = y$. L'ordre « $\leq$ » est antisymétrique.
 
-Ces propriétés se combinent pour définir des structures particulières — par exemple, une relation d'**ordre** est réflexive, antisymétrique et transitive (voir section 6).
+Ces propriétés se combinent pour définir des structures particulières — par exemple, une relation d'**ordre** est réflexive, antisymétrique et transitive (voir section 7).
 
 ### Relations logiques et valuées
 
@@ -426,7 +427,105 @@ La **relation logique est un cas particulier de la relation valuée**, retrouvé
 
 ---
 
-## 6 — Relations d'ordre
+## 6 — Relations d'équivalence et ensembles quotients
+
+### L'idée
+
+Certaines distinctions ne comptent pas. Lorsqu'on classe des villes par pays, on regroupe en une catégorie des objets qui diffèrent à tous autres égards. Lorsqu'on dit que deux façons de calculer aboutissent au même résultat, on traite comme identiques des objets formellement distincts.
+
+L'**ensemble quotient** formalise ce geste : étant donné une manière de déclarer deux éléments équivalents, il constitue un nouvel ensemble dont les membres sont non plus les objets individuels, mais leurs **groupes d'équivalence**. C'est un changement de granularité — on cesse de voir les individus pour ne voir que les catégories.
+
+Deux notions accompagnent cette construction : la **projection canonique**, qui envoie chaque élément vers sa catégorie, et l'**isomorphisme**, qui permet de reconnaître quand deux descriptions différentes capturent la même structure.
+
+### Relation d'équivalence
+
+Une relation binaire $\sim$ sur un ensemble $A$ est une **relation d'équivalence** si elle satisfait simultanément :
+
+- **Réflexivité** : $a \sim a$ pour tout $a \in A$ — tout élément s'équivaut lui-même ;
+- **Symétrie** : si $a \sim b$ alors $b \sim a$ — l'équivalence est réciproque ;
+- **Transitivité** : si $a \sim b$ et $b \sim c$ alors $a \sim c$ — l'équivalence se propage.
+
+*Exemples.*
+
+- **Parité** sur $\mathbb{Z}$ : $a \sim b$ si $a - b$ est pair. Deux classes : les entiers pairs et les entiers impairs.
+- **Congruence modulo $n$** : $a \sim b$ si $n$ divise $a - b$. Pour $n = 7$, les entiers se répartissent en sept classes — comme les jours de la semaine.
+- **Relation identité** : $a \sim b$ si et seulement si $a = b$. Chaque élément forme sa propre classe, sans aucun regroupement. C'est la relation d'équivalence la plus **fine**.
+- **Relation universelle** : $a \sim b$ pour tous $a, b \in A$. Tous les éléments tombent dans une seule classe. C'est la relation d'équivalence la plus **grossière**.
+
+### Classes d'équivalence
+
+La **classe d'équivalence** d'un élément $a \in A$ est l'ensemble de tous les éléments équivalents à $a$ :
+
+$$[a]_{\sim} \;=\; \left\{ x \in A \mid x \sim a \right\}$$
+
+On appelle $a$ un **représentant** de la classe $[a]_{\sim}$ : tout autre élément $b \in [a]_{\sim}$ aurait pu jouer ce rôle, la classe ne dépend pas du représentant choisi.
+
+*Propriété fondamentale.* Deux classes sont soit identiques, soit disjointes :
+
+$$[a]_{\sim} = [b]_{\sim} \;\Longleftrightarrow\; a \sim b \qquad \text{et} \qquad [a]_{\sim} \cap [b]_{\sim} = \emptyset \;\Longleftrightarrow\; a \not\sim b$$
+
+Les classes d'équivalence forment ainsi une **partition** de $A$ : elles sont deux à deux disjointes et leur réunion couvre $A$ tout entier. Réciproquement, toute partition de $A$ définit une relation d'équivalence — les deux notions se correspondent biunivoquement.
+
+### Ensemble quotient
+
+> **Définition — Ensemble quotient**
+>
+> L'**ensemble quotient** de $A$ par $\sim$, noté $A/{\sim}$, est l'ensemble de toutes les classes d'équivalence :
+>
+> $$A/{\sim} \;=\; \left\{ [a]_{\sim} \mid a \in A \right\}$$
+>
+> Les éléments de $A/{\sim}$ sont des sous-ensembles de $A$. Chaque élément de $A/{\sim}$ est une catégorie entière — une collection d'objets de $A$ que l'on ne distingue plus.
+
+*Exemples.*
+
+- Pour la parité : $\mathbb{Z}/{\sim} = \\{[\text{pairs}],\, [\text{impairs}]\\}$ — deux éléments.
+- Pour la congruence modulo $n$ : $\mathbb{Z}/n\mathbb{Z} = \\{[0],\, [1],\, \ldots,\, [n-1]\\}$ — exactement $n$ classes.
+
+### Projection canonique
+
+> **Définition — Projection canonique**
+>
+> La **projection canonique** est l'application $\pi : A \to A/{\sim}$ définie par
+>
+> $$\pi(a) = [a]_{\sim}$$
+>
+> Elle envoie chaque élément de $A$ vers sa classe d'équivalence dans $A/{\sim}$.
+
+$\pi$ est **surjective** par construction — toute classe a au moins un antécédent. Elle n'est pas injective en général : deux éléments équivalents partagent la même image, $\pi(a) = \pi(b)$ dès que $a \sim b$.
+
+La projection canonique est le sens formel du mot « projeter » : passer d'une description fine (les éléments de $A$) vers une description grossière (leurs classes dans $A/{\sim}$), en effaçant les distinctions que $\sim$ juge sans pertinence.
+
+### Isomorphisme et théorème de factorisation
+
+Soit $f : A \to B$ une application quelconque. Elle induit naturellement une relation d'équivalence sur $A$ :
+
+$$a \sim_f b \;\Longleftrightarrow\; f(a) = f(b)$$
+
+Deux éléments sont équivalents si et seulement si $f$ leur associe la même image.
+
+> **Théorème de factorisation.**
+>
+> Toute application $f : A \to B$ se factorise de façon unique à travers le quotient $A/{\sim_f}$ :
+>
+> $$A \;\xrightarrow{\;\pi\;}\; A/{\sim_f} \;\xrightarrow{\;\bar{f}\;}\; \mathrm{Im}(f) \;\hookrightarrow\; B$$
+>
+> où $\pi$ est la projection canonique, $\bar{f}\bigl([a]_{\sim_f}\bigr) = f(a)$, et $\bar{f}$ est une **bijection** de $A/{\sim_f}$ vers $\mathrm{Im}(f)$.
+
+Autrement dit : toute application se décompose en trois étapes — regrouper les éléments à même image (projection), établir une correspondance biunivoque entre les groupes et leurs images (bijection), puis inclure ces images dans le codomaine (injection). La factorisation est unique car $\bar{f}$ est entièrement déterminée par $f$ — le choix du représentant n'affecte pas le résultat.
+
+Un **isomorphisme** entre deux ensembles est une bijection qui préserve leur structure dans les deux sens. Pour des ensembles sans structure supplémentaire, c'est simplement une bijection. Dès qu'une structure est présente — une opération, un ordre, une topologie —, l'isomorphisme doit la respecter, et son inverse aussi. Le théorème de factorisation dit que $A/{\sim_f}$ et $\mathrm{Im}(f)$ sont **isomorphes** : ils ont la même organisation à renommage près.
+
+*Exemple.* L'ensemble $\mathbb{Z}/7\mathbb{Z}$ est isomorphe à l'ensemble $\\{$lundi, mardi, …, dimanche$\\}$ muni de la rotation « jour suivant » : les deux structures sont cycliques d'ordre 7, seuls les noms diffèrent.
+
+### Lien avec le texte
+
+Dans le chapitre sur les échelles, l'ensemble quotient est l'outil formel du **changement de granularité**. Une échelle est un choix de ce qu'on considère comme équivalent : deux configurations sont indiscernables à cette échelle si elles ne diffèrent que par des détails en deçà de son seuil de résolution. L'ensemble quotient $A/{\sim}$ est la collection de ces catégories — la description de la réalité vue depuis cette échelle.
+
+La projection canonique $\pi : A \to A/{\sim}$ est la **descente vers la description grossière** : elle associe à chaque objet fin sa catégorie à l'échelle choisie. L'isomorphisme garantit que le résultat ne dépend pas du représentant choisi pour nommer chaque classe — la structure du quotient est intrinsèque, non arbitraire.
+
+---
+
+## 7 — Relations d'ordre
 
 ### L'idée
 
@@ -461,7 +560,7 @@ La différence est essentielle pour le temps : un bon ordre garantit l'existence
 
 ---
 
-## 7 — Topologie
+## 8 — Topologie
 
 ### L'idée
 
@@ -553,7 +652,7 @@ La topologie d'un état peut être influencée par ses relations : si la configu
 
 ---
 
-## 8 — Probabilités
+## 9 — Probabilités
 
 ### L'idée
 

@@ -625,6 +625,14 @@ html[data-darkreader-mode] .parchment-content a:hover {
   opacity: 0.8;
 }
 
+/* Tableaux : alignement titre / contenu identique par colonne */
+.parchment-content table th,
+.parchment-content table td {
+  text-align: left;
+  vertical-align: top;
+  padding: 0.4em 0.6em;
+}
+
 /* ===== 4. Arborescence textes ===== */
 .arborescence-textes,
 .arborescence-textes *,

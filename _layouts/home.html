@@ -9,13 +9,10 @@ layout: default
 {{ content }}
 
 <!-- Compteur de visites public (counter.dev, sans backend) — visible uniquement sur l’accueil -->
-<div class="visitors-counter" aria-label="Compteur de visites">
-  Humanuscrit — visiteurs depuis l'origine :
-  <span id="counter-dev">—</span>
+<!-- Suivi counter.dev (tracking uniquement ; le script n’affiche pas le total). La courbe « Suivre l’évolution » vient de Google Analytics. -->
+<div class="visitors-counter" aria-label="Fréquentation">
+  <a href="{{ '/evolution/' | relative_url }}">Voir l’évolution de la fréquentation</a>
 </div>
-<p class="visitor-counter-link"><a href="{{ '/evolution/' | relative_url }}">Suivre l'évolution</a></p>
 <script async src="https://cdn.counter.dev/script.js"
         data-id="humanuscrit"
-        data-utcoffset="1"
-        data-reset="never"
-        data-target="counter-dev"></script>
+        data-utcoffset="1"></script>

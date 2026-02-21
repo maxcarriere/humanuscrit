@@ -24,8 +24,6 @@ Comment vivre sereinement sans avoir, un jour, regardé cette question en face ?
 
 Ce chapitre est une tentative de faire face à cette question — non pas pour la dissoudre dans une réponse définitive, mais pour en déplier la structure, en distinguer les couches, lui donner un cadre. La rigueur n'est pas ici l'ennemie de la profondeur. Elle en est le véhicule.
 
----
-
 ## I — L'existence comme notion première
 
 On ne peut penser quelque chose uniquement *de* quelque chose.
@@ -62,8 +60,6 @@ Une remarque sur V : ses membres — les non-existants — ne sont pas des entit
 Mais cette partition ne dit pas encore ce qui distingue une chose existante d'une pure indétermination. Pour cela, il faut analyser la structure même de l'existence. Quelles sont les conditions nécessaires à l'existence d'une chose ?
 
 Nous commencerons donc par essayer d'identifier les propriétés de ce qui existe — d'abord dans sa dimension statique, puis dans sa dimension dynamique. Nous en dégagerons ensuite trois principes fondamentaux, avant de montrer dans quel cadre ces principes s'expriment. Nous terminerons par une question plus ouverte : l'existence se limite-t-elle au réel, ou possède-t-elle aussi une dimension logique ?
-
----
 
 ## II — Vision statique : La chose
 
@@ -161,7 +157,8 @@ La **cohérence** exprime que tout constituant de $x$ est accessible depuis tout
 > **Formalisme :**
 > Soit $x$ une chose consistante et $L \subseteq x \times x$ un ensemble de liens. On note $c_i \mathbin{-} c_j$ lorsque $(c_i, c_j) \in L$.
 > 
-> $x$ est **cohérent** si pour tout couple $(c_i, c_j) \in x^2$, il existe une suite finie&nbsp;$c_i = c_1' \mathbin{-} c_2' \mathbin{-} \cdots \mathbin{-} c_k' = c_j$.
+> $x$ est **cohérent** si pour tout couple $(c_i, c_j) \in x^2$, il existe une suite finie
+> $c_i = c_1' \mathbin{-} c_2' \mathbin{-} \cdots \mathbin{-} c_k' = c_j$.
 > 
 > Autrement dit : le graphe $(x, L)$ est connexe. Cette structure sera entièrement formalisée au chapitre 1.
 
@@ -355,8 +352,6 @@ Ce cadre n'introduit pas encore la notion de système. Mais il en a posé tous l
 
 Avant cela, une dernière question demeure — peut-être la plus vertigineuse.
 
----
-
 ## VI — Existence réelle et existence logique
 
 La réflexion qui précède porte sur l'existence telle qu'elle se manifeste dans le réel — l'existence de pierres, d'étoiles, d'organismes, de phénomènes physiques. Mais il est une autre forme d'existence qui hante la pensée depuis ses origines : celle des objets de l'esprit.
@@ -381,8 +376,6 @@ Nous ne trancherons pas ici entre ces positions. Ce chapitre zéro a pour vocati
 
 Cette question trouvera des échos directs dans les chapitres ultérieurs, lorsque nous examinerons les conditions d'émergence d'un système conscient — c'est-à-dire d'un système capable de produire, en son sein, une représentation de sa propre structure.
 
----
-
 ## Clôture du chapitre zéro
 
 Exister, ce n'est pas seulement être donné. C'est être constitué, être structuré, durer, évoluer dans un cadre spatial et temporel.
@@ -390,8 +383,6 @@ Exister, ce n'est pas seulement être donné. C'est être constitué, être stru
 Ce chapitre constitue le seuil d'entrée de la réflexion systémique qui va suivre. Il ne traite pas encore explicitement de la notion de système. Mais il en a posé, sans la nommer, la matière première : des éléments distingués, agencés en une configuration cohérente, qui se transforme dans un cadre d'espace et de temps. La substance — niveau atomique d'une description — en constitue la brique élémentaire. Les choses — ensembles cohérents de substance — en constituent les unités d'organisation. Ce que nous ferons à partir du chapitre suivant, c'est reconnaître ce motif pour ce qu'il est, et lui donner un nom.
 
 Traiter la substance comme relative au cadre de description adopté est un **choix** — non une nécessité ontologique. Ce choix permettra, dans le chapitre 2, de penser plusieurs niveaux de description du même réel. Ce qui est substance à une certaine échelle devient chose composée à une échelle plus fine. Ce changement d'échelle, avec toutes ses conséquences formelles, sera l'un des fils directeurs du livre.
-
----
 
 ## Références
 
