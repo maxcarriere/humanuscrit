@@ -1,6 +1,5 @@
 ---
-title: Introduction à la logique — Pensée et Langage
-short_title: Logique
+title: Introduction à la Logique : Pensée et Langage
 permalink: /textes/reflexions/logique/
 order: 2
 date: 2026-02-25
