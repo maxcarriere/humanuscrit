@@ -39,7 +39,7 @@
     {% endfor %}
     <li class="arborescence-separator" role="presentation"></li>
     <li class="arborescence-part-title">PARTIE 0 — Logique</li>
-    {% assign part0_files = "logique.md" | split: "|" %}
+    {% assign part0_files = "logique_intro.md" | split: "|" %}
     {% for ref_file in part0_files %}
       {% assign p = "" %}
       {% assign expected_path = dossier_norm | append: "/" | append: ref_file %}
