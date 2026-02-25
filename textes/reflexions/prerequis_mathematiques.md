@@ -40,13 +40,13 @@ Un prédicat peut dépendre de plusieurs variables : $R(x, y)$ signifie « $x$ e
 
 Les propositions se combinent à l'aide de **connecteurs logiques** :
 
-| Symbole | Lecture | La proposition composée est vraie quand… |
-|:--------|:--------|:------------------------------------------|
-| $\neg P$ | « non $P$ » | $P$ est fausse |
-| $P \wedge Q$ | « $P$ et $Q$ » | $P$ et $Q$ sont toutes deux vraies |
-| $P \vee Q$ | « $P$ ou $Q$ » | au moins l'une est vraie |
-| $P \Rightarrow Q$ | « si $P$ alors $Q$ » | $P$ est fausse, ou $Q$ est vraie |
-| $P \Leftrightarrow Q$ | « $P$ si et seulement si $Q$ » | $P$ et $Q$ ont la même valeur de vérité |
+| Symbole               | Lecture                        | La proposition composée est vraie quand… |
+|:--------------------- |:------------------------------ |:---------------------------------------- |
+| $\neg P$              | « non $P$ »                    | $P$ est fausse                           |
+| $P \wedge Q$          | « $P$ et $Q$ »                 | $P$ et $Q$ sont toutes deux vraies       |
+| $P \vee Q$            | « $P$ ou $Q$ »                 | au moins l'une est vraie                 |
+| $P \Rightarrow Q$     | « si $P$ alors $Q$ »           | $P$ est fausse, ou $Q$ est vraie         |
+| $P \Leftrightarrow Q$ | « $P$ si et seulement si $Q$ » | $P$ et $Q$ ont la même valeur de vérité  |
 
 *Remarque sur l'implication.* L'implication $P \Rightarrow Q$ n'est fausse que dans un seul cas : $P$ vraie et $Q$ fausse. Si $P$ est fausse, l'implication est vraie quelle que soit $Q$ — on ne peut reprocher à une promesse de ne pas avoir été tenue que si elle a effectivement été formulée. Cette convention peut surprendre, mais elle est la seule qui rende l'implication compatible avec le raisonnement mathématique.
 
@@ -469,11 +469,11 @@ Les classes d'équivalence forment ainsi une **partition** de $A$ : elles sont d
 ### Ensemble quotient
 
 > **Définition — Ensemble quotient**
->
+> 
 > L'**ensemble quotient** de $A$ par $\sim$, noté $A/{\sim}$, est l'ensemble de toutes les classes d'équivalence :
->
+> 
 > $$A/{\sim} \;=\; \left\{ [a]_{\sim} \mid a \in A \right\}$$
->
+> 
 > Les éléments de $A/{\sim}$ sont des sous-ensembles de $A$. Chaque élément de $A/{\sim}$ est une catégorie entière — une collection d'objets de $A$ que l'on ne distingue plus.
 
 *Exemples.*
@@ -484,11 +484,11 @@ Les classes d'équivalence forment ainsi une **partition** de $A$ : elles sont d
 ### Projection canonique
 
 > **Définition — Projection canonique**
->
+> 
 > La **projection canonique** est l'application $\pi : A \to A/{\sim}$ définie par
->
+> 
 > $$\pi(a) = [a]_{\sim}$$
->
+> 
 > Elle envoie chaque élément de $A$ vers sa classe d'équivalence dans $A/{\sim}$.
 
 $\pi$ est **surjective** par construction — toute classe a au moins un antécédent. Elle n'est pas injective en général : deux éléments équivalents partagent la même image, $\pi(a) = \pi(b)$ dès que $a \sim b$.
@@ -504,11 +504,11 @@ $$a \sim_f b \;\Longleftrightarrow\; f(a) = f(b)$$
 Deux éléments sont équivalents si et seulement si $f$ leur associe la même image.
 
 > **Théorème de factorisation.**
->
+> 
 > Toute application $f : A \to B$ se factorise de façon unique à travers le quotient $A/{\sim_f}$ :
->
+> 
 > $$A \;\xrightarrow{\;\pi\;}\; A/{\sim_f} \;\xrightarrow{\;\bar{f}\;}\; \mathrm{Im}(f) \;\hookrightarrow\; B$$
->
+> 
 > où $\pi$ est la projection canonique, $\bar{f}\bigl([a]_{\sim_f}\bigr) = f(a)$, et $\bar{f}$ est une **bijection** de $A/{\sim_f}$ vers $\mathrm{Im}(f)$.
 
 Autrement dit : toute application se décompose en trois étapes — regrouper les éléments à même image (projection), établir une correspondance biunivoque entre les groupes et leurs images (bijection), puis inclure ces images dans le codomaine (injection). La factorisation est unique car $\bar{f}$ est entièrement déterminée par $f$ — le choix du représentant n'affecte pas le résultat.
