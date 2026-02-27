@@ -25,4 +25,4 @@ header_pages:
   - productions/index.md
   - a-propos.md
 
-# Compteur accueil : simplifié avec counter.dev (aucune dépendance serveur).
+# Compteur accueil : simplifié, basé sur un badge SVG externe.

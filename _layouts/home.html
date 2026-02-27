@@ -9,14 +9,10 @@ layout: default
 {{ content }}
 
 <div class="visitors-counter" aria-label="Fréquentation">
-  Humanuscrit — visiteurs depuis l’origine :
-  <span id="counter-dev">—</span>
+  <img
+    src="https://api.visitorbadge.io/api/visitors?path=humanuscrit.com&label=Visiteurs%20depuis%20l%E2%80%99origine&countColor=%232d2d2d"
+    alt="Visiteurs depuis l’origine"
+    loading="lazy"
+  />
   · <a href="{{ '/evolution/' | relative_url }}">Voir l’évolution</a>
 </div>
-
-<script async src="https://cdn.counter.dev/script.js"
-        data-id="humanuscrit"
-        data-utcoffset="1"
-        data-reset="never"
-        data-target="counter-dev">
-</script>
