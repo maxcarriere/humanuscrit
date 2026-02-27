@@ -3,7 +3,3 @@
   command = "bundle exec jekyll build"
   publish = "_site"
   functions = "netlify/functions"
-
-# Si le site est hébergé ailleurs (ex. GitHub Pages), les functions ne sont pas utilisées.
-# Pour afficher le compteur GA sur l'accueil, déployer ce repo sur Netlify et configurer
-# GA4_PROPERTY_ID et GA_SERVICE_ACCOUNT_JSON dans Netlify > Paramètres > Variables d'environnement.

@@ -25,6 +25,4 @@ header_pages:
   - productions/index.md
   - a-propos.md
 
-# Compteur accueil : si défini, on affiche le total depuis GA (courbe). Sinon CountAPI.
-# Ex. Netlify : "https://humanuscrit.com/.netlify/functions/ga-total"
-ga_counter_url: "https://humanuscrit.com/.netlify/functions/ga-total"
+# Compteur accueil : simplifié avec counter.dev (aucune dépendance serveur).

@@ -8,38 +8,14 @@ layout: default
 
 {{ content }}
 
-<!-- Compteur : si site.ga_counter_url est défini, total = courbe GA ; sinon CountAPI. counter.dev = suivi. -->
 <div class="visitors-counter" aria-label="Fréquentation">
-  Humanuscrit — visiteurs depuis l'origine : <span id="visitor-count">…</span>
-  · <a href="{{ '/evolution/' | relative_url }}">Voir l'évolution</a>
+  Humanuscrit — visiteurs depuis l’origine :
+  <span id="counter-dev">—</span>
 </div>
-<script>
-(function() {
-  var el = document.getElementById('visitor-count');
-  if (!el) return;
-  var gaUrl = {{ site.ga_counter_url | default: "" | jsonify }};
-  function show(n) { el.textContent = n >= 0 ? n.toLocaleString('fr-FR') : '—'; }
-  function useCountAPI() {
-    var namespace = 'humanuscrit', key = 'visits';
-    var counted = sessionStorage.getItem('humanuscrit_counted');
-    if (!counted) {
-      fetch('https://api.countapi.xyz/hit/' + namespace + '/' + key).then(function(r) { return r.json(); })
-        .then(function(d) { show(d.value); sessionStorage.setItem('humanuscrit_counted', '1'); })
-        .catch(function() { fetch('https://api.countapi.xyz/get/' + namespace + '/' + key).then(function(r) { return r.json(); }).then(function(d) { show(d.value); }); });
-    } else {
-      fetch('https://api.countapi.xyz/get/' + namespace + '/' + key).then(function(r) { return r.json(); })
-        .then(function(d) { show(d.value); }).catch(function() { show(-1); });
-    }
-  }
-  if (gaUrl && typeof gaUrl === 'string' && gaUrl.length > 0) {
-    fetch(gaUrl).then(function(r) { return r.json(); })
-      .then(function(d) { if (d && typeof d.value === 'number') show(d.value); else useCountAPI(); })
-      .catch(useCountAPI);
-  } else {
-    useCountAPI();
-  }
-})();
-</script>
+
 <script async src="https://cdn.counter.dev/script.js"
         data-id="humanuscrit"
-        data-utcoffset="1"></script>
+        data-utcoffset="1"
+        data-reset="never"
+        data-target="counter-dev">
+</script>
