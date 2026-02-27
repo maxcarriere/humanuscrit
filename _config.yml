@@ -27,4 +27,4 @@ header_pages:
 
 # Compteur accueil : si défini, on affiche le total depuis GA (courbe). Sinon CountAPI.
 # Ex. Netlify : "https://humanuscrit.com/.netlify/functions/ga-total"
-# ga_counter_url: ""
+ga_counter_url: "https://humanuscrit.com/.netlify/functions/ga-total"
