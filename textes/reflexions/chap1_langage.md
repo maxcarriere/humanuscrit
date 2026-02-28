@@ -1,6 +1,6 @@
 ---
-title: Chapitre 1 — Langages et Systèmes Formels (v2)
-permalink: /textes/reflexions/logique/chapitre-1/v2/
+title: Chapitre 1 — Langages et Systèmes Formels
+permalink: /textes/reflexions/logique/chapitre-1/
 order: 3
 date: 2026-02-27
 last_modified_at: 2026-02-28
@@ -169,7 +169,7 @@ L'esprit abstrait : il désigne sans spécifier, il crée un objet générique p
 
 La forme la plus simple est la **variable** (notée $x, y, z, \ldots$). Une variable désigne un objet quelconque du domaine, sans en préciser la nature. Elle est vide de tout contenu particulier — un pur emplacement de désignation. La variable est la forme d'abstraction pure : désigner sans contraindre.
 
-La forme construite est le **terme epsilon** de Hilbert, noté \varepsilon x.\, P(x). Il désigne un élément du domaine qui satisfait la proposition P, sans préciser lequel. Si P(x) signifie « x est un nombre pair », alors \varepsilon x.\, P(x) désigne *un* nombre pair — lequel exactement reste indéterminé. Ce terme formalise l'abstraction construite : créer un objet générique défini uniquement par une propriété, dépouillé de tout contenu particulier. 
+La forme construite est le **terme epsilon** de Hilbert, noté $\varepsilon x.\, P(x)$. Il désigne un élément du domaine qui satisfait la proposition P, sans préciser lequel. Si P(x) signifie « x est un nombre pair », alors $\varepsilon x.\, P(x)$ désigne *un* nombre pair — lequel exactement reste indéterminé. Ce terme formalise l'abstraction construite : créer un objet générique défini uniquement par une propriété, dépouillé de tout contenu particulier. 
 
 L'opérateur epsilon est la version constructive des quantificateurs : là où $\exists$ affirme l'existence et $\forall$ l'universalité, il en désigne un témoin explicite. C'est précisément cette construction qui le relie à l'axiome du choix (voir chapitre sur les ensembles), dont il constitue la version opératoire : Il permet de *choisir* un élément satisfaisant une propriété en le construisant explicitement. L'axiome du choix lui garantira qu'il est possible, dans le cadre de la théorie des ensemble, de réaliser simultanément une *infinité* de ces choix.
 
