@@ -1,3 +1,6 @@
+---
+published: false
+---
 # Plan — Introduction à la Logique : Pensée et Langage
 
 *Volume I — Dernière mise à jour : 2026-02-27*
@@ -6,16 +9,16 @@
 
 ## État d'avancement
 
-| Section | Statut |
-|---|---|
-| Introduction | En cours |
-| Partie I — Le Langage Formel | À rédiger |
+| Section                              | Statut    |
+| ------------------------------------ | --------- |
+| Introduction                         | En cours  |
+| Partie I — Le Langage Formel         | À rédiger |
 | Partie II — Logique Propositionnelle | À rédiger |
-| Partie III — Logique des Prédicats | À rédiger |
-| Partie IV — Méta-Logique et Limites | À rédiger |
-| Partie V — Panorama des Logiques | À rédiger |
-| Partie VI — Mathématiques | À rédiger |
-| Conclusion — L'Existence | À rédiger |
+| Partie III — Logique des Prédicats   | À rédiger |
+| Partie IV — Méta-Logique et Limites  | À rédiger |
+| Partie V — Panorama des Logiques     | À rédiger |
+| Partie VI — Mathématiques            | À rédiger |
+| Conclusion — L'Existence             | À rédiger |
 
 ---
 
@@ -28,6 +31,7 @@
 **Fil directeur** : La double articulation forme / sens (cohérence syntaxique vs vérité sémantique) traverse tout le livre.
 
 **Concepts abordés**
+
 - [ ] Pensée comme représentation de la réalité
 - [ ] Vérité comme conformité à la réalité
 - [ ] Lien pensée / langage
@@ -41,6 +45,7 @@
 **Statut** : En cours — `logique_intro.md`
 
 **Notes**
+
 - L'introduction est la seule partie où la pensée est abordée directement ; tout le reste travaille sur le langage.
 - Le schéma *Pensée et Langage* accompagne cette section.
 
@@ -57,6 +62,7 @@
 **Objectif** : Définir formellement ce qu'est un langage. Distinguer la syntaxe (forme) de la sémantique (sens). Introduire la notion de système formel.
 
 **Concepts**
+
 - [ ] Alphabet et symboles
 - [ ] Mots et suites de symboles
 - [ ] Grammaires : règles de formation des énoncés
@@ -66,6 +72,7 @@
 - [ ] Notion de métalangage
 
 **Notes**
+
 - Insister sur la distinction syntaxe / sémantique dès ce chapitre : elle sera le fil rouge jusqu'aux théorèmes de Gödel.
 - Donner des exemples simples de langages formels (expressions arithmétiques, langages jouets).
 
@@ -76,6 +83,7 @@
 **Objectif** : Montrer que "langage" est lui-même une notion hiérarchisée. Introduire les différents niveaux de complexité des langages.
 
 **Concepts**
+
 - [ ] Hiérarchie de Chomsky (vue d'ensemble)
 - [ ] Langages réguliers et automates finis
 - [ ] Langages hors-contexte
@@ -83,6 +91,7 @@
 - [ ] Lien avec la calculabilité (anticipation)
 
 **Notes**
+
 - Ce chapitre peut être allégé ou placé en annexe selon le niveau visé.
 - Son intérêt principal : montrer que la notion de "règle" est elle-même graduée.
 
@@ -99,6 +108,7 @@
 **Objectif** : Introduire la logique propositionnelle comme premier système formel interprété. Définir la vérité sémantique dans ce cadre simple.
 
 **Concepts**
+
 - [ ] Variables propositionnelles
 - [ ] Connecteurs logiques : ¬, ∧, ∨, →, ↔
 - [ ] Tables de vérité
@@ -107,6 +117,7 @@
 - [ ] Formes normales (FNC, FND)
 
 **Notes**
+
 - C'est ici qu'apparaît pour la première fois la notion de **vérité sémantique** : une formule est vraie sous une valuation.
 - Distinguer soigneusement : valide (vrai sous toutes les valuations) vs satisfiable (vrai sous au moins une).
 
@@ -117,6 +128,7 @@
 **Objectif** : Introduire la notion de preuve formelle. Montrer que syntaxe (preuve) et sémantique (vérité) coïncident en logique propositionnelle.
 
 **Concepts**
+
 - [ ] Notion de preuve formelle
 - [ ] Règles d'inférence
 - [ ] Déduction naturelle (présentation)
@@ -126,6 +138,7 @@
 - [ ] Énoncé du théorème de complétude pour la logique propositionnelle
 
 **Notes**
+
 - La coïncidence syntaxe/sémantique en logique propositionnelle est rassurante mais trompeuse : elle ne tient plus pour la logique du premier ordre (Gödel).
 - Ne pas démontrer les théorèmes de complétude et cohérence — les énoncer et en expliquer le sens.
 
@@ -142,6 +155,7 @@
 **Objectif** : Étendre la logique propositionnelle aux objets et à leurs propriétés. Introduire les quantificateurs.
 
 **Concepts**
+
 - [ ] Variables, constantes, termes
 - [ ] Prédicats et fonctions
 - [ ] Formules atomiques
@@ -151,6 +165,7 @@
 - [ ] Formules closes (énoncés)
 
 **Notes**
+
 - Bien distinguer les variables libres (paramètres) des variables liées (muettes).
 - Donner des exemples traduits depuis le langage naturel.
 
@@ -161,6 +176,7 @@
 **Objectif** : Définir formellement ce que signifie "être vrai" pour une formule du premier ordre. Introduire la notion de modèle.
 
 **Concepts**
+
 - [ ] Structure d'interprétation (domaine + interprétation des symboles)
 - [ ] Satisfaction d'une formule dans une structure (définition de Tarski)
 - [ ] Validité : vrai dans toutes les structures
@@ -170,6 +186,7 @@
 - [ ] Théorème de compacité — énoncé et signification
 
 **Notes**
+
 - C'est ici que la vérité devient **relative à un modèle** : une formule n'est pas vraie ou fausse en soi, mais dans une structure donnée.
 - Le théorème de Löwenheim-Skolem peut être mentionné : une théorie qui a un modèle en a un dénombrable (paradoxe apparent).
 
@@ -180,6 +197,7 @@
 **Objectif** : Montrer comment on axiomatise une théorie mathématique. Donner des exemples concrets.
 
 **Concepts**
+
 - [ ] Théorie = ensemble d'axiomes dans un langage du premier ordre
 - [ ] Modèles d'une théorie
 - [ ] Théories complètes vs incomplètes
@@ -188,6 +206,7 @@
 - [ ] Notion d'indépendance d'un énoncé par rapport à une théorie
 
 **Notes**
+
 - Préparer le terrain pour Gödel : PA est suffisamment riche pour que l'incomplétude s'y manifeste.
 
 ---
@@ -203,6 +222,7 @@
 **Objectif** : Introduire la notion de calcul mécanique et ses limites. Préparer l'incomplétude de Gödel.
 
 **Concepts**
+
 - [ ] Notion d'algorithme (informelle puis formelle)
 - [ ] Machine de Turing — concept et fonctionnement
 - [ ] Thèse de Church-Turing
@@ -212,6 +232,7 @@
 - [ ] Décidabilité de la logique propositionnelle vs indécidabilité du premier ordre (théorème de Church)
 
 **Notes**
+
 - Le problème de l'arrêt est la première grande limite : certaines questions n'ont pas de procédure de réponse systématique.
 - Lien avec l'incomplétude : Gödel et Turing ont découvert des limites analogues par des voies différentes.
 
@@ -222,6 +243,7 @@
 **Objectif** : Présenter les théorèmes d'incomplétude comme la limite fondamentale de la formalisation. En dégager les conséquences philosophiques.
 
 **Concepts**
+
 - [ ] Arithmétisation de la syntaxe (numéros de Gödel) — idée
 - [ ] Premier théorème d'incomplétude : dans tout système cohérent et suffisamment expressif, il existe des énoncés vrais non prouvables
 - [ ] Second théorème d'incomplétude : un tel système ne peut pas prouver sa propre cohérence
@@ -230,6 +252,7 @@
 - [ ] Conséquences philosophiques : limites du programme de Hilbert
 
 **Notes**
+
 - Ne pas démontrer les théorèmes — expliquer la structure de l'argument (auto-référence, diagonalisation).
 - Insister sur ce que Gödel *ne dit pas* : il ne dit pas que les mathématiques sont incohérentes, ni que la vérité est inaccessible.
 - C'est ici que la distinction cohérence / vérité, annoncée dès l'introduction, atteint son point culminant.
@@ -247,6 +270,7 @@
 **Objectif** : Montrer que "vérité" n'est pas un concept fixe — il dépend du cadre logique adopté.
 
 **Concepts**
+
 - [ ] Logique modale : nécessité (□) et possibilité (◇), mondes possibles
 - [ ] Logique intuitionniste : vérité = preuve constructive, rejet du tiers exclu
 - [ ] Logique paraconsistante : tolérance à la contradiction locale
@@ -254,6 +278,7 @@
 - [ ] Logique classique comme cas particulier
 
 **Notes**
+
 - Chaque logique correspond à une conception différente de ce que signifie "être vrai".
 - L'intuitionnisme est particulièrement éclairant : il montre que le tiers exclu est un choix, pas une nécessité.
 
@@ -264,6 +289,7 @@
 **Objectif** : Présenter le débat historique sur ce que sont les mathématiques, à travers leurs réponses au programme de Hilbert.
 
 **Concepts**
+
 - [ ] Le programme de Hilbert et son échec (Gödel)
 - [ ] Logicisme : les mathématiques sont de la logique (Frege, Russell)
 - [ ] Formalisme : les mathématiques sont un jeu de symboles (Hilbert)
@@ -273,6 +299,7 @@
 - [ ] Théorie des catégories comme fondement alternatif (aperçu)
 
 **Notes**
+
 - Ce chapitre est plus historique et philosophique que technique.
 - Il prépare naturellement la transition vers la théorie des ensembles.
 
@@ -289,6 +316,7 @@
 **Objectif** : Introduire la théorie des ensembles comme fondement des mathématiques contemporaines. Montrer que la sélection est le geste fondateur.
 
 **Concepts**
+
 - [ ] L'ensemble comme mécanisme de sélection : { }
 - [ ] Appartenance (∈) et inclusion (⊆)
 - [ ] Opérations : union, intersection, complémentaire, différence
@@ -299,6 +327,7 @@
 - [ ] ZFC comme système formel du premier ordre
 
 **Notes**
+
 - Insister sur le paradoxe de Russell : il montre que l'intuition naïve de l'ensemble est contradictoire, d'où la nécessité des axiomes.
 - L'axiome du choix mérite un traitement particulier : il est indépendant de ZF (Gödel + Cohen).
 
@@ -309,6 +338,7 @@
 **Objectif** : Construire les outils fondamentaux des mathématiques à partir des ensembles.
 
 **Concepts**
+
 - [ ] Couple ordonné, produit cartésien
 - [ ] Relation : définition ensembliste
 - [ ] Propriétés : réflexivité, symétrie, transitivité, antisymétrie
@@ -319,6 +349,7 @@
 - [ ] Composition et inversion
 
 **Notes**
+
 - Ce chapitre est dense mais peut rester au niveau des définitions et exemples.
 - Les relations d'ordre seront utiles pour la théorie des ordinaux.
 
@@ -329,6 +360,7 @@
 **Objectif** : Explorer ce que la théorie des ensembles dit de l'infini. Montrer que l'infini n'est pas une notion uniforme.
 
 **Concepts**
+
 - [ ] Ensembles finis et infinis
 - [ ] Équipotence et cardinalité
 - [ ] Ensembles dénombrables (ℕ, ℤ, ℚ)
@@ -339,6 +371,7 @@
 - [ ] Ordinaux : ordre bien fondé, arithmétique ordinale (aperçu)
 
 **Notes**
+
 - La diagonalisation de Cantor est l'ancêtre de celle de Gödel et de Turing — souligner ce lien.
 - L'hypothèse du continu est indépendante de ZFC : ni vraie ni fausse dans ce cadre.
 
@@ -349,6 +382,7 @@
 **Objectif** : Montrer comment une structure abstraite sans contenu peut capturer une intuition géométrique. Illustration de la puissance du cadre formel.
 
 **Concepts**
+
 - [ ] Espace topologique : définition axiomatique
 - [ ] Ouverts et fermés
 - [ ] Voisinage, adhérence, intérieur
@@ -357,6 +391,7 @@
 - [ ] Compacité — énoncé et intuition
 
 **Notes**
+
 - Ce chapitre peut être allégé ou placé en annexe selon le niveau visé.
 - Son intérêt principal : montrer qu'une structure aussi abstraite que "espace topologique" capture parfaitement l'intuition de la proximité.
 
@@ -369,6 +404,7 @@
 **Objectif** : Poser la question des limites du contenu de la pensée formelle. La logique a étudié la structure ; il faut maintenant interroger le contenu. Introduire la notion d'atome comme entité irréductible dans un cadre formel.
 
 **Concepts**
+
 - [ ] ZF standard : tout est ensemble, rien n'est "concret"
 - [ ] ZFA — ZF with Atoms (urelements) : introduction d'entités primitives non décomposables
 - [ ] L'atome comme contenu irréductible dans un cadre formel
@@ -377,6 +413,7 @@
 - [ ] Ouverture : les systèmes comme structures peuplées d'atomes
 
 **Notes**
+
 - Ce chapitre est délibérément à la frontière entre la logique et l'ontologie.
 - Il ne conclut pas le livre au sens d'une synthèse, mais ouvre vers le Volume II.
 - ZFA est peu connue mais philosophiquement très riche : elle permet de formaliser l'idée d'un "individu" irréductible.
