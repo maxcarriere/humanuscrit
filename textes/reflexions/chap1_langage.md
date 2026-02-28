@@ -6,7 +6,7 @@ date: 2026-02-27
 last_modified_at: 2026-02-28
 ---
 
-# Chapitre 1 — Langages et Systèmes Formels
+# Langages et Systèmes Formels
 
 ---
 
