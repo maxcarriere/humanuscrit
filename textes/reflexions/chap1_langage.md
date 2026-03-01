@@ -26,9 +26,9 @@ Un langage repose sur un **alphabet** : un ensemble de symboles distincts. La d�
 
 Quelques exemples d'alphabets :
 
-- Arithmétique : $\{\ 0, 1, 2, \ldots, 9,\ +,\ \times,\ =,\ (,\ )\ \}$
-- Logique : $\{\ p, q, r,\ \neg,\ \land,\ \lor,\ \rightarrow,\ (,\ )\ \}$
-- Binaire : $\{\ 0, 1\ \}$
+- Arithmétique : $\\\{\ 0, 1, 2, \ldots, 9,\ +,\ \times,\ =,\ (,\ )\ \\ \}$
+- Logique : $\\\{\ p, q, r,\ \neg,\ \land,\ \lor,\ \rightarrow,\ (,\ )\ \\ \}$
+- Binaire : $\\\{\ 0, 1\ \\ \}$
 
 À partir de cet alphabet, on forme des **mots** (ou **expressions**) : des suites finies de symboles alignés de façon linéaire. $0 + 1$, $p \land q$, $01101$ sont des mots. La finitude est essentielle : ni l'humain ni la machine ne peuvent écrire ou lire un texte infini — ce n'est pas une contrainte arbitraire, mais le reflet d'une limite fondamentale de tout système de communication réel.
 
@@ -207,7 +207,7 @@ Interpréter un langage formel requiert deux éléments. D'abord, un **domaine**
 
 L'ensemble $\mathcal{M} = (D, I)$ constitué du domaine et de la fonction d'interprétation s'appelle un **modèle** (ou **structure**). Pour chaque symbole $s$ du langage, $s^\mathcal{M} = I(s)$ désigne l'objet du domaine $D$ que $s$ représente dans ce modèle. Un même langage peut ainsi avoir des modèles très différents.
 
-Par exemple, le langage de l'arithmétique — avec les constantes $0$ et $1$ et les opérateurs $+$ et $\times$ — peut être interprété dans les entiers naturels $\mathbb{N}$, mais aussi dans l'ensemble $\{0, 1, 2, 3, 4\}$ avec l'arithmétique modulo $5$ : les symboles sont les mêmes, les objets désignés sont différents. Dans le premier modèle, $+^\mathcal{M}$ désigne l'addition ordinaire : $2 + 3 = 5$ y est vraie. Dans le second, $+^\mathcal{M}$ désigne l'addition modulo $5$ : la même formule $2 + 3 = 5$ y devient fausse, car $2 + 3 \equiv 0$. Même langage, vérités différentes.
+Par exemple, le langage de l'arithmétique — avec les constantes $0$ et $1$ et les opérateurs $+$ et $\times$ — peut être interprété dans les entiers naturels $\mathbb{N}$, mais aussi dans l'ensemble $\\\{0, 1, 2, 3, 4\\\}$ avec l'arithmétique modulo $5$ : les symboles sont les mêmes, les objets désignés sont différents. Dans le premier modèle, $+^\mathcal{M}$ désigne l'addition ordinaire : $2 + 3 = 5$ y est vraie. Dans le second, $+^\mathcal{M}$ désigne l'addition modulo $5$ : la même formule $2 + 3 = 5$ y devient fausse, car $2 + 3 \equiv 0$. Même langage, vérités différentes.
 
 Une fois le modèle fixé, on peut évaluer la vérité d'une formule : $\mathcal{M} \models \varphi$ signifie que $\varphi$ est vraie dans le modèle $\mathcal{M}$. Cette opération est le fondement de la **sémantique** — l'étude du rapport entre les expressions formelles et ce qu'elles signifient. Son traitement rigoureux fera l'objet du chapitre IV.
 
@@ -219,15 +219,15 @@ Une fois le modèle fixé, on peut évaluer la vérité d'une formule : $\mathca
 
 L'interprétation permet une dernière opération : parmi les objets d'un domaine, retenir ceux qui partagent une propriété commune. L'esprit sélectionne — il construit non plus un objet, mais un **regroupement** d'objets.
 
-Une collection peut être définie de deux façons. La première est l'**extension** : on liste explicitement ses éléments. On écrit $\{a, b, c\}$ pour la collection dont les éléments sont exactement $a$, $b$ et $c$. Le symbole $\in$ exprime l'appartenance : $a \in \{a, b, c\}$ signifie que $a$ est un élément de cette collection.
+Une collection peut être définie de deux façons. La première est l'**extension** : on liste explicitement ses éléments. On écrit $\\\{a, b, c\\\}$ pour la collection dont les éléments sont exactement $a$, $b$ et $c$. Le symbole $\in$ exprime l'appartenance : $a \in \\\{a, b, c\\\}$ signifie que $a$ est un élément de cette collection.
 
-La seconde est la **compréhension** : on définit la collection par une propriété. $\{ x \mid P(x) \}$ désigne la collection de tous les objets $x$ pour lesquels $P(x)$ est vraie. C'est une notation méta-linguistique — un outil pratique que l'on utilisera tout au long de ce livre. Le lien avec l'introduction est immédiat : représenter, c'est sélectionner, et $\{ x \mid P(x) \}$ est la formalisation exacte de ce geste.
+La seconde est la **compréhension** : on définit la collection par une propriété. $\\\{ x \mid P(x) \\\}$ désigne la collection de tous les objets $x$ pour lesquels $P(x)$ est vraie. C'est une notation méta-linguistique — un outil pratique que l'on utilisera tout au long de ce livre. Le lien avec l'introduction est immédiat : représenter, c'est sélectionner, et $\\\{ x \mid P(x) \\\}$ est la formalisation exacte de ce geste.
 
-Une collection peut être **vide** : $\{\}$, notée $\emptyset$, ne contient aucun élément. Elle peut aussi être **infinie** — $\{ 0, 1, 2, 3, \ldots \}$ désigne la collection de tous les entiers naturels. Mais même pour désigner une collection infinie, la description elle-même doit tenir en un nombre fini de symboles : c'est la propriété $P$ qui doit être finie, pas la collection qu'elle définit.
+Une collection peut être **vide** : $\\\{\\\}$, notée $\emptyset$, ne contient aucun élément. Elle peut aussi être **infinie** — $\\\{ 0, 1, 2, 3, \ldots \\\}$ désigne la collection de tous les entiers naturels. Mais même pour désigner une collection infinie, la description elle-même doit tenir en un nombre fini de symboles : c'est la propriété $P$ qui doit être finie, pas la collection qu'elle définit.
 
-Cette forme de sélection est pour l'instant naïve : rien ne garantit que toute collection ainsi définie soit bien formée. Le paradoxe de Russell montrera qu'une telle liberté mène à des contradictions — $\{ x \mid x \notin x \}$ ne peut désigner aucune collection cohérente. C'est pour résoudre ce problème que la théorie formelle des ensembles, présentée au chapitre VIII, formalisera cette notion sous le terme d'**ensemble** au sein d'une axiomatique précise : la compréhension y sera restreinte à un domaine fixé, et l'existence d'un ensemble infini devra être postulée explicitement.
+Cette forme de sélection est pour l'instant naïve : rien ne garantit que toute collection ainsi définie soit bien formée. Le paradoxe de Russell montrera qu'une telle liberté mène à des contradictions — $\\\{ x \mid x \notin x \\\}$ ne peut désigner aucune collection cohérente. C'est pour résoudre ce problème que la théorie formelle des ensembles, présentée au chapitre VIII, formalisera cette notion sous le terme d'**ensemble** au sein d'une axiomatique précise : la compréhension y sera restreinte à un domaine fixé, et l'existence d'un ensemble infini devra être postulée explicitement.
 
-**Notation :** Les collections sont notées $\{ x \mid P(x) \}$ ou $\{ a, b, c, \ldots \}$. L'appartenance est notée $\in$ : $x \in A$ signifie que $x$ est un élément de $A$. Les collections et ensembles sont généralement désignés par des lettres majuscules : $A, B, C$.
+**Notation :** Les collections sont notées $\\\{ x \mid P(x) \\\}$ ou $\\\{ a, b, c, \ldots \\\}$. L'appartenance est notée $\in$ : $x \in A$ signifie que $x$ est un élément de $A$. Les collections et ensembles sont généralement désignés par des lettres majuscules : $A, B, C$.
 
 ---
 
