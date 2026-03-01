@@ -16,7 +16,7 @@ Avant de définir ce qu'est un langage formel, il vaut la peine de s'arrêter su
 
 Dix opérations fondamentales se dégagent ainsi, réparties en deux blocs selon qu'elles relèvent de la forme ou du sens : les opérations **syntaxiques**, qui concernent la forme des expressions indépendamment de leur contenu, et les opérations **sémantiques et constructives**, qui concernent le sens et la construction d'objets à partir des expressions.
 
-Ce chapitre pose les fondations sur lesquelles repose l'ensemble de l'ouvrage. Il procède en trois temps : définir d'abord ce qu'est un langage formel dans sa généralité (section I) ; exposer ensuite les dix opérations fondamentales qui en constituent les éléments (section II) ; puis formaliser les règles qui définissent les expressions bien formées et situer ce langage dans le paysage plus large des grammaires formelles (section III). Une synthèse réunit enfin ces éléments dans la définition d'un système formel.
+Ce chapitre pose les fondations sur lesquelles repose l'ensemble de l'ouvrage. Il procède en trois temps : définir d'abord ce qu'est un langage formel dans sa généralité (section I) ; exposer ensuite les dix opérations fondamentales qui en constituent les éléments (section II) ; puis formaliser les règles qui définissent les expressions bien formées, l'opération de substitution qui en découle, et situer ce langage dans le paysage plus large des grammaires formelles (section III). Une synthèse réunit enfin ces éléments dans la définition d'un système formel.
 
 ---
 
@@ -45,7 +45,7 @@ Tous les mots ne sont pas nécessairement significatifs : $)+0($ est un mot de l
 - Arité $2$ : le symbole prend deux arguments. Exemples : $+$, $\times$, $=$.
 - Arité $n$ : le symbole prend $n$ arguments.
 
-L'arité est une propriété du symbole elle-même, fixée une fois pour toutes dans l'alphabet. Elle détermine combien d'arguments doivent lui être fournis pour former une expression bien formée.
+L'arité est une propriété du symbole lui-même, fixée une fois pour toutes dans l'alphabet. Elle détermine combien d'arguments doivent lui être fournis pour former une expression bien formée.
 
 **Notation :**
 
@@ -87,7 +87,9 @@ Une fois des objets désignés, l'esprit peut se demander si deux désignations 
 
 La traduction formelle est le **symbole d'égalité** $=$. Écrire $t = s$ signifie que $t$ et $s$ désignent le même objet. Deux expressions syntaxiquement distinctes peuvent désigner le même objet : $2 + 2$ et $4$ sont deux termes différents qui désignent le même nombre. La distinction en est la négation : $t \neq s$ signifie que $t$ et $s$ désignent des objets différents.
 
-L'égalité est plus fondamentale que la distinction : pour reconnaître que deux choses diffèrent, il faut d'abord avoir posé ce que signifie être identique. Cette idée remonte à Leibniz, qui formula le **principe d'identité des indiscernables** : deux objets sont identiques si et seulement s'ils partagent exactement les mêmes propriétés. L'égalité formalise ce principe — elle ne dit pas seulement que deux noms coïncident, mais que les objets qu'ils désignent sont un seul et même objet.
+L'égalité est plus fondamentale que la distinction : pour reconnaître que deux choses diffèrent, il faut d'abord avoir posé ce que signifie être identique. Cette idée remonte à Leibniz, qui formula le **principe d'identité des indiscernables** : deux objets sont identiques si et seulement s'ils partagent exactement les mêmes propriétés. L'égalité formalise ce principe par le biais de deux axiomes : la réflexivité ($t = t$) et le **schéma de substitution** (si $t = s$, alors toute propriété vraie de $t$ est vraie de $s$). Ce sont ces axiomes, et non une simple convention de notation, qui donnent à l'égalité sa force.
+
+**Remarque.** Du point de vue de la syntaxe, $=$ est un symbole de relation binaire — il produira des formules atomiques au même titre que $<$ ou $P$ (voir "Relier"). Il est présenté ici séparément parce qu'il joue un rôle privilégié : il est le seul symbole dont le comportement sémantique est fixé universellement, quelle que soit l'interprétation choisie. Cette spécificité sera rappelée lorsque l'on distinguera les langages *avec* et *sans* égalité au chapitre IV.
 
 **Notation :** L'égalité est notée $t = s$, la distinction $t \neq s$.
 
@@ -95,7 +97,7 @@ L'égalité est plus fondamentale que la distinction : pour reconnaître que deu
 
 #### Opérer — le symbole de fonction
 
-Une fois les objets identifiés et distingués, l'esprit peut les combiner pour en produire de nouveaux. C'est l'opération qui construit un **sujet complexe** à partir de sujets simples — de la même façon qu'un adjectif enrichit un nom pour former un groupe nominal plus précis.
+Une fois les objets identifiés et distingués, l'esprit peut les combiner pour en produire de nouveaux. C'est l'opération qui construit un objet complexe à partir d'objets plus simples — de la même façon que composer deux fonctions produit une nouvelle fonction.
 
 La traduction formelle est le **symbole de fonction** (ou **opérateur**). Si $f$ est un symbole de fonction d'arité $n$ et $t_1, \ldots, t_n$ sont des termes, alors $f(t_1, \ldots, t_n)$ est un terme — il désigne l'objet obtenu en appliquant $f$ aux objets désignés par $t_1, \ldots, t_n$. Cette construction est récursive : $f(g(t))$ est également un terme.
 
@@ -137,11 +139,13 @@ L'arité d'une relation est le nombre d'objets qu'elle met en rapport. Une relat
 
 Les formules atomiques issues de l'opération Relier sont les phrases simples du langage. L'esprit peut les assembler pour former des **phrases complexes** — des propositions composées à partir de propositions plus simples.
 
-Cette opération utilise les **connecteurs logiques** : $\neg$ (non), $\land$ (et), $\lor$ (ou), $\rightarrow$ (si... alors). Par exemple, la proposition « Pierre est grand et il fait beau » se formalise comme $\text{Gt}(\text{Pierre}) \land \text{Beau}()$, où $\land$ connecte deux formules atomiques en une formule composite. De même, « s'il pleut alors le sol est mouillé » donne $\text{Pleut}() \rightarrow \text{Mouillé}(\text{Sol})$.
+Cette opération utilise les **connecteurs logiques** : $\neg$ (non), $\land$ (et), $\lor$ (ou), $\rightarrow$ (si... alors). Par exemple, la proposition « Pierre est grand et il fait beau » se formalise comme $\text{Gt}(\text{Pierre}) \land \text{Beau}$, où $\land$ connecte deux formules en une formule composite. De même, « s'il pleut alors le sol est mouillé » donne $\text{Pleut} \rightarrow \text{Mouillé}(\text{Sol})$.
+
+On ajoute à ces connecteurs la **biconditionnelle** $\leftrightarrow$ : $\varphi \leftrightarrow \psi$ exprime « $\varphi$ si et seulement si $\psi$ ». Elle n'est pas une primitive indépendante : elle se définit comme $(\varphi \rightarrow \psi) \land (\psi \rightarrow \varphi)$. Elle sera traitée avec les autres connecteurs au chapitre II. On rencontre également les constantes propositionnelles $\bot$ (le faux absolu) et $\top$ (le vrai absolu), qui peuvent être ajoutées à l'alphabet comme formules atomiques sans argument.
 
 Les connecteurs opèrent non pas au niveau des termes — comme les opérateurs — mais au niveau des formules. Ils construisent des formules complexes à partir de formules plus simples, permettant d'exprimer des raisonnements conditionnels, des conjonctions, des alternatives. Leur traitement formel, avec les tables de vérité et les propriétés algébriques qui en découlent, fera l'objet du chapitre II.
 
-Les **quantificateurs** constituent un second moyen de former des propositions complexes, dans une direction différente : non plus en combinant des formules entre elles, mais en faisant porter une assertion sur l'ensemble d'un domaine. Le quantificateur universel $\forall x.\, P(x)$ affirme que la propriété $P$ est vérifiée par tout objet $x$ du domaine : « tout entier a un successeur ». Le quantificateur existentiel $\exists x.\, P(x)$ affirme qu'au moins un objet la vérifie : « il existe un entier pair ». La variable $x$ est dite **liée** par le quantificateur — elle n'est plus un emplacement libre mais une variable muette qui parcourt le domaine. Leur traitement formel, qui requiert la distinction entre variables libres et liées, fera l'objet du chapitre II.
+Les **quantificateurs** constituent un second moyen de former des propositions complexes, dans une direction différente : non plus en combinant des formules entre elles, mais en faisant porter une assertion sur l'ensemble d'un domaine. Le quantificateur universel $\forall x.\, P(x)$ affirme que la propriété $P$ est vérifiée par tout objet $x$ du domaine : « tout entier a un successeur ». Le quantificateur existentiel $\exists x.\, P(x)$ affirme qu'au moins un objet la vérifie : « il existe un entier pair ». La variable $x$ est dite **liée** par le quantificateur — elle n'est plus un emplacement libre mais une variable muette qui parcourt le domaine. Une variable qui n'est liée par aucun quantificateur est dite **libre**. La définition formelle de la portée d'un quantificateur et la distinction libre/liée seront précisées au chapitre II.
 
 **Notation :** Les formules sont désignées par des lettres grecques : $\varphi, \psi, \chi$. Un ensemble de formules servant d'hypothèses est noté $\Gamma$.
 
@@ -179,9 +183,9 @@ L'esprit abstrait : il désigne sans spécifier, il crée un objet générique p
 
 La forme la plus simple est la **variable** (notée $x, y, z, \ldots$). Une variable désigne un objet quelconque du domaine, sans en préciser la nature. Elle est vide de tout contenu particulier — un pur emplacement de désignation. La variable est la forme d'abstraction pure : désigner sans contraindre.
 
-La forme construite est le **terme epsilon** de Hilbert, noté $\varepsilon x.\, P(x)$. Il désigne un élément du domaine qui satisfait la proposition $P$, sans préciser lequel. Si $P(x)$ signifie « $x$ est un nombre pair », alors $\varepsilon x.\, P(x)$ désigne *un* nombre pair — lequel exactement reste indéterminé. Ce terme formalise l'abstraction construite : créer un objet générique défini uniquement par une propriété, dépouillé de tout contenu particulier.
+La forme construite est le **terme epsilon** de Hilbert, noté $\varepsilon x.\, P(x)$. Il désigne un élément fixé du domaine qui satisfait la proposition $P$ — fixé par le modèle, mais dont la valeur n'est pas spécifiée par le langage lui-même. Si $P(x)$ signifie « $x$ est un nombre pair », alors $\varepsilon x.\, P(x)$ désigne *un* nombre pair déterminé par le modèle, mais que le langage ne nomme pas. Ce terme formalise l'abstraction construite : créer un objet générique défini uniquement par une propriété, dépouillé de tout contenu particulier.
 
-L'opérateur epsilon est la version constructive des quantificateurs : là où $\exists$ affirme l'existence et $\forall$ l'universalité, il en désigne un témoin explicite. C'est précisément cette construction qui le relie à l'**axiome du choix** (voir chapitre VIII), dont il constitue la version opératoire : il permet de *choisir* un élément satisfaisant une propriété en le construisant explicitement. L'axiome du choix garantira qu'il est possible, dans le cadre de la théorie des ensembles, de réaliser simultanément une infinité de ces choix.
+L'opérateur epsilon est lié aux quantificateurs : là où $\exists$ affirme l'existence sans désigner, il en fournit un témoin explicite, et là où $\forall$ affirme l'universalité, il en désigne un représentant. C'est précisément cette construction qui le relie à l'**axiome du choix** (voir chapitre VIII) : dans certains formalismes, notamment celui de Hilbert-Bernays, l'axiome du choix peut être dérivé du schéma epsilon, qui permet de *choisir* un élément satisfaisant une propriété dans n'importe quel domaine.
 
 **Notation :** Les variables sont désignées par des lettres minuscules en fin d'alphabet : $x, y, z$. Le terme epsilon est noté $\varepsilon x.\, P(x)$, où $P$ est une formule contenant $x$.
 
@@ -209,7 +213,9 @@ L'ensemble $\mathcal{M} = (D, I)$ constitué du domaine et de la fonction d'inte
 
 Par exemple, le langage de l'arithmétique — avec les constantes $0$ et $1$ et les opérateurs $+$ et $\times$ — peut être interprété dans les entiers naturels $\mathbb{N}$, mais aussi dans l'ensemble $\\\{0, 1, 2, 3, 4\\\}$ avec l'arithmétique modulo $5$ : les symboles sont les mêmes, les objets désignés sont différents. Dans le premier modèle, $+^\mathcal{M}$ désigne l'addition ordinaire : $2 + 3 = 5$ y est vraie. Dans le second, $+^\mathcal{M}$ désigne l'addition modulo $5$ : la même formule $2 + 3 = 5$ y devient fausse, car $2 + 3 \equiv 0$. Même langage, vérités différentes.
 
-Une fois le modèle fixé, on peut évaluer la vérité d'une formule : $\mathcal{M} \models \varphi$ signifie que $\varphi$ est vraie dans le modèle $\mathcal{M}$. Cette opération est le fondement de la **sémantique** — l'étude du rapport entre les expressions formelles et ce qu'elles signifient. Son traitement rigoureux fera l'objet du chapitre IV.
+Une fois le modèle fixé, on peut évaluer la vérité d'une formule. Mais cette évaluation suppose que la formule ne contient pas de variable libre : une **formule close** (ou **sentence**) est une formule dont toutes les variables sont liées par un quantificateur. C'est pour de telles formules que l'on peut écrire $\mathcal{M} \models \varphi$ — "$\varphi$ est vraie dans $\mathcal{M}$" — sans information supplémentaire. Lorsqu'une formule contient des variables libres, il faut en outre une **valuation** : une assignation de chaque variable libre à un objet du domaine. De même, un **terme clos** est un terme sans variable ; il désigne un objet précis dans tout modèle, indépendamment de toute valuation. Ces notions seront formalisées au chapitre IV.
+
+Cette opération d'interprétation est le fondement de la **sémantique** — l'étude du rapport entre les expressions formelles et ce qu'elles signifient. Son traitement rigoureux fera l'objet du chapitre IV.
 
 **Notation :** Une structure d'interprétation est notée $\mathcal{M}$, de domaine $D$. La satisfaction de $\varphi$ dans $\mathcal{M}$ est notée $\mathcal{M} \models \varphi$.
 
@@ -221,7 +227,7 @@ L'interprétation permet une dernière opération : parmi les objets d'un domain
 
 Une collection peut être définie de deux façons. La première est l'**extension** : on liste explicitement ses éléments. On écrit $\\\{a, b, c\\\}$ pour la collection dont les éléments sont exactement $a$, $b$ et $c$. Le symbole $\in$ exprime l'appartenance : $a \in \\\{a, b, c\\\}$ signifie que $a$ est un élément de cette collection.
 
-La seconde est la **compréhension** : on définit la collection par une propriété. $\\\{ x \mid P(x) \\\}$ désigne la collection de tous les objets $x$ pour lesquels $P(x)$ est vraie. C'est une notation méta-linguistique — un outil pratique que l'on utilisera tout au long de ce livre. Le lien avec l'introduction est immédiat : représenter, c'est sélectionner, et $\\\{ x \mid P(x) \\\}$ est la formalisation exacte de ce geste.
+La seconde est la **compréhension** : on définit la collection par une propriété. $\\\{ x \mid P(x) \\\}$ désigne la collection de tous les objets $x$ pour lesquels $P(x)$ est vraie. Cette notation est **méta-linguistique** : elle n'appartient pas au langage formel lui-même, mais le décrit de l'extérieur. Le langage formel parle d'objets et de formules ; la notation de compréhension est un outil pratique du *discours sur* le langage, utilisé pour définir des ensembles d'expressions ou d'objets sans faire partie de la syntaxe formelle elle-même. Elle sera intégrée à la théorie formelle des ensembles au chapitre VIII. Le lien avec l'introduction est immédiat : représenter, c'est sélectionner, et $\\\{ x \mid P(x) \\\}$ est la formalisation exacte de ce geste.
 
 Une collection peut être **vide** : $\\\{\\\}$, notée $\emptyset$, ne contient aucun élément. Elle peut aussi être **infinie** — $\\\{ 0, 1, 2, 3, \ldots \\\}$ désigne la collection de tous les entiers naturels. Mais même pour désigner une collection infinie, la description elle-même doit tenir en un nombre fini de symboles : c'est la propriété $P$ qui doit être finie, pas la collection qu'elle définit.
 
@@ -231,28 +237,28 @@ Cette forme de sélection est pour l'instant naïve : rien ne garantit que toute
 
 ---
 
-### C — De l’opération à la structure
+### C — De l'opération à la structure
 
-Ces dix opérations — six syntaxiques et quatre sémantiques et constructives — dessinent l’architecture complète du langage logique. Il est désormais possible d’en donner une définition synthétique.
+Ces dix opérations — six syntaxiques et quatre sémantiques et constructives — dessinent l'architecture complète du langage logique. Il est désormais possible d'en donner une définition synthétique.
 
 Un **langage formel** est déterminé par :
 
-- un **alphabet** : l’ensemble des symboles (constantes, symboles de fonction, symboles de relation, connecteurs logiques, quantificateurs, ponctuation), chacun muni de son arité ;
+- un **alphabet** : l'ensemble des symboles (constantes, symboles de fonction, symboles de relation, connecteurs logiques, quantificateurs, ponctuation), chacun muni de son arité ;
 
 - des **règles de formation** : les règles inductives qui définissent les expressions bien formées — termes et formules ;
 
-- des **règles de transformation** : les règles d’inférence qui permettent de dériver de nouvelles formules à partir de formules données.
+- des **règles de transformation** : les règles d'inférence qui permettent de dériver de nouvelles formules à partir de formules données.
 
-Un **système formel** (ou **théorie formelle**) est obtenu lorsque l’on ajoute à ce langage un ensemble d’**axiomes** — formules admises comme point de départ des déductions. Il constitue le cadre autonome à l’intérieur duquel le raisonnement peut être mené de manière purement syntaxique.
+Un **système formel** (ou **théorie formelle**) est obtenu lorsque l'on ajoute à ce langage un ensemble d'**axiomes** — formules admises comme point de départ des déductions. Il constitue le cadre autonome à l'intérieur duquel le raisonnement peut être mené de manière purement syntaxique.
 
-La dimension **syntaxique** du langage comprend l’alphabet, les règles de formation et les règles d’inférence : elle décrit la structure des expressions et les opérations formelles qui peuvent être effectuées sur elles, indépendamment de toute interprétation.  
-La dimension **sémantique** intervient lorsque ces expressions sont mises en relation avec un domaine d’objets et qu’une valeur de vérité leur est assignée.
+La dimension **syntaxique** du langage comprend l'alphabet, les règles de formation et les règles d'inférence : elle décrit la structure des expressions et les opérations formelles qui peuvent être effectuées sur elles, indépendamment de toute interprétation.
+La dimension **sémantique** intervient lorsque ces expressions sont mises en relation avec un domaine d'objets et qu'une valeur de vérité leur est assignée.
 
-La séparation entre syntaxe et sémantique — fil conducteur de ce chapitre — est la décision fondatrice de la logique formelle. Toute la suite de l’ouvrage explorera les conséquences et les limites de cette séparation.
+La séparation entre syntaxe et sémantique — fil conducteur de ce chapitre — est la décision fondatrice de la logique formelle. Toute la suite de l'ouvrage explorera les conséquences et les limites de cette séparation.
 
-Il reste cependant à formaliser explicitement les règles de formation sous une forme pleinement générative. Une **grammaire** ne se contente pas d’énumérer des critères de validité : elle définit un mécanisme de production qui, à partir d’un symbole initial, engendre progressivement l’ensemble des expressions bien formées — et seulement elles. Le langage apparaît ainsi non comme une collection statique d’énoncés, mais comme le résultat d’un processus de construction formelle.
+Il reste cependant à formaliser explicitement les règles de formation sous une forme pleinement générative. Une **grammaire** ne se contente pas d'énumérer des critères de validité : elle définit un mécanisme de production qui, à partir d'un symbole initial, engendre progressivement l'ensemble des expressions bien formées — et seulement elles. Le langage apparaît ainsi non comme une collection statique d'énoncés, mais comme le résultat d'un processus de construction formelle.
 
-C’est cette formalisation générative qui sera développée dans la section suivante.
+C'est cette formalisation générative qui sera développée dans la section suivante.
 
 ---
 
@@ -295,7 +301,7 @@ La grammaire définit **inductivement** comment construire les expressions bien 
 
 - Si $t_1, \ldots, t_n$ sont des termes et $R$ est un symbole de relation d'arité $n$, alors $R(t_1, \ldots, t_n)$ est une formule — dite **atomique**.
 - Si $\varphi$ est une formule, alors $\neg \varphi$ est une formule.
-- Si $\varphi$ et $\psi$ sont des formules, alors $(\varphi \land \psi)$, $(\varphi \lor \psi)$, $(\varphi \rightarrow \psi)$ sont des formules.
+- Si $\varphi$ et $\psi$ sont des formules, alors $(\varphi \land \psi)$, $(\varphi \lor \psi)$, $(\varphi \rightarrow \psi)$, $(\varphi \leftrightarrow \psi)$ sont des formules.
 - Si $\varphi$ est une formule et $x$ une variable, alors $\forall x.\, \varphi$ et $\exists x.\, \varphi$ sont des formules.
 - *Rien d'autre n'est une formule.*
 
@@ -318,6 +324,30 @@ Considérons la formule $\forall x.\, (P(x) \rightarrow Q(f(x)))$. Elle a été 
 
 Cette représentation arborescente n'est pas une simple commodité de notation. Elle révèle que le langage formel n'est pas linéaire dans sa structure profonde : la séquence de symboles que l'on écrit de gauche à droite est la *projection linéaire* d'un objet hiérarchique. C'est précisément cette hiérarchie que les règles inductives capturent, et qui distingue le langage logique d'une simple suite de caractères.
 
+---
+
+#### Substitution
+
+La structure arborescente ne sert pas qu'à décrire les expressions bien formées — elle est le support des opérations que l'on peut définir sur elles. La plus fondamentale de ces opérations est la **substitution**.
+
+Étant donné une formule $\varphi$, une variable $x$ et un terme $t$, on note $\varphi[t/x]$ la formule obtenue en remplaçant toutes les occurrences **libres** de $x$ dans $\varphi$ par $t$. Une occurrence est libre si elle n'est pas liée par un quantificateur — toute autre occurrence reste inchangée.
+
+La substitution se définit par récurrence sur la structure de la formule, en suivant exactement les cas des critères de formation :
+
+- $(x)[t/x] = t$ ; $(y)[t/x] = y$ si $y \neq x$.
+- $(f(t_1, \ldots, t_n))[t/x] = f(t_1[t/x], \ldots, t_n[t/x])$.
+- $(\neg \varphi)[t/x] = \neg(\varphi[t/x])$.
+- $(\varphi \land \psi)[t/x] = (\varphi[t/x] \land \psi[t/x])$ — et de même pour $\lor$, $\rightarrow$, $\leftrightarrow$.
+- $(\forall y.\, \varphi)[t/x] = \forall y.(\varphi[t/x])$ si $y \neq x$ ; inchangé si $y = x$ (la variable est déjà liée).
+
+Cette dernière définition appelle une précaution : la **capture de variable**. Si le terme $t$ contient une variable libre $y$, et si $\varphi$ contient un quantificateur $\forall y$, la substitution pourrait rendre cette variable liée et modifier le sens de la formule. On impose donc que $t$ soit **libre pour $x$ dans $\varphi$** : aucune variable libre de $t$ ne doit devenir liée après substitution. Si nécessaire, on renomme d’abord les variables liées.
+
+La substitution est le mécanisme syntaxique de l'**instanciation universelle** : à partir de $\forall x.\, \varphi$, on peut dériver $\varphi[t/x]$ — la propriété vaut pour l'objet spécifique désigné par $t$. Elle sera au cœur des règles d'inférence du premier ordre (chapitre III).
+
+**Notation :** La substitution de $t$ à la place de $x$ dans $\varphi$ est notée $\varphi[t/x]$.
+
+---
+
 La grammaire propre au langage logique étant fixée, on peut maintenant se demander quelle place elle occupe dans le paysage plus large des grammaires formelles — et ce que cette position révèle de la complexité inhérente au langage logique.
 
 ---
@@ -336,11 +366,11 @@ Dans une grammaire, on distingue deux types de symboles :
 
 Par exemple, une règle peut dire :
 
-> *Formule* → ¬ *Formule*
+> *Formule* $\Rightarrow$ $\neg$ *Formule*
 
-Ici, *Formule* est un non-terminal : il ne figure jamais dans l'expression finale, mais sert à décrire comment la construire.
+Ici, *Formule* est un non-terminal : il ne figure jamais dans l'expression finale, mais sert à décrire comment la construire. La flèche $\Rightarrow$ est celle des **règles de production** — elle est distincte de la flèche logique $\rightarrow$ de l'implication.
 
-Une **grammaire formelle** est alors définie par un quadruplet : $G=(V,Σ,P,S)$ où :
+Une **grammaire formelle** est alors définie par un quadruplet : $G=(V,\Sigma,P,S)$ où :
 
 - $\Sigma$ est l'ensemble des **symboles terminaux** (les symboles du langage final),
 
@@ -350,7 +380,7 @@ Une **grammaire formelle** est alors définie par un quadruplet : $G=(V,Σ,P,S)$
 
 - $S \in V$ est le **symbole initial** (catégorie de départ).
 
-Une règle de production est une expression de la forme : $α→β$ où $\alpha$ et $\beta$ sont des suites de symboles de $V \cup \Sigma$, avec au moins un non-terminal dans $\alpha$.
+Une règle de production est une expression de la forme : $\alpha \Rightarrow \beta$ où $\alpha$ et $\beta$ sont des suites de symboles de $V \cup \Sigma$, avec au moins un non-terminal dans $\alpha$.
 
 Le langage engendré par la grammaire est l'ensemble des mots composés uniquement de symboles terminaux que l'on peut obtenir à partir de $S$ par applications successives des règles.
 
@@ -364,7 +394,7 @@ On peut les comprendre intuitivement comme suit :
 
 - **Langages réguliers (Type 3)** : ils décrivent des motifs purement linéaires. Ils ne permettent aucune imbrication.
   
-  Règles de production : $A→a$ ou $A→aB$ où $A, B \in V$ et $a \in \Sigma$.
+  Règles de production : $A \Rightarrow a$ ou $A \Rightarrow aB$ où $A, B \in V$ et $a \in \Sigma$.
   
   Un seul non-terminal à gauche, et au plus un à droite.
   
@@ -377,7 +407,7 @@ On peut les comprendre intuitivement comme suit :
 
 - **Langages hors-contexte (Type 2)** : ils permettent l'imbrication hiérarchique.  Leur structure est arborescente. Ces grammaires permettent l'imbrication récursive.
   
-  Règles de production : $A→α$ où $A \in V$ et $\alpha$ est une suite quelconque de symboles. Un seul non-terminal à gauche, mais aucune restriction à droite.
+  Règles de production : $A \Rightarrow \alpha$ où $A \in V$ et $\alpha$ est une suite quelconque de symboles. Un seul non-terminal à gauche, mais aucune restriction à droite.
   
   **Exemple** : Le langage des parenthèses bien formées : (())(),(()(()))
   
@@ -401,7 +431,7 @@ On peut les comprendre intuitivement comme suit :
 
 - **Langages contextuels (Type 1)** : ils permettent certaines dépendances globales plus complexes — par exemple synchroniser plusieurs blocs distincts.
   
-  Règles de production : $αAβ→αγβ$ où $A \in V$ et $\gamma$ est non vide.
+  Règles de production : $\alpha A \beta \Rightarrow \alpha \gamma \beta$ où $A \in V$ et $\gamma$ est non vide.
   
   La réécriture de $A$ dépend du **contexte** $\alpha$ et $\beta$ qui l'entourent.
   
@@ -429,7 +459,7 @@ On peut les comprendre intuitivement comme suit :
 
 - **Langages récursivement énumérables (Type 0)** : ils correspondent à tout ce qui peut être reconnu par un algorithme général.
   
-  Règles de production : Toute règle $α→β$ est permise, pourvu que $\alpha$ contienne au moins un non-terminal.
+  Règles de production : Toute règle $\alpha \Rightarrow \beta$ est permise, pourvu que $\alpha$ contienne au moins un non-terminal.
   
   **Exemple.**
   Le langage des nombres premiers écrits en base 10.
@@ -449,13 +479,15 @@ On peut les comprendre intuitivement comme suit :
 
 Ces quatre classes sont strictement emboîtées :
 
-$Régulier ⊊ Hors-contexte ⊊ Contextuel ⊊ Récursivement \; énumérable$
+$$\text{Régulier} \subsetneq \text{Hors-contexte} \subsetneq \text{Contextuel} \subsetneq \text{Récursivement énumérable}$$
 
-**Remarque.** 
+**Remarque.**
 
-Il est remarquable qu’une machine disposant de deux piles soit déjà équivalente à une machine de Turing.
+Cette hiérarchie révèle un fait remarquable sur la puissance expressive des structures de mémoire.
 
-Une seule pile permet de reconnaître des structures arborescentes (langages hors-contexte) : on empile lors de l’ouverture d’une structure, on dépile lors de sa fermeture. La mémoire est hiérarchique et strictement imbriquée.
+Il est remarquable qu'une machine disposant de deux piles soit déjà équivalente à une machine de Turing.
+
+Une seule pile permet de reconnaître des structures arborescentes (langages hors-contexte) : on empile lors de l'ouverture d'une structure, on dépile lors de sa fermeture. La mémoire est hiérarchique et strictement imbriquée.
 
 Avec **deux piles**, on peut aller plus loin. On peut représenter une bande de calcul de la manière suivante :
 
@@ -463,9 +495,9 @@ Avec **deux piles**, on peut aller plus loin. On peut représenter une bande de 
 
 - la seconde pile contient les symboles situés à droite.
 
-Déplacer la tête vers la droite revient à dépiler un symbole de la pile droite et à l’empiler sur la pile gauche ; déplacer vers la gauche effectue l’opération inverse. Écrire ou effacer correspond à modifier le sommet de l’une des piles.
+Déplacer la tête vers la droite revient à dépiler un symbole de la pile droite et à l'empiler sur la pile gauche ; déplacer vers la gauche effectue l'opération inverse. Écrire ou effacer correspond à modifier le sommet de l'une des piles.
 
-Ainsi, deux piles suffisent à simuler une mémoire linéaire non bornée avec lecture et écriture — c’est-à-dire la puissance d’une machine de Turing.
+Ainsi, deux piles suffisent à simuler une mémoire linéaire non bornée avec lecture et écriture — c'est-à-dire la puissance d'une machine de Turing. La frontière entre reconnaissance formelle et calcul général est donc plus ténue qu'il n'y paraît.
 
 ---
 
@@ -473,11 +505,11 @@ Ainsi, deux piles suffisent à simuler une mémoire linéaire non bornée avec l
 
 Les règles inductives définissant les termes et les formules sont de la forme :
 
-$Formule→¬Formule$
+$$\textit{Formule} \Rightarrow \neg\,\textit{Formule}$$
 
-$Formule→(Formule∧Formule)$
+$$\textit{Formule} \Rightarrow (\textit{Formule} \land \textit{Formule})$$
 
-$Terme→f(Terme,…,Terme)$
+$$\textit{Terme} \Rightarrow f(\textit{Terme}, \ldots, \textit{Terme})$$
 
 Il s'agit donc d'une grammaire **hors-contexte** (type 2).
 
@@ -491,13 +523,13 @@ Cela signifie que :
 
 Autrement dit, la complexité du langage logique est celle d'une hiérarchie bien contrôlée — ni triviale, ni illimitée.
 
-La question de savoir ce qu'il est possible de faire *avec* ce langage — c'est-à-dire la portée du calcul et du raisonnement — sera abordée plus loin.
+**Remarque importante.** Cette classification porte sur la *génération* des formules bien formées : reconnaître si une suite de symboles est une formule bien formée est un problème hors-contexte, soluble efficacement. La question distincte de savoir si une formule est un *théorème* — c'est-à-dire si elle est dérivable dans un système formel — relève d'une complexité tout autre : la logique du premier ordre est semi-décidable mais non décidable. Ces questions feront l'objet des chapitres V et VI.
 
 ---
 
 ## Conclusion
 
-Ce chapitre a posé les fondations conceptuelles et formelles du langage logique. Partant d'une définition générale — alphabet, mots, règles — il a identifié les dix opérations de la pensée auxquelles correspondent les éléments du langage : six syntaxiques (Désigner, Distinguer, Opérer, Relier, Assembler, Transformer) et quatre sémantiques et constructives (Abstraire, Concrétiser, Interpréter, Sélectionner). La grammaire a ensuite formalisé les règles de construction des expressions bien formées et situé le langage logique parmi les langages hors-contexte de la hiérarchie de Chomsky — complexité bien contrôlée, ni triviale ni illimitée. Ces éléments réunis définissent le système formel : le cadre dans lequel la déduction devient rigoureuse.
+Ce chapitre a posé les fondations conceptuelles et formelles du langage logique. Partant d'une définition générale — alphabet, mots, règles — il a identifié les dix opérations de la pensée auxquelles correspondent les éléments du langage : six syntaxiques (Désigner, Distinguer, Opérer, Relier, Assembler, Transformer) et quatre sémantiques et constructives (Abstraire, Concrétiser, Interpréter, Sélectionner). La grammaire a ensuite formalisé les règles de construction des expressions bien formées, la substitution comme première opération sur ces expressions, et situé le langage logique parmi les langages hors-contexte de la hiérarchie de Chomsky — une complexité de génération bien contrôlée, distincte de la complexité du raisonnement. Ces éléments réunis définissent le système formel : le cadre dans lequel la déduction devient rigoureuse.
 
 La séparation entre syntaxe et sémantique — affirmée dès l'introduction, illustrée tout au long des opérations — traversera l'ensemble de l'ouvrage. Le chapitre II en explore la première dimension : les connecteurs logiques, les tables de vérité, et les lois du calcul propositionnel.
 
@@ -509,6 +541,6 @@ La séparation entre syntaxe et sémantique — affirmée dès l'introduction, i
 
 - **Chomsky, N.** « Three Models for the Description of Language », *IRE Transactions on Information Theory*, 1956. Article fondateur qui introduit la hiérarchie des grammaires formelles.
 
-- **Hilbert, D. & Bernays, P.** *Grundlagen der Mathematik*, Springer, 1934–1939. Première présentation systématique du calcul epsilon et de ses liens avec les quantificateurs.
+- **Hilbert, D. & Bernays, P.** *Grundlagen der Mathematik*, Springer, 1934–1939. Première présentation systématique du calcul epsilon et de ses liens avec les quantificateurs et l'axiome du choix.
 
 - **Tarski, A.** « The Concept of Truth in Formalized Languages », in *Logic, Semantics, Metamathematics*, Oxford University Press, 1956. Définition formelle de la satisfaction d'une formule dans une structure — fondement de la section Interpréter.
