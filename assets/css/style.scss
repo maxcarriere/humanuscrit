@@ -625,15 +625,17 @@ html[data-darkreader-mode] .parchment-content a:hover {
   opacity: 0.8;
 }
 
-/* Tableaux : alignement, bordures (ex. tables de vérité) */
+/* Tableaux : alignement, bordures, centrage (ex. tables de vérité) */
 .parchment-content table {
   border-collapse: collapse;
   border: 1px solid rgba(13, 13, 13, 0.4);
+  margin-left: auto;
+  margin-right: auto;
 }
 .parchment-content table th,
 .parchment-content table td {
-  text-align: left;
-  vertical-align: top;
+  text-align: center;
+  vertical-align: middle;
   padding: 0.4em 0.6em;
   border: 1px solid rgba(13, 13, 13, 0.4);
 }
