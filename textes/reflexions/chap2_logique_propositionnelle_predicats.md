@@ -101,7 +101,7 @@ Ce dernier cas mérite un commentaire. Que l'implication soit vraie quand l'hypo
 | F         | V      | F                              |
 | F         | F      | V                              |
 
-**Remarque sur les connecteurs primitifs.** Les cinq connecteurs ne sont pas tous indépendants. On peut montrer que $\{\neg, \land\}$, ou $\{\neg, \lor\}$, ou même $\{\neg, \rightarrow\}$ suffisent à exprimer tous les autres. Il existe même un unique connecteur, le **NAND** (noté $\uparrow$ ou barre de Sheffer), à partir duquel tous les connecteurs sont définissables : $\varphi \uparrow \psi \equiv \neg(\varphi \land \psi)$. Ces questions de minimalité sont importantes en théorie des circuits, mais ne sont pas centrales pour notre propos. Nous conservons les cinq connecteurs pour leur lisibilité.
+**Remarque sur les connecteurs primitifs.** Les cinq connecteurs ne sont pas tous indépendants. On peut montrer que $\lbrace \neg, \land \rbrace$, ou $\lbrace \neg, \lor \rbrace$, ou même $\lbrace \neg, \rightarrow \rbrace$ suffisent à exprimer tous les autres. Il existe même un unique connecteur, le **NAND** (noté $\uparrow$ ou barre de Sheffer), à partir duquel tous les connecteurs sont définissables : $\varphi \uparrow \psi \equiv \neg(\varphi \land \psi)$. Ces questions de minimalité sont importantes en théorie des circuits, mais ne sont pas centrales pour notre propos. Nous conservons les cinq connecteurs pour leur lisibilité.
 
 ---
 
@@ -152,8 +152,10 @@ $$(\varphi \land \psi) \land \chi \equiv \varphi \land (\psi \land \chi) \qquad 
 
 **Distributivité :**
 
-$$\varphi \land (\psi \lor \chi) \equiv (\varphi \land \psi) \lor (\varphi \land \chi)$$
-$$\varphi \lor (\psi \land \chi) \equiv (\varphi \lor \psi) \land (\varphi \lor \chi)$$
+$$\begin{aligned}
+\varphi \land (\psi \lor \chi) &\equiv (\varphi \land \psi) \lor (\varphi \land \chi) \\
+\varphi \lor (\psi \land \chi) &\equiv (\varphi \lor \psi) \land (\varphi \lor \chi)
+\end{aligned}$$
 
 **Absorption :**
 
@@ -294,7 +296,7 @@ Un **langage du premier ordre** est déterminé par une **signature** : un ensem
 - le **symbole d'égalité** $=$ (dans les langages avec égalité),
 - les **parenthèses** et la **ponctuation**.
 
-La signature est ce qui distingue un langage d'un autre : le langage de l'arithmétique a les symboles $\{0, S, +, \times, <\}$ ; celui de la théorie des groupes a $\{e, \cdot, {}^{-1}\}$ ; celui de la théorie des ensembles a le seul symbole $\{\in\}$. Les symboles logiques, eux, sont universels.
+La signature est ce qui distingue un langage d'un autre : le langage de l'arithmétique a les symboles $\lbrace 0, S, +, \times, < \rbrace$ ; celui de la théorie des groupes a $\lbrace e, \cdot, {}^{-1} \rbrace$ ; celui de la théorie des ensembles a le seul symbole $\lbrace \in \rbrace$. Les symboles logiques, eux, sont universels.
 
 Les **termes** et les **formules** sont définis exactement comme au chapitre I (section III-A). La signature ne fait que fixer les symboles particuliers du langage — la grammaire reste la même.
 
@@ -365,7 +367,7 @@ L'ensemble des variables libres d'une formule $\varphi$ est noté $\text{FV}(\va
 - $\text{FV}(R(t_1, \ldots, t_n))$ = ensemble des variables apparaissant dans les termes $t_1, \ldots, t_n$.
 - $\text{FV}(\neg \varphi) = \text{FV}(\varphi)$.
 - $\text{FV}(\varphi \land \psi) = \text{FV}(\varphi) \cup \text{FV}(\psi)$ — et de même pour les autres connecteurs.
-- $\text{FV}(\forall x.\, \varphi) = \text{FV}(\varphi) \setminus \{x\}$ — et de même pour $\exists x$.
+- $\text{FV}(\forall x.\, \varphi) = \text{FV}(\varphi) \setminus \lbrace x \rbrace$ — et de même pour $\exists x$.
 
 ---
 
@@ -497,7 +499,7 @@ La théorie ne décrit pas un objet unique, mais une **classe de structures** : 
 
 **L'arithmétique de Peano** $(PA)$
 
-Langage : $\mathcal{L}_{PA} = \{0, S, +, \times\}$ où $0$ est une constante, $S$ est le successeur (arité $1$), $+$ et $\times$ sont des opérations binaires.
+Langage : $\mathcal{L}_{PA} = \lbrace 0, S, +, \times \rbrace$ où $0$ est une constante, $S$ est le successeur (arité $1$), $+$ et $\times$ sont des opérations binaires.
 
 Axiomes (informellement) :
 
@@ -513,7 +515,7 @@ L'arithmétique de Peano sera l'exemple central du chapitre VI : c'est dans ce c
 
 **La théorie des groupes**
 
-Langage : $\mathcal{L}_G = \{e, \cdot, {}^{-1}\}$ où $e$ est une constante (l'élément neutre), $\cdot$ est une opération binaire, et ${}^{-1}$ est une opération unaire.
+Langage : $\mathcal{L}_G = \lbrace e, \cdot, {}^{-1} \rbrace$ où $e$ est une constante (l'élément neutre), $\cdot$ est une opération binaire, et ${}^{-1}$ est une opération unaire.
 
 Axiomes :
 
