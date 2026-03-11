@@ -4,6 +4,8 @@ url: "https://humanuscrit.com"
 title: Humanuscrit
 theme: minima
 
+google_analytics_id: "G-9JJPLZ7KDD"
+
 # Laisser $$ et $ intacts pour KaTeX ; limiter l’interprétation tableau (pipe en blockquote)
 kramdown:
   input: GFM
