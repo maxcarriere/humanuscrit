@@ -47,7 +47,7 @@ Vous pouvez aussi nous contacter par courriel. Le formulaire ci-dessous ouvrira 
       var message = document.getElementById('contact-message').value || '';
       var subject = 'Contact Humanuscrit';
       var body = 'Nom : ' + name + '\nCourriel : ' + email + '\n\n' + message;
-      var mailto = 'mailto:humanuscrit@proton.me?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+      var mailto = 'mailto:admin@humanuscrit.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
       window.location.href = mailto;
     });
   }
