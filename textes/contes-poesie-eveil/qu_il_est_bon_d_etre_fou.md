@@ -3,7 +3,7 @@ title: "Qu'il est bon d'être fou..."
 order: 1
 ---
 
-*Texte écrit par une main humaine, sans assistance d'intelligence artificielle.*
+<p style="text-align: center;"><em>Texte écrit à 100% par la main humaine, sans l'assistance d'une Intelligence Artificielle.</em></p>
 
 ---
 
@@ -29,7 +29,7 @@ De Vivre chaque parcelle du présent,
 Avec les yeux d'un illuminé.  
 Quelle chance, de se baigner ainsi dans la Lumière.  
 De se prélasser avec nonchalance dans les claires eaux du bonheur.  
-Ces même eaux qui, aux yeux des autres, apparaissent floues et troubles.  
+Ces mêmes eaux qui, aux yeux des autres, apparaissent floues et troubles.  
 
 Que c'est bien d'être fou et qu'il est fou d'être bien.  
 Cette différence, qui désormais m'appartient,  
@@ -46,8 +46,8 @@ Derrière chacun des mots de ce poème.
 
 Que c'est bon d'être fou,  
 Je le souhaite à tous ceux que j'aime.  
-A toi lecteur, qui lit ces mots avec tes maux.  
-A tous les êtres.  
+À toi lecteur, qui lit ces mots avec tes maux.  
+À tous les êtres.  
 
 ---
 
