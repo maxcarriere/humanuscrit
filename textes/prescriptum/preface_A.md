@@ -1,5 +1,5 @@
 ---
-order: 4
+order: 2
 ---
 ## **Préface A** : Un manuscrit pour réécrire l'humanité.
 
