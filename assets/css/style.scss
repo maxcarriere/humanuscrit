@@ -983,8 +983,9 @@ html[data-darkreader-mode] .navigation-dossier a:hover {
 }
 
 .book-covers img {
-  max-width: 280px;
-  height: auto;
+  width: auto;
+  height: 400px;
+  object-fit: contain;
   border: 1px solid rgba(13, 13, 13, 0.3);
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15);
 }
