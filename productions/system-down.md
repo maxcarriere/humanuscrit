@@ -13,13 +13,17 @@ permalink: /productions/system-down/
 **Roman** — Max Carrière
 Humanuscrit, 2026
 
-*De l'extinction du système naîtra l'illumination de l'Être.*
+*De l'Extinction à l'Illumination.*
 
 Un livre dont on ne sort pas indemne de sa lecture.
+
 Ce manuscrit vous entraîne dans ce que pourrait devenir le monde de demain... à moins que ce ne soit déjà celui d'aujourd'hui. Un monde où l'ensemble des récits qui fondent notre humanité s'éteignent soudainement.
+
+Ce livre, à sa manière, contribuera peut-être à cette extinction.
 
 Mais, quand le vacarme se tait, le silence ouvre un espace.
 Et dans cet espace, quelque chose s'éveille.
+L'homme, libéré des histoires qu'il portait en lui comme des chaînes, peut véritablement allumer sa conscience et découvrir une dimension nouvelle : celle que l'on nomme parfois liberté.
 
 ---
 
