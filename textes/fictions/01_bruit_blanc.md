@@ -408,8 +408,6 @@ Puis elle le posa sur la table, très doucement, comme on pose un objet dangereu
 
 Et elle ressortit dans la nuit.
 
----
-
 *Fin*
 
 ---

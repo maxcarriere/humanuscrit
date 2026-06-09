@@ -697,8 +697,6 @@ Deux heures cinquante-sept.
 
 Yann ferma les yeux.
 
----
-
 *Fin — A suivre : L'extinction*
 
 ---

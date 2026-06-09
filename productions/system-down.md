@@ -31,7 +31,7 @@ L'homme, libéré des histoires qu'il portait en lui comme des chaînes, peut v�
 
 **Acte I**
 
-1. Bruit Blanc — [lire l'extrait]({{ "/textes/fictions/01_bruit_blanc/" | relative_url }})
+1. Bruit Blanc — [lire l'extrait]({{ "/textes/fictions/01_bruit_blanc.html" | relative_url }})
 2. Le Cercle
 3. La Promesse
 4. La Faille
@@ -41,7 +41,7 @@ L'homme, libéré des histoires qu'il portait en lui comme des chaînes, peut v�
 **Acte II**
 
 {:start="7"}
-7. Le Signal — [lire l'extrait]({{ "/textes/fictions/07_le_signal/" | relative_url }})
+7. Le Signal — [lire l'extrait]({{ "/textes/fictions/07_le_signal.html" | relative_url }})
 8. L'Extinction
 9. La Chute
 10. Le Réveil
