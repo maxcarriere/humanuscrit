@@ -1,6 +1,6 @@
 ---
-title: "04 - Le Signal"
-order: 4
+title: "07 - Le Signal"
+order: 7
 date: 2026-02-09
 last_modified_at: 2026-02-09
 ---
@@ -699,4 +699,8 @@ Yann ferma les yeux.
 
 ---
 
-*Fin - A suivre : L'extinction*
+*Fin — A suivre : L'extinction*
+
+---
+
+*Ce texte est le septième chapitre du roman [**System Down**]({{ "/productions/" | relative_url }}), et ouvre le second acte.*

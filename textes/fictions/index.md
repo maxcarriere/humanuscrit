@@ -3,16 +3,18 @@ title: Fictions – Récits
 ---
 *Raconter*
 
-Cette section regroupe les différents récits qui forment la composante fictive d'Humanuscrit.
+Cette section présente deux extraits du roman [**System Down**]({{ "/productions/" | relative_url }}), la composante fictive d'Humanuscrit.
 
-Cette partie se présente comme un recueil de nouvelles, qu'il convient de lire dans l'ordre et qui pourrait s'intituler *Système*. Deux épilogues viennent conclure le texte et peuvent être perçus comme un palier vers les sections suivantes. Bonne Lecture.
+Le roman complet comprend douze chapitres répartis en deux actes. Les deux nouvelles ci-dessous correspondent à l'ouverture de chaque acte.
 
 ---
 
-### Arborescence du dossier
+### Extraits disponibles
 
 {% include arborescence_dossier.html %}
 
 ---
+
+[Voir le roman complet dans les Productions]({{ "/productions/" | relative_url }})
 
 [← Retour aux Textes]({{ '/textes/' | relative_url }})
