@@ -973,7 +973,32 @@ html[data-darkreader-mode] .navigation-dossier a:hover {
   }
 }
 
-/* ===== 8. Protection absolue contre toutes les extensions de modification de couleur ===== */
+/* ===== 8. Couvertures côte à côte (page détail production) ===== */
+.book-covers {
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+  margin: 1.5em 0;
+}
+
+.book-covers img {
+  max-width: 240px;
+  height: auto;
+  border: 1px solid rgba(13, 13, 13, 0.3);
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 1199px) {
+  .book-covers {
+    gap: 1em;
+  }
+
+  .book-covers img {
+    max-width: 42vw;
+  }
+}
+
+/* ===== 9. Protection absolue contre toutes les extensions de modification de couleur ===== */
 /* Règle globale pour empêcher toute modification de couleur par Dark Reader et autres extensions */
 html[data-darkreader-mode],
 html[data-darkreader-mode] body,

@@ -3,18 +3,13 @@ title: "> SYSTEM DOWN _"
 permalink: /productions/system-down/
 ---
 
-![Couverture de System Down]({{ '/assets/images/system_down_couverture.png' | relative_url }})
+<div class="book-covers">
+  <img src="{{ '/assets/images/system_down_couv_avec_titre.png' | relative_url }}" alt="Couverture de System Down">
+  <img src="{{ '/assets/images/system_down_4couv.png' | relative_url }}" alt="4ème de couverture de System Down">
+</div>
 
 **Roman** — Max Carrière
 Humanuscrit, 2026
-
-*De l'extinction du système naîtra l'illumination de l'Être.*
-
-Un livre dont on ne sort pas indemne de sa lecture.
-Ce manuscrit vous entraîne dans ce que pourrait devenir le monde de demain... à moins que ce ne soit déjà celui d'aujourd'hui. Un monde où l'ensemble des récits qui fondent notre humanité s'éteignent soudainement.
-
-Mais, quand le vacarme se tait, le silence ouvre un espace.
-Et dans cet espace, quelque chose s'éveille.
 
 ---
 
