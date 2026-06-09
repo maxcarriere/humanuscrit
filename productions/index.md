@@ -8,8 +8,10 @@ Les productions sont des objets intellectuels structurés, présentables et diff
 
 ---
 
-[![Couverture de System Down]({{ '/assets/images/system_down_couverture.png' | relative_url }})]({{ '/productions/system-down/' | relative_url }})
-
-### [> SYSTEM DOWN _]({{ '/productions/system-down/' | relative_url }})
-
-**Roman** — Max Carrière — Humanuscrit, 2026
+<div class="productions-grid">
+  <a href="{{ '/productions/system-down/' | relative_url }}" class="production-card">
+    <img src="{{ '/assets/images/system_down_couverture.png' | relative_url }}" alt="Couverture de System Down">
+    <span class="production-title">> SYSTEM DOWN _</span>
+    <span class="production-meta">Roman — Max Carrière — 2026</span>
+  </a>
+</div>

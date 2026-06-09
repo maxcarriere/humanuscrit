@@ -1,5 +1,6 @@
 ---
 title: "> SYSTEM DOWN _"
+permalink: /productions/system-down/
 ---
 
 ![Couverture de System Down]({{ '/assets/images/system_down_couverture.png' | relative_url }})
