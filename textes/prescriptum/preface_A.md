@@ -7,7 +7,7 @@ Je ne considère pas ce livre comme le mien. Je suis d'ailleurs convaincu que le
 
 Je ne suis donc ni le propriétaire, ni l’aboutissement de ce manuscrit. J’en suis, au mieux, le point de départ — ou plutôt un point de départ. Ce manuscrit n’a pas vocation à être figé, sacralisé ou enfermé dans sa forme actuelle. Il peut être vu comme le support provisoire, le contenant momentané d’une idée appelée à se déployer sous des formes multiples.
 
-Ce texte est offert à la lecture et à la circulation.  
+Une partie du texte est offerte à la lecture et à la circulation.  
 Chacun est libre de s’en emparer, de le partager, de le discuter, de le prolonger dans sa propre pensée. Il n’existe pas pour être conservé comme un objet clos, mais pour vivre, se confronter, se transformer.
 
 Il demeure un manuscrit ouvert — non parce qu’il échapperait aux cadres du monde dans lequel il apparaît, mais parce qu’il refuse d’être réduit à sa forme présente.

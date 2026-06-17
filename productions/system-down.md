@@ -5,6 +5,8 @@ permalink: /productions/system-down/
 
 ---
 
+Premier roman issu des premières nouvelles de la partie Fiction, *System Down* raconte sous la forme d'une histoire la thèse philosophique défendue dans le projet Humanuscrit. À travers un récit où les récits eux-mêmes s'effondrent, il met en scène ce que pourrait signifier, concrètement, la prise de conscience collective décrite dans le manuscrit — et ce qu'il resterait de l'homme une fois libéré des fictions qui le gouvernent.
+
 <div class="book-covers">
   <img src="{{ '/assets/images/system_down_couv_avec_titre.png' | relative_url }}" alt="Couverture de System Down" class="book-cover-main">
   <img src="{{ '/assets/images/system_down_4couv.png' | relative_url }}" alt="4ème de couverture de System Down" class="book-cover-back">
@@ -52,3 +54,5 @@ L'homme, libéré des histoires qu'il portait en lui comme des chaînes, peut v�
 
 *En cours de soumission éditoriale.*
 *Pour tout renseignement sur le manuscrit complet, [contacter l'auteur]({{ "/contact/" | relative_url }}).*
+
+[← Retour aux Productions]({{ '/productions/' | relative_url }})
