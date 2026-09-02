@@ -110,9 +110,8 @@ body *::after {
 
 .header-external {
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 0.35rem;
+  align-items: center;
+  gap: 1rem;
 }
 
 .header-external a {
