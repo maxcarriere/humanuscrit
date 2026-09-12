@@ -36,7 +36,7 @@ https://creativecommons.org/licenses/by-nc/4.0/
 Toute utilisation commerciale des textes (vente, intégration dans un produit payant, exploitation éditoriale, formation rémunérée, etc.) nécessite une autorisation explicite de l'auteur.
 
 Pour toute demande :  
-[adresse email ou contact à insérer]
+contact.humanuscrit@gmail.com
 
 ---
 
