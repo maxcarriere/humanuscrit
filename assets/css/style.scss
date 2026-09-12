@@ -810,22 +810,73 @@ html[data-darkreader-mode] .navigation-dossier a:hover {
   text-decoration: underline !important;
 }
 
-/* Formulaire contact */
+/* Section contact — email */
+.contact-email {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.contact-email a {
+  border-bottom: none;
+}
+
+.contact-email svg {
+  display: block;
+}
+
+.contact-copy-btn,
+.contact-submit-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  padding: 0.4rem 1rem;
+  font-family: inherit;
+  font-size: 0.95rem;
+  color: #0d0d0d;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(13, 13, 13, 0.25);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-copy-btn:hover,
+.contact-submit-btn:hover {
+  background: rgba(255, 255, 255, 1);
+  border-color: rgba(13, 13, 13, 0.5);
+}
+
+.copy-feedback {
+  color: #2d5a2d;
+  font-size: 0.9rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.copy-feedback.visible {
+  opacity: 1;
+}
+
+/* Section contact — formulaire */
 .contact-form label {
   display: block;
   margin-bottom: 0.25em;
+  margin-top: 1em;
+  font-weight: 500;
 }
 
 .contact-form input,
 .contact-form textarea {
   width: 100%;
   max-width: 28em;
-  padding: 0.5em;
+  padding: 0.6em;
   font-family: inherit;
   font-size: 1rem;
   color: #0d0d0d !important;
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.3);
   border: 1px solid rgba(13, 13, 13, 0.25);
+  border-radius: 4px;
   box-sizing: border-box;
 }
 
@@ -834,23 +885,9 @@ html[data-darkreader-mode] .navigation-dossier a:hover {
   min-height: 6em;
 }
 
-.contact-form button {
-  padding: 0.5em 1.25em;
-  font-family: inherit;
-  font-size: 1rem;
-  color: #0d0d0d;
-  background: rgba(255, 255, 255, 0.9);
-  border: 1px solid rgba(13, 13, 13, 0.3);
-  cursor: pointer;
-}
-
-.contact-form button:hover {
-  background: rgba(255, 255, 255, 1);
-  border-color: rgba(13, 13, 13, 0.5);
-}
-
-.contact-form p {
-  margin-bottom: 1em;
+.contact-submit-btn {
+  margin-top: 1em;
+  padding: 0.5rem 1.5rem;
 }
 
 /* ===== 6. Pied de page — cadre fixe en bas ===== */
