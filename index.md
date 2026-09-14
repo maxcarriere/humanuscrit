@@ -3,6 +3,12 @@ title: Humanuscrit
 layout: home
 ---
 
+<p class="home-welcome">Bienvenue chez <strong>Humanuscrit</strong>, éditeur indépendant explorant la condition humaine à l'ère des systèmes et de l'intelligence artificielle.</p>
+
+<div class="home-publication">
+<p class="home-publication-label">Publication à venir</p>
+</div>
+
 <div class="home-hero">
 <div class="home-cover">
 <a href="{{ '/productions/system-down/' | relative_url }}">
