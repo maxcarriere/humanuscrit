@@ -1,17 +1,32 @@
 {% comment %}
   Arborescence de la section Textes : dossiers à la racine.
   Ordre = progression conceptuelle (prescriptum → … → reception-critiques).
+  Sections avec contenu : lien cliquable.
+  Sections vides : titre affiché sans lien.
 {% endcomment %}
-{% assign folder_order = "prescriptum|fictions|reflexions" | split: "|" %}
+{% assign active_folders = "prescriptum|fictions|reflexions|contes-poesie-eveil" | split: "|" %}
+{% assign all_folders = "prescriptum|fictions|reflexions|reflexivite-conscience|contes-poesie-eveil|temoignages-personnel|reception-critiques" | split: "|" %}
 <ul class="arborescence-textes">
-  {% for folder_name in folder_order %}
+  {% for folder_name in all_folders %}
     {% assign folder_path = "textes/" | append: folder_name | append: "/index.md" %}
     {% assign folder_page = site.pages | where: "path", folder_path | first %}
     {% if folder_page %}
-      <li>
-        <a href="{{ folder_page.url | relative_url }}">
-          {% include lib_display_name.html name=folder_name title=folder_page.title %}
-        </a>
+      {% assign is_active = false %}
+      {% for active in active_folders %}
+        {% if active == folder_name %}
+          {% assign is_active = true %}
+        {% endif %}
+      {% endfor %}
+      <li{% unless is_active %} class="arborescence-inactive"{% endunless %}>
+        {% if is_active %}
+          <a href="{{ folder_page.url | relative_url }}">
+            {% include lib_display_name.html name=folder_name title=folder_page.title %}
+          </a>
+        {% else %}
+          <span class="arborescence-label-inactive">
+            {% include lib_display_name.html name=folder_name title=folder_page.title %}
+          </span>
+        {% endif %}
       </li>
     {% endif %}
   {% endfor %}

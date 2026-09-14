@@ -752,6 +752,14 @@ html[data-darkreader-mode] .arborescence-textes a:hover {
   border-bottom-color: rgba(13, 13, 13, 0.6) !important;
 }
 
+.arborescence-textes li.arborescence-inactive {
+  opacity: 0.45;
+}
+
+.arborescence-textes .arborescence-label-inactive {
+  font-style: italic;
+}
+
 /* ===== 5. Navigation dossier ===== */
 .navigation-dossier,
 .navigation-dossier *,
