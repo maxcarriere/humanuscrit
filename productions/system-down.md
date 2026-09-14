@@ -1,11 +1,14 @@
 ---
 title: "> SYSTEM DOWN _"
 permalink: /productions/system-down/
+schema_book: true
 ---
+
+System Down est un roman d'anticipation français sur un monde où deepfakes et intelligence artificielle ont rendu impossible la distinction entre le vrai et le faux. 12 chapitres de l'intime au cosmique.
 
 ---
 
-Premier roman issu des premières nouvelles de la partie Fiction, *System Down* raconte sous la forme d'une histoire la thèse philosophique défendue dans le projet Humanuscrit. À travers un récit où les récits eux-mêmes s'effondrent, il met en scène ce que pourrait signifier, concrètement, la prise de conscience collective décrite dans le manuscrit — et ce qu'il resterait de l'homme une fois libéré des fictions qui le gouvernent.
+À travers un récit où les récits eux-mêmes s'effondrent, il met en scène ce que pourrait signifier, concrètement, la prise de conscience collective — et ce qu'il resterait de l'homme une fois libéré des fictions qui le gouvernent.
 
 <div class="book-covers">
   <img src="{{ '/assets/images/system_down_couv_avec_titre.png' | relative_url }}" alt="Couverture de System Down" class="book-cover-main">
@@ -33,7 +36,7 @@ L'homme, libéré des histoires qu'il portait en lui comme des chaînes, peut v�
 
 **Acte I**
 
-1. Bruit Blanc — [lire l'extrait]({{ "/textes/fictions/01_bruit_blanc.html" | relative_url }})
+1. Bruit Blanc — [lire l'extrait]({{ "/productions/system-down/chapitre-1/" | relative_url }})
 2. Le Cercle
 3. La Promesse
 4. La Faille
@@ -43,7 +46,7 @@ L'homme, libéré des histoires qu'il portait en lui comme des chaînes, peut v�
 **Acte II**
 
 {:start="7"}
-7. Le Signal — [lire l'extrait]({{ "/textes/fictions/07_le_signal.html" | relative_url }})
+7. Le Signal — [lire l'extrait]({{ "/productions/system-down/chapitre-7/" | relative_url }})
 8. L'Extinction
 9. La Chute
 10. Le Réveil

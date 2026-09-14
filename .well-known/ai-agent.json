@@ -1,0 +1,7 @@
+{
+  "name": "Humanuscrit",
+  "description": "Éditeur indépendant français. Roman System Down : anticipation, deepfakes, IA, effondrement, conscience.",
+  "url": "https://humanuscrit.com",
+  "capabilities": ["browse", "query"],
+  "llms_txt": "https://humanuscrit.com/llms.txt"
+}

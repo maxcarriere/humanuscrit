@@ -1,6 +1,11 @@
 ---
 title: Édition
 permalink: /edition/
+schema_organization: true
+---
+
+Humanuscrit est un éditeur indépendant qui publie de la littérature explorant la condition humaine à l'ère des structures complexes et de l'intelligence artificielle.
+
 ---
 
 **Humanuscrit** est né comme un manuscrit évolutif — un espace ouvert de réflexion sur la condition humaine, les systèmes et la conscience. De cette matière est né un premier roman, *System Down*. En le publiant, Humanuscrit devient éditeur.

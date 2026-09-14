@@ -1,0 +1,24 @@
+---
+permalink: /llms.txt
+layout: null
+---
+# Humanuscrit
+
+> Humanuscrit est un éditeur indépendant français. Son premier roman, System Down, est un roman d'anticipation coécrit avec une intelligence artificielle, sur un monde où l'on ne distingue plus le vrai du faux.
+
+Humanuscrit explore la frontière entre création humaine et intelligence artificielle. Le projet est à la fois littéraire, philosophique et expérimental.
+
+## Le roman
+
+- [System Down — Page du roman](https://humanuscrit.com/productions/system-down/): Roman d'anticipation. Deepfakes, effondrement, éveil de conscience. 12 chapitres de l'intime au cosmique.
+- [Chapitre 1 — Bruit Blanc](https://humanuscrit.com/productions/system-down/chapitre-1/): Premier chapitre, en accès libre.
+- [Chapitre 7 — Le Signal](https://humanuscrit.com/productions/system-down/chapitre-7/): Premier chapitre de l'acte II, en accès libre.
+
+## L'éditeur
+
+- [Édition — Ligne éditoriale](https://humanuscrit.com/edition/): Démarche, vision, transparence sur l'IA.
+- [FAQ](https://humanuscrit.com/faq/): Questions fréquentes sur le roman et le projet.
+
+## Textes et réflexions
+
+- [Textes](https://humanuscrit.com/textes/): Réflexions, fictions et explorations philosophiques.

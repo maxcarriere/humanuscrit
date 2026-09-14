@@ -24,7 +24,14 @@ header_pages:
   - textes/index.md
   - contact.md
 
+include:
+  - .well-known
+
 exclude:
   - site_backup_20260914
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
 
 # Compteur accueil : simplifié, basé sur un badge SVG externe.

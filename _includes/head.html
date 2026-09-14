@@ -15,6 +15,87 @@
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.28/dist/contrib/auto-render.min.js"></script>
 <script defer src="{{ '/assets/js/katex-render.js' | relative_url }}"></script>
 
+<!-- Découverte IA -->
+<link rel="describedby" href="https://humanuscrit.com/llms.txt" type="text/markdown">
+
+<!-- Schema.org JSON-LD -->
+{% if page.schema_book %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Book",
+  "name": "System Down",
+  "alternateName": "System Down — Roman d'anticipation",
+  "author": {
+    "@type": "Person",
+    "name": "Maxime Carrière",
+    "givenName": "Maxime",
+    "familyName": "Carrière",
+    "url": "https://humanuscrit.com/edition/"
+  },
+  "inLanguage": "fr",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Humanuscrit",
+    "url": "https://humanuscrit.com"
+  },
+  "genre": ["Science-fiction", "Anticipation", "Roman philosophique"],
+  "about": [
+    {"@type": "Thing", "name": "Deepfake"},
+    {"@type": "Thing", "name": "Intelligence artificielle"},
+    {"@type": "Thing", "name": "Effondrement"},
+    {"@type": "Thing", "name": "Conscience"}
+  ],
+  "description": "Roman d'anticipation sur un monde où l'on ne distingue plus le vrai du faux. Deepfakes, effondrement de la confiance, éveil de conscience. 12 chapitres qui élargissent le cercle, de l'intime au cosmique. Coécrit avec une intelligence artificielle.",
+  "image": "https://humanuscrit.com/assets/images/system_down_couv_avec_titre.png",
+  "url": "https://humanuscrit.com/productions/system-down/",
+  "bookFormat": ["https://schema.org/EBook", "https://schema.org/Paperback"]
+}
+</script>
+{% endif %}
+
+{% if page.schema_organization %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Humanuscrit",
+  "url": "https://humanuscrit.com",
+  "description": "Éditeur indépendant. Littérature d'anticipation coécrite avec l'intelligence artificielle.",
+  "founder": {
+    "@type": "Person",
+    "name": "Maxime Carrière"
+  }
+}
+</script>
+{% endif %}
+
+{% if page.schema_article %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ page.title | escape }}",
+  "author": {
+    "@type": "Person",
+    "name": "Maxime Carrière"
+  },
+  "isPartOf": {
+    "@type": "Book",
+    "name": "System Down",
+    "url": "https://humanuscrit.com/productions/system-down/"
+  },
+  "inLanguage": "fr"
+}
+</script>
+{% endif %}
+
+{% if page.schema_faq %}
+<script type="application/ld+json">
+{{ page.schema_faq }}
+</script>
+{% endif %}
+
 {% if site.google_analytics_id %}
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics_id | escape }}"></script>

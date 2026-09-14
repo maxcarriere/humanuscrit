@@ -1190,6 +1190,17 @@ html[data-darkreader-mode] .navigation-dossier a:hover {
   margin: 0.5em;
 }
 
+/* Navigation en bas des chapitres */
+.chapter-nav {
+  text-align: center;
+  margin-top: 3em;
+  padding-top: 2em;
+}
+
+.chapter-nav p {
+  text-align: center;
+}
+
 /* Footer — projets liés */
 .footer-projects {
   display: flex;
