@@ -20,8 +20,8 @@ sa place relative dans les systèmes qu'elle produit et qu'elle habite,<br>
 </a>
 </div>
 <div class="home-pitch">
-<p class="home-tagline">System Down — Ecrit par Max Carrière</p>
-<p>Un récit où les récits s'effondrent eux-mêmes.</p>
+<p class="home-tagline">System Down — Ecrit par Max Carrière<br>
+Un récit où les récits s'effondrent eux-mêmes.</p>
 <div class="home-cta">
 <a href="{{ '/productions/system-down/' | relative_url }}" class="cta-button">Découvrir le roman</a>
 </div>
