@@ -22,3 +22,7 @@ Humanuscrit explore la frontière entre création humaine et intelligence artifi
 ## Textes et réflexions
 
 - [Textes](https://humanuscrit.com/textes/): Réflexions, fictions et explorations philosophiques.
+
+## Texte complet
+
+- [Texte complet du roman (Markdown)](https://humanuscrit.com/llms-full.txt): Le roman System Down en intégralité, au format Markdown.
