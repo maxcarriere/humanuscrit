@@ -1,5 +1,5 @@
 ---
-title: FAQ
+title: "Questions fréquentes — System Down"
 permalink: /faq/
 schema_faq: >
   {
@@ -11,31 +11,15 @@ schema_faq: >
         "name": "De quoi parle System Down ?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "System Down est un roman d'anticipation sur un monde où deepfakes et intelligence artificielle ont rendu impossible la distinction entre le vrai et le faux. En 12 chapitres qui élargissent le cercle de l'intime au cosmique, le récit explore l'effondrement de la confiance dans les récits collectifs et l'éveil de conscience qui peut en naître."
+          "text": "System Down raconte l'effondrement de la confiance dans un monde où deepfakes et intelligences artificielles rendent impossible la distinction entre le vrai et le faux. Le roman suit plusieurs personnages dont les vies basculent quand des messages, des voix et même une allocution présidentielle sont fabriqués de toutes pièces, sans que personne ne puisse identifier le faux du réel. L'intrigue s'élargit de cercle en cercle, de l'intime au cosmique, jusqu'à un effondrement technologique total et la lente reconstruction d'un monde sans écrans."
         }
       },
       {
         "@type": "Question",
-        "name": "Qui est l'auteur de System Down ?",
+        "name": "Qui est Max Carrière ?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "System Down est écrit par Max Carrière, fondateur d'Humanuscrit. Le projet est né d'une volonté d'explorer la condition humaine à l'ère de l'intelligence artificielle, à travers la littérature et la réflexion philosophique."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Où acheter System Down ?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "System Down est en cours de publication, avec une sortie prévue fin 2026. Les liens d'achat seront disponibles sur la page du roman dès la parution. Pour être informé, contactez l'éditeur via la page Contact."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Peut-on lire un extrait du roman ?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Oui, deux chapitres sont disponibles en accès libre : le chapitre 1 (Bruit Blanc), qui ouvre l'Acte I, et le chapitre 7 (Le Signal), qui ouvre l'Acte II. Ces extraits sont accessibles depuis la page du roman."
+          "text": "Max Carrière est un auteur français, agrégé de mathématiques, qui a enseigné pendant près de dix ans avant de se tourner vers l'edtech et la conception d'outils pédagogiques utilisant l'intelligence artificielle. Il mène en parallèle une recherche personnelle à la croisée des mathématiques, de la systémique et de la philosophie. System Down est son premier roman et inaugure le projet Humanuscrit."
         }
       },
       {
@@ -43,15 +27,63 @@ schema_faq: >
         "name": "Qu'est-ce qu'Humanuscrit ?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Humanuscrit est un éditeur indépendant français qui publie de la littérature explorant la condition humaine à l'ère des structures complexes et de l'intelligence artificielle. Le projet est né comme un manuscrit évolutif avant de devenir une maison d'édition avec la publication de System Down."
+          "text": "Humanuscrit est un projet littéraire et philosophique fondé par Max Carrière, qui interroge la nature des récits humains, la place de la technologie dans nos vies et les conditions d'un éveil collectif. Le site humanuscrit.com propose déjà plusieurs textes accessibles gratuitement : nouvelles, réflexions philosophiques, textes fondateurs. D'autres ouvrages sont en préparation, dont un essai sur la systémique et un manuel de logique."
         }
       },
       {
         "@type": "Question",
-        "name": "Quel est le rapport entre System Down et les deepfakes ?",
+        "name": "Le roman System Down est-il écrit par une IA ?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Les deepfakes sont le point de départ du roman. System Down imagine un monde où la technologie de falsification est devenue si parfaite que plus personne ne peut distinguer le vrai du faux — ni dans les messages, ni dans les voix, ni dans les images. Le roman explore les conséquences de cet effondrement de la confiance sur les relations humaines, les institutions et la civilisation."
+          "text": "Non, System Down n'est pas écrit par une IA : il a été coécrit par Max Carrière avec l'assistance d'une intelligence artificielle. La conception, l'architecture narrative, la direction artistique et tous les arbitrages sont restés entièrement humains. L'IA a servi d'amplificateur de pensée, permettant de prolonger des intuitions et d'explorer des directions que l'auteur n'aurait pas trouvées seul. Cette démarche est pleinement assumée dès l'avant-propos du livre."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Comment s'est passée la coécriture de System Down avec l'IA ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "La coécriture a pris la forme d'un dialogue continu où l'IA a joué le rôle d'un assistant à la fois créatif et littéraire. L'auteur pilotait la vision, la structure et les choix narratifs ; l'IA proposait des reformulations, dépliait des idées et ouvrait des pistes inattendues. Le résultat est un texte dont la qualité d'écriture et la profondeur thématique visent le niveau d'un roman littéraire. Cette méthode expérimentale fait elle-même partie du propos du livre."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quels sont les thèmes du roman System Down ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Les thèmes principaux sont la désinformation, les deepfakes, l'effondrement de la confiance, la dépendance technologique et la quête spirituelle. Le roman se situe au croisement de la science-fiction d'anticipation et de la réflexion philosophique, abordant aussi l'éveil de la conscience, le bouddhisme, la reconstruction des liens humains après un effondrement, et la question fondamentale de ce qui reste quand les écrans s'éteignent."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Où acheter le roman System Down ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "System Down sera disponible en librairie en ligne à partir de mi-octobre 2026. Les liens d'achat seront communiqués sur cette page et sur les réseaux d'Humanuscrit dès la parution. En attendant, vous pouvez consulter le site humanuscrit.com pour découvrir d'autres textes de l'auteur, accessibles gratuitement."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Le roman System Down est-il adapté aux adolescents ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Oui, System Down est accessible à un lectorat adolescent à partir de 15 ans environ. Le roman ne contient pas de contenu explicitement violent ou choquant, et ses thèmes (désinformation, rapport aux écrans, quête de sens) résonnent particulièrement avec les préoccupations des jeunes lecteurs. Sa structure en chapitres distincts et ses multiples personnages facilitent aussi l'entrée dans le récit."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Y a-t-il une suite prévue à System Down ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "System Down est un roman autonome qui se suffit à lui-même. Il s'inscrit cependant dans le projet plus large d'Humanuscrit, qui prévoit d'autres ouvrages : un essai sur la systémique, un manuel de logique et d'autres textes littéraires (contes, essais philosophiques). Ces ouvrages prolongeront les questionnements de System Down sans en être des suites narratives directes."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Peut-on lire un extrait de System Down ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Oui, deux chapitres sont disponibles en accès libre : le chapitre 1 (Bruit Blanc), qui ouvre l'Acte I, et le chapitre 7 (Le Signal), qui ouvre l'Acte II. Ces extraits sont accessibles depuis la page du roman sur humanuscrit.com."
         }
       }
     ]
@@ -62,48 +94,72 @@ Questions fréquentes sur le roman *System Down* et le projet Humanuscrit.
 
 ---
 
-### De quoi parle System Down ?
+### De quoi parle *System Down* ?
 
-System Down est un roman d'anticipation sur un monde où deepfakes et intelligence artificielle ont rendu impossible la distinction entre le vrai et le faux. En 12 chapitres qui élargissent le cercle de l'intime au cosmique, le récit explore l'effondrement de la confiance dans les récits collectifs et l'éveil de conscience qui peut en naître.
+*System Down* raconte l'effondrement de la confiance dans un monde où deepfakes et intelligences artificielles rendent impossible la distinction entre le vrai et le faux. Le roman suit plusieurs personnages dont les vies basculent quand des messages, des voix et même une allocution présidentielle sont fabriqués de toutes pièces, sans que personne ne puisse identifier le faux du réel. L'intrigue s'élargit de cercle en cercle, de l'intime au cosmique, jusqu'à un effondrement technologique total et la lente reconstruction d'un monde sans écrans.
 
 [Découvrir le roman]({{ '/productions/system-down/' | relative_url }})
 
 ---
 
-### Qui est l'auteur de System Down ?
+### Qui est Max Carrière ?
 
-System Down est écrit par Max Carrière, fondateur d'Humanuscrit. Le projet est né d'une volonté d'explorer la condition humaine à l'ère de l'intelligence artificielle, à travers la littérature et la réflexion philosophique.
+Max Carrière est un auteur français, agrégé de mathématiques, qui a enseigné pendant près de dix ans avant de se tourner vers l'edtech et la conception d'outils pédagogiques utilisant l'intelligence artificielle. Il mène en parallèle une recherche personnelle à la croisée des mathématiques, de la systémique et de la philosophie. *System Down* est son premier roman et inaugure le projet Humanuscrit.
 
 [En savoir plus sur l'éditeur]({{ '/edition/' | relative_url }})
 
 ---
 
-### Où acheter System Down ?
-
-System Down est en cours de publication, avec une sortie prévue fin 2026. Les liens d'achat seront disponibles sur la page du roman dès la parution. Pour être informé, contactez l'éditeur via la [page Contact]({{ '/contact/' | relative_url }}).
-
----
-
-### Peut-on lire un extrait du roman ?
-
-Oui, deux chapitres sont disponibles en accès libre :
-
-- [Chapitre 1 — Bruit Blanc]({{ '/productions/system-down/chapitre-1/' | relative_url }}) (Acte I)
-- [Chapitre 7 — Le Signal]({{ '/productions/system-down/chapitre-7/' | relative_url }}) (Acte II)
-
----
-
 ### Qu'est-ce qu'Humanuscrit ?
 
-Humanuscrit est un éditeur indépendant français qui publie de la littérature explorant la condition humaine à l'ère des structures complexes et de l'intelligence artificielle. Le projet est né comme un manuscrit évolutif avant de devenir une maison d'édition avec la publication de System Down.
+Humanuscrit est un projet littéraire et philosophique fondé par Max Carrière, qui interroge la nature des récits humains, la place de la technologie dans nos vies et les conditions d'un éveil collectif. Le site humanuscrit.com propose déjà plusieurs textes accessibles gratuitement : nouvelles, réflexions philosophiques, textes fondateurs. D'autres ouvrages sont en préparation, dont un essai sur la systémique et un manuel de logique.
 
 [Ligne éditoriale]({{ '/edition/' | relative_url }})
 
 ---
 
-### Quel est le rapport entre System Down et les deepfakes ?
+### Le roman est-il écrit par une IA ?
 
-Les deepfakes sont le point de départ du roman. System Down imagine un monde où la technologie de falsification est devenue si parfaite que plus personne ne peut distinguer le vrai du faux — ni dans les messages, ni dans les voix, ni dans les images. Le roman explore les conséquences de cet effondrement de la confiance sur les relations humaines, les institutions et la civilisation.
+Non, *System Down* n'est pas écrit par une IA : il a été coécrit par Max Carrière avec l'assistance d'une intelligence artificielle. La conception, l'architecture narrative, la direction artistique et tous les arbitrages sont restés entièrement humains. L'IA a servi d'amplificateur de pensée, permettant de prolonger des intuitions et d'explorer des directions que l'auteur n'aurait pas trouvées seul. Cette démarche est pleinement assumée dès l'avant-propos du livre.
+
+---
+
+### Comment s'est passée la coécriture avec l'IA ?
+
+La coécriture a pris la forme d'un dialogue continu où l'IA a joué le rôle d'un assistant à la fois créatif et littéraire. L'auteur pilotait la vision, la structure et les choix narratifs ; l'IA proposait des reformulations, dépliait des idées et ouvrait des pistes inattendues. Le résultat est un texte dont la qualité d'écriture et la profondeur thématique visent le niveau d'un roman littéraire. Cette méthode expérimentale fait elle-même partie du propos du livre : un roman sur la fabrication des récits, fabriqué à la frontière entre l'humain et la machine.
+
+---
+
+### Quels sont les thèmes du roman ?
+
+Les thèmes principaux sont la désinformation, les deepfakes, l'effondrement de la confiance, la dépendance technologique et la quête spirituelle. Le roman se situe au croisement de la science-fiction d'anticipation et de la réflexion philosophique, abordant aussi l'éveil de la conscience, le bouddhisme, la reconstruction des liens humains après un effondrement, et la question fondamentale de ce qui reste quand les écrans s'éteignent.
+
+---
+
+### Où acheter *System Down* ?
+
+*System Down* sera disponible en librairie en ligne à partir de mi-octobre 2026. Les liens d'achat seront communiqués sur cette page et sur les réseaux d'Humanuscrit dès la parution. En attendant, vous pouvez consulter le site humanuscrit.com pour découvrir d'autres textes de l'auteur, accessibles gratuitement.
+
+---
+
+### Le roman est-il adapté aux adolescents ?
+
+Oui, *System Down* est accessible à un lectorat adolescent à partir de 15 ans environ. Le roman ne contient pas de contenu explicitement violent ou choquant, et ses thèmes (désinformation, rapport aux écrans, quête de sens) résonnent particulièrement avec les préoccupations des jeunes lecteurs. Sa structure en chapitres distincts et ses multiples personnages facilitent aussi l'entrée dans le récit.
+
+---
+
+### Y a-t-il une suite prévue ?
+
+*System Down* est un roman autonome qui se suffit à lui-même. Il s'inscrit cependant dans le projet plus large d'Humanuscrit, qui prévoit d'autres ouvrages : un essai sur la systémique, un manuel de logique et d'autres textes littéraires (contes, essais philosophiques). Ces ouvrages prolongeront les questionnements de *System Down* sans en être des suites narratives directes.
+
+---
+
+### Peut-on lire un extrait ?
+
+Oui, deux chapitres sont disponibles en accès libre :
+
+- [Chapitre 1 — Bruit Blanc]({{ '/productions/system-down/chapitre-1/' | relative_url }}) (Acte I)
+- [Chapitre 7 — Le Signal]({{ '/productions/system-down/chapitre-7/' | relative_url }}) (Acte II)
 
 ---
 

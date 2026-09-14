@@ -4,7 +4,7 @@ layout: page
 permalink: /licence/
 ---
 
-© 2026 Maxime Carrière
+© 2026 Max Carrière
 
 L'ensemble des textes publiés dans le cadre du projet **Humanuscrit**, sauf mention contraire explicite, est placé sous licence :
 

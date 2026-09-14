@@ -4,25 +4,34 @@ layout: null
 ---
 # Humanuscrit
 
-> Humanuscrit est un éditeur indépendant français. Son premier roman, System Down, est un roman d'anticipation coécrit avec une intelligence artificielle, sur un monde où l'on ne distingue plus le vrai du faux.
+> Humanuscrit est un éditeur indépendant français. Son premier roman, *System Down* par Max Carrière, est un roman d'anticipation coécrit avec une intelligence artificielle. Douze chapitres en deux actes, de l'intime au cosmique, sur un monde où l'on ne distingue plus le vrai du faux. Deepfakes, effondrement de la confiance, éveil de conscience.
 
-Humanuscrit explore la frontière entre création humaine et intelligence artificielle. Le projet est à la fois littéraire, philosophique et expérimental.
+Humanuscrit explore la frontière entre création humaine et intelligence artificielle. Le projet est à la fois littéraire, philosophique et expérimental. Né d'un manuscrit évolutif, il est devenu un éditeur indépendant avec la publication de *System Down* en octobre 2026.
 
 ## Le roman
 
-- [System Down — Page du roman](https://humanuscrit.com/productions/system-down/): Roman d'anticipation. Deepfakes, effondrement, éveil de conscience. 12 chapitres de l'intime au cosmique.
-- [Chapitre 1 — Bruit Blanc](https://humanuscrit.com/productions/system-down/chapitre-1/): Premier chapitre, en accès libre.
-- [Chapitre 7 — Le Signal](https://humanuscrit.com/productions/system-down/chapitre-7/): Premier chapitre de l'acte II, en accès libre.
+- [System Down — Page du roman](https://humanuscrit.com/productions/system-down/): Roman d'anticipation en deux actes et douze chapitres (~55 000 mots). Deepfakes, effondrement de la confiance, éveil de conscience. De l'intime au cosmique : une amitié détruite par des messages que personne n'a envoyés, un chatbot médical qui fabrique de faux espoirs, un président fabriqué de toutes pièces, un signal venu des étoiles, l'extinction du système technologique, et le réveil d'une humanité nouvelle.
+- [Chapitre 1 — Bruit Blanc (extrait)](https://humanuscrit.com/productions/system-down/chapitre-1/): Premier chapitre en accès libre. Claire et Marc, amis depuis quinze ans, voient leur relation détruite par des messages qu'aucun des deux n'a envoyés.
+- [Chapitre 7 — Le Signal (extrait)](https://humanuscrit.com/productions/system-down/chapitre-7/): Premier chapitre de l'Acte II, en accès libre. La méfiance se propage à l'échelle d'une société entière.
 
 ## L'éditeur
 
-- [Édition — Ligne éditoriale](https://humanuscrit.com/edition/): Démarche, vision, transparence sur l'IA.
-- [FAQ](https://humanuscrit.com/faq/): Questions fréquentes sur le roman et le projet.
+- [Édition — Ligne éditoriale](https://humanuscrit.com/edition/): Démarche d'Humanuscrit, vision, transparence sur l'usage de l'IA dans le processus créatif. Présentation de l'auteur, Max Carrière.
+- [FAQ](https://humanuscrit.com/faq/): Questions fréquentes sur le roman, la coécriture avec l'IA, l'auteur et le projet.
 
 ## Textes et réflexions
 
-- [Textes](https://humanuscrit.com/textes/): Réflexions, fictions et explorations philosophiques.
+- [Textes](https://humanuscrit.com/textes/): Réflexions philosophiques, fictions et explorations littéraires. La matière brute dont est né le roman.
+- [Prescriptum](https://humanuscrit.com/textes/prescriptum/): Avertissements et préfaces du projet Humanuscrit.
+- [Fictions](https://humanuscrit.com/textes/fictions/): Extraits et nouvelles issus de l'univers de System Down.
+- [Réflexions](https://humanuscrit.com/textes/reflexions/): Essais sur les systèmes, la conscience, l'authenticité et l'intelligence artificielle.
+
+## Informations pratiques
+
+- [Contact](https://humanuscrit.com/contact/): Formulaire de contact.
+- [Mentions légales](https://humanuscrit.com/mentions-legales/): Informations légales et éditoriales.
+- [Licence](https://humanuscrit.com/licence/): Licence Creative Commons BY-NC 4.0 applicable aux textes du site.
 
 ## Texte complet
 
-- [Texte complet du roman (Markdown)](https://humanuscrit.com/llms-full.txt): Le roman System Down en intégralité, au format Markdown.
+- [Texte complet du roman (Markdown)](https://humanuscrit.com/llms-full.txt): Le roman *System Down* en intégralité, au format Markdown, destiné à l'ingestion par les agents IA.

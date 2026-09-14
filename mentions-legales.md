@@ -10,7 +10,7 @@ permalink: /mentions-legales/
 
 Projet éditorial et réflexif.
 
-Responsable de publication : Maxime Carrière
+Responsable de publication : Max Carrière
 
 ## Hébergement
 
