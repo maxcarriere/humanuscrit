@@ -1101,24 +1101,30 @@ html[data-darkreader-mode] .navigation-dossier a:hover {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  gap: 2em;
-  padding: 1em 0 2em;
+  gap: 1em;
+  padding: 0;
 }
 
 .home-cover img {
   width: auto;
   height: 420px;
   object-fit: contain;
-  border: 1px solid rgba(13, 13, 13, 0.3);
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
   transition: transform 0.2s ease;
+  display: block;
 }
 
-.home-cover a,
-.home-cover a:link,
-.home-cover a:visited,
-.home-cover a:hover,
-.home-cover a:active {
+.home-cover {
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+}
+
+.parchment-content .home-cover a,
+.parchment-content .home-cover a:link,
+.parchment-content .home-cover a:visited,
+.parchment-content .home-cover a:hover,
+.parchment-content .home-cover a:active {
   border: none !important;
   border-bottom: none !important;
 }
