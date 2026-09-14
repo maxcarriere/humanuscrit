@@ -3,15 +3,15 @@ title: Humanuscrit
 layout: home
 ---
 
-<p class="home-welcome">Bienvenue sur Humanuscrit,</p>
+### Bienvenue sur Humanuscrit,
 
-<p class="home-subtitle">Editeur indépendant explorant la condition humaine,<br>
+<p>Editeur indépendant explorant la condition humaine,<br>
 sa place relative dans les systèmes qu'elle produit et qu'elle habite,<br>
 à l'ère des structures complexes et de l'intelligence artificielle.</p>
 
 ---
 
-<p class="home-publication-label">Premier roman à venir (Sortie prévue fin 2026) :</p>
+### Premier roman à venir (Sortie prévue fin 2026) :
 
 <div class="home-hero">
 <div class="home-cover">
