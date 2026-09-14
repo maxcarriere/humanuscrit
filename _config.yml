@@ -9,7 +9,7 @@ google_analytics_id: "G-9JJPLZ7KDD"
 # Laisser $$ et $ intacts pour KaTeX ; limiter l’interprétation tableau (pipe en blockquote)
 kramdown:
   input: GFM
-  math_engine: nil
+  math_engine:
   parse_block_html: true
 
 defaults:
@@ -17,14 +17,14 @@ defaults:
       path: ""
     values:
       layout: page
-  - scope:
-      path: "a-propos.md"
-    values:
-      permalink: /a-propos/
 
 header_pages:
-  - textes/index.md
+  - edition.md
   - productions/index.md
-  - a-propos.md
+  - textes/index.md
+  - contact.md
+
+exclude:
+  - site_backup_20260914
 
 # Compteur accueil : simplifié, basé sur un badge SVG externe.

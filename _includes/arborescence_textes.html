@@ -2,7 +2,7 @@
   Arborescence de la section Textes : dossiers à la racine.
   Ordre = progression conceptuelle (prescriptum → … → reception-critiques).
 {% endcomment %}
-{% assign folder_order = "prescriptum|fictions|reflexions|reflexivite-conscience|contes-poesie-eveil|temoignages-personnel|reception-critiques" | split: "|" %}
+{% assign folder_order = "prescriptum|fictions|reflexions" | split: "|" %}
 <ul class="arborescence-textes">
   {% for folder_name in folder_order %}
     {% assign folder_path = "textes/" | append: folder_name | append: "/index.md" %}

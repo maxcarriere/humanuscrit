@@ -52,7 +52,14 @@ L'homme, libéré des histoires qu'il portait en lui comme des chaînes, peut v�
 
 ---
 
-*En cours de soumission éditoriale.*
-*Pour tout renseignement sur le manuscrit complet, [contacter l'auteur]({{ "/contact/" | relative_url }}).*
+---
+
+### Se procurer le roman
+
+<div class="buy-links">
+  <p><em>Liens d'achat à venir — publication en cours.</em></p>
+</div>
+
+*Pour tout renseignement, [contacter l'auteur]({{ "/contact/" | relative_url }}).*
 
 [← Retour aux Productions]({{ '/productions/' | relative_url }})

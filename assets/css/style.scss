@@ -61,23 +61,13 @@ body *::after {
   flex-wrap: wrap;
 }
 
-/* Desktop : 3 colonnes – logo | menu centré | liens externes */
+/* Desktop : 2 colonnes – logo | menu */
 @media (min-width: 1200px) {
   .header-inner {
     justify-content: space-between;
   }
 
-  .header-brand,
-  .site-nav,
-  .header-external {
-    flex: 1;
-  }
-
   .site-nav {
-    justify-content: center;
-  }
-
-  .header-external {
     justify-content: flex-end;
   }
 }
@@ -108,38 +98,6 @@ body *::after {
   text-transform: uppercase;
 }
 
-.header-external {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-
-.header-external a {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  opacity: 0.7;
-  transition: opacity 0.2s;
-  text-decoration: none;
-  color: #d8ccb0;
-  font-size: 0.8rem;
-  letter-spacing: 0.1em;
-}
-
-.header-external a:hover {
-  opacity: 1;
-}
-
-.header-external img {
-  width: 28px;
-  height: 28px;
-  border-radius: 4px;
-  display: block;
-}
-
-.header-external span {
-  text-transform: uppercase;
-}
 
 .site-nav {
   display: flex;
@@ -201,10 +159,6 @@ body *::after {
   }
 
   .site-nav {
-    display: none;
-  }
-
-  .header-external {
     display: none;
   }
 
@@ -470,18 +424,13 @@ body .parchment-content * {
   color-adjust: exact !important;
 }
 
-/* Page d'accueil : tout le texte centré */
+/* Page d'accueil : centré */
 .page-home .parchment-content {
   text-align: center;
 }
 
 .page-home .parchment-content p {
   text-align: center;
-}
-
-.page-home .arborescence-textes {
-  display: inline-block;
-  text-align: left;
 }
 
 /* Pages de section (index d’un dossier sous textes) : centrer le verbe en haut */
@@ -1078,7 +1027,119 @@ html[data-darkreader-mode] .navigation-dossier a:hover {
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15);
 }
 
-/* ===== 9. Protection absolue contre toutes les extensions de modification de couleur ===== */
+/* ===== 9. Page d'accueil — vitrine roman ===== */
+.home-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 2em;
+  padding: 1em 0 2em;
+}
+
+.home-cover img {
+  width: auto;
+  height: 420px;
+  object-fit: contain;
+  border: 1px solid rgba(13, 13, 13, 0.3);
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease;
+}
+
+.home-cover a {
+  border-bottom: none !important;
+}
+
+.home-cover img:hover {
+  transform: scale(1.02);
+}
+
+.home-pitch {
+  max-width: 50ch;
+}
+
+.home-tagline {
+  font-style: italic;
+  font-size: 1.1em;
+  line-height: 1.7;
+  margin-bottom: 1.5em;
+}
+
+.home-cta {
+  margin-top: 1.5em;
+}
+
+/* Bouton CTA */
+.cta-button,
+.cta-button:link,
+.cta-button:visited {
+  display: inline-block;
+  padding: 0.7em 2em;
+  font-family: inherit;
+  font-size: 1rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #0d0d0d !important;
+  background: rgba(243, 232, 207, 0.6);
+  border: 1px solid rgba(13, 13, 13, 0.3) !important;
+  border-bottom: 1px solid rgba(13, 13, 13, 0.3) !important;
+  text-decoration: none !important;
+  cursor: pointer;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.cta-button:hover {
+  background: rgba(243, 232, 207, 0.9);
+  border-color: rgba(13, 13, 13, 0.5) !important;
+}
+
+/* Liens d'achat */
+.buy-links {
+  text-align: center;
+  margin: 1.5em 0;
+}
+
+.buy-links .cta-button {
+  margin: 0.5em;
+}
+
+/* Footer — projets liés */
+.footer-projects {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-top: 0.3rem;
+}
+
+.footer-projects a {
+  color: #a89f8a;
+  text-decoration: none;
+}
+
+.footer-projects a:hover {
+  text-decoration: underline;
+}
+
+.footer-projects span {
+  opacity: 0.6;
+}
+
+@media (max-width: 1199px) {
+  .home-cover img {
+    height: 300px;
+  }
+
+  .home-pitch {
+    max-width: 100%;
+  }
+
+  .footer-projects {
+    font-size: 0.6rem;
+  }
+}
+
+/* ===== 10. Protection absolue contre toutes les extensions de modification de couleur ===== */
 /* Règle globale pour empêcher toute modification de couleur par Dark Reader et autres extensions */
 html[data-darkreader-mode],
 html[data-darkreader-mode] body,
