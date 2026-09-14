@@ -1114,7 +1114,12 @@ html[data-darkreader-mode] .navigation-dossier a:hover {
   transition: transform 0.2s ease;
 }
 
-.home-cover a {
+.home-cover a,
+.home-cover a:link,
+.home-cover a:visited,
+.home-cover a:hover,
+.home-cover a:active {
+  border: none !important;
   border-bottom: none !important;
 }
 
