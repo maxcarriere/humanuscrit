@@ -3,10 +3,12 @@ title: Humanuscrit
 layout: home
 ---
 
-<p class="home-welcome">Bienvenue chez <strong>Humanuscrit</strong>, éditeur indépendant explorant la condition humaine à l'ère des systèmes et de l'intelligence artificielle.</p>
+<p class="home-welcome">Bienvenue sur Humanuscrit.com</p>
+
+<p class="home-subtitle">Editeur indépendant explorant la condition humaine, sur sa place relative dans les systèmes qu'elle produit et qu'elle habite, à l'ère des structures complexes et de l'intelligence artificielle.</p>
 
 <div class="home-publication">
-<p class="home-publication-label">Publication à venir</p>
+<p class="home-publication-label">Premier Roman à venir — Sortie prévue Fin 2026</p>
 </div>
 
 <div class="home-hero">
@@ -16,10 +18,8 @@ layout: home
 </a>
 </div>
 <div class="home-pitch">
-<p class="home-tagline">Quand le vacarme se tait, le silence ouvre un espace.<br>
-Et dans cet espace, quelque chose s'éveille.</p>
-<p><strong>System Down</strong> — le premier roman d'Humanuscrit.<br>
-Un récit où les récits eux-mêmes s'effondrent. Douze chapitres, de l'Extinction à l'Illumination.</p>
+<p class="home-tagline">System Down — Un récit où les récits s'effondrent eux-mêmes.</p>
+<p>Ecrit par Max Carrière.</p>
 <div class="home-cta">
 <a href="{{ '/productions/system-down/' | relative_url }}" class="cta-button">Découvrir le roman</a>
 </div>
