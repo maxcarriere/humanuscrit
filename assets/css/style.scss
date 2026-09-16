@@ -174,7 +174,7 @@ body *::after {
   position: absolute;
   top: 100%;
   left: 0;
-  margin-top: 0.6rem;
+  margin-top: 0.5rem;
   background: #0e0e0e;
   border: 1px solid rgba(255, 255, 255, 0.12);
   border-radius: 4px;
@@ -188,16 +188,20 @@ body *::after {
   transition: opacity 0.2s ease, transform 0.2s ease;
 }
 
+.nav-dropdown::before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  height: 0.5rem;
+}
+
 .nav-item:hover .nav-dropdown,
 .nav-item:focus-within .nav-dropdown {
   opacity: 1;
   transform: translateY(0);
   pointer-events: auto;
-}
-
-.nav-item:last-child .nav-dropdown {
-  left: auto;
-  right: 0;
 }
 
 .nav-dropdown a {
