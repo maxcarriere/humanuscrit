@@ -1,7 +1,7 @@
 ---
-title: Productions
+title: Livres
 ---
-Les productions d'Humanuscrit sont des objets finis — romans, essais — issus de la matière textuelle du projet. Elles naissent de la [matière brute]({{ "/textes/" | relative_url }}) et prennent une forme publiable et diffusable.
+Les livres d'Humanuscrit sont des objets finis — romans, essais — issus de la matière textuelle du projet. Ils naissent de la [matière brute]({{ "/textes/" | relative_url }}) et prennent une forme publiable et diffusable.
 
 ---
 
