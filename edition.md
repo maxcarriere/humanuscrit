@@ -22,11 +22,9 @@ La littérature comme outil de prise de conscience.
 
 ### L'auteur
 
-**Max Carrière** est le fondateur d'Humanuscrit. Le projet est né d'une volonté de partager des réflexions philosophiques et d'explorer les possibilités de création à l'ère numérique.
+**Max Carrière** est le fondateur d'Humanuscrit — agrégé de mathématiques, passé par l'enseignement, l'edtech et l'intelligence artificielle.
 
-Projets liés :
-- [Lectura](https://lectura.world){:target="_blank" rel="noopener noreferrer"} — Exploration des systèmes de lecture et des outils algorithmiques liés au langage
-- [Zmaths](https://zmaths.net){:target="_blank" rel="noopener noreferrer"} — Mathématiques
+[En savoir plus sur l'auteur]({{ '/edition/auteur/' | relative_url }})
 
 ---
 

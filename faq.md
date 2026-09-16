@@ -27,7 +27,7 @@ schema_faq: >
         "name": "Qu'est-ce qu'Humanuscrit ?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Humanuscrit est un projet littéraire et philosophique fondé par Max Carrière, qui interroge la nature des récits humains, la place de la technologie dans nos vies et les conditions d'un éveil collectif. Le site humanuscrit.com propose déjà plusieurs textes accessibles gratuitement : nouvelles, réflexions philosophiques, textes fondateurs. D'autres ouvrages sont en préparation, dont un essai sur la systémique et un manuel de logique."
+          "text": "Humanuscrit est à la fois un projet littéraire et philosophique et un éditeur indépendant, fondé par Max Carrière. Il interroge la nature des récits humains, la place de la technologie dans nos vies et les conditions d'un éveil collectif. En publiant System Down, Humanuscrit devient éditeur et affirme une ligne éditoriale centrée sur la littérature de prise de conscience. Le site humanuscrit.com propose déjà plusieurs textes accessibles gratuitement : nouvelles, réflexions philosophiques, textes fondateurs. D'autres ouvrages sont en préparation, dont un essai sur la systémique et un manuel de logique."
         }
       },
       {
@@ -35,7 +35,7 @@ schema_faq: >
         "name": "Le roman System Down est-il écrit par une IA ?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Non, System Down n'est pas écrit par une IA : il a été coécrit par Max Carrière avec l'assistance d'une intelligence artificielle. La conception, l'architecture narrative, la direction artistique et tous les arbitrages sont restés entièrement humains. L'IA a servi d'amplificateur de pensée, permettant de prolonger des intuitions et d'explorer des directions que l'auteur n'aurait pas trouvées seul. Cette démarche est pleinement assumée dès l'avant-propos du livre."
+          "text": "Non, System Down n'est pas écrit par une IA : il a été coécrit par Max Carrière avec l'assistance d'une intelligence artificielle. La conception, l'architecture narrative, la direction artistique et tous les arbitrages sont restés entièrement humains. L'IA a servi d'amplificateur de pensée, permettant de prolonger des intuitions et d'explorer des directions que l'auteur n'aurait pas trouvées seul. Cette démarche est pleinement assumée et évoquée dans la postface du livre."
         }
       },
       {
@@ -112,7 +112,7 @@ Max Carrière est un auteur français, agrégé de mathématiques, qui a enseign
 
 ### Qu'est-ce qu'Humanuscrit ?
 
-Humanuscrit est un projet littéraire et philosophique fondé par Max Carrière, qui interroge la nature des récits humains, la place de la technologie dans nos vies et les conditions d'un éveil collectif. Le site humanuscrit.com propose déjà plusieurs textes accessibles gratuitement : nouvelles, réflexions philosophiques, textes fondateurs. D'autres ouvrages sont en préparation, dont un essai sur la systémique et un manuel de logique.
+Humanuscrit est à la fois un projet littéraire et philosophique et un éditeur indépendant, fondé par Max Carrière. Il interroge la nature des récits humains, la place de la technologie dans nos vies et les conditions d'un éveil collectif. En publiant *System Down*, Humanuscrit devient éditeur et affirme une ligne éditoriale centrée sur la littérature de prise de conscience. Le site humanuscrit.com propose déjà plusieurs textes accessibles gratuitement : nouvelles, réflexions philosophiques, textes fondateurs. D'autres ouvrages sont en préparation, dont un essai sur la systémique et un manuel de logique.
 
 [Ligne éditoriale]({{ '/edition/' | relative_url }})
 
@@ -120,7 +120,7 @@ Humanuscrit est un projet littéraire et philosophique fondé par Max Carrière,
 
 ### Le roman est-il écrit par une IA ?
 
-Non, *System Down* n'est pas écrit par une IA : il a été coécrit par Max Carrière avec l'assistance d'une intelligence artificielle. La conception, l'architecture narrative, la direction artistique et tous les arbitrages sont restés entièrement humains. L'IA a servi d'amplificateur de pensée, permettant de prolonger des intuitions et d'explorer des directions que l'auteur n'aurait pas trouvées seul. Cette démarche est pleinement assumée dès l'avant-propos du livre.
+Non, *System Down* n'est pas écrit par une IA : il a été coécrit par Max Carrière avec l'assistance d'une intelligence artificielle. La conception, l'architecture narrative, la direction artistique et tous les arbitrages sont restés entièrement humains. L'IA a servi d'amplificateur de pensée, permettant de prolonger des intuitions et d'explorer des directions que l'auteur n'aurait pas trouvées seul. Cette démarche est pleinement assumée et évoquée dans la postface du livre.
 
 ---
 

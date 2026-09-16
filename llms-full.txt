@@ -1,7 +1,3 @@
----
-permalink: /llms-full.txt
-layout: null
----
 # System Down
 
 > Roman d'anticipation par Max Carrière.
@@ -25,23 +21,34 @@ Veuillez patienter pendant le redémarrage de l'humanité...
 
 ## Avant-propos
 
-Chère lectrice, cher lecteur, avant d'entamer votre lecture, je souhaiterais vous adresser quelques mots sur la nature de ce manuscrit.
-Ce que vous vous apprêtez à lire se tient à la frontière entre la fiction et la réalité. Vous êtes libre de l'aborder comme un roman, comme un essai, ou bien comme un objet hybride. Aucune lecture n'est privilégiée. Mais quelle que soit la manière dont vous choisissez de le lire, ce texte vous amènera à vous confronter à deux questions qui se répondent comme dans un jeu de miroirs :
+Le 06 Février 2026,
+
+Cher lecteur, chère lectrice,
+
+Toi qui es tombé sur ce manuscrit, je souhaite te mettre en garde.
+Cette mise en garde n'est point une pirouette rhétorique visant à attiser ta curiosité. Elle est sincère, et surtout nécessaire.
+Il ne s'agit pas d'un avertissement concernant le contenu au sens habituel du terme : le texte en lui-même n'est ni dangereux ni malveillant. Ce à quoi le lecteur doit être préparé relève d'un autre ordre. Le risque éventuel ne se situe pas dans ce qui est écrit, mais dans la réflexion qui peut suivre la lecture de ce livre. Une réflexion potentiellement vertigineuse. Et c'est précisément en cela que cet avertissement prend son sens.
+Lire ce manuscrit, c'est accepter la possibilité d'enclencher, au sein de sa pensée, un changement de paradigme. Car ce texte n'a pas vocation à apprendre quelque chose, mais plutôt à remettre en question ce que l'on a appris. Il ne vise pas à défendre une vérité supplémentaire à ajouter à celles que l'on porte déjà. Il ne propose ni méthode, ni doctrine, ni chemin à suivre. Il ne contient ni direction, ni solution, et surtout aucune promesse.
+Au contraire.
+Et c'est pour cette raison que sa lecture peut ne pas être neutre pour l'esprit. Elle peut laisser un sentiment de vide, voire d'égarement. Non parce que ce manuscrit chercherait volontairement à déstabiliser, mais parce qu'il peut retirer certains repères que l'on n'avait peut-être jamais envisagé de remettre en question.
+
+À l'heure où j'écris ces lignes, personne n'a encore lu ce manuscrit. Au moment où tu les lis, il a sans doute déjà été parcouru par d'autres. Certains auront peut-être formulé des opinions à son sujet — en le critiquant, l'interprétant ou en projetant sur lui des espoirs et des fantasmes. L'objet de cet ultime avertissement n'est point de disqualifier d'avance le jugement des autres mais de permettre que ta rencontre avec ce texte ne soit pas conditionnée par des pensées parasites et que tu puisses l'aborder dans un état d'esprit neutre pour lequel il a été pensé.
+Aussi, concernant ce que tu as pu entendre, en bien ou en mal, à propos de ce manuscrit :
+Oublie tout.
+Sa lecture est, et doit rester, ta propre expérience.
+
+Max Carrière.
+
+*
+
+Le manuscrit que vous vous apprêtez à lire a d'abord été écrit comme une fiction — une succession de récits d'anticipation, ancré dans un monde proche du nôtre, explorant des situations plausibles, des trajectoires déjà perceptibles en filigrane dans le présent. Le cadre narratif, les personnages et les événements répondaient à cette intention initiale : raconter une histoire.
+Au fil de l'écriture, cependant, quelque chose s'est déplacé. Certaines idées développées dans le récit semblaient moins relever de l'anticipation que de l'analyse. Certains éléments, initialement pensés comme fictionnels, entraient en résonance directe avec des phénomènes déjà à l'œuvre. Le texte ne se contentait plus d'imaginer : il décrivait, parfois avec une précision inattendue, des mécanismes existants.
+C'est à partir de ce constat que le projet a évolué. Sans renoncer à sa dimension fictionnelle, le manuscrit a progressivement intégré un second mouvement, plus réflexif, plus explicite. Ces deux dimensions, narrative et réflexive, constituent ensemble l'architecture du livre. La fiction permet d'incarner, de rendre sensibles certaines questions. La réflexion permet de les examiner avec davantage de distance et de rigueur.
+Ce texte se tient ainsi à la frontière entre la fiction et la réalité. Vous êtes libre de l'aborder comme un roman, comme un essai, ou bien comme un objet hybride. Aucune lecture n'est privilégiée. Mais quelle que soit la manière dont vous choisissez de le lire, il vous amènera à vous confronter à deux questions qui se répondent comme dans un jeu de miroirs :
 Notre réalité humaine n'est-elle, au fond, qu'une simple fiction ?
 Une fiction peut-elle, à son tour, devenir une réalité ?
 
-Cela étant dit, avant de pénétrer dans le cœur de cette fiction, une mise en garde s'impose. Ceci n'est point une pirouette rhétorique visant à attiser votre curiosité. La mise en garde est sincère, et surtout nécessaire. Il ne s'agit pas d'un avertissement concernant le contenu au sens habituel du terme : le texte en lui-même n'est ni dangereux ni malveillant. L'objectif de ce texte n'est pas non plus d'entraîner vers des théories complotistes ou conspirationnistes, ni de substituer un récit à un autre. Ce à quoi le lecteur doit être préparé relève d'un autre ordre. Le risque éventuel ne se situe pas dans ce qui est écrit, mais dans la réflexion qui peut suivre la lecture de ce livre. Une réflexion potentiellement vertigineuse. Et c'est précisément en cela que cette mise en garde prend son sens.
-Lire ce manuscrit, c'est accepter la possibilité d'enclencher, au sein de sa pensée, un profond changement de paradigme. Un changement qui ne pourra être sans conséquence sur la suite de la vie du lecteur. Car ce texte n'a pas vocation à vous apprendre quoi que ce soit, mais plutôt à remettre en question tout ce que vous avez appris. Il ne vise pas à défendre une vérité supplémentaire à ajouter à celles que vous portez déjà. Il ne propose ni méthode, ni doctrine, ni chemin à suivre. Il ne contient ni direction, ni solution, et surtout aucune promesse.
-Au contraire.
-Et c'est sans doute pour cette raison que sa lecture pourrait ne pas être neutre pour votre esprit. Elle peut laisser un sentiment de vide, voire d'égarement. Non parce que ce manuscrit chercherait volontairement à déstabiliser, mais parce qu'il peut retirer certains repères que vous n'aviez peut-être jamais envisagé de remettre en cause.
-
-La seule véritable question qui se pose est donc la suivante :
-Est-ce vraiment le bon moment pour vous ?
-Si la réponse est oui, tournez la page. Si elle est non, refermez le livre et revenez-y plus tard.
-Mais si vous vous décidez à franchir le pas, permettez-moi une dernière recommandation. À l'heure où j'écris ces lignes, personne n'a jamais lu ce manuscrit. Au moment où vous les lisez, il a sans doute déjà été parcouru par d'autres. Certains auront peut-être formulé des opinions à son sujet, en le critiquant, l'interprétant ou en projetant sur lui des espoirs et des fantasmes. L'objet de cet ultime avertissement n'est ni de disqualifier d'avance le jugement des autres, ni de vous inviter à suspendre vous-même tout jugement. Il est plus simple que cela : permettre que votre rencontre avec ce texte ne soit pas conditionnée par des pensées parasites et que vous puissiez l'aborder dans un état d'esprit neutre pour lequel il a été pensé.
-Aussi, concernant ce que vous avez pu entendre, en bien ou en mal, à propos de ce manuscrit :
-Oubliez tout.
-Sa lecture est, et doit rester, votre propre expérience.
+Bonne lecture.
 
 ---
 
@@ -245,7 +252,7 @@ Comment savoir si les gens à qui elle parlait étaient vraiment eux ?
 Elle ne le saurait pas. Personne ne le pouvait. On faisait confiance, c'est tout. On n'avait pas le choix.
 En arrivant chez elle, elle posa son téléphone sur la table de l'entrée. L'écran resta noir. Elle ne le ralluma pas.
 Elle ne retira pas son manteau tout de suite. Elle resta debout dans l'entrée, les clés encore dans la main, à écouter le silence de l'appartement. Le bourdonnement lointain du frigo. Le tic-tac d'une pendule dans la cuisine. Sa propre respiration.
-Quelque chose était mort ce soir. Elle ne savait pas encore ce qui allait naître à la place. Peut-être rien. Mais c'était à elle d'attendre, pas à un écran de lui annoncer. Elle accrocha son manteau. Éteignit la lampe d'entrée. Et resta là encore un moment, dans le noir, sans téléphone.
+Quelque chose était mort ce soir. Elle ne savait pas encore ce qui allait naître à la place. Peut-être rien. Mais c'était à elle de le découvrir, pas à un écran de lui annoncer. Elle accrocha son manteau. Éteignit la lampe d'entrée. Et resta là encore un moment, dans le noir, sans téléphone.
 Le silence n'avait plus le même goût qu'avant.
 
 ---
@@ -1674,8 +1681,7 @@ Une mort lente.
 Celle d'un monde dont le système venait de s'éteindre.
 Yann regarda ses enfants. Louise, les yeux ouverts, qui fixait le ciel. Mathis, endormi, le pouce près de la bouche.
 Il regarda Émilie.
-Elle avait fermé les yeux. Le soleil sur son visage. Le vent dans ses cheveux.
-Au loin, dans le silence de Brest, un chien aboya. Une fois. Deux fois. Puis plus rien. Le silence revint, intact, et resta.
+Elle avait fermé les yeux. Le soleil sur son visage. Le vent dans ses cheveux. Au loin, dans le silence de Brest, un chien aboya. Une fois. Deux fois. Puis plus rien. Le silence revint, intact, et resta.
 
 Le surlendemain, ils étaient toujours vivants.
 Ce fut la phrase qui revint le plus souvent à Yann ce matin-là, en silence, à la façon d'une prière qu'on ne croit plus. Toujours vivants. Il avait dit à Émilie qu'ils tiendraient quelques jours sur les réserves. Trois bouteilles d'eau remontées de la cave la veille. Une boîte de farine. Trois conserves. Du lait en poudre pour Mathis, qui n'irait pas loin.
@@ -1867,7 +1873,13 @@ Et le silence revenait.
 Et puis, assez vite, les gens avaient cessé d'essayer.
 Un abandon qui aurait pu ressembler à de la résignation, mais qui n'en était pas. Le cauchemar collectif de la nuit du Signal, cette terreur pure, partagée par huit milliards d'êtres humains au même instant, avait agi comme un séisme psychique dont les répliques durèrent des mois. Ceux qui avaient survécu à l'effondrement physique portaient en eux une blessure plus profonde : celle d'avoir vécu dans un monde où la vérité et le mensonge avaient la même apparence, où les voix mentaient, où les images mentaient, où les données mentaient, et où le système qui transportait ces mensonges avait fini par s'éteindre sous leur poids. Rallumer le système, c'était rallumer la possibilité du mensonge. Et personne n'en voulait plus.
 Le bilan ne fut jamais chiffré. Par qui l'aurait-il été ? Il n'y avait plus de bureau de statistiques, plus d'organisation mondiale, plus de satellite pour compter les survivants. Des estimations circulèrent plus tard, de bouche à oreille, portées par des marcheurs qui reliaient les communautés les unes aux autres. Quelques dizaines de millions, peut-être. Sur huit milliards. Peut-être moins. Peut-être plus. Le chiffre exact n'avait aucune importance. Ce qui importait, c'est que ceux qui restaient étaient là, vivants, dispersés en communautés petites et locales, séparées les unes des autres par des distances redevenues immenses, les distances d'avant le moteur, d'avant le câble, d'avant le signal.
-De ceux qu'on avait connus avant la grande nuit, on n'eut jamais de nouvelles. Yann n'avait pas survécu. Émilie non plus. Ni Mathis. Ni Monsieur Le Bris, le vieil homme d'en face. Ni Madame Guillou, l'institutrice. Ni Héloïse Marchand, qui avait été la première à voir le signal des neutrinos sur son écran, dans la salle de contrôle du KM3NeT, un soir de printemps qui semblait déjà appartenir à un autre monde.
+De ceux qu'on avait connus avant la grande nuit, on n'eut jamais de nouvelles.
+Yann n'avait pas survécu.
+Émilie non plus.
+Ni Mathis.
+Ni Monsieur Le Bris, le vieil homme d'en face.
+Ni Madame Guillou, l'institutrice.
+Ni Héloïse Marchand, qui avait été la première à voir le signal des neutrinos sur son écran, dans la salle de contrôle du KM3NeT, un soir de printemps qui semblait déjà appartenir à un autre monde.
 Aucun d'entre eux.
 Sauf Louise.
 Louise avait huit ans le soir de l'extinction. Elle avait été recueillie par une communauté de l'arrière-pays breton, des paysans, des retraités, quelques familles qui s'étaient regroupées autour d'une ferme encore fonctionnelle, avec un puits, un potager, des poules. Elle n'avait pas parlé pendant des semaines. Puis elle avait recommencé, lentement, avec des mots simples, des phrases courtes, comme quelqu'un qui réapprend une langue qu'il avait oubliée.

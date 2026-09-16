@@ -15,4 +15,15 @@
       btn.setAttribute('aria-expanded', 'false');
     }
   });
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+      if (document.activeElement) {
+        document.activeElement.blur();
+      }
+      if (menu.getAttribute('aria-hidden') === 'false') {
+        menu.setAttribute('aria-hidden', 'true');
+        btn.setAttribute('aria-expanded', 'false');
+      }
+    }
+  });
 })();

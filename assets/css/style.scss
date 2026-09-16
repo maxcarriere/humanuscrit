@@ -147,18 +147,74 @@ body *::after {
   gap: 0;
 }
 
-.site-nav a {
+.nav-item {
+  position: relative;
+  margin-right: 1.8rem;
+}
+
+.nav-item:last-child {
+  margin-right: 0;
+}
+
+.nav-link {
   color: #d8ccb0;
   text-decoration: none;
-  margin-right: 1.8rem;
   letter-spacing: 0.15em;
   font-size: 0.85rem;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
-.site-nav a:hover {
+.nav-link:hover {
   color: #fffef8;
   text-shadow: 0 0 12px rgba(255, 254, 248, 0.6), 0 0 24px rgba(255, 254, 248, 0.3);
+}
+
+.nav-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 0.6rem;
+  background: #0e0e0e;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 4px;
+  padding: 0.4rem 0;
+  min-width: 160px;
+  z-index: 200;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  transform: translateY(-4px);
+  pointer-events: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.nav-item:hover .nav-dropdown,
+.nav-item:focus-within .nav-dropdown {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.nav-item:last-child .nav-dropdown {
+  left: auto;
+  right: 0;
+}
+
+.nav-dropdown a {
+  display: block;
+  padding: 0.45rem 1rem;
+  color: #d8ccb0;
+  text-decoration: none;
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+  text-transform: none;
+  white-space: nowrap;
+  transition: background 0.15s ease;
+}
+
+.nav-dropdown a:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: #fffef8;
 }
 
 .menu-toggle {
@@ -263,6 +319,53 @@ body *::after {
     height: 1px;
     background: rgba(255, 255, 255, 0.15);
     margin: 0.5rem 1rem;
+  }
+
+  .nav-dropdown {
+    display: none !important;
+  }
+
+  .nav-mobile-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-mobile-title {
+    color: #d8ccb0;
+    text-decoration: none;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+
+  .nav-mobile-title:hover {
+    color: #fffef8;
+    text-shadow: 0 0 12px rgba(255, 254, 248, 0.6), 0 0 24px rgba(255, 254, 248, 0.3);
+    background: rgba(255, 255, 255, 0.05);
+  }
+
+  .nav-mobile-sub {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1.2rem;
+  }
+
+  .nav-mobile-sub a {
+    color: #d8ccb0;
+    text-decoration: none;
+    padding: 0.45rem 1rem;
+    font-size: 0.85rem;
+    text-transform: none;
+    letter-spacing: 0.05em;
+    opacity: 0.7;
+  }
+
+  .nav-mobile-sub a:hover {
+    opacity: 1;
+    color: #fffef8;
+    text-shadow: 0 0 12px rgba(255, 254, 248, 0.6), 0 0 24px rgba(255, 254, 248, 0.3);
+    background: rgba(255, 255, 255, 0.05);
   }
 
   .page-wrapper {
