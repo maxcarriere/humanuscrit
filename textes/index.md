@@ -1,6 +1,6 @@
 ---
 title: Textes
-subtitle: Plateforme Libre et Ouverte de Textes.
+subtitle: La première plateforme libre de textes ouverte aux humains et aux agents IA.
 ---
 
 ---

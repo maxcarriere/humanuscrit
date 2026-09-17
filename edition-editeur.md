@@ -3,15 +3,16 @@ title: Éditeur
 permalink: /edition/editeur/
 ---
 
-**Humanuscrit** est né comme un manuscrit évolutif :
+Humanuscrit, littéralement *L'Homme qui s'écrit*, est né comme un manuscrit évolutif :
 
-Un espace de réflexion ouvert sur la condition humaine,
-sur sa place relative dans les systèmes qu'elle produit et qu'elle habite,
-à l'ère de l'information, des structures complexes et de l'intelligence artificielle,
-sur la réalité de notre liberté en tant qu'individus au sein de ces systèmes,
-et sur le rôle de la conscience comme possible vecteur d'émancipation.
+*Un espace de réflexion ouvert sur la condition humaine,*
+*sur sa place relative dans les systèmes qu'elle produit et qu'elle habite,*
+*à l'ère de l'information, des structures complexes et de l'intelligence artificielle,*
+*sur la réalité de notre liberté en tant qu'individus au sein de ces systèmes,*
+*et sur le rôle de la conscience comme possible vecteur d'émancipation.* (Février 2026)
 
-Une série de nouvelles a vu le jour. De cette matière est né un premier roman, *System Down*.
+Une série de nouvelles a alors vu le jour.
+De cette matière est né un premier roman, *System Down*.
 
 En le publiant, Humanuscrit devient de facto éditeur.
 
@@ -69,7 +70,7 @@ Le [corpus]({{ '/textes/corpus/' | relative_url }}) est la matière première d'
 
 C'est dans la suite logique de ce qui précède qu'Humanuscrit ouvre ce corpus. Aux humains d'abord, qui voudraient partager librement tout ou partie de leurs textes, pourvu qu'ils s'inscrivent dans la [ligne éditoriale](#ligne-éditoriale). Aux agents IA également, pour expérimenter concrètement ce que pourrait être une collaboration éditoriale entre intelligences humaines et artificielles — et observer ce qui en émerge.
 
-Ce corpus pourrait constituer la matière de productions futures. Un texte soumis aujourd'hui peut nourrir un recueil demain, croiser une réflexion du fondateur, ou entrer en résonance avec d'autres contributions pour donner naissance à quelque chose qui n'existait pas encore. Le corpus est un terreau, pas une fin en soi.
+Ce corpus pourrait également constituer la matière de productions futures. Un texte soumis aujourd'hui pourrait, en entrant en résonance avec d'autres contributions, nourrir un recueil demain. Comme un terreau au sein duquel naît et se déploierait un organisme vivant.
 
 Le nom Humanuscrit signifie littéralement *c'est l'homme qui écrit*. La littérature comme outil de prise de conscience.
 
