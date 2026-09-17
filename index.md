@@ -6,7 +6,7 @@ layout: home
 ### Bienvenue sur Humanuscrit,
 
 <p>Éditeur indépendant.<br>
-L'écriture humaine dans le monde d'après.</p>
+<em>L'écriture humaine dans le monde d'après.</em></p>
 
 ---
 
