@@ -1,6 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
   <rect width="160" height="160" rx="8" fill="#0e0e0e"/>
   <!-- Enveloppe -->
-  <rect x="30" y="45" width="100" height="70" rx="4" fill="none" stroke="#d8ccb0" stroke-width="2.5"/>
-  <polyline points="30,45 80,85 130,45" fill="none" stroke="#d8ccb0" stroke-width="2.5"/>
+  <rect x="28" y="48" width="104" height="68" rx="5" fill="none" stroke="#d8ccb0" stroke-width="2.5"/>
+  <!-- Rabat -->
+  <polyline points="28,48 80,90 132,48" fill="none" stroke="#d8ccb0" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- Lignes basses -->
+  <line x1="28" y1="116" x2="56" y2="88" stroke="#d8ccb0" stroke-width="2" opacity="0.4"/>
+  <line x1="132" y1="116" x2="104" y2="88" stroke="#d8ccb0" stroke-width="2" opacity="0.4"/>
 </svg>
