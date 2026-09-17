@@ -4,10 +4,6 @@ permalink: /edition/
 schema_organization: true
 ---
 
-Humanuscrit est un éditeur indépendant fondé par Max Carrière.
-
----
-
 <div class="productions-grid">
   <a href="{{ '/edition/editeur/' | relative_url }}" class="production-card">
     <span class="production-title">Éditeur</span>

@@ -1,9 +1,6 @@
 ---
 title: Livres
 ---
-Les livres publiés par Humanuscrit.
-
----
 
 <div class="productions-grid">
   <a href="{{ '/productions/system-down/' | relative_url }}" class="production-card">

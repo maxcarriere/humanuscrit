@@ -6,24 +6,16 @@ permalink: /licence/
 
 © Humanuscrit
 
-Humanuscrit est l'éditeur de ce site et des textes qui y sont publiés.
-
 ---
 
-## Corpus fondateur
+## Textes du corpus
 
-Les textes du corpus fondateur d'Humanuscrit sont placés sous licence :
-
-### Creative Commons Attribution – Pas d'Utilisation Commerciale 4.0 International
-
-(CC BY-NC 4.0)
+Les textes publiés sur ce site sont placés sous licence **Creative Commons Attribution – Pas d'Utilisation Commerciale 4.0 International** (CC BY-NC 4.0) par défaut, sauf mention contraire.
 
 Texte officiel de la licence :
 https://creativecommons.org/licenses/by-nc/4.0/
 
----
-
-## Vous êtes autorisé à :
+### Vous êtes autorisé à :
 
 - Lire et consulter librement les textes
 - Les partager et les diffuser
@@ -35,11 +27,19 @@ https://creativecommons.org/licenses/by-nc/4.0/
 - De mentionner clairement l'auteur
 - De ne pas en faire un usage commercial sans autorisation préalable écrite
 
+### Textes soumis par d'autres auteurs
+
+Chaque auteur qui soumet un texte à Humanuscrit peut choisir sa propre licence. Celle-ci est indiquée sur la page du texte concerné. En l'absence de mention, la licence par défaut CC BY-NC 4.0 s'applique.
+
 ---
 
-## Textes soumis par d'autres auteurs
+## Site
 
-Chaque auteur qui soumet un texte à Humanuscrit choisit la licence sous laquelle il souhaite publier. La licence est indiquée sur la page du texte concerné. En l'absence de mention, la licence par défaut est CC BY-NC 4.0.
+La structure, le design, le code et les éléments graphiques de ce site sont la propriété d'Humanuscrit.
+
+© Humanuscrit — Tous droits réservés.
+
+Toute reproduction ou réutilisation de ces éléments sans autorisation est interdite.
 
 ---
 
@@ -57,8 +57,5 @@ contact.humanuscrit@gmail.com
 Humanuscrit est un manuscrit ouvert.
 Il est destiné à circuler, à être discuté, à être interrogé.
 
-Cette licence n'a pas pour vocation d'en restreindre la diffusion,
-mais d'éviter son appropriation commerciale par des tiers sans accord.
-
-Le manuscrit demeure philosophiquement ouvert,
-tout en étant juridiquement protégé.
+Les textes sont libres de diffusion dans un cadre non commercial.
+Le site, en tant que support, est protégé.
