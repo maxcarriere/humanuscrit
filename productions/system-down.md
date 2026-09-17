@@ -12,15 +12,15 @@ Ce n'est que le premier cercle. Le même mécanisme frappe ailleurs, à d'autres
 
 ---
 
-<div class="book-covers">
-  <figure>
-    <img src="{{ '/assets/images/system_down_couv_avec_titre.png' | relative_url }}" alt="Couverture de System Down" class="book-cover-main">
-    <figcaption>Couverture</figcaption>
-  </figure>
-  <figure>
-    <img src="{{ '/assets/images/system_down_4couv.png' | relative_url }}" alt="4ème de couverture de System Down" class="book-cover-back">
-    <figcaption>4ème de couverture</figcaption>
-  </figure>
+<div class="book-covers" markdown="0">
+<figure>
+<img src="{{ '/assets/images/system_down_couv_avec_titre.png' | relative_url }}" alt="Couverture de System Down" class="book-cover-main">
+<figcaption>Couverture</figcaption>
+</figure>
+<figure>
+<img src="{{ '/assets/images/system_down_4couv.png' | relative_url }}" alt="4ème de couverture de System Down" class="book-cover-back">
+<figcaption>4ème de couverture</figcaption>
+</figure>
 </div>
 
 **Roman** — Max Carrière
