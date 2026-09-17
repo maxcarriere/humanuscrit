@@ -49,7 +49,7 @@ Premier roman de Max Carrière.
 
 **Acte I**
 
-1. Bruit Blanc — [lire l'extrait]({{ "/productions/system-down/chapitre-1/" | relative_url }}) · [version PDF]({{ "/assets/documents/system_down_apercu.pdf" | relative_url }}){:target="_blank"}
+1. Bruit Blanc — [lire l'extrait]({{ "/productions/system-down/chapitre-1/" | relative_url }}) · [version PDF]({{ "/assets/documents/system_down_chapitre1.pdf" | relative_url }}){:target="_blank"}
 2. Le Cercle
 3. La Promesse
 4. La Faille
@@ -59,7 +59,7 @@ Premier roman de Max Carrière.
 **Acte II**
 
 {:start="7"}
-7. Le Signal — [lire l'extrait]({{ "/productions/system-down/chapitre-7/" | relative_url }}) · [version PDF]({{ "/assets/documents/system_down_apercu.pdf" | relative_url }}){:target="_blank"}
+7. Le Signal — [lire l'extrait]({{ "/productions/system-down/chapitre-7/" | relative_url }}) · [version PDF]({{ "/assets/documents/system_down_chapitre7.pdf" | relative_url }}){:target="_blank"}
 8. L'Extinction
 9. La Chute
 10. Le Réveil
