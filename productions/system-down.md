@@ -4,33 +4,42 @@ permalink: /productions/system-down/
 schema_book: true
 ---
 
-System Down est un roman d'anticipation français sur un monde où deepfakes et intelligence artificielle ont rendu impossible la distinction entre le vrai et le faux. 12 chapitres de l'intime au cosmique.
+Un soir, Claire reçoit des messages d'une violence inexplicable de Marc, son ami le plus proche depuis quinze ans. Il jure n'avoir rien envoyé. Elle détient les preuves. Lui aussi.
+
+Quelqu'un, ou quelque chose, a parlé à leur place.
+
+Ce n'est que le premier cercle. Le même mécanisme frappe ailleurs, à d'autres échelles, jusqu'à atteindre l'humanité entière. Et à chaque cercle, la même question revient : si ce que l'on voit, entend et lit ne peut plus être tenu pour vrai... Alors, que reste-t-il ?
 
 ---
 
-À travers un récit où les récits eux-mêmes s'effondrent, il met en scène ce que pourrait signifier, concrètement, la prise de conscience collective — et ce qu'il resterait de l'homme une fois libéré des fictions qui le gouvernent.
-
 <div class="book-covers">
-  <img src="{{ '/assets/images/system_down_couv_avec_titre.png' | relative_url }}" alt="Couverture de System Down" class="book-cover-main">
-  <img src="{{ '/assets/images/system_down_4couv.png' | relative_url }}" alt="4ème de couverture de System Down" class="book-cover-back">
+  <figure>
+    <img src="{{ '/assets/images/system_down_couv_avec_titre.png' | relative_url }}" alt="Couverture de System Down" class="book-cover-main">
+    <figcaption>Couverture</figcaption>
+  </figure>
+  <figure>
+    <img src="{{ '/assets/images/system_down_4couv.png' | relative_url }}" alt="4ème de couverture de System Down" class="book-cover-back">
+    <figcaption>4ème de couverture</figcaption>
+  </figure>
 </div>
 
 **Roman** — Max Carrière
 Humanuscrit, 2026
 
-*De l'Extinction à l'Illumination.*
+---
 
-Un livre dont on ne sort pas indemne de sa lecture.
+System Down est un roman inclassable, entre dystopie anticipatoire et récit initiatique. Dans un style littéraire qui lui est propre, il explore en deux actes, d'un point de vue fictionnel et philosophique, le récit comme fondement même de notre humanité et ce qui arrive quand ce fondement s'effondre.
 
-Ce manuscrit vous entraîne dans ce que pourrait devenir le monde de demain... à moins que ce ne soit déjà celui d'aujourd'hui. Un monde où l'ensemble des récits qui fondent notre humanité s'éteignent soudainement.
+Le livre progresse par cercles concentriques : de l'intime au collectif, du collectif au politique, du politique au cosmique. Puis, du cosmique au silence. Chaque chapitre élargit la brèche ouverte par le précédent. Ce qui commence comme un thriller technologique bascule peu à peu vers une interrogation plus profonde sur ce que nous sommes quand les histoires que nous nous racontons et à travers lesquelles nous vivons cessent de fonctionner.
 
-Ce livre, à sa manière, contribuera peut-être à cette extinction.
+Mais System Down n'est pas seulement un roman apocalyptique. Là où la plupart des dystopies s'achèvent, ce livre bascule. L'acte II plonge dans le silence qui suit l'effondrement et s'interroge sur ce qui pourrait renaître des cendres de notre civilisation.
 
-Mais, quand le vacarme se tait, le silence ouvre un espace.
-Et dans cet espace, quelque chose s'éveille.
-L'homme, libéré des histoires qu'il portait en lui comme des chaînes, peut véritablement allumer sa conscience et découvrir une dimension nouvelle : celle que l'on nomme parfois liberté.
+Ce que raconte ce livre n'appartient peut-être déjà plus à la science-fiction. Deepfakes, désinformation, effondrement de la confiance dans les institutions, incapacité à distinguer le vrai du faux, autonomie croissante de l'IA : c'est déjà le monde dans lequel nous vivons. Plus actuel que jamais, System Down ne fait qu'en tirer le fil jusqu'au bout... Et son mécanisme d'écriture n'est pas étranger à ce qu'il raconte.
 
 ---
+
+Premier roman de Max Carrière.
+216 pages — 12 chapitres
 
 ### Chapitres
 
@@ -52,8 +61,6 @@ L'homme, libéré des histoires qu'il portait en lui comme des chaînes, peut v�
 10. Le Réveil
 11. L'Institutrice
 12. L'Amour et le Hasard
-
----
 
 ---
 
