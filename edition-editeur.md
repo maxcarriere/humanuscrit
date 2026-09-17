@@ -3,7 +3,7 @@ title: Éditeur
 permalink: /edition/editeur/
 ---
 
-**Humanuscrit** est un manuscrit évolutif.
+**Humanuscrit** est né comme un manuscrit évolutif.
 
 Un espace de réflexion ouvert sur la condition humaine,
 sur sa place relative dans les systèmes qu'elle produit et qu'elle habite,
