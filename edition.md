@@ -4,6 +4,8 @@ permalink: /edition/
 schema_organization: true
 ---
 
+*Humanuscrit comme Editeur.*
+
 ---
 
 <div class="productions-grid" markdown="0">

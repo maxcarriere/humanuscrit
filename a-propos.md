@@ -3,6 +3,8 @@ title: À propos
 permalink: /a-propos/
 ---
 
+*Pour en savoir un peu plus.*
+
 ---
 
 <div class="productions-grid" markdown="0">

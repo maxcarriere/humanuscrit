@@ -2,6 +2,8 @@
 title: Textes
 ---
 
+*Plateforme Libre et Ouverte de Textes.*
+
 ---
 
 <div class="productions-grid" markdown="0">
