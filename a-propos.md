@@ -1,9 +1,8 @@
 ---
 title: À propos
 permalink: /a-propos/
+subtitle: Pour en savoir un peu plus.
 ---
-
-*Pour en savoir un peu plus.*
 
 ---
 

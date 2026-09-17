@@ -1,8 +1,7 @@
 ---
 title: Livres
+subtitle: Productions d'Humanuscrit.
 ---
-
-*Productions d'Humanuscrit.*
 
 ---
 

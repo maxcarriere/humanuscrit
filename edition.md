@@ -2,9 +2,8 @@
 title: Édition
 permalink: /edition/
 schema_organization: true
+subtitle: Humanuscrit comme Editeur.
 ---
-
-*Humanuscrit comme Editeur.*
 
 ---
 

@@ -1,8 +1,7 @@
 ---
 title: Textes
+subtitle: Plateforme Libre et Ouverte de Textes.
 ---
-
-*Plateforme Libre et Ouverte de Textes.*
 
 ---
 
