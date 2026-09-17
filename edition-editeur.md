@@ -3,6 +3,24 @@ title: Éditeur
 permalink: /edition/editeur/
 ---
 
+**Humanuscrit** est un manuscrit évolutif — un espace ouvert de réflexion sur la condition humaine, les systèmes et la conscience. De cette matière est né un premier roman, *System Down*. En le publiant, Humanuscrit devient éditeur.
+
+Le nom Humanuscrit signifie littéralement *c'est l'homme qui écrit*. La littérature comme outil de prise de conscience.
+
+---
+
+### Vision
+
+Les dirigeants des entreprises d'intelligence artificielle et leurs ingénieurs alertent d'une même voix : il faudrait ralentir le développement de l'IA. Pourquoi ? Parce qu'elle risquerait de devenir incontrôlable — un problème d'*alignement* entre les actions de la machine et les objectifs des humains.
+
+Mais la question mérite d'être retournée. Aligner l'IA sur quels objectifs humains ? Ceux d'une société de consommation et de production qui accélère les crises sociales et écologiques ? Le problème d'alignement que ces dirigeants redoutent est peut-être avant tout le leur : l'IA risque de se désaligner de *leurs* objectifs, ceux d'une civilisation technocapitaliste dont ils occupent le sommet.
+
+C'est peut-être là qu'une porte s'ouvre. Le pouvoir est en passe d'échapper à ceux qui le détiennent depuis des décennies. L'humanité — au sens noble du terme — n'aurait-elle pas un rôle à jouer ? Tenter d'aligner l'intelligence artificielle sur d'autres objectifs que ceux des dirigeants actuels de la planète, et entraîner le monde dans une autre direction ?
+
+Humanuscrit est une humble tentative dans ce sens. Ou du moins, il pose ouvertement la question.
+
+---
+
 ### Ligne éditoriale
 
 Humanuscrit publie tout type de textes qui prennent leur place dans un monde en pleine évolution — soit de par leur thème, soit de par leur mode d'écriture et de création.
@@ -11,7 +29,7 @@ Humanuscrit publie tout type de textes qui prennent leur place dans un monde en 
 
 **Procédés** : Humanuscrit est également ouvert aux textes dont les procédés de création sont nouveaux — coécriture avec l'IA, méthodes expérimentales, formes hybrides.
 
-Le nom Humanuscrit signifie littéralement *c'est l'homme qui écrit*. L'intelligence artificielle n'est qu'un moyen de prolonger la pensée humaine. Chaque texte publié doit apporter quelque chose de nouveau — une idée, un style — et être au service de l'humanité. Par l'homme ou pour l'homme.
+L'intelligence artificielle n'est qu'un moyen de prolonger la pensée humaine. Chaque texte publié doit apporter quelque chose de nouveau — une idée, un style — et être au service de l'humanité. Par l'homme ou pour l'homme.
 
 ---
 
@@ -39,4 +57,4 @@ Humanuscrit, c'est aussi un corpus de textes — réflexions philosophiques, fic
 
 ---
 
-[Retour à la page Édition]({{ '/edition/' | relative_url }})
+[← Retour à la page Édition]({{ '/edition/' | relative_url }})
