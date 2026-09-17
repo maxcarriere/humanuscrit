@@ -1,15 +1,19 @@
 ---
 title: À propos
+permalink: /a-propos/
 ---
 
-Quelques mots sur le porteur du projet.
-
-Ce site est réalisé sans formation technique en informatique ou développement web. Les motivations qui l'animent sont :
-
-- partager des réflexions philosophiques ;
-- tester les possibilités actuelles de création sans compétence technique ;
-- explorer les modes de collaboration humain–IA.
-
-Le projet [Lectura](http://www.lec-tu-ra.com){:target="_blank" rel="noopener noreferrer"}, consacré à l'exploration des systèmes de lecture et des outils algorithmiques liés au langage, constitue un projet frère de Humanuscrit.
-
-Les textes du site sont placés sous [licence CC BY-NC 4.0]({{ '/licence/' | relative_url }}) (Creative Commons Attribution – Pas d'Utilisation Commerciale), sauf mention contraire.
+<div class="productions-grid">
+  <a href="{{ '/contact/' | relative_url }}" class="production-card">
+    <span class="production-title">Contact</span>
+    <span class="production-meta">Nous écrire</span>
+  </a>
+  <a href="{{ '/liens/' | relative_url }}" class="production-card">
+    <span class="production-title">Liens</span>
+    <span class="production-meta">Projets liés</span>
+  </a>
+  <a href="{{ '/faq/' | relative_url }}" class="production-card">
+    <span class="production-title">FAQ</span>
+    <span class="production-meta">Questions fréquentes</span>
+  </a>
+</div>
