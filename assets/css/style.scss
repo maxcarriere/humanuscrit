@@ -1231,6 +1231,13 @@ html[data-darkreader-mode] .navigation-dossier a:hover {
   opacity: 0.7;
 }
 
+.book-cover-link {
+  display: block;
+  cursor: zoom-in;
+  border: none !important;
+  border-bottom: none !important;
+}
+
 .book-covers img {
   width: auto;
   height: 400px;

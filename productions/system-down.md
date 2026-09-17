@@ -14,12 +14,16 @@ Ce n'est que le premier cercle. Le même mécanisme frappe ailleurs, à d'autres
 
 <div class="book-covers" markdown="0">
 <figure>
+<a href="{{ '/assets/images/system_down_couv_avec_titre.png' | relative_url }}" target="_blank" rel="noopener" class="book-cover-link">
 <img src="{{ '/assets/images/system_down_couv_avec_titre.png' | relative_url }}" alt="Couverture de System Down" class="book-cover-main">
-<figcaption>Couverture</figcaption>
+</a>
+<figcaption>Couverture <small>(cliquer pour agrandir)</small></figcaption>
 </figure>
 <figure>
+<a href="{{ '/assets/images/system_down_4couv.png' | relative_url }}" target="_blank" rel="noopener" class="book-cover-link">
 <img src="{{ '/assets/images/system_down_4couv.png' | relative_url }}" alt="4ème de couverture de System Down" class="book-cover-back">
-<figcaption>4ème de couverture</figcaption>
+</a>
+<figcaption>4ème de couverture <small>(cliquer pour agrandir)</small></figcaption>
 </figure>
 </div>
 
