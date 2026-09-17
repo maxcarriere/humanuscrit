@@ -5,9 +5,8 @@ layout: home
 
 ### Bienvenue sur Humanuscrit,
 
-<p>Editeur indépendant explorant la condition humaine,<br>
-sa place relative dans les systèmes qu'elle produit et qu'elle habite,<br>
-à l'ère des structures complexes et de l'intelligence artificielle.</p>
+<p>Éditeur indépendant.<br>
+Par l'homme, pour l'homme — et au-delà.</p>
 
 ---
 

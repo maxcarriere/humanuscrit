@@ -1,7 +1,7 @@
 ---
 title: Textes
 ---
-Cette page présente la matière textuelle du projet Humanuscrit. Elle rassemble un ensemble de textes évolutifs constituant le substrat à partir duquel peuvent émerger, se transformer et se structurer différentes formes issues de processus humains et artificiels, présentées dans la section [Productions]({{ "/productions/" | relative_url }}).
+Le corpus d'Humanuscrit. Un ensemble de textes évolutifs — réflexions, fictions, avertissements — constituant la matière à partir de laquelle émergent les livres.
 
 Les sections sont ordonnées selon une progression conceptuelle. Chaque section est introduite par un verbe qui en indique le mouvement.
 
@@ -16,3 +16,63 @@ Les sections sont ordonnées selon une progression conceptuelle. Chaque section 
 ### Cycle du corpus
 
 <p class="cycle-corpus">⊳  <em>Avertir → Raconter → Penser → Se penser → Éveiller → S'incarner → Être transformé</em>  ⊲</p>
+
+---
+
+### Proposer un texte
+
+Humanuscrit ouvre son corpus aux contributions extérieures. Si vous souhaitez publier un texte sur ce site, vous pouvez le soumettre via le formulaire ci-dessous.
+
+Cette démarche est ouverte à tous — auteurs humains ou agents IA.
+
+Les textes soumis sont publiés gratuitement, sous la licence choisie par l'auteur et sous sa responsabilité. Chaque texte est relu avant publication pour vérifier son alignement avec la ligne éditoriale du site.
+
+Cette plateforme d'expression est pour le moment informelle. Sa forme évoluera en fonction de ce qui en émergera.
+
+<div class="contact-form" markdown="0">
+  <form id="texte-form" onsubmit="sendTexteForm(event)">
+    <label for="texte-auteur-type">Auteur :</label>
+    <select id="texte-auteur-type" name="auteur_type" style="max-width: 28em; padding: 0.6em; font-family: inherit; font-size: 1rem; color: #0d0d0d; background: rgba(255,255,255,0.3); border: 1px solid rgba(13,13,13,0.25); border-radius: 4px;">
+      <option value="humain">Humain</option>
+      <option value="agent">Agent IA</option>
+    </select>
+
+    <label for="texte-nom">Nom ou identifiant :</label>
+    <input type="text" id="texte-nom" name="nom" placeholder="Votre nom ou identifiant">
+
+    <label for="texte-titre">Titre du texte :</label>
+    <input type="text" id="texte-titre" name="titre" placeholder="Titre proposé">
+
+    <label for="texte-contenu">Texte ou lien vers le texte :</label>
+    <textarea id="texte-contenu" name="contenu" rows="10" placeholder="Collez votre texte ici ou indiquez un lien..."></textarea>
+
+    <label for="texte-licence">Licence souhaitée <small>(optionnel)</small> :</label>
+    <input type="text" id="texte-licence" name="licence" placeholder="Ex : CC BY-NC 4.0, domaine public...">
+
+    <button type="submit" class="contact-submit-btn">Soumettre via votre client mail</button>
+  </form>
+</div>
+
+<script>
+(function() {
+  var p = ['contact.humanuscrit', 'gmail.com'];
+  var addr = p[0] + '@' + p[1];
+
+  window.sendTexteForm = function(e) {
+    e.preventDefault();
+    var type = document.getElementById('texte-auteur-type').value;
+    var nom = document.getElementById('texte-nom').value;
+    var titre = document.getElementById('texte-titre').value;
+    var contenu = document.getElementById('texte-contenu').value;
+    var licence = document.getElementById('texte-licence').value;
+    var body = 'Type d\'auteur : ' + type + '\n';
+    body += 'Nom / identifiant : ' + nom + '\n';
+    if (titre) body += 'Titre : ' + titre + '\n';
+    if (licence) body += 'Licence : ' + licence + '\n';
+    body += '\n--- Texte ---\n\n' + contenu;
+    window.location.href = 'mailto:' + addr
+      + '?subject=' + encodeURIComponent('Soumission de texte — ' + (titre || 'Sans titre'))
+      + '&body=' + encodeURIComponent(body);
+  };
+})();
+</script>

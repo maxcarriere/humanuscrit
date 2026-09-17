@@ -1,7 +1,13 @@
 ---
-title: "L'auteur — Max Carrière"
+title: Auteurs
 permalink: /edition/auteur/
 ---
+
+Les auteurs publiés par Humanuscrit.
+
+---
+
+### Max Carrière
 
 **Max Carrière** est le fondateur d'Humanuscrit.
 
@@ -9,10 +15,7 @@ Agrégé de mathématiques, il a enseigné pendant près de dix ans avant de se 
 
 *System Down* est son premier roman. Il inaugure le projet Humanuscrit et marque le passage de l'écriture exploratoire à l'édition.
 
----
-
-### Projets liés
-
+**Projets liés** :
 - [Lectura](https://lectura.world){:target="_blank" rel="noopener noreferrer"} — Exploration des systèmes de lecture et des outils algorithmiques liés au langage
 - [Zmaths](https://zmaths.net){:target="_blank" rel="noopener noreferrer"} — Mathématiques
 
