@@ -7,6 +7,16 @@ Les auteurs publiés par Humanuscrit.
 
 ---
 
+<div class="productions-grid">
+  <div class="author-card">
+    <img src="{{ '/assets/images/max-carriere.jpg' | relative_url }}" alt="Max Carrière">
+    <span class="production-title">Max Carrière</span>
+    <span class="production-meta">Fondateur — Auteur</span>
+  </div>
+</div>
+
+---
+
 ### Max Carrière
 
 **Max Carrière** est le fondateur d'Humanuscrit.

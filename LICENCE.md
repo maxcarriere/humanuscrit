@@ -4,15 +4,21 @@ layout: page
 permalink: /licence/
 ---
 
-© 2026 Max Carrière
+© Humanuscrit
 
-L'ensemble des textes publiés dans le cadre du projet **Humanuscrit**, sauf mention contraire explicite, est placé sous licence :
+Humanuscrit est l'éditeur de ce site et des textes qui y sont publiés.
 
-## Creative Commons Attribution – Pas d'Utilisation Commerciale 4.0 International
+---
+
+## Corpus fondateur
+
+Les textes du corpus fondateur d'Humanuscrit sont placés sous licence :
+
+### Creative Commons Attribution – Pas d'Utilisation Commerciale 4.0 International
 
 (CC BY-NC 4.0)
 
-Texte officiel de la licence :  
+Texte officiel de la licence :
 https://creativecommons.org/licenses/by-nc/4.0/
 
 ---
@@ -31,22 +37,28 @@ https://creativecommons.org/licenses/by-nc/4.0/
 
 ---
 
+## Textes soumis par d'autres auteurs
+
+Chaque auteur qui soumet un texte à Humanuscrit choisit la licence sous laquelle il souhaite publier. La licence est indiquée sur la page du texte concerné. En l'absence de mention, la licence par défaut est CC BY-NC 4.0.
+
+---
+
 ## Usage commercial
 
 Toute utilisation commerciale des textes (vente, intégration dans un produit payant, exploitation éditoriale, formation rémunérée, etc.) nécessite une autorisation explicite de l'auteur.
 
-Pour toute demande :  
+Pour toute demande :
 contact.humanuscrit@gmail.com
 
 ---
 
 ## Esprit de la licence
 
-Humanuscrit est un manuscrit ouvert.  
+Humanuscrit est un manuscrit ouvert.
 Il est destiné à circuler, à être discuté, à être interrogé.
 
-Cette licence n'a pas pour vocation d'en restreindre la diffusion,  
+Cette licence n'a pas pour vocation d'en restreindre la diffusion,
 mais d'éviter son appropriation commerciale par des tiers sans accord.
 
-Le manuscrit demeure philosophiquement ouvert,  
+Le manuscrit demeure philosophiquement ouvert,
 tout en étant juridiquement protégé.
