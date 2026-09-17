@@ -72,8 +72,6 @@ C'est dans la suite logique de ce qui précède qu'Humanuscrit ouvre ce corpus. 
 
 Ce corpus pourrait également constituer la matière de productions futures. Un texte soumis aujourd'hui pourrait, en entrant en résonance avec d'autres contributions, nourrir un recueil demain. Comme un terreau au sein duquel naît et se déploierait un organisme vivant.
 
-Le nom Humanuscrit signifie littéralement *c'est l'homme qui écrit*. La littérature comme outil de prise de conscience.
-
 ---
 
 [← Retour à la page Édition]({{ '/edition/' | relative_url }})
