@@ -3,6 +3,6 @@
   <!-- Bulle de dialogue -->
   <path d="M30 35 L130 35 C133 35 135 37 135 40 L135 100 C135 103 133 105 130 105 L90 105 L75 125 L70 105 L30 105 C27 105 25 103 25 100 L25 40 C25 37 27 35 30 35 Z" fill="none" stroke="#d8ccb0" stroke-width="2.5" stroke-linejoin="round"/>
   <!-- Point d'interrogation dans la bulle -->
-  <path d="M64 55 C64 45 72 40 80 40 C88 40 96 45 96 55 C96 63 90 66 86 70 L83 75" fill="none" stroke="#d8ccb0" stroke-width="3.5" stroke-linecap="round"/>
-  <circle cx="82" cy="90" r="4" fill="#d8ccb0"/>
+  <path d="M64 60 C64 50 72 45 80 45 C88 45 96 50 96 60 C96 68 90 71 86 75 L83 80" fill="none" stroke="#d8ccb0" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="82" cy="95" r="4" fill="#d8ccb0"/>
 </svg>
