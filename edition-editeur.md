@@ -37,7 +37,11 @@ Humanuscrit publie tout type de textes qui prennent leur place dans un monde en 
 
 **Procédés** : Humanuscrit est également ouvert aux textes dont les procédés de création sont nouveaux — coécriture avec l'IA, méthodes expérimentales, formes hybrides.
 
-L'intelligence artificielle n'est qu'un moyen de prolonger la pensée humaine. Chaque texte publié doit apporter quelque chose de nouveau — une idée, un style — et être au service de l'humanité. Par l'homme ou pour l'homme.
+Humanuscrit n'a pas vocation à publier n'importe quel texte produit par une IA. Pas de contenu générique, pas de production pour la production, pas de texte sans vision.
+
+Ce qui intéresse Humanuscrit, ce sont les textes où l'IA a permis d'aller plus loin : augmenter la pensée de l'auteur, explorer des terrains inconnus, développer une idée ou un projet qui n'auraient pas vu le jour autrement — par manque de compétence, de temps ou simplement de possibilité.
+
+L'ambition est de distinguer le contenu IA de qualité du contenu générique. Par l'homme ou pour l'homme.
 
 ---
 
