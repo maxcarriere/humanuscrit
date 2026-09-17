@@ -1,11 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
   <rect width="160" height="160" rx="8" fill="#0e0e0e"/>
-  <!-- Feuille à plat (perspective) -->
-  <path d="M30 95 L80 75 L130 95 L80 115 Z" fill="none" stroke="#d8ccb0" stroke-width="2.5" stroke-linejoin="round"/>
-  <!-- Lignes de texte sur la feuille -->
-  <line x1="55" y1="92" x2="95" y2="82" stroke="#d8ccb0" stroke-width="1.5" opacity="0.3"/>
-  <line x1="58" y1="99" x2="92" y2="89" stroke="#d8ccb0" stroke-width="1.5" opacity="0.3"/>
-  <!-- Flèche verticale vers le haut -->
-  <line x1="80" y1="68" x2="80" y2="28" stroke="#d8ccb0" stroke-width="3" stroke-linecap="round"/>
-  <polyline points="68,40 80,28 92,40" fill="none" stroke="#d8ccb0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Feuille rectangulaire -->
+  <rect x="45" y="50" width="70" height="90" rx="3" fill="none" stroke="#d8ccb0" stroke-width="2.5"/>
+  <!-- Lignes de texte -->
+  <line x1="58" y1="72" x2="102" y2="72" stroke="#d8ccb0" stroke-width="1.5" opacity="0.35"/>
+  <line x1="58" y1="84" x2="102" y2="84" stroke="#d8ccb0" stroke-width="1.5" opacity="0.35"/>
+  <line x1="58" y1="96" x2="92" y2="96" stroke="#d8ccb0" stroke-width="1.5" opacity="0.35"/>
+  <line x1="58" y1="108" x2="85" y2="108" stroke="#d8ccb0" stroke-width="1.5" opacity="0.35"/>
+  <!-- Flèche vers le haut -->
+  <line x1="80" y1="45" x2="80" y2="15" stroke="#d8ccb0" stroke-width="3" stroke-linecap="round"/>
+  <polyline points="68,27 80,15 92,27" fill="none" stroke="#d8ccb0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
