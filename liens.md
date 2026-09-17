@@ -15,4 +15,4 @@ Projets liés à Humanuscrit et à son auteur.
 
 ### Zmaths
 
-[zmaths.net](https://zmaths.net){:target="_blank" rel="noopener noreferrer"} — Mathématiques.
+[zmaths.net](https://zmaths.net){:target="_blank" rel="noopener noreferrer"} — Enseignement des mathématiques via des cours en ligne.

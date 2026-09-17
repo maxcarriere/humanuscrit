@@ -17,7 +17,7 @@ Agrégé de mathématiques, il a enseigné pendant près de dix ans avant de se 
 
 **Projets liés** :
 - [Lectura](https://lectura.world){:target="_blank" rel="noopener noreferrer"} — Exploration des systèmes de lecture et des outils algorithmiques liés au langage
-- [Zmaths](https://zmaths.net){:target="_blank" rel="noopener noreferrer"} — Mathématiques
+- [Zmaths](https://zmaths.net){:target="_blank" rel="noopener noreferrer"} — Enseignement des mathématiques via des cours en ligne
 
 ---
 

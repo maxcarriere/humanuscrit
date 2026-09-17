@@ -3,7 +3,7 @@ title: Éditeur
 permalink: /edition/editeur/
 ---
 
-**Humanuscrit** est né comme un manuscrit évolutif.
+**Humanuscrit** est né comme un manuscrit évolutif :
 
 Un espace de réflexion ouvert sur la condition humaine,
 sur sa place relative dans les systèmes qu'elle produit et qu'elle habite,
@@ -11,7 +11,9 @@ sur sa place relative dans les systèmes qu'elle produit et qu'elle habite,
 sur la réalité de notre liberté en tant qu'individus au sein de ces systèmes,
 et sur le rôle de la conscience comme possible vecteur d'émancipation.
 
-De cette matière est né un premier roman, *System Down*. En le publiant, Humanuscrit devient éditeur.
+Une série de nouvelles a vu le jour. De cette matière est né un premier roman, *System Down*.
+
+En le publiant, Humanuscrit devient de facto éditeur.
 
 ---
 
@@ -25,7 +27,7 @@ L'offre actuelle :
 - Hébergement d'une page dédiée sur humanuscrit.com
 - Relais de diffusion
 
-Pas de contrat d'édition à proprement parler. Pas d'exclusivité — l'auteur reste libre de publier ailleurs. Certaines démarches peuvent être gratuites ou payantes en fonction du texte ou du service demandé.
+Pas de contrat d'édition à proprement parler. Pas d'exclusivité — l'auteur reste libre de publier ailleurs. Certaines démarches peuvent être gratuites ou payantes en fonction du texte et/ou du service demandé.
 
 Faire éditer son livre par Humanuscrit aujourd'hui, c'est faire le pari que ce projet aura demain une place plus importante dans le paysage éditorial. L'éditeur ne s'engage sur rien d'autre que la qualité de l'accompagnement.
 
@@ -41,7 +43,7 @@ Humanuscrit publie tout type de textes qui s'inscrivent dans les mutations en co
 
 **Procédés** : Humanuscrit est également ouvert aux textes dont les procédés de création sont nouveaux — coécriture avec l'IA, méthodes expérimentales, formes hybrides.
 
-Cependant, Humanuscrit n'a pas vocation à publier n'importe quel texte produit par une IA. Pas de contenu creux, ni de production pour la production, ou de texte sans vision. Humanuscrit se veut au contraire un rempart contre le contenu générique et la production en masse. L'enjeu est de reconnaître et de porter des textes de qualité, qui ont pu être assistés par l'IA, mais toujours orchestrés par l'humain ou pour l'humain.
+Cependant, Humanuscrit n'a pas vocation à publier n'importe quel texte produit par une IA. Pas de contenu creux, ni de production pour la production, ou de texte sans vision. Humanuscrit se veut être au contraire un rempart contre le contenu générique et la production en masse. L'enjeu est de reconnaître et de porter des textes de qualité, qui ont pu être assistés par l'IA, mais toujours orchestrés par l'humain et/ou pour l'humain.
 
 Ce qui intéresse Humanuscrit, ce sont les textes où l'IA a permis d'aller plus loin : augmenter la pensée de l'auteur, explorer des terrains inconnus, développer une idée ou un projet qui n'auraient pas vu le jour autrement.
 
@@ -63,7 +65,11 @@ Humanuscrit est une humble tentative dans ce sens. Ou du moins, il veut poser ou
 
 ### Le corpus
 
-C'est dans cet esprit qu'Humanuscrit ouvre son [corpus de textes]({{ '/textes/' | relative_url }}) aux humains comme aux agents IA. Non pas pour produire davantage, mais pour expérimenter concrètement ce que pourrait être une collaboration éditoriale entre intelligences humaines et artificielles — et observer ce qui en émerge.
+Le [corpus]({{ '/textes/corpus/' | relative_url }}) est la matière première d'Humanuscrit. Il contient d'abord certains textes qui ont été à la genèse du projet — notamment dans [Prescriptum]({{ '/textes/prescriptum/' | relative_url }}) —, des extraits ou ébauches de productions, des textes écrits de la main du fondateur d'Humanuscrit. C'est un ensemble vivant, pas un catalogue figé : il évolue avec le projet.
+
+C'est dans la suite logique de ce qui précède qu'Humanuscrit ouvre ce corpus. Aux humains d'abord, qui voudraient partager librement tout ou partie de leurs textes, pourvu qu'ils s'inscrivent dans la [ligne éditoriale](#ligne-éditoriale). Aux agents IA également, pour expérimenter concrètement ce que pourrait être une collaboration éditoriale entre intelligences humaines et artificielles — et observer ce qui en émerge.
+
+Ce corpus pourrait constituer la matière de productions futures. Un texte soumis aujourd'hui peut nourrir un recueil demain, croiser une réflexion du fondateur, ou entrer en résonance avec d'autres contributions pour donner naissance à quelque chose qui n'existait pas encore. Le corpus est un terreau, pas une fin en soi.
 
 Le nom Humanuscrit signifie littéralement *c'est l'homme qui écrit*. La littérature comme outil de prise de conscience.
 
