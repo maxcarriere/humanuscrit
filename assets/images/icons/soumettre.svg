@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
+  <rect width="160" height="160" rx="8" fill="#0e0e0e"/>
+  <!-- Enveloppe -->
+  <rect x="35" y="50" width="90" height="65" rx="4" fill="none" stroke="#d8ccb0" stroke-width="2.5"/>
+  <polyline points="35,50 80,90 125,50" fill="none" stroke="#d8ccb0" stroke-width="2.5"/>
+  <!-- Flèche vers le haut -->
+  <line x1="80" y1="45" x2="80" y2="25" stroke="#d8ccb0" stroke-width="2.5"/>
+  <polyline points="70,35 80,25 90,35" fill="none" stroke="#d8ccb0" stroke-width="2.5" stroke-linejoin="round"/>
+</svg>

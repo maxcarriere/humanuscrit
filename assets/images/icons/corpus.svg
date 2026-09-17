@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
+  <rect width="160" height="160" rx="8" fill="#0e0e0e"/>
+  <!-- Parchemin déroulé -->
+  <path d="M45 35 C40 35 35 40 35 45 L35 115 C35 120 40 125 45 125 L115 125 C120 125 125 120 125 115 L125 45 C125 40 120 35 115 35 Z" fill="none" stroke="#d8ccb0" stroke-width="2.5"/>
+  <!-- Lignes de texte -->
+  <line x1="50" y1="55" x2="110" y2="55" stroke="#d8ccb0" stroke-width="2" opacity="0.5"/>
+  <line x1="50" y1="70" x2="105" y2="70" stroke="#d8ccb0" stroke-width="2" opacity="0.5"/>
+  <line x1="50" y1="85" x2="110" y2="85" stroke="#d8ccb0" stroke-width="2" opacity="0.5"/>
+  <line x1="50" y1="100" x2="90" y2="100" stroke="#d8ccb0" stroke-width="2" opacity="0.5"/>
+</svg>

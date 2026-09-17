@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
+  <rect width="160" height="160" rx="8" fill="#0e0e0e"/>
+  <!-- Maillon 1 -->
+  <rect x="35" y="55" width="45" height="50" rx="22" fill="none" stroke="#d8ccb0" stroke-width="2.5" transform="rotate(-30 57 80)"/>
+  <!-- Maillon 2 -->
+  <rect x="80" y="55" width="45" height="50" rx="22" fill="none" stroke="#d8ccb0" stroke-width="2.5" transform="rotate(-30 102 80)"/>
+</svg>
