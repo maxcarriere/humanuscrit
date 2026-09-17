@@ -1,20 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
   <rect width="160" height="160" rx="8" fill="#0e0e0e"/>
-  <!-- Livres rangés côte à côte -->
-  <!-- Livre 1 (penché) -->
-  <path d="M25 125 L30 35 L42 35 L37 125 Z" fill="none" stroke="#d8ccb0" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Trois livres droits côte à côte -->
+  <!-- Livre 1 -->
+  <rect x="30" y="30" width="24" height="95" rx="2" fill="none" stroke="#d8ccb0" stroke-width="2.5"/>
+  <line x1="42" y1="38" x2="42" y2="52" stroke="#d8ccb0" stroke-width="1.5" opacity="0.4"/>
   <!-- Livre 2 -->
-  <rect x="40" y="40" width="14" height="85" rx="1" fill="none" stroke="#d8ccb0" stroke-width="2"/>
-  <!-- Livre 3 (plus grand) -->
-  <rect x="57" y="30" width="16" height="95" rx="1" fill="none" stroke="#d8ccb0" stroke-width="2"/>
-  <line x1="65" y1="38" x2="65" y2="50" stroke="#d8ccb0" stroke-width="1" opacity="0.4"/>
-  <!-- Livre 4 -->
-  <rect x="76" y="45" width="12" height="80" rx="1" fill="none" stroke="#d8ccb0" stroke-width="2"/>
-  <!-- Livre 5 (plus épais) -->
-  <rect x="91" y="35" width="18" height="90" rx="1" fill="none" stroke="#d8ccb0" stroke-width="2"/>
-  <line x1="100" y1="43" x2="100" y2="55" stroke="#d8ccb0" stroke-width="1" opacity="0.4"/>
-  <!-- Livre 6 -->
-  <rect x="112" y="50" width="13" height="75" rx="1" fill="none" stroke="#d8ccb0" stroke-width="2"/>
-  <!-- Ligne d'étagère -->
-  <line x1="20" y1="125" x2="130" y2="125" stroke="#d8ccb0" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="62" y="30" width="24" height="95" rx="2" fill="none" stroke="#d8ccb0" stroke-width="2.5"/>
+  <line x1="74" y1="38" x2="74" y2="52" stroke="#d8ccb0" stroke-width="1.5" opacity="0.4"/>
+  <!-- Livre 3 -->
+  <rect x="94" y="30" width="24" height="95" rx="2" fill="none" stroke="#d8ccb0" stroke-width="2.5"/>
+  <line x1="106" y1="38" x2="106" y2="52" stroke="#d8ccb0" stroke-width="1.5" opacity="0.4"/>
+  <!-- Étagère -->
+  <line x1="22" y1="125" x2="126" y2="125" stroke="#d8ccb0" stroke-width="2.5" stroke-linecap="round"/>
 </svg>
