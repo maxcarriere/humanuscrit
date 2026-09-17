@@ -1231,11 +1231,35 @@ html[data-darkreader-mode] .navigation-dossier a:hover {
   opacity: 0.7;
 }
 
-.book-cover-link {
-  display: block;
+.book-cover-zoomable {
   cursor: zoom-in;
+}
+
+/* Lightbox */
+.lightbox {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.85);
+  justify-content: center;
+  align-items: center;
+  cursor: zoom-out;
+}
+
+.lightbox.active {
+  display: flex;
+}
+
+.lightbox img {
+  max-width: 90vw;
+  max-height: 90vh;
+  object-fit: contain;
   border: none !important;
-  border-bottom: none !important;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
 }
 
 .book-covers img {

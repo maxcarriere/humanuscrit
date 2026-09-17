@@ -14,18 +14,27 @@ Ce n'est que le premier cercle. Le même mécanisme frappe ailleurs, à d'autres
 
 <div class="book-covers" markdown="0">
 <figure>
-<a href="{{ '/assets/images/system_down_couv_avec_titre.png' | relative_url }}" target="_blank" rel="noopener" class="book-cover-link">
-<img src="{{ '/assets/images/system_down_couv_avec_titre.png' | relative_url }}" alt="Couverture de System Down" class="book-cover-main">
-</a>
+<img src="{{ '/assets/images/system_down_couv_avec_titre.png' | relative_url }}" alt="Couverture de System Down" class="book-cover-main book-cover-zoomable" onclick="openLightbox(this)">
 <figcaption>Couverture <small>(cliquer pour agrandir)</small></figcaption>
 </figure>
 <figure>
-<a href="{{ '/assets/images/system_down_4couv.png' | relative_url }}" target="_blank" rel="noopener" class="book-cover-link">
-<img src="{{ '/assets/images/system_down_4couv.png' | relative_url }}" alt="4ème de couverture de System Down" class="book-cover-back">
-</a>
+<img src="{{ '/assets/images/system_down_4couv.png' | relative_url }}" alt="4ème de couverture de System Down" class="book-cover-back book-cover-zoomable" onclick="openLightbox(this)">
 <figcaption>4ème de couverture <small>(cliquer pour agrandir)</small></figcaption>
 </figure>
 </div>
+<div id="lightbox" class="lightbox" onclick="closeLightbox()">
+<img id="lightbox-img" src="" alt="">
+</div>
+<script>
+function openLightbox(el) {
+  var lb = document.getElementById('lightbox');
+  document.getElementById('lightbox-img').src = el.src;
+  lb.classList.add('active');
+}
+function closeLightbox() {
+  document.getElementById('lightbox').classList.remove('active');
+}
+</script>
 
 **Roman** — Max Carrière
 Humanuscrit, 2026
