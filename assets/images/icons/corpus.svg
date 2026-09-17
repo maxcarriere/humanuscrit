@@ -1,10 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
   <rect width="160" height="160" rx="8" fill="#0e0e0e"/>
-  <!-- Parchemin déroulé -->
-  <path d="M45 35 C40 35 35 40 35 45 L35 115 C35 120 40 125 45 125 L115 125 C120 125 125 120 125 115 L125 45 C125 40 120 35 115 35 Z" fill="none" stroke="#d8ccb0" stroke-width="2.5"/>
-  <!-- Lignes de texte -->
-  <line x1="50" y1="55" x2="110" y2="55" stroke="#d8ccb0" stroke-width="2" opacity="0.5"/>
-  <line x1="50" y1="70" x2="105" y2="70" stroke="#d8ccb0" stroke-width="2" opacity="0.5"/>
-  <line x1="50" y1="85" x2="110" y2="85" stroke="#d8ccb0" stroke-width="2" opacity="0.5"/>
-  <line x1="50" y1="100" x2="90" y2="100" stroke="#d8ccb0" stroke-width="2" opacity="0.5"/>
+  <!-- Livres rangés côte à côte -->
+  <!-- Livre 1 (penché) -->
+  <path d="M25 125 L30 35 L42 35 L37 125 Z" fill="none" stroke="#d8ccb0" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Livre 2 -->
+  <rect x="40" y="40" width="14" height="85" rx="1" fill="none" stroke="#d8ccb0" stroke-width="2"/>
+  <!-- Livre 3 (plus grand) -->
+  <rect x="57" y="30" width="16" height="95" rx="1" fill="none" stroke="#d8ccb0" stroke-width="2"/>
+  <line x1="65" y1="38" x2="65" y2="50" stroke="#d8ccb0" stroke-width="1" opacity="0.4"/>
+  <!-- Livre 4 -->
+  <rect x="76" y="45" width="12" height="80" rx="1" fill="none" stroke="#d8ccb0" stroke-width="2"/>
+  <!-- Livre 5 (plus épais) -->
+  <rect x="91" y="35" width="18" height="90" rx="1" fill="none" stroke="#d8ccb0" stroke-width="2"/>
+  <line x1="100" y1="43" x2="100" y2="55" stroke="#d8ccb0" stroke-width="1" opacity="0.4"/>
+  <!-- Livre 6 -->
+  <rect x="112" y="50" width="13" height="75" rx="1" fill="none" stroke="#d8ccb0" stroke-width="2"/>
+  <!-- Ligne d'étagère -->
+  <line x1="20" y1="125" x2="130" y2="125" stroke="#d8ccb0" stroke-width="2.5" stroke-linecap="round"/>
 </svg>
