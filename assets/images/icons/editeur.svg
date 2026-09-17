@@ -1,11 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
   <rect width="160" height="160" rx="8" fill="#0e0e0e"/>
-  <!-- Plume stylisée -->
-  <path d="M115 25 C100 25 75 50 55 80 L50 95 L45 115 L65 108 L70 103 C85 70 105 45 120 35 Z" fill="none" stroke="#d8ccb0" stroke-width="2.5" stroke-linejoin="round"/>
-  <!-- Nervure de la plume -->
-  <path d="M115 25 L55 95" fill="none" stroke="#d8ccb0" stroke-width="1.5" opacity="0.4"/>
-  <!-- Pointe -->
-  <path d="M45 115 L50 95 L65 108 Z" fill="none" stroke="#d8ccb0" stroke-width="2" stroke-linejoin="round"/>
-  <!-- Ligne d'écriture -->
-  <line x1="38" y1="130" x2="100" y2="130" stroke="#d8ccb0" stroke-width="1.5" opacity="0.35"/>
+  <!-- Crayon droit -->
+  <g transform="translate(80,80) rotate(-45) translate(-80,-80)">
+    <!-- Corps du crayon -->
+    <rect x="72" y="30" width="16" height="80" rx="1" fill="none" stroke="#d8ccb0" stroke-width="2.5"/>
+    <!-- Pointe -->
+    <polygon points="72,110 88,110 80,130" fill="none" stroke="#d8ccb0" stroke-width="2.5" stroke-linejoin="round"/>
+    <!-- Gomme -->
+    <rect x="72" y="22" width="16" height="10" rx="2" fill="none" stroke="#d8ccb0" stroke-width="2.5"/>
+    <!-- Ligne séparatrice gomme -->
+    <line x1="72" y1="30" x2="88" y2="30" stroke="#d8ccb0" stroke-width="1.5" opacity="0.5"/>
+  </g>
 </svg>

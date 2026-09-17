@@ -892,9 +892,10 @@ html[data-darkreader-mode] .navigation-dossier * {
   text-align: center !important;
 }
 
-.licence-mention {
+.licence-mention,
+.parchment-content p.licence-mention {
   font-size: 0.85em;
-  text-align: center;
+  text-align: center !important;
   color: rgba(13, 13, 13, 0.7) !important;
   margin-top: 2em;
   margin-bottom: 0.5em;
