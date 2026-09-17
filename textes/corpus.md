@@ -7,14 +7,6 @@ Le corpus d'Humanuscrit. Un ensemble de textes évolutifs — réflexions, ficti
 
 ---
 
-### Systémique — Réflexions sur la notion de système
-
-Écrits en cours sur la formalisation mathématique de la notion de système et son caractère universel. Ces textes explorent les structures qui relient les systèmes entre eux — de la logique à la conscience, en passant par les organisations humaines et les machines.
-
-Auteur : Max Carrière
-
----
-
 ### Arborescence du corpus
 
 {% include arborescence_textes.html %}

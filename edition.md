@@ -4,6 +4,8 @@ permalink: /edition/
 schema_organization: true
 ---
 
+---
+
 <div class="productions-grid">
   <a href="{{ '/edition/editeur/' | relative_url }}" class="production-card">
     <span class="production-title">Éditeur</span>

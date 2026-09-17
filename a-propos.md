@@ -3,6 +3,8 @@ title: À propos
 permalink: /a-propos/
 ---
 
+---
+
 <div class="productions-grid">
   <a href="{{ '/contact/' | relative_url }}" class="production-card">
     <span class="production-title">Contact</span>

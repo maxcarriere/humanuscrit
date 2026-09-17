@@ -2,6 +2,8 @@
 title: Textes
 ---
 
+---
+
 <div class="productions-grid">
   <a href="{{ '/textes/corpus/' | relative_url }}" class="production-card">
     <span class="production-title">Corpus</span>
