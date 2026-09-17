@@ -1,6 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
   <rect width="160" height="160" rx="8" fill="#0e0e0e"/>
-  <!-- Grand point d'interrogation -->
-  <path d="M56 50 C56 32 66 22 80 22 C94 22 104 32 104 48 C104 62 94 66 88 74 L84 82" fill="none" stroke="#d8ccb0" stroke-width="4" stroke-linecap="round"/>
-  <circle cx="82" cy="105" r="5" fill="#d8ccb0"/>
+  <!-- Bulle de dialogue -->
+  <path d="M30 35 L130 35 C133 35 135 37 135 40 L135 100 C135 103 133 105 130 105 L90 105 L75 125 L70 105 L30 105 C27 105 25 103 25 100 L25 40 C25 37 27 35 30 35 Z" fill="none" stroke="#d8ccb0" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- Point d'interrogation dans la bulle -->
+  <path d="M64 55 C64 45 72 40 80 40 C88 40 96 45 96 55 C96 63 90 66 86 70 L83 75" fill="none" stroke="#d8ccb0" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="82" cy="90" r="4" fill="#d8ccb0"/>
 </svg>

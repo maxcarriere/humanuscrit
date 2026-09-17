@@ -1,6 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
   <rect width="160" height="160" rx="8" fill="#0e0e0e"/>
-  <!-- Main avec index pointant -->
-  <!-- Paume -->
-  <path d="M55 115 L55 75 C55 72 57 70 60 70 L62 70 L62 55 C62 52 64 50 67 50 C70 50 72 52 72 55 L72 70 L72 48 C72 45 74 43 77 43 C80 43 82 45 82 48 L82 70 L82 52 C82 49 84 47 87 47 C90 47 92 49 92 52 L92 75 L92 65 C92 62 94 60 97 60 C100 60 102 62 102 65 L102 100 C102 112 92 122 80 122 L65 122 C59 122 55 118 55 115 Z" fill="none" stroke="#d8ccb0" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- Curseur main avec index pointé (pointer cursor) -->
+  <path d="M62 45 L62 80 L52 72 C49 70 45 71 44 74 C43 77 44 80 47 82 L62 95 L62 115 C62 120 66 124 71 124 L95 124 C100 124 104 120 104 115 L104 82 C104 79 102 77 99 77 L97 77 L97 72 C97 69 95 67 92 67 C89 67 87 69 87 72 L87 77 L87 68 C87 65 85 63 82 63 C79 63 77 65 77 68 L77 77 L77 72 C77 69 75 67 72 67 C69 67 67 69 67 72 L67 80 L67 45 C67 42 65 40 62 40 C59 40 57 42 57 45 Z" fill="none" stroke="#d8ccb0" stroke-width="2.5" stroke-linejoin="round"/>
 </svg>
