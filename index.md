@@ -28,7 +28,8 @@ Un récit où les récits s'effondrent eux-mêmes.</p>
 
 ### Éditeur indépendant
 
-Humanuscrit est un éditeur indépendant français. Il publie des textes qui interrogent la place de l'homme dans les systèmes qu'il construit — à l'ère de l'intelligence artificielle, des structures complexes et des mutations en cours. Chaque auteur reste libre et indépendant.
+Humanuscrit — *l'Humain qui s'écrit* — est un éditeur français indépendant.
+L'écriture humaine dans le monde d'après, à l'ère de l'intelligence artificielle.
 
 <a href="{{ '/edition/editeur/' | relative_url }}" class="cta-button">En savoir plus sur l'éditeur</a>
 
