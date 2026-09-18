@@ -5,13 +5,17 @@ permalink: /edition/editeur/
 
 Humanuscrit, littéralement *L'Homme qui s'écrit*, est né comme un manuscrit évolutif :
 
-*Un espace de réflexion ouvert sur la condition humaine,*
-*sur sa place relative dans les systèmes qu'elle produit et qu'elle habite,*
-*à l'ère de l'information, des structures complexes et de l'intelligence artificielle,*
-*sur la réalité de notre liberté en tant qu'individus au sein de ces systèmes,*
-*et sur le rôle de la conscience comme possible vecteur d'émancipation.* (Février 2026)
+<p style="text-align: center; font-style: italic;">
+Un espace de réflexion ouvert sur la condition humaine,<br>
+sur sa place relative dans les systèmes qu'elle produit et qu'elle habite,<br>
+à l'ère de l'information, des structures complexes et de l'intelligence artificielle,<br>
+sur la réalité de notre liberté en tant qu'individus au sein de ces systèmes,<br>
+et sur le rôle de la conscience comme possible vecteur d'émancipation.<br>
+<span style="font-style: normal;">(Février 2026)</span>
+</p>
 
 Une série de nouvelles a alors vu le jour.
+
 De cette matière est né un premier roman, *System Down*.
 
 En le publiant, Humanuscrit devient de facto éditeur.
