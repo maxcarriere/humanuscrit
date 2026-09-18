@@ -1,7 +1,7 @@
 ---
 title: Prescriptum
 ---
-*Avertir*
+*Initier*
 
 Prescriptum contient les textes à lire avant le cœur du manuscrit lui-même.
 

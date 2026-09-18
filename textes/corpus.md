@@ -15,7 +15,7 @@ Le corpus d'Humanuscrit. Un ensemble de textes évolutifs — réflexions, ficti
 
 ### Cycle du corpus
 
-<p class="cycle-corpus">⊳  <em>Avertir → Raconter → Penser → Se penser → Éveiller → S'incarner → Être transformé</em>  ⊲</p>
+<p class="cycle-corpus">⊳  <em>Initier → Raconter → Penser → Se penser → Éveiller → S'incarner → Être transformé</em>  ⊲</p>
 
 ---
 
