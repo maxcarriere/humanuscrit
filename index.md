@@ -7,7 +7,7 @@ layout: home
 
 ---
 
-### Premier roman
+### Humanuscrit publie son premier roman (Octobre 2026)
 
 <div class="home-hero">
 <div class="home-cover">
@@ -18,7 +18,6 @@ layout: home
 <div class="home-pitch">
 <p class="home-tagline">System Down — Écrit par Max Carrière<br>
 Un récit où les récits s'effondrent eux-mêmes.</p>
-<p>Premier roman d'Humanuscrit, à paraître fin 2026. Une fiction née d'un manuscrit évolutif, à la croisée de la systémique, de l'intelligence artificielle et de la conscience.</p>
 <div class="home-cta">
 <a href="{{ '/productions/system-down/' | relative_url }}" class="cta-button">Découvrir le roman</a>
 </div>
