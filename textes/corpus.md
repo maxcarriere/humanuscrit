@@ -49,7 +49,7 @@ Domaine : Témoignage / Biographie
 
 ---
 
-<p class="cycle-corpus">⊳  <em>Raconter → Penser → Se Représenter → Éveiller → Être → …</em>  ⊲</p>
+<p class="cycle-corpus"><a href="{{ '/textes/cycle/' | relative_url }}">Le Cycle</a><br>⊳  <em>Raconter → Penser → Se Représenter → Éveiller → Être → …</em>  ⊲</p>
 
 ---
 
