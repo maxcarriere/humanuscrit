@@ -1393,8 +1393,17 @@ html[data-darkreader-mode] .navigation-dossier a:hover {
 
 /* Liens d'achat */
 .buy-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5em;
   text-align: center;
   margin: 1.5em 0;
+}
+
+@media (max-width: 600px) {
+  .buy-links {
+    grid-template-columns: 1fr;
+  }
 }
 
 .buy-links .cta-button {
@@ -1403,7 +1412,7 @@ html[data-darkreader-mode] .navigation-dossier a:hover {
 
 /* Groupement format d'achat */
 .buy-format {
-  margin: 1.5em 0;
+  margin: 0;
 }
 
 /* Cartes d'avis lecteurs */
