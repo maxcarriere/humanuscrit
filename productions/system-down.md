@@ -80,7 +80,8 @@ Livraison&nbsp;: Imm&eacute;diate
 
 </div>
 
-*Note de l'éditeur — Ce texte sera sans doute, tôt ou tard, en libre circulation sur Internet. Et tant mieux. Mais acheter un livre, c'est soutenir le travail de ceux qui écrivent. C'est aussi un objet que l'on peut offrir.*
+*Note de l'éditeur — Ce texte sera sans doute, tôt ou tard, en libre circulation sur Internet. Et tant mieux. Mais acheter un livre, c'est surtout soutenir le travail de ceux qui écrivent.*
+*C'est aussi un objet que l'on peut offrir.*
 
 *Pour tout renseignement, [contacter l'auteur]({{ "/contact/" | relative_url }}).*
 
