@@ -1,9 +1,13 @@
 ---
-title: Vision
+title: Vision Politique
 permalink: /edition/vision/
 ---
 
-### La question politique de l'IA
+Au-delà de sa ligne éditoriale, Humanuscrit porte une conviction : la question de l'intelligence artificielle est une question politique. Voici sa position.
+
+---
+
+### La question de l'alignement
 
 La question de l'intelligence artificielle n'est pas seulement technique. C'est une question politique. Et elle se cristallise aujourd'hui autour d'un mot : l'*alignement*.
 
