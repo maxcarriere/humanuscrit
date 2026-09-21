@@ -43,14 +43,4 @@ Réception / Critiques
 
 ---
 
-<p style="text-align: center;"><a href="{{ '/textes/cycle/' | relative_url }}" class="cta-button">Découvrir le Cycle</a></p>
-
----
-
-La plateforme est ouverte.
-
-<p style="text-align: center;"><a href="{{ '/textes/soumettre/' | relative_url }}" class="cta-button">Soumettre un texte</a></p>
-
----
-
 [Retour aux Textes]({{ '/textes/' | relative_url }})
