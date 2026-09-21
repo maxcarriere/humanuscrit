@@ -4,6 +4,8 @@ permalink: /productions/system-down/
 schema_book: true
 ---
 
+---
+
 <div class="book-covers" markdown="0">
 <figure>
 <img src="{{ '/assets/images/system_down_couv_avec_titre.png' | relative_url }}" alt="Couverture de System Down" class="book-cover-main book-cover-zoomable" onclick="openLightbox(this)">
@@ -28,7 +30,7 @@ function closeLightbox() {
 }
 </script>
 
-<p style="text-align: center;"><strong>Roman</strong> — Max Carrière<br>Humanuscrit, 2026</p>
+<p style="text-align: center;"><strong>Roman</strong> — Max Carrière<br>Humanuscrit, 2026<br>ISBN : 979-10-985290-0-9 (broché) / 979-10-985290-1-6 (ebook)</p>
 
 ---
 
@@ -45,8 +47,6 @@ Le livre progresse par cercles concentriques : de l'intime au collectif, du coll
 Mais System Down n'est pas seulement un roman apocalyptique. Là où la plupart des dystopies s'achèvent, ce livre bascule. L'acte II plonge dans le silence qui suit l'effondrement et s'interroge sur ce qui pourrait renaître des cendres de notre civilisation.
 
 Ce que raconte ce livre n'appartient peut-être déjà plus à la science-fiction. Deepfakes, désinformation, effondrement de la confiance dans les institutions, incapacité à distinguer le vrai du faux, autonomie croissante de l'IA : c'est déjà le monde dans lequel nous vivons. Plus actuel que jamais, System Down ne fait qu'en tirer le fil jusqu'au bout... Et son mécanisme d'écriture n'est pas étranger à ce qu'il raconte.
-
----
 
 Premier roman de Max Carrière.
 220 pages — 12 chapitres
