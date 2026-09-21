@@ -48,7 +48,13 @@ Humanuscrit, 2026
 <div class="buy-format">
 <strong>Livre papier</strong>
 <br>
-Commandez sur Amazon. 17,90&nbsp;&euro; &mdash; Livraison sous 3 &agrave; 5 jours.
+Prix&nbsp;: 17,90&nbsp;&euro;
+<br>
+Format&nbsp;: Broch&eacute;
+<br>
+Livraison sous 3 &agrave; 5 jours.
+<br>
+Plateforme&nbsp;: Amazon
 <br>
 <span class="cta-button cta-button-disabled">COMMANDER</span>
 <br>
@@ -58,12 +64,17 @@ Commandez sur Amazon. 17,90&nbsp;&euro; &mdash; Livraison sous 3 &agrave; 5 jour
 <div class="buy-format">
 <strong>Livre &eacute;lectronique</strong>
 <br>
-Disponible en t&eacute;l&eacute;chargement imm&eacute;diat en format ePub + PDF (via Payhip), sur Kindle (Amazon) ou sur Kobo. 6,99&nbsp;&euro;
+T&eacute;l&eacute;chargement direct en format ePub + PDF (via Payhip), sur Kindle (Amazon) ou Kobo.
 <br>
+Prix&nbsp;: 6,99&nbsp;&euro;
+<br>
+Livraison&nbsp;: Imm&eacute;diate
+<br>
+<div class="buy-buttons-row">
 <span class="cta-button cta-button-disabled">DIRECT</span>
 <span class="cta-button cta-button-disabled">KINDLE</span>
 <span class="cta-button cta-button-disabled">KOBO</span>
-<br>
+</div>
 <small><em>Bient&ocirc;t disponible</em></small>
 </div>
 

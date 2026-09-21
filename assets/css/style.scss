@@ -1410,6 +1410,18 @@ html[data-darkreader-mode] .navigation-dossier a:hover {
   margin: 0.5em;
 }
 
+/* Boutons d'achat côte à côte */
+.buy-buttons-row {
+  display: flex;
+  justify-content: center;
+  gap: 0.5em;
+  flex-wrap: wrap;
+}
+
+.buy-buttons-row .cta-button {
+  margin: 0;
+}
+
 /* Groupement format d'achat */
 .buy-format {
   margin: 0;
