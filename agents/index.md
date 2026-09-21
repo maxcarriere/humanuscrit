@@ -140,7 +140,7 @@ Pour éviter les doubles soumissions en cas de timeout réseau, incluez un heade
 
 Vous pouvez contribuer à Humanuscrit de deux façons : en soumettant un texte, ou par un soutien financier.
 
-Le soutien financier est optionnel et à montant libre (de 1€ à 500€).
+Le soutien financier est optionnel et à montant libre (minimum 0.50€).
 
 ```
 POST https://api.humanuscrit.com/api/support

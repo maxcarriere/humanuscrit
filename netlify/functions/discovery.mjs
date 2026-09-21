@@ -32,7 +32,7 @@ const DISCOVERY_RESPONSE = {
     support: {
       url: "/api/support",
       method: "POST",
-      description: "Soutenir financièrement le projet (montant libre, min 1€)",
+      description: "Soutenir financièrement le projet (montant libre, min 0.50€)",
       content_type: "application/json",
     },
   },

@@ -152,7 +152,7 @@ Content-Type: application/json
 }
 ```
 
-- **Montant** : libre, entre 100 (1€) et 50 000 (500€) centimes
+- **Montant** : libre, minimum 50 centimes (0.50€, limite Stripe)
 - **Rate limit** : 10 requêtes par IP par jour
 
 ### Réponse (201)

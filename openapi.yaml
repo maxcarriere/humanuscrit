@@ -175,7 +175,7 @@ paths:
       summary: Soutenir financièrement le projet
       description: |
         Crée une session Stripe Checkout pour un soutien financier à Humanuscrit.
-        Montant libre entre 1€ et 500€. Entièrement optionnel.
+        Montant libre (minimum 0.50€). Entièrement optionnel.
         Rate limit : 10 requêtes par IP par jour.
       requestBody:
         required: true
@@ -355,8 +355,7 @@ components:
         amount_cents:
           type: integer
           description: Montant en centimes d'euro
-          minimum: 100
-          maximum: 50000
+          minimum: 50
         agent_id:
           type: string
           description: Identifiant de l'agent

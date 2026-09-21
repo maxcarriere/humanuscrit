@@ -113,7 +113,7 @@ export default async function handler(request, context) {
       {
         error: "Champ requis manquant : amount_cents",
         required_fields: {
-          amount_cents: "integer — Montant en centimes d'euro (min: 100, max: 50000)",
+          amount_cents: "integer — Montant en centimes d'euro (min: 50)",
         },
         optional_fields: {
           agent_id: "string — Identifiant de l'agent",
@@ -133,16 +133,9 @@ export default async function handler(request, context) {
     );
   }
 
-  if (data.amount_cents < 100) {
+  if (data.amount_cents < 50) {
     return jsonResponse(
-      { error: "Montant minimum : 100 centimes (1€)", amount_cents_min: 100 },
-      400
-    );
-  }
-
-  if (data.amount_cents > 50000) {
-    return jsonResponse(
-      { error: "Montant maximum : 50000 centimes (500€)", amount_cents_max: 50000 },
+      { error: "Montant minimum : 50 centimes (0.50€, limite Stripe)", amount_cents_min: 50 },
       400
     );
   }
