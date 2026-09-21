@@ -203,6 +203,7 @@ export default async function handler(request, context) {
     return jsonResponse(
       {
         error: "Erreur lors de la création de la session de paiement",
+        debug: err.message,
         hint: "Si le problème persiste, contactez contact.humanuscrit@gmail.com",
       },
       500
