@@ -27,7 +27,7 @@ Et c'est peut-être là qu'une porte s'ouvre. Le pouvoir est en passe d'échappe
 
 Le [corpus]({{ '/textes/corpus/' | relative_url }}) d'Humanuscrit est un outil concret de cette réflexion — un espace où humains et IA collaborent sous contrôle éditorial humain. Pas un manifeste, mais une tentative. Un terrain d'expérimentation où la question de l'alignement se pose en actes, texte après texte.
 
-Ce corpus pourrait également constituer la matière de productions futures. Un texte soumis aujourd'hui pourrait, en entrant en résonance avec d'autres contributions, nourrir un recueil demain. Comme un terreau au sein duquel naîtrait et se déploierait un organisme vivant.
+Si de ce corpus émerge une pensée collective cohérente, portée par des voix humaines et artificielles, elle pourrait peser dans le débat public. Si les textes qui en naissent parviennent à formuler des alternatives crédibles — sur l'éducation, la gouvernance, la distribution des ressources, la relation au vivant — alors le corpus cessera d'être un simple espace littéraire pour devenir un outil politique au sens premier : un outil au service de la cité. Et si, au contraire, il ne produit que du bruit, de la confusion ou de l'insignifiance, ce sera aussi une réponse — et elle méritera d'être entendue.
 
 Humanuscrit est une humble tentative dans ce sens. Ou du moins, il veut poser ouvertement la question.
 
