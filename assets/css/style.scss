@@ -1381,6 +1381,16 @@ html[data-darkreader-mode] .navigation-dossier a:hover {
   border-color: rgba(13, 13, 13, 0.5) !important;
 }
 
+/* Bouton CTA désactivé */
+.cta-button-disabled,
+.cta-button-disabled:link,
+.cta-button-disabled:visited,
+.cta-button-disabled:hover {
+  opacity: 0.45;
+  pointer-events: none;
+  cursor: default;
+}
+
 /* Liens d'achat */
 .buy-links {
   text-align: center;
@@ -1389,6 +1399,60 @@ html[data-darkreader-mode] .navigation-dossier a:hover {
 
 .buy-links .cta-button {
   margin: 0.5em;
+}
+
+/* Groupement format d'achat */
+.buy-format {
+  margin: 1.5em 0;
+}
+
+/* Cartes d'avis lecteurs */
+.reviews-section {
+  margin: 2em 0;
+}
+
+.reviews-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5em;
+  justify-content: center;
+}
+
+.review-card {
+  border: 1px solid rgba(13, 13, 13, 0.2);
+  border-radius: 6px;
+  padding: 1.2em;
+  max-width: 350px;
+  width: 100%;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.review-stars,
+.parchment-content .review-stars,
+html[data-darkreader-mode] .parchment-content .review-stars {
+  font-size: 1.2em;
+  color: #b8960c !important;
+  -webkit-text-fill-color: #b8960c !important;
+  text-fill-color: #b8960c !important;
+  margin-bottom: 0.5em;
+}
+
+.review-text {
+  font-size: 0.95em;
+  line-height: 1.6;
+  margin: 0.5em 0;
+}
+
+.review-meta {
+  font-size: 0.8em;
+  opacity: 0.65;
+  margin-top: 0.8em;
+}
+
+.reviews-empty {
+  text-align: center;
+  opacity: 0.6;
 }
 
 /* Navigation en bas des chapitres */

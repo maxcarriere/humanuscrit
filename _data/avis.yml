@@ -1,0 +1,10 @@
+# Avis lecteurs — System Down
+# Ajouter manuellement ou via script d'agrégation
+#
+# Format :
+# - auteur: "Nom du lecteur"
+#   note: 5
+#   texte: "Le texte de l'avis"
+#   source: "Amazon"    # Amazon, Kobo, Payhip, Direct
+#   date: "2026-10-15"
+#   url: ""              # lien vers l'avis original (optionnel)

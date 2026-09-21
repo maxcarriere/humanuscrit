@@ -79,10 +79,34 @@ Premier roman de Max Carrière.
 
 ### Se procurer le roman
 
-<div class="buy-links">
-  <p><em>Liens d'achat à venir — publication en cours.</em></p>
+<div class="buy-links" markdown="0">
+
+<div class="buy-format">
+<strong>Livre papier</strong>
+<br>
+<span class="cta-button cta-button-disabled">Commander sur Amazon</span>
+<br>
+<small><em>Bient&ocirc;t disponible</em></small>
+</div>
+
+<div class="buy-format">
+<strong>Livre &eacute;lectronique</strong>
+<br>
+<span class="cta-button cta-button-disabled">ePub + PDF — Payhip</span>
+<span class="cta-button cta-button-disabled">Kindle — Amazon</span>
+<span class="cta-button cta-button-disabled">Kobo</span>
+<br>
+<small><em>Bient&ocirc;t disponible</em></small>
+</div>
+
 </div>
 
 *Pour tout renseignement, [contacter l'auteur]({{ "/contact/" | relative_url }}).*
+
+---
+
+### Avis lecteurs
+
+{% include avis.html %}
 
 [← Retour aux Productions]({{ '/productions/' | relative_url }})

@@ -1,0 +1,24 @@
+<div class="reviews-section">
+{% if site.data.avis and site.data.avis.size > 0 %}
+  <div class="reviews-grid">
+    {% for avis in site.data.avis %}
+    <div class="review-card">
+      <div class="review-stars">
+        {% for i in (1..5) %}{% if i <= avis.note %}★{% else %}☆{% endif %}{% endfor %}
+      </div>
+      <p class="review-text">{{ avis.texte }}</p>
+      <div class="review-meta">
+        <span class="review-author">{{ avis.auteur }}</span>
+        {% if avis.source %} — <span class="review-source">{{ avis.source }}</span>{% endif %}
+        {% if avis.date %} · <span class="review-date">{{ avis.date }}</span>{% endif %}
+        {% if avis.url and avis.url != "" %}
+          · <a href="{{ avis.url }}" target="_blank" rel="noopener">voir l'avis</a>
+        {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+{% else %}
+  <p class="reviews-empty"><em>Aucun avis pour le moment. Les premiers retours de lecteurs appara&icirc;tront ici.</em></p>
+{% endif %}
+</div>
