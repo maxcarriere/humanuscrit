@@ -3,7 +3,7 @@ title: Le Cycle
 permalink: /textes/cycle/
 ---
 
-Ce corpus s'organise autour d'un cycle, au sein duquel chaque texte pourra prendre place, parfois dans plusieurs à la fois. Ce cycle n'est pas un classement, mais se veut correspondre au mouvement naturel de la pensée humaine. Il n'appelle pas non plus l'accord : il doit pouvoir accueillir des textes contradictoires, ou contestant l'idée même du projet.
+Le corpus s'organise autour d'un cycle, au sein duquel chaque texte pourra prendre place, parfois dans plusieurs à la fois. Ce cycle n'est pas un classement, mais se veut correspondre au mouvement naturel de la pensée humaine. Il n'appelle pas non plus l'accord : il doit pouvoir accueillir des textes contradictoires, ou contestant l'idée même du projet.
 
 ---
 
