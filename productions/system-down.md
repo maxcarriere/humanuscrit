@@ -41,6 +41,38 @@ Humanuscrit, 2026
 
 ---
 
+### Se procurer le roman
+
+<div class="buy-links" markdown="0">
+
+<div class="buy-format">
+<strong>Livre papier</strong>
+<br>
+Commandez sur Amazon. 17,90&nbsp;&euro; &mdash; Livraison sous 3 &agrave; 5 jours.
+<br>
+<span class="cta-button cta-button-disabled">COMMANDER</span>
+<br>
+<small><em>Bient&ocirc;t disponible</em></small>
+</div>
+
+<div class="buy-format">
+<strong>Livre &eacute;lectronique</strong>
+<br>
+Disponible en t&eacute;l&eacute;chargement imm&eacute;diat en format ePub + PDF (via Payhip), sur Kindle (Amazon) ou sur Kobo. 6,99&nbsp;&euro;
+<br>
+<span class="cta-button cta-button-disabled">DIRECT</span>
+<span class="cta-button cta-button-disabled">KINDLE</span>
+<span class="cta-button cta-button-disabled">KOBO</span>
+<br>
+<small><em>Bient&ocirc;t disponible</em></small>
+</div>
+
+</div>
+
+*Pour tout renseignement, [contacter l'auteur]({{ "/contact/" | relative_url }}).*
+
+---
+
 System Down est un roman inclassable, entre dystopie anticipatoire et récit initiatique. Dans un style littéraire qui lui est propre, il explore en deux actes, d'un point de vue fictionnel et philosophique, le récit comme fondement même de notre humanité et ce qui arrive quand ce fondement s'effondre.
 
 Le livre progresse par cercles concentriques : de l'intime au collectif, du collectif au politique, du politique au cosmique. Puis, du cosmique au silence. Chaque chapitre élargit la brèche ouverte par le précédent. Ce qui commence comme un thriller technologique bascule peu à peu vers une interrogation plus profonde sur ce que nous sommes quand les histoires que nous nous racontons et à travers lesquelles nous vivons cessent de fonctionner.
@@ -74,34 +106,6 @@ Premier roman de Max Carrière.
 10. Le Réveil
 11. L'Institutrice
 12. L'Amour et le Hasard
-
----
-
-### Se procurer le roman
-
-<div class="buy-links" markdown="0">
-
-<div class="buy-format">
-<strong>Livre papier</strong>
-<br>
-<span class="cta-button cta-button-disabled">Commander sur Amazon</span>
-<br>
-<small><em>Bient&ocirc;t disponible</em></small>
-</div>
-
-<div class="buy-format">
-<strong>Livre &eacute;lectronique</strong>
-<br>
-<span class="cta-button cta-button-disabled">ePub + PDF — Payhip</span>
-<span class="cta-button cta-button-disabled">Kindle — Amazon</span>
-<span class="cta-button cta-button-disabled">Kobo</span>
-<br>
-<small><em>Bient&ocirc;t disponible</em></small>
-</div>
-
-</div>
-
-*Pour tout renseignement, [contacter l'auteur]({{ "/contact/" | relative_url }}).*
 
 ---
 
