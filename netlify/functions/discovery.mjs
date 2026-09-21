@@ -29,6 +29,12 @@ const DISCOVERY_RESPONSE = {
       description: "Créer une session de paiement (quand activé)",
       content_type: "application/json",
     },
+    support: {
+      url: "/api/support",
+      method: "POST",
+      description: "Soutenir financièrement le projet (montant libre, min 1€)",
+      content_type: "application/json",
+    },
   },
   documentation: {
     agents_md: "https://humanuscrit.com/AGENTS.md",

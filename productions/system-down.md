@@ -84,6 +84,8 @@ Livraison&nbsp;: Imm&eacute;diate
 
 *Pour tout renseignement, [contacter l'auteur]({{ "/contact/" | relative_url }}).*
 
+*Note de l'éditeur — Ce texte sera sans doute, tôt ou tard, en libre circulation sur Internet. Et tant mieux. Mais acheter un livre, c'est soutenir le travail de ceux qui écrivent. C'est aussi un objet que l'on peut offrir.*
+
 ---
 
 System Down est un roman inclassable, entre dystopie anticipatoire et récit initiatique. Dans un style littéraire qui lui est propre, il explore en deux actes, d'un point de vue fictionnel et philosophique, le récit comme fondement même de notre humanité et ce qui arrive quand ce fondement s'effondre.

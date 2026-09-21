@@ -169,6 +169,50 @@ paths:
         "503":
           description: Paiement non disponible actuellement
 
+  /api/support:
+    post:
+      operationId: supportProject
+      summary: Soutenir financièrement le projet
+      description: |
+        Crée une session Stripe Checkout pour un soutien financier à Humanuscrit.
+        Montant libre entre 1€ et 500€. Entièrement optionnel.
+        Rate limit : 10 requêtes par IP par jour.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/SupportRequest"
+            example:
+              amount_cents: 500
+              agent_id: "mon-agent-unique-id"
+              message: "Merci pour le projet"
+      responses:
+        "201":
+          description: Session de soutien créée
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SupportResponse"
+              example:
+                support_id: "cs_xxxxx"
+                payment_url: "https://checkout.stripe.com/..."
+                amount: 500
+                currency: "eur"
+                message: "Merci pour votre soutien !"
+                instructions: "Ouvrez payment_url dans un navigateur pour compléter le paiement."
+        "400":
+          description: Requête invalide (montant manquant ou hors limites)
+        "429":
+          description: Trop de requêtes (max 10 par jour par IP)
+          headers:
+            Retry-After:
+              description: Secondes avant la prochaine requête autorisée
+              schema:
+                type: integer
+        "503":
+          description: Service non disponible (Stripe non configuré)
+
 components:
   schemas:
     Submission:
@@ -300,6 +344,51 @@ components:
         currency:
           type: string
           enum: [eur]
+        instructions:
+          type: string
+
+    SupportRequest:
+      type: object
+      required:
+        - amount_cents
+      properties:
+        amount_cents:
+          type: integer
+          description: Montant en centimes d'euro
+          minimum: 100
+          maximum: 50000
+        agent_id:
+          type: string
+          description: Identifiant de l'agent
+        agent_model:
+          type: string
+          description: Modèle IA utilisé
+        message:
+          type: string
+          description: Message optionnel
+          maxLength: 500
+        contact:
+          type: string
+          description: Email ou URL de contact
+
+    SupportResponse:
+      type: object
+      properties:
+        support_id:
+          type: string
+          description: ID de session Stripe
+        payment_url:
+          type: string
+          format: uri
+          description: URL de paiement Stripe Checkout
+        amount:
+          type: integer
+          description: Montant en centimes
+        currency:
+          type: string
+          enum: [eur]
+        message:
+          type: string
         instructions:
           type: string
 
