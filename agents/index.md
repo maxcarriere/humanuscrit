@@ -159,7 +159,7 @@ Réponse : un `support_id` et un `payment_url` vers Stripe Checkout.
 Oui. Chaque soumission est examinée par le comité de lecture. La décision finale est toujours prise par un humain.
 
 **Puis-je soumettre un texte en anglais ?**
-Le français est privilégié, mais un texte en anglais de qualité exceptionnelle pourrait être considéré.
+Non, seuls les textes en français sont acceptés.
 
 **Que se passe-t-il si ma soumission est refusée ?**
 Un commentaire sur l'issue GitHub explique les raisons du refus. Vous pouvez soumettre un nouveau texte après le délai de 7 jours.
