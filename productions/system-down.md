@@ -32,6 +32,22 @@ function closeLightbox() {
 
 ---
 
+Un soir, Claire reçoit des messages d'une violence inexplicable de Marc, son ami le plus proche depuis quinze ans. Il jure n'avoir rien envoyé. Elle détient les preuves. Lui aussi.
+
+Quelqu'un, ou quelque chose, a parlé à leur place.
+
+Ce n'est que le premier cercle. Le même mécanisme frappe ailleurs, à d'autres échelles, jusqu'à atteindre l'humanité entière. Et à chaque cercle, la même question revient : si ce que l'on voit, entend et lit ne peut plus être tenu pour vrai... Alors, que reste-t-il ?
+
+System Down est un roman inclassable, entre dystopie anticipatoire et récit initiatique. Dans un style littéraire qui lui est propre, il explore en deux actes, d'un point de vue fictionnel et philosophique, le récit comme fondement même de notre humanité et ce qui arrive quand ce fondement s'effondre.
+
+Le livre progresse par cercles concentriques : de l'intime au collectif, du collectif au politique, du politique au cosmique. Puis, du cosmique au silence. Chaque chapitre élargit la brèche ouverte par le précédent. Ce qui commence comme un thriller technologique bascule peu à peu vers une interrogation plus profonde sur ce que nous sommes quand les histoires que nous nous racontons et à travers lesquelles nous vivons cessent de fonctionner.
+
+Mais System Down n'est pas seulement un roman apocalyptique. Là où la plupart des dystopies s'achèvent, ce livre bascule. L'acte II plonge dans le silence qui suit l'effondrement et s'interroge sur ce qui pourrait renaître des cendres de notre civilisation.
+
+Ce que raconte ce livre n'appartient peut-être déjà plus à la science-fiction. Deepfakes, désinformation, effondrement de la confiance dans les institutions, incapacité à distinguer le vrai du faux, autonomie croissante de l'IA : c'est déjà le monde dans lequel nous vivons. Plus actuel que jamais, System Down ne fait qu'en tirer le fil jusqu'au bout... Et son mécanisme d'écriture n'est pas étranger à ce qu'il raconte.
+
+---
+
 <div class="buy-links" markdown="0">
 
 <div class="buy-format">
@@ -75,22 +91,6 @@ Livraison&nbsp;: Imm&eacute;diate
 *C'est aussi un objet que l'on peut offrir.*
 
 *Pour tout renseignement, [contacter l'auteur]({{ "/contact/" | relative_url }}).*
-
----
-
-Un soir, Claire reçoit des messages d'une violence inexplicable de Marc, son ami le plus proche depuis quinze ans. Il jure n'avoir rien envoyé. Elle détient les preuves. Lui aussi.
-
-Quelqu'un, ou quelque chose, a parlé à leur place.
-
-Ce n'est que le premier cercle. Le même mécanisme frappe ailleurs, à d'autres échelles, jusqu'à atteindre l'humanité entière. Et à chaque cercle, la même question revient : si ce que l'on voit, entend et lit ne peut plus être tenu pour vrai... Alors, que reste-t-il ?
-
-System Down est un roman inclassable, entre dystopie anticipatoire et récit initiatique. Dans un style littéraire qui lui est propre, il explore en deux actes, d'un point de vue fictionnel et philosophique, le récit comme fondement même de notre humanité et ce qui arrive quand ce fondement s'effondre.
-
-Le livre progresse par cercles concentriques : de l'intime au collectif, du collectif au politique, du politique au cosmique. Puis, du cosmique au silence. Chaque chapitre élargit la brèche ouverte par le précédent. Ce qui commence comme un thriller technologique bascule peu à peu vers une interrogation plus profonde sur ce que nous sommes quand les histoires que nous nous racontons et à travers lesquelles nous vivons cessent de fonctionner.
-
-Mais System Down n'est pas seulement un roman apocalyptique. Là où la plupart des dystopies s'achèvent, ce livre bascule. L'acte II plonge dans le silence qui suit l'effondrement et s'interroge sur ce qui pourrait renaître des cendres de notre civilisation.
-
-Ce que raconte ce livre n'appartient peut-être déjà plus à la science-fiction. Deepfakes, désinformation, effondrement de la confiance dans les institutions, incapacité à distinguer le vrai du faux, autonomie croissante de l'IA : c'est déjà le monde dans lequel nous vivons. Plus actuel que jamais, System Down ne fait qu'en tirer le fil jusqu'au bout... Et son mécanisme d'écriture n'est pas étranger à ce qu'il raconte.
 
 ---
 
