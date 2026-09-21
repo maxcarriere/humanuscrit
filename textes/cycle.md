@@ -67,7 +67,7 @@ Le cinquième mouvement consiste à ne plus raconter, ne plus penser, ne plus r�
 
 ---
 
-### Le cycle infini
+<h3 style="text-align: center;">Le cycle infini</h3>
 
 Ce cycle n'a pas de fin. Car celui qui parvient à simplement être, à vivre une expérience pleinement incarnée, ne peut s'empêcher, tôt ou tard, de la raconter. L'expérience vécue appelle le récit, et le récit relance le mouvement. Raconter, penser, se représenter, s'éveiller, être — puis raconter à nouveau, autrement, depuis un autre point de vue, avec un regard transformé par le chemin parcouru. La boucle se referme, non pas sur elle-même comme une répétition, mais comme une spirale : chaque passage à travers le cycle produit un récit différent, nourri par l'expérience du précédent. C'est en cela que le mouvement est vivant.
 
