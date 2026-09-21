@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
   <rect width="160" height="160" rx="8" fill="#0e0e0e"/>
-  <!-- Arc : cercle quasi complet centré (80,80) rayon 42, sens horaire, ouverture en bas-droite -->
-  <path d="M 66 119 A 42 42 0 1 1 94 119"
+  <!-- Arc : cercle quasi complet centré (82,74) rayon 40, sens horaire, ouverture en bas -->
+  <path d="M 68 110 A 40 40 0 1 1 96 110"
         fill="none" stroke="#d8ccb0" stroke-width="2.5" stroke-linecap="round"/>
-  <!-- Pointe de flèche : tangente vers bas-gauche (sens horaire à ~5h) -->
-  <polyline points="94,110 94,119 103,126"
+  <!-- Pointe de flèche vers bas-gauche, branches diagonales -->
+  <polyline points="60,103 68,110 60,117"
             fill="none" stroke="#d8ccb0" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
