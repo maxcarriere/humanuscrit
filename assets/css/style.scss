@@ -1013,6 +1013,21 @@ html[data-darkreader-mode] .navigation-dossier a:hover {
   min-height: 6em;
 }
 
+.mouvement-checkboxes {
+  margin: 0.5em 0 1em 0;
+}
+.mouvement-checkboxes label {
+  display: block;
+  margin-top: 0.3em;
+  font-weight: normal;
+  cursor: pointer;
+}
+.mouvement-checkboxes input[type="checkbox"] {
+  width: auto;
+  margin-right: 0.4em;
+  vertical-align: middle;
+}
+
 .contact-submit-btn {
   margin-top: 1em;
   padding: 0.5rem 1.5rem;

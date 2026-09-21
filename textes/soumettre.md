@@ -40,12 +40,12 @@ Cette plateforme d'expression est pour le moment informelle. Sa forme évoluera 
     <input type="text" id="texte-licence" name="licence" placeholder="Ex : CC BY-NC 4.0, domaine public...">
 
     <label>Mouvement(s) auquel appartient le texte <small>(plusieurs choix possibles)</small> :</label>
-    <div style="margin: 0.5em 0 1em 0; line-height: 2;">
-      <label style="display: block;"><input type="checkbox" name="mouvement" value="Raconter"> 1er Mouvement : Raconter <small>(Fictions)</small></label>
-      <label style="display: block;"><input type="checkbox" name="mouvement" value="Penser"> 2e Mouvement : Penser <small>(Réflexions)</small></label>
-      <label style="display: block;"><input type="checkbox" name="mouvement" value="Se Représenter"> 3e Mouvement : Se Représenter <small>(Méditations)</small></label>
-      <label style="display: block;"><input type="checkbox" name="mouvement" value="Éveiller"> 4e Mouvement : Éveiller <small>(Contemplations)</small></label>
-      <label style="display: block;"><input type="checkbox" name="mouvement" value="Être"> 5e Mouvement : Être <small>(Incarnations)</small></label>
+    <div class="mouvement-checkboxes">
+      <label><input type="checkbox" name="mouvement" value="Raconter"> 1er Mouvement : Raconter <small>(Fictions)</small></label>
+      <label><input type="checkbox" name="mouvement" value="Penser"> 2e Mouvement : Penser <small>(Réflexions)</small></label>
+      <label><input type="checkbox" name="mouvement" value="Se Représenter"> 3e Mouvement : Se Représenter <small>(Méditations)</small></label>
+      <label><input type="checkbox" name="mouvement" value="Éveiller"> 4e Mouvement : Éveiller <small>(Contemplations)</small></label>
+      <label><input type="checkbox" name="mouvement" value="Être"> 5e Mouvement : Être <small>(Incarnations)</small></label>
     </div>
 
     <button type="submit" class="contact-submit-btn">Soumettre via votre client mail</button>
