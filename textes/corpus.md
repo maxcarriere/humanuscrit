@@ -17,23 +17,30 @@ Bonne visite.
 
 ### Arborescence
 
-**Mouvement 0 : [Initier]({{ '/textes/prescriptum/' | relative_url }})** — Paratextes / Textes fondateurs
+**Mouvement 0 : [Initier]({{ '/textes/prescriptum/' | relative_url }})**
+Textes : Paratextes — Domaine : Textes fondateurs
 
-**Mouvement 1 : [Raconter]({{ '/textes/fictions/' | relative_url }})** — Fictions – Récits
+**Mouvement 1 : [Raconter]({{ '/textes/fictions/' | relative_url }})**
+Textes : Fictions — Domaine : Récits
 
-**Mouvement 2 : [Penser]({{ '/textes/reflexions/' | relative_url }})** — Réflexions – Philosophie
+**Mouvement 2 : [Penser]({{ '/textes/reflexions/' | relative_url }})**
+Textes : Réflexions — Domaine : Philosophie
 
-**Mouvement 3 : Se penser** — Réflexivité – Conscience
+**Mouvement 3 : Se penser**
+Textes : Réflexivité — Domaine : Conscience
 
-**Mouvement 4 : Éveiller** — Contes / Poésie – Éveil
+**Mouvement 4 : Éveiller**
+Textes : Contes / Poésie — Domaine : Éveil
 
-**Mouvement 5 : S'incarner** — Témoignages – Personnel
+**Mouvement 5 : S'incarner**
+Textes : Témoignages — Domaine : Personnel
 
-**Mouvement 6 : Réception** — Critiques – Résonances
+**Mouvement 6 : Évoluer**
+Textes : Réactions — Domaine : Critiques / Réception
 
 ---
 
-<p class="cycle-corpus">⊳  <em>Initier → Raconter → Penser → Se penser → Éveiller → S'incarner → Réception</em>  ⊲</p>
+<p class="cycle-corpus">⊳  <em>Initier → Raconter → Penser → Se penser → Éveiller → S'incarner → Évoluer</em>  ⊲</p>
 
 <p style="text-align: center;"><a href="{{ '/textes/cycle/' | relative_url }}" class="cta-button">Découvrir le Cycle</a></p>
 

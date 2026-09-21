@@ -45,7 +45,7 @@ Le conte est sans doute la forme de récit qui se prête le mieux à parler d'é
 
 L'expérience vécue. Le chemin d'un individu ordinaire, avec ses panoramas et ses embûches, ses moments de clarté et ses longues traversées de brouillard. Un chemin qui vaut la peine d'être partagé, pas parce qu'il est exemplaire, mais parce qu'il est sincère.
 
-### Mouvement 6 : Réception
+### Mouvement 6 : Évoluer
 
 Ce que les textes produisent chez ceux qui les reçoivent. Retours, critiques, résonances. Le moment où le cycle se referme — et s'ouvre à nouveau.
 
@@ -57,7 +57,7 @@ Humanuscrit n'est pas terminé. Il commence.
 
 Chaque mouvement nourrit le suivant, et le dernier ramène au premier. L'écriture engendre la réflexion, la réflexion engendre la conscience, la conscience engendre l'éveil, l'éveil s'incarne dans l'expérience, l'expérience est reçue par d'autres — et de cette réception naissent de nouveaux récits.
 
-<p class="cycle-corpus">⊳  <em>Initier → Raconter → Penser → Se penser → Éveiller → S'incarner → Réception → …</em>  ⊲</p>
+<p class="cycle-corpus">⊳  <em>Initier → Raconter → Penser → Se penser → Éveiller → S'incarner → Évoluer → …</em>  ⊲</p>
 
 ---
 
