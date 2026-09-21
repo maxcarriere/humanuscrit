@@ -89,7 +89,8 @@
     {% endif %}
     {% assign full_idx = dossier_norm | append: "/index.md" %}
     {% assign full_readme = dossier | append: "/README.md" %}
-    {% if path_str == full_idx or path_str == full_readme %}
+    {% assign page_path_norm = page.path | replace: "\\", "/" %}
+    {% if path_str == full_idx or path_str == full_readme or path_str == page_path_norm %}
       {% continue %}
     {% endif %}
     {% assign rel_path = path_str | remove_first: prefix_norm %}
