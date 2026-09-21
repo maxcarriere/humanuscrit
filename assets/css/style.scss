@@ -1394,7 +1394,7 @@ html[data-darkreader-mode] .navigation-dossier a:hover {
 /* Liens d'achat */
 .buy-links {
   display: grid;
-  grid-template-columns: 2fr 3fr;
+  grid-template-columns: 1fr 1fr;
   gap: 1.5em;
   text-align: center;
   margin: 1.5em 0;
@@ -1408,13 +1408,15 @@ html[data-darkreader-mode] .navigation-dossier a:hover {
 
 .buy-links .cta-button {
   margin: 0.3em;
+  padding: 0.5em 0.8em;
+  font-size: 0.8em;
 }
 
 /* Boutons d'achat côte à côte */
 .buy-buttons-row {
   display: flex;
   justify-content: center;
-  gap: 0.5em;
+  gap: 0.4em;
   flex-wrap: wrap;
 }
 
@@ -1426,12 +1428,16 @@ html[data-darkreader-mode] .navigation-dossier a:hover {
 
 .buy-buttons-row .cta-button {
   margin: 0;
-  padding: 0.7em 1.2em;
+  padding: 0.5em 0.8em;
+  font-size: 0.8em;
 }
 
 /* Groupement format d'achat */
 .buy-format {
   margin: 0;
+  border: 1px solid #d8ccb033;
+  border-radius: 6px;
+  padding: 1.2em;
 }
 
 /* Cartes d'avis lecteurs */
