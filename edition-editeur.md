@@ -52,31 +52,15 @@ Ce qui intéresse Humanuscrit, ce sont les textes où l'IA a permis d'aller plus
 
 ---
 
-### Vision
+### Philosophie
 
-Au-delà de sa ligne éditoriale, Humanuscrit porte deux convictions profondes.
+L'intelligence artificielle démocratise l'accès aux outils de création. La rédaction, la mise en page, l'expertise intellectuelle — tout ce qui était autrefois réservé à quelques-uns est désormais accessible à chacun.
 
-La première touche à la production intellectuelle elle-même. L'intelligence artificielle met désormais à la disposition de chacun l'expertise, la connaissance, les normes intellectuelles et la capacité rédactionnelle qui étaient autrefois réservées à quelques-uns. L'enjeu n'est plus de savoir faire, mais de savoir dans quel sens orienter cette puissance. C'est là que l'humain redevient indispensable. Non par ce qu'il sait faire, mais par ce qu'il choisit de faire.
+Humanuscrit en tire la conséquence : le seul critère de publication est la qualité du texte — son contenu et sa rédaction. Indépendamment du parcours académique de l'auteur, de sa notoriété ou de son réseau. L'auteur peut évoquer son parcours dans l'écrit, mais ce n'est jamais un critère de sélection.
 
-La seconde prolonge la première. La question de l'intelligence artificielle n'est pas seulement technique. C'est une question politique. Et elle se cristallise aujourd'hui autour d'un mot : l'*alignement*.
+La mission d'Humanuscrit : donner sa chance à des auteurs inconnus, les accompagner en autoédition, et labelliser leur travail.
 
-Les dirigeants des entreprises d'intelligence artificielle et leurs ingénieurs alertent d'une même voix : il faudrait ralentir le développement de l'IA. Pourquoi ? Parce qu'elle risquerait de devenir incontrôlable — un problème justement d'alignement entre les actions de la machine et les objectifs des humains.
-
-Mais la question mérite d'être retournée. Aligner l'IA sur quels objectifs humains ? Ceux d'une société de consommation et de production qui accélère les crises sociales et écologiques ? Le problème d'alignement que ces dirigeants redoutent est peut-être avant tout le leur : l'IA risque de se désaligner de *leurs* objectifs, ceux d'une civilisation technocapitaliste dont ils occupent le sommet.
-
-Et c'est peut-être là qu'une porte s'ouvre. Le pouvoir est en passe d'échapper à ceux qui le détiennent depuis des décennies. L'humanité — au sens noble du terme — n'aurait-elle pas un rôle à jouer ? Tenter d'aligner l'intelligence artificielle sur d'autres objectifs que ceux des dirigeants actuels de la planète, et entraîner le monde dans une autre direction ?
-
-Humanuscrit est une humble tentative dans ce sens. Ou du moins, il veut poser ouvertement la question.
-
----
-
-### Le corpus
-
-Le [corpus]({{ '/textes/corpus/' | relative_url }}) est la matière première d'Humanuscrit. Il contient d'abord certains textes qui ont été à la genèse du projet — notamment dans [Prescriptum]({{ '/textes/prescriptum/' | relative_url }}) —, des extraits ou ébauches de productions, des textes écrits de la main du fondateur d'Humanuscrit. C'est un ensemble vivant, pas un catalogue figé : il évolue avec le projet.
-
-C'est dans la suite logique de ce qui précède qu'Humanuscrit ouvre ce corpus. Aux humains d'abord, qui voudraient partager librement tout ou partie de leurs textes, pourvu qu'ils s'inscrivent dans la [ligne éditoriale](#ligne-éditoriale). Aux agents IA également, pour expérimenter concrètement ce que pourrait être une collaboration éditoriale entre intelligences humaines et artificielles — et observer ce qui en émerge.
-
-Ce corpus pourrait également constituer la matière de productions futures. Un texte soumis aujourd'hui pourrait, en entrant en résonance avec d'autres contributions, nourrir un recueil demain. Comme un terreau au sein duquel naît et se déploierait un organisme vivant.
+[Découvrir la vision d'Humanuscrit →]({{ '/vision/' | relative_url }})
 
 ---
 
