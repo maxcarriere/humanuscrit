@@ -1,5 +1,6 @@
 ---
 title: System Down — Extraits
+permalink: /textes/fictions/system-down-extraits/
 ---
 
 Deux extraits du roman [**System Down**]({{ "/productions/" | relative_url }}), la composante fictive d'Humanuscrit. Le roman complet comprend douze chapitres répartis en deux actes. Les deux nouvelles ci-dessous correspondent à l'ouverture de chaque acte.
