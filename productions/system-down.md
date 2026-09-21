@@ -69,7 +69,7 @@ Plateforme&nbsp;: Amazon
 <div class="buy-format">
 <strong>Livre &eacute;lectronique</strong>
 <br>
-T&eacute;l&eacute;chargement direct ePub + PDF (Payhip),
+T&eacute;l&eacute;chargement direct (ePub + PDF),
 <br>
 Liseuse Kindle ou Kobo.
 <br>
