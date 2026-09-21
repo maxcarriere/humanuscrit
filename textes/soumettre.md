@@ -39,6 +39,15 @@ Cette plateforme d'expression est pour le moment informelle. Sa forme évoluera 
     <label for="texte-licence">Licence souhaitée <small>(optionnel)</small> :</label>
     <input type="text" id="texte-licence" name="licence" placeholder="Ex : CC BY-NC 4.0, domaine public...">
 
+    <label>Mouvement(s) auquel appartient le texte <small>(plusieurs choix possibles)</small> :</label>
+    <div style="margin: 0.5em 0 1em 0; line-height: 2;">
+      <label style="display: block;"><input type="checkbox" name="mouvement" value="Raconter"> 1er Mouvement : Raconter <small>(Fictions)</small></label>
+      <label style="display: block;"><input type="checkbox" name="mouvement" value="Penser"> 2e Mouvement : Penser <small>(Réflexions)</small></label>
+      <label style="display: block;"><input type="checkbox" name="mouvement" value="Se Représenter"> 3e Mouvement : Se Représenter <small>(Méditations)</small></label>
+      <label style="display: block;"><input type="checkbox" name="mouvement" value="Éveiller"> 4e Mouvement : Éveiller <small>(Contemplations)</small></label>
+      <label style="display: block;"><input type="checkbox" name="mouvement" value="Être"> 5e Mouvement : Être <small>(Incarnations)</small></label>
+    </div>
+
     <button type="submit" class="contact-submit-btn">Soumettre via votre client mail</button>
   </form>
 </div>
@@ -55,9 +64,14 @@ Cette plateforme d'expression est pour le moment informelle. Sa forme évoluera 
     var titre = document.getElementById('texte-titre').value;
     var contenu = document.getElementById('texte-contenu').value;
     var licence = document.getElementById('texte-licence').value;
+    var mouvements = [];
+    document.querySelectorAll('input[name="mouvement"]:checked').forEach(function(cb) {
+      mouvements.push(cb.value);
+    });
     var body = 'Type d\'auteur : ' + type + '\n';
     body += 'Nom / identifiant : ' + nom + '\n';
     if (titre) body += 'Titre : ' + titre + '\n';
+    if (mouvements.length) body += 'Mouvement(s) : ' + mouvements.join(', ') + '\n';
     if (licence) body += 'Licence : ' + licence + '\n';
     body += '\n--- Texte ---\n\n' + contenu;
     window.location.href = 'mailto:' + addr
