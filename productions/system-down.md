@@ -48,6 +48,32 @@ Ce que raconte ce livre n'appartient peut-être déjà plus à la science-fictio
 
 ---
 
+Premier roman de Max Carrière.
+220 pages — 12 chapitres
+
+### Chapitres
+
+**Acte I**
+
+1. Bruit Blanc — [lire l'extrait]({{ "/productions/system-down/chapitre-1/" | relative_url }}) · [version PDF]({{ "/assets/documents/system_down_chapitre1.pdf" | relative_url }}){:target="_blank"}
+2. Le Cercle
+3. La Promesse
+4. La Faille
+5. L'Onde
+6. Le Moine
+
+**Acte II**
+
+{:start="7"}
+7. Le Signal — [lire l'extrait]({{ "/productions/system-down/chapitre-7/" | relative_url }}) · [version PDF]({{ "/assets/documents/system_down_chapitre7.pdf" | relative_url }}){:target="_blank"}
+8. L'Extinction
+9. La Chute
+10. Le Réveil
+11. L'Institutrice
+12. L'Amour et le Hasard
+
+---
+
 <div class="buy-links" markdown="0">
 
 <div class="buy-format">
@@ -92,31 +118,6 @@ Livraison&nbsp;: Imm&eacute;diate
 
 *Pour tout renseignement, [contacter l'auteur]({{ "/contact/" | relative_url }}).*
 
----
-
-Premier roman de Max Carrière.
-220 pages — 12 chapitres
-
-### Chapitres
-
-**Acte I**
-
-1. Bruit Blanc — [lire l'extrait]({{ "/productions/system-down/chapitre-1/" | relative_url }}) · [version PDF]({{ "/assets/documents/system_down_chapitre1.pdf" | relative_url }}){:target="_blank"}
-2. Le Cercle
-3. La Promesse
-4. La Faille
-5. L'Onde
-6. Le Moine
-
-**Acte II**
-
-{:start="7"}
-7. Le Signal — [lire l'extrait]({{ "/productions/system-down/chapitre-7/" | relative_url }}) · [version PDF]({{ "/assets/documents/system_down_chapitre7.pdf" | relative_url }}){:target="_blank"}
-8. L'Extinction
-9. La Chute
-10. Le Réveil
-11. L'Institutrice
-12. L'Amour et le Hasard
 
 ---
 
