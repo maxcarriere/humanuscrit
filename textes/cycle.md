@@ -7,7 +7,7 @@ Ce corpus s'organise autour d'un cycle, au sein duquel chaque texte pourra prend
 
 ---
 
-### Premier mouvement : Raconter
+### Premier mouvement : Raconter  
 Textes : Fictions  
 Domaine : Récit / Histoire
 
@@ -15,7 +15,7 @@ Le premier mouvement consiste à raconter le réel, à produire des histoires à
 
 ---
 
-### Deuxième mouvement : Penser
+### Deuxième mouvement : Penser  
 Textes : Réflexions  
 Domaine : Philosophie / Science
 
@@ -23,7 +23,7 @@ Le deuxième mouvement consiste à prendre du recul sur ces récits. Passer nos 
 
 ---
 
-### Troisième mouvement : Se Représenter
+### Troisième mouvement : Se Représenter  
 Textes : Méditations  
 Domaine : Conscience / Réflexivité
 
@@ -31,7 +31,7 @@ Le troisième mouvement consiste à retourner le regard vers soi. Après avoir o
 
 ---
 
-### Quatrième mouvement : Éveiller
+### Quatrième mouvement : Éveiller  
 Textes : Contemplations  
 Domaine : Contes / Poésie
 
@@ -39,7 +39,7 @@ Le quatrième mouvement consiste à dépasser l'analyse. On ne cherche plus à d
 
 ---
 
-### Cinquième mouvement : Être
+### Cinquième mouvement : Être  
 Textes : Incarnations  
 Domaine : Témoignage / Biographie
 
