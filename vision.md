@@ -1,6 +1,6 @@
 ---
 title: Vision
-permalink: /vision/
+permalink: /edition/vision/
 ---
 
 ### La question politique de l'IA
@@ -29,4 +29,4 @@ Humanuscrit est une humble tentative dans ce sens. Ou du moins, il veut poser ou
 
 ---
 
-[← Retour à la page Éditeur]({{ '/edition/editeur/' | relative_url }})
+[← Retour à la page Édition]({{ '/edition/' | relative_url }})

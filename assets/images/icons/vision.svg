@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
+  <rect width="160" height="160" rx="8" fill="#0e0e0e"/>
+  <!-- Œil stylisé -->
+  <path d="M 30 80 Q 80 40 130 80 Q 80 120 30 80 Z"
+        fill="none" stroke="#d8ccb0" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- Iris -->
+  <circle cx="80" cy="80" r="16" fill="none" stroke="#d8ccb0" stroke-width="2.5"/>
+  <!-- Pupille -->
+  <circle cx="80" cy="80" r="6" fill="#d8ccb0"/>
+</svg>

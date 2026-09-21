@@ -60,7 +60,7 @@ Humanuscrit en tire la conséquence : le seul critère de publication est la qua
 
 La mission d'Humanuscrit : donner sa chance à des auteurs inconnus, les accompagner en autoédition, et labelliser leur travail.
 
-[Découvrir la vision d'Humanuscrit →]({{ '/vision/' | relative_url }})
+[Découvrir la vision d'Humanuscrit →]({{ '/edition/vision/' | relative_url }})
 
 ---
 
