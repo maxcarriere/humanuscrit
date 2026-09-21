@@ -15,7 +15,7 @@ brouillon: true
 
 Le chapitre précédent a posé le vocabulaire formel de la description systémique. Il a défini l'état comme un couple d'éléments présents et de relations effectives, l'action comme une transformation d'une configuration, la force comme une sélection d'action, le champ de forces $\mathcal{D}$ comme ce qui associe à chaque état la force qui s'y exerce. Il a proposé une hiérarchie — systèmes statiques, dynamiques simples, évolutifs, réflexifs — et décliné cette hiérarchie en temps discret et en temps continu.
 
-Mais il a laissé une question ouverte, annoncée dans sa clôture : le formalisme décrit *ce qui peut changer* et *comment* cela peut changer. Il ne dit pas encore *pourquoi* certaines transformations se produisent effectivement. Qu'est-ce qui oriente le champ de forces $\mathcal{D}$ ? Qu'est-ce qui fait qu'un système évolue dans une direction plutôt que dans une autre ?
+Mais il a laissé une question ouverte, annoncée dans sa clôture : le formalisme décrit *ce qui peut changer* et *comment* cela peut changer. Il ne dit pas encore *pourquoi* certaines transformations se produisent effectivement. Qu'est-ce qui oriente le champ de forces $\mathcal{D}$ ? Qu'est-ce qui fait qu'un système évolue dans une direction plutôt que dans une autre ?
 
 La réponse tient dans une idée. Les transformations ne sont pas arbitraires. Elles sont orientées par la distribution des quantités qui s'accumulent dans les éléments du système et qui circulent dans ses liens. Ces quantités — que nous appellerons **énergie** — ne constituent pas un ingrédient nouveau ajouté de l'extérieur. Elles sont la *valuation* du système : elles habitent la structure formelle du chapitre précédent et lui donnent sa direction.
 
@@ -49,13 +49,13 @@ Le **stock** est de l'énergie *au repos* — accumulée dans un élément, disp
 
 Ces deux grandeurs enrichissent l'état. Un état énergétique n'est plus seulement un couple $(A, R)$, mais un quadruplet $(A, R, E, K)$ : les éléments présents, leurs relations, leurs stocks, et les conductivités des liens.
 
-*Exemples.* Dans un réseau thermique, les stocks sont les quantités de chaleur accumulées dans chaque corps ; les conductivités sont les propriétés thermiques des interfaces entre corps. Dans un réseau électrique, les stocks sont les charges accumulées dans les condensateurs ; les conductivités sont les inverses des résistances. Dans un réseau métabolique, les stocks sont les concentrations de métabolites ; les conductivités sont les taux de réaction enzymatique. Dans chaque cas, la structure est la même — seule l'interprétation des grandeurs change.
+*Exemples.* Dans un réseau thermique, les stocks sont les quantités de chaleur accumulées dans chaque corps ; les conductivités sont les propriétés thermiques des interfaces entre corps. Dans un réseau électrique, les stocks sont les charges accumulées dans les condensateurs ; les conductivités sont les inverses des résistances. Dans un réseau métabolique, les stocks sont les concentrations de métabolites ; les conductivités sont les taux de réaction enzymatique. Dans chaque cas, la structure est la même — seule l'interprétation des grandeurs change.
 
 ---
 
 ### Le potentiel
 
-Le **potentiel** d'un élément est la *pression* que son stock exerce vers l'extérieur. C'est la grandeur qui détermine dans quelle direction et avec quelle intensité l'énergie tend à circuler. Un réservoir plein presse vers ses voisins ; un réservoir vide aspire.
+Le **potentiel** d'un élément est la *pression* que son stock exerce vers l'extérieur. C'est la grandeur qui détermine dans quelle direction et avec quelle intensité l'énergie tend à circuler. Un réservoir plein presse vers ses voisins ; un réservoir vide aspire.
 
 > **Définition 23 — Potentiel**
 > 
@@ -81,9 +81,9 @@ Les ingrédients sont posés. Nous pouvons maintenant les assembler en une défi
 > 
 > Un **système énergétique** est un système valué (au sens de la Définition 16 du chapitre 1) dont la structure de valuation est spécifiée comme suit :
 > 
-> - Les éléments présents $A$ sont munis d'une **fonction de stock** $E : A \to \mathbb{R}^+$ ;
-> - Les liens effectifs $L$ sont munis d'une **fonction de conductivité** $K : L \to \mathbb{R}^+$ ;
-> - Une **fonction de potentiel** $\varphi : \mathbb{R}^+ \to \mathbb{R}$ croissante dérive le potentiel $P_x = \varphi(E_x)$ de chaque élément ;
+> - Les éléments présents $A$ sont munis d'une **fonction de stock** $E : A \to \mathbb{R}^+$ ;
+> - Les liens effectifs $L$ sont munis d'une **fonction de conductivité** $K : L \to \mathbb{R}^+$ ;
+> - Une **fonction de potentiel** $\varphi : \mathbb{R}^+ \to \mathbb{R}$ croissante dérive le potentiel $P_x = \varphi(E_x)$ de chaque élément ;
 > - Une **loi de flux** détermine, à partir des potentiels et des conductivités, le flux effectif sur chaque lien.
 > 
 > L'état énergétique du système à un instant donné est le quadruplet $e = (A, R, E, K)$.
@@ -152,7 +152,7 @@ La loi de flux dit comment les flux sont déterminés. Le **principe de bilan** 
 > **Temps continu** :
 > $$\frac{dE_x}{dt} = \sum_y K_{xy} \times (P_y - P_x)$$
 > 
-> Les deux formulations expriment le même principe ; seul l'incrément temporel diffère — fini dans un cas, infinitésimal dans l'autre.
+> Les deux formulations expriment le même principe ; seul l'incrément temporel diffère — fini dans un cas, infinitésimal dans l'autre.
 
 Si un réservoir reçoit plus qu'il ne perd, il se remplit. S'il perd plus qu'il ne reçoit, il se vide. Il n'y a aucune autre possibilité — que le temps soit discret ou continu.
 
@@ -351,9 +351,9 @@ L'information ne réside pas dans les stocks eux-mêmes. Elle réside dans les *
 
 Information, entropie et distance à l'équilibre ne sont pas trois grandeurs indépendantes. Ce sont trois facettes d'une même réalité : le **degré de contrainte** d'un état.
 
-- L'**information** le mesure du côté de la *description* : combien faut-il spécifier pour décrire cet état ?
-- L'**entropie** le mesure du côté de la *multiplicité* : combien de micro-configurations sont compatibles ?
-- La **distance à l'équilibre** le mesure du côté de la *dynamique* : quelle capacité reste-t-il pour orienter l'évolution du système ?
+- L'**information** le mesure du côté de la *description* : combien faut-il spécifier pour décrire cet état ?
+- L'**entropie** le mesure du côté de la *multiplicité* : combien de micro-configurations sont compatibles ?
+- La **distance à l'équilibre** le mesure du côté de la *dynamique* : quelle capacité reste-t-il pour orienter l'évolution du système ?
 
 Plus un état est contraint, plus il est informatif, moins il est probable, plus il est loin de l'équilibre — et plus il est capable de produire du changement orienté.
 
@@ -481,7 +481,7 @@ C'est en cela que ces principes méritent le nom de *fondamentaux* : non pas par
 
 ## Clôture du chapitre 2
 
-Ce chapitre a répondu à la question que le précédent avait laissée ouverte : *qu'est-ce qui anime le système ?*
+Ce chapitre a répondu à la question que le précédent avait laissée ouverte : *qu'est-ce qui anime le système ?*
 
 Il a d'abord défini le **système énergétique** comme une spécification particulière du système valué du chapitre 1 : un système muni d'une **fonction de stock** $E$ sur les éléments, d'une **fonction de conductivité** $K$ sur les liens, d'une **fonction de potentiel** $\varphi$ dérivant le potentiel du stock, et d'une **loi de flux** $F = K \times \Delta P$. Cette définition fait le pont entre le vocabulaire abstrait du chapitre 1 et la dynamique concrète du réel : le champ de forces $\mathcal{D}$ reçoit une expression précise, et le système dynamique réflexif continu reçoit un contenu.
 

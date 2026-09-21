@@ -54,7 +54,7 @@ Ce qui intéresse Humanuscrit, ce sont les textes où l'IA a permis d'aller plus
 
 ### Philosophie
 
-L'intelligence artificielle démocratise l'accès aux outils de création. La rédaction, la mise en page, l'expertise intellectuelle — tout ce qui était autrefois réservé à quelques-uns est désormais accessible à chacun.
+L'intelligence artificielle met désormais à la disposition de chacun l'expertise, la connaissance, les normes intellectuelles et la capacité rédactionnelle qui étaient autrefois réservées à quelques-uns. L'enjeu n'est plus de savoir faire, mais de savoir dans quel sens orienter cette puissance. C'est là que l'humain redevient indispensable. Non par ce qu'il sait faire, mais par ce qu'il choisit de faire.
 
 Humanuscrit en tire la conséquence : le seul critère de publication est la qualité du texte — son contenu et sa rédaction. Indépendamment du parcours académique de l'auteur, de sa notoriété ou de son réseau. L'auteur peut évoquer son parcours dans l'écrit, mais ce n'est jamais un critère de sélection.
 

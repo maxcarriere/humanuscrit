@@ -51,7 +51,7 @@ Pour toute question, retour ou échange autour du projet Humanuscrit, vous pouve
   window.copyEmail = function() {
     navigator.clipboard.writeText(addr).then(function() {
       var fb = document.getElementById('copy-feedback');
-      fb.textContent = 'Copié !';
+      fb.textContent = 'Copié !';
       fb.classList.add('visible');
       setTimeout(function() {
         fb.classList.remove('visible');

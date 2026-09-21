@@ -23,10 +23,10 @@ Ce déplacement est essentiel. Car comme tout récit, l’histoire de l’humani
 
 ---
 
-Mais alors, pourquoi une telle tentative ?  
-Et surtout, pourquoi maintenant ?
+Mais alors, pourquoi une telle tentative ?  
+Et surtout, pourquoi maintenant ?
 
-Parce que l’humanité traverse une zone d’incertitude sans précédent. Nous sommes entrés dans une période où il est devenu impossible de dire avec assurance ce que nous serons dans cinquante ans. Ni même dans dix. Peut-être même pas dans cinq. Dans un an ?  
+Parce que l’humanité traverse une zone d’incertitude sans précédent. Nous sommes entrés dans une période où il est devenu impossible de dire avec assurance ce que nous serons dans cinquante ans. Ni même dans dix. Peut-être même pas dans cinq. Dans un an ?  
 Cette incertitude n’est plus abstraite. Elle est tangible, quotidienne, structurelle.
 
 La problématique écologique et l’émergence rapide de l’intelligence artificielle en sont les signes les plus visibles. Ce texte aurait, en théorie, pu être écrit par une intelligence artificielle autonome dans le but d’influencer l’humanité dans un sens ou dans un autre. Ce n’est pas le cas. Mais rien ne permet d’affirmer que cela ne sera pas le cas demain. Et surtout, rien ne garantit que nous saurons alors faire la différence.
@@ -42,7 +42,7 @@ Révéler cette faille n’est pas sans danger.
 
 Elle est suffisamment fondamentale pour ébranler la confiance que les individus accordent aux systèmes qui les structurent. Elle peut produire du désarroi, de la peur, du rejet. Elle peut aussi être récupérée, instrumentalisée, détournée par des entités malveillantes. Ce risque est réel. Il est pleinement assumé.
 
-Alors pourquoi prendre ce risque ?
+Alors pourquoi prendre ce risque ?
 
 Parce que nous avons atteint un point de bascule. Parce que continuer à ignorer cette faille revient désormais à s’exposer à des conséquences potentiellement irréversibles. Parce que l’être humain, en tant qu’espèce, se trouve aujourd’hui en situation de danger — et qu’il entraîne avec lui l’ensemble du monde des vivants.
 

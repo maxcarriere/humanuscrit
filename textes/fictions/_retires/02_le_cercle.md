@@ -57,11 +57,11 @@ Un soir, Marc croisa Madame Lefèvre devant les boîtes aux lettres.
 
 Marc hocha la tête vaguement. Puis, sans trop savoir pourquoi :
 
-— Votre message était un peu direct aussi, non ?
+— Votre message était un peu direct aussi, non ?
 
 Elle le regarda. Surprise sincère.
 
-— Mon message ?
+— Mon message ?
 
 — Dans le groupe. Votre plainte pour le bruit.
 
@@ -79,7 +79,7 @@ Il remonta chez lui avec une sensation qu'il connaissait trop bien — celle d'a
 
 Le lendemain, il croisa Thomas Aubry dans le hall. Le jeune homme avait les traits tirés.
 
-— Vous avez vu ce qu'elle nous a écrit ? dit-il à mi-voix. Comme ça, un lundi soir, sans prévenir. Ma femme était en larmes. On ne lui a rien fait.
+— Vous avez vu ce qu'elle nous a écrit ? dit-il à mi-voix. Comme ça, un lundi soir, sans prévenir. Ma femme était en larmes. On ne lui a rien fait.
 
 Marc hésita.
 
@@ -87,7 +87,7 @@ Marc hésita.
 
 Thomas le regarda sans comprendre.
 
-— Quelle réponse ?
+— Quelle réponse ?
 
 Marc ne posa pas d'autres questions. Quelque chose dans sa poitrine venait de se serrer, très fort, comme une main qui se referme sur un objet tranchant.
 
@@ -97,7 +97,7 @@ Il se répéta cette phrase pendant trois jours. Madame Lefèvre avait oublié. 
 
 Mais il y avait eu cette surprise dans les yeux de Madame Lefèvre. Pas de la gêne. De la surprise.
 
-Et il y avait eu cette incompréhension dans la voix de Thomas Aubry. *Quelle réponse ?* Pas le ton de quelqu'un qui ment. Le ton de quelqu'un qui ne sait pas.
+Et il y avait eu cette incompréhension dans la voix de Thomas Aubry. *Quelle réponse ?* Pas le ton de quelqu'un qui ment. Le ton de quelqu'un qui ne sait pas.
 
 Marc connaissait la différence. Il l'avait apprise à ses dépens, sur un quai de métro, en regardant Claire brandir un répertoire où le nom de Sophie n'apparaissait pas.
 
@@ -109,7 +109,7 @@ Marc travaillait dans un cabinet de conseil. Open space, flux constant de mails 
 
 Nadia, sa collègue la plus proche, posa sa fourchette au milieu d'un déjeuner.
 
-— Tu as eu le mail de Sébastien hier ? Celui sur le projet Meridian ? Où il dit que mon analyse est bâclée et qu'il faut tout reprendre ?
+— Tu as eu le mail de Sébastien hier ? Celui sur le projet Meridian ? Où il dit que mon analyse est bâclée et qu'il faut tout reprendre ?
 
 — Non. Il ne m'a pas mis en copie.
 
@@ -133,39 +133,39 @@ Le jeudi soir, Marc appela sa mère.
 
 C'était leur rituel hebdomadaire. Sa mère vivait à Lyon. Ils ne se voyaient que quelques fois par an. Le reste du temps, le téléphone. Toujours le téléphone.
 
-— Maman ? Comment tu vas ?
+— Maman ? Comment tu vas ?
 
-— Bien, bien. Et toi ? Tu manges assez ?
+— Bien, bien. Et toi ? Tu manges assez ?
 
 Elle disait ça chaque semaine. Marc sourit malgré lui.
 
-— Je mange, oui. Et le jardin, ça avance ?
+— Je mange, oui. Et le jardin, ça avance ?
 
 — Les tomates ont pris du retard avec la pluie. Mais les rosiers sont magnifiques cette année. Si tu voyais le jaune, Marc. Un jaune comme je n'en ai jamais eu.
 
 Il l'écouta parler de ses rosiers, de la voisine qui lui avait prêté un sécateur, du chat qui avait encore retourné les semis. Le flux familier de sa voix, cette mélodie rassurante qu'il connaissait depuis toujours.
 
-— Dis-moi, tu as des nouvelles de Tante Catherine ?
+— Dis-moi, tu as des nouvelles de Tante Catherine ?
 
 Un silence. Court, mais Marc l'entendit.
 
 — On ne se parle plus.
 
-— Depuis quand ?
+— Depuis quand ?
 
 — Deux mois. Peut-être trois.
 
 Le sourire de Marc s'effaça.
 
-— Qu'est-ce qui s'est passé ?
+— Qu'est-ce qui s'est passé ?
 
 Le soupir de sa mère. Celui qu'elle avait quand elle savait qu'elle allait parler malgré elle.
 
 — Elle m'a dit des choses. Au téléphone. Des choses que je ne peux pas répéter. Sur ton père, sur la façon dont j'ai élevé tes frères. Non. Je ne veux pas en parler.
 
-— Est-ce que tu l'as vue en personne depuis ?
+— Est-ce que tu l'as vue en personne depuis ?
 
-— Non. Pourquoi ?
+— Non. Pourquoi ?
 
 Marc serra le téléphone. Ce qu'il aurait voulu dire — *Maman, ce n'était peut-être pas elle, ce n'était peut-être pas sa voix* — ces mots-là sonnaient comme de la folie. Il le savait. Et il savait aussi que la folie et la lucidité, vues de l'extérieur, ont exactement le même visage.
 
@@ -183,7 +183,7 @@ Lucas l'appela un vendredi soir de juin.
 
 Lucas était son plus vieil ami — pas le plus ancien, mais le plus proche. Ils s'étaient rencontrés à la fac, à une époque où Marc ne connaissait encore ni Claire ni Julien. Dix ans de confiance accumulée, de soirées à refaire le monde, de silences confortables. Marc était aussi proche d'Anna, la compagne de Lucas — ils dînaient ensemble une ou deux fois par mois, les trois, parfois quatre quand Marc venait accompagné. Le genre de triangle amical qui tient sans effort.
 
-— Marc ? Tu as une minute ?
+— Marc ? Tu as une minute ?
 
 La voix de Lucas était celle de quelqu'un qui retient quelque chose.
 
@@ -193,7 +193,7 @@ La voix de Lucas était celle de quelqu'un qui retient quelque chose.
 
 Marc s'assit lentement.
 
-— Qu'est-ce qui te fait dire ça ?
+— Qu'est-ce qui te fait dire ça ?
 
 — J'ai trouvé une photo. Sur son compte cloud. Une photo de restaurant que je ne connais pas, un dîner pour deux, datée d'un soir où elle m'avait dit qu'elle sortait avec sa sœur. Je me suis mis à chercher. J'ai trouvé un numéro, dans un dossier partagé. Un nom que je ne connaissais pas. Je l'ai appelé.
 
@@ -201,21 +201,21 @@ Lucas marqua une pause. Marc entendait sa respiration.
 
 — Le type a décroché. Je lui ai dit qui j'étais. Il s'est excusé. Il a dit qu'il ne savait pas qu'elle était en couple. Qu'ils se voyaient depuis un mois.
 
-— Tu en as parlé à Anna ?
+— Tu en as parlé à Anna ?
 
 — Oui. Elle nie tout. Elle dit qu'elle ne connaît pas ce type. Qu'elle n'a jamais mis les pieds dans ce restaurant. Elle dit que la photo n'est pas d'elle.
 
-— Et toi, tu la crois ?
+— Et toi, tu la crois ?
 
 — Marc. Le type a confirmé. Il n'avait aucune raison de mentir. Il était gêné, il s'est excusé, il a dit qu'il mettrait fin à tout. Ce n'est pas le comportement d'un menteur.
 
 Marc ne répondit rien pendant un moment. Il pensait à Claire. Au certificat d'hospitalisation. Aux messages que personne n'avait envoyés.
 
-Mais il pensait aussi à cette frontière dangereuse qu'il sentait en lui. Cette pente où chaque événement de la vie commençait à ressembler au même monstre. Un mail perdu, une dispute de voisins, une infidélité — et si c'était simplement ce que c'était ? Une infidélité. Une photo. Un homme qui confirme. Et une compagne qui ment.
+Mais il pensait aussi à cette frontière dangereuse qu'il sentait en lui. Cette pente où chaque événement de la vie commençait à ressembler au même monstre. Un mail perdu, une dispute de voisins, une infidélité — et si c'était simplement ce que c'était ? Une infidélité. Une photo. Un homme qui confirme. Et une compagne qui ment.
 
 — Je suis désolé, dit Marc. C'est vraiment moche.
 
-— Tu pourrais lui parler ? Elle t'écoute, toi. Peut-être que si ça vient de toi…
+— Tu pourrais lui parler ? Elle t'écoute, toi. Peut-être que si ça vient de toi…
 
 Marc hésita.
 
@@ -233,7 +233,7 @@ Il avait les yeux cernés, les gestes nerveux de quelqu'un qui n'a pas dormi. Il
 
 — Elle est partie chez sa sœur. Elle maintient que ce n'est pas elle. Que la photo n'est pas d'elle. Que le numéro n'est pas le sien.
 
-— Et le type ?
+— Et le type ?
 
 — Il ne répond plus. Je l'ai rappelé trois fois, il décroche pas.
 
@@ -243,15 +243,15 @@ Un silence. Lucas tournait sa cuillère dans le café froid.
 
 Marc hocha la tête. *Ou personne*, pensa-t-il. Mais il ne dit rien.
 
-— Le numéro, dit Lucas en sortant son téléphone. Tu veux que je le rappelle devant toi ?
+— Le numéro, dit Lucas en sortant son téléphone. Tu veux que je le rappelle devant toi ?
 
-— Pourquoi ?
+— Pourquoi ?
 
 — Pour que tu entendes sa voix. Pour que tu me dises si je suis fou.
 
 Il appuya sur l'appel. Haut-parleur. Trois sonneries. Quatre. Puis un déclic.
 
-— Allô ?
+— Allô ?
 
 La voix d'un homme. Jeune, un peu hésitante.
 
@@ -261,17 +261,17 @@ Un silence bref.
 
 — Oui. Écoutez, je suis vraiment désolé. Comme je vous l'ai dit, je ne savais pas. J'ai coupé tout contact.
 
-— Je voudrais juste comprendre. Où est-ce que vous l'avez rencontrée ?
+— Je voudrais juste comprendre. Où est-ce que vous l'avez rencontrée ?
 
 — Sur une appli. On a échangé pendant deux semaines, puis on s'est vus. Trois fois. C'est tout.
 
-— Et elle vous a dit quoi sur sa vie ?
+— Et elle vous a dit quoi sur sa vie ?
 
 — Qu'elle était célibataire. Qu'elle vivait seule. Rien de plus.
 
 Lucas raccrocha. Il regardait Marc avec l'air de quelqu'un qui attend un verdict.
 
-— Tu vois ? dit-il. Il sait des choses. Il a des détails. Ce n'est pas un affabulateur.
+— Tu vois ? dit-il. Il sait des choses. Il a des détails. Ce n'est pas un affabulateur.
 
 Marc ne dit rien. Il avait écouté la voix de l'homme avec une attention qui le surprenait lui-même. Il avait cherché quelque chose — un indice, une faille, un décalage. Il n'en avait pas trouvé. L'homme était crédible. Sincère, même.
 
@@ -289,7 +289,7 @@ Marc était encore dans la cuisine, l'esprit encombré. Le nom d'Anna sur l'écr
 
 — Oui.
 
-— Tu me connais depuis sept ans. Est-ce que tu me crois capable de ça ?
+— Tu me connais depuis sept ans. Est-ce que tu me crois capable de ça ?
 
 Sa voix ne tremblait pas. Ce n'était pas la voix de quelqu'un qui se défend. C'était la voix de quelqu'un qui ne comprend pas.
 
@@ -299,15 +299,15 @@ Sa voix ne tremblait pas. Ce n'était pas la voix de quelqu'un qui se défend. C
 
 — Le type que Lucas a appelé a confirmé, Anna.
 
-— Je sais. Lucas m'a dit. Un homme que je n'ai jamais vu confirme une relation que je n'ai jamais eue. Comment tu veux que je me défende contre ça ?
+— Je sais. Lucas m'a dit. Un homme que je n'ai jamais vu confirme une relation que je n'ai jamais eue. Comment tu veux que je me défende contre ça ?
 
-Marc ferma les yeux. Il avait déjà entendu ces mots. Pas les mêmes, pas avec la même voix, mais les mêmes. *Comment tu veux que je me défende ?* Claire, dix-huit mois plus tôt, quand on l'accusait d'avoir envoyé des vocaux à Sophie. Claire, dont le numéro de Sophie n'avait jamais existé dans son répertoire.
+Marc ferma les yeux. Il avait déjà entendu ces mots. Pas les mêmes, pas avec la même voix, mais les mêmes. *Comment tu veux que je me défende ?* Claire, dix-huit mois plus tôt, quand on l'accusait d'avoir envoyé des vocaux à Sophie. Claire, dont le numéro de Sophie n'avait jamais existé dans son répertoire.
 
-— Marc ?
+— Marc ?
 
 — Oui.
 
-— Tu me crois ?
+— Tu me crois ?
 
 Il n'avait pas répondu tout de suite. Pas parce qu'il ne la croyait pas. Mais parce que la croire signifiait accepter ce qui venait avec — accepter que le schéma se répétait, qu'il ne s'était pas arrêté après Claire, qu'il n'avait peut-être jamais cessé — et cette idée-là, dans toute sa netteté, était vertigineuse.
 
@@ -341,11 +341,11 @@ Marc leva la main.
 
 Les voix baissèrent.
 
-— Et si personne ne mentait ? dit-il. J'ai vécu quelque chose de semblable il y a un an. Un ami proche et moi avons reçu des messages qui semblaient venir de l'autre. Tout était parfait — la voix, le numéro, la façon d'écrire. Nous avons passé dix mois à nous haïr avant de comprendre que ni l'un ni l'autre n'avait jamais rien envoyé. Peut-être que ce qui se passe dans cet immeuble, c'est la même chose. Peut-être que les messages que vous avez reçus n'ont pas été écrits par les personnes qui semblent les avoir envoyés.
+— Et si personne ne mentait ? dit-il. J'ai vécu quelque chose de semblable il y a un an. Un ami proche et moi avons reçu des messages qui semblaient venir de l'autre. Tout était parfait — la voix, le numéro, la façon d'écrire. Nous avons passé dix mois à nous haïr avant de comprendre que ni l'un ni l'autre n'avait jamais rien envoyé. Peut-être que ce qui se passe dans cet immeuble, c'est la même chose. Peut-être que les messages que vous avez reçus n'ont pas été écrits par les personnes qui semblent les avoir envoyés.
 
 Un silence. Marc sentit les regards converger sur lui — pas avec intérêt, pas avec curiosité, mais avec cette gêne polie qu'on réserve aux gens qui disent des choses embarrassantes.
 
-— C'est très intéressant, dit la voisine du quatrième. Et le message que vous avez posté dans le groupe le mois dernier, celui où vous traitiez la gestion du syndic de catastrophique ? C'était aussi quelqu'un d'autre ?
+— C'est très intéressant, dit la voisine du quatrième. Et le message que vous avez posté dans le groupe le mois dernier, celui où vous traitiez la gestion du syndic de catastrophique ? C'était aussi quelqu'un d'autre ?
 
 Marc sentit le sol basculer.
 
@@ -361,7 +361,7 @@ Sur son écran, dans le fil de conversation qu'il parcourait avec des doigts qui
 
 Mais tout le monde l'avait lu.
 
-Marc fixa son écran. Il aurait pu le montrer. Brandir son téléphone, dire *regardez, il n'y a rien*. Mais il savait exactement ce qui se passerait. Ils diraient qu'il avait effacé le message. Et au fond, comment pourrait-il prouver le contraire ? Comment prouver l'absence de quelque chose ?
+Marc fixa son écran. Il aurait pu le montrer. Brandir son téléphone, dire *regardez, il n'y a rien*. Mais il savait exactement ce qui se passerait. Ils diraient qu'il avait effacé le message. Et au fond, comment pourrait-il prouver le contraire ? Comment prouver l'absence de quelque chose ?
 
 Il pensa à Claire, qui n'avait pas le numéro de Sophie dans son répertoire. À Madame Lefèvre, qui n'avait jamais écrit de plainte. À Anna, qui n'avait aucun compte sur l'appli de rencontres. Tous brandissant la preuve de ce qu'ils n'avaient pas fait, et personne pour les croire.
 
@@ -391,13 +391,13 @@ Il entendit dans sa voix quelque chose qui le ramena dix-huit mois en arrière. 
 
 — Anna, dit-il. Je te crois.
 
-— Pourquoi ?
+— Pourquoi ?
 
 — Parce que Lucas est mon meilleur ami. Et que si je te crois malgré ça, c'est que j'ai mes raisons.
 
 Un silence.
 
-— Quelles raisons ?
+— Quelles raisons ?
 
 Marc ferma les yeux. Il pensa aux cercles. Claire et lui — le premier. Le plus petit. Un point dans l'eau, une amitié, un lien. Puis l'immeuble. Madame Lefèvre et les Aubry. Monsieur Verdier et sa signature inventée. Le bureau. Nadia et Sébastien. Sa mère et Catherine. Lucas et Anna. Et maintenant lui, accusé de mots qu'il n'avait jamais écrits, dans un sous-sol éclairé au néon.
 
@@ -409,17 +409,17 @@ C'était une épidémie.
 
 Le mot lui vint avec une netteté brutale. Pas une panne. Pas un accident. Une épidémie. Quelque chose qui se propage, qui contamine, qui passe d'un lien à l'autre, d'un cercle au suivant. Qui ne tue personne mais qui détruit tout — la confiance, les liens, la possibilité même de se parler.
 
-Mais alors — qui est malade ?
+Mais alors — qui est malade ?
 
-Lui, qui voit des symptômes partout ? Qui relie des événements sans rapport, qui transforme les coïncidences en preuves ? Un mail perdu, une dispute de voisins, une infidélité, une brouille familiale — ces choses-là existent depuis toujours. Depuis bien avant les écrans. Les gens se disputent. Les gens mentent. Les gens se trompent. C'est la vie.
+Lui, qui voit des symptômes partout ? Qui relie des événements sans rapport, qui transforme les coïncidences en preuves ? Un mail perdu, une dispute de voisins, une infidélité, une brouille familiale — ces choses-là existent depuis toujours. Depuis bien avant les écrans. Les gens se disputent. Les gens mentent. Les gens se trompent. C'est la vie.
 
-Ou bien le monde autour de lui ?
+Ou bien le monde autour de lui ?
 
-— Marc ? Tu es toujours là ?
+— Marc ? Tu es toujours là ?
 
 — Oui.
 
-— Tu as dit que tu avais tes raisons. C'est quoi, tes raisons ?
+— Tu as dit que tu avais tes raisons. C'est quoi, tes raisons ?
 
 Il ne savait pas comment le dire. Pas encore. Pas au téléphone. Pas comme ça. Parce que les mots, au téléphone, ne valaient plus rien.
 

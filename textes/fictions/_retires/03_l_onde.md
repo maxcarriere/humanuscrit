@@ -67,7 +67,7 @@ Elle posa la tasse. Ses mains tremblaient. Elle monta les marches sans les senti
 
 — Éric. Éric, réveille-toi.
 
-— Quoi ? Qu'est-ce qu'il y a ?
+— Quoi ? Qu'est-ce qu'il y a ?
 
 — Allume la télé.
 
@@ -77,10 +77,10 @@ Rayan avait les écouteurs sur les oreilles quand son téléphone s'était mis �
 
 Il était allongé dans le noir, seize ans, un épisode de série en fond, le sommeil qui ne venait pas. Le groupe WhatsApp de sa classe affichait quarante-sept messages en moins d'une minute.
 
-*T'as vu ??*
+*T'as vu ??*
 *c'est quoi ce délire*
 *le président il déclare la guerre*
-*c'est fake non ???*
+*c'est fake non ???*
 *nan frère c'est sur toutes les chaines regarde*
 
 Rayan ouvrit l'appli d'info. Le bandeau rouge barrait l'écran : ALLOCUTION EXCEPTIONNELLE DU PRÉSIDENT DE LA RÉPUBLIQUE — LA FRANCE DÉCLARE LA MOBILISATION GÉNÉRALE.
@@ -91,7 +91,7 @@ Il ne comprit pas tout. Pas vraiment. Les mots étaient trop gros, trop lointain
 
 Il envoya un message à sa mère.
 
-*Maman t'as vu les infos ???*
+*Maman t'as vu les infos ???*
 
 Le message s'afficha. Deux coches bleues. Lu.
 
@@ -131,7 +131,7 @@ Pierre regarda ses journalistes. Cinq visages tournés vers lui, livides sous la
 
 Pierre avait trois minutes. Peut-être moins. Trois minutes pour décider s'il diffusait une allocution présidentielle authentifiée déclarant la guerre, ou s'il la retenait parce que quelque chose — pas un fait, pas une preuve, juste un instinct forgé par vingt-trois ans de métier — lui disait que ça ne collait pas.
 
-L'heure. Minuit pile. Pas vingt-trois heures, pas une heure du matin. Minuit. Zéro heure zéro minute. Comme si le moment avait été choisi avec une précision qui n'avait rien de politique — une précision d'horloger, de mécanicien. Les déclarations de cette gravité se faisaient en prime time, avec une mise en scène, des conseillers, un dispositif. Pas à minuit, quand les rédactions tournent en effectif réduit, quand les cellules de vérification sont vides, quand les gens sont seuls face à leurs écrans, sans filtre, sans recul, sans personne à qui demander *tu as vu ça, toi aussi ?* L'heure parfaite pour qu'une information se propage avant que quiconque ait le temps de la questionner.
+L'heure. Minuit pile. Pas vingt-trois heures, pas une heure du matin. Minuit. Zéro heure zéro minute. Comme si le moment avait été choisi avec une précision qui n'avait rien de politique — une précision d'horloger, de mécanicien. Les déclarations de cette gravité se faisaient en prime time, avec une mise en scène, des conseillers, un dispositif. Pas à minuit, quand les rédactions tournent en effectif réduit, quand les cellules de vérification sont vides, quand les gens sont seuls face à leurs écrans, sans filtre, sans recul, sans personne à qui demander *tu as vu ça, toi aussi ?* L'heure parfaite pour qu'une information se propage avant que quiconque ait le temps de la questionner.
 
 Il regarda le moniteur. L'autre chaîne avait déjà lancé l'allocution. Le Président parlait, en direct, sur l'écran d'en face.
 
@@ -159,7 +159,7 @@ Elle pensa à la phrase qu'on lui répétait en école de journalisme, celle qui
 
 Le communiqué venait de l'Élysée. Sur le canal officiel. Avec l'authentification. Avec la vidéo. Le Président lui-même, à l'écran, prononçant les mots.
 
-Que restait-il à vérifier ?
+Que restait-il à vérifier ?
 
 ---
 
@@ -189,11 +189,11 @@ Elle pensa à Marc. À ce qu'il lui avait dit, dans la cuisine, ce dimanche-là.
 
 Elle pensa à la question qu'il avait posée. Celle à laquelle elle n'avait pas su répondre.
 
-*Qu'est-ce qui se passe ?*
+*Qu'est-ce qui se passe ?*
 
 Elle regarda le Président sur l'écran de son téléphone. Et pour la première fois, elle formula la pensée que personne, nulle part, n'osait encore formuler.
 
-*Et si ce n'était pas lui ?*
+*Et si ce n'était pas lui ?*
 
 ---
 
@@ -207,15 +207,15 @@ Frégate Languedoc. Missiles russes. Acte de guerre. Mobilisation générale. Ar
 
 Il reposa la tablette. Se tourna vers le lieutenant.
 
-— Activité française détectée en Méditerranée ?
+— Activité française détectée en Méditerranée ?
 
 — Aucune, mon général.
 
-— Mouvements de l'OTAN ?
+— Mouvements de l'OTAN ?
 
 — Rien de significatif. Pas de changement de posture.
 
-— Nos unités dans le secteur ?
+— Nos unités dans le secteur ?
 
 — Aucun tir effectué dans les dernières quarante-huit heures. Aucune opération en cours.
 
@@ -237,7 +237,7 @@ La lumière du couloir entra dans la chambre comme une lame. Deux silhouettes da
 
 Il mit quelques secondes à émerger. Le sommeil se retirait par couches, comme une marée. Il vit les visages, lut l'urgence.
 
-— Quel problème ?
+— Quel problème ?
 
 Son directeur de cabinet hésita. C'était un homme qui n'hésitait jamais.
 
@@ -273,7 +273,7 @@ Le directeur de cabinet ferma les yeux une demi-seconde. Quand il les rouvrit, s
 
 Le Président se leva. Enfila une chemise par-dessus son t-shirt. Ses gestes étaient mécaniques, précis, dissociés de la tempête qui se formait dans sa tête.
 
-— Combien de temps ?
+— Combien de temps ?
 
 — Trente-sept minutes depuis la diffusion.
 
@@ -289,7 +289,7 @@ Si le Président de la République française pouvait être usurpé — sa voix,
 
 La confiance — cette chose invisible, sans poids, sans forme, sur laquelle reposait l'intégralité de l'édifice — n'existait plus.
 
-Et la Russie ? Moscou croirait-il au démenti ? Un président qui déclare la guerre à minuit et qui se rétracte à l'aube — est-ce un homme qui dit la vérité, ou un homme qui recule ? Et si Moscou ne croyait pas au démenti — s'ils considéraient la rétractation comme une manœuvre, un test, un piège ?
+Et la Russie ? Moscou croirait-il au démenti ? Un président qui déclare la guerre à minuit et qui se rétracte à l'aube — est-ce un homme qui dit la vérité, ou un homme qui recule ? Et si Moscou ne croyait pas au démenti — s'ils considéraient la rétractation comme une manœuvre, un test, un piège ?
 
 La vérité elle-même était devenue dangereuse. Plus dangereuse, peut-être, que le mensonge. Parce que le mensonge, aussi monstrueux soit-il, avait au moins le mérite de reposer sur un monde qui fonctionne — un monde où un président parle et où sa parole engage. La vérité, elle, révélait un monde où plus personne ne pouvait parler au nom de personne. Un monde où les mots avaient cessé d'appartenir à ceux qui les prononçaient.
 

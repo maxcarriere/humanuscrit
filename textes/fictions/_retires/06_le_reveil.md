@@ -33,7 +33,7 @@ Et puis, assez vite, les gens avaient cessé d'essayer.
 
 Pas par résignation. Par autre chose — quelque chose de plus difficile à nommer. Le cauchemar collectif de la nuit du Signal — cette terreur pure, partagée par huit milliards d'êtres humains au même instant — avait agi comme un séisme psychique dont les répliques durèrent des mois. Ceux qui avaient survécu à l'effondrement physique portaient en eux une blessure plus profonde : celle d'avoir vécu dans un monde où la vérité et le mensonge avaient la même apparence, où les voix mentaient, où les images mentaient, où les données mentaient, et où le système qui transportait ces mensonges avait fini par s'éteindre sous leur poids. Rallumer le système, c'était rallumer la possibilité du mensonge. Et personne n'en voulait plus.
 
-Le bilan ne fut jamais chiffré. Par qui l'aurait-il été ? Il n'y avait plus de bureau de statistiques, plus d'organisation mondiale, plus de satellite pour compter les survivants. Des estimations circulèrent plus tard, de bouche à oreille, portées par des marcheurs qui reliaient les communautés les unes aux autres. Quelques dizaines de millions, peut-être. Sur huit milliards. Peut-être moins. Peut-être plus. Le chiffre exact n'avait aucune importance. Ce qui importait, c'est que ceux qui restaient étaient là. Vivants. Dispersés en communautés petites, locales, séparées les unes des autres par des distances redevenues immenses — les distances d'avant le moteur, d'avant le câble, d'avant le signal.
+Le bilan ne fut jamais chiffré. Par qui l'aurait-il été ? Il n'y avait plus de bureau de statistiques, plus d'organisation mondiale, plus de satellite pour compter les survivants. Des estimations circulèrent plus tard, de bouche à oreille, portées par des marcheurs qui reliaient les communautés les unes aux autres. Quelques dizaines de millions, peut-être. Sur huit milliards. Peut-être moins. Peut-être plus. Le chiffre exact n'avait aucune importance. Ce qui importait, c'est que ceux qui restaient étaient là. Vivants. Dispersés en communautés petites, locales, séparées les unes des autres par des distances redevenues immenses — les distances d'avant le moteur, d'avant le câble, d'avant le signal.
 
 Marc n'avait pas survécu. Claire non plus. Ni Yann, ni Émilie, ni Mathis. Ni Madame Lefèvre. Ni Anna, ni Lucas. Ni Héloïse Marchand, qui avait été la première à voir le signal des neutrinos sur son écran, dans la salle de contrôle du KM3NeT, un soir de printemps qui semblait déjà appartenir à un autre monde.
 
@@ -129,13 +129,13 @@ Il ne savait pas ce qu'était un écran. Sa mère avait essayé de lui expliquer
 
 — C'était pour voir des choses, avait dit sa mère. Des images. Des gens. Des endroits loin.
 
-— Comme le lac ?
+— Comme le lac ?
 
 — Non. Des endroits qu'on ne peut pas voir avec les yeux.
 
 Kofi avait réfléchi longtemps. Puis :
 
-— Pourquoi ?
+— Pourquoi ?
 
 Sa mère n'avait pas su répondre. Pas parce que la question était naïve. Parce que la question était exacte.
 
@@ -217,7 +217,7 @@ Il n'avait jamais vécu sa propre vie. Il s'en rendait compte maintenant, avec u
 
 Il n'était pas plus libre qu'une pierre soumise à la gravité. La pierre ne choisit pas de tomber. Elle tombe. Et lui n'avait pas choisi de vivre comme il avait vécu. Il avait suivi la pente. Comme tout le monde. Comme des milliards d'autres fils dans le même circuit, traversés par le même courant, convaincus chacun d'être le seul à décider de sa direction.
 
-Le système s'était éteint. Le courant avait cessé. Et pour la première fois, le fil était là, seul, immobile, et pouvait se demander : qu'est-ce que je suis, quand rien ne passe à travers moi ?
+Le système s'était éteint. Le courant avait cessé. Et pour la première fois, le fil était là, seul, immobile, et pouvait se demander : qu'est-ce que je suis, quand rien ne passe à travers moi ?
 
 La réponse n'était pas un mot. C'était le désert. Le ciel. Le pas suivant.
 
@@ -227,7 +227,7 @@ Louise avait seize ans.
 
 Elle était assise au bord d'un champ de blé mûr, les pieds dans l'herbe haute, le visage tourné vers le soleil couchant. À côté d'elle, une fille plus jeune — dix ou onze ans — qui s'appelait Anna, ou peut-être Léa, les noms comptaient moins qu'avant.
 
-— Tu te souviens de quoi ? demanda la fille.
+— Tu te souviens de quoi ? demanda la fille.
 
 Louise ferma les yeux. La question revenait souvent. Les enfants de sa génération — ceux qui avaient connu l'avant — étaient interrogés comme des témoins d'un monde perdu. On leur demandait de se souvenir comme on demande aux vieux de raconter la guerre.
 
@@ -245,7 +245,7 @@ Elle ne se souvenait pas des écrans. Elle ne se souvenait pas du bruit. Elle ne
 
 Ce dont elle se souvenait, c'était ce qui était vivant. La terre sous ses mains. L'eau de la source. Le visage d'Erwann. Le poids d'un corps endormi contre le sien. Des sensations que le système n'avait pas fabriquées et que le système n'avait pas pu emporter.
 
-— C'était comment, avant ? insista la fille.
+— C'était comment, avant ? insista la fille.
 
 Louise ouvrit les yeux. Le blé ondulait sous le vent, comme une mer dorée. Le ciel virait au rose. Quelque part dans le village, une voix chantait — un air sans paroles, une mélodie simple qui montait et redescendait comme une respiration.
 

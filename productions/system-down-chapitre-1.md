@@ -36,7 +36,7 @@ Elle avait relu plusieurs fois, certaine d'une erreur. Un bug. Une blague douteu
 
 Elle avait répondu. Quelque chose d'idiot, de vulnérable.
 
-*Marc ? Qu'est-ce qui se passe ?*
+*Marc ? Qu'est-ce qui se passe ?*
 
 Les mots d'une enfant qui ne comprend pas pourquoi on la gronde.
 
@@ -57,9 +57,9 @@ Puis sa voix.
 
 C'était bien lui. La même voix, les mêmes intonations, mais avec quelque chose de différent — une froideur qu'elle ne lui connaissait pas.
 
-— Marc, c'est moi. Qu'est-ce qui t'arrive ?
+— Marc, c'est moi. Qu'est-ce qui t'arrive ?
 
-— Ce qui m'arrive ? avait-il répété, et elle avait entendu dans sa voix quelque chose qui ressemblait à de l'incrédulité. Tu me demandes ce qui m'arrive ?
+— Ce qui m'arrive ? avait-il répété, et elle avait entendu dans sa voix quelque chose qui ressemblait à de l'incrédulité. Tu me demandes ce qui m'arrive ?
 
 — Oui. Tes messages sont... Je ne comprends pas ce que tu me reproches.
 
@@ -73,7 +73,7 @@ Un silence. Puis :
 
 Le mot était tombé comme une porte qui claque.
 
-— Comment ça, non ?
+— Comment ça, non ?
 
 — Je ne vais pas t'expliquer ce que tu sais déjà. Cette conversation est une perte de temps.
 
@@ -105,7 +105,7 @@ Elle envoyait des messages à Marc. Il répondait par des accusations. Elle dema
 
 Une nuit — elle ne saurait jamais exactement laquelle, le temps avait perdu sa structure — le téléphone l'avait réveillée à deux heures du matin. Le nom de Marc sur l'écran. Elle avait décroché avec l'espoir pathétique que tout allait s'arranger.
 
-*Tu crois que tu peux t'en sortir comme ça ?*
+*Tu crois que tu peux t'en sortir comme ça ?*
 
 La voix était la même. Méconnaissable et familière. Chargée d'une rage qu'elle ne lui connaissait pas.
 
@@ -119,9 +119,9 @@ La semaine suivante, Julien l'appela.
 
 Julien était son ami le plus ancien — vraiment le plus ancien, celui des genoux écorchés et des secrets d'enfance. Il faisait partie de ce cercle étroit de gens avec qui elle n'avait jamais eu besoin de se justifier.
 
-— Claire ? Tu as une minute ?
+— Claire ? Tu as une minute ?
 
-— Oui. Qu'est-ce qu'il y a ?
+— Oui. Qu'est-ce qu'il y a ?
 
 Elle avait entendu dans sa voix quelque chose d'inhabituel. Une hésitation.
 
@@ -129,11 +129,11 @@ Elle avait entendu dans sa voix quelque chose d'inhabituel. Une hésitation.
 
 Le nom lui fit l'effet d'une gifle.
 
-— Marc t'a appelé ?
+— Marc t'a appelé ?
 
 — Oui. Hier soir.
 
-— Et qu'est-ce qu'il t'a dit ?
+— Et qu'est-ce qu'il t'a dit ?
 
 Un silence. Julien cherchait visiblement ses mots.
 
@@ -145,13 +145,13 @@ Claire ferma les yeux.
 
 — Je sais. Enfin, je pense. Mais Claire... il avait des détails. Des trucs très précis. Il a parlé de ton travail, de réunions qui se seraient mal passées. Il a cité des noms.
 
-— Quels noms ?
+— Quels noms ?
 
 — Thomas. Et une certaine Émilie. Il a dit que tu avais raconté des choses fausses sur eux. Que tu avais essayé de les monter l'un contre l'autre.
 
 Claire sentit sa gorge se nouer.
 
-— Julien, je te jure que c'est faux. Je n'ai jamais fait ça. Et je ne parle jamais de mon travail à Marc. Presque jamais. Comment il pourrait savoir ces noms ?
+— Julien, je te jure que c'est faux. Je n'ai jamais fait ça. Et je ne parle jamais de mon travail à Marc. Presque jamais. Comment il pourrait savoir ces noms ?
 
 — Je ne sais pas. Mais il avait l'air... convaincu. Pas comme quelqu'un qui invente. Comme quelqu'un qui a des preuves.
 
@@ -159,13 +159,13 @@ Il y eut un silence.
 
 — Il n'a pas appelé que moi, continua Julien. Sophie aussi. Et Paul.
 
-— Il appelle tout le monde pour leur dire que je suis toxique ?
+— Il appelle tout le monde pour leur dire que je suis toxique ?
 
 — En gros... oui.
 
 Claire s'assit lentement. Ses jambes ne la portaient plus.
 
-— Mais pourquoi ? murmura-t-elle. Pourquoi il fait ça ?
+— Mais pourquoi ? murmura-t-elle. Pourquoi il fait ça ?
 
 — Je ne sais pas, Claire. Je voulais juste te prévenir. Et te dire que je suis de ton côté, quoi qu'il raconte.
 
@@ -175,11 +175,11 @@ Ce n'était plus une dispute. Ce n'était plus un malentendu.
 
 Marc avait décidé de la détruire.
 
-Cette nuit-là, incapable de dormir, Claire fit quelque chose qu'elle n'avait jamais fait. Elle ouvrit son téléphone et relut ses propres messages. Pas ceux de Marc — les siens. Ceux qu'elle avait envoyés à d'autres personnes, des semaines plus tôt. Elle cherchait quoi ? Une phrase oubliée. Une remarque déplacée. Quelque chose qu'elle aurait pu dire sans y penser et qui aurait déclenché tout ça.
+Cette nuit-là, incapable de dormir, Claire fit quelque chose qu'elle n'avait jamais fait. Elle ouvrit son téléphone et relut ses propres messages. Pas ceux de Marc — les siens. Ceux qu'elle avait envoyés à d'autres personnes, des semaines plus tôt. Elle cherchait quoi ? Une phrase oubliée. Une remarque déplacée. Quelque chose qu'elle aurait pu dire sans y penser et qui aurait déclenché tout ça.
 
 Elle ne trouva rien.
 
-Mais le doute, une fois installé, refusait de partir. Et si elle avait fait quelque chose ? Pas consciemment, pas méchamment, mais par maladresse, par fatigue, par inattention ? Et si Marc avait raison, quelque part, d'une façon qu'elle ne parvenait pas à voir ?
+Mais le doute, une fois installé, refusait de partir. Et si elle avait fait quelque chose ? Pas consciemment, pas méchamment, mais par maladresse, par fatigue, par inattention ? Et si Marc avait raison, quelque part, d'une façon qu'elle ne parvenait pas à voir ?
 
 Elle connaissait ce mécanisme. Elle l'avait lu quelque part. La victime qui finit par douter d'elle-même. Qui cherche ce qu'elle a fait pour mériter ce qui lui arrive. Elle savait que c'était un piège.
 
@@ -235,7 +235,7 @@ Claire avait détourné les yeux. Son cœur battait comme un animal en cage. Ell
 
 Les stations défilaient. La foule s'éclaircissait. Quand les portes s'étaient refermées une dernière fois, il n'y avait plus personne entre eux.
 
-— Tu descends à Bastille ?
+— Tu descends à Bastille ?
 
 Sa voix. La vraie. Pas au téléphone. Pas à travers un écran. Là, dans l'air, à portée de main.
 
@@ -261,21 +261,21 @@ Elle continua à marcher.
 
 Elle s'arrêta net et se retourna. La colère monta d'un coup, intacte, comme si les dix mois de silence n'avaient rien effacé.
 
-— Quoi ? Tu veux m'achever en direct ? Me dire en face ce que tu penses de moi ?
+— Quoi ? Tu veux m'achever en direct ? Me dire en face ce que tu penses de moi ?
 
-— Ce que je pense de toi ?
+— Ce que je pense de toi ?
 
 Il avait l'air sincèrement surpris. Ça la rendit furieuse.
 
-— Me renvoyer en pleine gueule ce que tu as raconté à Julien ? À Paul ? À Sophie ? À qui d'autre encore ?
+— Me renvoyer en pleine gueule ce que tu as raconté à Julien ? À Paul ? À Sophie ? À qui d'autre encore ?
 
-— Ce que *j'ai* raconté ?
+— Ce que *j'ai* raconté ?
 
 Sa voix avait changé. Plus dure.
 
 — C'est toi qui racontes des choses, Claire. C'est toi qui as appelé mes amis pour leur dire de se méfier de moi.
 
-— Je n'ai appelé personne !
+— Je n'ai appelé personne !
 
 Elle avait crié. Quelques passants tournèrent la tête.
 
@@ -285,13 +285,13 @@ Elle avait crié. Quelques passants tournèrent la tête.
 
 — C'est ta voix, Claire. Ta putain de voix.
 
-— Et toi ? rétorqua-t-elle. Tu crois que je vais oublier l'appel à deux heures du matin ? Tu m'as réveillée pour m'insulter. Tu m'as dit que je te dégoûtais.
+— Et toi ? rétorqua-t-elle. Tu crois que je vais oublier l'appel à deux heures du matin ? Tu m'as réveillée pour m'insulter. Tu m'as dit que je te dégoûtais.
 
 — Je ne t'ai jamais appelée à deux heures du matin.
 
-— Arrête de mentir !
+— Arrête de mentir !
 
-— C'est toi qui m'as appelé ! Un dimanche matin. Pendant que je prenais mon café. Tu hurlais. Tu m'as traité de manipulateur, de menteur.
+— C'est toi qui m'as appelé ! Un dimanche matin. Pendant que je prenais mon café. Tu hurlais. Tu m'as traité de manipulateur, de menteur.
 
 — Je n'ai jamais fait ça.
 
@@ -311,13 +311,13 @@ Elle fit un pas en arrière.
 
 — Attends, dit Marc.
 
-— Pourquoi ?
+— Pourquoi ?
 
-— L'appel dont tu parles. Celui à deux heures du matin. C'était quand exactement ?
+— L'appel dont tu parles. Celui à deux heures du matin. C'était quand exactement ?
 
 Claire hésita. Quelque chose dans la voix de Marc avait changé. Sa colère la poussa à répondre encore :
 
-— Tu as besoin que je te rafraîchisse la mémoire ? Quelques jours après ton premier message... La nuit du 11 au 12 février. Le lendemain de mon anniversaire !
+— Tu as besoin que je te rafraîchisse la mémoire ? Quelques jours après ton premier message... La nuit du 11 au 12 février. Le lendemain de mon anniversaire !
 
 Quelque chose passa sur le visage de Marc. Pas de la colère. Autre chose.
 
@@ -325,7 +325,7 @@ Quelque chose passa sur le visage de Marc. Pas de la colère. Autre chose.
 
 Claire sentit le sol tanguer légèrement sous ses pieds.
 
-— Quoi ?
+— Quoi ?
 
 Il sortit son téléphone. Quelques gestes. Un document apparut sur l'écran. Un compte-rendu d'hospitalisation. L'en-tête officiel de l'Hôpital Saint-Antoine. Son nom. La date. Appendicite aiguë. Intervention chirurgicale d'urgence. 01h47.
 
@@ -335,7 +335,7 @@ Elle fixa le document. L'en-tête. Le tampon. La signature. Elle chercha la fail
 
 — Tu n'étais pas au courant, dit-il. Tu ne savais même pas que j'avais été opéré.
 
-Non. Elle ne savait pas. Pourquoi l'aurait-elle su ? Ils ne se parlaient plus. Chacun dans sa tranchée, convaincu de l'infamie de l'autre.
+Non. Elle ne savait pas. Pourquoi l'aurait-elle su ? Ils ne se parlaient plus. Chacun dans sa tranchée, convaincu de l'infamie de l'autre.
 
 Alors elle fit la seule chose qui lui restait. Elle sortit son propre téléphone. Ouvrit ses contacts. Fit défiler la liste jusqu'à la lettre S.
 
@@ -347,7 +347,7 @@ Marc regarda. A, B, C... S. Sabine. Samuel. Pas de Sophie.
 
 Le quai était désert maintenant. Une rame express passa sans s'arrêter, dans un fracas de métal et de vent. Ils restèrent là, tous les deux, avec cette chose impossible entre eux.
 
-*Qu'est-ce qui nous est arrivé ?*
+*Qu'est-ce qui nous est arrivé ?*
 
 La question était sortie toute seule. Claire ne savait pas lequel des deux l'avait posée.
 
@@ -363,7 +363,7 @@ Mais Marc était au bloc cette nuit-là.
 
 Et elle n'avait pas le numéro de Sophie.
 
-Alors qui avait appelé ? Qui avait écrit ? Qui avait su les bons mots à dire, les bonnes informations à citer, pour qu'elle y croie pendant dix mois sans jamais douter ?
+Alors qui avait appelé ? Qui avait écrit ? Qui avait su les bons mots à dire, les bonnes informations à citer, pour qu'elle y croie pendant dix mois sans jamais douter ?
 
 Elle pensa à tous ces détails que la voix avait mentionnés. Son travail. Ses collègues. Thomas. Émilie. Des choses qu'elle n'avait jamais dites à Marc. Des choses qu'elle n'avait dites à personne.
 
@@ -375,9 +375,9 @@ Quelqu'un avait lu tout ça. Quelqu'un — ou quelque chose — avait assemblé 
 
 Et Marc avait vécu exactement la même chose. Une version d'elle, tout aussi parfaite, tout aussi crédible. Deux marionnettes tiraillées par des fils invisibles, se déchirant mutuellement sans jamais voir le marionnettiste.
 
-Pourquoi eux ? Seulement eux ?
+Pourquoi eux ? Seulement eux ?
 
-Elle leva les yeux vers lui. Ils se regardèrent longuement, sans rien dire. Il avait l'air aussi perdu qu'elle. Aussi démuni. Dans ses yeux transparaissait la même incrédulité. Ce n'était plus de la colère qu'elle ressentait. C'était autre chose — une sorte de nausée froide. Marc avait compté parmi ses meilleurs amis pendant plus de quinze ans. Mais combien de fois par an s'étaient-ils réellement vus, ces dernières années ? Une fois par mois, peut-être. Parfois beaucoup moins. Le reste du temps, c'étaient des messages. Des appels occasionnels. Des réactions à des stories Instagram. Quinze ans d'amitié, réduits à un flux de données. Toute cette colère, toute cette haine — elle avait été basée sur quoi ? Des messages. Des voix au téléphone. Rien de réel. Rien de tangible que l'on puisse toucher ou vérifier.
+Elle leva les yeux vers lui. Ils se regardèrent longuement, sans rien dire. Il avait l'air aussi perdu qu'elle. Aussi démuni. Dans ses yeux transparaissait la même incrédulité. Ce n'était plus de la colère qu'elle ressentait. C'était autre chose — une sorte de nausée froide. Marc avait compté parmi ses meilleurs amis pendant plus de quinze ans. Mais combien de fois par an s'étaient-ils réellement vus, ces dernières années ? Une fois par mois, peut-être. Parfois beaucoup moins. Le reste du temps, c'étaient des messages. Des appels occasionnels. Des réactions à des stories Instagram. Quinze ans d'amitié, réduits à un flux de données. Toute cette colère, toute cette haine — elle avait été basée sur quoi ? Des messages. Des voix au téléphone. Rien de réel. Rien de tangible que l'on puisse toucher ou vérifier.
 
 Le silence planait toujours. Parce qu'il n'y avait rien à dire. Les mots ne servaient plus à rien. L'amitié qu'ils avaient eue était morte, tuée par quelque chose qu'ils ne comprenaient pas, et même la vérité ne suffisait pas à la ressusciter. On ne revient pas de dix mois de haine. Pas vraiment. Il reste toujours des traces, des cicatrices, des gestes qu'on ne refait plus de la même façon.
 
@@ -391,9 +391,9 @@ Elle avait besoin de sentir ses jambes bouger, le pavé sous ses pieds, le froid
 
 Elle ne pensait plus à Marc. Elle pensait à sa mère, qu'elle n'appelait qu'une fois par semaine. À sa sœur, avec qui elle n'échangeait plus que par messages. À Julien, qu'elle n'avait pas vu depuis des mois. Toutes ces relations maintenues à distance, par écrans interposés, par voix désincarnées.
 
-Comment savoir si ce qu'elle recevait était vraiment vrai ?
+Comment savoir si ce qu'elle recevait était vraiment vrai ?
 
-Comment savoir si les gens à qui elle parlait étaient vraiment eux ?
+Comment savoir si les gens à qui elle parlait étaient vraiment eux ?
 
 Elle ne le saurait pas. Personne ne le pouvait. On faisait confiance, c'est tout. On n'avait pas le choix.
 
@@ -401,7 +401,7 @@ En arrivant chez elle, elle posa son téléphone sur la table de l'entrée. L'é
 
 Un message de Julien.
 
-*Tu as deux minutes ? J'ai un truc bizarre à te raconter.*
+*Tu as deux minutes ? J'ai un truc bizarre à te raconter.*
 
 Claire regarda l'écran un long moment. C'était l'écriture de Julien. Son numéro. Sa façon de formuler les choses.
 

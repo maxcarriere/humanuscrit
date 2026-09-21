@@ -24,13 +24,13 @@ Le langage naturel est riche, mais ambigu. « Tout le monde n'est pas venu » pe
 
 ### Propositions et prédicats
 
-Une **proposition** est un énoncé auquel on peut attribuer une valeur de vérité : vrai ou faux, sans ambiguïté. « 2 est pair » est une proposition (vraie). « 7 est pair » est une proposition (fausse). « Combien vaut $x$ ? » n'est pas une proposition.
+Une **proposition** est un énoncé auquel on peut attribuer une valeur de vérité : vrai ou faux, sans ambiguïté. « 2 est pair » est une proposition (vraie). « 7 est pair » est une proposition (fausse). « Combien vaut $x$ ? » n'est pas une proposition.
 
 Un **prédicat** est une propriété paramétrable : une propriété qui dépend d'une ou plusieurs variables. On note $P(x)$ pour dire « l'objet $x$ possède la propriété $P$ ». La variable $x$ est dite **libre** : substituer un objet concret à $x$ donne une proposition ayant une valeur de vérité déterminée.
 
 *Exemples.*
 
-- $\mathrm{Pair}(n)$ : « $n$ est un entier pair ». $\mathrm{Pair}(4)$ est vrai ; $\mathrm{Pair}(3)$ est faux.
+- $\mathrm{Pair}(n)$ : « $n$ est un entier pair ». $\mathrm{Pair}(4)$ est vrai ; $\mathrm{Pair}(3)$ est faux.
 - $E(x)$ : « $x$ existe ». C'est le **prédicat primitif** posé au chapitre 0 — il ne se définit pas à partir d'autre chose, il se constate directement.
 - $x \in A$ : « $x$ appartient à l'ensemble $A$ » — une relation binaire lue comme prédicat à deux variables.
 
@@ -127,7 +127,7 @@ $\mathcal{P}(A) = \\{\emptyset, \\{1\\}, \\{2\\}, \\{1, 2\\}\\}$
 
 Quatre sous-ensembles : rien, seulement le 1, seulement le 2, les deux.
 
-En général, si $A$ contient $n$ éléments, $\mathcal{P}(A)$ contient $2^n$ éléments. Ce nombre croît très vite : pour 10 éléments, il y a 1 024 sous-ensembles ; pour 20 éléments, plus d'un million.
+En général, si $A$ contient $n$ éléments, $\mathcal{P}(A)$ contient $2^n$ éléments. Ce nombre croît très vite : pour 10 éléments, il y a 1 024 sous-ensembles ; pour 20 éléments, plus d'un million.
 
 ### Opérations sur les ensembles
 
@@ -156,7 +156,7 @@ Certaines constructions sur des ensembles infinis (par exemple, sélectionner si
 
 La théorie naïve des ensembles repose sur un principe séduisant : pour toute propriété $P$, il existe un ensemble contenant exactement les objets qui la satisfont. Ce **principe de compréhension** est intuitif — mais sans restriction, il conduit à des contradictions.
 
-**Le paradoxe de Russell.** Considérons la propriété $P(x) := (x \notin x)$ — avoir la propriété de ne pas s'appartenir soi-même. Si le principe naïf est valide, il existe un ensemble $\mathcal{R} = \\{x \mid x \notin x\\}$. Maintenant demandons : $\mathcal{R}$ appartient-il à lui-même ?
+**Le paradoxe de Russell.** Considérons la propriété $P(x) := (x \notin x)$ — avoir la propriété de ne pas s'appartenir soi-même. Si le principe naïf est valide, il existe un ensemble $\mathcal{R} = \\{x \mid x \notin x\\}$. Maintenant demandons : $\mathcal{R}$ appartient-il à lui-même ?
 
 - Si $\mathcal{R} \in \mathcal{R}$ : par définition de $\mathcal{R}$, $\mathcal{R} \notin \mathcal{R}$. Contradiction.
 - Si $\mathcal{R} \notin \mathcal{R}$ : par définition de $\mathcal{R}$, $\mathcal{R} \in \mathcal{R}$. Contradiction.
@@ -332,9 +332,9 @@ L'ensemble de toutes les applications de $A$ dans $B$ est noté $B^A$.
 
 Cette notation s'explique par le comptage : si $A$ contient $m$ éléments et $B$ contient $n$ éléments, alors le nombre d'applications de $A$ dans $B$ est $n^m$ — chaque élément de $A$ peut être envoyé sur l'un des $n$ éléments de $B$, et ces choix sont indépendants.
 
-*Exemple.* Si $A = \\{1, 2\\}$ et $B = \\{a, b, c\\}$, alors $B^A$ contient $3^2 = 9$ applications. Par exemple : $f(1) = a, f(2) = a$ ; ou $f(1) = b, f(2) = c$ ; etc.
+*Exemple.* Si $A = \\{1, 2\\}$ et $B = \\{a, b, c\\}$, alors $B^A$ contient $3^2 = 9$ applications. Par exemple : $f(1) = a, f(2) = a$ ; ou $f(1) = b, f(2) = c$ ; etc.
 
-En particulier, $A^A$ désigne l'ensemble de toutes les applications de $A$ dans $A$ — toutes les transformations possibles de $A$ vers lui-même. Si $A$ contient $n$ éléments, $A^A$ contient $n^n$ applications. Pour $n = 3$, cela fait déjà 27 transformations ; pour $n = 10$, dix milliards.
+En particulier, $A^A$ désigne l'ensemble de toutes les applications de $A$ dans $A$ — toutes les transformations possibles de $A$ vers lui-même. Si $A$ contient $n$ éléments, $A^A$ contient $n^n$ applications. Pour $n = 3$, cela fait déjà 27 transformations ; pour $n = 10$, dix milliards.
 
 ### Composition
 
@@ -377,8 +377,8 @@ Une relation de degré $n$ (ou d'arité $n$) relie $n$ éléments simultanément
 Certaines relations binaires possèdent des propriétés remarquables :
 
 - **Réflexive** : tout élément est en relation avec lui-même. $R(x, x)$ pour tout $x$.
-- **Symétrique** : si $R(x, y)$ alors $R(y, x)$. L'amitié est symétrique ; l'admiration ne l'est pas nécessairement.
-- **Transitive** : si $R(x, y)$ et $R(y, z)$ alors $R(x, z)$. « Être ancêtre de » est transitif ; « être ami de » ne l'est pas.
+- **Symétrique** : si $R(x, y)$ alors $R(y, x)$. L'amitié est symétrique ; l'admiration ne l'est pas nécessairement.
+- **Transitive** : si $R(x, y)$ et $R(y, z)$ alors $R(x, z)$. « Être ancêtre de » est transitif ; « être ami de » ne l'est pas.
 - **Antisymétrique** : si $R(x, y)$ et $R(y, x)$ alors $x = y$. L'ordre « $\leq$ » est antisymétrique.
 
 Ces propriétés se combinent pour définir des structures particulières — par exemple, une relation d'**ordre** est réflexive, antisymétrique et transitive (voir section 7).
@@ -419,7 +419,7 @@ L'espace de valuation $W$ capture la richesse du lien. Selon le choix de $W$, on
 
 - **$W = \\{0, 1\\}$** : la relation est binaire — le lien existe ($1$) ou n'existe pas ($0$). On retrouve exactement la **relation logique** de la définition précédente.
 
-- **$W = \mathbb{R}^+$** : la relation porte une **intensité** continue — une force d'attraction, un débit, une affinité. Le lien n'est plus « tout ou rien » ; il possède un poids.
+- **$W = \mathbb{R}^+$** : la relation porte une **intensité** continue — une force d'attraction, un débit, une affinité. Le lien n'est plus « tout ou rien » ; il possède un poids.
 
 - **$W$ fini** (par exemple $\\{\text{nul}, \text{faible}, \text{moyen}, \text{fort}\\}$) : la relation est **qualitative et graduée**.
 
@@ -441,8 +441,8 @@ Deux notions accompagnent cette construction : la **projection canonique**, qui 
 
 Une relation binaire $\sim$ sur un ensemble $A$ est une **relation d'équivalence** si elle satisfait simultanément :
 
-- **Réflexivité** : $a \sim a$ pour tout $a \in A$ — tout élément s'équivaut lui-même ;
-- **Symétrie** : si $a \sim b$ alors $b \sim a$ — l'équivalence est réciproque ;
+- **Réflexivité** : $a \sim a$ pour tout $a \in A$ — tout élément s'équivaut lui-même ;
+- **Symétrie** : si $a \sim b$ alors $b \sim a$ — l'équivalence est réciproque ;
 - **Transitivité** : si $a \sim b$ et $b \sim c$ alors $a \sim c$ — l'équivalence se propage.
 
 *Exemples.*
@@ -556,7 +556,7 @@ Un ordre total est un **bon ordre** si tout sous-ensemble non vide admet un plus
 - $\mathbb{N} = \\{0, 1, 2, \ldots\\}$ est un bon ordre : dans n'importe quelle collection non vide d'entiers naturels, il y en a un qui est le plus petit.
 - $\mathbb{Z} = \\{\ldots, -2, -1, 0, 1, 2, \ldots\\}$ n'est **pas** un bon ordre : l'ensemble $\\{\ldots, -3, -2, -1\\}$ n'a pas de plus petit élément.
 
-La différence est essentielle pour le temps : un bon ordre garantit l'existence d'un **premier instant**. L'ensemble $\mathbb{N}$ a un début (zéro) ; $\mathbb{Z}$ n'en a pas.
+La différence est essentielle pour le temps : un bon ordre garantit l'existence d'un **premier instant**. L'ensemble $\mathbb{N}$ a un début (zéro) ; $\mathbb{Z}$ n'en a pas.
 
 ---
 
@@ -568,7 +568,7 @@ La topologie est la branche des mathématiques qui étudie les notions de **prox
 
 L'intuition fondamentale est la suivante : on veut pouvoir dire que deux éléments sont « proches » ou « éloignés », qu'un chemin est « continu » ou qu'il fait un « saut », qu'une forme est « la même » qu'une autre à déformation près — et cela sans avoir besoin de mesurer quoi que ce soit.
 
-Comment est-ce possible ? En spécifiant, pour chaque point, quels sont les ensembles de points qui l'« entourent ». C'est la notion de **voisinage**.
+Comment est-ce possible ? En spécifiant, pour chaque point, quels sont les ensembles de points qui l'« entourent ». C'est la notion de **voisinage**.
 
 ### Voisinages
 
@@ -592,9 +592,9 @@ Les voisinages doivent satisfaire quelques règles de bon sens :
 > 
 > qui associe à chaque élément $x \in A$ une collection $\mathcal{V}(x)$ de **voisinages**, vérifiant :
 > 
-> - $x \in V$ pour tout $V \in \mathcal{V}(x)$ — on est toujours dans ses propres voisinages ;
-> - si $V \in \mathcal{V}(x)$ et $V \subseteq W \subseteq A$, alors $W \in \mathcal{V}(x)$ — tout surensemble d'un voisinage est un voisinage ;
-> - si $V, W \in \mathcal{V}(x)$, alors $V \cap W \in \mathcal{V}(x)$ — l'intersection de deux voisinages est un voisinage ;
+> - $x \in V$ pour tout $V \in \mathcal{V}(x)$ — on est toujours dans ses propres voisinages ;
+> - si $V \in \mathcal{V}(x)$ et $V \subseteq W \subseteq A$, alors $W \in \mathcal{V}(x)$ — tout surensemble d'un voisinage est un voisinage ;
+> - si $V, W \in \mathcal{V}(x)$, alors $V \cap W \in \mathcal{V}(x)$ — l'intersection de deux voisinages est un voisinage ;
 > - si $V \in \mathcal{V}(x)$, il existe $W \in \mathcal{V}(x)$ tel que $V \in \mathcal{V}(y)$ pour tout $y \in W$ — tout voisinage de $x$ est également un voisinage de tous les points qui lui sont proches.
 > 
 > L'ensemble $A$ muni de $T$ est appelé **espace topologique**, noté $(A, T)$.
@@ -617,8 +617,8 @@ Lorsqu'on dispose d'une **distance** — une fonction $d : A \times A \to \mathb
 
 Une distance doit satisfaire :
 
-- $d(x, y) \geq 0$, et $d(x, y) = 0$ si et seulement si $x = y$ (la distance est positive, et nulle uniquement pour un point avec lui-même) ;
-- $d(x, y) = d(y, x)$ (la distance est symétrique) ;
+- $d(x, y) \geq 0$, et $d(x, y) = 0$ si et seulement si $x = y$ (la distance est positive, et nulle uniquement pour un point avec lui-même) ;
+- $d(x, y) = d(y, x)$ (la distance est symétrique) ;
 - $d(x, z) \leq d(x, y) + d(y, z)$ (**inégalité triangulaire** : le chemin direct est toujours le plus court).
 
 Un ensemble muni d'une distance s'appelle un **espace métrique**.
@@ -690,7 +690,7 @@ La **loi** de $f$ décrit les probabilités des différents résultats :
 
 $P(f = a) = P(\\{\omega \in \Omega \mid f(\omega) = a\\})$
 
-Elle dit : « quelle est la probabilité que la variable aléatoire prenne telle valeur ? »
+Elle dit : « quelle est la probabilité que la variable aléatoire prenne telle valeur ? »
 
 ### Exemple détaillé
 
@@ -719,4 +719,4 @@ Les notions présentées dans cette annexe sont le point de départ d'un vaste t
 
 - **Lipschutz, Seymour & Lipson, Marc** — *Mathématiques discrètes*, Schaum/McGraw-Hill (trad. fr.). Un manuel pratique et progressif qui couvre l'essentiel : ensembles, relations, fonctions, graphes, combinatoire et probabilités. Très accessible, riche en exemples et exercices résolus — la meilleure ressource pour consolider les fondements abordés dans cette annexe.
 
-- **Courant, Richard & Robbins, Herbert** — *What is Mathematics ?*, Oxford University Press (1941, rééd. 1996 ; trad. fr. disponible). Un panorama intuitif et profond des mathématiques fondamentales — arithmétique, algèbre, géométrie, topologie, calcul. Le plus accessible des grands livres de mathématiques générales, destiné à quiconque veut comprendre ce qu'est réellement la pensée mathématique.
+- **Courant, Richard & Robbins, Herbert** — *What is Mathematics ?*, Oxford University Press (1941, rééd. 1996 ; trad. fr. disponible). Un panorama intuitif et profond des mathématiques fondamentales — arithmétique, algèbre, géométrie, topologie, calcul. Le plus accessible des grands livres de mathématiques générales, destiné à quiconque veut comprendre ce qu'est réellement la pensée mathématique.

@@ -11,9 +11,9 @@ Humanuscrit veut être une œuvre. Pas au sens littéraire du terme, je ne prét
 
 Ces nouvelles ont été coécrites avec une intelligence artificielle. Pas par elle. Avec elle. Un dialogue, un va-et-vient, une collaboration dont la nature même pose des questions que je ne suis pas encore capable de formuler entièrement.
 
-Qui écrit, quand un humain et une machine écrivent ensemble ?
-Où est la voix de l'un, où commence celle de l'autre ?
-Est-ce que ça a la moindre importance ?
+Qui écrit, quand un humain et une machine écrivent ensemble ?
+Où est la voix de l'un, où commence celle de l'autre ?
+Est-ce que ça a la moindre importance ?
 
 Je ne sais pas. Mais la question elle-même ouvre une porte, vers une forme d'art qui n'existait pas il y a dix ans et dont personne ne connaît encore les contours. Ce recueil de nouvelles est un premier pas. Ce qui vient après sera différent.
 

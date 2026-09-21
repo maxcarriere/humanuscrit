@@ -16,7 +16,7 @@ Avant de définir ce qu'est un langage formel, il vaut la peine de s'arrêter su
 
 Dix opérations fondamentales se dégagent ainsi, réparties en deux blocs selon qu'elles relèvent de la forme ou du sens : les opérations **syntaxiques**, qui concernent la forme des expressions indépendamment de leur contenu, et les opérations **sémantiques et constructives**, qui concernent le sens et la construction d'objets à partir des expressions.
 
-Ce chapitre pose les fondations sur lesquelles repose l'ensemble de l'ouvrage. Il procède en trois temps : définir d'abord ce qu'est un langage formel dans sa généralité (section I) ; exposer ensuite les dix opérations fondamentales qui en constituent les éléments (section II) ; puis formaliser les règles qui définissent les expressions bien formées et situer ce langage dans le paysage plus large des grammaires formelles (section III). Une synthèse réunit enfin ces éléments dans la définition d'un système formel.
+Ce chapitre pose les fondations sur lesquelles repose l'ensemble de l'ouvrage. Il procède en trois temps : définir d'abord ce qu'est un langage formel dans sa généralité (section I) ; exposer ensuite les dix opérations fondamentales qui en constituent les éléments (section II) ; puis formaliser les règles qui définissent les expressions bien formées et situer ce langage dans le paysage plus large des grammaires formelles (section III). Une synthèse réunit enfin ces éléments dans la définition d'un système formel.
 
 ---
 
@@ -125,8 +125,8 @@ La traduction formelle est le **symbole de relation**. Un symbole de relation $R
 
 Quelques exemples :
 
-- $2 + 3 = 5$ est une formule atomique. On la lit : « deux plus trois (est) égal à cinq ». Le symbole $=$ est ici une relation binaire d'arité $2$ ; le terme $2 + 3$ est son premier argument, le terme $5$ son second. Le verbe *est* n'est pas toujours lu dans cette phrase mais il est implicitement là.
-- $\text{Mélanger}(\text{Jaune}, \text{Bleu}) = \text{Vert}$ est une formule atomique. On la lit : « en mélangeant jaune et bleu, on obtient du vert ». Le membre gauche est un terme complexe, le membre droit une constante ; le signe $=$ est le verbe qui les relie.
+- $2 + 3 = 5$ est une formule atomique. On la lit : « deux plus trois (est) égal à cinq ». Le symbole $=$ est ici une relation binaire d'arité $2$ ; le terme $2 + 3$ est son premier argument, le terme $5$ son second. Le verbe *est* n'est pas toujours lu dans cette phrase mais il est implicitement là.
+- $\text{Mélanger}(\text{Jaune}, \text{Bleu}) = \text{Vert}$ est une formule atomique. On la lit : « en mélangeant jaune et bleu, on obtient du vert ». Le membre gauche est un terme complexe, le membre droit une constante ; le signe $=$ est le verbe qui les relie.
 - $\text{Gt}(\text{Pierre}, \text{Paul})$ est une formule atomique pour « Pierre est plus grand que Paul ». Le verbe *est plus grand que* est la relation binaire $\text{Gt}$.
 
 L'arité d'une relation est le nombre d'objets qu'elle met en rapport. Une relation unaire ($n = 1$) exprime une propriété d'un seul objet : $\text{Pair}(x)$ signifie « $x$ est pair ». Une relation binaire ($n = 2$) relie deux objets : $R(x, y)$ peut signifier « $x$ est inférieur à $y$ ».
@@ -225,7 +225,7 @@ L'interprétation permet une dernière opération : parmi les objets d'un domain
 
 Une collection peut être définie de deux façons. La première est l'**extension** : on liste explicitement ses éléments. On écrit $\lbrace a, b, c\rbrace$ pour la collection dont les éléments sont exactement $a$, $b$ et $c$. Le symbole $\in$ exprime l'appartenance : $a \in \lbrace a, b, c\rbrace$ signifie que $a$ est un élément de cette collection.
 
-La seconde est la **compréhension** : on définit la collection par une propriété. $\lbrace x \mid P(x) \rbrace$ désigne la collection de tous les objets $x$ pour lesquels $P(x)$ est vraie. Cette notation est **méta-linguistique** : elle n'appartient pas au langage formel lui-même, mais le décrit de l'extérieur. Le langage formel parle d'objets et de formules ; la notation de compréhension est un outil pratique du *discours sur* le langage, utilisé pour définir des ensembles d'expressions ou d'objets sans faire partie de la syntaxe formelle elle-même. Elle sera intégrée à la théorie formelle des ensembles au chapitre VIII. Le lien avec l'introduction est immédiat : représenter, c'est sélectionner, et $\lbrace x \mid P(x) \rbrace$ est la formalisation exacte de ce geste.
+La seconde est la **compréhension** : on définit la collection par une propriété. $\lbrace x \mid P(x) \rbrace$ désigne la collection de tous les objets $x$ pour lesquels $P(x)$ est vraie. Cette notation est **méta-linguistique** : elle n'appartient pas au langage formel lui-même, mais le décrit de l'extérieur. Le langage formel parle d'objets et de formules ; la notation de compréhension est un outil pratique du *discours sur* le langage, utilisé pour définir des ensembles d'expressions ou d'objets sans faire partie de la syntaxe formelle elle-même. Elle sera intégrée à la théorie formelle des ensembles au chapitre VIII. Le lien avec l'introduction est immédiat : représenter, c'est sélectionner, et $\lbrace x \mid P(x) \rbrace$ est la formalisation exacte de ce geste.
 
 Une collection peut être **vide** : $\lbrace\rbrace$, notée $\emptyset$, ne contient aucun élément. Elle peut aussi être **infinie** — $\lbrace 0, 1, 2, 3, \ldots \rbrace$ désigne la collection de tous les entiers naturels. Mais même pour désigner une collection infinie, la description elle-même doit tenir en un nombre fini de symboles : c'est la propriété $P$ qui doit être finie, pas la collection qu'elle définit.
 
@@ -241,9 +241,9 @@ Ces dix opérations — six syntaxiques et quatre sémantiques et constructives 
 
 Un **langage formel** est déterminé par :
 
-- un **alphabet** : l'ensemble des symboles (constantes, symboles de fonction, symboles de relation, connecteurs logiques, quantificateurs, ponctuation), chacun muni de son arité ;
+- un **alphabet** : l'ensemble des symboles (constantes, symboles de fonction, symboles de relation, connecteurs logiques, quantificateurs, ponctuation), chacun muni de son arité ;
 
-- des **règles de formation** : les règles inductives qui définissent les expressions bien formées — termes et formules ;
+- des **règles de formation** : les règles inductives qui définissent les expressions bien formées — termes et formules ;
 
 - des **règles de transformation** : les règles d'inférence qui permettent de dériver de nouvelles formules à partir de formules données.
 
@@ -258,7 +258,7 @@ La séparation entre syntaxe et sémantique — fil conducteur de ce chapitre �
 
 ## III — Grammaire
 
-Le langage formel a été défini par ses éléments et ses opérations. Mais comment, précisément, construire les expressions bien formées ? Les règles de formation énoncées informellement au fil des opérations doivent maintenant être rassemblées en une présentation unifiée. C'est l'objet de la grammaire — entendue d'abord comme la grammaire propre au langage logique, puis resituée dans le paysage plus large des grammaires formelles.
+Le langage formel a été défini par ses éléments et ses opérations. Mais comment, précisément, construire les expressions bien formées ? Les règles de formation énoncées informellement au fil des opérations doivent maintenant être rassemblées en une présentation unifiée. C'est l'objet de la grammaire — entendue d'abord comme la grammaire propre au langage logique, puis resituée dans le paysage plus large des grammaires formelles.
 
 ---
 
@@ -352,7 +352,7 @@ Une **règle de production** est une instruction de remplacement : elle dit comm
 2. *Formule* $\Rightarrow$ $\neg$ *Formule*
 3. *Formule* $\Rightarrow$ $p$ $\mid$ $q$ $\mid$ $r$
 
-Ici, *Formule* est un non-terminal ; $\neg$, $\land$, $p$, $q$, $r$ sont des terminaux. Construisons l'expression $\neg(p \land q)$ pas à pas :
+Ici, *Formule* est un non-terminal ; $\neg$, $\land$, $p$, $q$, $r$ sont des terminaux. Construisons l'expression $\neg(p \land q)$ pas à pas :
 
 - On part du non-terminal *Formule* (la catégorie de départ).
 - On applique la règle 2 : *Formule* $\Rightarrow$ $\neg$ *Formule*.

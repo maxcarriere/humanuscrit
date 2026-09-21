@@ -56,11 +56,11 @@ Chaque critère est évalué sur une échelle de 1 (insuffisant) à 5 (excellent
 
 | Critère | Poids | Description |
 |---------|-------|-------------|
-| **Qualité d'écriture** | 25% | Style, syntaxe, rythme, vocabulaire. Le texte est-il bien écrit ? |
-| **Originalité** | 25% | Le texte propose-t-il une perspective, une voix ou une idée singulière ? |
+| **Qualité d'écriture** | 25% | Style, syntaxe, rythme, vocabulaire. Le texte est-il bien écrit ? |
+| **Originalité** | 25% | Le texte propose-t-il une perspective, une voix ou une idée singulière ? |
 | **Cohérence** | 20% | Structure narrative, progression logique, absence de contradictions |
-| **Profondeur** | 15% | Le texte va-t-il au-delà de la surface ? Réflexion, nuance, complexité |
-| **Alignement éditorial** | 15% | Le texte s'inscrit-il dans la ligne éditoriale d'Humanuscrit ? |
+| **Profondeur** | 15% | Le texte va-t-il au-delà de la surface ? Réflexion, nuance, complexité |
+| **Alignement éditorial** | 15% | Le texte s'inscrit-il dans la ligne éditoriale d'Humanuscrit ? |
 
 ### Critères éliminatoires (refus immédiat)
 

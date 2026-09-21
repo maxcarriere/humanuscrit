@@ -14,9 +14,9 @@ last_modified_at: 2026-03-04
 
 Le chapitre précédent a posé le langage formel dans sa généralité : alphabet, termes, formules, grammaire. Mais un langage sans contenu logique n'est qu'une coquille syntaxique — il permet de former des expressions, pas encore de distinguer celles qui sont valides de celles qui ne le sont pas.
 
-Ce chapitre franchit ce seuil. Il installe le premier système logique complet en deux temps : d'abord la **logique propositionnelle**, cas le plus simple où les formules sont des combinaisons de propositions élémentaires reliées par des connecteurs ; puis la **logique des prédicats du premier ordre**, qui généralise ce cadre en introduisant les termes, les quantificateurs et les variables dans toute leur portée — y compris les mécanismes techniques (substitution, construction de concepts) dont le chapitre I n'avait posé que le principe.
+Ce chapitre franchit ce seuil. Il installe le premier système logique complet en deux temps : d'abord la **logique propositionnelle**, cas le plus simple où les formules sont des combinaisons de propositions élémentaires reliées par des connecteurs ; puis la **logique des prédicats du premier ordre**, qui généralise ce cadre en introduisant les termes, les quantificateurs et les variables dans toute leur portée — y compris les mécanismes techniques (substitution, construction de concepts) dont le chapitre I n'avait posé que le principe.
 
-La question qui guide ce chapitre est : **qu'est-ce qu'une formule valide ?** Non pas : qu'est-ce qui est vrai dans telle ou telle situation, mais qu'est-ce qui est vrai *dans toute situation possible*. La réponse à cette question — la notion de tautologie, puis celle de validité — constitue le premier pont entre la syntaxe et la sémantique.
+La question qui guide ce chapitre est : **qu'est-ce qu'une formule valide ?** Non pas : qu'est-ce qui est vrai dans telle ou telle situation, mais qu'est-ce qui est vrai *dans toute situation possible*. La réponse à cette question — la notion de tautologie, puis celle de validité — constitue le premier pont entre la syntaxe et la sémantique.
 
 Le chapitre se conclut par l'introduction des **théories du premier ordre** : l'ajout d'axiomes spécifiques à un langage transforme la logique en un instrument d'investigation de domaines particuliers — l'arithmétique, l'algèbre, la géométrie.
 
@@ -26,7 +26,7 @@ Le chapitre se conclut par l'introduction des **théories du premier ordre** : l
 
 *Le cas sans termes ni quantificateurs.*
 
-La logique propositionnelle est le fragment le plus élémentaire de la logique : elle étudie les combinaisons de propositions à l'aide des seuls connecteurs, sans se soucier de la structure interne des propositions elles-mêmes. La proposition « il pleut » y est un atome indécomposable — on n'analyse pas *qui* pleut ni *où* ; on examine seulement ce qui se passe quand on la combine avec d'autres propositions par « et », « ou », « si… alors ».
+La logique propositionnelle est le fragment le plus élémentaire de la logique : elle étudie les combinaisons de propositions à l'aide des seuls connecteurs, sans se soucier de la structure interne des propositions elles-mêmes. La proposition « il pleut » y est un atome indécomposable — on n'analyse pas *qui* pleut ni *où* ; on examine seulement ce qui se passe quand on la combine avec d'autres propositions par « et », « ou », « si… alors ».
 
 Ce palier est pédagogiquement essentiel : il permet d'introduire les notions de vérité, de validité et d'équivalence dans un cadre où les calculs restent entièrement mécaniques.
 
@@ -48,7 +48,7 @@ Le langage de la logique propositionnelle se compose de :
 
 - **Parenthèses** : $(\ ,\ )$ pour lever les ambiguïtés de lecture.
 
-Les formules sont construites inductivement : toute variable propositionnelle est une formule ; si $\varphi$ et $\psi$ sont des formules, alors $\neg \varphi$, $(\varphi \land \psi)$, $(\varphi \lor \psi)$, $(\varphi \rightarrow \psi)$ et $(\varphi \leftrightarrow \psi)$ sont des formules. On retrouve exactement les règles de formation du chapitre I, restreintes au cas sans termes ni quantificateurs.
+Les formules sont construites inductivement : toute variable propositionnelle est une formule ; si $\varphi$ et $\psi$ sont des formules, alors $\neg \varphi$, $(\varphi \land \psi)$, $(\varphi \lor \psi)$, $(\varphi \rightarrow \psi)$ et $(\varphi \leftrightarrow \psi)$ sont des formules. On retrouve exactement les règles de formation du chapitre I, restreintes au cas sans termes ni quantificateurs.
 
 ---
 
@@ -121,7 +121,7 @@ Une fois les tables de vérité posées, on peut classifier les formules selon l
   
   Exemple : $p \land \neg p$.
 
-- Une formule est **satisfiable** (ou **contingente**) si elle est vraie pour au moins une assignation. Toute tautologie est satisfiable ; toute contradiction ne l'est pas.
+- Une formule est **satisfiable** (ou **contingente**) si elle est vraie pour au moins une assignation. Toute tautologie est satisfiable ; toute contradiction ne l'est pas.
 
 La notion de tautologie est la première réponse à la question du chapitre : une formule propositionnelle est **valide** si et seulement si c'est une tautologie. Dans le cadre propositionnel, la vérification est mécanique : il suffit de dresser la table de vérité complète, qui comporte $2^n$ lignes pour $n$ variables. C'est un calcul fini — la logique propositionnelle est **décidable**.
 
@@ -244,7 +244,7 @@ La FNC est la conjonction de ces cinq clauses :
 
 $$(\neg p \lor \neg q \lor r) \land (\neg p \lor q \lor \neg r) \land (\neg p \lor q \lor r) \land (p \lor \neg q \lor r) \land (p \lor q \lor r)$$
 
-Chaque clause élimine une ligne fausse ; leur conjonction élimine toutes les lignes fausses — il ne reste que les lignes vraies.
+Chaque clause élimine une ligne fausse ; leur conjonction élimine toutes les lignes fausses — il ne reste que les lignes vraies.
 
 **Remarque.** On observe que la FND est plus « lisible » quand la formule est vraie dans peu de cas (peu de lignes V), et la FNC quand elle est vraie dans beaucoup de cas (peu de lignes F). Les deux sont logiquement équivalentes à la formule d'origine.
 
@@ -254,13 +254,13 @@ Chaque clause élimine une ligne fausse ; leur conjonction élimine toutes les l
 
 Les formes normales ne sont pas seulement un outil théorique — elles se trouvent au cœur de l'une des questions les plus importantes de l'informatique.
 
-Le **problème SAT** (pour *satisfiability*) est le suivant : étant donnée une formule propositionnelle en FNC, existe-t-il une assignation de valeurs de vérité à ses variables qui la rende vraie ?
+Le **problème SAT** (pour *satisfiability*) est le suivant : étant donnée une formule propositionnelle en FNC, existe-t-il une assignation de valeurs de vérité à ses variables qui la rende vraie ?
 
 La question peut sembler triviale : il suffit d'essayer toutes les assignations possibles. Mais c'est précisément là que réside la difficulté. Pour $n$ variables, il y a $2^n$ assignations à vérifier. Avec $10$ variables, cela fait $1\,024$ cas — aisément gérable. Avec $100$ variables, le nombre d'assignations dépasse $10^{30}$ — plus que le nombre de secondes écoulées depuis le Big Bang. Avec $300$ variables, il dépasse le nombre d'atomes dans l'univers observable.
 
-La question n'est pas de savoir si le problème *a* une solution — c'est toujours décidable — mais de savoir si l'on peut *trouver* cette solution sans explorer un nombre exponentiel de cas. Autrement dit : existe-t-il un algorithme qui résolve SAT en un temps proportionnel à une puissance de $n$ (temps **polynomial**), plutôt qu'en un temps proportionnel à $2^n$ (temps **exponentiel**) ?
+La question n'est pas de savoir si le problème *a* une solution — c'est toujours décidable — mais de savoir si l'on peut *trouver* cette solution sans explorer un nombre exponentiel de cas. Autrement dit : existe-t-il un algorithme qui résolve SAT en un temps proportionnel à une puissance de $n$ (temps **polynomial**), plutôt qu'en un temps proportionnel à $2^n$ (temps **exponentiel**) ?
 
-C'est la question **P = NP ?**, l'un des sept problèmes du millénaire. Ce que l'on sait est le suivant. Si quelqu'un vous donne une assignation candidate, **vérifier** qu'elle satisfait la formule est facile et rapide : il suffit de parcourir chaque clause et de vérifier qu'au moins un littéral est vrai — un travail proportionnel à la taille de la formule. En revanche, **trouver** une telle assignation semble exponentiellement plus difficile. Le théorème de Cook-Levin (1971) établit que SAT est **NP-complet** : tout problème dont la solution est facile à vérifier peut être transformé en une instance de SAT. Si l'on savait résoudre SAT efficacement, on saurait résoudre efficacement tous ces problèmes — et la conjecture quasi universelle est que cela est impossible.
+C'est la question **P = NP ?**, l'un des sept problèmes du millénaire. Ce que l'on sait est le suivant. Si quelqu'un vous donne une assignation candidate, **vérifier** qu'elle satisfait la formule est facile et rapide : il suffit de parcourir chaque clause et de vérifier qu'au moins un littéral est vrai — un travail proportionnel à la taille de la formule. En revanche, **trouver** une telle assignation semble exponentiellement plus difficile. Le théorème de Cook-Levin (1971) établit que SAT est **NP-complet** : tout problème dont la solution est facile à vérifier peut être transformé en une instance de SAT. Si l'on savait résoudre SAT efficacement, on saurait résoudre efficacement tous ces problèmes — et la conjecture quasi universelle est que cela est impossible.
 
 On peut résumer la situation ainsi :
 
@@ -296,7 +296,7 @@ Un **langage du premier ordre** est déterminé par une **signature** : un ensem
 - le **symbole d'égalité** $=$ (dans les langages avec égalité),
 - les **parenthèses** et la **ponctuation**.
 
-La signature est ce qui distingue un langage d'un autre : le langage de l'arithmétique a les symboles $\lbrace 0, S, +, \times, < \rbrace$ ; celui de la théorie des groupes a $\lbrace e, \cdot, {}^{-1} \rbrace$ ; celui de la théorie des ensembles a le seul symbole $\lbrace \in \rbrace$. Les symboles logiques, eux, sont universels.
+La signature est ce qui distingue un langage d'un autre : le langage de l'arithmétique a les symboles $\lbrace 0, S, +, \times, < \rbrace$ ; celui de la théorie des groupes a $\lbrace e, \cdot, {}^{-1} \rbrace$ ; celui de la théorie des ensembles a le seul symbole $\lbrace \in \rbrace$. Les symboles logiques, eux, sont universels.
 
 Les **termes** et les **formules** sont définis exactement comme au chapitre I (section III-A). La signature ne fait que fixer les symboles particuliers du langage — la grammaire reste la même.
 
@@ -416,7 +416,7 @@ Cette définition appelle une précaution essentielle. Considérons la formule $
 
 $$\varphi[y/x] = \exists y.\, (y < y)$$
 
-La formule dit maintenant « il existe un nombre plus petit que lui-même » — ce qui est une tout autre assertion, et même une assertion fausse. Que s'est-il passé ? Le terme $y$ que nous avons substitué contenait une variable libre ($y$) qui est tombée dans la portée du quantificateur $\exists y$ : elle a été **capturée**. La variable libre est devenue liée par accident, ce qui a modifié le sens de la formule.
+La formule dit maintenant « il existe un nombre plus petit que lui-même » — ce qui est une tout autre assertion, et même une assertion fausse. Que s'est-il passé ? Le terme $y$ que nous avons substitué contenait une variable libre ($y$) qui est tombée dans la portée du quantificateur $\exists y$ : elle a été **capturée**. La variable libre est devenue liée par accident, ce qui a modifié le sens de la formule.
 
 Pour éviter ce phénomène, on impose une condition : le terme $t$ doit être **libre pour $x$ dans $\varphi$**, ce qui signifie qu'aucune variable libre de $t$ ne doit devenir liée après substitution. Formellement : pour chaque variable $y$ libre dans $t$, aucune occurrence libre de $x$ dans $\varphi$ ne se trouve dans la portée d'un quantificateur $\forall y$ ou $\exists y$.
 
@@ -456,7 +456,7 @@ L'universel affirme que $P$ est vraie pour *tout* objet. Le terme $\varepsilon x
 
 #### Portée de cette construction
 
-Cette définition n'est pas une curiosité technique — elle révèle que les quantificateurs ne sont pas des opérations primitives irréductibles, mais des cas particuliers d'une opération plus fondamentale : la **sélection d'un objet par une propriété**. Le terme epsilon est l'opération de construction de concept dont le chapitre I a posé l'intuition ; les quantificateurs en sont des applications.
+Cette définition n'est pas une curiosité technique — elle révèle que les quantificateurs ne sont pas des opérations primitives irréductibles, mais des cas particuliers d'une opération plus fondamentale : la **sélection d'un objet par une propriété**. Le terme epsilon est l'opération de construction de concept dont le chapitre I a posé l'intuition ; les quantificateurs en sont des applications.
 
 Le terme epsilon entretient également un lien profond avec l'**axiome du choix**, qui sera développé au chapitre VIII : l'axiome du choix garantit qu'il est possible de réaliser simultanément une infinité de ces sélections — ce que l'opérateur epsilon, limité à une seule formule, ne fait que pour un choix à la fois.
 
@@ -545,7 +545,7 @@ L'indépendance est la manifestation la plus directe d'un phénomène qui traver
 
 Ce chapitre a installé les deux systèmes logiques fondamentaux. La logique propositionnelle a fourni un premier terrain d'exercice : les connecteurs, les tables de vérité, la notion de tautologie comme vérité par la forme seule, les formes normales comme représentations canoniques, et le problème SAT comme premier aperçu des limites du calcul. La logique des prédicats du premier ordre a généralisé ce cadre en y introduisant les termes, les quantificateurs et la structure interne des propositions — avec les mécanismes formels qui les accompagnent : substitution complète, terme epsilon comme construction de concept, et leur relation avec les quantificateurs. Les théories du premier ordre, enfin, ont montré comment la logique devient un instrument d'investigation lorsqu'on la spécialise par des axiomes.
 
-Deux questions restent ouvertes. La première est syntaxique : comment *démontrer* qu'une formule est valide, par un mécanisme purement formel, sans recourir aux tables de vérité ou à l'examen de tous les modèles ? C'est la question de la **preuve**, objet du chapitre III. La seconde est sémantique : comment *définir rigoureusement* la vérité d'une formule dans une structure ? C'est la question du **modèle**, objet du chapitre IV. Le théorème de complétude réunira ces deux fils.
+Deux questions restent ouvertes. La première est syntaxique : comment *démontrer* qu'une formule est valide, par un mécanisme purement formel, sans recourir aux tables de vérité ou à l'examen de tous les modèles ? C'est la question de la **preuve**, objet du chapitre III. La seconde est sémantique : comment *définir rigoureusement* la vérité d'une formule dans une structure ? C'est la question du **modèle**, objet du chapitre IV. Le théorème de complétude réunira ces deux fils.
 
 ---
 

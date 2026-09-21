@@ -6,7 +6,7 @@ schema_article: true
 
 **System Down** — Chapitre 7, en accès libre. Premier chapitre de l'Acte II.
 
-Un sursaut gamma fonce vers la Terre. Les scientifiques le savent. Mais dans un monde où plus personne ne croit ce qu'on lui dit, qui va croire à la fin du monde ?
+Un sursaut gamma fonce vers la Terre. Les scientifiques le savent. Mais dans un monde où plus personne ne croit ce qu'on lui dit, qui va croire à la fin du monde ?
 
 ---
 
@@ -76,7 +76,7 @@ Sans jet, l'effondrement de WR 147b à 162 années-lumière aurait été le plus
 
 Avec un jet, tout changeait. Un jet relativiste qui pointe vers un observateur, c'est un sursaut gamma — un GRB, *gamma-ray burst* — le phénomène le plus violent de l'univers. En quelques secondes, un GRB libère autant d'énergie que le Soleil en dix milliards d'années, concentrée dans un cône étroit de quelques degrés.
 
-La question suivante était la plus importante de toutes : vers où pointe le jet ?
+La question suivante était la plus importante de toutes : vers où pointe le jet ?
 
 L'analyse combinée des données LIGO et Virgo — la polarisation, le rapport signal-bruit, la modélisation du signal — permit de contraindre l'axe du jet. Le calcul prit trois heures. Trois heures pendant lesquelles Héloïse ne quitta pas l'écran, tandis que le logiciel de Monte-Carlo explorait l'espace des paramètres par millions d'itérations.
 
@@ -94,7 +94,7 @@ Héloïse regarda le graphique pendant une minute entière sans bouger. Puis ell
 
 Quand elle revint, quatre messages urgents l'attendaient. Cambridge, Tokyo, Caltech et l'Institut Max-Planck à Garching.
 
-La question que tout le monde posait maintenant était simple : quand ?
+La question que tout le monde posait maintenant était simple : quand ?
 
 Le cœur de WR 147b s'était effondré. Un trou noir s'était formé. Le jet prenait naissance autour du trou noir, alimenté par l'accrétion de matière stellaire. Mais le jet devait encore percer l'enveloppe de l'étoile — des centaines de milliers de kilomètres de matière dense à travers lesquels le faisceau devait se frayer un chemin. Ce n'est qu'au moment où le jet émergerait de la surface stellaire que les rayons gamma seraient émis vers l'espace.
 
@@ -123,7 +123,7 @@ Héloïse fit le calcul trois fois. Ses collègues le firent cent fois. Chaque �
 
 Restait la dernière question. Celle dont Héloïse connaissait la réponse mais qu'elle n'avait pas encore formulée à voix haute. Celle que tout le monde, dans les visioconférences qui se multipliaient d'heure en heure, évitait encore de poser directement.
 
-À cent soixante-deux années-lumière, quel serait l'effet d'un sursaut gamma de cette puissance sur la Terre ?
+À cent soixante-deux années-lumière, quel serait l'effet d'un sursaut gamma de cette puissance sur la Terre ?
 
 La réponse tenait en quelques paragraphes, publiés à vingt-trois heures dans un preprint cosigné par vingt-six auteurs de onze institutions :
 
@@ -139,7 +139,7 @@ Héloïse éteignit son écran. La salle de contrôle bourdonnait autour d'elle 
 
 Héloïse prit son téléphone. Appela sa fille. Elle avait vingt ans et vivait à Lyon, en résidence universitaire.
 
-— Maman ? Il est tard, tout va bien ?
+— Maman ? Il est tard, tout va bien ?
 
 — Oui. Tout va bien. Je voulais entendre ta voix.
 
@@ -153,17 +153,17 @@ On présenta les données. Les neutrinos. Les ondes gravitationnelles. La locali
 
 Le Président écouta. Il avait été briefé par téléphone vingt minutes plus tôt, mais entendre les mots en face, dans cette pièce sans fenêtres, avec ces visages — c'était autre chose.
 
-— La marge d'erreur sur l'heure d'arrivée ? demanda-t-il.
+— La marge d'erreur sur l'heure d'arrivée ? demanda-t-il.
 
 — Plus ou moins quelques minutes. L'estimation centrale est à 2 h 57 heure de Paris, 8 h 57 heure de la côte Est.
 
-— Et les effets sur le territoire américain ?
+— Et les effets sur le territoire américain ?
 
 — L'hémisphère exposé dépend de l'heure exacte d'arrivée. Si le GRB frappe à 2 h 57 heure de Paris, l'Europe, l'Afrique et l'Asie occidentale sont sur l'hémisphère exposé. L'Amérique du Nord est sur l'hémisphère protégé. Mais la protection est temporaire. L'atmosphère sera détruite globalement en quelques jours, surêment quelques heures...
 
 Un silence.
 
-— Existe-t-il un moyen d'y échapper ? demanda le secrétaire à la Défense.
+— Existe-t-il un moyen d'y échapper ? demanda le secrétaire à la Défense.
 
 La directrice de la NASA secoua la tête.
 
@@ -171,7 +171,7 @@ La directrice de la NASA secoua la tête.
 
 Le Président posa les mains à plat sur la table. Il regarda la directrice de la NASA, puis l'écran où le directeur de l'ESA attendait.
 
-— Quel est le niveau de certitude ?
+— Quel est le niveau de certitude ?
 
 — Monsieur le Président, dit la directrice de la NASA, cinq détecteurs de neutrinos sur cinq continents ont enregistré le même signal à la même seconde. Les trois détecteurs d'ondes gravitationnelles confirment indépendamment. Quatorze équipes de modélisation dans neuf pays arrivent à la même conclusion sur le jet et son orientation. Il n'y a aucune divergence.
 
@@ -181,17 +181,17 @@ Le Président hocha la tête. Puis il dit :
 
 Il balaya la salle du regard.
 
-— Qui va croire ça ? Qui va croire un gouvernement — n'importe quel gouvernement — qui annonce la fin du monde, deux mois après le plus grand canular de l'histoire moderne ?
+— Qui va croire ça ? Qui va croire un gouvernement — n'importe quel gouvernement — qui annonce la fin du monde, deux mois après le plus grand canular de l'histoire moderne ?
 
 Le National Security Advisor prit la parole.
 
 — C'est précisément pour cette raison, Monsieur le Président, que l'annonce ne peut pas venir d'un seul pays. Elle doit venir de tous. Simultanément. Pas une allocution présidentielle. Pas un communiqué gouvernemental. Un consensus scientifique global, relayé par toutes les nations en même temps.
 
-— La Russie ?
+— La Russie ?
 
 — Leur académie des sciences a confirmé les données il y a quarante minutes.
 
-— La Chine ?
+— La Chine ?
 
 — Le CNSA a publié ses propres résultats. Compatible à trois pour cent près.
 
@@ -233,7 +233,7 @@ Il sortit son téléphone. Les réseaux sociaux étaient en éruption. Il fit d�
 
 *Y en a ils ont pas retenu la leçon de la dernière fois. Deepfake 2.0.*
 
-*Alors l'ONU maintenant ? Ils montent en gamme. Après le Président français, carrément les Nations Unies. Ça va c'est crédible.*
+*Alors l'ONU maintenant ? Ils montent en gamme. Après le Président français, carrément les Nations Unies. Ça va c'est crédible.*
 
 *C'EST UN FAKE. POINT. ARRÊTEZ DE PANIQUER. ON NOUS A DÉJÀ EU UNE FOIS, PAS DEUX.*
 
@@ -241,11 +241,11 @@ Yann sourit malgré lui. La colère collective avait quelque chose de rassurant.
 
 Sa femme, Émilie, apparut dans l'encadrement de la porte. Elle tenait son téléphone contre sa poitrine.
 
-— Tu as vu ?
+— Tu as vu ?
 
 — Oui.
 
-— Et ?
+— Et ?
 
 — Et rien. C'est un fake. Comme la dernière fois.
 
@@ -279,7 +279,7 @@ Au contraire. Pendant la nuit, de nouvelles confirmations étaient arrivées. L'
 
 Sur les réseaux sociaux, le ton commençait à changer. Les mèmes continuaient, mais ils étaient moins drôles. Sous les blagues, quelque chose d'autre affleurait — une nervosité, une hésitation, le frémissement de ceux qui commencent à douter de leur propre doute.
 
-*Ok mais sérieusement y a pas UN scientifique qui dit que c'est faux ? Pas un seul ?*
+*Ok mais sérieusement y a pas UN scientifique qui dit que c'est faux ? Pas un seul ?*
 
 *Ma prof de physique à la fac elle pleure. En plein amphi. Elle a dit que les données étaient réelles. C'est pas une actrice ma prof de physique.*
 
@@ -321,13 +321,13 @@ Yann resta longtemps à la fenêtre. Le voilier disparut derrière la pointe du 
 
 Émilie prépara le petit-déjeuner avec des gestes un peu trop précis, un peu trop lents.
 
-— Toujours rien ? demanda-t-elle sans se retourner.
+— Toujours rien ? demanda-t-elle sans se retourner.
 
 — Toujours rien.
 
 Louise entra dans la cuisine en traînant les pieds, le lapin à la main.
 
-— On va à l'école ?
+— On va à l'école ?
 
 Émilie se tourna vers Yann. Ils échangèrent un regard.
 
@@ -343,7 +343,7 @@ Sur le chemin du retour, Yann passa devant le Leclerc. La file d'attente sortait
 
 Ce jour-là, le monde oscilla entre deux certitudes qui ne pouvaient pas coexister.
 
-La première : c'était un fake. Évidemment. Forcément. Après L'Onde, après la fausse allocution, après tout ce qui s'était passé — comment croire encore quoi que ce soit ? Les images mentent. Les voix mentent. Les données mentent. La seule chose qu'on peut croire, ce sont ses propres yeux. Et les yeux disaient : tout est normal.
+La première : c'était un fake. Évidemment. Forcément. Après L'Onde, après la fausse allocution, après tout ce qui s'était passé — comment croire encore quoi que ce soit ? Les images mentent. Les voix mentent. Les données mentent. La seule chose qu'on peut croire, ce sont ses propres yeux. Et les yeux disaient : tout est normal.
 
 La deuxième : aucun démenti n'était venu. Pas en quatorze heures. Pas en vingt. Pas en vingt-quatre. Et les scientifiques — pas les politiques, pas les médias, les scientifiques — continuaient de confirmer, l'un après l'autre, dans un unanimisme qui n'avait aucun précédent dans l'histoire des sciences. Même le changement climatique avait ses sceptiques. Même la théorie de l'évolution. Même la rotondité de la Terre. Mais ici — pas un seul. Pas un.
 
@@ -476,7 +476,7 @@ La voix était calme. Posée. La voix d'un homme de soixante-huit ans qui avait 
 
 Il n'y eut pas de grands mots. Pas de déclarations. Juste deux voix, un père et un fils, qui se parlaient peut-être pour la dernière fois et qui le savaient tous les deux sans avoir besoin de le dire.
 
-— Maman va bien ?
+— Maman va bien ?
 
 — Elle est dans le jardin. Avec ses rosiers.
 
@@ -532,13 +532,13 @@ Quand il referma le livre, Louise dormait.
 
 Un peu plus tôt dans la soirée, Louise ne s'était pas endormie tout de suite.
 
-— Papa ?
+— Papa ?
 
 Yann se pencha au-dessus du lit. Ses yeux brillaient dans la pénombre.
 
-— Oui, ma puce ?
+— Oui, ma puce ?
 
-— À l'école… ils disent que le monde va s'arrêter. C'est vrai ?
+— À l'école… ils disent que le monde va s'arrêter. C'est vrai ?
 
 Yann sentit quelque chose se briser dans sa poitrine.
 
@@ -546,7 +546,7 @@ Yann sentit quelque chose se briser dans sa poitrine.
 
 Louise hésita.
 
-— Mais si c'est vrai… on va tous mourir ?
+— Mais si c'est vrai… on va tous mourir ?
 
 Le mot resta suspendu dans l'air, comme un objet interdit.
 
@@ -578,13 +578,13 @@ Rien n'avait changé. Rien.
 
 Émilie sortit de la salle de bains. Elle avait pleuré — ses yeux étaient rouges — mais elle ne pleurait plus. Elle portait le vieux t-shirt dans lequel elle dormait depuis dix ans.
 
-— Tu crois que c'est vrai ? demanda-t-elle.
+— Tu crois que c'est vrai ? demanda-t-elle.
 
 Ce n'était pas la première fois qu'elle posait la question. Mais c'était la première fois que sa voix ne tremblait pas.
 
 — Je ne sais pas, dit Yann. Personne ne sait.
 
-— Mais toi. Tu crois quoi ?
+— Mais toi. Tu crois quoi ?
 
 Il la regarda longtemps. Il pensa au ciel bleu du matin. À la mer calme. Aux mouettes. Au voilier. Au chien que Mathis avait poursuivi dans le parc. Au monde intact, lumineux, absurdement beau. Et il pensa aux données, aux cinquante-trois millions de vues, au professeur de Genève qui avait retiré sa vidéo, aux milliers de scientifiques qui disaient la même chose, tous, tous, tous.
 
@@ -674,11 +674,11 @@ Sa voix monta d'un cran. Une panique nue, animale.
 
 Deux heures cinquante-trois.
 
-— Yann, dis quelque chose ! Dis-moi que c'est faux !
+— Yann, dis quelque chose ! Dis-moi que c'est faux !
 
 Elle se redressa dans le lit. Sa respiration devint haletante. Elle secoua son bras.
 
-— Yann, on va mourir ! On va mourir !
+— Yann, on va mourir ! On va mourir !
 
 Sa voix se brisa. Puis elle cria. Un cri court, étouffé, comme un animal pris dans un piège.
 

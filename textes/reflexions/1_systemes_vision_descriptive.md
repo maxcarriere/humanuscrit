@@ -47,15 +47,15 @@ Cette structure existe. C'est le **graphe**.
 > 
 > Un **graphe** est un couple $G = (X, L)$ où :
 > 
-> - $X$ est un ensemble fini d'éléments, appelés **sommets** ;
+> - $X$ est un ensemble fini d'éléments, appelés **sommets** ;
 > - $L$ est un ensemble de **liens** entre ces sommets.
 
 Un sommet représente un élément distingué — une entité identifiable, séparée des autres. Un lien représente une relation — une dépendance, une proximité, une compatibilité. Le lien ne présuppose rien de physique : il exprime simplement le fait que deux éléments ne sont pas indépendants l'un de l'autre.
 
 Le graphe est la traduction directe, en langage formel, de ce que le chapitre 0 décrivait en langage naturel :
 
-- **distinguer** des éléments → les sommets du graphe ;
-- **configurer** leurs relations → les liens du graphe ;
+- **distinguer** des éléments → les sommets du graphe ;
+- **configurer** leurs relations → les liens du graphe ;
 - le tout forme une **structure** → le graphe lui-même.
 
 *Remarque.* Un lien peut être symétrique (la relation entre A et B est la même que celle entre B et A) ou orienté (la relation va de A vers B sans réciprocité). Il peut aussi relier plus de deux éléments : une relation ternaire, quaternaire, etc., est tout aussi légitime qu'une relation binaire. Le formalisme n'exclut rien a priori.
@@ -141,7 +141,7 @@ Chaque relation peut être formalisée de deux manières : comme une **relation 
 
 À un instant donné, seules certaines de ces relations sont actives. Cette distinction est capitale : un lien possible n'est pas un lien effectif.
 
-- Les **relations possibles** $R\_i$ — le champ de tout ce qui pourrait lier les éléments ;
+- Les **relations possibles** $R\_i$ — le champ de tout ce qui pourrait lier les éléments ;
 - Les **relations effectives** $r\_i$ — ce qui est actuellement réalisé.
 
 Cette séparation entre le possible et l'effectif est l'une des idées les plus importantes de toute la construction. Une structure ne se définit pas seulement par ce qui *est*, mais par ce qui *pourrait être*.
@@ -150,14 +150,14 @@ Cette séparation entre le possible et l'effectif est l'une des idées les plus 
 
 - $X$ : ensemble des individus
 
-- $R_1$ : Relation amicale ; $R_2$ : Relation familiale ; $R_3$ : Relation professionnelle.
+- $R_1$ : Relation amicale ; $R_2$ : Relation familiale ; $R_3$ : Relation professionnelle.
   Ces relations indiquent quels liens sont possibles *a priori* entre les individus.
   Pour deux individus $x,y \in X$, $(x,y) \in R_1$ signifie que l'amitié est possible entre eux.
 
 - $r_1, r_2, r_3$ indiquent comment sont réellement reliés les individus :
   Dire que deux individus $x,y \in X$ sont effectivement amis s'écrit $(x,y) \in r_1$.
 
-Lorsque les relations sont valuées, on peut enrichir cette description : l'amitié n'est plus seulement présente ou absente, elle porte une intensité. $R_1 : X^2 \to [0, 1]$ mesure le degré d'affinité ; $R_2 : X^2 \to \\{0, 1\\}$ reste binaire (on est parent ou non) ; $R_3 : X^2 \to \\{\text{nul}, \text{collègue}, \text{hiérarchique}\\}$ est qualitative. Dire que $x$ et $y$ sont amis avec une affinité de $0.8$ s'écrit $r_1(x,y) = 0.8$.
+Lorsque les relations sont valuées, on peut enrichir cette description : l'amitié n'est plus seulement présente ou absente, elle porte une intensité. $R_1 : X^2 \to [0, 1]$ mesure le degré d'affinité ; $R_2 : X^2 \to \\{0, 1\\}$ reste binaire (on est parent ou non) ; $R_3 : X^2 \to \\{\text{nul}, \text{collègue}, \text{hiérarchique}\\}$ est qualitative. Dire que $x$ et $y$ sont amis avec une affinité de $0.8$ s'écrit $r_1(x,y) = 0.8$.
 
 ---
 
@@ -175,7 +175,7 @@ Lorsque les relations sont valuées, on peut enrichir cette description : l'amit
 
 > Un **état** est un couple $e = (A, R)$ où :
 >
-> - $A \subseteq X$ est l'ensemble des éléments **présents** — ceux qui participent effectivement à la configuration ;
+> - $A \subseteq X$ est l'ensemble des éléments **présents** — ceux qui participent effectivement à la configuration ;
 >
 > - $R = (r_i)_{i \in I}$ est une famille de **relations effectives** sur $A$ entre les éléments présents — avec $r\_i \subset R\_i \restriction_A$.
 >
@@ -201,7 +201,7 @@ Les éléments d'un état ne sont pas seulement caractérisés par leurs relatio
 >
 > L'ensemble $A$ muni de la topologie $T$ est appelé **espace topologique**.
 
-Autrement dit, une topologie répond à la question : *pour chaque élément, quels sont ses voisins ?* — sans mesurer la distance qui les sépare. Deux éléments sont « proches » s'ils apparaissent ensemble dans un voisinage de petite taille ; ils sont « éloignés » s'ils n'apparaissent ensemble dans aucun voisinage restreint.
+Autrement dit, une topologie répond à la question : *pour chaque élément, quels sont ses voisins ?* — sans mesurer la distance qui les sépare. Deux éléments sont « proches » s'ils apparaissent ensemble dans un voisinage de petite taille ; ils sont « éloignés » s'ils n'apparaissent ensemble dans aucun voisinage restreint.
 
 Un état $e = (A, R)$ peut être **muni d'une topologie** $T$ sur $A$ : on obtient alors un triplet $e = (A, R, T)$, qui fait de l'état un **espace topologique**. $A$ en est le support, $R$ décrit les relations effectives entre ses éléments, et $T$ fournit la structure de voisinage dans laquelle ils s'inscrivent.
 
@@ -209,7 +209,7 @@ Un état $e = (A, R)$ peut être **muni d'une topologie** $T$ sur $A$ : on obtie
 
 *Exemple.* Dans un réseau social, on pourrait définir une topologie par la proximité géographique des individus : deux personnes habitant la même ville sont topologiquement voisines, même si elles n'entretiennent aucune relation.
 
-La topologie est donc, *a priori*, indépendante des relations. Deux éléments peuvent être voisins dans la topologie sans être en relation (des voisins de palier qui ne se connaissent pas), et réciproquement, deux éléments peuvent être en relation sans être topologiquement voisins (des amis vivant dans des pays différents). La topologie est une propriété de l'*espace* dans lequel les éléments se situent ; les relations sont des propriétés des *éléments* entre eux.
+La topologie est donc, *a priori*, indépendante des relations. Deux éléments peuvent être voisins dans la topologie sans être en relation (des voisins de palier qui ne se connaissent pas), et réciproquement, deux éléments peuvent être en relation sans être topologiquement voisins (des amis vivant dans des pays différents). La topologie est une propriété de l'*espace* dans lequel les éléments se situent ; les relations sont des propriétés des *éléments* entre eux.
 
 Toutefois, les relations peuvent *influencer* la topologie. Si la configuration d'un état modifie la structure de voisinage, la topologie effective s'en trouve altérée. Cette influence peut être interprétée comme une **courbure** de la topologie de base, induite par les relations — de la même manière que, en physique, la distribution de masse courbe l'espace-temps.
 
@@ -235,7 +235,7 @@ Cet espace contient toutes les configurations relationnelles possibles. Il gén�
 
 Lorsque les relations sont logiques (binaires), le nombre d'états concevables est fini et croît exponentiellement. Lorsque les relations sont valuées dans un espace continu (par exemple $W_i = \mathbb{R}^+$), l'espace des configurations devient lui-même continu — et potentiellement infini. Ce point est important : il prépare le passage au temps continu, où les états évoluent de manière continue dans un espace d'états qui possède une structure de voisinage.
 
-On retrouve ici les trois niveaux d'être : la **structure potentielle** $(X, R_p)$ — l'univers des éléments et des relations concevables ; l'**espace combinatoire** $Y$ — toutes les configurations logiquement compatibles ; et, bientôt, le **système** — la sélection des configurations effectivement admissibles, c'est-à-dire un sous-ensemble de $Y$.
+On retrouve ici les trois niveaux d'être : la **structure potentielle** $(X, R_p)$ — l'univers des éléments et des relations concevables ; l'**espace combinatoire** $Y$ — toutes les configurations logiquement compatibles ; et, bientôt, le **système** — la sélection des configurations effectivement admissibles, c'est-à-dire un sous-ensemble de $Y$.
 
 *Remarque.* En pratique, dans la définition d'un système, on considère un sous-ensemble $E \subseteq Y$ — l'ensemble des **états admissibles** — qui peut être plus restreint que l'ensemble des concevables. Les contraintes du système opèrent cette sélection : elles déterminent, au sein de $Y$, quelles configurations sont effectivement pertinentes.
 
@@ -346,7 +346,7 @@ La nature de l'ordre que l'on impose sur $T$ détermine ce que l'on autorise com
 
 **Ordre total.** Si l'on exige que deux instants quelconques soient toujours comparables, le temps devient **linéaire** : il n'y a qu'une seule ligne temporelle, et tout événement se situe soit avant, soit après tout autre. C'est l'hypothèse la plus courante. Elle laisse cependant ouverte la question de savoir si le temps a un début. Par exemple, $T = \mathbb{Z}$ (les entiers relatifs) est totalement ordonné mais n'a ni premier ni dernier instant — le temps s'étend indéfiniment vers le passé comme vers le futur.
 
-**Bon ordre.** Si l'on exige en plus que tout sous-ensemble non vide de $T$ admette un plus petit élément, on obtient un **bon ordre**. Cette hypothèse garantit l'existence d'un premier instant, et plus généralement d'un instant « le plus ancien » dans toute collection d'instants. L'ensemble $\mathbb{N} = \\{0, 1, 2, \ldots\\}$ est un bon ordre ; $\mathbb{Z}$ ne l'est pas (l'ensemble des entiers négatifs n'a pas de plus petit élément).
+**Bon ordre.** Si l'on exige en plus que tout sous-ensemble non vide de $T$ admette un plus petit élément, on obtient un **bon ordre**. Cette hypothèse garantit l'existence d'un premier instant, et plus généralement d'un instant « le plus ancien » dans toute collection d'instants. L'ensemble $\mathbb{N} = \\{0, 1, 2, \ldots\\}$ est un bon ordre ; $\mathbb{Z}$ ne l'est pas (l'ensemble des entiers négatifs n'a pas de plus petit élément).
 
 On distingue par ailleurs deux grandes familles de temps, selon la structure de $T$ :
 
@@ -410,7 +410,7 @@ $$P(f = a) = P(\\{ \omega \in \Omega \mid f(\omega) = a \\})$$
 
 ### Hasard
 
-La définition de la force fait appel à un espace de probabilité $(\Omega, P)$ sans en préciser la nature. Cet objet a été posé comme outil formel — mais il porte en lui une question de fond : *d'où vient le hasard ?*
+La définition de la force fait appel à un espace de probabilité $(\Omega, P)$ sans en préciser la nature. Cet objet a été posé comme outil formel — mais il porte en lui une question de fond : *d'où vient le hasard ?*
 
 Deux conceptions s'affrontent.
 
@@ -418,13 +418,13 @@ Deux conceptions s'affrontent.
 
 **Le hasard comme défaut de contrainte.** Ce qui n'est pas soumis à une force déterministe est laissé au hasard. Les lois de la nature contraignent l'évolution — mais pas nécessairement jusqu'à prescrire une issue unique. Là où la contrainte ne tranche pas, le hasard occupe l'espace laissé libre. C'est la conception **ontologique** — celle que suggère, par exemple, la mécanique quantique, où l'indétermination semble irréductible à un manque d'information.
 
-Y a-t-il *vraiment* du hasard dans les phénomènes qui nous entourent, ou bien seulement un défaut de connaissance ? La question traverse toute l'histoire de la physique et de la philosophie. Ce texte ne la tranche pas — et le formalisme n'a pas besoin qu'elle soit tranchée.
+Y a-t-il *vraiment* du hasard dans les phénomènes qui nous entourent, ou bien seulement un défaut de connaissance ? La question traverse toute l'histoire de la physique et de la philosophie. Ce texte ne la tranche pas — et le formalisme n'a pas besoin qu'elle soit tranchée.
 
 Car dans les deux cas, **une connaissance partielle de l'évolution reste possible**. On ne sait pas *si* un événement donné va se produire, mais on peut savoir *avec quelle chance* il va se produire — sur la base d'un historique d'observation, de régularités constatées, de symétries identifiées. La connaissance devient **statistique** : non plus une certitude sur l'issue, mais une mesure de vraisemblance sur l'ensemble des issues possibles.
 
 ---
 
-Formellement, le hasard est entièrement contenu dans $\Omega$ — l'espace des issues possibles. Mais qu'*est*-ce que $\Omega$ ?
+Formellement, le hasard est entièrement contenu dans $\Omega$ — l'espace des issues possibles. Mais qu'*est*-ce que $\Omega$ ?
 
 En théorie des probabilités, cette question est presque toujours éludée. On pose « soit $(\Omega, P)$ un espace de probabilité » et l'on travaille avec ses propriétés formelles sans jamais dire ce que $\Omega$ *représente*. C'est un objet abstrait — le sac dont on tire les résultats — et l'on ne regarde jamais à l'intérieur.
 
@@ -446,7 +446,7 @@ Ces pistes ne sont pas mutuellement exclusives. Elles peuvent coexister dans un 
 
 Le formalisme construit dans ce chapitre convoque, presque sans le dire, des ensembles qui peuvent être infinis. L'espace des distinctions $X$, l'espace des configurations $Y$, l'espace des transformations $Z$, le temps $T$ — aucun de ces objets n'est a priori fini. La question de l'infini est donc latente dans chaque définition.
 
-Mais de quel infini s'agit-il ? Et surtout : cet infini est-il une réalité ou un outil ?
+Mais de quel infini s'agit-il ? Et surtout : cet infini est-il une réalité ou un outil ?
 
 **L'infini requiert un axiome.** Dans la théorie des ensembles standard (ZFC), l'existence d'un ensemble infini ne se démontre pas — elle se postule. L'**axiome de l'infini** affirme qu'il existe un ensemble ayant infiniment nombreux éléments. Sans cet axiome, toute la construction mathématique se ramènerait aux ensembles finis. L'infini entre donc dans les mathématiques par décision, non par déduction. On peut l'interpréter comme la description d'une réalité, ou comme une fiction utile dont on ne saurait se passer. La question reste ouverte.
 
@@ -458,15 +458,15 @@ Mais de quel infini s'agit-il ? Et surtout : cet infini est-il une réalité ou 
 
 Ces deux visages de l'infini ne sont pas indépendants : le continu de $\mathbb{R}$ est à la fois infiniment divisible et strictement plus grand que $\mathbb{N}$.
 
-**L'infini dans le formalisme.** La question de l'infinité traverse chacune des composantes définies dans ce chapitre. L'espace des distinctions $X$ peut-il contenir infiniment nombreux éléments distinguables ? L'espace des configurations $Y(X)$ croît exponentiellement avec la taille de $X$ — si $X$ est infini, $Y$ peut devenir indénombrable. Le temps $T$ peut être fini ou infini, discret ou continu, chaque choix engageant une ontologie différente. Les relations valuées dans des espaces continus introduisent l'infini jusque dans les états eux-mêmes.
+**L'infini dans le formalisme.** La question de l'infinité traverse chacune des composantes définies dans ce chapitre. L'espace des distinctions $X$ peut-il contenir infiniment nombreux éléments distinguables ? L'espace des configurations $Y(X)$ croît exponentiellement avec la taille de $X$ — si $X$ est infini, $Y$ peut devenir indénombrable. Le temps $T$ peut être fini ou infini, discret ou continu, chaque choix engageant une ontologie différente. Les relations valuées dans des espaces continus introduisent l'infini jusque dans les états eux-mêmes.
 
 La réponse à ces questions n'est pas fixée ici, et elle n'affecte pas la validité des définitions données — celles-ci s'appliquent aux cas finis comme aux cas infinis. On notera cependant que certaines constructions sur des ensembles infinis peuvent requérir l'**axiome du choix** — qui affirme qu'on peut sélectionner simultanément un élément dans chacun d'une infinité d'ensembles. Cet axiome, lui aussi non évident, fait l'objet de débats fondationnels.
 
 **Le paradoxe du temps.** La question de l'infini prend une tournure particulièrement inconfortable lorsqu'on l'applique au temps.
 
-Si le temps est **fini**, il possède un premier instant. Avant ce premier instant, rien n'existait — pas même le temps. Mais alors, comment le monde a-t-il pu surgir du néant ? Toute cause supposée précéderait le temps, ce qui contredit l'hypothèse. L'infinité du temps semble s'imposer comme une nécessité logique.
+Si le temps est **fini**, il possède un premier instant. Avant ce premier instant, rien n'existait — pas même le temps. Mais alors, comment le monde a-t-il pu surgir du néant ? Toute cause supposée précéderait le temps, ce qui contredit l'hypothèse. L'infinité du temps semble s'imposer comme une nécessité logique.
 
-Si le temps est **infini**, le monde a toujours existé, sans commencement. L'esprit, habitué à chercher des origines, se heurte à une régression sans fond : pourquoi l'état présent plutôt qu'un autre, si le passé est infini ? L'infinité du passé ne résout pas la question de l'existence — elle la déplace indéfiniment.
+Si le temps est **infini**, le monde a toujours existé, sans commencement. L'esprit, habitué à chercher des origines, se heurte à une régression sans fond : pourquoi l'état présent plutôt qu'un autre, si le passé est infini ? L'infinité du passé ne résout pas la question de l'existence — elle la déplace indéfiniment.
 
 Les deux alternatives sont inconfortables. Ce n'est peut-être pas un défaut du raisonnement : c'est la marque que la question touche quelque chose d'irréductible, une limite de la pensée face à ce qui la dépasse.
 
@@ -502,13 +502,13 @@ Un système statique décrit une structure figée. Il ne contient aucune notion 
 > 
 > où :
 > 
-> - $X$ est l'espace des distinctions ;
-> - $R_p$ la famille des relations possibles ;
+> - $X$ est l'espace des distinctions ;
+> - $R_p$ la famille des relations possibles ;
 > - $E \subseteq Y$ l'ensemble des **états admissibles**.
 
 Le système passif est une **cartographie du possible** : il dit quels agencements sont admissibles, mais ne contient aucune notion de transformation. Il délimite ce qui *peut* exister sans dire comment cela peut changer.
 
-C'est ici que la **contrainte** entre en jeu. Elle n'est pas un élément explicite du triplet — elle est ce qui *définit* $E$ comme sous-ensemble de $Y$. La contrainte est la frontière entre le concevable et l'admissible. Retirer une contrainte élargit $E$ ; ajouter une contrainte le restreint.
+C'est ici que la **contrainte** entre en jeu. Elle n'est pas un élément explicite du triplet — elle est ce qui *définit* $E$ comme sous-ensemble de $Y$. La contrainte est la frontière entre le concevable et l'admissible. Retirer une contrainte élargit $E$ ; ajouter une contrainte le restreint.
 
 *Exemple.* Un cristal à l'équilibre : les atomes occupent des positions déterminées par les lois cristallographiques. Les états admissibles sont les configurations compatibles avec ces lois. Aucune évolution n'est décrite.
 
@@ -544,7 +544,7 @@ Toutefois, le système actif ne précise pas encore *quand* ni *comment* ces act
 > 
 > Un système (passif ou actif) est dit **valué** lorsque ses relations possibles sont des relations valuées *(voir Annexe — Relations logiques et valuées)* — c'est-à-dire lorsqu'elles prennent leurs valeurs dans des espaces de valuation $W_i$ plus riches que $\\{0, 1\\}$.
 
-Le qualificatif *valué* n'est pas un type de système supplémentaire : c'est une **propriété** qui peut s'appliquer à tout système. Un système passif peut être valué ou non ; un système actif peut être valué ou non. Cette distinction sera également pertinente pour les systèmes dynamiques.
+Le qualificatif *valué* n'est pas un type de système supplémentaire : c'est une **propriété** qui peut s'appliquer à tout système. Un système passif peut être valué ou non ; un système actif peut être valué ou non. Cette distinction sera également pertinente pour les systèmes dynamiques.
 
 Un système dont toutes les relations sont logiques *(voir Annexe — Relations logiques et valuées)* est dit **logique**. Tout système logique est un cas particulier d'un système valué (avec $W_i = \\{0, 1\\}$).
 
@@ -570,7 +570,7 @@ Selon la nature du mécanisme de sélection des forces, on distingue trois nivea
 > 
 > où :
 > 
-> - $T$ est un temps discret totalement ordonné ;
+> - $T$ est un temps discret totalement ordonné ;
 > - $f : \Omega \to \mathcal{A}$ est une **force unique**, la même à tout instant et en tout état.
 > 
 > **Propriété de la trajectoire.** À chaque instant $t$, le hasard produit une issue $\omega_t \in \Omega$, et :
@@ -603,7 +603,7 @@ Si la force est stochastique, la trajectoire est un **processus aléatoire** : �
 
 Le système évolutif introduit une dépendance temporelle : les forces changent au cours du temps, mais indépendamment de l'état du système. Les règles du jeu changent — mais elles changent selon un programme extérieur, sans réaction à ce qui se passe dans le système.
 
-*Exemple.* Un environnement soumis à des cycles saisonniers : au printemps, certaines transformations sont favorisées (croissance, reproduction) ; en hiver, d'autres s'imposent (ralentissement, hibernation). La force change selon le calendrier, pas selon l'état du système.
+*Exemple.* Un environnement soumis à des cycles saisonniers : au printemps, certaines transformations sont favorisées (croissance, reproduction) ; en hiver, d'autres s'imposent (ralentissement, hibernation). La force change selon le calendrier, pas selon l'état du système.
 
 ---
 
@@ -643,7 +643,7 @@ Si $\mathcal{D}$ est déterministe en tout état, la trajectoire est entièremen
 
 La réflexivité n'est pas un état binaire. Elle admet des degrés, qui dessinent une hiérarchie de complexité.
 
-**Réflexivité faible.** Le champ de forces $\mathcal{D}$ dépend de l'état, mais l'ensemble des actions admissibles $\mathcal{A}$ reste fixe. Le choix de l'action change selon la configuration ; l'espace des transformations possibles reste le même.
+**Réflexivité faible.** Le champ de forces $\mathcal{D}$ dépend de l'état, mais l'ensemble des actions admissibles $\mathcal{A}$ reste fixe. Le choix de l'action change selon la configuration ; l'espace des transformations possibles reste le même.
 
 **Réflexivité forte.** Les actions admissibles elles-mêmes changent — l'ensemble $\mathcal{A}$ évolue au cours du temps. Le système ne se contente pas de changer de comportement : il change les règles de ce qu'il *peut* faire.
 
@@ -669,7 +669,7 @@ $$(\Phi_t)_{t \geq 0}, \quad \Phi_t : E \to E$$
 
 satisfaisant :
 
-- $\Phi_0 = \text{Id}$ — ne rien faire pendant un temps nul ne change rien ;
+- $\Phi_0 = \text{Id}$ — ne rien faire pendant un temps nul ne change rien ;
 - $\Phi_{t+t'} = \Phi_t \circ \Phi_{t'}$ — évoluer pendant un temps $t$ puis pendant un temps $t'$ revient à évoluer pendant un temps $t + t'$.
 
 Cette propriété — appelée **propriété de flot** ou **propriété de semi-groupe** — exprime la cohérence temporelle minimale que l'on exige d'une évolution.
@@ -690,7 +690,7 @@ La hiérarchie simple / évolutif / réflexif se transpose donc au temps continu
 > 
 > où :
 > 
-> - $T$ est un temps continu (un intervalle de $\mathbb{R}^+$) ;
+> - $T$ est un temps continu (un intervalle de $\mathbb{R}^+$) ;
 > - $\Phi = (\Phi_t)_{t \geq 0}$ est un **flot** sur $E$ — une famille d'applications $\Phi_t : E \to E$ satisfaisant la propriété de semi-groupe.
 > 
 > La même loi d'évolution s'applique en tout état et à tout instant.
@@ -758,7 +758,7 @@ C'est dans cette ontologie que le champ $\mathcal{D}$ du système réflexif (Dé
 
 Les deux ontologies ne sont pas des définitions concurrentes du continu. Elles sont des cas particuliers d'une même structure générale — le flot $(\Phi_t)_{t \geq 0}$ — qui diffèrent par la **régularité temporelle** de l'évolution et par la **structure** éventuellement imposée à $E$.
 
-Un même système peut combiner les deux formes : un fluide se déforme continûment ; un réseau social évolue par événements ponctuels ; un organisme vivant fait les deux — certains processus (métabolisme) sont continus, d'autres (mutations, décisions) sont ponctuels. Le formalisme du flot accueille les deux.
+Un même système peut combiner les deux formes : un fluide se déforme continûment ; un réseau social évolue par événements ponctuels ; un organisme vivant fait les deux — certains processus (métabolisme) sont continus, d'autres (mutations, décisions) sont ponctuels. Le formalisme du flot accueille les deux.
 
 Le choix entre évolution événementielle et évolution par déformation n'est pas ontologique au sens absolu : il relève d'un **choix de modélisation** adapté au système étudié.
 
@@ -768,8 +768,8 @@ Le choix entre évolution événementielle et évolution par déformation n'est 
 
 Le passage au continu n'est pas une simple commodité technique. Lorsque $E$ possède une structure topologique riche, il permet l'apparition de phénomènes qualitativement nouveaux :
 
-- des **attracteurs** (états ou ensembles d'états vers lesquels le système converge) ;
-- des **bifurcations** (changements qualitatifs de comportement lorsqu'un paramètre varie continûment) ;
+- des **attracteurs** (états ou ensembles d'états vers lesquels le système converge) ;
+- des **bifurcations** (changements qualitatifs de comportement lorsqu'un paramètre varie continûment) ;
 - des **trajectoires chaotiques** (sensibilité extrême aux conditions initiales, même en régime déterministe).
 
 Ces phénomènes n'ont pas d'équivalent exact en temps discret fini. Ils émergent de la structure continue de l'espace des états et du temps — et justifient, pour certains systèmes, l'abandon du cadre discret au profit du cadre continu.
@@ -793,7 +793,7 @@ Les niveaux introduits se résument ainsi :
 
 Chaque niveau enrichit le précédent sans l'annuler. La progression est strictement cumulative.
 
-La hiérarchie simple / évolutif / réflexif est déclinée en temps **discret** (Définitions 17–19) et en temps **continu** (Définitions 20–22). En discret, la dynamique est portée par l'action $a : E \to E$ et les forces ; en continu, par le flot $(\Phi_t)_{t \geq 0}$ et la loi d'évolution. Le qualificatif **valué** est orthogonal à cette hiérarchie : tout système, à tout niveau, peut être logique ou valué.
+La hiérarchie simple / évolutif / réflexif est déclinée en temps **discret** (Définitions 17–19) et en temps **continu** (Définitions 20–22). En discret, la dynamique est portée par l'action $a : E \to E$ et les forces ; en continu, par le flot $(\Phi_t)_{t \geq 0}$ et la loi d'évolution. Le qualificatif **valué** est orthogonal à cette hiérarchie : tout système, à tout niveau, peut être logique ou valué.
 
 Et c'est cette hiérarchie qui structurera la suite de la réflexion. Les systèmes physiques simples relèvent souvent du niveau dynamique simple ou réflexif. Les systèmes vivants sont réflexifs au sens faible ou fort. Les systèmes conscients sont réflexifs au sens complet.
 
@@ -811,7 +811,7 @@ Il a proposé une **typologie** des systèmes — statique (passif ou actif), dy
 
 Il a posé le **flot** comme analogue continu de l'action itérée, décliné la hiérarchie simple / évolutif / réflexif en temps continu, et identifié deux ontologies du changement — la **déformation** (changement graduel) et l'**événement** (saut ponctuel) — unifiées par la propriété de semi-groupe.
 
-Mais une question demeure ouverte. Le formalisme décrit *quels* états sont possibles, *quelles* actions existent, *comment* les trajectoires sont construites. Il ne dit pas encore *pourquoi* certaines transformations se produisent réellement. Qu'est-ce qui oriente les forces ? Qu'est-ce qui privilégie certaines trajectoires plutôt que d'autres ?
+Mais une question demeure ouverte. Le formalisme décrit *quels* états sont possibles, *quelles* actions existent, *comment* les trajectoires sont construites. Il ne dit pas encore *pourquoi* certaines transformations se produisent réellement. Qu'est-ce qui oriente les forces ? Qu'est-ce qui privilégie certaines trajectoires plutôt que d'autres ?
 
 La réponse ne relève plus de la structure logique, mais d'une dimension supplémentaire : la répartition des quantités qui circulent entre les éléments — ce que le chapitre suivant introduira sous la forme d'une **vision énergétique**.
 
@@ -823,6 +823,6 @@ La réponse ne relève plus de la structure logique, mais d'une dimension suppl�
 
 - **Morin, Edgar** — *Introduction à la pensée complexe* (Seuil, 1990). Moins formel que le présent texte, mais riche en intuitions sur les notions de relation, de rétroaction et d'émergence. À lire comme complément qualitatif — une façon d'habiter les concepts avant de les formaliser.
 
-- **Ashby, W. Ross** — *Introduction to Cybernetics* (Chapman & Hall, 1956 ; disponible librement en ligne). Un classique fondateur, progressif et très accessible, sur la régulation, le contrôle et la réponse à l'état dans les systèmes. Directement lié aux concepts de force, de rétroaction et de réflexivité abordés ici.
+- **Ashby, W. Ross** — *Introduction to Cybernetics* (Chapman & Hall, 1956 ; disponible librement en ligne). Un classique fondateur, progressif et très accessible, sur la régulation, le contrôle et la réponse à l'état dans les systèmes. Directement lié aux concepts de force, de rétroaction et de réflexivité abordés ici.
 
 - **Strogatz, Steven H.** — *Nonlinear Dynamics and Chaos* (Westview Press). La meilleure introduction accessible aux systèmes dynamiques — attracteurs, bifurcations, chaos. Écrit avec un souci pédagogique rare, il donne à voir concrètement ce que signifie l'évolution d'un système au fil du temps.

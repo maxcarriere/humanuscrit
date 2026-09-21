@@ -57,7 +57,7 @@ La pièce oscillait. Pas vraiment. Pas physiquement. Mais quelque chose dans sa 
 
 Mais savoir ne changeait rien. La raison était un murmure lointain, un bruit de fond noyé par le vacarme du sang dans ses oreilles.
 
-Il ne savait plus depuis combien de temps ses yeux étaient ouverts. Dix secondes. Trente. Une minute. Le temps avait perdu ses repères. Il chercha le réveil des yeux — les chiffres rouges sur la table de nuit — mais il ne les trouvait pas. L'obscurité était totale. Le réveil était-il éteint ? Avait-il basculé ? Ou bien était-ce ses yeux qui ne fonctionnaient plus, sa rétine saturée par la peur, incapable de capter le moindre photon ?
+Il ne savait plus depuis combien de temps ses yeux étaient ouverts. Dix secondes. Trente. Une minute. Le temps avait perdu ses repères. Il chercha le réveil des yeux — les chiffres rouges sur la table de nuit — mais il ne les trouvait pas. L'obscurité était totale. Le réveil était-il éteint ? Avait-il basculé ? Ou bien était-ce ses yeux qui ne fonctionnaient plus, sa rétine saturée par la peur, incapable de capter le moindre photon ?
 
 Il cligna. Deux fois. Trois fois. Un halo rouge apparut, tremblant, à la périphérie de son champ de vision. Le réveil. Les chiffres.
 
@@ -67,7 +67,7 @@ Toujours.
 
 *La minute n'est pas finie.*
 
-Le sol de la réalité se déroba. Comment une minute pouvait-elle contenir tout ça — tout ce silence, toute cette terreur, tous ces battements de cœur ? Quelque chose n'allait pas. Soit l'horloge était cassée, soit le temps s'était réellement arrêté, et il était coincé dans cette minute comme un insecte dans l'ambre, figé pour l'éternité dans l'instant qui précède la fin.
+Le sol de la réalité se déroba. Comment une minute pouvait-elle contenir tout ça — tout ce silence, toute cette terreur, tous ces battements de cœur ? Quelque chose n'allait pas. Soit l'horloge était cassée, soit le temps s'était réellement arrêté, et il était coincé dans cette minute comme un insecte dans l'ambre, figé pour l'éternité dans l'instant qui précède la fin.
 
 À côté de lui, Émilie tremblait.
 
@@ -79,7 +79,7 @@ Sa voix était un souffle. À peine un mot. L'air qui sort des poumons quand on 
 
 Puis quelque chose se brisa en elle. D'un coup. Comme une digue.
 
-— YANN !
+— YANN !
 
 Elle se redressa brutalement dans le lit. Le mouvement fit sursauter Louise, dont la tête retomba sur l'oreiller. Émilie avait les yeux écarquillés — Yann le vit dans l'obscurité, deux cercles blancs, trop ouverts, deux yeux de bête traquée.
 
@@ -95,7 +95,7 @@ La voix de Louise était minuscule. Noyée.
 
 Dans le couloir, un bruit de pas. Rapides. Irréguliers. Pieds nus sur le parquet. Mathis s'était levé — réveillé par le cri d'Émilie, sorti de son lit comme un animal qui sent le danger, sans savoir où aller, juste courir. Il apparut dans l'encadrement de la porte, petit fantôme blanc en pyjama dans le noir.
 
-— Papa ! Papa !
+— Papa ! Papa !
 
 Sa voix était aiguë. Terrifiée. Il ne comprenait pas. Quatre ans. Il ne comprenait rien de ce qui se passait, mais il entendait sa mère crier et il sentait l'air de la chambre — cet air trop lourd, trop dense, qui sentait la peur et l'urine et la sueur.
 
@@ -117,7 +117,7 @@ Il en avait assez. Chaque fibre de son corps voulait que ça s'arrête — dans 
 
 Il voulait que ça arrive. Maintenant. Tout de suite. Pour que ça s'arrête.
 
-La pensée le traversa avec une violence qui le fit reculer de lui-même. Il voulait mourir ? Non. Il voulait que l'attente meure. Il voulait que le suspense cesse, que le temps reprenne sa forme normale, que le monde fasse ce qu'il avait promis de faire — exploser ou continuer, mais qu'il choisisse.
+La pensée le traversa avec une violence qui le fit reculer de lui-même. Il voulait mourir ? Non. Il voulait que l'attente meure. Il voulait que le suspense cesse, que le temps reprenne sa forme normale, que le monde fasse ce qu'il avait promis de faire — exploser ou continuer, mais qu'il choisisse.
 
 Émilie pleurait. Des sanglots courts, saccadés, entrecoupés de mots incompréhensibles. Louise s'était blottie contre elle, tremblante, mouillée. Mathis avait grimpé sur le lit et s'accrochait à la jambe de Yann avec une force étonnante pour ses quatre ans.
 
@@ -129,13 +129,13 @@ Le monde n'avait pas explosé. L'atmosphère n'avait pas brûlé. Le plafond ét
 
 Une pensée folle lui traversa l'esprit. Nette. Froide. Comme un éclat de verre dans la boue.
 
-*Et si c'était encore un mensonge ?*
+*Et si c'était encore un mensonge ?*
 
 L'Onde. La fausse allocution. Le Président qui n'avait jamais parlé. Le monde qui avait paniqué pour rien, qui avait couru, obéi, pleuré — pour rien. Et maintenant, les scientifiques. Les neutrinos. Les ondes gravitationnelles. Les cinquante-trois millions de vues. Le professeur de Genève qui avait retiré sa vidéo. Les données, les graphiques, les certitudes.
 
-Et si tout ça n'était rien ?
+Et si tout ça n'était rien ?
 
-Et s'il était là, dans le noir, à attendre une mort qui ne viendrait jamais, parce que quelqu'un — quelque chose — avait fabriqué la fin du monde avec la même précision qu'on avait fabriqué une déclaration de guerre ?
+Et s'il était là, dans le noir, à attendre une mort qui ne viendrait jamais, parce que quelqu'un — quelque chose — avait fabriqué la fin du monde avec la même précision qu'on avait fabriqué une déclaration de guerre ?
 
 Le chiffre changea.
 
@@ -155,7 +155,7 @@ Le son sortit de sa bouche sans prévenir — un rire sec, nerveux, presque hyst
 
 Émilie le regarda. Ses yeux rouges, gonflés, incrédules. Elle ouvrit la bouche. La referma. Ses mains tremblaient encore, mais moins fort.
 
-— C'est fini ?
+— C'est fini ?
 
 — Je ne sais pas. Je crois. Trois heures. C'est passé.
 
@@ -183,7 +183,7 @@ Il le prit. Ses mains étaient raides, les doigts maladroits, comme après un lo
 
 Des messages. Des alertes. Des vidéos. Des groupes qui s'étaient tus depuis des heures et qui se réveillaient d'un coup, comme des corps qu'on ranime.
 
-*Toujours vivants ?*
+*Toujours vivants ?*
 
 *Chez nous aussi.*
 
@@ -191,13 +191,13 @@ Des messages. Des alertes. Des vidéos. Des groupes qui s'étaient tus depuis de
 
 *3h passé, on est là.*
 
-*C'EST FINI !!!*
+*C'EST FINI !!!*
 
 *On dirait que c'était un canular.*
 
 Le mot apparut très vite. Canular. Il se propagea dans les fils de discussion comme une traînée de poudre, porté par le soulagement, par la rage, par le besoin irrépressible de donner un nom à ce qui venait de se passer. Canular. Fake. Manipulation. Les mots les plus simples, les plus rassurants — ceux qui disent que le monde n'est pas cassé, que quelqu'un a menti, que la réalité est toujours là où on l'avait laissée.
 
-*L'Onde saison 3. Après le Président et les scientifiques, quoi la prochaine fois ?*
+*L'Onde saison 3. Après le Président et les scientifiques, quoi la prochaine fois ?*
 
 *Quelqu'un va payer pour ça. 48 heures de terreur planétaire pour RIEN.*
 
@@ -295,7 +295,7 @@ Le soleil était haut. Presque au zénith. Onze heures, peut-être plus.
 
 Autour de lui, Émilie et les enfants dormaient encore. Louise avait roulé sur le ventre, un bras étendu dans l'herbe. Mathis était en boule, le pouce près de la bouche — un réflexe qu'il avait abandonné depuis un an et qui était revenu pendant la nuit.
 
-Yann resta un moment sans bouger. Assis dans l'herbe, le regard vide, le corps douloureux. Il avait l'impression d'émerger d'une anesthésie — cette zone grise entre le sommeil et la conscience où les souvenirs reviennent par lambeaux, décousus, et où le cerveau refuse encore de les assembler. La nuit. L'attente. Le cri d'Émilie. Les chiffres rouges. Trois heures. Rien. Était-ce un rêve ? Tout cela avait-il eu lieu ?
+Yann resta un moment sans bouger. Assis dans l'herbe, le regard vide, le corps douloureux. Il avait l'impression d'émerger d'une anesthésie — cette zone grise entre le sommeil et la conscience où les souvenirs reviennent par lambeaux, décousus, et où le cerveau refuse encore de les assembler. La nuit. L'attente. Le cri d'Émilie. Les chiffres rouges. Trois heures. Rien. Était-ce un rêve ? Tout cela avait-il eu lieu ?
 
 Il se leva. Ses articulations craquèrent. Ses muscles étaient douloureux, comme après un effort intense — la terreur laisse dans le corps les mêmes traces qu'un marathon.
 

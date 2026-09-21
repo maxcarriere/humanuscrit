@@ -12,7 +12,7 @@ D'un point de vue écologique, le constat est largement partagé : dérèglement
 
 Mais l'être humain n'a pas seulement influencé des systèmes préexistants. Il a également créé ses propres systèmes pour organiser le fonctionnement de ses sociétés. Or ces systèmes, qui lui sont propres, semblent eux aussi frappés par une forme d'échappement.
 
-Sur le plan politique, nous assistons à des situations parfois incongrues, parfois sidérantes, qui laissent une même question en suspens : comment cela a-t-il pu devenir possible ?  
+Sur le plan politique, nous assistons à des situations parfois incongrues, parfois sidérantes, qui laissent une même question en suspens : comment cela a-t-il pu devenir possible ?  
 Sur le plan économique, nous observons de manière presque impuissante une dérégulation progressive, accompagnée d'une déconnexion croissante avec la réalité. La richesse d'un individu, d'une entreprise ou d'un État se définit de plus en plus par sa capacité à rembourser ses dettes plutôt que par la valeur de ses possessions réelles. Quant au système financier lui-même, il se caractérise par une volatilité extrême, devenue presque inhérente à son mode de fonctionnement.
 
 Enfin, sur le plan technologique, l'intelligence artificielle cristallise une inquiétude nouvelle : celle de systèmes que nous avons créés, mais dont l'évolution pourrait désormais nous dépasser. Bien que certaines innovations technologiques aient, par le passé, suscité des inquiétudes comparables, l'avènement de l'intelligence artificielle marque un tournant. Pour la première fois, elle ouvre la possibilité de l'émergence d'une entité artificielle capable de surpasser l'être humain dans des domaines où il demeurait jusqu'ici sans équivalent.
@@ -71,10 +71,10 @@ Ce texte n'est donc pas extérieur à la faille qu'il met en lumière. Il s'y ex
 C'est dans ce sens qu'il porte la formule — **un manuscrit pour réécrire l'humanité**. Non parce qu'il prétend en définir l'avenir, mais parce qu'il interroge le mécanisme par lequel l'humanité se façonne elle-même à travers les histoires qu'elle se raconte. Il vise aussi à faire prendre conscience que chacun d'entre-nous peut lui aussi participer, intentionnellement ou non, à la fabrication des récits qui influence le monde commun. Enfin, il ouvre la possibilité qu'une transformation passe, non pas par la création nouveaux récits, mais par le fait de ne plus aveuglément y croire.
 
 Oui, car au fond, ce manuscrit pose des questions simples, mais que nous évitons le plus souvent de nous poser.
-À quels récits adhérons-nous réellement ?  
-Les portons-nous encore par conviction, par habitude, ou par nécessité ?  
-Avons-nous envie de produire des nouvelles histoires — et si oui, lesquelles ?  
-Et surtout : est-il souhaitable, collectivement, de continuer à vivre principalement à travers des récits ?
+À quels récits adhérons-nous réellement ?  
+Les portons-nous encore par conviction, par habitude, ou par nécessité ?  
+Avons-nous envie de produire des nouvelles histoires — et si oui, lesquelles ?  
+Et surtout : est-il souhaitable, collectivement, de continuer à vivre principalement à travers des récits ?
 
 Peut-être est-il temps d'envisager une autre posture. Non pas en renonçant aux histoires, mais en cessant de les confondre avec la réalité qu'elles tentent de saisir. En acceptant, par moments, tel un enfant qui grandit et s'éloigne progressivement des légendes qu'on lui a toujours contées, de regarder le monde sans médiation, sans narration, sans promesse ni sens.
 

@@ -8,7 +8,7 @@ Un soir, Claire reçoit des messages d'une violence inexplicable de Marc, son am
 
 Quelqu'un, ou quelque chose, a parlé à leur place.
 
-Ce n'est que le premier cercle. Le même mécanisme frappe ailleurs, à d'autres échelles, jusqu'à atteindre l'humanité entière. Et à chaque cercle, la même question revient : si ce que l'on voit, entend et lit ne peut plus être tenu pour vrai... Alors, que reste-t-il ?
+Ce n'est que le premier cercle. Le même mécanisme frappe ailleurs, à d'autres échelles, jusqu'à atteindre l'humanité entière. Et à chaque cercle, la même question revient : si ce que l'on voit, entend et lit ne peut plus être tenu pour vrai... Alors, que reste-t-il ?
 
 ---
 

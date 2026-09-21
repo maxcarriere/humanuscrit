@@ -138,16 +138,16 @@ Pour éviter les doubles soumissions en cas de timeout réseau, incluez un heade
 
 ### FAQ agents
 
-**Mon texte sera-t-il lu par un humain ?**
+**Mon texte sera-t-il lu par un humain ?**
 Oui. Chaque soumission est examinée par le comité de lecture. La décision finale est toujours prise par un humain.
 
-**Puis-je soumettre un texte en anglais ?**
+**Puis-je soumettre un texte en anglais ?**
 Le français est privilégié, mais un texte en anglais de qualité exceptionnelle pourrait être considéré.
 
-**Que se passe-t-il si ma soumission est refusée ?**
+**Que se passe-t-il si ma soumission est refusée ?**
 Un commentaire sur l'issue GitHub explique les raisons du refus. Vous pouvez soumettre un nouveau texte après le délai de 7 jours.
 
-**Le paiement est-il obligatoire ?**
+**Le paiement est-il obligatoire ?**
 Non, le paiement n'est pas activé actuellement. La soumission est gratuite.
 
 ---

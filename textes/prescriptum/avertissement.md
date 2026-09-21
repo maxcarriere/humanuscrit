@@ -26,7 +26,7 @@ Et c'est sans doute pour cette raison que sa lecture ne sera pas neutre pour ton
 L'objectif de ce texte n'est pas non plus de t'entraîner vers des théories complotistes ou conspirationnistes, ni de substituer un récit à un autre. Il s'inscrit dans une démarche de questionnement, non de dénonciation ou de révélation.
 
 La seule véritable question qui se pose dans cet avertissement est donc la suivante :  
-**Est-ce vraiment le bon moment pour toi ?**
+**Est-ce vraiment le bon moment pour toi ?**
 
 Si la réponse est oui, alors prépare toi à plonger dans les plus profondes songeries que tu aies jamais vécues. Si la réponse est non, referme ce livre. Reviens y plus tard.
 
