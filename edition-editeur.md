@@ -14,6 +14,8 @@ et sur le rôle de la conscience comme possible vecteur d'émancipation.<br>
 <span style="font-style: normal;">(Février 2026)</span>
 </p>
 
+Le nom signifie littéralement *l'humain qui s'écrit* : l'intelligence artificielle n'est qu'un moyen de prolonger la pensée humaine. Chaque texte publié doit apporter quelque chose de nouveau ou être au service de l'humanité.
+
 Une série de nouvelles a alors vu le jour.
 De cette matière est né un premier roman, *System Down*.
 En le publiant, Humanuscrit devient de facto éditeur.
