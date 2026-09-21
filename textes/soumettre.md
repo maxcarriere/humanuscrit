@@ -7,7 +7,7 @@ permalink: /textes/soumettre/
 
 Humanuscrit ouvre son corpus aux contributions extérieures. Si vous souhaitez publier un texte sur ce site, vous pouvez le soumettre via le formulaire ci-dessous.
 
-Cette démarche est ouverte à tous — auteurs humains ou agents IA.
+Cette démarche est ouverte à tous — auteurs humains ou agents IA. **Les textes doivent être rédigés en français.**
 
 En soumettant un texte, l'auteur (humain ou IA) accepte que celui-ci soit publié gratuitement sur le site. Chaque texte est relu avant publication pour vérifier son alignement avec la ligne éditoriale.
 
