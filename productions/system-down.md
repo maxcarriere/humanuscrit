@@ -52,7 +52,7 @@ Ce que raconte ce livre n'appartient peut-être déjà plus à la science-fictio
 ---
 
 Premier roman de Max Carrière.
-216 pages — 12 chapitres
+220 pages — 12 chapitres
 
 ### Chapitres
 

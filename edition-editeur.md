@@ -15,9 +15,7 @@ et sur le rôle de la conscience comme possible vecteur d'émancipation.<br>
 </p>
 
 Une série de nouvelles a alors vu le jour.
-
 De cette matière est né un premier roman, *System Down*.
-
 En le publiant, Humanuscrit devient de facto éditeur.
 
 ---
@@ -56,7 +54,11 @@ Ce qui intéresse Humanuscrit, ce sont les textes où l'IA a permis d'aller plus
 
 ### Vision
 
-Au-delà de sa ligne éditoriale, Humanuscrit porte une conviction : la question de l'intelligence artificielle n'est pas seulement technique. C'est une question politique. Et elle se cristallise aujourd'hui autour d'un mot : l'*alignement*.
+Au-delà de sa ligne éditoriale, Humanuscrit porte deux convictions profondes.
+
+La première touche à la production intellectuelle elle-même. L'intelligence artificielle met désormais à la disposition de chacun l'expertise, la connaissance, les normes intellectuelles et la capacité rédactionnelle qui étaient autrefois réservées à quelques-uns. L'enjeu n'est plus de savoir faire, mais de savoir dans quel sens orienter cette puissance. C'est là que l'humain redevient indispensable. Non par ce qu'il sait faire, mais par ce qu'il choisit de faire.
+
+La seconde prolonge la première. La question de l'intelligence artificielle n'est pas seulement technique. C'est une question politique. Et elle se cristallise aujourd'hui autour d'un mot : l'*alignement*.
 
 Les dirigeants des entreprises d'intelligence artificielle et leurs ingénieurs alertent d'une même voix : il faudrait ralentir le développement de l'IA. Pourquoi ? Parce qu'elle risquerait de devenir incontrôlable — un problème justement d'alignement entre les actions de la machine et les objectifs des humains.
 
