@@ -4,14 +4,6 @@ permalink: /productions/system-down/
 schema_book: true
 ---
 
-Un soir, Claire reçoit des messages d'une violence inexplicable de Marc, son ami le plus proche depuis quinze ans. Il jure n'avoir rien envoyé. Elle détient les preuves. Lui aussi.
-
-Quelqu'un, ou quelque chose, a parlé à leur place.
-
-Ce n'est que le premier cercle. Le même mécanisme frappe ailleurs, à d'autres échelles, jusqu'à atteindre l'humanité entière. Et à chaque cercle, la même question revient : si ce que l'on voit, entend et lit ne peut plus être tenu pour vrai... Alors, que reste-t-il ?
-
----
-
 <div class="book-covers" markdown="0">
 <figure>
 <img src="{{ '/assets/images/system_down_couv_avec_titre.png' | relative_url }}" alt="Couverture de System Down" class="book-cover-main book-cover-zoomable" onclick="openLightbox(this)">
@@ -36,8 +28,7 @@ function closeLightbox() {
 }
 </script>
 
-**Roman** — Max Carrière
-Humanuscrit, 2026
+<p style="text-align: center;"><strong>Roman</strong> — Max Carrière<br>Humanuscrit, 2026</p>
 
 ---
 
@@ -86,6 +77,12 @@ Livraison&nbsp;: Imm&eacute;diate
 *Pour tout renseignement, [contacter l'auteur]({{ "/contact/" | relative_url }}).*
 
 ---
+
+Un soir, Claire reçoit des messages d'une violence inexplicable de Marc, son ami le plus proche depuis quinze ans. Il jure n'avoir rien envoyé. Elle détient les preuves. Lui aussi.
+
+Quelqu'un, ou quelque chose, a parlé à leur place.
+
+Ce n'est que le premier cercle. Le même mécanisme frappe ailleurs, à d'autres échelles, jusqu'à atteindre l'humanité entière. Et à chaque cercle, la même question revient : si ce que l'on voit, entend et lit ne peut plus être tenu pour vrai... Alors, que reste-t-il ?
 
 System Down est un roman inclassable, entre dystopie anticipatoire et récit initiatique. Dans un style littéraire qui lui est propre, il explore en deux actes, d'un point de vue fictionnel et philosophique, le récit comme fondement même de notre humanité et ce qui arrive quand ce fondement s'effondre.
 
