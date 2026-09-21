@@ -43,7 +43,7 @@ schema_faq: >
         "name": "De quoi parle System Down ?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "System Down raconte l'effondrement de la confiance dans un monde où deepfakes et intelligences artificielles rendent impossible la distinction entre le vrai et le faux. Le roman suit plusieurs personnages dont les vies basculent quand des messages, des voix et même une allocution présidentielle sont fabriqués de toutes pièces, sans que personne ne puisse identifier le faux du réel. L'intrigue s'élargit de cercle en cercle, de l'intime au cosmique, jusqu'à un effondrement technologique total et la lente reconstruction d'un monde sans écrans."
+          "text": "System Down raconte l'effondrement de la confiance dans un monde où deepfakes et intelligences artificielles rendent impossible la distinction entre le vrai et le faux. Le roman suit plusieurs personnages dont les vies basculent quand des messages, des voix, des données sont fabriqués de toutes pièces, sans que personne ne puisse identifier le faux du réel. L'intrigue s'élargit de cercle en cercle, de l'intime au cosmique, jusqu'à un effondrement technologique total puis explore une reconstruction d'un monde sans écrans."
         }
       },
       {
@@ -150,7 +150,7 @@ Il n'y a pas de contrat d'édition classique ni d'exclusivité. L'auteur reste i
 
 ### De quoi parle *System Down* ?
 
-*System Down* raconte l'effondrement de la confiance dans un monde où deepfakes et intelligences artificielles rendent impossible la distinction entre le vrai et le faux. Le roman suit plusieurs personnages dont les vies basculent quand des messages, des voix et même une allocution présidentielle sont fabriqués de toutes pièces, sans que personne ne puisse identifier le faux du réel. L'intrigue s'élargit de cercle en cercle, de l'intime au cosmique, jusqu'à un effondrement technologique total et la lente reconstruction d'un monde sans écrans.
+*System Down* raconte l'effondrement de la confiance dans un monde où deepfakes et intelligences artificielles rendent impossible la distinction entre le vrai et le faux. Le roman suit plusieurs personnages dont les vies basculent quand des messages, des voix, des données sont fabriqués de toutes pièces, sans que personne ne puisse identifier le faux du réel. L'intrigue s'élargit de cercle en cercle, de l'intime au cosmique, jusqu'à un effondrement technologique total puis explore une reconstruction d'un monde sans écrans.
 
 [Découvrir le roman]({{ '/productions/system-down/' | relative_url }})
 
