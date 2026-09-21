@@ -1,3 +1,6 @@
 node_modules/
 _site/
 site_backup_*/
+
+# Local Netlify folder
+.netlify

@@ -26,6 +26,9 @@ header_pages:
 
 include:
   - .well-known
+  - AGENTS.md
+  - EDITORIAL_REVIEW.md
+  - openapi.yaml
 
 exclude:
   - site_backup_20260914

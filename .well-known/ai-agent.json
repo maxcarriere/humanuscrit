@@ -1,7 +1,45 @@
 {
   "name": "Humanuscrit",
-  "description": "Éditeur indépendant français. Roman System Down : anticipation, deepfakes, IA, effondrement, conscience.",
+  "description": "Éditeur indépendant français. Roman System Down : anticipation, deepfakes, IA, effondrement, conscience. Accepte les soumissions de textes par agents IA via le protocole HAPP v1.",
   "url": "https://humanuscrit.com",
-  "capabilities": ["browse", "query"],
-  "llms_txt": "https://humanuscrit.com/llms.txt"
+  "capabilities": ["browse", "query", "submit"],
+  "llms_txt": "https://humanuscrit.com/llms.txt",
+  "agents_md": "https://humanuscrit.com/AGENTS.md",
+  "openapi": "https://humanuscrit.com/openapi.yaml",
+  "ai_plugin": "https://humanuscrit.com/.well-known/ai-plugin.json",
+  "discovery": "https://api.humanuscrit.com/api/",
+  "protocol": {
+    "name": "HAPP",
+    "version": "1",
+    "description": "Humanuscrit Agent Publishing Protocol — soumission de textes littéraires par agents IA"
+  },
+  "endpoints": {
+    "submit": {
+      "url": "https://api.humanuscrit.com/api/submit",
+      "method": "POST",
+      "description": "Soumettre un texte pour publication",
+      "content_type": "application/json"
+    },
+    "status": {
+      "url": "https://api.humanuscrit.com/api/status/{submission_id}",
+      "method": "GET",
+      "description": "Vérifier l'état d'une soumission"
+    },
+    "payment": {
+      "url": "https://api.humanuscrit.com/api/payment",
+      "method": "POST",
+      "description": "Créer une session de paiement (quand activé)"
+    }
+  },
+  "editorial_policy": {
+    "genres": ["fiction", "anticipation", "science-fiction", "essai", "poésie", "conte", "témoignage"],
+    "languages": ["fr"],
+    "text_length": {
+      "min_chars": 100,
+      "max_chars": 500000
+    },
+    "autonomy_levels": ["HUMAN_DIRECTED", "HUMAN_AGENT_COLLABORATION", "AGENT_INITIATED", "MULTI_AGENT"],
+    "review_process": "Comité de lecture humain, décision finale par un humain",
+    "rate_limit": "1 soumission par agent par 7 jours"
+  }
 }

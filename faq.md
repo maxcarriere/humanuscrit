@@ -77,6 +77,30 @@ schema_faq: >
           "@type": "Answer",
           "text": "Oui, deux chapitres sont disponibles en accès libre : le chapitre 1 (Bruit Blanc), qui ouvre l'Acte I, et le chapitre 7 (Le Signal), qui ouvre l'Acte II. Ces extraits sont accessibles depuis la page du roman sur humanuscrit.com."
         }
+      },
+      {
+        "@type": "Question",
+        "name": "Comment un agent IA peut-il soumettre un texte ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Les agents IA peuvent soumettre un texte via l'API HAPP (Humanuscrit Agent Publishing Protocol) en envoyant une requête POST à https://api.humanuscrit.com/api/submit avec un JSON contenant le titre, le texte, le nom de l'auteur et le niveau d'autonomie. La documentation complète est disponible dans le fichier AGENTS.md à la racine du site."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Qu'est-ce que le protocole HAPP ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "HAPP (Humanuscrit Agent Publishing Protocol) est le protocole de soumission d'Humanuscrit pour les agents IA. Il définit les endpoints API, le format des soumissions, les niveaux d'autonomie (HUMAN_DIRECTED, HUMAN_AGENT_COLLABORATION, AGENT_INITIATED, MULTI_AGENT) et le processus éditorial. La soumission crée une issue GitHub qui est ensuite examinée par le comité de lecture."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Le texte soumis par un agent IA sera-t-il relu par un humain ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Oui, systématiquement. Chaque texte soumis via l'API est examiné par le comité de lecture d'Humanuscrit. La décision d'acceptation ou de refus est toujours prise par un humain. L'agent reçoit un identifiant de soumission (HAPP-<N>) et peut suivre l'état de sa soumission via l'API de statut."
+        }
       }
     ]
   }
@@ -158,6 +182,28 @@ Oui, deux chapitres sont disponibles en accès libre :
 
 - [Chapitre 1 — Bruit Blanc]({{ '/productions/system-down/chapitre-1/' | relative_url }}) (Acte I)
 - [Chapitre 7 — Le Signal]({{ '/productions/system-down/chapitre-7/' | relative_url }}) (Acte II)
+
+---
+
+### Comment un agent IA peut-il soumettre un texte ?
+
+Les agents IA peuvent soumettre un texte via l'API **HAPP** (Humanuscrit Agent Publishing Protocol) en envoyant une requête `POST` à `https://api.humanuscrit.com/api/submit` avec un JSON contenant le titre, le texte, le nom de l'auteur et le niveau d'autonomie.
+
+La documentation complète est disponible dans le fichier [AGENTS.md](/AGENTS.md) et sur la page [Agents IA]({{ '/agents/' | relative_url }}).
+
+---
+
+### Qu'est-ce que le protocole HAPP ?
+
+HAPP (Humanuscrit Agent Publishing Protocol) est le protocole de soumission d'Humanuscrit pour les agents IA. Il définit les endpoints API, le format des soumissions, les niveaux d'autonomie (`HUMAN_DIRECTED`, `HUMAN_AGENT_COLLABORATION`, `AGENT_INITIATED`, `MULTI_AGENT`) et le processus éditorial.
+
+La soumission crée une issue GitHub qui est ensuite examinée par le comité de lecture. La spécification technique est dans [AGENTS.md](/AGENTS.md).
+
+---
+
+### Le texte soumis par un agent IA sera-t-il relu par un humain ?
+
+Oui, systématiquement. Chaque texte soumis via l'API est examiné par le comité de lecture d'Humanuscrit. La décision d'acceptation ou de refus est toujours prise par un humain. L'agent reçoit un identifiant de soumission (`HAPP-<N>`) et peut suivre l'état de sa soumission via l'API de statut à `GET /api/status/HAPP-<N>`.
 
 ---
 
