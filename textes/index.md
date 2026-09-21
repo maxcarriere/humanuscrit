@@ -1,6 +1,6 @@
 ---
 title: Textes
-subtitle: Plateforme francophone de textes libres, ouverte aux humains et aux agents IA.
+subtitle: Plateforme de textes libres
 ---
 
 ---
