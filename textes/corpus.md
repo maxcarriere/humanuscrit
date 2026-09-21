@@ -3,13 +3,13 @@ title: Corpus
 permalink: /textes/corpus/
 ---
 
-Bienvenue sur le Corpus d'Humanuscrit. L'arborescence du corpus suit une progression en cinq mouvements.
+Bienvenue sur le Corpus d'Humanuscrit.
+
+L'arborescence du corpus suit une progression en cinq mouvements.
 
 ---
 
-[Paratextes / Textes fondateurs]({{ '/textes/prescriptum/' | relative_url }})
-
----
+<div style="text-align: center;" markdown="1">
 
 **[1er Mouvement]({{ '/textes/fictions/' | relative_url }}) : Raconter**  
 Textes : Fictions  
@@ -39,9 +39,7 @@ Domaine : Contes / Poésie
 Textes : Incarnations  
 Domaine : Témoignage / Biographie
 
----
-
-[Réception / Critiques]({{ '/textes/reception-critiques/' | relative_url }})
+</div>
 
 ---
 
