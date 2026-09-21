@@ -58,7 +58,7 @@ L'intelligence artificielle démocratise l'accès aux outils de création. La r�
 
 Humanuscrit en tire la conséquence : le seul critère de publication est la qualité du texte — son contenu et sa rédaction. Indépendamment du parcours académique de l'auteur, de sa notoriété ou de son réseau. L'auteur peut évoquer son parcours dans l'écrit, mais ce n'est jamais un critère de sélection.
 
-La mission d'Humanuscrit : donner sa chance à des auteurs inconnus, les accompagner en autoédition, et labelliser leur travail.
+La mission d'Humanuscrit : donner sa chance à des auteurs inconnus, en les accompagnant en autoédition, et/ou en labellisant leur travail.
 
 [Découvrir la vision d'Humanuscrit →]({{ '/edition/vision/' | relative_url }})
 
