@@ -1394,7 +1394,7 @@ html[data-darkreader-mode] .navigation-dossier a:hover {
 /* Liens d'achat */
 .buy-links {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 3fr;
   gap: 1.5em;
   text-align: center;
   margin: 1.5em 0;
@@ -1407,7 +1407,7 @@ html[data-darkreader-mode] .navigation-dossier a:hover {
 }
 
 .buy-links .cta-button {
-  margin: 0.5em;
+  margin: 0.3em;
 }
 
 /* Boutons d'achat côte à côte */
@@ -1416,6 +1416,12 @@ html[data-darkreader-mode] .navigation-dossier a:hover {
   justify-content: center;
   gap: 0.5em;
   flex-wrap: wrap;
+}
+
+/* Espacement uniforme avant les boutons */
+.buy-format .cta-button,
+.buy-format .buy-buttons-row {
+  margin-top: 1em;
 }
 
 .buy-buttons-row .cta-button {
