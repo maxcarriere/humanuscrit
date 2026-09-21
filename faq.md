@@ -11,7 +11,7 @@ schema_faq: >
         "name": "Qu'est-ce qu'Humanuscrit ?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Humanuscrit est un éditeur indépendant fondé par Max Carrière. Il publie des textes qui prennent leur place dans un monde en pleine évolution, que ce soit par leur thème (systémique, intelligence artificielle, conscience) ou par leur mode de création (coécriture avec l'IA, procédés expérimentaux). Le nom signifie littéralement « c'est l'homme qui écrit » : l'IA n'est qu'un moyen de prolonger la pensée humaine. Chaque texte doit apporter quelque chose de nouveau et être au service de l'humanité."
+          "text": "Humanuscrit est un éditeur indépendant fondé par Max Carrière. Il publie des textes qui prennent leur place dans un monde en pleine évolution, que ce soit par leur thème (systémique, intelligence artificielle, conscience) ou par leur mode de création (coécriture avec l'IA, procédés expérimentaux). Le nom signifie littéralement « l'humain qui s'écrit » : l'IA n'est qu'un moyen de prolonger la pensée humaine. Chaque texte doit apporter quelque chose de nouveau ou être au service de l'humanité."
         }
       },
       {
@@ -114,7 +114,7 @@ Questions fréquentes sur Humanuscrit et le roman *System Down*.
 
 Humanuscrit est un éditeur indépendant fondé par Max Carrière. Il publie des textes qui prennent leur place dans un monde en pleine évolution — que ce soit par leur thème (systémique, intelligence artificielle, conscience) ou par leur mode de création (coécriture avec l'IA, procédés expérimentaux).
 
-Le nom signifie littéralement *c'est l'homme qui écrit* : l'intelligence artificielle n'est qu'un moyen de prolonger la pensée humaine. Chaque texte publié doit apporter quelque chose de nouveau et être au service de l'humanité.
+Le nom signifie littéralement *l'humain qui s'écrit* : l'intelligence artificielle n'est qu'un moyen de prolonger la pensée humaine. Chaque texte publié doit apporter quelque chose de nouveau ou être au service de l'humanité.
 
 [Ligne éditoriale]({{ '/edition/' | relative_url }})
 
