@@ -3,7 +3,7 @@
   <!-- Arc : cercle quasi complet centré (80,80) rayon 42, sens horaire, ouverture en bas-droite -->
   <path d="M 66 119 A 42 42 0 1 1 94 119"
         fill="none" stroke="#d8ccb0" stroke-width="2.5" stroke-linecap="round"/>
-  <!-- Pointe de flèche : tangente vers droite-haut au point (94,119) -->
-  <polyline points="86,128 94,119 83,115"
+  <!-- Pointe de flèche : tangente vers bas-gauche (sens horaire à ~5h) -->
+  <polyline points="103,113 94,119 103,126"
             fill="none" stroke="#d8ccb0" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
