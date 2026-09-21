@@ -64,7 +64,9 @@ Plateforme&nbsp;: Amazon
 <div class="buy-format">
 <strong>Livre &eacute;lectronique</strong>
 <br>
-T&eacute;l&eacute;chargement direct en format ePub + PDF (via Payhip), sur Kindle (Amazon) ou Kobo.
+T&eacute;l&eacute;chargement direct en format ePub + PDF
+<br>
+(via Payhip), sur Kindle (Amazon) ou Kobo.
 <br>
 Prix&nbsp;: 6,99&nbsp;&euro;
 <br>
