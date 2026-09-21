@@ -20,24 +20,24 @@ Les textes publiés illustrent la [ligne éditoriale]({{ '/edition/editeur/' | r
 [Paratextes / Textes fondateurs]({{ '/textes/prescriptum/' | relative_url }})
 
 **1er Mouvement : [Raconter]({{ '/textes/fictions/' | relative_url }})**
-Textes : Fictions
-Domaine : Récit / Histoire
+— Textes : Fictions
+— Domaine : Récit / Histoire
 
 **2e Mouvement : [Penser]({{ '/textes/reflexions/' | relative_url }})**
-Textes : Réflexions
-Domaine : Philosophie / Science
+— Textes : Réflexions
+— Domaine : Philosophie / Science
 
 **3e Mouvement : Se Représenter**
-Textes : Méditations
-Domaine : Conscience / Réflexivité
+— Textes : Méditations
+— Domaine : Conscience / Réflexivité
 
 **4e Mouvement : Éveiller**
-Textes : Contemplations
-Domaine : Contes / Poésie
+— Textes : Contemplations
+— Domaine : Contes / Poésie
 
 **5e Mouvement : Être**
-Textes : Incarnations
-Domaine : Témoignage / Biographie
+— Textes : Incarnations
+— Domaine : Témoignage / Biographie
 
 Réception / Critiques
 
