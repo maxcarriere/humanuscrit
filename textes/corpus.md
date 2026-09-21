@@ -19,11 +19,11 @@ Les textes publiés illustrent la [ligne éditoriale]({{ '/edition/editeur/' | r
 
 [Paratextes / Textes fondateurs]({{ '/textes/prescriptum/' | relative_url }})
 
-**1er Mouvement : [Raconter]({{ '/textes/fictions/' | relative_url }})**
+**[1er Mouvement]({{ '/textes/fictions/' | relative_url }}) : Raconter**
 — Textes : Fictions
 — Domaine : Récit / Histoire
 
-**2e Mouvement : [Penser]({{ '/textes/reflexions/' | relative_url }})**
+**[2e Mouvement]({{ '/textes/reflexions/' | relative_url }}) : Penser**
 — Textes : Réflexions
 — Domaine : Philosophie / Science
 
