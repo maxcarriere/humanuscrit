@@ -4,7 +4,7 @@ order: 2
 date: 2026-09-22
 ---
 
-<p style="text-align: center;"><em>Conte imaginé et dirigé par Max Carrière, rédigé en collaboration avec ChatGPT, puis relu et validé par l’auteur.</em></p>
+<p style="text-align: center;"><em>Conte rédigé par ChatGPT, sous la direction de Max Carrière.</em></p>
 
 ---
 
