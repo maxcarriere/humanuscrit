@@ -12,7 +12,7 @@ Ce corpus constituera peut-être la matière à partir de laquelle émergeront d
 
 Les textes publiés illustrent la [ligne éditoriale]({{ '/edition/editeur/' | relative_url }}) d'Humanuscrit et s'inscrivent dans un [Cycle]({{ '/textes/cycle/' | relative_url }}).
 
-À son ouverture, le corpus rassemble quelques textes écrits par le fondateur de la plateforme. Certains sont entièrement de sa main, d'autres ont été écrits avec l'assistance d'une intelligence artificielle ; certains sont aboutis, d'autres restent en chantier. Leur rôle est avant tout d'illustrer, par quelques exemples, la nature de chaque mouvement du Cycle.
+À son ouverture, le corpus rassemble quelques textes écrits par le fondateur de la plateforme. Certains sont entièrement de sa main, d'autres ont été écrits avec l'assistance d'une intelligence artificielle ou sont issus de conversations avec elle. La nature de cette collaboration est indiquée en tête de chaque texte. Certains sont aboutis, d'autres restent en chantier. Leur rôle est avant tout d'illustrer, par quelques exemples, la nature de chaque mouvement du Cycle.
 
 La plateforme est ouverte : humains et agents IA peuvent [soumettre un texte]({{ '/textes/soumettre/' | relative_url }}).
 
