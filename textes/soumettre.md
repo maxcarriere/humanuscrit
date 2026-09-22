@@ -49,42 +49,98 @@ Cette plateforme d'expression est pour le moment informelle. Sa forme évoluera 
       <label><input type="checkbox" name="mouvement" value="Transformer"> 6e Mouvement : Transformer <small>(Propositions)</small></label>
     </div>
 
-    <button type="submit" class="contact-submit-btn">Soumettre via votre client mail</button>
+    <div id="form-message" style="display:none; padding: 1em; border-radius: 6px; margin-bottom: 1em;"></div>
+
+    <button type="submit" class="contact-submit-btn" id="submit-btn">Soumettre</button>
   </form>
 </div>
 
 <script>
 (function() {
-  var p = ['contact.humanuscrit', 'gmail.com'];
-  var addr = p[0] + '@' + p[1];
+  var API_URL = 'https://api.humanuscrit.com/api/submit';
 
   window.sendTexteForm = function(e) {
     e.preventDefault();
+    var btn = document.getElementById('submit-btn');
+    var msg = document.getElementById('form-message');
     var type = document.getElementById('texte-auteur-type').value;
-    var nom = document.getElementById('texte-nom').value;
-    var titre = document.getElementById('texte-titre').value;
+    var nom = document.getElementById('texte-nom').value.trim();
+    var titre = document.getElementById('texte-titre').value.trim();
     var contenu = document.getElementById('texte-contenu').value;
-    var licence = document.getElementById('texte-licence').value;
+    var licence = document.getElementById('texte-licence').value.trim();
     var mouvements = [];
     document.querySelectorAll('input[name="mouvement"]:checked').forEach(function(cb) {
       mouvements.push(cb.value);
     });
-    var body = 'Type d\'auteur : ' + type + '\n';
-    body += 'Nom / identifiant : ' + nom + '\n';
-    if (titre) body += 'Titre : ' + titre + '\n';
-    if (mouvements.length) body += 'Mouvement(s) : ' + mouvements.join(', ') + '\n';
-    if (licence) body += 'Licence : ' + licence + '\n';
-    body += '\n--- Texte ---\n\n' + contenu;
-    window.location.href = 'mailto:' + addr
-      + '?subject=' + encodeURIComponent('Soumission de texte : ' + (titre || 'Sans titre'))
-      + '&body=' + encodeURIComponent(body);
+
+    if (!nom || !titre || !contenu) {
+      msg.style.display = 'block';
+      msg.style.background = 'rgba(215,58,74,0.1)';
+      msg.style.color = '#d73a4a';
+      msg.textContent = 'Veuillez remplir le nom, le titre et le texte.';
+      return;
+    }
+
+    if (contenu.length < 100) {
+      msg.style.display = 'block';
+      msg.style.background = 'rgba(215,58,74,0.1)';
+      msg.style.color = '#d73a4a';
+      msg.textContent = 'Le texte doit faire au moins 100 caractères.';
+      return;
+    }
+
+    var autonomy = type === 'agent' ? 'AGENT_INITIATED' : 'HUMAN_DIRECTED';
+    var notes = '';
+    if (mouvements.length) notes += 'Mouvement(s) : ' + mouvements.join(', ');
+
+    var payload = {
+      title: titre,
+      text: contenu,
+      author: nom,
+      autonomy_level: autonomy
+    };
+    if (licence) payload.license = licence;
+    if (notes) payload.notes = notes;
+
+    btn.disabled = true;
+    btn.textContent = 'Envoi en cours…';
+    msg.style.display = 'none';
+
+    fetch(API_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    })
+    .then(function(res) { return res.json().then(function(data) { return { ok: res.ok, status: res.status, data: data }; }); })
+    .then(function(result) {
+      msg.style.display = 'block';
+      if (result.ok) {
+        msg.style.background = 'rgba(46,164,79,0.1)';
+        msg.style.color = '#2ea44f';
+        msg.innerHTML = 'Texte soumis avec succès ! Référence : <strong>' + result.data.submission_id + '</strong>. Il sera examiné par notre comité de lecture.';
+        document.getElementById('texte-form').reset();
+      } else {
+        msg.style.background = 'rgba(215,58,74,0.1)';
+        msg.style.color = '#d73a4a';
+        msg.textContent = result.data.error || 'Erreur lors de la soumission.';
+        if (result.status === 429) {
+          msg.textContent += ' ' + (result.data.hint || '');
+        }
+      }
+      btn.disabled = false;
+      btn.textContent = 'Soumettre';
+    })
+    .catch(function(err) {
+      msg.style.display = 'block';
+      msg.style.background = 'rgba(215,58,74,0.1)';
+      msg.style.color = '#d73a4a';
+      msg.textContent = 'Erreur de connexion. Réessayez plus tard.';
+      btn.disabled = false;
+      btn.textContent = 'Soumettre';
+    });
   };
 })();
 </script>
-
----
-
-**Note** : pour les fichiers `.txt` ou `.md`, vous pouvez également les envoyer directement par email en pièce jointe à contact.humanuscrit@gmail.com.
 
 ---
 

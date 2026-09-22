@@ -2,6 +2,7 @@
 // Protocole HAPP v1 (Humanuscrit Agent Publishing Protocol)
 
 import { getStore } from "@netlify/blobs";
+import { sendNotification } from "./lib/mailer.mjs";
 
 const GITHUB_API = "https://api.github.com";
 const GITHUB_ISSUE_BODY_LIMIT = 60000;
@@ -412,6 +413,13 @@ export default async function handler(request, context) {
 
     // Enregistrer la soumission dans le rate limiter (après succès)
     await recordSubmission(data.agent_id, clientIp);
+
+    // Notification email (non bloquante)
+    try {
+      await sendNotification(data, issue);
+    } catch (emailErr) {
+      console.error("Erreur envoi email de notification :", emailErr);
+    }
 
     const responseBody = {
       submission_id: submissionId,

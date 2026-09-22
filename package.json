@@ -6,6 +6,7 @@
     "@google-analytics/data": "^4.9.0",
     "@netlify/blobs": "^8.1.0",
     "@x402/core": "^2.26.0",
+    "nodemailer": "^6.9.0",
     "stripe": "^17.5.0"
   }
 }
