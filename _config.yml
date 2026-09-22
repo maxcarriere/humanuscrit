@@ -21,6 +21,10 @@ defaults:
       path: ""
     values:
       layout: page
+  - scope:
+      path: "textes/reflexions"
+    values:
+      katex: true
 
 header_pages:
   - edition.md

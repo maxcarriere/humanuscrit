@@ -7,7 +7,9 @@ Cette section regroupe les textes de fiction du corpus d'Humanuscrit : romans, n
 
 ---
 
-- [**System Down : Extraits**]({{ '/textes/fictions/system-down-extraits/' | relative_url }}) · Max Carrière
+### Arborescence du dossier
+
+{% include arborescence_dossier.html %}
 
 ---
 

@@ -1,12 +1,9 @@
 ---
-title: "07 - Le Signal"
-order: 7
+title: "Le Signal"
+subtitle: "Extrait du roman System Down"
+order: 2
 date: 2026-02-09
 last_modified_at: 2026-02-09
----
-
-# Le Signal
-
 ---
 
 Le signal arriva à dix-neuf heures quarante-trois, heure de Paris.
@@ -701,4 +698,4 @@ Yann ferma les yeux.
 
 ---
 
-*Ce texte est le septième chapitre du roman [**System Down**]({{ "/productions/" | relative_url }}), et ouvre le second acte.*
+*Cette nouvelle est extraite du roman [**System Down**]({{ "/productions/" | relative_url }}).*

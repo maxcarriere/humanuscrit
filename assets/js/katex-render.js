@@ -17,7 +17,8 @@ function runKatex() {
     throwOnError: false,
     preProcess: function (math) {
       // \_ dans le source (échappement Markdown) → _ pour que KaTeX affiche les indices
-      return math.replace(/\\_/g, "_").replace(/\s+/g, " ").trim();
+      // ’ (apostrophe typographique ajoutée par kramdown) → ' pour que KaTeX affiche les primes
+      return math.replace(/\\_/g, "_").replace(/’/g, "'").replace(/\s+/g, " ").trim();
     }
   });
 }

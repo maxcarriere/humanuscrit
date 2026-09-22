@@ -1,12 +1,11 @@
 ---
-title: Chapitre 0 — Existence
+title: Existence
 permalink: /textes/reflexions/chapitre-0-existence/
 order: 2
 date: 2026-02-20
 last_modified_at: 2026-02-21
 ---
 
-# Existence
 
 *Première version — 2026-02-20*
 

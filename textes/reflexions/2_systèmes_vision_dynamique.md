@@ -1,5 +1,5 @@
 ---
-title: Chapitre 2 — Systèmes : Vision dynamique
+title: "Système : Vision énergétique"
 permalink: /textes/reflexions/chapitre-2-systemes-vision-dynamique/
 order: 4
 date: 2026-02-18
@@ -7,7 +7,6 @@ last_modified_at: 2026-02-18
 brouillon: true
 ---
 
-# Système — Vision énergétique
 
 <p class="subtitle-centre"><em>Ce qui anime le réel</em></p>
 

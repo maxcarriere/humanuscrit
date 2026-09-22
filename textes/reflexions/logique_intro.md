@@ -1,12 +1,11 @@
 ---
-title: Introduction à la Logique — Pensée et Langage
+title: "Introduction à la logique : Pensée et langage"
 permalink: /textes/reflexions/logique/
-order: 2
+order: 1
 date: 2026-02-25
 last_modified_at: 2026-03-04
 ---
 
-# Introduction à la logique
 
 *Version 2 — 2026-03-04*
 
@@ -72,7 +71,7 @@ Les **logiques non classiques** (chapitre VII) montreront alors que la logique c
 
 Les trois derniers chapitres changent de registre. Ils quittent l'étude du langage pour aborder le **territoire** que le langage décrit.
 
-Le mécanisme qui se situe probablement à la base de la pensée est celui de **sélectionner** : représenter, c'est isoler une portion de réalité parmi toutes les autres. L'objet formel qui traduit ce mécanisme est l'**ensemble** — et sa notation, $\{ \}$, en est la traduction symbolique exacte. La **théorie des ensembles** (chapitre VIII) formalisera ce geste fondateur et en explorera les paradoxes, les axiomes, et les conséquences.
+Le mécanisme qui se situe probablement à la base de la pensée est celui de **sélectionner** : représenter, c'est isoler une portion de réalité parmi toutes les autres. L'objet formel qui traduit ce mécanisme est l'**ensemble** — et sa notation, $\\{ \\}$, en est la traduction symbolique exacte. La **théorie des ensembles** (chapitre VIII) formalisera ce geste fondateur et en explorera les paradoxes, les axiomes, et les conséquences.
 
 Les **fondements des mathématiques** (chapitre IX) montreront ensuite que les mathématiques contemporaines se construisent entièrement à partir de cet objet de sélection — au point de ne nécessiter aucun contenu matériel pour se développer. Le seul objet initialement présent est l'ensemble vide. C'est le signe que les mathématiques sont, par nature, une discipline **abstraite** : vides de tout contenu, elles ne contiennent que de la structure.
 

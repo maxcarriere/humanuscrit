@@ -1,5 +1,5 @@
 ---
-title: Chapitre 1 — Systèmes : Vision descriptive
+title: "Système : Vision descriptive"
 permalink: /textes/reflexions/chapitre-1-systemes-vision-descriptive/
 order: 3
 date: 2026-02-17
@@ -7,7 +7,6 @@ last_modified_at: 2026-02-18
 brouillon: true
 ---
 
-# Système — Vision descriptive
 
 <p class="subtitle-centre"><em>De la structure au mouvement</em></p>
 
@@ -402,7 +401,7 @@ L'action est alors prescrite avec certitude. Il n'y a pas d'incertitude.
 
 Une force est **stochastique** lorsqu'elle peut sélectionner des actions différentes selon l'issue du hasard. La probabilité de chaque action est donnée par la loi de $f$ :
 
-$$P(f = a) = P(\\{ \omega \in \Omega \mid f(\omega) = a \\})$$
+$$P(f = a) = P(\{ \omega \in \Omega \mid f(\omega) = a \})$$
 
 *Exemple.* La gravité qui attire une pierre : force déterministe — une seule action (tomber) est sélectionnée avec certitude. Le vent qui souffle sur une feuille : force stochastique — la direction et l'intensité varient selon des facteurs imprévisibles, et plusieurs trajectoires sont possibles.
 

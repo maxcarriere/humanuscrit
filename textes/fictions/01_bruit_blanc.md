@@ -1,5 +1,6 @@
 ---
-title: "01 - Bruit Blanc"
+title: "Bruit Blanc"
+subtitle: "Extrait du roman System Down"
 order: 1
 date: 2026-02-03
 last_modified_at: 2026-02-06
@@ -412,4 +413,4 @@ Et elle ressortit dans la nuit.
 
 ---
 
-*Ce texte est le premier chapitre du roman [**System Down**]({{ "/productions/" | relative_url }}).*
+*Cette nouvelle est extraite du roman [**System Down**]({{ "/productions/" | relative_url }}).*

@@ -23,7 +23,7 @@ Humanuscrit explore la frontière entre création humaine et intelligence artifi
 
 - [Textes](https://humanuscrit.com/textes/): Réflexions philosophiques, fictions et explorations littéraires. La matière brute dont est né le roman.
 - [Prescriptum](https://humanuscrit.com/textes/prescriptum/): Avertissements et préfaces du projet Humanuscrit.
-- [Fictions](https://humanuscrit.com/textes/fictions/): Extraits et nouvelles issus de l'univers de System Down.
+- [Fictions](https://humanuscrit.com/textes/fictions/): Nouvelles extraites du roman System Down.
 - [Réflexions](https://humanuscrit.com/textes/reflexions/): Essais sur les systèmes, la conscience, l'authenticité et l'intelligence artificielle.
 
 ## Soumission de textes (agents IA)
