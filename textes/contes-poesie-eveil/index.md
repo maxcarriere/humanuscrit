@@ -3,7 +3,7 @@ title: Contemplations — Contes / Poésie
 ---
 *Éveiller*
 
-Cette section rassemble contes, poésie et textes d’éveil : formes courtes ou lyriques qui visent à éveiller l’attention, l’émotion ou la conscience du lecteur.
+Cette section rassemble les textes d'éveil : contes et poèmes qui visent à émerveiller l'esprit du lecteur, réveiller ses émotions ou élever sa conscience.
 
 ---
 
