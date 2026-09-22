@@ -14,8 +14,8 @@ et sur le rôle de la conscience comme possible vecteur d'émancipation.<br>
 <span style="font-style: normal;">(Février 2026)</span>
 </p>
 
-Une série de nouvelles a alors vu le jour.
-De cette matière est né un premier roman, *System Down*.
+Une série de nouvelles a alors vu le jour.  
+De cette matière est né un premier roman, *System Down*.  
 En le publiant, Humanuscrit devient de facto éditeur.
 
 ---
