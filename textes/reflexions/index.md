@@ -3,7 +3,7 @@ title: Réflexions – Philosophie
 ---
 *Penser*
 
-Cette section regroupe les textes de réflexion, essais et notes qui accompagnent le projet Humanuscrit.
+Cette section regroupe les textes de réflexion, publications scientifiques, essais philosophiques visant à proposer, construire une représentation du monde.
 
 ---
 
