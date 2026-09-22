@@ -7,6 +7,17 @@
   functions = "netlify/functions"
   ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- netlify/ package.json package-lock.json netlify.toml openapi.yaml AGENTS.md .well-known/"
 
+# Proxy GoatCounter — contourne les bloqueurs de pub
+[[redirects]]
+  from = "/gc/count.js"
+  to = "https://gc.zgo.at/count.js"
+  status = 200
+
+[[redirects]]
+  from = "/gc/count"
+  to = "https://humanuscrit.goatcounter.com/count"
+  status = 200
+
 # Headers CORS pour l'API
 [[headers]]
   for = "/*"
