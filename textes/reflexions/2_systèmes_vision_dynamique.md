@@ -1,6 +1,8 @@
 ---
 title: "Système : Vision énergétique"
-permalink: /textes/reflexions/chapitre-2-systemes-vision-dynamique/
+permalink: /textes/reflexions/systeme-vision-energetique/
+redirect_from:
+  - /textes/reflexions/chapitre-2-systemes-vision-dynamique/
 order: 4
 date: 2026-02-18
 last_modified_at: 2026-02-18
@@ -12,7 +14,7 @@ brouillon: true
 
 ---
 
-Le texte précédent, [*Système : Vision descriptive*]({{ '/textes/reflexions/chapitre-1-systemes-vision-descriptive/' | relative_url }}), a posé le vocabulaire formel de la description systémique. Il a défini l'état comme un couple d'éléments présents et de relations effectives, l'action comme une transformation d'une configuration, la force comme une sélection d'action, le champ de forces $\mathcal{D}$ comme ce qui associe à chaque état la force qui s'y exerce. Il a proposé une hiérarchie — systèmes statiques, dynamiques simples, évolutifs, réflexifs — et décliné cette hiérarchie en temps discret et en temps continu.
+Le texte précédent, [*Système : Vision descriptive*]({{ '/textes/reflexions/systeme-vision-descriptive/' | relative_url }}), a posé le vocabulaire formel de la description systémique. Il a défini l'état comme un couple d'éléments présents et de relations effectives, l'action comme une transformation d'une configuration, la force comme une sélection d'action, le champ de forces $\mathcal{D}$ comme ce qui associe à chaque état la force qui s'y exerce. Il a proposé une hiérarchie — systèmes statiques, dynamiques simples, évolutifs, réflexifs — et décliné cette hiérarchie en temps discret et en temps continu.
 
 Mais il a laissé une question ouverte, annoncée dans sa clôture : le formalisme décrit *ce qui peut changer* et *comment* cela peut changer. Il ne dit pas encore *pourquoi* certaines transformations se produisent effectivement. Qu'est-ce qui oriente le champ de forces $\mathcal{D}$ ? Qu'est-ce qui fait qu'un système évolue dans une direction plutôt que dans une autre ?
 

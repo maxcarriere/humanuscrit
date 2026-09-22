@@ -1,5 +1,8 @@
 ---
 title: "Bruit Blanc"
+permalink: /textes/fictions/bruit-blanc/
+redirect_from:
+  - /textes/fictions/01_bruit_blanc.html
 subtitle: "Extrait du roman System Down"
 order: 1
 date: 2026-02-03

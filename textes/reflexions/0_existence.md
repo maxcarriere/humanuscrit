@@ -1,6 +1,8 @@
 ---
 title: Existence
-permalink: /textes/reflexions/chapitre-0-existence/
+permalink: /textes/reflexions/existence/
+redirect_from:
+  - /textes/reflexions/chapitre-0-existence/
 order: 2
 date: 2026-02-20
 last_modified_at: 2026-02-21
@@ -160,7 +162,7 @@ La **cohérence** exprime que tout constituant de $x$ est accessible depuis tout
 > $x$ est **cohérent** si pour tout couple $(c_i, c_j) \in x^2$, il existe une suite finie 
 > $c_i = c_1' \mathbin{-} c_2' \mathbin{-} \cdots \mathbin{-} c_k' = c_j$.
 > 
-> Autrement dit : le graphe $(x, L)$ est connexe. Cette structure sera entièrement formalisée dans [*Système : Vision descriptive*]({{ '/textes/reflexions/chapitre-1-systemes-vision-descriptive/' | relative_url }}).
+> Autrement dit : le graphe $(x, L)$ est connexe. Cette structure sera entièrement formalisée dans [*Système : Vision descriptive*]({{ '/textes/reflexions/systeme-vision-descriptive/' | relative_url }}).
 
 ### 5 — Propriétés nécessaires à l'existence statique
 
@@ -382,7 +384,7 @@ Exister, ce n'est pas seulement être donné. C'est être constitué, être stru
 
 Ce texte constitue le seuil d'entrée de la réflexion systémique qui va suivre. Il ne traite pas encore explicitement de la notion de système. Mais il en a posé, sans la nommer, la matière première : des éléments distingués, agencés en une configuration cohérente, qui se transforme dans un cadre d'espace et de temps. La substance — niveau atomique d'une description — en constitue la brique élémentaire. Les choses — ensembles cohérents de substance — en constituent les unités d'organisation. Ce que nous ferons à partir du texte suivant, c'est reconnaître ce motif pour ce qu'il est, et lui donner un nom.
 
-Traiter la substance comme relative au cadre de description adopté est un **choix** — non une nécessité ontologique. Ce choix permettra, dans [*Système : Vision énergétique*]({{ '/textes/reflexions/chapitre-2-systemes-vision-dynamique/' | relative_url }}), de penser plusieurs niveaux de description du même réel. Ce qui est substance à une certaine échelle devient chose composée à une échelle plus fine. Ce changement d'échelle, avec toutes ses conséquences formelles, sera l'un des fils directeurs du livre.
+Traiter la substance comme relative au cadre de description adopté est un **choix** — non une nécessité ontologique. Ce choix permettra, dans [*Système : Vision énergétique*]({{ '/textes/reflexions/systeme-vision-energetique/' | relative_url }}), de penser plusieurs niveaux de description du même réel. Ce qui est substance à une certaine échelle devient chose composée à une échelle plus fine. Ce changement d'échelle, avec toutes ses conséquences formelles, sera l'un des fils directeurs du livre.
 
 ## Références
 

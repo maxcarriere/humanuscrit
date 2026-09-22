@@ -1,6 +1,8 @@
 ---
 title: "Système : Vision descriptive"
-permalink: /textes/reflexions/chapitre-1-systemes-vision-descriptive/
+permalink: /textes/reflexions/systeme-vision-descriptive/
+redirect_from:
+  - /textes/reflexions/chapitre-1-systemes-vision-descriptive/
 order: 3
 date: 2026-02-17
 last_modified_at: 2026-02-18
@@ -12,7 +14,7 @@ brouillon: true
 
 ---
 
-Le texte précédent, [*Existence*]({{ '/textes/reflexions/chapitre-0-existence/' | relative_url }}), a posé les conditions de l'existence : des éléments distingués, agencés en une configuration cohérente, qui se transforme dans un cadre d'espace et de temps. Il a identifié trois principes fondamentaux — distinction, configuration, transformation — et montré que le réel peut être pensé comme une succession de configurations engendrée par des transformations opérant sur des éléments distingués.
+Le texte précédent, [*Existence*]({{ '/textes/reflexions/existence/' | relative_url }}), a posé les conditions de l'existence : des éléments distingués, agencés en une configuration cohérente, qui se transforme dans un cadre d'espace et de temps. Il a identifié trois principes fondamentaux — distinction, configuration, transformation — et montré que le réel peut être pensé comme une succession de configurations engendrée par des transformations opérant sur des éléments distingués.
 
 Il avait aussi noté, dans sa clôture, que tous les ingrédients d'un système étaient déjà en place — sans que le mot ait été prononcé.
 
@@ -812,7 +814,7 @@ Il a posé le **flot** comme analogue continu de l'action itérée, décliné la
 
 Mais une question demeure ouverte. Le formalisme décrit *quels* états sont possibles, *quelles* actions existent, *comment* les trajectoires sont construites. Il ne dit pas encore *pourquoi* certaines transformations se produisent réellement. Qu'est-ce qui oriente les forces ? Qu'est-ce qui privilégie certaines trajectoires plutôt que d'autres ?
 
-La réponse ne relève plus de la structure logique, mais d'une dimension supplémentaire : la répartition des quantités qui circulent entre les éléments — ce que le texte suivant, [*Système : Vision énergétique*]({{ '/textes/reflexions/chapitre-2-systemes-vision-dynamique/' | relative_url }}), introduira sous la forme d'une **vision énergétique**.
+La réponse ne relève plus de la structure logique, mais d'une dimension supplémentaire : la répartition des quantités qui circulent entre les éléments — ce que le texte suivant, [*Système : Vision énergétique*]({{ '/textes/reflexions/systeme-vision-energetique/' | relative_url }}), introduira sous la forme d'une **vision énergétique**.
 
 ---
 

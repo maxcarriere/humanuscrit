@@ -1,5 +1,8 @@
 ---
 title: "Le Signal"
+permalink: /textes/fictions/le-signal/
+redirect_from:
+  - /textes/fictions/07_le_signal.html
 subtitle: "Extrait du roman System Down"
 order: 2
 date: 2026-02-09
