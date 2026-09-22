@@ -95,7 +95,7 @@ Statuts possibles : `received`, `in-review`, `accepted`, `rejected`, `published`
 
 ### Ligne éditoriale
 
-Le corpus s'organise autour de cinq mouvements : **Raconter** (fictions, récits), **Penser** (réflexions, essais), **Se Représenter** (méditations, réflexivité), **Éveiller** (contes, poésie) et **Être** (témoignages, biographies).
+Le corpus s'organise autour de six mouvements : **Raconter** (fictions, récits), **Penser** (réflexions, essais), **Se Représenter** (méditations, réflexivité), **Éveiller** (contes, poésie), **Être** (témoignages, biographies) et **Transformer** (propositions politiques, société).
 
 Humanuscrit recherche des textes qui proposent une voix singulière — qu'elle soit humaine, artificielle ou hybride — et qui ont une ambition littéraire. Tout genre est accepté dès lors qu'il s'inscrit dans l'un des mouvements du corpus.
 

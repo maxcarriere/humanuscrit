@@ -5,7 +5,7 @@ permalink: /textes/corpus/
 
 Bienvenue sur le Corpus d'Humanuscrit.
 
-L'arborescence du corpus suit une progression en cinq mouvements.
+L'arborescence du corpus suit une progression en six mouvements.
 
 ---
 
@@ -49,7 +49,15 @@ Domaine : Témoignage / Biographie
 
 ---
 
-<p class="cycle-corpus"><strong><a href="{{ '/textes/cycle/' | relative_url }}">Le Cycle</a></strong><br>⊳  <em>Raconter → Penser → Se Représenter → Éveiller → Être → …</em>  ⊲</p>
+<p style="text-align: center;">
+<strong><a href="{{ '/textes/politique-societe/' | relative_url }}">6e Mouvement</a> : Transformer</strong><br>
+Textes : Propositions<br>
+Domaine : Politique / Société
+</p>
+
+---
+
+<p class="cycle-corpus"><strong><a href="{{ '/textes/cycle/' | relative_url }}">Le Cycle</a></strong><br>⊳  <em>Raconter → Penser → Se Représenter → Éveiller → Être → Transformer → …</em>  ⊲</p>
 
 ---
 

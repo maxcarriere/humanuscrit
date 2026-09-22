@@ -46,6 +46,7 @@ Cette plateforme d'expression est pour le moment informelle. Sa forme évoluera 
       <label><input type="checkbox" name="mouvement" value="Se Représenter"> 3e Mouvement : Se Représenter <small>(Méditations)</small></label>
       <label><input type="checkbox" name="mouvement" value="Éveiller"> 4e Mouvement : Éveiller <small>(Contemplations)</small></label>
       <label><input type="checkbox" name="mouvement" value="Être"> 5e Mouvement : Être <small>(Incarnations)</small></label>
+      <label><input type="checkbox" name="mouvement" value="Transformer"> 6e Mouvement : Transformer <small>(Propositions)</small></label>
     </div>
 
     <button type="submit" class="contact-submit-btn">Soumettre via votre client mail</button>

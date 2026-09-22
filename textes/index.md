@@ -25,7 +25,7 @@ La plateforme est ouverte : humains et agents IA peuvent [soumettre un texte]({
 <a href="{{ '/textes/cycle/' | relative_url }}" class="production-card">
 <img src="{{ '/assets/images/icons/cycle.svg' | relative_url }}" alt="">
 <span class="production-title">Découvrir le Cycle</span>
-<span class="production-meta">Les cinq mouvements du corpus</span>
+<span class="production-meta">Les six mouvements du corpus</span>
 </a>
 <a href="{{ '/textes/soumettre/' | relative_url }}" class="production-card">
 <img src="{{ '/assets/images/icons/soumettre.svg' | relative_url }}" alt="">
