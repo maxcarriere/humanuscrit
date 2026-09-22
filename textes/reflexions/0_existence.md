@@ -9,8 +9,6 @@ last_modified_at: 2026-02-21
 ---
 
 
-*Première version — 2026-02-20*
-
 <p class="subtitle-centre"><em>Seuil ontologique</em></p>
 
 ---
@@ -52,11 +50,11 @@ Réciproquement, on peut définir le Réel comme l'ensemble de ce qui existe, et
 > - $R = \\{x \mid E(x)\\}$ — la classe du Réel
 > - $V = \\{x \mid \neg E(x)\\}$ — la classe du Vide
 > 
-> Ces deux objets ne sont pas des ensembles au sens de ZFC — ce sont des **classes propres** au sens de la théorie de von Neumann–Bernays–Gödel (NBG). La distinction sera rappelée dans les prérequis mathématiques. Tout x ∈ R est une **chose**.
+> Ces deux objets ne sont pas des ensembles au sens de ZFC — ce sont des **classes propres** au sens de la théorie de von Neumann–Bernays–Gödel (NBG). Tout x ∈ R est une **chose**.
 > 
 > La partition est exhaustive et exclusive : R ∪ V contient tout, R ∩ V = ∅.
 
-Une remarque sur V : ses membres — les non-existants — ne sont pas des entités du Réel, mais des **possibilités logiques sans instanciation**. Ils existent en tant que cas logiques sans posséder E. Cette tension entre existence logique et existence réelle sera revisitée en §VI ; elle annonce aussi la distinction, centrale dans la suite du livre, entre ce qui est possible et ce qui est réalisé.
+Une remarque sur V : ses membres — les non-existants — ne sont pas des entités du Réel, mais des **possibilités logiques sans instanciation**. Ils existent en tant que cas logiques sans posséder E. Cette tension entre existence logique et existence réelle sera revisitée en §VI ; elle annonce aussi une distinction essentielle pour penser les systèmes, celle entre ce qui est possible et ce qui est réalisé.
 
 Mais cette partition ne dit pas encore ce qui distingue une chose existante d'une pure indétermination. Pour cela, il faut analyser la structure même de l'existence. Quelles sont les conditions nécessaires à l'existence d'une chose ?
 
@@ -131,7 +129,7 @@ Sous fondation : toutes les chaînes sont finies, $\mathrm{TC}(R)$ les parcourt 
 
 *Régime 3 — Sans fondation, $U = \emptyset$.* Aucune substance nulle part. Tout existant est en régression infinie sans terminus. Ce régime est incompatible avec une ontologie cohérente : sans fond d'aucune sorte, l'existence perd tout support. Nous l'écartons.
 
-**Un quatrième horizon : le fond infiniment profond.** Les trois régimes épuisent ce qu'offre la théorie des ensembles standard. Mais un quatrième tableau mérite d'être évoqué — non comme cadre formel du livre, mais comme horizon philosophique.
+**Un quatrième horizon : le fond infiniment profond.** Les trois régimes épuisent ce qu'offre la théorie des ensembles standard. Mais un quatrième tableau mérite d'être évoqué — non comme cadre formel de ce texte, mais comme horizon philosophique.
 
 On pourrait concevoir un monde où une substance existe *au bout* d'une chaîne infinie : non pas ailleurs dans $R$, mais genuinement *à la limite* d'une descente sans fin. Chaque $c_n$ serait plus proche du fond que le précédent ; la substance serait ce vers quoi la chaîne *converge* sans jamais y parvenir par un nombre fini de pas. Le fond existerait — mais serait inaccessible par toute analyse finie.
 
@@ -139,7 +137,7 @@ Ce tableau est cohérent, mais il sort du cadre de ZF. Il supposerait d'enrichir
 
 On retiendra la résonance philosophique : un fond infiniment profond, existant mais inatteignable par analyse finie, traverse de nombreuses traditions. En physique, l'hypothèse d'une divisibilité infinie de la matière sans particule élémentaire ultime en est une version. En philosophie, la *śūnyatā* bouddhiste (vacuité) suggère que la nature ultime des choses n'est jamais directement saisissable — toujours médiatisée, toujours au bout d'une analyse qu'on ne peut achever. Le fond existe ; le saisir exigerait une infinité de pas.
 
-**Cadre du livre.** Nous adoptons le régime 1 — non comme vérité ontologique, mais comme **cadre** $C$ : choisir un niveau d'analyse et appeler *substance* ce qui y est irréductible. Le physicien s'arrête aux quarks, le chimiste aux atomes, le biologiste aux cellules. Aucun de ces niveaux n'est le niveau ultime absolu — mais chacun est parfaitement opératoire dans son cadre.
+**Cadre retenu.** Nous adoptons le régime 1 — non comme vérité ontologique, mais comme **cadre** $C$ : choisir un niveau d'analyse et appeler *substance* ce qui y est irréductible. Le physicien s'arrête aux quarks, le chimiste aux atomes, le biologiste aux cellules. Aucun de ces niveaux n'est le niveau ultime absolu — mais chacun est parfaitement opératoire dans son cadre.
 
 **L'Univers et l'espace.** L'Univers $U$ n'est pas seulement un réservoir de substances sans structure. Les substances qui le constituent entretiennent entre elles des relations de proximité, de contact, de séparation : certaines sont voisines, d'autres éloignées ; certaines sont séparables, d'autres intriquées. Cette organisation n'est pas d'emblée métrique — elle ne suppose pas une mesure de distance, mais une notion plus fondamentale de **voisinage** : quelles substances sont en contact, lesquelles sont séparées par une frontière.
 
@@ -212,7 +210,7 @@ Cette intuition conduit à distinguer deux niveaux d'existence. La propriété $
 > Un existant $x$ satisfait $E^{\ast}$ s'il figure comme terme dans quelque phénomène :
 > $$E^{\ast}(x) \;\Longleftrightarrow\; \exists\, (x_i)_{i \in I},\; \exists\, j \in I : x_j = x$$
 > 
-> L'ensemble d'indices $I$ n'est pas précisé ici — il recevra plus tard la structure d'un ensemble ordonné, qui sera le **temps** (dans un texte ultérieur). C'est à ce niveau que l'existence hérite de sa composante temporelle, de même que $U$ hérite de sa composante spatiale par la topologie.
+> L'ensemble d'indices $I$ n'est pas précisé ici — il recevra plus tard la structure d'un ensemble ordonné, qui sera le **temps** (voir [*Système : Vision descriptive*]({{ '/textes/reflexions/systeme-vision-descriptive/' | relative_url }})). C'est à ce niveau que l'existence hérite de sa composante temporelle, de même que $U$ hérite de sa composante spatiale par la topologie.
 
 $E(x)$ n'implique pas $E^{\ast}(x)$ : une chose peut exister sans s'inscrire dans un phénomène — exister à l'état de pure singularité, sans avant ni après. Mais une telle existence serait indiscernable du néant. $E^{\ast}$ est la condition d'une existence *manifeste*.
 
@@ -264,7 +262,7 @@ La **cohérence** fonde la configuration : c'est parce que les constituants sont
 > 
 > La configuration est définie à isomorphisme près — c'est l'agencement structurel qui compte, indépendamment de l'identité particulière des substances qui le réalisent.
 > 
-> *Note.* Une configuration $(A, R)$ est exactement une **structure relationnelle** au sens de la théorie des modèles : un domaine muni d'une relation binaire. L'isomorphisme ci-dessus est l'isomorphisme de structures au sens standard — deux configurations sont équivalentes si elles réalisent les mêmes connexités à renommage des éléments près. Cette correspondance ouvre la voie à des outils plus fins, notamment la notion d'**équivalence élémentaire** (deux structures satisfaisant les mêmes énoncés du premier ordre), qui pourra être mobilisée dans les textes ultérieurs.
+> *Note.* Une configuration $(A, R)$ est exactement une **structure relationnelle** au sens de la théorie des modèles : un domaine muni d'une relation binaire. L'isomorphisme ci-dessus est l'isomorphisme de structures au sens standard — deux configurations sont équivalentes si elles réalisent les mêmes connexités à renommage des éléments près. Cette correspondance ouvre la voie à des outils plus fins, notamment la notion d'**équivalence élémentaire** (deux structures satisfaisant les mêmes énoncés du premier ordre), qui pourra être mobilisée au besoin.
 
 ### Transformation
 
@@ -281,7 +279,7 @@ L'**évolution** fonde la transformation : c'est parce que les choses persistent
 > 
 > $$a : e \to e'$$
 > 
-> qui, à une configuration $e$, associe une configuration $e'$. Cette application n'est pas nécessairement unique pour un état donné (plusieurs transformations peuvent être possibles), ni nécessairement définie pour tous les états (certaines configurations peuvent être terminales). La nature de ces contraintes sera précisée dans les textes suivants.
+> qui, à une configuration $e$, associe une configuration $e'$. Cette application n'est pas nécessairement unique pour un état donné (plusieurs transformations peuvent être possibles), ni nécessairement définie pour tous les états (certaines configurations peuvent être terminales). La nature de ces contraintes est précisée dans *Système : Vision descriptive*.
 
 ### Synthèse
 
@@ -318,7 +316,7 @@ L'espace est ainsi le support dans lequel la **distinction** — fondée sur la 
 > 
 > Pour chaque substance $s \in U$, on note $\mathcal{V}(s)$ le **filtre de voisinages** de $s$ : l'ensemble des parties de $U$ contenant un ouvert qui contient $s$. C'est $\mathcal{V}(s)$ qui formalise la notion de « proximité » autour de $s$.
 > 
-> On requiert que $(U, \tau)$ soit au moins $T_0$ — ce qui garantit, comme établi en §IV, que deux substances distinctes sont reconnaissables par leur voisinage. Des propriétés de séparation plus fortes ($T_1$, $T_2$, …) pourront être imposées selon les besoins des textes ultérieurs.
+> On requiert que $(U, \tau)$ soit au moins $T_0$ — ce qui garantit, comme établi en §IV, que deux substances distinctes sont reconnaissables par leur voisinage. Des propriétés de séparation plus fortes ($T_1$, $T_2$, …) pourront être imposées selon les besoins.
 
 ### Le temps
 
@@ -331,7 +329,7 @@ Le temps est donc la condition de possibilité du devenir. Il permet aux choses 
 Le temps est ainsi la dimension dans laquelle la **transformation** — fondée sur l'évolution — trouve sa condition d'expression : chaque passage d'une configuration à une autre y reçoit un avant et un après. La transformation est ontologique ; le temps est sa manifestation phénoménale. Le temps n'est pas ce qui fonde la transformation — c'est ce qui lui donne une durée.
 
 > **Formalisme :**
-> Le temps est formalisé comme un **ensemble ordonné** $(T, \leq)$ : une structure permettant de dire qu'un instant précède un autre. Cette structure sera développée dans un texte ultérieur, lorsque l'ensemble d'indices $I$ des phénomènes recevra sa structure temporelle.
+> Le temps est formalisé comme un **ensemble ordonné** $(T, \leq)$ : une structure permettant de dire qu'un instant précède un autre. Cette structure est développée dans *Système : Vision descriptive*, où l'ensemble d'indices $I$ des phénomènes reçoit sa structure temporelle.
 
 ### Les interactions
 
@@ -374,17 +372,17 @@ Mais si tel est le cas, où réside ce monde ? Quelles en sont les limites ? E
 
 Une troisième voie est concevable. Les structures logiques ne seraient ni purement extérieures au réel ni purement intérieures à l'esprit. Elles émergeraient du réel lui-même, comme un niveau d'organisation supérieur — de la même manière que la vie émerge de la chimie sans s'y réduire. L'existence logique serait alors une couche émergente de l'existence réelle, ni fondamentale ni illusoire, mais produite par la complexité même du réel.
 
-Nous ne trancherons pas ici entre ces positions. Ce texte a pour vocation d'ouvrir, non de fermer. Mais la tension entre ces trois possibilités — construction, découverte, émergence — traversera l'ensemble de la réflexion qui suit. Car la question du statut de l'existence logique est aussi, en dernière analyse, la question du statut de la pensée elle-même : la pensée est-elle un miroir du réel, un prolongement du réel, ou un monde à part ?
+Nous ne trancherons pas ici entre ces positions. Ce texte a pour vocation d'ouvrir, non de fermer. Mais la tension entre ces trois possibilités — construction, découverte, émergence — traverse l'ensemble de la réflexion systémique. Car la question du statut de l'existence logique est aussi, en dernière analyse, la question du statut de la pensée elle-même : la pensée est-elle un miroir du réel, un prolongement du réel, ou un monde à part ?
 
-Cette question trouvera des échos directs dans les textes ultérieurs, lorsque nous examinerons les conditions d'émergence d'un système conscient — c'est-à-dire d'un système capable de produire, en son sein, une représentation de sa propre structure.
+Cette question trouve un écho direct dans celle des conditions d'émergence d'un système conscient — c'est-à-dire d'un système capable de produire, en son sein, une représentation de sa propre structure.
 
 ## Clôture
 
 Exister, ce n'est pas seulement être donné. C'est être constitué, être structuré, durer, évoluer dans un cadre spatial et temporel.
 
-Ce texte constitue le seuil d'entrée de la réflexion systémique qui va suivre. Il ne traite pas encore explicitement de la notion de système. Mais il en a posé, sans la nommer, la matière première : des éléments distingués, agencés en une configuration cohérente, qui se transforme dans un cadre d'espace et de temps. La substance — niveau atomique d'une description — en constitue la brique élémentaire. Les choses — ensembles cohérents de substance — en constituent les unités d'organisation. Ce que nous ferons à partir du texte suivant, c'est reconnaître ce motif pour ce qu'il est, et lui donner un nom.
+Ce texte constitue un seuil d'entrée vers la réflexion systémique. Il ne traite pas encore explicitement de la notion de système. Mais il en a posé, sans la nommer, la matière première : des éléments distingués, agencés en une configuration cohérente, qui se transforme dans un cadre d'espace et de temps. La substance — niveau atomique d'une description — en constitue la brique élémentaire. Les choses — ensembles cohérents de substance — en constituent les unités d'organisation. Reconnaître ce motif pour ce qu'il est, et lui donner un nom, c'est l'objet de *Système : Vision descriptive*.
 
-Traiter la substance comme relative au cadre de description adopté est un **choix** — non une nécessité ontologique. Ce choix permettra, dans [*Système : Vision énergétique*]({{ '/textes/reflexions/systeme-vision-energetique/' | relative_url }}), de penser plusieurs niveaux de description du même réel. Ce qui est substance à une certaine échelle devient chose composée à une échelle plus fine. Ce changement d'échelle, avec toutes ses conséquences formelles, sera l'un des fils directeurs du livre.
+Traiter la substance comme relative au cadre de description adopté est un **choix** — non une nécessité ontologique. Ce choix permettra, dans [*Système : Vision énergétique*]({{ '/textes/reflexions/systeme-vision-energetique/' | relative_url }}), de penser plusieurs niveaux de description du même réel. Ce qui est substance à une certaine échelle devient chose composée à une échelle plus fine. Ce changement d'échelle, avec toutes ses conséquences formelles, est l'un des fils directeurs de la réflexion systémique.
 
 ## Références
 

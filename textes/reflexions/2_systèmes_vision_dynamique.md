@@ -14,13 +14,13 @@ brouillon: true
 
 ---
 
-Le texte précédent, [*Système : Vision descriptive*]({{ '/textes/reflexions/systeme-vision-descriptive/' | relative_url }}), a posé le vocabulaire formel de la description systémique. Il a défini l'état comme un couple d'éléments présents et de relations effectives, l'action comme une transformation d'une configuration, la force comme une sélection d'action, le champ de forces $\mathcal{D}$ comme ce qui associe à chaque état la force qui s'y exerce. Il a proposé une hiérarchie — systèmes statiques, dynamiques simples, évolutifs, réflexifs — et décliné cette hiérarchie en temps discret et en temps continu.
+Le texte [*Système : Vision descriptive*]({{ '/textes/reflexions/systeme-vision-descriptive/' | relative_url }}) a posé le vocabulaire formel de la description systémique. Il a défini l'état comme un couple d'éléments présents et de relations effectives, l'action comme une transformation d'une configuration, la force comme une sélection d'action, le champ de forces $\mathcal{D}$ comme ce qui associe à chaque état la force qui s'y exerce. Il a proposé une hiérarchie — systèmes statiques, dynamiques simples, évolutifs, réflexifs — et décliné cette hiérarchie en temps discret et en temps continu.
 
 Mais il a laissé une question ouverte, annoncée dans sa clôture : le formalisme décrit *ce qui peut changer* et *comment* cela peut changer. Il ne dit pas encore *pourquoi* certaines transformations se produisent effectivement. Qu'est-ce qui oriente le champ de forces $\mathcal{D}$ ? Qu'est-ce qui fait qu'un système évolue dans une direction plutôt que dans une autre ?
 
-La réponse tient dans une idée. Les transformations ne sont pas arbitraires. Elles sont orientées par la distribution des quantités qui s'accumulent dans les éléments du système et qui circulent dans ses liens. Ces quantités — que nous appellerons **énergie** — ne constituent pas un ingrédient nouveau ajouté de l'extérieur. Elles sont la *valuation* du système : elles habitent la structure formelle du texte précédent et lui donnent sa direction.
+La réponse tient dans une idée. Les transformations ne sont pas arbitraires. Elles sont orientées par la distribution des quantités qui s'accumulent dans les éléments du système et qui circulent dans ses liens. Ces quantités — que nous appellerons **énergie** — ne constituent pas un ingrédient nouveau ajouté de l'extérieur. Elles sont la *valuation* du système : elles habitent la structure formelle de *Vision descriptive* et lui donnent sa direction.
 
-Ce texte superpose à la vision structurelle du texte précédent une **vision énergétique**. Son premier travail est de définir précisément ce qu'est un système énergétique — non comme une nouvelle classe d'objet, mais comme une spécification particulière des systèmes valués introduits dans *Vision descriptive*. Son deuxième travail est de montrer comment cette spécification engendre une dynamique : pourquoi et comment les systèmes évoluent, vers quoi ils tendent, et ce qui peut résister à cette tendance.
+Ce texte superpose à la vision structurelle de *Vision descriptive* une **vision énergétique**. Son premier travail est de définir précisément ce qu'est un système énergétique — non comme une nouvelle classe d'objet, mais comme une spécification particulière des systèmes valués introduits dans *Vision descriptive*. Son deuxième travail est de montrer comment cette spécification engendre une dynamique : pourquoi et comment les systèmes évoluent, vers quoi ils tendent, et ce qui peut résister à cette tendance.
 
 ---
 
@@ -28,9 +28,9 @@ Ce texte superpose à la vision structurelle du texte précédent une **vision �
 
 ### La question de la valuation
 
-Dans le texte précédent, nous avons introduit les **systèmes valués** (Définition 16) : des systèmes dont les relations possibles prennent leurs valeurs dans des espaces $W_i$ plus riches que $\{0, 1\}$. La valuation enrichit la description : au lieu de simplement noter qu'un lien existe ou non, on lui attribue une intensité, un poids, une capacité.
+Dans *Vision descriptive*, nous avons introduit les **systèmes valués** (Définition 16) : des systèmes dont les relations possibles prennent leurs valeurs dans des espaces $W_i$ plus riches que $\{0, 1\}$. La valuation enrichit la description : au lieu de simplement noter qu'un lien existe ou non, on lui attribue une intensité, un poids, une capacité.
 
-Cette valuation peut porter sur les liens — un poids attribué à chaque relation. Mais rien n'interdit qu'elle porte aussi sur les *éléments* eux-mêmes — une quantité attribuée à chaque nœud. Le texte précédent avait posé l'état comme un couple $(A, R)$ : un ensemble d'éléments présents et de relations effectives. Nous avions noté que les relations valuées permettaient à l'espace des états d'acquérir une géométrie. C'est cette idée que nous allons maintenant développer dans une direction particulière.
+Cette valuation peut porter sur les liens — un poids attribué à chaque relation. Mais rien n'interdit qu'elle porte aussi sur les *éléments* eux-mêmes — une quantité attribuée à chaque nœud. *Vision descriptive* avait posé l'état comme un couple $(A, R)$ : un ensemble d'éléments présents et de relations effectives. Nous avions noté que les relations valuées permettaient à l'espace des états d'acquérir une géométrie. C'est cette idée que nous allons maintenant développer dans une direction particulière.
 
 Un système énergétique est un système valué dans lequel la valuation porte simultanément sur les nœuds (une *quantité* accumulée dans chaque élément) et sur les liens (une *facilité de passage* entre chaque paire d'éléments), et dans lequel une loi précise relie ces deux valuations pour produire une dynamique.
 
@@ -91,7 +91,7 @@ Les ingrédients sont posés. Nous pouvons maintenant les assembler en une défi
 
 Un système énergétique est donc un système valué muni d'une loi supplémentaire — la loi de flux — qui transforme la valuation statique en une dynamique. Cette loi fait du système énergétique un **système dynamique réflexif** au sens de *Vision descriptive* (Définitions 19 et 22) : la force exercée sur le système dépend de son état, puisque les flux dépendent des stocks et des conductivités qui constituent cet état.
 
-Ce point mérite d'être souligné. Dans le texte précédent, le champ de forces $\mathcal{D}$ était posé de manière abstraite — il associait à chaque état une force, sans dire comment cette force était déterminée. Le système énergétique est la première réponse concrète à cette abstraction. La force y est **déterministe** : les gradients prescrivent entièrement l'évolution, sans hasard résiduel. Le champ $\mathcal{D}$ associe à chaque état $e = (A, R, E, K)$ la force qui sélectionne l'action du bilan — c'est-à-dire la transformation qui fait évoluer chaque stock selon la somme des flux nets. La structure — les stocks et les conductivités — commande entièrement la dynamique.
+Ce point mérite d'être souligné. Dans *Vision descriptive*, le champ de forces $\mathcal{D}$ était posé de manière abstraite — il associait à chaque état une force, sans dire comment cette force était déterminée. Le système énergétique est la première réponse concrète à cette abstraction. La force y est **déterministe** : les gradients prescrivent entièrement l'évolution, sans hasard résiduel. Le champ $\mathcal{D}$ associe à chaque état $e = (A, R, E, K)$ la force qui sélectionne l'action du bilan — c'est-à-dire la transformation qui fait évoluer chaque stock selon la somme des flux nets. La structure — les stocks et les conductivités — commande entièrement la dynamique.
 
 ---
 
@@ -115,7 +115,7 @@ L'écart de potentiel entre deux éléments reliés s'appelle le **gradient**. C
 
 L'universalité du gradient est remarquable. La chaleur va du chaud vers le froid — gradient de température. Le courant va du potentiel élevé vers le faible — gradient électrique. La matière diffuse de la zone concentrée vers la zone diluée — gradient de concentration. Le capital circule vers les opportunités de rendement — gradient économique. L'eau descend la pente — gradient de pression.
 
-Dans tous les cas, la structure est la même : **le flux naît du gradient**. Cette récurrence n'est pas une coïncidence. Elle est la manifestation d'un principe unique, que chaque domaine habille de ses propres grandeurs. La loi de Fourier, la loi d'Ohm, la loi de Fick, les lois de l'hydraulique — toutes expriment la même idée sous des noms différents. C'est ce que le préambule appelait le « fond commun » à toutes les disciplines : une grammaire conceptuelle que les sciences instancient chacune à leur manière, sans l'avoir encore formulée comme telle.
+Dans tous les cas, la structure est la même : **le flux naît du gradient**. Cette récurrence n'est pas une coïncidence. Elle est la manifestation d'un principe unique, que chaque domaine habille de ses propres grandeurs. La loi de Fourier, la loi d'Ohm, la loi de Fick, les lois de l'hydraulique — toutes expriment la même idée sous des noms différents. C'est ce que l'on peut appeler le « fond commun » à toutes les disciplines : une grammaire conceptuelle que les sciences instancient chacune à leur manière, sans l'avoir encore formulée comme telle.
 
 ---
 
@@ -195,7 +195,7 @@ L'équilibre est la limitation fondamentale du système fermé. C'est pour y éc
 
 Les principes que nous venons de poser — potentiel, gradient, conductivité, loi de flux, bilan, équilibre — ne sont pas des inventions abstraites. Ils sont la structure commune d'un ensemble de lois que les sciences disciplinaires ont découvertes indépendamment, chacune dans son domaine, sans toujours reconnaître qu'elles parlaient de la même chose.
 
-Le préambule avait signalé cette récurrence : la loi de Fourier, la loi d'Ohm, la loi de Fick et les lois de l'hydraulique expriment toutes la même structure $F = K \times \Delta P$. Le formalisme du système énergétique est précisément ce que le préambule appelait le « principe nu, avant son habillage disciplinaire ».
+Cette récurrence est frappante : la loi de Fourier, la loi d'Ohm, la loi de Fick et les lois de l'hydraulique expriment toutes la même structure $F = K \times \Delta P$. Le formalisme du système énergétique est précisément ce « principe nu, avant son habillage disciplinaire ».
 
 Le tableau suivant traduit chaque grandeur abstraite dans quatre domaines physiques.
 
@@ -419,7 +419,7 @@ Le **vivant** est un déséquilibre auto-entretenu. De l'énergie le traverse en
 
 La **conscience** apparaît lorsqu'une partie du système se représente le système lui-même. Un sous-réseau qui modélise le réseau entier — qui simule des futurs possibles, qui évalue des actions, qui retourne sur soi le regard qu'il porte sur le monde. La conscience n'est pas une substance ajoutée. C'est une propriété structurelle — un degré de réflexivité — et elle a un coût : penser, c'est dissiper. Ce coût n'est pas une limite : c'est le signe que la conscience est un phénomène énergétique réel, ancré dans la physique du système qui la porte.
 
-Ces modes d'existence ne sont pas des catégories disjointes. Ils sont des niveaux d'organisation, chacun reposant sur le précédent et l'incluant. Un être vivant est fait de matière. Un être conscient est fait de matière vivante. La progression est celle annoncée dans le préambule : la complexité émerge par niveaux d'organisation successifs, chacun reposant sur les propriétés du précédent.
+Ces modes d'existence ne sont pas des catégories disjointes. Ils sont des niveaux d'organisation, chacun reposant sur le précédent et l'incluant. Un être vivant est fait de matière. Un être conscient est fait de matière vivante. La progression est toujours la même : la complexité émerge par niveaux d'organisation successifs, chacun reposant sur les propriétés du précédent.
 
 ---
 
@@ -482,7 +482,7 @@ C'est en cela que ces principes méritent le nom de *fondamentaux* : non pas par
 
 ## Clôture
 
-Ce texte a répondu à la question que le précédent avait laissée ouverte : *qu'est-ce qui anime le système ?*
+Ce texte a répondu à la question que *Vision descriptive* avait laissée ouverte : *qu'est-ce qui anime le système ?*
 
 Il a d'abord défini le **système énergétique** comme une spécification particulière du système valué de *Vision descriptive* : un système muni d'une **fonction de stock** $E$ sur les éléments, d'une **fonction de conductivité** $K$ sur les liens, d'une **fonction de potentiel** $\varphi$ dérivant le potentiel du stock, et d'une **loi de flux** $F = K \times \Delta P$. Cette définition fait le pont entre le vocabulaire abstrait de *Vision descriptive* et la dynamique concrète du réel : le champ de forces $\mathcal{D}$ reçoit une expression précise, et le système dynamique réflexif continu reçoit un contenu.
 
@@ -494,7 +494,7 @@ L'**entropie** est la tendance vers l'uniformité — conséquence du comptage, 
 
 Et de ces principes seuls — sans rien ajouter — se dessinent les modes d'existence du réel : la **matière** comme cycle stable, le **vivant** comme déséquilibre auto-entretenu, la **conscience** comme réflexivité complète.
 
-Les textes suivants exploreront ces modes d'existence un à un — en commençant par ce qui fait qu'un système peut être dit *vivant*.
+Ces modes d'existence restent à explorer un à un, en commençant par ce qui fait qu'un système peut être dit *vivant*.
 
 ---
 

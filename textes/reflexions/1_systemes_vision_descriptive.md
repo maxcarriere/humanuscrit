@@ -14,7 +14,7 @@ brouillon: true
 
 ---
 
-Le texte précédent, [*Existence*]({{ '/textes/reflexions/existence/' | relative_url }}), a posé les conditions de l'existence : des éléments distingués, agencés en une configuration cohérente, qui se transforme dans un cadre d'espace et de temps. Il a identifié trois principes fondamentaux — distinction, configuration, transformation — et montré que le réel peut être pensé comme une succession de configurations engendrée par des transformations opérant sur des éléments distingués.
+Le texte [*Existence*]({{ '/textes/reflexions/existence/' | relative_url }}) a posé les conditions de l'existence : des éléments distingués, agencés en une configuration cohérente, qui se transforme dans un cadre d'espace et de temps. Il a identifié trois principes fondamentaux — distinction, configuration, transformation — et montré que le réel peut être pensé comme une succession de configurations engendrée par des transformations opérant sur des éléments distingués.
 
 Il avait aussi noté, dans sa clôture, que tous les ingrédients d'un système étaient déjà en place — sans que le mot ait été prononcé.
 
@@ -22,7 +22,7 @@ C'est maintenant qu'il faut le prononcer, et surtout le formaliser. Car une idé
 
 Le présent texte propose un formalisme minimal pour la notion de système. Il ne s'agit pas de construire un appareil mathématique destiné au calcul. Il s'agit de poser un vocabulaire formel dont chaque terme a une signification exacte, dont les relations entre termes sont explicites, et qui soit suffisamment général pour s'appliquer à n'importe quel domaine — physique, biologique, social, cognitif — sans dépendre d'aucun.
 
-Conformément à ce qui est annoncé dans le préambule, chaque définition formelle est accompagnée d'une explication en langage naturel. Le lecteur peu familier avec la notation mathématique peut se concentrer sur le texte sans perdre le fil du raisonnement — les formules ne sont qu'une cristallisation de ce qui est dit en mots.
+Chaque définition formelle est accompagnée d'une explication en langage naturel. Le lecteur peu familier avec la notation mathématique peut se concentrer sur le texte sans perdre le fil du raisonnement — les formules ne sont qu'une cristallisation de ce qui est dit en mots.
 
 Ce formalisme s'articule autour de trois espaces fondamentaux, qui correspondent exactement aux trois principes d'*Existence* :
 
@@ -138,7 +138,7 @@ $$R_p = (R_i)_{i \in I}$$
 
 où chaque $R\_i$ est une relation de degré quelconque définie sur $X$. Chaque relation $R\_i$ correspond à un type de lien possible entre les éléments de $X$.
 
-Chaque relation peut être formalisée de deux manières : comme une **relation logique** — binaire, le lien existe ou n'existe pas — ou comme une **relation valuée** — le lien porte une valeur, une intensité, un poids. La relation logique est un cas particulier de la relation valuée. *(Voir Annexe — Relations logiques et valuées.)*
+Chaque relation peut être formalisée de deux manières : comme une **relation logique** — binaire, le lien existe ou n'existe pas — ou comme une **relation valuée** — le lien porte une valeur, une intensité, un poids. La relation logique est un cas particulier de la relation valuée.
 
 À un instant donné, seules certaines de ces relations sont actives. Cette distinction est capitale : un lien possible n'est pas un lien effectif.
 
@@ -165,8 +165,6 @@ Lorsque les relations sont valuées, on peut enrichir cette description : l'amit
 #### Convention
 
 **Dans la suite de ce texte, le mot *relation* désigne indifféremment une relation logique ou valuée.** Les définitions et raisonnements s'appliquent aux deux cas. Le lecteur peut, selon sa préférence, adopter l'une ou l'autre formalisation — la relation logique pour la simplicité, la relation valuée pour la généralité. La notation reste la même : $R\_i$ pour les relations possibles, $r\_i$ pour les relations effectives.
-
-*(Voir Annexe — Prérequis mathématiques : N-uplets, Relations, Applications.)*
 
 ---
 
@@ -215,8 +213,6 @@ La topologie est donc, *a priori*, indépendante des relations. Deux éléments 
 Toutefois, les relations peuvent *influencer* la topologie. Si la configuration d'un état modifie la structure de voisinage, la topologie effective s'en trouve altérée. Cette influence peut être interprétée comme une **courbure** de la topologie de base, induite par les relations — de la même manière que, en physique, la distribution de masse courbe l'espace-temps.
 
 *Remarque.* Lorsque les relations sont valuées et portent des valeurs numériques (par exemple une intensité ou une affinité), elles peuvent induire naturellement une notion de distance entre éléments — et donc une topologie. La topologie n'est alors plus seulement indépendante des relations : elle peut en *émerger*.
-
-*(Voir Annexe — Prérequis mathématiques : Topologie.)*
 
 Lorsqu'on dispose d'une **distance** — une fonction qui assigne à chaque paire d'éléments un nombre positif mesurant leur écart — celle-ci induit naturellement une topologie : les voisinages sont les « boules » de rayon donné autour de chaque point. Mais une topologie est plus générale qu'une distance : elle capture la proximité sans exiger de la quantifier.
 
@@ -298,7 +294,7 @@ De même que $Y$ contient toutes les configurations concevables, on peut défini
 >
 > $$Z(Y) = \{a:E\rightarrow E \in E^E \mid E\subseteq Y\}$$
 >
-> où $E^E$ désigne l'ensemble de toutes les applications de $E$ dans $E$ *(voir Annexe — Prérequis mathématiques : Applications)*.
+> où $E^E$ désigne l'ensemble de toutes les applications de $E$ dans $E$.
 >
 > *Remarque.* On peut aussi écrire $Z(Y) = \bigcup_{E \subseteq Y} E^E$, l'union étant prise sur tous les sous-ensembles $E$ de $Y$.
 >
@@ -356,8 +352,6 @@ On distingue par ailleurs deux grandes familles de temps, selon la structure de 
 **Temps continu.** $T$ est un intervalle de $\mathbb{R}$ (ou plus généralement un ensemble dense) : entre deux instants quelconques, il en existe toujours d'autres. L'évolution ne procède plus par pas mais par flux — la notion d'action doit alors être repensée.
 
 Le choix entre temps discret et temps continu n'est pas posé ici comme un axiome. Il dépend du système étudié et sera précisé dans la section suivante, lors de la définition des systèmes dynamiques.
-
-*(Voir Annexe — Prérequis mathématiques : Relations d'ordre.)*
 
 ---
 
@@ -439,8 +433,6 @@ Mais le présent texte a une vocation ontologique. Si $\Omega$ intervient dans l
 
 Ces pistes ne sont pas mutuellement exclusives. Elles peuvent coexister dans un même système, à des échelles différentes. Ce qui importe pour la suite, c'est que $\Omega$ — quelle que soit son origine — est structuré par une **mesure de probabilité** $P$. Et c'est cette mesure qui rend le hasard *utilisable* : elle transforme l'indétermination brute en connaissance statistique.
 
-*(Voir Annexe — Prérequis mathématiques : Probabilités.)*
-
 ---
 
 ### L'infini
@@ -472,8 +464,6 @@ Si le temps est **infini**, le monde a toujours existé, sans commencement. L'es
 Les deux alternatives sont inconfortables. Ce n'est peut-être pas un défaut du raisonnement : c'est la marque que la question touche quelque chose d'irréductible, une limite de la pensée face à ce qui la dépasse.
 
 Ce texte ne tranche pas. Le temps est modélisé comme un ensemble ordonné — fini ou infini, discret ou continu selon le système étudié. La question de son étendue réelle demeure sans réponse.
-
-*(Voir Annexe — Prérequis mathématiques : Ensembles, Infini et cardinalité.)*
 
 ---
 
@@ -543,11 +533,11 @@ Toutefois, le système actif ne précise pas encore *quand* ni *comment* ces act
 
 > **Définition 16 — Système valué**
 > 
-> Un système (passif ou actif) est dit **valué** lorsque ses relations possibles sont des relations valuées *(voir Annexe — Relations logiques et valuées)* — c'est-à-dire lorsqu'elles prennent leurs valeurs dans des espaces de valuation $W_i$ plus riches que $\\{0, 1\\}$.
+> Un système (passif ou actif) est dit **valué** lorsque ses relations possibles sont des relations valuées — c'est-à-dire lorsqu'elles prennent leurs valeurs dans des espaces de valuation $W_i$ plus riches que $\\{0, 1\\}$.
 
 Le qualificatif *valué* n'est pas un type de système supplémentaire : c'est une **propriété** qui peut s'appliquer à tout système. Un système passif peut être valué ou non ; un système actif peut être valué ou non. Cette distinction sera également pertinente pour les systèmes dynamiques.
 
-Un système dont toutes les relations sont logiques *(voir Annexe — Relations logiques et valuées)* est dit **logique**. Tout système logique est un cas particulier d'un système valué (avec $W_i = \\{0, 1\\}$).
+Un système dont toutes les relations sont logiques est dit **logique**. Tout système logique est un cas particulier d'un système valué (avec $W_i = \\{0, 1\\}$).
 
 ---
 
@@ -636,7 +626,7 @@ Si $\mathcal{D}$ est déterministe en tout état, la trajectoire est entièremen
 
 *Exemple.* Un automate cellulaire : la règle est fixe, mais l'action appliquée à chaque cellule dépend de sa configuration locale. Un écosystème : les pressions sélectives (forces) dépendent de la composition actuelle des populations (état).
 
-*Remarque.* On peut combiner les dépendances. Un système dont le champ de forces évolue dans le temps — $(\mathcal{D}\_t)\_{t \in T}$ — est à la fois évolutif et réflexif : les forces dépendent de l'état *et* changent au cours du temps. Ce cas, plus général, sera exploré dans les textes suivants.
+*Remarque.* On peut combiner les dépendances. Un système dont le champ de forces évolue dans le temps — $(\mathcal{D}\_t)\_{t \in T}$ — est à la fois évolutif et réflexif : les forces dépendent de l'état *et* changent au cours du temps. Ce cas, plus général, n'est pas développé ici.
 
 ---
 
@@ -814,7 +804,7 @@ Il a posé le **flot** comme analogue continu de l'action itérée, décliné la
 
 Mais une question demeure ouverte. Le formalisme décrit *quels* états sont possibles, *quelles* actions existent, *comment* les trajectoires sont construites. Il ne dit pas encore *pourquoi* certaines transformations se produisent réellement. Qu'est-ce qui oriente les forces ? Qu'est-ce qui privilégie certaines trajectoires plutôt que d'autres ?
 
-La réponse ne relève plus de la structure logique, mais d'une dimension supplémentaire : la répartition des quantités qui circulent entre les éléments — ce que le texte suivant, [*Système : Vision énergétique*]({{ '/textes/reflexions/systeme-vision-energetique/' | relative_url }}), introduira sous la forme d'une **vision énergétique**.
+La réponse ne relève plus de la structure logique, mais d'une dimension supplémentaire : la répartition des quantités qui circulent entre les éléments — ce que [*Système : Vision énergétique*]({{ '/textes/reflexions/systeme-vision-energetique/' | relative_url }}) introduit sous la forme d'une **vision énergétique**.
 
 ---
 
