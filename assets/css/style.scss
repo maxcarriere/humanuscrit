@@ -1557,8 +1557,9 @@ html[data-darkreader-mode] .parchment-content .review-stars {
     max-width: 100%;
   }
 
+  /* Mobile : liens vers les projets liés masqués pour alléger le footer */
   .footer-projects {
-    font-size: 0.6rem;
+    display: none;
   }
 }
 
