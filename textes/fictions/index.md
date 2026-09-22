@@ -3,7 +3,7 @@ title: Fictions – Récits
 ---
 *Raconter*
 
-Cette section regroupe les textes de fiction du corpus d'Humanuscrit — romans, nouvelles, récits.
+Cette section regroupe les textes de fiction du corpus d'Humanuscrit — romans, nouvelles, histoires, récits.
 
 ---
 
