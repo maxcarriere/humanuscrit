@@ -8,6 +8,8 @@ author:
   name: Max Carrière
 theme: minima
 
+goatcounter_code: humanuscrit
+
 # Laisser $$ et $ intacts pour KaTeX ; limiter l’interprétation tableau (pipe en blockquote)
 kramdown:
   input: GFM
