@@ -3,7 +3,7 @@ title: "Qu'il est bon d'être fou..."
 order: 1
 ---
 
-<p style="text-align: center;"><em>Texte écrit à 100% par la main humaine, sans l'assistance d'une Intelligence Artificielle.</em></p>
+<p style="text-align: center;"><em>Écrit par Max Carrière, sans l'assistance d'une IA.</em></p>
 
 ---
 
