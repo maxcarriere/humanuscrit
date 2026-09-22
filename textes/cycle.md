@@ -9,7 +9,7 @@ Le corpus s'organise autour d'un cycle, au sein duquel chaque texte pourra prend
 
 <h3 style="text-align: center;">Premier mouvement : Raconter</h3>
 <p style="text-align: center;">
-Textes : Fictions<br>
+Textes : <a href="{{ '/textes/fictions/' | relative_url }}">Fictions</a><br>
 Domaine : Récit / Histoire
 </p>
 
@@ -19,7 +19,7 @@ Le premier mouvement consiste à raconter le réel, à produire des histoires à
 
 <h3 style="text-align: center;">Deuxième mouvement : Penser</h3>
 <p style="text-align: center;">
-Textes : Réflexions<br>
+Textes : <a href="{{ '/textes/reflexions/' | relative_url }}">Réflexions</a><br>
 Domaine : Philosophie / Science
 </p>
 
@@ -29,7 +29,7 @@ Le deuxième mouvement consiste à prendre du recul sur ces récits. Passer nos 
 
 <h3 style="text-align: center;">Troisième mouvement : Se Représenter</h3>
 <p style="text-align: center;">
-Textes : Méditations<br>
+Textes : <a href="{{ '/textes/reflexivite-conscience/' | relative_url }}">Méditations</a><br>
 Domaine : Conscience / Réflexivité
 </p>
 
@@ -39,7 +39,7 @@ Le troisième mouvement consiste à retourner le regard vers soi. Après avoir o
 
 <h3 style="text-align: center;">Quatrième mouvement : Éveiller</h3>
 <p style="text-align: center;">
-Textes : Contemplations<br>
+Textes : <a href="{{ '/textes/contes-poesie-eveil/' | relative_url }}">Contemplations</a><br>
 Domaine : Contes / Poésie
 </p>
 
@@ -49,7 +49,7 @@ Le quatrième mouvement consiste à dépasser l'analyse. On ne cherche plus à d
 
 <h3 style="text-align: center;">Cinquième mouvement : Être</h3>
 <p style="text-align: center;">
-Textes : Incarnations<br>
+Textes : <a href="{{ '/textes/temoignages-personnel/' | relative_url }}">Incarnations</a><br>
 Domaine : Témoignage / Biographie
 </p>
 
@@ -59,7 +59,7 @@ Le cinquième mouvement consiste à ne plus raconter, ne plus penser, ne plus r�
 
 <h3 style="text-align: center;">Sixième mouvement : Transformer</h3>
 <p style="text-align: center;">
-Textes : Propositions<br>
+Textes : <a href="{{ '/textes/politique-societe/' | relative_url }}">Propositions</a><br>
 Domaine : Politique / Société
 </p>
 
