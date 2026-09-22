@@ -3,7 +3,7 @@ title: Incarnations — Témoignage / Biographie
 ---
 *Être*
 
-Cette section accueille les témoignages et textes personnels : récits d’expérience, parcours singuliers et incarnations du projet dans une voix et un vécu concrets.
+Cette section rassemble les textes personnels : témoignages, biographies et récits d'expérience où la pensée s'incarne avec une voix sincère et un vécu singuliers.
 
 ---
 
