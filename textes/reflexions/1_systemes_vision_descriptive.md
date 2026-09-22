@@ -12,23 +12,23 @@ brouillon: true
 
 ---
 
-Le chapitre précédent a posé les conditions de l'existence : des éléments distingués, agencés en une configuration cohérente, qui se transforme dans un cadre d'espace et de temps. Il a identifié trois principes fondamentaux — distinction, configuration, transformation — et montré que le réel peut être pensé comme une succession de configurations engendrée par des transformations opérant sur des éléments distingués.
+Le texte précédent, [*Existence*]({{ '/textes/reflexions/chapitre-0-existence/' | relative_url }}), a posé les conditions de l'existence : des éléments distingués, agencés en une configuration cohérente, qui se transforme dans un cadre d'espace et de temps. Il a identifié trois principes fondamentaux — distinction, configuration, transformation — et montré que le réel peut être pensé comme une succession de configurations engendrée par des transformations opérant sur des éléments distingués.
 
 Il avait aussi noté, dans sa clôture, que tous les ingrédients d'un système étaient déjà en place — sans que le mot ait été prononcé.
 
 C'est maintenant qu'il faut le prononcer, et surtout le formaliser. Car une idée qui ne peut pas se traduire en une structure précise n'est peut-être pas aussi claire qu'elle le semble.
 
-Le présent chapitre propose un formalisme minimal pour la notion de système. Il ne s'agit pas de construire un appareil mathématique destiné au calcul. Il s'agit de poser un vocabulaire formel dont chaque terme a une signification exacte, dont les relations entre termes sont explicites, et qui soit suffisamment général pour s'appliquer à n'importe quel domaine — physique, biologique, social, cognitif — sans dépendre d'aucun.
+Le présent texte propose un formalisme minimal pour la notion de système. Il ne s'agit pas de construire un appareil mathématique destiné au calcul. Il s'agit de poser un vocabulaire formel dont chaque terme a une signification exacte, dont les relations entre termes sont explicites, et qui soit suffisamment général pour s'appliquer à n'importe quel domaine — physique, biologique, social, cognitif — sans dépendre d'aucun.
 
 Conformément à ce qui est annoncé dans le préambule, chaque définition formelle est accompagnée d'une explication en langage naturel. Le lecteur peu familier avec la notation mathématique peut se concentrer sur le texte sans perdre le fil du raisonnement — les formules ne sont qu'une cristallisation de ce qui est dit en mots.
 
-Ce formalisme s'articule autour de trois espaces fondamentaux, qui correspondent exactement aux trois principes du chapitre 0 :
+Ce formalisme s'articule autour de trois espaces fondamentaux, qui correspondent exactement aux trois principes d'*Existence* :
 
 - **$X$** — l'espace des **distinctions** possibles,
 - **$Y$** — l'espace des **configurations** possibles,
 - **$Z$** — l'espace des **transformations** possibles.
 
-Le chapitre se divise en trois parties. La première introduit le graphe comme structure formelle minimale et construit l'espace des configurations. La deuxième pose le vocabulaire — état, action, force, temps, trajectoire — sans encore parler de système. La troisième assemble ce vocabulaire pour définir les différents types de systèmes — en temps discret d'abord, puis en esquissant une extension au temps continu dont le traitement complet dépasse le cadre de ce chapitre.
+Le texte se divise en trois parties. La première introduit le graphe comme structure formelle minimale et construit l'espace des configurations. La deuxième pose le vocabulaire — état, action, force, temps, trajectoire — sans encore parler de système. La troisième assemble ce vocabulaire pour définir les différents types de systèmes — en temps discret d'abord, puis en esquissant une extension au temps continu dont le traitement complet dépasse le cadre de ce texte.
 
 ---
 
@@ -36,7 +36,7 @@ Le chapitre se divise en trois parties. La première introduit le graphe comme s
 
 ### De la distinction au graphe
 
-Le chapitre 0 posait la distinction comme premier acte de l'existence : séparer *ceci* de *cela*, reconnaître qu'il y a des choses, et que ces choses ne sont pas les mêmes. Il posait ensuite la configuration comme l'agencement de ces éléments distingués — la manière dont ils sont reliés les uns aux autres.
+*Existence* posait la distinction comme premier acte de l'existence : séparer *ceci* de *cela*, reconnaître qu'il y a des choses, et que ces choses ne sont pas les mêmes. Il posait ensuite la configuration comme l'agencement de ces éléments distingués — la manière dont ils sont reliés les uns aux autres.
 
 Il nous faut maintenant une structure formelle capable d'exprimer ces idées — une structure assez simple pour être universelle, assez riche pour supporter tout ce qui suivra.
 
@@ -51,7 +51,7 @@ Cette structure existe. C'est le **graphe**.
 
 Un sommet représente un élément distingué — une entité identifiable, séparée des autres. Un lien représente une relation — une dépendance, une proximité, une compatibilité. Le lien ne présuppose rien de physique : il exprime simplement le fait que deux éléments ne sont pas indépendants l'un de l'autre.
 
-Le graphe est la traduction directe, en langage formel, de ce que le chapitre 0 décrivait en langage naturel :
+Le graphe est la traduction directe, en langage formel, de ce qu'*Existence* décrivait en langage naturel :
 
 - **distinguer** des éléments → les sommets du graphe ;
 - **configurer** leurs relations → les liens du graphe ;
@@ -118,7 +118,7 @@ Le graphe n'est pas encore un système. Il constitue seulement le **support stru
 
 Un graphe particulier est un *élément* de $Y(X)$ — une configuration parmi toutes celles qui sont concevables. Dire « voici un graphe » revient à dire « parmi toutes les manières possibles de relier ces éléments, voici celle qui est effectivement réalisée ».
 
-Le graphe formalise les deux premiers principes du chapitre 0 — distinction et configuration. Mais il lui manque encore le troisième — la **transformation** — et surtout un principe de sélection : la **contrainte**, qui fera le tri entre le concevable et l'admissible.
+Le graphe formalise les deux premiers principes d'*Existence* — distinction et configuration. Mais il lui manque encore le troisième — la **transformation** — et surtout un principe de sélection : la **contrainte**, qui fera le tri entre le concevable et l'admissible.
 
 ---
 
@@ -312,13 +312,13 @@ $$X \longrightarrow Y(X) \longrightarrow Z(Y(X))$$
 
 Les distinctions engendrent les configurations, qui engendrent les transformations. Chaque espace est construit à partir du précédent. En notation abrégée :
 
-| Espace | Notation complète | Contenu                       | Principe du chapitre 0 |
+| Espace | Notation complète | Contenu                       | Principe d'*Existence* |
 | ------ | ----------------- | ----------------------------- | ---------------------- |
 | $X$    | $X$               | Les distinctions possibles    | Distinction            |
 | $Y$    | $Y(X)$            | Les configurations possibles  | Configuration          |
 | $Z$    | $Z(Y)$            | Les transformations possibles | Transformation         |
 
-Chaque espace correspond exactement à l'un des trois principes fondamentaux identifiés au chapitre 0. Ce n'est pas une coïncidence — c'est le signe que le formalisme traduit fidèlement l'ontologie.
+Chaque espace correspond exactement à l'un des trois principes fondamentaux identifiés dans *Existence*. Ce n'est pas une coïncidence — c'est le signe que le formalisme traduit fidèlement l'ontologie.
 
 ---
 
@@ -335,7 +335,7 @@ Le temps est le cadre dans lequel les transformations s'ordonnent.
 > - le **passé** : $T_{<t} = \\{ u \in T \mid u < t \\}$
 > - le **futur** : $T_{>t} = \\{ u \in T \mid t < u \\}$
 
-Le temps n'est pas nécessairement régulier, ni même linéaire. Sa définition minimale est celle que le chapitre 0 avait déjà posée : un *avant* et un *après*. Le temps est l'ordre causal.
+Le temps n'est pas nécessairement régulier, ni même linéaire. Sa définition minimale est celle qu'*Existence* avait déjà posée : un *avant* et un *après*. Le temps est l'ordre causal.
 
 Le temps n'est pas un contenant préalable dans lequel les événements viendraient se loger. Il est la *trace* des transformations elles-mêmes. S'il n'y a pas de transformation, il n'y a pas de temps.
 
@@ -443,7 +443,7 @@ Ces pistes ne sont pas mutuellement exclusives. Elles peuvent coexister dans un 
 
 ### L'infini
 
-Le formalisme construit dans ce chapitre convoque, presque sans le dire, des ensembles qui peuvent être infinis. L'espace des distinctions $X$, l'espace des configurations $Y$, l'espace des transformations $Z$, le temps $T$ — aucun de ces objets n'est a priori fini. La question de l'infini est donc latente dans chaque définition.
+Le formalisme construit dans ce texte convoque, presque sans le dire, des ensembles qui peuvent être infinis. L'espace des distinctions $X$, l'espace des configurations $Y$, l'espace des transformations $Z$, le temps $T$ — aucun de ces objets n'est a priori fini. La question de l'infini est donc latente dans chaque définition.
 
 Mais de quel infini s'agit-il ? Et surtout : cet infini est-il une réalité ou un outil ?
 
@@ -457,7 +457,7 @@ Mais de quel infini s'agit-il ? Et surtout : cet infini est-il une réalité ou
 
 Ces deux visages de l'infini ne sont pas indépendants : le continu de $\mathbb{R}$ est à la fois infiniment divisible et strictement plus grand que $\mathbb{N}$.
 
-**L'infini dans le formalisme.** La question de l'infinité traverse chacune des composantes définies dans ce chapitre. L'espace des distinctions $X$ peut-il contenir infiniment nombreux éléments distinguables ? L'espace des configurations $Y(X)$ croît exponentiellement avec la taille de $X$ — si $X$ est infini, $Y$ peut devenir indénombrable. Le temps $T$ peut être fini ou infini, discret ou continu, chaque choix engageant une ontologie différente. Les relations valuées dans des espaces continus introduisent l'infini jusque dans les états eux-mêmes.
+**L'infini dans le formalisme.** La question de l'infinité traverse chacune des composantes définies dans ce texte. L'espace des distinctions $X$ peut-il contenir infiniment nombreux éléments distinguables ? L'espace des configurations $Y(X)$ croît exponentiellement avec la taille de $X$ — si $X$ est infini, $Y$ peut devenir indénombrable. Le temps $T$ peut être fini ou infini, discret ou continu, chaque choix engageant une ontologie différente. Les relations valuées dans des espaces continus introduisent l'infini jusque dans les états eux-mêmes.
 
 La réponse à ces questions n'est pas fixée ici, et elle n'affecte pas la validité des définitions données — celles-ci s'appliquent aux cas finis comme aux cas infinis. On notera cependant que certaines constructions sur des ensembles infinis peuvent requérir l'**axiome du choix** — qui affirme qu'on peut sélectionner simultanément un élément dans chacun d'une infinité d'ensembles. Cet axiome, lui aussi non évident, fait l'objet de débats fondationnels.
 
@@ -527,7 +527,7 @@ C'est ici que la **contrainte** entre en jeu. Elle n'est pas un élément explic
 > 
 > Toute action admissible prend un état admissible et produit un état admissible.
 
-Le système actif enrichit le système passif : il décrit non seulement ce qui peut exister, mais aussi comment cela peut être *transformé*. C'est le premier niveau où apparaît la transformation au sens du chapitre 0.
+Le système actif enrichit le système passif : il décrit non seulement ce qui peut exister, mais aussi comment cela peut être *transformé*. C'est le premier niveau où apparaît la transformation au sens d'*Existence*.
 
 Le fait que les actions soient définies directement sur $E$ traduit une exigence de **cohérence** : une action ne peut s'appliquer qu'à un état admissible, et doit produire un état lui-même admissible. Le système ne peut pas s'échapper de ses propres contraintes par une action interne.
 
@@ -634,7 +634,7 @@ Si $\mathcal{D}$ est déterministe en tout état, la trajectoire est entièremen
 
 *Exemple.* Un automate cellulaire : la règle est fixe, mais l'action appliquée à chaque cellule dépend de sa configuration locale. Un écosystème : les pressions sélectives (forces) dépendent de la composition actuelle des populations (état).
 
-*Remarque.* On peut combiner les dépendances. Un système dont le champ de forces évolue dans le temps — $(\mathcal{D}\_t)\_{t \in T}$ — est à la fois évolutif et réflexif : les forces dépendent de l'état *et* changent au cours du temps. Ce cas, plus général, sera exploré dans les chapitres suivants.
+*Remarque.* On peut combiner les dépendances. Un système dont le champ de forces évolue dans le temps — $(\mathcal{D}\_t)\_{t \in T}$ — est à la fois évolutif et réflexif : les forces dépendent de l'état *et* changent au cours du temps. Ce cas, plus général, sera exploré dans les textes suivants.
 
 ---
 
@@ -798,11 +798,11 @@ Et c'est cette hiérarchie qui structurera la suite de la réflexion. Les systè
 
 ---
 
-## Clôture du chapitre 1
+## Clôture
 
-Ce chapitre a posé le vocabulaire formel de la description systémique.
+Ce texte a posé le vocabulaire formel de la description systémique.
 
-Il a introduit trois espaces fondamentaux — $X$ (distinctions), $Y(X)$ (configurations), $Z(Y)$ (transformations) — qui traduisent en formalisme les trois principes du chapitre 0 et forment une chaîne de dépendance logique : $X \to Y(X) \to Z(Y(X))$.
+Il a introduit trois espaces fondamentaux — $X$ (distinctions), $Y(X)$ (configurations), $Z(Y)$ (transformations) — qui traduisent en formalisme les trois principes d'*Existence* et forment une chaîne de dépendance logique : $X \to Y(X) \to Z(Y(X))$.
 
 Il a défini le **graphe** comme structure minimale, l'**état** comme couple d'éléments présents et de relations effectives — $e = (A, R)$ —, la **topologie** comme structure de voisinage dont un état peut être muni, faisant de lui un espace topologique $e = (A, R, T)$, l'**action** comme transformation d'une configuration, la **force** comme sélection — possiblement aléatoire — d'une action, le **hasard** comme espace d'indétermination ($\Omega$) dont la nature — épistémique ou ontologique — reste ouverte, le **temps** comme ordre causal, et la **trajectoire** comme histoire. Il a questionné le statut de l'**infini** — axiome mathématique ou réalité, infiniment grand ou infiniment petit — et noté le paradoxe auquel conduit toute hypothèse sur l'étendue du temps. Il a proposé deux formalisations des relations — **logique** (binaire) et **valuée** (à valeurs dans un espace $W_i$) — la première étant un cas particulier de la seconde.
 
@@ -812,13 +812,13 @@ Il a posé le **flot** comme analogue continu de l'action itérée, décliné la
 
 Mais une question demeure ouverte. Le formalisme décrit *quels* états sont possibles, *quelles* actions existent, *comment* les trajectoires sont construites. Il ne dit pas encore *pourquoi* certaines transformations se produisent réellement. Qu'est-ce qui oriente les forces ? Qu'est-ce qui privilégie certaines trajectoires plutôt que d'autres ?
 
-La réponse ne relève plus de la structure logique, mais d'une dimension supplémentaire : la répartition des quantités qui circulent entre les éléments — ce que le chapitre suivant introduira sous la forme d'une **vision énergétique**.
+La réponse ne relève plus de la structure logique, mais d'une dimension supplémentaire : la répartition des quantités qui circulent entre les éléments — ce que le texte suivant, [*Système : Vision énergétique*]({{ '/textes/reflexions/chapitre-2-systemes-vision-dynamique/' | relative_url }}), introduira sous la forme d'une **vision énergétique**.
 
 ---
 
 ## Références
 
-- **Bertalanffy, Ludwig von** — *Théorie générale des systèmes* (Dunod, trad. fr.). Le texte fondateur de la pensée systémique. Pose les bases d'une théorie du système applicable à tous les domaines — biologie, physique, sciences sociales — et anticipe une grande partie du vocabulaire développé dans ce chapitre.
+- **Bertalanffy, Ludwig von** — *Théorie générale des systèmes* (Dunod, trad. fr.). Le texte fondateur de la pensée systémique. Pose les bases d'une théorie du système applicable à tous les domaines — biologie, physique, sciences sociales — et anticipe une grande partie du vocabulaire développé dans ce texte.
 
 - **Morin, Edgar** — *Introduction à la pensée complexe* (Seuil, 1990). Moins formel que le présent texte, mais riche en intuitions sur les notions de relation, de rétroaction et d'émergence. À lire comme complément qualitatif — une façon d'habiter les concepts avant de les formaliser.
 

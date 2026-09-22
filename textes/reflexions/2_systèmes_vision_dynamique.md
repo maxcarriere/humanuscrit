@@ -12,13 +12,13 @@ brouillon: true
 
 ---
 
-Le chapitre précédent a posé le vocabulaire formel de la description systémique. Il a défini l'état comme un couple d'éléments présents et de relations effectives, l'action comme une transformation d'une configuration, la force comme une sélection d'action, le champ de forces $\mathcal{D}$ comme ce qui associe à chaque état la force qui s'y exerce. Il a proposé une hiérarchie — systèmes statiques, dynamiques simples, évolutifs, réflexifs — et décliné cette hiérarchie en temps discret et en temps continu.
+Le texte précédent, [*Système : Vision descriptive*]({{ '/textes/reflexions/chapitre-1-systemes-vision-descriptive/' | relative_url }}), a posé le vocabulaire formel de la description systémique. Il a défini l'état comme un couple d'éléments présents et de relations effectives, l'action comme une transformation d'une configuration, la force comme une sélection d'action, le champ de forces $\mathcal{D}$ comme ce qui associe à chaque état la force qui s'y exerce. Il a proposé une hiérarchie — systèmes statiques, dynamiques simples, évolutifs, réflexifs — et décliné cette hiérarchie en temps discret et en temps continu.
 
 Mais il a laissé une question ouverte, annoncée dans sa clôture : le formalisme décrit *ce qui peut changer* et *comment* cela peut changer. Il ne dit pas encore *pourquoi* certaines transformations se produisent effectivement. Qu'est-ce qui oriente le champ de forces $\mathcal{D}$ ? Qu'est-ce qui fait qu'un système évolue dans une direction plutôt que dans une autre ?
 
-La réponse tient dans une idée. Les transformations ne sont pas arbitraires. Elles sont orientées par la distribution des quantités qui s'accumulent dans les éléments du système et qui circulent dans ses liens. Ces quantités — que nous appellerons **énergie** — ne constituent pas un ingrédient nouveau ajouté de l'extérieur. Elles sont la *valuation* du système : elles habitent la structure formelle du chapitre précédent et lui donnent sa direction.
+La réponse tient dans une idée. Les transformations ne sont pas arbitraires. Elles sont orientées par la distribution des quantités qui s'accumulent dans les éléments du système et qui circulent dans ses liens. Ces quantités — que nous appellerons **énergie** — ne constituent pas un ingrédient nouveau ajouté de l'extérieur. Elles sont la *valuation* du système : elles habitent la structure formelle du texte précédent et lui donnent sa direction.
 
-Ce chapitre superpose à la vision structurelle du chapitre précédent une **vision énergétique**. Son premier travail est de définir précisément ce qu'est un système énergétique — non comme une nouvelle classe d'objet, mais comme une spécification particulière des systèmes valués introduits au chapitre 1. Son deuxième travail est de montrer comment cette spécification engendre une dynamique : pourquoi et comment les systèmes évoluent, vers quoi ils tendent, et ce qui peut résister à cette tendance.
+Ce texte superpose à la vision structurelle du texte précédent une **vision énergétique**. Son premier travail est de définir précisément ce qu'est un système énergétique — non comme une nouvelle classe d'objet, mais comme une spécification particulière des systèmes valués introduits dans *Vision descriptive*. Son deuxième travail est de montrer comment cette spécification engendre une dynamique : pourquoi et comment les systèmes évoluent, vers quoi ils tendent, et ce qui peut résister à cette tendance.
 
 ---
 
@@ -26,9 +26,9 @@ Ce chapitre superpose à la vision structurelle du chapitre précédent une **vi
 
 ### La question de la valuation
 
-Au chapitre précédent, nous avons introduit les **systèmes valués** (Définition 16) : des systèmes dont les relations possibles prennent leurs valeurs dans des espaces $W_i$ plus riches que $\{0, 1\}$. La valuation enrichit la description : au lieu de simplement noter qu'un lien existe ou non, on lui attribue une intensité, un poids, une capacité.
+Dans le texte précédent, nous avons introduit les **systèmes valués** (Définition 16) : des systèmes dont les relations possibles prennent leurs valeurs dans des espaces $W_i$ plus riches que $\{0, 1\}$. La valuation enrichit la description : au lieu de simplement noter qu'un lien existe ou non, on lui attribue une intensité, un poids, une capacité.
 
-Cette valuation peut porter sur les liens — un poids attribué à chaque relation. Mais rien n'interdit qu'elle porte aussi sur les *éléments* eux-mêmes — une quantité attribuée à chaque nœud. Le chapitre précédent avait posé l'état comme un couple $(A, R)$ : un ensemble d'éléments présents et de relations effectives. Nous avions noté que les relations valuées permettaient à l'espace des états d'acquérir une géométrie. C'est cette idée que nous allons maintenant développer dans une direction particulière.
+Cette valuation peut porter sur les liens — un poids attribué à chaque relation. Mais rien n'interdit qu'elle porte aussi sur les *éléments* eux-mêmes — une quantité attribuée à chaque nœud. Le texte précédent avait posé l'état comme un couple $(A, R)$ : un ensemble d'éléments présents et de relations effectives. Nous avions noté que les relations valuées permettaient à l'espace des états d'acquérir une géométrie. C'est cette idée que nous allons maintenant développer dans une direction particulière.
 
 Un système énergétique est un système valué dans lequel la valuation porte simultanément sur les nœuds (une *quantité* accumulée dans chaque élément) et sur les liens (une *facilité de passage* entre chaque paire d'éléments), et dans lequel une loi précise relie ces deux valuations pour produire une dynamique.
 
@@ -36,7 +36,7 @@ Un système énergétique est un système valué dans lequel la valuation porte 
 
 ### Stocks et conductivités : la double valuation
 
-Soit un système au sens du chapitre 1, dont les éléments présents à un instant donné forment l'ensemble $A \subseteq X$, reliés par une famille de liens effectifs $L \subseteq A \times A$.
+Soit un système au sens de *Vision descriptive*, dont les éléments présents à un instant donné forment l'ensemble $A \subseteq X$, reliés par une famille de liens effectifs $L \subseteq A \times A$.
 
 Enrichissons ce système de deux fonctions :
 
@@ -78,7 +78,7 @@ Les ingrédients sont posés. Nous pouvons maintenant les assembler en une défi
 
 > **Définition 24 — Système énergétique**
 > 
-> Un **système énergétique** est un système valué (au sens de la Définition 16 du chapitre 1) dont la structure de valuation est spécifiée comme suit :
+> Un **système énergétique** est un système valué (au sens de la Définition 16 de *Vision descriptive*) dont la structure de valuation est spécifiée comme suit :
 > 
 > - Les éléments présents $A$ sont munis d'une **fonction de stock** $E : A \to \mathbb{R}^+$ ;
 > - Les liens effectifs $L$ sont munis d'une **fonction de conductivité** $K : L \to \mathbb{R}^+$ ;
@@ -87,9 +87,9 @@ Les ingrédients sont posés. Nous pouvons maintenant les assembler en une défi
 > 
 > L'état énergétique du système à un instant donné est le quadruplet $e = (A, R, E, K)$.
 
-Un système énergétique est donc un système valué muni d'une loi supplémentaire — la loi de flux — qui transforme la valuation statique en une dynamique. Cette loi fait du système énergétique un **système dynamique réflexif** au sens du chapitre 1 (Définitions 19 et 22) : la force exercée sur le système dépend de son état, puisque les flux dépendent des stocks et des conductivités qui constituent cet état.
+Un système énergétique est donc un système valué muni d'une loi supplémentaire — la loi de flux — qui transforme la valuation statique en une dynamique. Cette loi fait du système énergétique un **système dynamique réflexif** au sens de *Vision descriptive* (Définitions 19 et 22) : la force exercée sur le système dépend de son état, puisque les flux dépendent des stocks et des conductivités qui constituent cet état.
 
-Ce point mérite d'être souligné. Au chapitre précédent, le champ de forces $\mathcal{D}$ était posé de manière abstraite — il associait à chaque état une force, sans dire comment cette force était déterminée. Le système énergétique est la première réponse concrète à cette abstraction. La force y est **déterministe** : les gradients prescrivent entièrement l'évolution, sans hasard résiduel. Le champ $\mathcal{D}$ associe à chaque état $e = (A, R, E, K)$ la force qui sélectionne l'action du bilan — c'est-à-dire la transformation qui fait évoluer chaque stock selon la somme des flux nets. La structure — les stocks et les conductivités — commande entièrement la dynamique.
+Ce point mérite d'être souligné. Dans le texte précédent, le champ de forces $\mathcal{D}$ était posé de manière abstraite — il associait à chaque état une force, sans dire comment cette force était déterminée. Le système énergétique est la première réponse concrète à cette abstraction. La force y est **déterministe** : les gradients prescrivent entièrement l'évolution, sans hasard résiduel. Le champ $\mathcal{D}$ associe à chaque état $e = (A, R, E, K)$ la force qui sélectionne l'action du bilan — c'est-à-dire la transformation qui fait évoluer chaque stock selon la somme des flux nets. La structure — les stocks et les conductivités — commande entièrement la dynamique.
 
 ---
 
@@ -155,9 +155,9 @@ La loi de flux dit comment les flux sont déterminés. Le **principe de bilan** 
 
 Si un réservoir reçoit plus qu'il ne perd, il se remplit. S'il perd plus qu'il ne reçoit, il se vide. Il n'y a aucune autre possibilité — que le temps soit discret ou continu.
 
-Ce principe *est* la dynamique du système énergétique. Il constitue, dans la terminologie du chapitre 1, un **système dynamique réflexif** (Définitions 19 ou 22 selon que le temps est discret ou continu).
+Ce principe *est* la dynamique du système énergétique. Il constitue, dans la terminologie de *Vision descriptive*, un **système dynamique réflexif** (Définitions 19 ou 22 selon que le temps est discret ou continu).
 
-Ce que le chapitre 1 posait abstraitement — « la force dépend de l'état » — reçoit ici un contenu précis. Dans le système énergétique, la force est **déterministe** : il n'y a pas de hasard dans le choix de l'action, car les gradients la prescrivent entièrement. En temps discret, l'action sélectionnée dans l'état $e$ est la transformation qui avance chaque stock de la somme des flux nets :
+Ce que *Vision descriptive* posait abstraitement — « la force dépend de l'état » — reçoit ici un contenu précis. Dans le système énergétique, la force est **déterministe** : il n'y a pas de hasard dans le choix de l'action, car les gradients la prescrivent entièrement. En temps discret, l'action sélectionnée dans l'état $e$ est la transformation qui avance chaque stock de la somme des flux nets :
 
 $$a_e : E_x \;\mapsto\; E_x + \sum_y K_{xy}(P_y - P_x)$$
 
@@ -228,7 +228,7 @@ La plupart des systèmes intéressants échangent avec leur environnement. Ils r
 
 Un système ouvert possède des **sources** — des apports d'énergie depuis l'extérieur — et des **drains** — des évacuations vers l'extérieur.
 
-Dans la terminologie du chapitre 1, l'environnement peut être modélisé comme un ensemble d'éléments supplémentaires — des sources et drains — qui ne font pas partie du système étudié mais qui entretiennent des flux avec lui. Ces éléments extérieurs agissent comme des réservoirs à potentiel fixé : ils maintiennent certains gradients qui, sans eux, s'épuiseraient.
+Dans la terminologie de *Vision descriptive*, l'environnement peut être modélisé comme un ensemble d'éléments supplémentaires — des sources et drains — qui ne font pas partie du système étudié mais qui entretiennent des flux avec lui. Ces éléments extérieurs agissent comme des réservoirs à potentiel fixé : ils maintiennent certains gradients qui, sans eux, s'épuiseraient.
 
 Ces échanges modifient l'équation de bilan :
 
@@ -272,11 +272,11 @@ La quasi-totalité des systèmes qui présentent un intérêt — organismes, so
 
 ### Les trois niveaux de changement
 
-Jusqu'ici, nous avons décrit la dynamique des stocks pour une structure et des conductivités fixées. Mais le système peut évoluer à trois niveaux distincts — trois échelles de temps emboîtées, qui correspondent exactement aux trois degrés de la hiérarchie du chapitre 1.
+Jusqu'ici, nous avons décrit la dynamique des stocks pour une structure et des conductivités fixées. Mais le système peut évoluer à trois niveaux distincts — trois échelles de temps emboîtées, qui correspondent exactement aux trois degrés de la hiérarchie de *Vision descriptive*.
 
 **Niveau 1 — Les stocks changent.** L'énergie se redistribue entre les éléments. Les flux remplissent certains réservoirs, en vident d'autres. Le graphe reste le même, les conductivités restent les mêmes. Seules les valuations nodales varient. C'est le changement le plus rapide.
 
-Dans la terminologie du chapitre 1, c'est le niveau des **systèmes dynamiques simples** ou **réflexifs** (Définitions 17 et 19) : la structure est fixée, et l'état évolue selon le champ de forces déterminé par les stocks et les conductivités.
+Dans la terminologie de *Vision descriptive*, c'est le niveau des **systèmes dynamiques simples** ou **réflexifs** (Définitions 17 et 19) : la structure est fixée, et l'état évolue selon le champ de forces déterminé par les stocks et les conductivités.
 
 **Niveau 2 — Les conductivités changent.** Les liens deviennent plus ou moins conducteurs au fil du temps. Un lien qui transporte beaucoup de flux peut se renforcer. Un lien inutilisé peut s'affaiblir. C'est le mécanisme de la **plasticité** — observable dans les réseaux neuronaux, les lits de rivière, les routes commerciales, les habitudes cognitives.
 
@@ -288,11 +288,11 @@ On peut le formaliser simplement :
 
 Le paramètre $\alpha$ mesure le renforcement par l'usage, $\beta$ la dégradation par le non-usage. C'est une version abstraite de la règle de Hebb en neuroscience : *ce qui est utilisé se renforce, ce qui ne l'est pas s'atrophie.*
 
-Dans la terminologie du chapitre 1, ce changement correspond au niveau **évolutif** (Définitions 18 et 21) : les paramètres du système varient — ici, les conductivités, qui font partie de la valuation des liens.
+Dans la terminologie de *Vision descriptive*, ce changement correspond au niveau **évolutif** (Définitions 18 et 21) : les paramètres du système varient — ici, les conductivités, qui font partie de la valuation des liens.
 
 **Niveau 3 — La structure change.** Des éléments apparaissent ou disparaissent. Des liens se créent ou se rompent. Le graphe lui-même se transforme. C'est le changement le plus profond — et le plus lent.
 
-Dans la terminologie du chapitre 1, c'est le niveau de la **réflexivité forte** (Définition 19, degrés de réflexivité) : le système modifie non seulement son comportement, mais ses propres capacités d'action — l'ensemble des actions admissibles $\mathcal{A}$ lui-même évolue.
+Dans la terminologie de *Vision descriptive*, c'est le niveau de la **réflexivité forte** (Définition 19, degrés de réflexivité) : le système modifie non seulement son comportement, mais ses propres capacités d'action — l'ensemble des actions admissibles $\mathcal{A}$ lui-même évolue.
 
 Ces trois niveaux sont emboîtés. Le flux redistribue l'énergie (niveau 1), cette redistribution modifie progressivement les conductivités (niveau 2), et ces modifications finissent par transformer la structure elle-même (niveau 3). Chaque niveau crée les conditions du suivant.
 
@@ -334,9 +334,9 @@ $$S = k \times \ln |\Omega|$$
 
 où $\Omega$ est l'ensemble des micro-états compatibles avec ce macro-état et $k$ une constante de proportionnalité.
 
-Si les transformations microscopiques sont sans biais — si chaque transition élémentaire est équiprobable — alors le système passe naturellement plus de temps dans les macro-états à grande classe. Il converge vers l'uniformité, non par force, mais par statistique. C'est le deuxième principe de la thermodynamique — non pas comme loi fondamentale, mais comme conséquence du comptage. On retrouve ici la conception du hasard comme espace d'indétermination que le chapitre 1 avait ouverte dans sa discussion de $\Omega$ : l'entropie mesure la taille de cet espace.
+Si les transformations microscopiques sont sans biais — si chaque transition élémentaire est équiprobable — alors le système passe naturellement plus de temps dans les macro-états à grande classe. Il converge vers l'uniformité, non par force, mais par statistique. C'est le deuxième principe de la thermodynamique — non pas comme loi fondamentale, mais comme conséquence du comptage. On retrouve ici la conception du hasard comme espace d'indétermination que *Vision descriptive* avait ouverte dans sa discussion de $\Omega$ : l'entropie mesure la taille de cet espace.
 
-L'entropie donne au temps sa direction : le futur est ce vers quoi les configurations deviennent plus uniformes, plus probables, moins structurées. Elle est, dans le cadre énergétique, l'expression de ce que le chapitre 1 appelait le paradoxe de l'infini temporel — une flèche dans le temps qui ne s'explique pas par la structure des lois locales, mais par l'asymétrie statistique des configurations.
+L'entropie donne au temps sa direction : le futur est ce vers quoi les configurations deviennent plus uniformes, plus probables, moins structurées. Elle est, dans le cadre énergétique, l'expression de ce que *Vision descriptive* appelait le paradoxe de l'infini temporel — une flèche dans le temps qui ne s'explique pas par la structure des lois locales, mais par l'asymétrie statistique des configurations.
 
 ---
 
@@ -346,7 +346,7 @@ L'**information** est le complément de l'entropie. Elle mesure à quel point un
 
 $$I = S_{\text{max}} - S_{\text{effectif}}$$
 
-L'information ne réside pas dans les stocks eux-mêmes. Elle réside dans les *relations* — dans les gradients, dans les écarts, dans la structure des différences entre ce qui est et ce qui pourrait être. Le gradient entre deux éléments est une propriété relationnelle : il appartient au lien, non à l'un ou l'autre des nœuds pris séparément. C'est ce que le chapitre 1 exprimait dans la distinction entre relations possibles et relations effectives : l'information mesure combien de ces relations sont effectivement contraintes dans la configuration actuelle.
+L'information ne réside pas dans les stocks eux-mêmes. Elle réside dans les *relations* — dans les gradients, dans les écarts, dans la structure des différences entre ce qui est et ce qui pourrait être. Le gradient entre deux éléments est une propriété relationnelle : il appartient au lien, non à l'un ou l'autre des nœuds pris séparément. C'est ce que *Vision descriptive* exprimait dans la distinction entre relations possibles et relations effectives : l'information mesure combien de ces relations sont effectivement contraintes dans la configuration actuelle.
 
 Information, entropie et distance à l'équilibre ne sont pas trois grandeurs indépendantes. Ce sont trois facettes d'une même réalité : le **degré de contrainte** d'un état.
 
@@ -385,7 +385,7 @@ Un système est **complexe** quand il maintient simultanément plusieurs structu
 
 La complexité n'est ni l'ordre (qui est simple : tout est régulier, tout se comprime en peu de règles) ni le désordre (qui est aussi simple : rien n'est structuré, rien ne se comprime). La complexité est *entre les deux* : la coexistence maintenue de contraintes multiples, dont aucune ne domine entièrement les autres.
 
-Dans la terminologie du chapitre 1, un système complexe est un système dont l'espace des états $E$ contient plusieurs attracteurs partiels — des sous-ensembles vers lesquels certaines trajectoires convergent — sans qu'aucun attracteur unique ne domine globalement. La complexité se traduit formellement par la richesse et la diversité de la structure attractrice. Elle correspond à ce que le chapitre 1 nommait, dans le cadre continu, les phénomènes de **bifurcations** et d'**attracteurs** — manifestations topologiques de la complexité dans l'espace des configurations.
+Dans la terminologie de *Vision descriptive*, un système complexe est un système dont l'espace des états $E$ contient plusieurs attracteurs partiels — des sous-ensembles vers lesquels certaines trajectoires convergent — sans qu'aucun attracteur unique ne domine globalement. La complexité se traduit formellement par la richesse et la diversité de la structure attractrice. Elle correspond à ce que *Vision descriptive* nommait, dans le cadre continu, les phénomènes de **bifurcations** et d'**attracteurs** — manifestations topologiques de la complexité dans l'espace des configurations.
 
 La complexité est rare, fragile et coûteuse. Elle nécessite un apport continu d'énergie pour être maintenue. Sans cet apport, les contraintes se relâchent — les structures se dissolvent — le système retombe vers l'uniformité. C'est dans cette fragilité même que résident les possibilités les plus riches : l'adaptation, la créativité, l'intelligence, la conscience.
 
@@ -393,17 +393,17 @@ La complexité est rare, fragile et coûteuse. Elle nécessite un apport continu
 
 ### La réflexivité : quand le système modifie ses propres règles
 
-La réflexivité est un concept que le chapitre 1 avait introduit formellement. Elle reçoit ici son contenu énergétique.
+La réflexivité est un concept que *Vision descriptive* avait introduit formellement. Elle reçoit ici son contenu énergétique.
 
 Un système est **réflexif** lorsque ses règles de transformation dépendent de son propre état énergétique.
 
-**Réflexivité faible** : les flux dépendent des stocks. C'est le cas de tout système obéissant à la loi fondamentale $F = K \times \Delta P$ : le gradient détermine le flux, qui modifie les stocks, qui modifient les gradients. La boucle est immédiate. Tout système énergétique est *au minimum* faiblement réflexif — c'est inscrit dans sa définition même. Cela correspond exactement à la réflexivité faible du chapitre 1 : les forces dépendent de l'état, sans que l'ensemble des actions admissibles change.
+**Réflexivité faible** : les flux dépendent des stocks. C'est le cas de tout système obéissant à la loi fondamentale $F = K \times \Delta P$ : le gradient détermine le flux, qui modifie les stocks, qui modifient les gradients. La boucle est immédiate. Tout système énergétique est *au minimum* faiblement réflexif — c'est inscrit dans sa définition même. Cela correspond exactement à la réflexivité faible de *Vision descriptive* : les forces dépendent de l'état, sans que l'ensemble des actions admissibles change.
 
 **Réflexivité forte** : les conductivités et la topologie du graphe sont modifiées par la dynamique. La règle de plasticité $\frac{dK}{dt} = \alpha \times \lvert F \rvert - \beta \times K$ en est l'exemple canonique : les flux transforment les conductivités, qui transforment les flux futurs. Le système ne se contente pas de répondre à son état — il se reconfigure en fonction de son histoire. C'est l'apprentissage, l'adaptation, l'évolution.
 
-**Réflexivité complète** : une partie du système encode un modèle du système lui-même. Un sous-réseau qui simule le réseau entier — qui évalue des futurs, qui compare des trajectoires, qui se pense pensant. C'est le seuil au-delà duquel la conscience devient concevable. La réflexivité complète du chapitre 1 — un système qui « contient une représentation de sa propre dynamique » — reçoit ici sa traduction énergétique : une partie du système maintient un état stationnaire qui est une image comprimée de l'état du tout.
+**Réflexivité complète** : une partie du système encode un modèle du système lui-même. Un sous-réseau qui simule le réseau entier — qui évalue des futurs, qui compare des trajectoires, qui se pense pensant. C'est le seuil au-delà duquel la conscience devient concevable. La réflexivité complète de *Vision descriptive* — un système qui « contient une représentation de sa propre dynamique » — reçoit ici sa traduction énergétique : une partie du système maintient un état stationnaire qui est une image comprimée de l'état du tout.
 
-Ces trois degrés correspondent exactement à ceux du chapitre 1. La nouveauté ici est que chaque degré reçoit une expression énergétique concrète : non plus des définitions abstraites de champs de forces, mais des mécanismes précis de rétroaction entre flux, stocks, conductivités et structure.
+Ces trois degrés correspondent exactement à ceux de *Vision descriptive*. La nouveauté ici est que chaque degré reçoit une expression énergétique concrète : non plus des définitions abstraites de champs de forces, mais des mécanismes précis de rétroaction entre flux, stocks, conductivités et structure.
 
 ---
 
@@ -423,7 +423,7 @@ Ces modes d'existence ne sont pas des catégories disjointes. Ils sont des nivea
 
 ## VI — Synthèse : les principes fondamentaux
 
-Ce chapitre a introduit de nombreux concepts et plusieurs formules, dans leurs variantes discrète et continue. Avant de conclure, il est utile de les rassembler — non pour les résumer, mais pour montrer leur unité.
+Ce texte a introduit de nombreux concepts et plusieurs formules, dans leurs variantes discrète et continue. Avant de conclure, il est utile de les rassembler — non pour les résumer, mais pour montrer leur unité.
 
 L'occasion est donnée d'introduire une notation qui rend cette unité visible.
 
@@ -436,7 +436,7 @@ L'occasion est donnée d'introduire une notation qui rend cette unité visible.
 > 
 > Cette convention s'applique à toute grandeur : stocks $E_x$, conductivités $K_{xy}$, potentiels $P_x$.
 
-Avec cette notation, l'ensemble des principes du chapitre se formule en quelques lignes :
+Avec cette notation, l'ensemble des principes du texte se formule en quelques lignes :
 
 ---
 
@@ -478,21 +478,21 @@ C'est en cela que ces principes méritent le nom de *fondamentaux* : non pas par
 
 ---
 
-## Clôture du chapitre 2
+## Clôture
 
-Ce chapitre a répondu à la question que le précédent avait laissée ouverte : *qu'est-ce qui anime le système ?*
+Ce texte a répondu à la question que le précédent avait laissée ouverte : *qu'est-ce qui anime le système ?*
 
-Il a d'abord défini le **système énergétique** comme une spécification particulière du système valué du chapitre 1 : un système muni d'une **fonction de stock** $E$ sur les éléments, d'une **fonction de conductivité** $K$ sur les liens, d'une **fonction de potentiel** $\varphi$ dérivant le potentiel du stock, et d'une **loi de flux** $F = K \times \Delta P$. Cette définition fait le pont entre le vocabulaire abstrait du chapitre 1 et la dynamique concrète du réel : le champ de forces $\mathcal{D}$ reçoit une expression précise, et le système dynamique réflexif continu reçoit un contenu.
+Il a d'abord défini le **système énergétique** comme une spécification particulière du système valué de *Vision descriptive* : un système muni d'une **fonction de stock** $E$ sur les éléments, d'une **fonction de conductivité** $K$ sur les liens, d'une **fonction de potentiel** $\varphi$ dérivant le potentiel du stock, et d'une **loi de flux** $F = K \times \Delta P$. Cette définition fait le pont entre le vocabulaire abstrait de *Vision descriptive* et la dynamique concrète du réel : le champ de forces $\mathcal{D}$ reçoit une expression précise, et le système dynamique réflexif continu reçoit un contenu.
 
 La **loi de flux** — un flux naît d'un gradient et est modulé par une conductivité — est le principe nu de toute dynamique de transfert, avant son habillage disciplinaire. L'**équation de bilan** en est la conséquence directe : elle constitue la dynamique du système énergétique.
 
-Le système **fermé** évolue vers l'équilibre — la mort douce par homogénéisation. Le système **ouvert** peut atteindre un **état stationnaire** — stabilité sans équilibre, traversée permanente par un flux. Les trois niveaux de changement — stocks (niveau 1), conductivités (niveau 2), structure (niveau 3) — correspondent respectivement aux niveaux simple/réflexif, évolutif et réflexif-fort du chapitre 1, maintenant dotés d'un contenu énergétique précis.
+Le système **fermé** évolue vers l'équilibre — la mort douce par homogénéisation. Le système **ouvert** peut atteindre un **état stationnaire** — stabilité sans équilibre, traversée permanente par un flux. Les trois niveaux de changement — stocks (niveau 1), conductivités (niveau 2), structure (niveau 3) — correspondent respectivement aux niveaux simple/réflexif, évolutif et réflexif-fort de *Vision descriptive*, maintenant dotés d'un contenu énergétique précis.
 
 L'**entropie** est la tendance vers l'uniformité — conséquence du comptage, non d'une force mystérieuse. L'**information** est le degré de contrainte d'un état, logé dans les relations et les gradients. L'**émergence** est la compression locale de l'information, payée par une décompression globale. La **complexité** est la coexistence fragile de contraintes multiples, traduite formellement par la richesse de la structure attractrice. La **réflexivité** reçoit son contenu concret : flux dépendant des stocks, plasticité des conductivités, représentation interne du système par lui-même.
 
 Et de ces principes seuls — sans rien ajouter — se dessinent les modes d'existence du réel : la **matière** comme cycle stable, le **vivant** comme déséquilibre auto-entretenu, la **conscience** comme réflexivité complète.
 
-Les chapitres suivants exploreront ces modes d'existence un à un — en commençant par ce qui fait qu'un système peut être dit *vivant*.
+Les textes suivants exploreront ces modes d'existence un à un — en commençant par ce qui fait qu'un système peut être dit *vivant*.
 
 ---
 
@@ -500,10 +500,10 @@ Les chapitres suivants exploreront ces modes d'existence un à un — en commen�
 
 - **Prigogine, Ilya** — *La Thermodynamique de la vie* (La Recherche, 1972). Court article de vulgarisation par le prix Nobel lui-même — l'introduction la plus accessible à la notion de structure dissipative et d'état stationnaire loin de l'équilibre. Le point de départ idéal avant d'aborder ses œuvres plus techniques.
 
-- **Prigogine, Ilya & Stengers, Isabelle** — *La Nouvelle Alliance* (Gallimard, 1979). Explore en profondeur la relation entre irréversibilité, entropie et émergence de l'ordre à partir du désordre. En résonance directe avec les sections III et IV de ce chapitre.
+- **Prigogine, Ilya & Stengers, Isabelle** — *La Nouvelle Alliance* (Gallimard, 1979). Explore en profondeur la relation entre irréversibilité, entropie et émergence de l'ordre à partir du désordre. En résonance directe avec les sections III et IV de ce texte.
 
 - **Atkins, Peter** — *The Laws of Thermodynamics : A Very Short Introduction* (Oxford University Press, 2010). La meilleure introduction brève aux lois de la thermodynamique — entropie, énergie libre, équilibre — pour le lecteur non spécialiste. Très accessible.
 
-- **Shannon, Claude E. & Weaver, Warren** — *The Mathematical Theory of Communication* (University of Illinois Press, 1949). Le texte fondateur de la théorie de l'information. La définition de l'entropie informationnelle y est posée dans sa forme originale — en résonance directe avec la section IV de ce chapitre.
+- **Shannon, Claude E. & Weaver, Warren** — *The Mathematical Theory of Communication* (University of Illinois Press, 1949). Le texte fondateur de la théorie de l'information. La définition de l'entropie informationnelle y est posée dans sa forme originale — en résonance directe avec la section IV de ce texte.
 
 - **Kauffman, Stuart** — *At Home in the Universe* (Oxford University Press, 1995). Une exploration ambitieuse de l'auto-organisation et de l'émergence dans les systèmes complexes — biologie, économie, évolution. Accessible et stimulant.

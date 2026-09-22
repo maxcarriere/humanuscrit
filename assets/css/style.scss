@@ -559,6 +559,12 @@ html[data-darkreader-scheme] .parchment-middle * {
   color-adjust: exact !important;
 }
 
+/* Images du contenu : ne jamais dépasser la largeur du parchemin (sinon coupées par overflow-x) */
+.parchment-content img {
+  max-width: 100%;
+  height: auto;
+}
+
 /* Desktop : texte plus large (100px de place en plus de chaque côté) */
 @media (min-width: 1200px) {
   .parchment-content {

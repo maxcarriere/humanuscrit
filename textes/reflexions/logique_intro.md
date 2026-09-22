@@ -55,7 +55,7 @@ C'est pourquoi la logique formelle, objet de ce livre, concerne autant l'humain 
 
 ## Organisation du livre
 
-À partir de ces prémisses, le livre s'organise selon la progression suivante.
+À partir de ces prémisses, le livre, en cours d'écriture, s'organise selon la progression suivante.
 
 Le premier chapitre définira formellement ce qu'est un **langage**. Il en identifiera les éléments — termes, formules, connecteurs, quantificateurs — en montrant comment chacun correspond à une opération fondamentale de la pensée : désigner, distinguer, relier, assembler, abstraire, interpréter. Cette correspondance n'est pas décorative : elle explique *pourquoi* le langage formel est structuré comme il l'est, et non comme une convention arbitraire parmi d'autres.
 
