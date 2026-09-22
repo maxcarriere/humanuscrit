@@ -1,5 +1,5 @@
 ---
-title: Contemplations — Contes / Poésie
+title: Contemplations : Contes / Poésie
 ---
 *Éveiller*
 

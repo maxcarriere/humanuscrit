@@ -1,5 +1,5 @@
 ---
-title: Méditations — Conscience / Réflexivité
+title: Méditations : Conscience / Réflexivité
 ---
 *Se Représenter*
 

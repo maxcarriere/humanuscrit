@@ -12,7 +12,7 @@ Humanuscrit s'engage à respecter la vie privée de ses visiteurs et utilisateur
 
 ## Responsable de traitement
 
-Max Carrière — Humanuscrit
+Max Carrière, Humanuscrit
 
 Contact : [contact.humanuscrit@gmail.com](mailto:contact.humanuscrit@gmail.com)
 

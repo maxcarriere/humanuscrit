@@ -38,7 +38,7 @@
       {% endif %}
     {% endfor %}
     <li class="arborescence-separator" role="presentation"></li>
-    <li class="arborescence-part-title">PARTIE 0 — Logique</li>
+    <li class="arborescence-part-title">PARTIE 0 : Logique</li>
     {% assign part0_files = "logique_intro.md|chap1_langage.md|chap2_logique_propositionnelle_predicats.md" | split: "|" %}
     {% for ref_file in part0_files %}
       {% assign p = "" %}
@@ -57,7 +57,7 @@
       {% endif %}
     {% endfor %}
     <li class="arborescence-separator" role="presentation"></li>
-    <li class="arborescence-part-title">PARTIE 1 — Systèmes : Vision descriptive</li>
+    <li class="arborescence-part-title">PARTIE 1 : Systèmes, vision descriptive</li>
     {% assign part1_files = "0_existence.md|1_systemes_vision_descriptive.md|2_systèmes_vision_dynamique.md" | split: "|" %}
     {% for ref_file in part1_files %}
       {% assign p = "" %}

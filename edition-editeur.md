@@ -30,7 +30,7 @@ L'offre actuelle :
 - Hébergement d'une page dédiée sur humanuscrit.com
 - Relais de diffusion
 
-Pas de contrat d'édition à proprement parler. Pas d'exclusivité — l'auteur reste libre de publier ailleurs. Certaines démarches peuvent être gratuites ou payantes en fonction du texte et/ou du service demandé.
+Pas de contrat d'édition à proprement parler. Pas d'exclusivité : l'auteur reste libre de publier ailleurs. Certaines démarches peuvent être gratuites ou payantes en fonction du texte et/ou du service demandé.
 
 Faire éditer son livre par Humanuscrit aujourd'hui, c'est faire le pari que ce projet aura demain une place plus importante dans le paysage éditorial. L'éditeur ne s'engage sur rien d'autre que la qualité de l'accompagnement.
 
@@ -40,11 +40,11 @@ Faire éditer son livre par Humanuscrit aujourd'hui, c'est faire le pari que ce 
 
 ### Ligne éditoriale
 
-Humanuscrit publie tout type de textes qui s'inscrivent dans les mutations en cours et veulent prendre leur place dans le monde de demain — soit de par leur thème, soit de par leur mode d'écriture et de création.
+Humanuscrit publie tout type de textes qui s'inscrivent dans les mutations en cours et veulent prendre leur place dans le monde de demain, que ce soit par leur thème ou par leur mode d'écriture et de création.
 
 **Thèmes** : la systémique, l'intelligence artificielle, la conscience, les récits à valeur philosophique et scientifique. Des textes qui interrogent la place de l'homme dans les systèmes qu'il construit et qui le construisent.
 
-**Procédés** : Humanuscrit est également ouvert aux textes dont les procédés de création sont nouveaux — coécriture avec l'IA, méthodes expérimentales, formes hybrides.
+**Procédés** : Humanuscrit est également ouvert aux textes dont les procédés de création sont nouveaux : coécriture avec l'IA, méthodes expérimentales, formes hybrides.
 
 Cependant, Humanuscrit n'a pas vocation à publier n'importe quel texte produit par une IA. Pas de contenu creux, ni de production pour la production, ou de texte sans vision. Humanuscrit se veut être au contraire un rempart contre le contenu générique et la production en masse. L'enjeu est de reconnaître et de porter des textes de qualité, qui ont pu être assistés par l'IA, mais toujours orchestrés par l'humain et/ou pour l'humain.
 
@@ -56,7 +56,7 @@ Ce qui intéresse Humanuscrit, ce sont les textes où l'IA a permis d'aller plus
 
 L'intelligence artificielle met désormais à la disposition de chacun l'expertise, la connaissance, les normes intellectuelles et la capacité rédactionnelle qui étaient autrefois réservées à quelques-uns. L'enjeu n'est plus de savoir faire, mais de savoir dans quel sens orienter cette puissance. C'est là que l'humain redevient indispensable. Non par ce qu'il sait faire, mais par ce qu'il choisit de faire.
 
-Humanuscrit en tire la conséquence : le seul critère de publication est la qualité du texte — son contenu et sa rédaction. Indépendamment du parcours académique de l'auteur, de sa notoriété ou de son réseau. L'auteur peut évoquer son parcours dans l'écrit, mais ce n'est jamais un critère de sélection.
+Humanuscrit en tire la conséquence : le seul critère de publication est la qualité du texte, sur le fond comme sur la forme. Indépendamment du parcours académique de l'auteur, de sa notoriété ou de son réseau. L'auteur peut évoquer son parcours dans l'écrit, mais ce n'est jamais un critère de sélection.
 
 La mission d'Humanuscrit : donner sa chance à des auteurs inconnus, en les accompagnant en autoédition, et/ou en labellisant leur travail.
 

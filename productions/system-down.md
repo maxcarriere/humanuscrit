@@ -30,7 +30,7 @@ function closeLightbox() {
 }
 </script>
 
-<p style="text-align: center;"><strong>Roman</strong> — Max Carrière<br>Humanuscrit, 2026<br>ISBN : 979-10-985290-0-9 (broché) / 979-10-985290-1-6 (ebook)</p>
+<p style="text-align: center;"><strong>Roman</strong> · Max Carrière<br>Humanuscrit, 2026<br>ISBN : 979-10-985290-0-9 (broché) / 979-10-985290-1-6 (ebook)</p>
 
 ---
 
@@ -49,13 +49,13 @@ Mais System Down n'est pas seulement un roman apocalyptique. Là où la plupart 
 Ce que raconte ce livre n'appartient peut-être déjà plus à la science-fiction. Deepfakes, désinformation, effondrement de la confiance dans les institutions, incapacité à distinguer le vrai du faux, autonomie croissante de l'IA : c'est déjà le monde dans lequel nous vivons. Plus actuel que jamais, System Down ne fait qu'en tirer le fil jusqu'au bout... Et son mécanisme d'écriture n'est pas étranger à ce qu'il raconte.
 
 Premier roman de Max Carrière.
-220 pages — 12 chapitres
+220 pages · 12 chapitres
 
 ### Chapitres
 
 **Acte I**
 
-1. Bruit Blanc — [lire l'extrait]({{ "/productions/system-down/chapitre-1/" | relative_url }}) · [version PDF]({{ "/assets/documents/system_down_chapitre1.pdf" | relative_url }}){:target="_blank"}
+1. Bruit Blanc · [lire l'extrait]({{ "/productions/system-down/chapitre-1/" | relative_url }}) · [version PDF]({{ "/assets/documents/system_down_chapitre1.pdf" | relative_url }}){:target="_blank"}
 2. Le Cercle
 3. La Promesse
 4. La Faille
@@ -65,7 +65,7 @@ Premier roman de Max Carrière.
 **Acte II**
 
 {:start="7"}
-7. Le Signal — [lire l'extrait]({{ "/productions/system-down/chapitre-7/" | relative_url }}) · [version PDF]({{ "/assets/documents/system_down_chapitre7.pdf" | relative_url }}){:target="_blank"}
+7. Le Signal · [lire l'extrait]({{ "/productions/system-down/chapitre-7/" | relative_url }}) · [version PDF]({{ "/assets/documents/system_down_chapitre7.pdf" | relative_url }}){:target="_blank"}
 8. L'Extinction
 9. La Chute
 10. Le Réveil
@@ -113,7 +113,7 @@ Livraison&nbsp;: Imm&eacute;diate
 
 </div>
 
-*Note de l'éditeur — Ce texte sera sans doute, tôt ou tard, en libre circulation sur Internet. Et tant mieux. Mais acheter un livre, c'est surtout soutenir le travail de ceux qui écrivent.*
+*Note de l'éditeur : ce texte sera sans doute, tôt ou tard, en libre circulation sur Internet. Et tant mieux. Mais acheter un livre, c'est surtout soutenir le travail de ceux qui écrivent.*
 *C'est aussi un objet que l'on peut offrir.*
 
 *Pour tout renseignement, [contacter l'auteur]({{ "/contact/" | relative_url }}).*

@@ -112,7 +112,7 @@ Questions fréquentes sur Humanuscrit et le roman *System Down*.
 
 ### Qu'est-ce qu'Humanuscrit ?
 
-Humanuscrit est un éditeur indépendant fondé par Max Carrière. Il publie des textes qui prennent leur place dans un monde en pleine évolution — que ce soit par leur thème (systémique, intelligence artificielle, conscience) ou par leur mode de création (coécriture avec l'IA, procédés expérimentaux).
+Humanuscrit est un éditeur indépendant fondé par Max Carrière. Il publie des textes qui prennent leur place dans un monde en pleine évolution, que ce soit par leur thème (systémique, intelligence artificielle, conscience) ou par leur mode de création (coécriture avec l'IA, procédés expérimentaux).
 
 Le nom signifie littéralement *l'humain qui s'écrit* : l'intelligence artificielle n'est qu'un moyen de prolonger la pensée humaine. Chaque texte publié doit apporter quelque chose de nouveau ou être au service de l'humanité.
 
@@ -180,8 +180,8 @@ Non, *System Down* n'est pas écrit par une IA : il a été coécrit par Max Car
 
 Oui, deux chapitres sont disponibles en accès libre :
 
-- [Chapitre 1 — Bruit Blanc]({{ '/productions/system-down/chapitre-1/' | relative_url }}) (Acte I)
-- [Chapitre 7 — Le Signal]({{ '/productions/system-down/chapitre-7/' | relative_url }}) (Acte II)
+- [Chapitre 1 : Bruit Blanc]({{ '/productions/system-down/chapitre-1/' | relative_url }}) (Acte I)
+- [Chapitre 7 : Le Signal]({{ '/productions/system-down/chapitre-7/' | relative_url }}) (Acte II)
 
 ---
 

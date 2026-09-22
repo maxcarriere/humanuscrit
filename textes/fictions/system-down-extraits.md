@@ -1,5 +1,5 @@
 ---
-title: System Down — Extraits
+title: System Down : Extraits
 permalink: /textes/fictions/system-down-extraits/
 ---
 

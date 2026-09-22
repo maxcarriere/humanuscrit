@@ -1,5 +1,5 @@
 ---
-title: Propositions — Politique / Société
+title: Propositions : Politique / Société
 ---
 *Transformer*
 

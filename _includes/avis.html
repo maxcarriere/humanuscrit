@@ -9,7 +9,7 @@
       <p class="review-text">{{ avis.texte }}</p>
       <div class="review-meta">
         <span class="review-author">{{ avis.auteur }}</span>
-        {% if avis.source %} — <span class="review-source">{{ avis.source }}</span>{% endif %}
+        {% if avis.source %}, <span class="review-source">{{ avis.source }}</span>{% endif %}
         {% if avis.date %} · <span class="review-date">{{ avis.date }}</span>{% endif %}
         {% if avis.url and avis.url != "" %}
           · <a href="{{ avis.url }}" target="_blank" rel="noopener">voir l'avis</a>

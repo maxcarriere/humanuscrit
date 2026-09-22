@@ -72,7 +72,7 @@ Chaque texte reste la propriété de son auteur. La licence par défaut est CC B
 
 ### Site
 
-La structure, le design, le code source et les éléments graphiques du site sont la propriété d'Humanuscrit — tous droits réservés.
+La structure, le design, le code source et les éléments graphiques du site sont la propriété d'Humanuscrit. Tous droits réservés.
 
 ---
 

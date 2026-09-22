@@ -1,5 +1,5 @@
 ---
-title: Incarnations — Témoignage / Biographie
+title: Incarnations : Témoignage / Biographie
 ---
 *Être*
 

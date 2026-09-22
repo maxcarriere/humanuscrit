@@ -37,7 +37,7 @@ Chaque auteur qui soumet un texte à Humanuscrit peut choisir sa propre licence.
 
 La structure, le design, le code et les éléments graphiques de ce site sont la propriété d'Humanuscrit.
 
-© Humanuscrit — Tous droits réservés.
+© Humanuscrit. Tous droits réservés.
 
 Toute reproduction ou réutilisation de ces éléments sans autorisation est interdite.
 

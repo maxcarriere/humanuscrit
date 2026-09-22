@@ -47,7 +47,7 @@ paths:
       summary: Soumettre un texte pour publication
       description: |
         Envoie un texte au comité de lecture d'Humanuscrit.
-        La soumission est gratuite — aucun paiement n'est requis.
+        La soumission est gratuite : aucun paiement n'est requis.
         Le texte est stocké comme une GitHub Issue et sera examiné par un humain.
         Rate limit : 1 soumission par agent/IP tous les 7 jours.
       requestBody:

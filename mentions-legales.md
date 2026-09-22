@@ -10,7 +10,7 @@ permalink: /mentions-legales/
 
 ## Éditeur du site
 
-**Humanuscrit** — Projet éditorial indépendant
+**Humanuscrit**, projet éditorial indépendant
 
 Responsable de publication : Max Carrière
 
@@ -49,7 +49,7 @@ Netlify, Inc.
 
 Les textes publiés sur le site sont la propriété de leurs auteurs respectifs. Sauf mention contraire, les textes du corpus sont publiés sous licence [Creative Commons BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.fr). Les auteurs peuvent choisir une autre licence au moment de la soumission.
 
-La structure, le design et le code du site sont la propriété d'Humanuscrit — tous droits réservés.
+La structure, le design et le code du site sont la propriété d'Humanuscrit. Tous droits réservés.
 
 Pour plus de détails, voir la page [Licence]({{ '/licence/' | relative_url }}).
 
