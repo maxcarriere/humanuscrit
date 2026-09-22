@@ -2,10 +2,7 @@
 title: "Sortir du chemin"
 order: 1
 date: 2026-09-22
----
-
-<p style="text-align: center;"><em>Texte issu de conversations entre Max Carrière et ChatGPT.</em></p>
-
+mention: "Texte issu de conversations entre Max Carrière et ChatGPT."
 ---
 
 Pendant longtemps, j’ai suivi le chemin.

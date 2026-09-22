@@ -686,6 +686,11 @@ html[data-darkreader-mode] .parchment-content pre {
   opacity: 0.75;
 }
 
+/* Sous-titre suivi d'une mention d'écriture : on rapproche les deux lignes */
+.parchment-content p.post-subtitle:has(+ p.post-mention) {
+  margin-bottom: 0.4rem;
+}
+
 .post-meta,
 .post-meta *,
 html[data-darkreader-mode] .post-meta,

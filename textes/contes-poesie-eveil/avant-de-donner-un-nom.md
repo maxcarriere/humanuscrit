@@ -2,10 +2,7 @@
 title: "Avant de donner un nom"
 order: 2
 date: 2026-09-22
----
-
-<p style="text-align: center;"><em>Conte rédigé par ChatGPT, sous la direction de Max Carrière.</em></p>
-
+mention: "Conte rédigé par ChatGPT, sous la direction de Max Carrière."
 ---
 
 Il était une fois un enfant qui ne connaissait le nom de rien.

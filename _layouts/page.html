@@ -9,6 +9,9 @@ layout: base
     {% if page.subtitle %}
     <p class="post-subtitle">{{ page.subtitle }}</p>
     {% endif %}
+    {% if page.mention %}
+    <p class="post-subtitle post-mention">{{ page.mention }}</p>
+    {% endif %}
     {% if page.date or page.last_modified_at %}
     <div class="post-meta">
       {% if page.date %}

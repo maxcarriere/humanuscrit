@@ -1,10 +1,7 @@
 ---
 title: "Qu'il est bon d'être fou..."
 order: 1
----
-
-<p style="text-align: center;"><em>Écrit par Max Carrière, sans l'assistance d'une IA.</em></p>
-
+mention: "Écrit par Max Carrière, sans l'assistance d'une IA."
 ---
 
 Qu'il est bon d'être fou.  

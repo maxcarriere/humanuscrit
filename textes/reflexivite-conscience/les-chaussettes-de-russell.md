@@ -3,10 +3,7 @@ title: "Les chaussettes de Russell"
 subtitle: "Qui suis-je ?"
 order: 2
 date: 2026-09-22
----
-
-<p style="text-align: center;"><em>Texte issu de conversations entre Max Carrière et Claude (Anthropic).</em></p>
-
+mention: "Texte issu de conversations entre Max Carrière et Claude (Anthropic)."
 ---
 
 Qui suis-je ?

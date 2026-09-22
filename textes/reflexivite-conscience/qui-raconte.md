@@ -2,10 +2,7 @@
 title: "Qui raconte ?"
 order: 1
 date: 2026-09-22
----
-
-<p style="text-align: center;"><em>Écrit par Max Carrière, fin remaniée avec Claude (Anthropic).</em></p>
-
+mention: "Écrit par Max Carrière, fin remaniée avec Claude (Anthropic)."
 ---
 
 ## I. La seule chose grave
