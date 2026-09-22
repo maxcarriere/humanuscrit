@@ -3,7 +3,7 @@ title: Réflexions — Philosophie / Science
 ---
 *Penser*
 
-Cette section regroupe les textes de réflexion, publications scientifiques, essais philosophiques visant à proposer, construire une représentation du monde.
+Cette section regroupe les textes de réflexion : publications scientifiques, essais philosophiques visant à proposer, construire une représentation du monde.
 
 ---
 
