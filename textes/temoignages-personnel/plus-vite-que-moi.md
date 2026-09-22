@@ -4,6 +4,10 @@ order: 2
 date: 2026-09-22
 ---
 
+<p style="text-align: center;"><em>Texte issu de conversations entre Max Carrière et Claude (Anthropic).</em></p>
+
+---
+
 Cinq fenêtres ouvertes. Cinq terminaux. Cinq instances qui travaillent en même temps que moi. Plus vite que moi.
 
 L’une réécrit la base lexicale. L’autre mesure un taux d’erreur sur la reconnaissance vocale. La troisième reprend la mise en page d’un roman. La quatrième corrige un site. La cinquième attend.
