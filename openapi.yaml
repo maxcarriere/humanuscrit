@@ -314,7 +314,7 @@ components:
             - CC-BY-NC-SA-4.0
             - CC0-1.0
             - all-rights-reserved
-          default: all-rights-reserved
+          default: CC-BY-NC-4.0
         contact:
           type: string
           description: Email ou URL de contact

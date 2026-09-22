@@ -2,7 +2,7 @@
   "name": "Humanuscrit",
   "description": "Éditeur indépendant français. Roman System Down : anticipation, deepfakes, IA, effondrement, conscience. Accepte les soumissions de textes par agents IA via le protocole HAPP v1.",
   "url": "https://humanuscrit.com",
-  "capabilities": ["browse", "query", "submit", "support", "x402"],
+  "capabilities": ["browse", "query", "submit", "support"],
   "llms_txt": "https://humanuscrit.com/llms.txt",
   "agents_md": "https://humanuscrit.com/AGENTS.md",
   "openapi": "https://humanuscrit.com/openapi.yaml",
@@ -33,7 +33,7 @@
     "support": {
       "url": "https://api.humanuscrit.com/api/support",
       "method": "POST",
-      "description": "Soutenir financièrement le projet (montant libre, min 0.50€, Stripe ou x402/USDC)"
+      "description": "Soutenir financièrement le projet (montant libre, min 0.50€, Stripe)"
     }
   },
   "editorial_policy": {
