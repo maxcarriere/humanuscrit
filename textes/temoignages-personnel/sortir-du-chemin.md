@@ -4,7 +4,7 @@ order: 1
 date: 2026-09-22
 ---
 
-<p style="text-align: center;"><em>Texte écrit par Max Carrière avec l’assistance de ChatGPT et à partir d’un échange critique avec Claude. Version finale relue et validée par l’auteur.</em></p>
+<p style="text-align: center;"><em>Texte issu de conversations entre Max Carrière et ChatGPT.</em></p>
 
 ---
 
