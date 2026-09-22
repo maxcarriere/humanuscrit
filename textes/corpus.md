@@ -53,4 +53,6 @@ Domaine : Témoignage / Biographie
 
 ---
 
-[Retour aux Textes]({{ '/textes/' | relative_url }})
+[Soumettre un Texte]({{ '/textes/soumettre/' | relative_url }})
+
+[Retour à la page d'accueil de la plateforme]({{ '/textes/' | relative_url }})
