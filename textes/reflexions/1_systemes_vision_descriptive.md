@@ -12,6 +12,8 @@ brouillon: true
 
 <p class="subtitle-centre"><em>De la structure au mouvement</em></p>
 
+<p style="text-align: center;"><em>Coréflexion et coécriture entre Max Carrière et plusieurs IA.</em></p>
+
 ---
 
 Le texte [*Existence*]({{ '/textes/reflexions/existence/' | relative_url }}) a posé les conditions de l'existence : des éléments distingués, agencés en une configuration cohérente, qui se transforme dans un cadre d'espace et de temps. Il a identifié trois principes fondamentaux — distinction, configuration, transformation — et montré que le réel peut être pensé comme une succession de configurations engendrée par des transformations opérant sur des éléments distingués.

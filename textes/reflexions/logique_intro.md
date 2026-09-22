@@ -6,6 +6,10 @@ date: 2026-02-25
 last_modified_at: 2026-03-04
 ---
 
+<p style="text-align: center;"><em>Coréflexion et coécriture entre Max Carrière et plusieurs IA.</em></p>
+
+---
+
 ## Pensée et Langage
 
 L'homme se distingue par deux capacités qui lui sont propres : la pensée et le langage.

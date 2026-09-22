@@ -11,6 +11,8 @@ last_modified_at: 2026-02-21
 
 <p class="subtitle-centre"><em>Seuil ontologique</em></p>
 
+<p style="text-align: center;"><em>Coréflexion et coécriture entre Max Carrière et plusieurs IA.</em></p>
+
 ---
 
 Avant d'ouvrir un livre de philosophie ou de mathématiques, avant de tracer le premier signe sur la page, il y a une question qui précède tout — que l'on s'est posé tous un jour mais que curieusement, on repousse le plus souvent : *qu'est-ce qu'exister ?*

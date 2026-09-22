@@ -5,7 +5,7 @@ order: 2
 date: 2026-09-22
 ---
 
-<p style="text-align: center;"><em>Ce texte est né d’un dialogue entre Max Carrière et Claude (Anthropic), qui l’a composé en y reprenant les idées et, souvent, les mots de l’auteur.</em></p>
+<p style="text-align: center;"><em>Texte issu de conversations entre Max Carrière et Claude (Anthropic).</em></p>
 
 ---
 

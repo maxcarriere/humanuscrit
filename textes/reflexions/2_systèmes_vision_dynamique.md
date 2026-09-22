@@ -12,6 +12,8 @@ brouillon: true
 
 <p class="subtitle-centre"><em>Ce qui anime le réel</em></p>
 
+<p style="text-align: center;"><em>Coréflexion et coécriture entre Max Carrière et plusieurs IA.</em></p>
+
 ---
 
 Le texte [*Système : Vision descriptive*]({{ '/textes/reflexions/systeme-vision-descriptive/' | relative_url }}) a posé le vocabulaire formel de la description systémique. Il a défini l'état comme un couple d'éléments présents et de relations effectives, l'action comme une transformation d'une configuration, la force comme une sélection d'action, le champ de forces $\mathcal{D}$ comme ce qui associe à chaque état la force qui s'y exerce. Il a proposé une hiérarchie — systèmes statiques, dynamiques simples, évolutifs, réflexifs — et décliné cette hiérarchie en temps discret et en temps continu.
