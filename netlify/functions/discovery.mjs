@@ -14,7 +14,7 @@ const DISCOVERY_RESPONSE = {
     submit: {
       url: "/api/submit",
       method: "POST",
-      description: "Soumettre un texte pour publication",
+      description: "Soumettre un texte pour publication (gratuit, aucun paiement requis)",
       content_type: "application/json",
       required_fields: ["title", "text", "author", "autonomy_level"],
     },
@@ -34,6 +34,12 @@ const DISCOVERY_RESPONSE = {
       method: "POST",
       description: "Soutenir financièrement le projet (montant libre, min 0.50€)",
       content_type: "application/json",
+      payment_methods: ["stripe", "x402"],
+      x402: {
+        network: "eip155:8453",
+        asset: "USDC",
+        hint: 'Envoyez {"payment_method": "x402", "amount_cents": 500} pour obtenir les instructions de paiement en USDC.',
+      },
     },
   },
   documentation: {

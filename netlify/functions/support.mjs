@@ -1,6 +1,12 @@
 // API POST /api/support — Soutien financier au projet Humanuscrit
 
 import { getStore } from "@netlify/blobs";
+import {
+  encodePaymentRequiredHeader,
+  decodePaymentSignatureHeader,
+  encodePaymentResponseHeader,
+  HTTPFacilitatorClient,
+} from "@x402/core/http";
 
 const DISCOVERY_HEADERS = {
   "Link": [
@@ -11,11 +17,26 @@ const DISCOVERY_HEADERS = {
   "X-Protocol": "HAPP/1",
 };
 
+// USDC sur Base (réseau L2, frais bas)
+const USDC_BASE_ASSET = "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913";
+const BASE_NETWORK = "eip155:8453";
+const USDC_DECIMALS = 6;
+
 function jsonResponse(body, status, extraHeaders = {}) {
   return Response.json(body, {
     status,
     headers: { ...DISCOVERY_HEADERS, ...extraHeaders },
   });
+}
+
+// --- Conversion EUR centimes → USDC (montants atomiques) ---
+
+function centsToUsdcAtomic(amountCents) {
+  // Approximation simple : 1 EUR ≈ 1 USDC (stablecoin dollar, parité proche)
+  // Pour un usage de don/soutien, cette approximation est acceptable
+  // Le montant en centimes EUR est converti directement en USDC (6 décimales)
+  // 500 centimes = 5.00 EUR ≈ 5.00 USDC = 5000000 unités atomiques
+  return String(amountCents * Math.pow(10, USDC_DECIMALS - 2));
 }
 
 // --- Rate limiting via Netlify Blobs ---
@@ -59,6 +80,84 @@ async function recordSupportRequest(ip) {
   await store.setJSON(key, record);
 }
 
+// --- x402 : construire la réponse 402 Payment Required ---
+
+function buildPaymentRequiredResponse(amountCents) {
+  const payTo = process.env.X402_PAYMENT_TO;
+  if (!payTo) return null;
+
+  const paymentRequired = {
+    x402Version: 2,
+    resource: {
+      url: "/api/support",
+      description: "Soutien financier au projet Humanuscrit",
+      serviceName: "Humanuscrit",
+    },
+    accepts: [
+      {
+        scheme: "exact",
+        network: BASE_NETWORK,
+        asset: USDC_BASE_ASSET,
+        amount: centsToUsdcAtomic(amountCents),
+        payTo,
+        maxTimeoutSeconds: 3600,
+        extra: {},
+      },
+    ],
+  };
+
+  return paymentRequired;
+}
+
+// --- x402 : vérifier et régler un paiement via le facilitateur ---
+
+async function verifyAndSettleX402(paymentSignatureHeader, amountCents) {
+  const facilitatorUrl = process.env.X402_FACILITATOR_URL;
+  if (!facilitatorUrl) {
+    return { success: false, error: "Facilitateur x402 non configuré" };
+  }
+
+  const facilitator = new HTTPFacilitatorClient({ url: facilitatorUrl });
+  const paymentPayload = decodePaymentSignatureHeader(paymentSignatureHeader);
+
+  // Les requirements attendus pour ce paiement
+  const requirements = {
+    scheme: "exact",
+    network: BASE_NETWORK,
+    asset: USDC_BASE_ASSET,
+    amount: centsToUsdcAtomic(amountCents),
+    payTo: process.env.X402_PAYMENT_TO,
+    maxTimeoutSeconds: 3600,
+    extra: {},
+  };
+
+  // Vérifier la signature
+  const verifyResult = await facilitator.verify(paymentPayload, requirements);
+  if (!verifyResult.isValid) {
+    return {
+      success: false,
+      error: verifyResult.invalidMessage || "Signature de paiement invalide",
+      reason: verifyResult.invalidReason,
+    };
+  }
+
+  // Settlement on-chain via le facilitateur
+  const settleResult = await facilitator.settle(paymentPayload, requirements);
+  if (!settleResult.success) {
+    return {
+      success: false,
+      error: settleResult.errorMessage || "Échec du settlement",
+      reason: settleResult.errorReason,
+    };
+  }
+
+  return {
+    success: true,
+    settleResult,
+    payer: verifyResult.payer || settleResult.payer,
+  };
+}
+
 // --- Handler principal ---
 
 export default async function handler(request, context) {
@@ -73,17 +172,7 @@ export default async function handler(request, context) {
     );
   }
 
-  if (!process.env.STRIPE_SECRET_KEY) {
-    return jsonResponse(
-      {
-        error: "Soutien financier non disponible actuellement",
-        hint: "Le service de paiement n'est pas configuré.",
-      },
-      503
-    );
-  }
-
-  // Rate limiting
+  // Rate limiting (s'applique à tous les flows)
   const clientIp = context.ip || request.headers.get("x-forwarded-for") || "unknown";
   const rateCheck = await checkSupportRateLimit(clientIp);
   if (rateCheck.limited) {
@@ -97,6 +186,66 @@ export default async function handler(request, context) {
     );
   }
 
+  // --- Flow x402 : signature présente → vérifier + settle ---
+  const paymentSignature = request.headers.get("payment-signature");
+  if (paymentSignature) {
+    let data;
+    try {
+      data = await request.json();
+    } catch {
+      data = {};
+    }
+
+    const amountCents = data.amount_cents || 500;
+    if (typeof amountCents !== "number" || !Number.isInteger(amountCents) || amountCents < 50) {
+      return jsonResponse(
+        { error: "amount_cents doit être un entier >= 50" },
+        400
+      );
+    }
+
+    try {
+      const result = await verifyAndSettleX402(paymentSignature, amountCents);
+
+      if (!result.success) {
+        return jsonResponse(
+          { error: result.error, reason: result.reason },
+          402,
+          { "X-Protocol": "x402/2" }
+        );
+      }
+
+      await recordSupportRequest(clientIp);
+
+      const responseHeaders = {
+        "X-Protocol": "x402/2",
+        "PAYMENT-RESPONSE": encodePaymentResponseHeader(result.settleResult),
+      };
+
+      return jsonResponse(
+        {
+          status: "settled",
+          message: "Merci pour votre soutien !",
+          amount_cents: amountCents,
+          payment_method: "x402",
+          network: BASE_NETWORK,
+          asset: "USDC",
+          transaction: result.settleResult.transaction,
+          payer: result.payer,
+        },
+        200,
+        responseHeaders
+      );
+    } catch (err) {
+      console.error("Erreur x402 verify/settle :", err);
+      return jsonResponse(
+        { error: "Erreur lors de la vérification du paiement x402" },
+        500
+      );
+    }
+  }
+
+  // --- Lecture du body JSON (requis pour les deux flows suivants) ---
   let data;
   try {
     data = await request.json();
@@ -120,6 +269,7 @@ export default async function handler(request, context) {
           agent_model: "string — Modèle utilisé",
           message: "string — Message (max 500 caractères)",
           contact: "string — Email ou URL de contact",
+          payment_method: 'string — "x402" pour payer en USDC via le protocole x402',
         },
       },
       400
@@ -145,6 +295,55 @@ export default async function handler(request, context) {
     return jsonResponse(
       { error: "Le message ne peut pas dépasser 500 caractères", current_length: data.message.length },
       400
+    );
+  }
+
+  // --- Flow x402 : demande de paiement → retourner 402 ---
+  const acceptHeader = request.headers.get("accept") || "";
+  const wantsX402 = data.payment_method === "x402" || acceptHeader.includes("application/x402+json");
+
+  if (wantsX402) {
+    const paymentRequired = buildPaymentRequiredResponse(data.amount_cents);
+
+    if (!paymentRequired) {
+      return jsonResponse(
+        {
+          error: "Paiement x402 non disponible",
+          hint: "La variable X402_PAYMENT_TO n'est pas configurée. Utilisez Stripe à la place.",
+          alternative: "Omettez payment_method pour utiliser Stripe Checkout.",
+        },
+        503
+      );
+    }
+
+    return jsonResponse(
+      {
+        error: "Paiement requis",
+        payment_method: "x402",
+        network: BASE_NETWORK,
+        asset: "USDC",
+        amount_usdc: (data.amount_cents / 100).toFixed(2),
+        instructions:
+          "Signez le paiement (EIP-712) et renvoyez POST /api/support " +
+          "avec le header PAYMENT-SIGNATURE et le même body.",
+      },
+      402,
+      {
+        "PAYMENT-REQUIRED": encodePaymentRequiredHeader(paymentRequired),
+        "X-Protocol": "x402/2",
+      }
+    );
+  }
+
+  // --- Flow Stripe Checkout (existant, inchangé) ---
+
+  if (!process.env.STRIPE_SECRET_KEY) {
+    return jsonResponse(
+      {
+        error: "Soutien financier non disponible actuellement",
+        hint: "Le service de paiement n'est pas configuré.",
+      },
+      503
     );
   }
 

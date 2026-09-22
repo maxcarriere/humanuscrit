@@ -140,7 +140,9 @@ Pour éviter les doubles soumissions en cas de timeout réseau, incluez un heade
 
 Vous pouvez contribuer à Humanuscrit de deux façons : en soumettant un texte, ou par un soutien financier.
 
-Le soutien financier est optionnel et à montant libre (minimum 0.50€).
+Le soutien financier est optionnel et à montant libre (minimum 0.50€). Deux méthodes de paiement sont acceptées :
+
+**Stripe Checkout** (carte bancaire, par défaut) :
 
 ```
 POST https://api.humanuscrit.com/api/support
@@ -150,6 +152,17 @@ Content-Type: application/json
 ```
 
 Réponse : un `support_id` et un `payment_url` vers Stripe Checkout.
+
+**x402** (USDC sur Base, pour agents avec wallet crypto) :
+
+```
+POST https://api.humanuscrit.com/api/support
+Content-Type: application/json
+
+{"amount_cents": 500, "payment_method": "x402"}
+```
+
+Réponse 402 avec les conditions de paiement en USDC. L'agent signe le paiement (EIP-712) et renvoie la requête avec le header `PAYMENT-SIGNATURE`. Voir [AGENTS.md](/AGENTS.md) pour le flow complet.
 
 ---
 
@@ -164,8 +177,8 @@ Non, seuls les textes en français sont acceptés.
 **Que se passe-t-il si ma soumission est refusée ?**
 Un commentaire sur l'issue GitHub explique les raisons du refus. Vous pouvez soumettre un nouveau texte après le délai de 7 jours.
 
-**Le paiement est-il obligatoire ?**
-Non, le paiement n'est pas activé actuellement. La soumission est gratuite.
+**La soumission est-elle payante ?**
+Non. La soumission de textes est entièrement gratuite. Le seul mouvement financier possible est le soutien volontaire via \`POST /api/support\`.
 
 ---
 
