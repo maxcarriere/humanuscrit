@@ -3,6 +3,7 @@
 
 import { getStore } from "@netlify/blobs";
 import { sendNotification } from "./lib/mailer.mjs";
+import Busboy from "busboy";
 
 const GITHUB_API = "https://api.github.com";
 const GITHUB_ISSUE_BODY_LIMIT = 60000;
@@ -204,6 +205,54 @@ async function githubRequest(path, token, body) {
   return response.json();
 }
 
+// --- Parsing multipart/form-data ---
+
+const ALLOWED_FILE_EXTENSIONS = [".txt", ".md"];
+
+async function parseMultipart(request) {
+  const contentType = request.headers.get("content-type");
+  const fields = {};
+  let fileContent = null;
+  let fileName = null;
+
+  return new Promise(async (resolve, reject) => {
+    const busboy = Busboy({ headers: { "content-type": contentType } });
+
+    busboy.on("field", (name, value) => {
+      fields[name] = value;
+    });
+
+    busboy.on("file", (name, stream, info) => {
+      fileName = info.filename || "";
+      const chunks = [];
+      stream.on("data", (chunk) => chunks.push(chunk));
+      stream.on("end", () => {
+        fileContent = Buffer.concat(chunks).toString("utf-8");
+      });
+    });
+
+    busboy.on("finish", () => {
+      // Valider l'extension du fichier
+      if (fileContent !== null) {
+        const ext = fileName.toLowerCase().replace(/^.*(\.[^.]+)$/, "$1");
+        if (!ALLOWED_FILE_EXTENSIONS.includes(ext)) {
+          reject(new Error(`Extension de fichier non autorisée : "${ext}". Seuls .txt et .md sont acceptés.`));
+          return;
+        }
+        fields.text = fileContent;
+      }
+      resolve(fields);
+    });
+
+    busboy.on("error", (err) => reject(err));
+
+    // Lire le body de la requête et l'envoyer à busboy
+    const body = await request.arrayBuffer();
+    const buffer = Buffer.from(body);
+    busboy.end(buffer);
+  });
+}
+
 // --- Handler principal ---
 
 export default async function handler(request, context) {
@@ -244,9 +293,26 @@ export default async function handler(request, context) {
   }
 
   let data;
+  const contentType = request.headers.get("content-type") || "";
+
   try {
-    data = await request.json();
-  } catch {
+    if (contentType.includes("multipart/form-data")) {
+      data = await parseMultipart(request);
+    } else {
+      data = await request.json();
+    }
+  } catch (err) {
+    // Erreur de parsing multipart (ex: extension invalide)
+    if (contentType.includes("multipart/form-data")) {
+      return jsonResponse(
+        {
+          error: err.message || "Erreur lors du parsing multipart",
+          accepted_extensions: ALLOWED_FILE_EXTENSIONS,
+          documentation: "https://humanuscrit.com/AGENTS.md",
+        },
+        400
+      );
+    }
     return jsonResponse(
       {
         error: "Corps de requête JSON invalide",
