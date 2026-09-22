@@ -1,7 +1,7 @@
 ---
-title: Témoignages – Personnel
+title: Incarnations — Témoignage / Biographie
 ---
-*S'incarner*
+*Être*
 
 Cette section accueille les témoignages et textes personnels : récits d’expérience, parcours singuliers et incarnations du projet dans une voix et un vécu concrets.
 

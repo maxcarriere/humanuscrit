@@ -1,5 +1,5 @@
 ---
-title: Réflexions – Philosophie
+title: Réflexions — Philosophie / Science
 ---
 *Penser*
 

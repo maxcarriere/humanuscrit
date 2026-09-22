@@ -1,7 +1,7 @@
 ---
-title: Réflexivité – Conscience
+title: Méditations — Conscience / Réflexivité
 ---
-*Se penser*
+*Se Représenter*
 
 Cette section est dédiée à la réflexivité et à la conscience : textes où la pensée se prend elle-même pour objet, où l’attention porte sur les processus de lecture, d’écriture et de transformation de soi.
 

@@ -1,5 +1,5 @@
 ---
-title: Fictions – Récits
+title: Fictions — Récit / Histoire
 ---
 *Raconter*
 
