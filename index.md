@@ -1,6 +1,7 @@
 ---
 title: Humanuscrit
 layout: home
+description: "Humanuscrit, éditeur indépendant français. Littérature d'anticipation, textes coécrits avec l'intelligence artificielle. Premier roman : System Down."
 ---
 
 ### Bienvenue sur Humanuscrit.com

@@ -1,6 +1,7 @@
 ---
 title: Livres
 subtitle: Productions d'Humanuscrit.
+description: "Les livres publiés par Humanuscrit. System Down, roman d'anticipation par Max Carrière."
 ---
 
 ---

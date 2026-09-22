@@ -3,6 +3,7 @@ title: Édition
 permalink: /edition/
 schema_organization: true
 subtitle: Humanuscrit comme Editeur.
+description: "Humanuscrit éditeur : services éditoriaux, ligne éditoriale, philosophie et vision politique."
 ---
 
 ---
