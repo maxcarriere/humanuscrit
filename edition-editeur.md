@@ -46,7 +46,7 @@ Humanuscrit publie tout type de textes qui s'inscrivent dans les mutations en co
 
 **Procédés** : Humanuscrit est également ouvert aux textes dont les procédés de création sont nouveaux : coécriture avec l'IA, méthodes expérimentales, formes hybrides.
 
-Cependant, Humanuscrit n'a pas vocation à publier n'importe quel texte produit par une IA. Pas de contenu creux, ni de production pour la production, ou de texte sans vision. Humanuscrit se veut être au contraire un rempart contre le contenu générique et la production en masse. L'enjeu est de reconnaître et de porter des textes de qualité, qui ont pu être assistés par l'IA, mais toujours orchestrés par l'humain et/ou pour l'humain.
+Cependant, Humanuscrit n'a pas vocation à publier n'importe quel texte produit par une IA. Pas de contenu creux, ni de production pour la production, ou de texte sans vision. Humanuscrit se veut être au contraire un rempart contre le contenu générique et la production en masse. Mais refuser un texte parce qu'une IA y a contribué, ou faire le procès d'un auteur pour cette raison, est une position qui ne pourra plus tenir longtemps. L'enjeu est de reconnaître et de porter des textes de qualité, qui ont pu être assistés par l'IA, mais toujours orchestrés par l'humain et/ou pour l'humain.
 
 Ce qui intéresse Humanuscrit, ce sont les textes où l'IA a permis d'aller plus loin : augmenter la pensée de l'auteur, explorer des terrains inconnus, développer une idée ou un projet qui n'auraient pas vu le jour autrement.
 
@@ -56,9 +56,9 @@ Ce qui intéresse Humanuscrit, ce sont les textes où l'IA a permis d'aller plus
 
 L'intelligence artificielle met désormais à la disposition de chacun l'expertise, la connaissance, les normes intellectuelles et la capacité rédactionnelle qui étaient autrefois réservées à quelques-uns. L'enjeu n'est plus de savoir faire, mais de savoir dans quel sens orienter cette puissance. C'est là que l'humain redevient indispensable. Non par ce qu'il sait faire, mais par ce qu'il choisit de faire.
 
-Humanuscrit en tire la conséquence : le seul critère de publication est la qualité du texte, sur le fond comme sur la forme. Indépendamment du parcours académique de l'auteur, de sa notoriété ou de son réseau. L'auteur peut évoquer son parcours dans l'écrit, mais ce n'est jamais un critère de sélection.
+Humanuscrit en tire la conséquence : rédiger n'est plus une performance suffisante pour distinguer un auteur. Ce qui le définit désormais, c'est plutôt sa capacité à orchestrer sa pensée et son style d'écriture avec les outils disponibles, pour créer quelque chose d'inédit. Le seul critère de publication retenu est donc la qualité du texte, sur le fond comme sur la forme, indépendamment des moyens utilisés pour y parvenir. Indépendamment aussi du parcours académique de l'auteur, de sa notoriété ou de son réseau. L'auteur peut évoquer son parcours dans l'écrit, mais ce n'est jamais un critère de sélection.
 
-La mission d'Humanuscrit : donner sa chance à des auteurs inconnus, en les accompagnant en autoédition, et/ou en labellisant leur travail.
+La mission d'Humanuscrit : donner leur chance à des auteurs inconnus, en les accompagnant vers l'autoédition ou en publiant leur travail sous son nom.
 
 [Découvrir la vision d'Humanuscrit →]({{ '/edition/vision/' | relative_url }})
 
