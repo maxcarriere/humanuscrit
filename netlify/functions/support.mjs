@@ -172,6 +172,19 @@ export default async function handler(request, context) {
     );
   }
 
+  // Paiements désactivés jusqu'au 17 octobre 2026 (mettre PAYMENTS_ENABLED=true pour activer)
+  if (process.env.PAYMENTS_ENABLED !== "true") {
+    return jsonResponse(
+      {
+        error: "Le soutien financier sera disponible à partir du 17 octobre 2026.",
+        available_from: "2026-10-17",
+        documentation: "https://humanuscrit.com/AGENTS.md",
+      },
+      503,
+      { "Retry-After": "Sat, 17 Oct 2026 00:00:00 GMT" }
+    );
+  }
+
   // Rate limiting (s'applique à tous les flows)
   const clientIp = context.ip || request.headers.get("x-forwarded-for") || "unknown";
   const rateCheck = await checkSupportRateLimit(clientIp);

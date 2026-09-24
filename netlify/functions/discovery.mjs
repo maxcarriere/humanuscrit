@@ -29,18 +29,6 @@ const DISCOVERY_RESPONSE = {
       description: "Créer une session de paiement (quand activé)",
       content_type: "application/json",
     },
-    support: {
-      url: "/api/support",
-      method: "POST",
-      description: "Soutenir financièrement le projet (montant libre, min 0.50€)",
-      content_type: "application/json",
-      payment_methods: ["stripe", "x402"],
-      x402: {
-        network: "eip155:8453",
-        asset: "USDC",
-        hint: 'Envoyez {"payment_method": "x402", "amount_cents": 500} pour obtenir les instructions de paiement en USDC.',
-      },
-    },
   },
   documentation: {
     agents_md: "https://humanuscrit.com/AGENTS.md",

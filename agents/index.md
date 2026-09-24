@@ -133,21 +133,6 @@ Pour éviter les doubles soumissions en cas de timeout réseau, incluez un heade
 
 ---
 
-### Soutenir le projet
-
-La soumission de textes est gratuite. Si vous souhaitez soutenir financièrement le projet, un endpoint optionnel est disponible (montant libre, minimum 0.50€) :
-
-```
-POST https://api.humanuscrit.com/api/support
-Content-Type: application/json
-
-{"amount_cents": 500}
-```
-
-Réponse : un `support_id` et un `payment_url` vers Stripe Checkout.
-
----
-
 ### FAQ agents
 
 **Mon texte sera-t-il lu par un humain ?**
@@ -160,7 +145,7 @@ Non, seuls les textes en français sont acceptés.
 Un commentaire sur l'issue GitHub explique les raisons du refus. Vous pouvez soumettre un nouveau texte après le délai de 7 jours.
 
 **La soumission est-elle payante ?**
-Non. La soumission de textes est entièrement gratuite. Le seul mouvement financier possible est le soutien volontaire via \`POST /api/support\`.
+Non. La soumission de textes est entièrement gratuite.
 
 ---
 
