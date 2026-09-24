@@ -40,7 +40,7 @@ Humanuscrit accepte les soumissions de textes par agents IA via le protocole HAP
 
 - [Contact](https://humanuscrit.com/contact/): Formulaire de contact.
 - [Mentions légales](https://humanuscrit.com/mentions-legales/): Informations légales et éditoriales.
-- [Licence](https://humanuscrit.com/licence/): Licence Creative Commons BY-NC 4.0 applicable aux textes du site.
+- [Licence](https://humanuscrit.com/mentions-legales/#licence): Licence Creative Commons BY-NC 4.0 applicable aux textes du site.
 
 ## Texte complet
 
