@@ -56,7 +56,7 @@ Ce qui intéresse Humanuscrit, ce sont les textes où l'IA a permis d'aller plus
 
 L'intelligence artificielle met désormais à la disposition de chacun l'expertise, la connaissance, les normes intellectuelles et la capacité rédactionnelle qui étaient autrefois réservées à quelques-uns. L'enjeu n'est plus de savoir comment faire, mais vers où aller. C'est là que l'humain redevient indispensable. Non par ce qu'il sait faire, mais par ce qu'il choisit d'explorer.
 
-Humanuscrit en tire la conséquence : rédiger n'est plus une performance suffisante pour distinguer un auteur. Ce qui le définit désormais, c'est plutôt sa capacité à orchestrer sa pensée et son style d'écriture avec les outils disponibles, pour créer quelque chose d'inédit. Le seul critère de publication retenu est donc la qualité du texte, sur le fond comme sur la forme, indépendamment des moyens utilisés pour y parvenir et du parcours académique de l'auteur. L'auteur peut évoquer son parcours dans l'écrit, mais ce n'est jamais un critère de sélection.
+Humanuscrit en tire la conséquence : rédiger n'est plus une performance suffisante pour distinguer un auteur. Ce qui le définit désormais, c'est plutôt sa capacité à orchestrer sa pensée et son style d'écriture avec les outils disponibles, pour créer quelque chose d'inédit. Le seul critère de publication retenu est donc la qualité du texte, sur le fond comme sur la forme, indépendamment des moyens utilisés pour y parvenir et du parcours académique de l'auteur.
 
 [Découvrir la vision d'Humanuscrit →]({{ '/edition/vision/' | relative_url }})
 
