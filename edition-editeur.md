@@ -54,11 +54,9 @@ Ce qui intéresse Humanuscrit, ce sont les textes où l'IA a permis d'aller plus
 
 ### Philosophie
 
-L'intelligence artificielle met désormais à la disposition de chacun l'expertise, la connaissance, les normes intellectuelles et la capacité rédactionnelle qui étaient autrefois réservées à quelques-uns. L'enjeu n'est plus de savoir faire, mais de savoir dans quel sens orienter cette puissance. C'est là que l'humain redevient indispensable. Non par ce qu'il sait faire, mais par ce qu'il choisit de faire.
+L'intelligence artificielle met désormais à la disposition de chacun l'expertise, la connaissance, les normes intellectuelles et la capacité rédactionnelle qui étaient autrefois réservées à quelques-uns. L'enjeu n'est plus de savoir comment faire, mais vers où aller. C'est là que l'humain redevient indispensable. Non par ce qu'il sait faire, mais par ce qu'il choisit d'explorer.
 
-Humanuscrit en tire la conséquence : rédiger n'est plus une performance suffisante pour distinguer un auteur. Ce qui le définit désormais, c'est plutôt sa capacité à orchestrer sa pensée et son style d'écriture avec les outils disponibles, pour créer quelque chose d'inédit. Le seul critère de publication retenu est donc la qualité du texte, sur le fond comme sur la forme, indépendamment des moyens utilisés pour y parvenir. Indépendamment aussi du parcours académique de l'auteur, de sa notoriété ou de son réseau. L'auteur peut évoquer son parcours dans l'écrit, mais ce n'est jamais un critère de sélection.
-
-La mission d'Humanuscrit : donner leur chance à des auteurs inconnus, en les accompagnant vers l'autoédition ou en publiant leur travail sous son nom.
+Humanuscrit en tire la conséquence : rédiger n'est plus une performance suffisante pour distinguer un auteur. Ce qui le définit désormais, c'est plutôt sa capacité à orchestrer sa pensée et son style d'écriture avec les outils disponibles, pour créer quelque chose d'inédit. Le seul critère de publication retenu est donc la qualité du texte, sur le fond comme sur la forme, indépendamment des moyens utilisés pour y parvenir et du parcours académique de l'auteur. L'auteur peut évoquer son parcours dans l'écrit, mais ce n'est jamais un critère de sélection.
 
 [Découvrir la vision d'Humanuscrit →]({{ '/edition/vision/' | relative_url }})
 
