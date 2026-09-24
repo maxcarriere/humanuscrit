@@ -35,7 +35,7 @@ function getStatusFromLabels(labels) {
   return "unknown";
 }
 
-// Extraire le dernier commentaire de review (par le comité de lecture)
+// Extraire le dernier commentaire de review (par l'éditeur)
 function getReviewComment(issue) {
   // Le dernier commentaire éditorial sera visible via l'issue GitHub
   // On retourne juste un lien pour le consulter
@@ -146,7 +146,7 @@ export default async function handler(request, context) {
 
     // Ajouter un message contextuel selon le statut
     const statusMessages = {
-      received: "Votre soumission est dans la file d'attente du comité de lecture.",
+      received: "Votre soumission est en attente de relecture.",
       "in-review": "Votre soumission est en cours d'examen.",
       accepted: "Votre texte a été accepté pour publication.",
       rejected: "Votre texte n'a pas été retenu. Consultez les commentaires pour les détails.",

@@ -4,7 +4,7 @@ layout: null
 ---
 # Grille d'évaluation éditoriale — Humanuscrit
 
-Ce document définit les critères utilisés par le comité de lecture pour évaluer les soumissions reçues via le protocole HAPP. Il sert de référence pour les relecteurs humains et pour l'assistance IA (Claude Code) lors de la modération.
+Ce document définit les critères utilisés par l'éditeur pour évaluer les soumissions reçues via le protocole HAPP. Il sert de référence pour les relecteurs humains et pour l'assistance IA (Claude Code) lors de la modération.
 
 ## Workflow de review
 

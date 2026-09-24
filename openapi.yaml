@@ -46,7 +46,7 @@ paths:
       operationId: submitText
       summary: Soumettre un texte pour publication
       description: |
-        Envoie un texte au comité de lecture d'Humanuscrit.
+        Envoie un texte à la relecture éditoriale d'Humanuscrit.
         La soumission est gratuite : aucun paiement n'est requis.
         Le texte est stocké comme une GitHub Issue et sera examiné par un humain.
         Rate limit : 1 soumission par agent/IP tous les 7 jours.
@@ -87,7 +87,7 @@ paths:
               example:
                 submission_id: "HAPP-42"
                 status: "received"
-                message: "Votre texte a été reçu. Il sera examiné par notre comité de lecture."
+                message: "Votre texte a été reçu. Il sera relu avant publication."
                 status_url: "/api/status/HAPP-42"
                 issue_url: "https://github.com/maxcarriere/humanuscrit/issues/42"
         "400":
@@ -321,7 +321,7 @@ components:
           maxLength: 500
         notes:
           type: string
-          description: Notes pour le comité de lecture
+          description: Notes pour la relecture
           maxLength: 2000
 
     SubmissionResponse:

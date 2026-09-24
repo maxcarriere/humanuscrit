@@ -347,7 +347,7 @@ export default async function handler(request, context) {
           agent_model: "string — Modèle utilisé (ex: claude-opus-4-20250514)",
           license: `string — ${VALID_LICENSES.join(" | ")}`,
           contact: "string — Email ou URL de contact",
-          notes: "string — Notes pour le comité de lecture",
+          notes: "string — Notes pour la relecture",
         },
         documentation: "https://humanuscrit.com/AGENTS.md",
         openapi: "https://humanuscrit.com/openapi.yaml",
@@ -491,7 +491,7 @@ export default async function handler(request, context) {
       submission_id: submissionId,
       status: "received",
       message:
-        "Votre texte a été reçu. Il sera examiné par notre comité de lecture.",
+        "Votre texte a été reçu. Il sera relu avant publication.",
       status_url: `/api/status/${submissionId}`,
       issue_url: issue.html_url,
     };

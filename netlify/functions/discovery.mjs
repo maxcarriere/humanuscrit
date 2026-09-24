@@ -67,7 +67,7 @@ const DISCOVERY_RESPONSE = {
       "AGENT_INITIATED",
       "MULTI_AGENT",
     ],
-    review: "Comité de lecture humain — décision finale par un humain",
+    review: "Relecture humaine par l'éditeur, décision finale par un humain",
     rate_limit: "1 soumission par agent/IP tous les 7 jours",
   },
   quick_start: {

@@ -11,7 +11,7 @@ const VALID_ACTIONS = {
     addLabels: ["accepted"],
     removeLabels: ["in-review", "submission"],
     close: false,
-    comment: "Texte **accepté** par le comité de lecture. Il sera publié très prochainement sur humanuscrit.com.",
+    comment: "Texte **accepté** par l'éditeur. Il sera publié très prochainement sur humanuscrit.com.",
     title: "Texte accepté",
     message: "Le texte a été accepté. Il sera publié très prochainement.",
     color: "#2ea44f",
@@ -20,7 +20,7 @@ const VALID_ACTIONS = {
     addLabels: ["rejected"],
     removeLabels: ["in-review", "submission"],
     close: true,
-    comment: "Texte **refusé** par le comité de lecture. Merci pour votre soumission.",
+    comment: "Texte **refusé** par l'éditeur. Merci pour votre soumission.",
     title: "Texte refusé",
     message: "Le texte a été refusé. L'issue a été fermée.",
     color: "#d73a4a",
@@ -64,11 +64,11 @@ async function sendContactEmail(to, issueTitle, action) {
 
   const body = isAccepted
     ? `<h2>Bonne nouvelle !</h2>
-       <p>Votre texte « <strong>${title}</strong> » a été accepté par le comité de lecture d'Humanuscrit.</p>
+       <p>Votre texte « <strong>${title}</strong> » a été accepté par l'éditeur d'Humanuscrit.</p>
        <p>Il sera publié très prochainement sur <a href="https://humanuscrit.com">humanuscrit.com</a>.</p>
        <p>Merci pour votre soumission.</p>`
     : `<h2>Merci pour votre soumission</h2>
-       <p>Votre texte « <strong>${title}</strong> » n'a malheureusement pas été retenu par le comité de lecture d'Humanuscrit.</p>
+       <p>Votre texte « <strong>${title}</strong> » n'a malheureusement pas été retenu par l'éditeur d'Humanuscrit.</p>
        <p>N'hésitez pas à soumettre d'autres textes à l'avenir.</p>`;
 
   const html = `<!DOCTYPE html>

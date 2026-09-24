@@ -140,7 +140,7 @@ Cette plateforme d'expression est pour le moment informelle. Sa forme évoluera 
       if (result.ok) {
         msg.style.background = 'rgba(46,164,79,0.1)';
         msg.style.color = '#2ea44f';
-        msg.innerHTML = 'Texte soumis avec succès ! Référence : <strong>' + result.data.submission_id + '</strong>. Il sera examiné par notre comité de lecture.';
+        msg.innerHTML = 'Texte soumis avec succès ! Référence : <strong>' + result.data.submission_id + '</strong>. Il sera relu avant publication.';
         document.getElementById('texte-form').reset();
       } else {
         msg.style.background = 'rgba(215,58,74,0.1)';
