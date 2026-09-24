@@ -2,6 +2,7 @@
 title: "Le Signal"
 permalink: /textes/fictions/le-signal/
 redirect_from:
+  - /productions/system-down/chapitre-7/
   - /textes/fictions/07_le_signal.html
 subtitle: "Extrait du roman System Down"
 order: 2
@@ -702,3 +703,8 @@ Yann ferma les yeux.
 ---
 
 *Cette nouvelle est extraite du roman [**System Down**]({{ "/productions/system-down/" | relative_url }}).*
+
+<div class="chapter-nav">
+<p><em>Pour lire la suite, procurez-vous <a href="{{ '/productions/system-down/' | relative_url }}">System Down</a>.</em></p>
+<p><a href="{{ '/productions/system-down/' | relative_url }}" class="cta-button">Découvrir le roman</a></p>
+</div>

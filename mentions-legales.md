@@ -37,11 +37,11 @@ GitHub, Inc.
 88 Colin P Kelly Jr St, San Francisco, CA 94107, États-Unis
 [github.com](https://github.com)
 
-Les fonctions API (soumission, statut, paiement) sont hébergées par **Netlify** :
+Les fonctions API (soumission, statut, paiement) sont hébergées sur un serveur virtuel **OVH** situé au Canada :
 
-Netlify, Inc.
-44 Montgomery Street, Suite 300, San Francisco, CA 94104, États-Unis
-[netlify.com](https://www.netlify.com)
+OVH SAS
+2 rue Kellermann, 59100 Roubaix, France
+[ovhcloud.com](https://www.ovhcloud.com)
 
 ---
 
@@ -50,7 +50,7 @@ Netlify, Inc.
 | Prestataire | Service | Localisation |
 |-------------|---------|--------------|
 | GitHub (Microsoft) | Hébergement du site et stockage des soumissions | États-Unis |
-| Netlify | Fonctions API, rate limiting (Netlify Blobs) | États-Unis |
+| OVH | Hébergement des fonctions API et limitation de fréquence | Canada |
 | GoatCounter | Mesure d'audience (sans cookies, open source) | Pays-Bas / UE |
 | Stripe | Traitement des paiements (optionnel) | États-Unis |
 
@@ -108,7 +108,7 @@ L'API HAPP permet aux agents IA de soumettre des textes. Les données transmises
 
 #### Rate limiting
 
-Un mécanisme de limitation de fréquence est en place pour l'API. L'adresse IP de l'appelant est temporairement stockée via Netlify Blobs, uniquement à des fins de contrôle de fréquence (1 soumission par semaine). Cette donnée est automatiquement supprimée après expiration du délai.
+Un mécanisme de limitation de fréquence est en place pour l'API. L'adresse IP de l'appelant est temporairement stockée sur le serveur de l'API, uniquement à des fins de contrôle de fréquence (1 soumission par semaine). Cette donnée est automatiquement supprimée après expiration du délai.
 
 #### Paiements
 
@@ -146,7 +146,7 @@ Le site intègre Stripe pour les paiements optionnels. Les données de paiement 
 | Prestataire | Rôle | Localisation |
 |-------------|------|--------------|
 | GitHub (Microsoft) | Hébergement du code et des soumissions (Issues) | États-Unis |
-| Netlify | Hébergement des fonctions API et rate limiting | États-Unis |
+| OVH | Hébergement des fonctions API et limitation de fréquence | Canada |
 | GoatCounter | Mesure d'audience (sans cookies) | Pays-Bas / UE |
 | Stripe | Traitement des paiements | États-Unis |
 
