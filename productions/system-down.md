@@ -121,8 +121,4 @@ Livraison&nbsp;: Imm&eacute;diate
 
 ---
 
-### Avis lecteurs
-
-{% include avis.html %}
-
 [← Retour aux Productions]({{ '/productions/' | relative_url }})
