@@ -259,7 +259,3 @@ Cela signifie accepter, pendant quelque temps au moins, qu’il n’y en ait plu
 
 Et avancer quand même.
 
----
-
-*Max Carrière, septembre 2026*
-

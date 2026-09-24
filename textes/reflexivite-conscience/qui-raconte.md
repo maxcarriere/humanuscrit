@@ -35,6 +35,3 @@ Négliger cet espace n’est pas sans conséquence. Lorsque l’esprit n’a plu
 
 Reste une mise en garde. Les ressources pour apprendre ces pratiques n’ont jamais été aussi nombreuses, et certaines peuvent aider à faire les premiers pas. Mais il y a un paradoxe à vouloir faire taire sa petite voix en écoutant celle d’un autre : un guide peut devenir une voix de plus dans le vacarme. Ce qu’il s’agit de rencontrer se trouve au fond de nous-mêmes, et c’est là, à terme, qu’il faut descendre, seul à seul avec son esprit. Ce qui ne dispense pas, lorsque la souffrance déborde, de se laisser aider : il est des moments où l’on ne peut pas descendre seul.
 
----
-
-*Max Carrière*

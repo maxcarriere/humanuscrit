@@ -36,6 +36,3 @@ La liberté n’est alors peut-être pas un absolu que l’on possède ou non. E
 
 Qui suis-je, alors ? Pas seulement ce qui éprouve. Pas seulement ce qui veut. Peut-être ce qui, au milieu de tout ce qui est déterminé, garde la possibilité de choisir. Une part minuscule, sans doute. Mais c’est la seule dont je puisse vraiment répondre.
 
----
-
-*Max Carrière*

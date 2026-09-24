@@ -103,6 +103,3 @@ Je ferme la première. Puis la deuxième. Puis toutes les autres.
 
 J’éteins l’écran avant qu’il ne m’éteigne.
 
----
-
-*Max Carrière, septembre 2026*

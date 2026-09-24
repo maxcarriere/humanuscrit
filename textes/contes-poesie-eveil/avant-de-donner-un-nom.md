@@ -197,6 +197,3 @@ Il accordait au monde quelques secondes d’existence.
 
 Avant de lui donner un nom.
 
----
-
-*Max Carrière, septembre 2026*
