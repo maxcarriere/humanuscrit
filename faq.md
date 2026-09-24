@@ -196,8 +196,8 @@ Non, *System Down* n'est pas écrit par une IA : il a été coécrit par Max Car
 
 Oui, deux chapitres sont disponibles en accès libre :
 
-- [Chapitre 1 : Bruit Blanc]({{ '/productions/system-down/chapitre-1/' | relative_url }}) (Acte I)
-- [Chapitre 7 : Le Signal]({{ '/productions/system-down/chapitre-7/' | relative_url }}) (Acte II)
+- [Chapitre 1 : Bruit Blanc]({{ '/textes/fictions/bruit-blanc/' | relative_url }}) (Acte I)
+- [Chapitre 7 : Le Signal]({{ '/textes/fictions/le-signal/' | relative_url }}) (Acte II)
 
 ---
 

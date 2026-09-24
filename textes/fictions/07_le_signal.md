@@ -701,4 +701,4 @@ Yann ferma les yeux.
 
 ---
 
-*Cette nouvelle est extraite du roman [**System Down**]({{ "/productions/" | relative_url }}).*
+*Cette nouvelle est extraite du roman [**System Down**]({{ "/productions/system-down/" | relative_url }}).*
