@@ -34,7 +34,7 @@ Pas de contrat d'édition à proprement parler. Pas d'exclusivité : l'auteur re
 
 Faire éditer son livre par Humanuscrit aujourd'hui, c'est faire le pari que ce projet aura demain une place plus importante dans le paysage éditorial. L'éditeur ne s'engage sur rien d'autre que la qualité de l'accompagnement.
 
-[Nous contacter pour en discuter]({{ '/contact/' | relative_url }})
+Pour toute question relative à l'édition d'un manuscrit, écrivez à [contact.humanuscrit@gmail.com](mailto:contact.humanuscrit@gmail.com).
 
 ---
 

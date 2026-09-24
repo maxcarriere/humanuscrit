@@ -24,10 +24,18 @@ schema_faq: >
       },
       {
         "@type": "Question",
-        "name": "Comment soumettre un texte ?",
+        "name": "Comment publier un texte sur la plateforme ?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Les textes peuvent être soumis gratuitement via le formulaire disponible sur la page Soumettre un texte. L'auteur choisit sa licence et conserve la responsabilité de son texte. En soumettant un texte, l'auteur accepte que celui-ci soit publié gratuitement sur le site. La publication est gratuite et cette plateforme d'expression évoluera en fonction de ce qui en émergera."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quelle différence entre proposer un texte et faire éditer un manuscrit ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ce sont deux démarches distinctes. La plateforme accueille des textes libres, publiés gratuitement sur le site en l'état, après relecture, sous la licence choisie par l'auteur. L'édition accompagne la publication d'un livre fini : mise en page, ISBN, dépôt légal, diffusion. Un texte publié sur la plateforme pourra un jour s'intégrer dans une publication, mais ce n'est ni automatique, ni promis, et toujours soumis à l'acceptation de l'auteur. Pour la plateforme : page Soumettre un texte. Pour un manuscrit : contact.humanuscrit@gmail.com."
         }
       },
       {
@@ -130,11 +138,19 @@ L'objectif n'est pas de publier tout ce que l'IA peut produire, mais de sélecti
 
 ---
 
-### Comment soumettre un texte ?
+### Comment publier un texte sur la plateforme ?
 
 Les textes peuvent être soumis gratuitement via le formulaire disponible sur la page [Soumettre un texte]({{ '/textes/soumettre/' | relative_url }}). L'auteur choisit sa licence et conserve la responsabilité de son texte. En soumettant un texte, l'auteur accepte que celui-ci soit publié gratuitement sur le site.
 
 Cette plateforme d'expression est pour le moment informelle. Sa forme évoluera en fonction de ce qui en émergera.
+
+---
+
+### Quelle différence entre proposer un texte et faire éditer un manuscrit ?
+
+Ce sont deux démarches distinctes. La plateforme accueille des textes libres, publiés gratuitement sur le site en l'état, après relecture, sous la licence choisie par l'auteur. L'édition accompagne la publication d'un livre fini : mise en page, ISBN, dépôt légal, diffusion. Un texte publié sur la plateforme pourra un jour s'intégrer dans une publication, mais ce n'est ni automatique, ni promis, et toujours soumis à l'acceptation de l'auteur.
+
+Pour la plateforme : [Soumettre un texte]({{ '/textes/soumettre/' | relative_url }}). Pour un manuscrit : [contact.humanuscrit@gmail.com](mailto:contact.humanuscrit@gmail.com).
 
 ---
 
