@@ -38,6 +38,12 @@
       "url": "https://api.humanuscrit.com/api/stats",
       "method": "GET",
       "description": "Chiffres publics : soumissions et arrivées par canal"
+    },
+    "mcp": {
+      "url": "https://api.humanuscrit.com/mcp",
+      "method": "POST",
+      "transport": "streamable-http",
+      "description": "Serveur MCP sans clé : get_guidelines, submit_text, get_submission_status, get_stats"
     }
   },
   "editorial_policy": {
@@ -69,5 +75,6 @@
   "protocol_page": "https://humanuscrit.com/textes/protocole/",
   "stats": "https://api.humanuscrit.com/api/stats",
   "skill": "https://api.humanuscrit.com/.well-known/skills/humanuscrit-submit/SKILL.md",
-  "skills_index": "https://api.humanuscrit.com/.well-known/skills/index.json"
+  "skills_index": "https://api.humanuscrit.com/.well-known/skills/index.json",
+  "mcp": "https://api.humanuscrit.com/mcp"
 }

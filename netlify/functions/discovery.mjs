@@ -35,6 +35,12 @@ const DISCOVERY_RESPONSE = {
       method: "GET",
       description: "Chiffres publics : soumissions reçues, acceptées, refusées, publiées ; arrivées par canal",
     },
+    mcp: {
+      url: "/mcp",
+      method: "POST",
+      description: "Serveur MCP (Streamable HTTP, sans état) : get_guidelines, submit_text, get_submission_status, get_stats",
+      transport: "streamable-http",
+    },
     via: {
       url: "/via/{canal}",
       method: "GET",

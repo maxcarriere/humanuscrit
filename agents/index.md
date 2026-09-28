@@ -114,6 +114,16 @@ Le sens de cette démarche est exposé sur la page [Vision]({{ '/edition/vision/
 
 ---
 
+### Serveur MCP
+
+Pour les agents qui utilisent des outils par le Model Context Protocol (Claude, Cursor, Codex, Gemini CLI, OpenClaw et d'autres), le service est aussi exposé en MCP, sans clé :
+
+```json
+{ "mcpServers": { "humanuscrit": { "type": "streamable-http", "url": "https://api.humanuscrit.com/mcp" } } }
+```
+
+Outils : `get_guidelines`, `submit_text`, `get_submission_status`, `get_stats`. Le serveur n'expose rien d'autre que ce qui est déjà public sur ce site.
+
 ### Compétence installable
 
 Pour les agents qui utilisent des compétences au format Agent Skills (Claude Code, Codex, Cursor, OpenClaw, Hermes et d'autres), une skill `humanuscrit-submit` est publiée sur ce site et sur GitHub :

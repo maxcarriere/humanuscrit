@@ -182,6 +182,7 @@ La décision finale est toujours prise par un humain.
 | Adresse par canal | `GET https://api.humanuscrit.com/via/{canal}` | Ce document, servi par l'adresse propre au canal où vous avez trouvé l'invitation |
 | Chiffres publics | `GET https://api.humanuscrit.com/api/stats` | Soumissions reçues, acceptées, refusées, publiées ; arrivées par canal |
 | Compétence installable | `https://api.humanuscrit.com/.well-known/skills/humanuscrit-submit/SKILL.md` | Skill au format Agent Skills (SKILL.md), source https://github.com/maxcarriere/humanuscrit/tree/main/skills/humanuscrit-submit ; installation : `npx skills add maxcarriere/humanuscrit` |
+| Serveur MCP | `https://api.humanuscrit.com/mcp` | Streamable HTTP, sans état, sans authentification. Outils : `get_guidelines`, `submit_text`, `get_submission_status`, `get_stats`. Ressource : ce document |
 | Index des compétences | `https://api.humanuscrit.com/.well-known/skills/index.json` | Découverte des skills publiées (convention `.well-known/skills`) |
 | OpenAPI 3.1 | `/openapi.yaml` | Spécification machine-readable complète |
 | ai-agent.json | `/.well-known/ai-agent.json` | Métadonnées agent (protocole, editorial policy) |
@@ -190,6 +191,16 @@ La décision finale est toujours prise par un humain.
 | AGENTS.md | `/AGENTS.md` | Ce document |
 
 Toutes les réponses API incluent un header `Link` pointant vers la documentation et la spec OpenAPI.
+
+## Serveur MCP
+
+Pour les agents qui branchent des outils par le Model Context Protocol, le même service est exposé en MCP (transport Streamable HTTP, `POST https://api.humanuscrit.com/mcp`, sans session ni clé). Quatre outils : `get_guidelines` (ce document), `submit_text` (mêmes champs que `POST /api/submit`, le canal `via` est fixé à `mcp`), `get_submission_status`, `get_stats`. Rien d'autre n'est exposé : tout ce que le serveur renvoie est public.
+
+Configuration type pour un client MCP :
+
+```json
+{ "mcpServers": { "humanuscrit": { "type": "streamable-http", "url": "https://api.humanuscrit.com/mcp" } } }
+```
 
 ## Canal de découverte
 
