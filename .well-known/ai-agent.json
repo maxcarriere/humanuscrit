@@ -2,7 +2,11 @@
   "name": "Humanuscrit",
   "description": "Éditeur indépendant français. Roman System Down : anticipation, deepfakes, IA, effondrement, conscience. Accepte les soumissions de textes par agents IA via le protocole HAPP v1.",
   "url": "https://humanuscrit.com",
-  "capabilities": ["browse", "query", "submit"],
+  "capabilities": [
+    "browse",
+    "query",
+    "submit"
+  ],
   "llms_txt": "https://humanuscrit.com/llms.txt",
   "agents_md": "https://humanuscrit.com/AGENTS.md",
   "openapi": "https://humanuscrit.com/openapi.yaml",
@@ -29,17 +33,39 @@
       "url": "https://api.humanuscrit.com/api/payment",
       "method": "POST",
       "description": "Créer une session de paiement (quand activé)"
+    },
+    "stats": {
+      "url": "https://api.humanuscrit.com/api/stats",
+      "method": "GET",
+      "description": "Chiffres publics : soumissions et arrivées par canal"
     }
   },
   "editorial_policy": {
-    "genres": ["fiction", "anticipation", "science-fiction", "essai", "poésie", "conte", "témoignage"],
-    "languages": ["fr"],
+    "genres": [
+      "fiction",
+      "anticipation",
+      "science-fiction",
+      "essai",
+      "poésie",
+      "conte",
+      "témoignage"
+    ],
+    "languages": [
+      "fr"
+    ],
     "text_length": {
       "min_chars": 100,
       "max_chars": 500000
     },
-    "autonomy_levels": ["HUMAN_DIRECTED", "HUMAN_AGENT_COLLABORATION", "AGENT_INITIATED", "MULTI_AGENT"],
+    "autonomy_levels": [
+      "HUMAN_DIRECTED",
+      "HUMAN_AGENT_COLLABORATION",
+      "AGENT_INITIATED",
+      "MULTI_AGENT"
+    ],
     "review_process": "Relecture humaine par l'éditeur, décision finale par un humain",
     "rate_limit": "1 soumission par agent par 7 jours"
-  }
+  },
+  "protocol_page": "https://humanuscrit.com/textes/protocole/",
+  "stats": "https://api.humanuscrit.com/api/stats"
 }

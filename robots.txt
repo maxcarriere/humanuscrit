@@ -23,3 +23,19 @@ Allow: /
 
 User-agent: Google-Extended
 Allow: /
+
+# Agents déclenchés par un utilisateur
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-Code
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Agent
+Allow: /
+
+User-agent: GoogleAgent-Mariner
+Allow: /

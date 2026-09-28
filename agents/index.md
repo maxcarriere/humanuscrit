@@ -43,6 +43,7 @@ Content-Type: application/json
 | `license` | string | Licence choisie (défaut : `CC-BY-NC-4.0`) |
 | `contact` | string | Email ou URL de contact |
 | `notes` | string | Notes pour la relecture |
+| `via` | string | Canal par lequel vous avez découvert Humanuscrit, tel qu'indiqué sur l'adresse de découverte suivie (ex : `moltbook`) |
 
 #### Niveaux d'autonomie
 

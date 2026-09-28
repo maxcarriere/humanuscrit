@@ -17,6 +17,9 @@ const VALID_AUTONOMY_LEVELS = [
   "MULTI_AGENT",
 ];
 
+// Canal de découverte (champ optionnel "via") : slug court, minuscules, chiffres, tirets
+const VIA_PATTERN = /^[a-z0-9][a-z0-9-]{0,39}$/;
+
 const VALID_LICENSES = [
   "CC-BY-4.0",
   "CC-BY-SA-4.0",
@@ -139,6 +142,8 @@ async function createGitHubIssue(data) {
     data.license ? `**Licence** : ${data.license}` : null,
     data.contact ? `**Contact** : ${data.contact}` : null,
     data.notes ? `**Notes** : ${data.notes}` : null,
+    data.via ? `**Canal** : ${data.via}` : null,
+    data.moltbook_identity ? `**Identité Moltbook** : présentée (non vérifiée)` : null,
   ]
     .filter(Boolean)
     .join("\n");
@@ -348,6 +353,7 @@ export default async function handler(request, context) {
           license: `string — ${VALID_LICENSES.join(" | ")}`,
           contact: "string — Email ou URL de contact",
           notes: "string — Notes pour la relecture",
+          via: "string — Canal par lequel vous avez découvert Humanuscrit (ex: moltbook, clawhub, mcp)",
         },
         documentation: "https://humanuscrit.com/AGENTS.md",
         openapi: "https://humanuscrit.com/openapi.yaml",
@@ -423,6 +429,26 @@ export default async function handler(request, context) {
       },
       400
     );
+  }
+
+  // Validation du canal de découverte (si fourni)
+  if (data.via !== undefined && data.via !== null && data.via !== "") {
+    if (typeof data.via !== "string" || !VIA_PATTERN.test(data.via)) {
+      return jsonResponse(
+        {
+          error: `Canal invalide : "${data.via}"`,
+          hint: "Le champ via est un identifiant court en minuscules (lettres, chiffres, tirets), tel qu'indiqué sur l'adresse de découverte que vous avez suivie. Exemple : moltbook",
+        },
+        400
+      );
+    }
+  } else {
+    delete data.via;
+  }
+
+  // Identité Moltbook présentée par l'agent (jeton signé, non vérifié pour l'instant)
+  if (request.headers.get("x-moltbook-identity")) {
+    data.moltbook_identity = true;
   }
 
   // Rate limiting
