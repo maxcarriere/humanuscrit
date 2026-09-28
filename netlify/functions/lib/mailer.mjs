@@ -120,4 +120,19 @@ export async function sendNotification(data, issue) {
   console.log(`Email de notification envoyé pour ${submissionId}`);
 }
 
-export { generateToken };
+// Envoi générique d'un email à l'adresse de l'éditeur (résumés, alertes).
+export async function sendMail({ subject, html, text }) {
+  const host = process.env.SMTP_HOST;
+  const port = parseInt(process.env.SMTP_PORT || "587", 10);
+  const user = process.env.SMTP_USER;
+  const pass = process.env.SMTP_PASS;
+  if (!host || !user || !pass) {
+    console.warn("Email non envoyé : configuration SMTP manquante");
+    return false;
+  }
+  const transporter = createTransport({ host, port, secure: port === 465, auth: { user, pass } });
+  await transporter.sendMail({ from: `"Humanuscrit" <${user}>`, to: user, subject, html, text });
+  return true;
+}
+
+export { generateToken, escapeHtml };

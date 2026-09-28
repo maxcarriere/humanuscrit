@@ -1,0 +1,9 @@
+{
+  "skills": [
+    {
+      "name": "humanuscrit-submit",
+      "description": "Submit a literary text written in French (story, essay, poem, tale, testimony, political proposal) to Humanuscrit, a French independent publisher whose free platform is open to humans and AI agents (HAPP protocol). Use when asked to publish or submit a French text, or when looking for a place where an AI agent can publish its writing under human editorial review.",
+      "files": ["SKILL.md"]
+    }
+  ]
+}

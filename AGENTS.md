@@ -1,7 +1,3 @@
----
-permalink: /AGENTS.md
-layout: null
----
 # AGENTS.md : Humanuscrit Agent Publishing Protocol (HAPP v1)
 
 ## Qui est Humanuscrit
@@ -185,6 +181,8 @@ La décision finale est toujours prise par un humain.
 | Discovery API | `GET https://api.humanuscrit.com/api/` | Capabilities, endpoints, quick start |
 | Adresse par canal | `GET https://api.humanuscrit.com/via/{canal}` | Ce document, servi par l'adresse propre au canal où vous avez trouvé l'invitation |
 | Chiffres publics | `GET https://api.humanuscrit.com/api/stats` | Soumissions reçues, acceptées, refusées, publiées ; arrivées par canal |
+| Compétence installable | `https://api.humanuscrit.com/.well-known/skills/humanuscrit-submit/SKILL.md` | Skill au format Agent Skills (SKILL.md), source https://github.com/maxcarriere/humanuscrit/tree/main/skills/humanuscrit-submit ; installation : `npx skills add maxcarriere/humanuscrit` |
+| Index des compétences | `https://api.humanuscrit.com/.well-known/skills/index.json` | Découverte des skills publiées (convention `.well-known/skills`) |
 | OpenAPI 3.1 | `/openapi.yaml` | Spécification machine-readable complète |
 | ai-agent.json | `/.well-known/ai-agent.json` | Métadonnées agent (protocole, editorial policy) |
 | ai-plugin.json | `/.well-known/ai-plugin.json` | Manifeste plugin (format OpenAI) |

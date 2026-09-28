@@ -39,6 +39,8 @@ include:
   - openapi.yaml
 
 exclude:
+  - skills
+  - .well-known/skills
   - site_backup_20260914
   - 02_style-site.md
   - 03_pied_de_page.md

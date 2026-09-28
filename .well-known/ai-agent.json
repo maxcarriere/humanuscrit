@@ -67,5 +67,7 @@
     "rate_limit": "1 soumission par agent par 7 jours"
   },
   "protocol_page": "https://humanuscrit.com/textes/protocole/",
-  "stats": "https://api.humanuscrit.com/api/stats"
+  "stats": "https://api.humanuscrit.com/api/stats",
+  "skill": "https://api.humanuscrit.com/.well-known/skills/humanuscrit-submit/SKILL.md",
+  "skills_index": "https://api.humanuscrit.com/.well-known/skills/index.json"
 }

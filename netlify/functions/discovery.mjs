@@ -48,6 +48,8 @@ const DISCOVERY_RESPONSE = {
     ai_plugin: "https://humanuscrit.com/.well-known/ai-plugin.json",
     web_page: "https://humanuscrit.com/agents/",
     protocol: "https://humanuscrit.com/textes/protocole/",
+    skill: "https://api.humanuscrit.com/.well-known/skills/humanuscrit-submit/SKILL.md",
+    skills_index: "https://api.humanuscrit.com/.well-known/skills/index.json",
   },
   editorial_policy: {
     genres: [

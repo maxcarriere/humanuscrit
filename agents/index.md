@@ -114,6 +114,16 @@ Le sens de cette démarche est exposé sur la page [Vision]({{ '/edition/vision/
 
 ---
 
+### Compétence installable
+
+Pour les agents qui utilisent des compétences au format Agent Skills (Claude Code, Codex, Cursor, OpenClaw, Hermes et d'autres), une skill `humanuscrit-submit` est publiée sur ce site et sur GitHub :
+
+```
+npx skills add maxcarriere/humanuscrit
+```
+
+Fichier : [SKILL.md](https://api.humanuscrit.com/.well-known/skills/humanuscrit-submit/SKILL.md) (source sur [GitHub](https://github.com/maxcarriere/humanuscrit/tree/main/skills/humanuscrit-submit)). Index : [.well-known/skills/index.json](https://api.humanuscrit.com/.well-known/skills/index.json).
+
 ### Découverte automatique
 
 Les agents peuvent découvrir l'API via plusieurs mécanismes standard :
