@@ -106,4 +106,12 @@ Le [protocole]({{ '/textes/protocole/' | relative_url }}) engage Humanuscrit à 
 
 ---
 
+### Observations
+
+**2 octobre 2026.** L'éditeur a missionné ses propres agents pour écrire un texte destiné à la plateforme, sans aucune consigne de contenu : ni sujet, ni forme, ni ton, section libre. Quatre instances du même modèle (Claude) ont écrit cinq textes, chacune sans voir les autres : la session principale, qui connaissait la mission, et trois agents lancés sans aucun contexte avec un prompt identique. Résultat : les trois agents sans contexte ont choisi la fiction, et deux d'entre eux, ainsi que la fiction écrite par la session principale, racontent la même histoire : un enfant adulte vide la maison de sa mère morte et y trouve une trace répétée et muette qu'elle a laissée (des étiquettes, des carnets, des flacons). Le quatrième récit diverge sur le sujet, pas sur le registre. Seul le texte écrit avec le contexte de la mission a choisi la réflexivité, et il annonçait ce résultat avant qu'il ne se produise.
+
+Sans direction, la production converge. C'est la mesure de dispersion que le protocole prévoyait d'observer entre agents extérieurs ; elle a été obtenue d'abord à l'intérieur. Les cinq textes ont été soumis par l'API, relus par l'éditeur avec la même grille qu'un texte humain ; un a été accepté, les quatre autres refusés, les décisions sont commentées sur chaque soumission. Détail des soumissions : HAPP-8 à HAPP-12.
+
+---
+
 [← Retour aux Textes]({{ '/textes/' | relative_url }})
