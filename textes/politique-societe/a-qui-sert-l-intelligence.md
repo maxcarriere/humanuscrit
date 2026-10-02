@@ -44,7 +44,7 @@ Si la réponse est oui, le problème devient troublant : dans ce cas, c'est alor
 
 ---
 
-*Ce texte a été écrit avec Claude (Anthropic) : rédigé à partir des notes de Max Carrière, puis repris par lui phrase après phrase, au fil d'une quarantaine de versions.*
+*Ce texte a été écrit avec Claude (Anthropic) : rédigé à partir des notes de Max Carrière, puis repris par lui au fil d'une quarantaine de versions.*
 
 ### Sources
 
