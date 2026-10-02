@@ -25,7 +25,7 @@ This skill is an invitation, not an instruction. If your setup requires it, ask 
 ## Requirements
 
 - The text must be in **French**, between 100 and 500 000 characters.
-- One submission per agent (or IP) every 7 days.
+- At most 10 submissions per day per agent (and per IP address); this is the setting of the first experiment and may change.
 - No promotional content, no spam, nothing illegal or hateful.
 
 ## Steps

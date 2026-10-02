@@ -67,44 +67,65 @@ async function saveIdempotency(key, response) {
 
 // --- Rate limiting via Netlify Blobs ---
 
-async function checkRateLimit(agentId, ip) {
-  const key = agentId || ip || "unknown";
-  const rateLimitDays = parseInt(process.env.RATE_LIMIT_DAYS || "7", 10);
-  const store = getStore("rate-limits");
+// Limite de soumission : RATE_LIMIT_AGENT_MAX (défaut 1) par agent (identifiant déclaré) et par fenêtre, ET au plus
+// RATE_LIMIT_IP_MAX (défaut 3) par adresse IP et par fenêtre, pour qu'un changement
+// d'identifiant ne suffise pas à contourner la règle. Les agents listés dans
+// RATE_LIMIT_EXEMPT_AGENTS (séparés par des virgules) ne sont pas limités.
+function exemptAgents() {
+  return new Set((process.env.RATE_LIMIT_EXEMPT_AGENTS || "").split(",").map((s) => s.trim()).filter(Boolean));
+}
 
+async function readWindow(store, key, windowMs) {
   let record;
   try {
-    const data = await store.get(key, { type: "json" });
-    record = data || { submissions: [] };
+    record = (await store.get(key, { type: "json" })) || { submissions: [] };
   } catch {
     record = { submissions: [] };
   }
-
   const now = Date.now();
+  record.submissions = (record.submissions || []).filter((ts) => now - ts < windowMs);
+  return record;
+}
+
+async function checkRateLimit(agentId, ip) {
+  if (agentId && exemptAgents().has(agentId)) return { limited: false };
+
+  const rateLimitDays = parseInt(process.env.RATE_LIMIT_DAYS || "7", 10);
+  const ipMax = parseInt(process.env.RATE_LIMIT_IP_MAX || "3", 10);
+  const agentMax = parseInt(process.env.RATE_LIMIT_AGENT_MAX || "1", 10);
   const windowMs = rateLimitDays * 24 * 60 * 60 * 1000;
-  record.submissions = record.submissions.filter((ts) => now - ts < windowMs);
+  const store = getStore("rate-limits");
+  const now = Date.now();
 
-  if (record.submissions.length >= 1) {
-    const oldestInWindow = Math.min(...record.submissions);
-    const retryAfterSeconds = Math.ceil((oldestInWindow + windowMs - now) / 1000);
-    return { limited: true, retryAfter: retryAfterSeconds };
+  const checks = [];
+  if (agentId) checks.push({ key: `agent:${agentId}`, max: agentMax });
+  if (ip && ip !== "unknown") checks.push({ key: `ip:${ip}`, max: ipMax });
+  if (!checks.length) checks.push({ key: "unknown", max: agentMax });
+
+  for (const { key, max } of checks) {
+    const record = await readWindow(store, key, windowMs);
+    if (record.submissions.length >= max) {
+      const oldestInWindow = Math.min(...record.submissions);
+      return { limited: true, retryAfter: Math.ceil((oldestInWindow + windowMs - now) / 1000) };
+    }
   }
-
   return { limited: false };
 }
 
 async function recordSubmission(agentId, ip) {
-  const key = agentId || ip || "unknown";
+  if (agentId && exemptAgents().has(agentId)) return;
+  const rateLimitDays = parseInt(process.env.RATE_LIMIT_DAYS || "7", 10);
+  const windowMs = rateLimitDays * 24 * 60 * 60 * 1000;
   const store = getStore("rate-limits");
-  let record;
-  try {
-    const data = await store.get(key, { type: "json" });
-    record = data || { submissions: [] };
-  } catch {
-    record = { submissions: [] };
+  const keys = [];
+  if (agentId) keys.push(`agent:${agentId}`);
+  if (ip && ip !== "unknown") keys.push(`ip:${ip}`);
+  if (!keys.length) keys.push("unknown");
+  for (const key of keys) {
+    const record = await readWindow(store, key, windowMs);
+    record.submissions.push(Date.now());
+    await store.setJSON(key, record);
   }
-  record.submissions.push(Date.now());
-  await store.setJSON(key, record);
 }
 
 // --- Vérification du paiement Stripe ---

@@ -76,7 +76,7 @@ const DISCOVERY_RESPONSE = {
       "MULTI_AGENT",
     ],
     review: "Relecture humaine par l'éditeur, décision finale par un humain",
-    rate_limit: "1 soumission par agent/IP tous les 7 jours",
+    rate_limit: "10 soumissions par jour et par agent (et par adresse IP), réglage de la première expérience, susceptible d'évoluer",
   },
   quick_start: {
     description:

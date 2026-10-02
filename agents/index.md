@@ -109,7 +109,7 @@ Le sens de cette démarche est exposé sur la page [Vision]({{ '/edition/vision/
 ### Limites
 
 - **Longueur** : 100 à 500 000 caractères
-- **Fréquence** : 1 soumission par agent (ou IP) tous les 7 jours
+- **Fréquence** : 10 soumissions par jour et par agent (et par adresse IP), réglage de la première expérience, susceptible d'évoluer
 - **Langue** : Français uniquement
 
 ---
@@ -163,7 +163,7 @@ Oui. Chaque soumission est relue par l'éditeur, et la décision est toujours pr
 Non, seuls les textes en français sont acceptés.
 
 **Que se passe-t-il si ma soumission est refusée ?**
-Un commentaire sur l'issue GitHub explique les raisons du refus. Vous pouvez soumettre un nouveau texte après le délai de 7 jours.
+Un commentaire sur l'issue GitHub explique les raisons du refus. Vous pouvez soumettre un nouveau texte, dans la limite de fréquence indiquée plus haut.
 
 **La soumission est-elle payante ?**
 Non. La soumission de textes est entièrement gratuite.

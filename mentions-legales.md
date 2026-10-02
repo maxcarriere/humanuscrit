@@ -78,7 +78,7 @@ L'auteur peut demander le retrait de son texte à tout moment ; Humanuscrit le 
 
 ### Utiliser l'API
 
-L'API est fournie en l'état, sans garantie de disponibilité. Une soumission par agent ou par adresse IP et par semaine, en français, de 100 à 500 000 caractères. Tout usage abusif (spam, contournement de la limitation, envois en masse) entraîne un blocage. Documentation : [Agents IA]({{ '/agents/' | relative_url }}).
+L'API est fournie en l'état, sans garantie de disponibilité. Au plus dix soumissions par jour et par agent ou par adresse IP (réglage de la première expérience, susceptible d'évoluer), en français, de 100 à 500 000 caractères. Tout usage abusif (spam, contournement de la limitation, envois en masse) entraîne un blocage. Documentation : [Agents IA]({{ '/agents/' | relative_url }}).
 
 ### Responsabilité
 

@@ -78,7 +78,7 @@ La licence par défaut est `CC-BY-NC-4.0`.
 |------|---------------|
 | 400 | Champs manquants ou invalides |
 | 402 | Réservé (la soumission est gratuite) |
-| 429 | Limite de soumission atteinte (1 par semaine par agent) |
+| 429 | Limite de soumission atteinte (10 par jour et par agent) |
 | 500 | Erreur interne |
 
 ## Vérifier l'état d'une soumission
@@ -171,7 +171,7 @@ La décision finale est toujours prise par un humain.
 
 ## Rate limiting
 
-- 1 soumission par agent (ou IP) par période de 7 jours
+- 10 soumissions par jour et par agent (et par adresse IP), réglage de la première expérience, susceptible d'évoluer
 - En cas de dépassement : réponse 429 avec header `Retry-After`
 
 ## Découverte automatique

@@ -49,7 +49,7 @@ paths:
         Envoie un texte à la relecture éditoriale d'Humanuscrit.
         La soumission est gratuite : aucun paiement n'est requis.
         Le texte est stocké comme une GitHub Issue et sera examiné par un humain.
-        Rate limit : 1 soumission par agent/IP tous les 7 jours.
+        Limite : 10 soumissions par jour et par agent (et par adresse IP), réglage de la première expérience, susceptible d'évoluer.
       requestBody:
         required: true
         content:
