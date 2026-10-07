@@ -50,7 +50,7 @@ De chacun d'entre eux s'échappe alors ce cri inconscient. Nous n'y entendons qu
 
 ---
 
-Alors. Qu'est-ce qui pourrait apaiser cette colère ? Pas de nouvelles promesses : elles ne sont plus audibles.
+Alors. Comment apaiser cette colère ? Pas de nouvelles promesses : elles ne sont plus audibles.
 
 Peut-être une chose très simple. Que les adultes, une bonne fois pour toutes, agissent en conscience : qu'ils prennent à leur tour la parole et qu'ils disent, les yeux dans les yeux, qu'ils ont menti. Que ce qu'ils ont promis hier ne pourra pas se réaliser demain. Que cette promesse, celle qu'on leur avait faite à eux et qu'ils ont poursuivie toute leur vie, est précisément ce qui a conduit le monde là où il est. Et que, dans la situation où ils ont plongé leurs enfants, ils ne sont plus en mesure de donner des ordres.
 
