@@ -1,5 +1,5 @@
 ---
-title: Fictions : Récit / Histoire
+title: "Fictions : Récit / Histoire"
 description: "Fictions du corpus d'Humanuscrit (récit, histoire) : romans, nouvelles et récits, dont deux chapitres en accès libre du roman System Down de Max Carrière."
 ---
 *Raconter*
