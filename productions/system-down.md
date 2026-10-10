@@ -57,6 +57,8 @@ Mais System Down n'est pas seulement un roman apocalyptique. Là où la plupart 
 
 Ce que raconte ce livre n'appartient peut-être déjà plus à la science-fiction. Deepfakes, désinformation, effondrement de la confiance dans les institutions, incapacité à distinguer le vrai du faux, autonomie croissante de l'IA : c'est déjà le monde dans lequel nous vivons. Plus actuel que jamais, System Down ne fait qu'en tirer le fil jusqu'au bout... Et son mécanisme d'écriture n'est pas étranger à ce qu'il raconte.
 
+*Le roman a été coécrit par Max Carrière avec une intelligence artificielle : la conception, l'architecture et les arbitrages sont humains. [En savoir plus]({{ '/faq/' | relative_url }}#le-roman-est-il-écrit-par-une-ia)*
+
 Premier roman de Max Carrière.
 221 pages · 12 chapitres
 
