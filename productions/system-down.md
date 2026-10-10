@@ -91,13 +91,10 @@ Premier roman de Max Carrière.
 Parution le 16 octobre 2026 · Prix&nbsp;: 6,99&nbsp;&euro;
 <br>
 <div class="buy-buttons-row">
+<a href="https://payhip.com/b/iQ9D2" class="cta-button" target="_blank" rel="noopener">DIRECT (ePub + PDF)</a>
+<a href="https://www.amazon.fr/dp/B0HK1DKW98" class="cta-button" target="_blank" rel="noopener">KINDLE</a>
+<a href="https://www.kobo.com/fr/fr/ebook/system-down" class="cta-button" target="_blank" rel="noopener">KOBO</a>
 <a href="https://books.apple.com/fr/book/system-down/id6812830159" class="cta-button" target="_blank" rel="noopener">APPLE BOOKS</a>
-<!-- Emplacements à activer une fois la page vérifiée (titre, auteur, ISBN 979-10-985290-1-6, éditeur Humanuscrit) :
-<a href="URL_AMAZON_KINDLE" class="cta-button" target="_blank" rel="noopener">KINDLE</a>
-<a href="URL_KOBO" class="cta-button" target="_blank" rel="noopener">KOBO</a>
-<a href="URL_FNAC" class="cta-button" target="_blank" rel="noopener">FNAC</a>
-<a href="URL_GOOGLE_PLAY" class="cta-button" target="_blank" rel="noopener">GOOGLE PLAY</a>
--->
 </div>
 </div>
 
@@ -131,11 +128,11 @@ Prix&nbsp;: 6,99&nbsp;&euro;
 Livraison&nbsp;: Imm&eacute;diate
 <br>
 <div class="buy-buttons-row">
-<span class="cta-button cta-button-disabled">DIRECT</span>
-<span class="cta-button cta-button-disabled">KINDLE</span>
-<span class="cta-button cta-button-disabled">KOBO</span>
+<a href="https://payhip.com/b/iQ9D2" class="cta-button" target="_blank" rel="noopener">DIRECT</a>
+<a href="https://www.amazon.fr/dp/B0HK1DKW98" class="cta-button" target="_blank" rel="noopener">KINDLE</a>
+<a href="https://www.kobo.com/fr/fr/ebook/system-down" class="cta-button" target="_blank" rel="noopener">KOBO</a>
 </div>
-<small><em>Bient&ocirc;t disponible</em></small>
+<small><em>En pr&eacute;commande, parution le 16 octobre 2026</em></small>
 </div>
 
 </div>
