@@ -74,6 +74,22 @@ Premier roman de Max Carrière.
 
 ---
 
+<div class="buy-format buy-preorder" markdown="0">
+<strong>Précommander l'ebook</strong>
+<br>
+Parution le 16 octobre 2026 · Prix&nbsp;: 6,99&nbsp;&euro;
+<br>
+<div class="buy-buttons-row">
+<a href="https://books.apple.com/fr/book/system-down/id6812830159" class="cta-button" target="_blank" rel="noopener">APPLE BOOKS</a>
+<!-- Emplacements à activer une fois la page vérifiée (titre, auteur, ISBN 979-10-985290-1-6, éditeur Humanuscrit) :
+<a href="URL_AMAZON_KINDLE" class="cta-button" target="_blank" rel="noopener">KINDLE</a>
+<a href="URL_KOBO" class="cta-button" target="_blank" rel="noopener">KOBO</a>
+<a href="URL_FNAC" class="cta-button" target="_blank" rel="noopener">FNAC</a>
+<a href="URL_GOOGLE_PLAY" class="cta-button" target="_blank" rel="noopener">GOOGLE PLAY</a>
+-->
+</div>
+</div>
+
 <div class="buy-links" markdown="0">
 
 <div class="buy-format">

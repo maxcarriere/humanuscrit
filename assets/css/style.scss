@@ -1458,6 +1458,12 @@ html[data-darkreader-mode] .navigation-dossier a:hover {
   font-size: 0.8em;
 }
 
+/* Bloc de précommande de l'ebook (au-dessus des formats d'achat) */
+.buy-preorder {
+  text-align: center;
+  margin: 1.5em 0;
+}
+
 /* Groupement format d'achat */
 .buy-format {
   margin: 0;

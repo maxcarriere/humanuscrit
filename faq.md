@@ -75,7 +75,7 @@ schema_faq: >
         "name": "Où acheter le roman System Down ?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "System Down paraît le 16 octobre 2026 et sera disponible en librairie en ligne à partir de cette date. Les liens d'achat seront communiqués sur cette page et sur les réseaux d'Humanuscrit dès la parution. En attendant, vous pouvez consulter le site humanuscrit.com pour découvrir d'autres textes de l'auteur, accessibles gratuitement."
+          "text": "System Down paraît le 16 octobre 2026 et sera disponible en librairie en ligne à partir de cette date. L'ebook (6,99 €) est déjà en précommande, notamment sur Apple Books : voir la page du roman. Les liens d'achat seront communiqués sur cette page et sur les réseaux d'Humanuscrit dès la parution. En attendant, vous pouvez consulter le site humanuscrit.com pour découvrir d'autres textes de l'auteur, accessibles gratuitement."
         }
       },
       {
@@ -188,7 +188,7 @@ Non, *System Down* n'est pas écrit par une IA : il a été coécrit par Max Car
 
 ### Où acheter *System Down* ?
 
-*System Down* paraît le 16 octobre 2026 et sera disponible en librairie en ligne à partir de cette date. Les liens d'achat seront communiqués sur cette page et sur les réseaux d'Humanuscrit dès la parution. En attendant, vous pouvez consulter le site humanuscrit.com pour découvrir d'autres textes de l'auteur, accessibles gratuitement.
+*System Down* paraît le 16 octobre 2026 et sera disponible en librairie en ligne à partir de cette date. L'ebook (6,99 €) est déjà en précommande, notamment sur Apple Books : voir la page du roman. Les liens d'achat seront communiqués sur cette page et sur les réseaux d'Humanuscrit dès la parution. En attendant, vous pouvez consulter le site humanuscrit.com pour découvrir d'autres textes de l'auteur, accessibles gratuitement.
 
 ---
 
