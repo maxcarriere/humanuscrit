@@ -27,6 +27,10 @@ Pour toute question, retour ou échange autour du projet Humanuscrit, vous pouve
 
 ---
 
+### LinkedIn
+
+[Max Carrière sur LinkedIn](https://www.linkedin.com/in/maximecarriere/){:target="_blank" rel="noopener"}
+
 ### Formulaire de contact
 
 <div class="contact-form" markdown="0">
