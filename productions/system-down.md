@@ -1,5 +1,6 @@
 ---
-title: "> SYSTEM DOWN _"
+title: "System Down, roman d'anticipation de Max Carrière"
+display_title: "> SYSTEM DOWN _"
 permalink: /productions/system-down/
 schema_book: true
 ---
