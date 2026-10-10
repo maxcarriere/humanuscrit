@@ -1,7 +1,7 @@
 ---
 title: Livres
 subtitle: Productions d'Humanuscrit.
-description: "Les livres publiés par Humanuscrit. System Down, roman d'anticipation par Max Carrière."
+description: "Les livres publiés par Humanuscrit, éditeur indépendant. Premier titre : System Down, roman d'anticipation de Max Carrière, parution le 16 octobre 2026."
 ---
 
 ---

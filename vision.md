@@ -1,5 +1,6 @@
 ---
 title: Vision Politique
+description: "La vision politique d'Humanuscrit : l'intelligence artificielle est une question politique, et son alignement pose d'abord la question des objectifs humains."
 permalink: /edition/vision/
 ---
 

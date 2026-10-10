@@ -1,5 +1,6 @@
 ---
 title: "Ce que nous ne voulons plus"
+description: "Ce que nous ne voulons plus, texte coécrit par Max Carrière et Claude : travailler pour consommer, des désirs fabriqués, un monde dit sans alternative."
 order: 1
 date: 2026-09-22
 mention: "Texte coécrit par Max Carrière et Claude (Anthropic)."

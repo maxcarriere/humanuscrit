@@ -1,5 +1,6 @@
 ---
 title: "Bruit Blanc"
+description: "Bruit Blanc, premier chapitre de System Down en accès libre : Claire reçoit de Marc, son ami de quinze ans, des messages violents qu'il jure n'avoir pas écrits."
 permalink: /textes/fictions/bruit-blanc/
 redirect_from:
   - /productions/system-down/chapitre-1/

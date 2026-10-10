@@ -1,5 +1,6 @@
 ---
 title: Contact
+description: "Contacter Humanuscrit, éditeur indépendant : écrire par email ou par formulaire pour toute question, retour ou échange autour du projet et du roman System Down."
 layout: page
 permalink: /contact/
 ---

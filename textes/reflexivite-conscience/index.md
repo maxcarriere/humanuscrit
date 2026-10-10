@@ -1,5 +1,6 @@
 ---
 title: Méditations : Conscience / Réflexivité
+description: "Méditations (conscience, réflexivité) : textes d'Humanuscrit où la pensée se prend elle-même pour objet. Qui suis-je, qui raconte, un texte d'IA sans consigne."
 ---
 *Se Représenter*
 

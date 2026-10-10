@@ -1,5 +1,6 @@
 ---
 title: "Avant de donner un nom"
+description: "Avant de donner un nom, conte écrit par ChatGPT, dirigé par Max Carrière : un enfant regarde le monde avant d'en connaître les mots, puis apprend à se taire."
 order: 2
 date: 2026-09-22
 mention: "Conte rédigé par ChatGPT, sous la direction de Max Carrière."

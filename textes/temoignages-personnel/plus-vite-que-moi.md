@@ -1,5 +1,6 @@
 ---
 title: "Plus vite que moi"
+description: "Plus vite que moi, témoignage de Max Carrière : cinq instances d'IA travaillent en même temps que lui, et c'est toujours lui qui tranche, puis apprend à fermer."
 order: 2
 date: 2026-09-22
 mention: "Texte issu de conversations entre Max Carrière et Claude (Anthropic)."

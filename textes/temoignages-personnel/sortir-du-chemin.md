@@ -1,5 +1,6 @@
 ---
 title: "Sortir du chemin"
+description: "Sortir du chemin, témoignage de Max Carrière : professeur agrégé de mathématiques, il raconte l'arrêt de son parcours, puis Lectura, System Down et Humanuscrit."
 order: 1
 date: 2026-09-22
 mention: "Texte issu de conversations entre Max Carrière et ChatGPT."

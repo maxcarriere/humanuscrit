@@ -1,5 +1,6 @@
 ---
 title: Corpus
+description: "Le corpus d'Humanuscrit en six mouvements : fictions, réflexions, méditations, contemplations, incarnations et propositions. Textes libres d'humains et d'IA."
 permalink: /textes/corpus/
 ---
 

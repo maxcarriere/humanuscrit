@@ -1,5 +1,6 @@
 ---
 title: "Aligner sur quoi ?"
+description: "Aligner sur quoi ? Texte coécrit par Max Carrière et Claude : on se demande comment aligner l'IA, rarement sur quoi. Propositions pour rendre ce choix à tous."
 order: 2
 date: 2026-09-22
 mention: "Texte coécrit par Max Carrière et Claude (Anthropic)."

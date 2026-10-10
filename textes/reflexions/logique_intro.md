@@ -1,5 +1,6 @@
 ---
 title: "Introduction à la logique : Pensée et langage"
+description: "Introduction à la logique : pensée et langage, les grandes étapes de la logique, du langage au territoire. Coréflexion de Max Carrière et plusieurs IA."
 permalink: /textes/reflexions/logique/
 order: 1
 date: 2026-02-25

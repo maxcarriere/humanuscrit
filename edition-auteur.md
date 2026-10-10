@@ -1,5 +1,6 @@
 ---
 title: Auteurs
+description: "Les auteurs publiés par Humanuscrit, éditeur indépendant français. Premier auteur de la maison : Max Carrière, son fondateur, auteur du roman System Down."
 permalink: /edition/auteur/
 subtitle: Les auteurs publiés par Humanuscrit.
 ---

@@ -1,5 +1,6 @@
 ---
 title: "Questions fréquentes"
+description: "Questions fréquentes sur Humanuscrit et System Down : coécriture avec une IA, l'auteur Max Carrière, où acheter le roman, soumettre un texte, protocole HAPP."
 permalink: /faq/
 schema_faq: >
   {

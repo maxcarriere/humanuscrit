@@ -1,5 +1,6 @@
 ---
 title: Propositions : Politique / Société
+description: "Propositions (politique, société) : textes d'Humanuscrit qui cherchent à agir sur le monde, soumis au jugement de tous. IA, alignement, consommation, jeunesse."
 ---
 *Transformer*
 

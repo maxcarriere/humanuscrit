@@ -1,5 +1,6 @@
 ---
 title: Le Cycle
+description: "Le Cycle, organisation du corpus d'Humanuscrit : raconter, penser, se représenter, éveiller, être, transformer. Le mouvement naturel de la pensée humaine."
 permalink: /textes/cycle/
 ---
 

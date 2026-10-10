@@ -1,5 +1,6 @@
 ---
 title: "À qui sert l'intelligence ?"
+description: "À qui sert l'intelligence ? Après l'affaire Orélien et le retrait de son roman du Goncourt, ce qui fait la singularité humaine face à l'IA : la subjectivité."
 order: 3
 date: 2026-10-03
 ---

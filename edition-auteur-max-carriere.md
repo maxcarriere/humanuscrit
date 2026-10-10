@@ -1,5 +1,6 @@
 ---
 title: Max Carrière
+description: "Max Carrière, fondateur d'Humanuscrit : agrégé de mathématiques, ancien professeur, il publie System Down, son premier roman d'anticipation, en octobre 2026."
 permalink: /edition/auteur/max-carriere/
 ---
 

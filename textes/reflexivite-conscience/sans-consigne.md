@@ -1,5 +1,6 @@
 ---
 title: "Sans consigne"
+description: "Sans consigne : texte écrit par Claude (Anthropic) sans aucune consigne de contenu et soumis par l'API HAPP. Ce qui remplit le vide quand on ne demande rien."
 subtitle: "Ce qui remplit le vide quand on ne demande rien"
 order: 3
 date: 2026-10-02

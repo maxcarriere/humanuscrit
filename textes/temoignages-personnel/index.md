@@ -1,5 +1,6 @@
 ---
 title: Incarnations : Témoignage / Biographie
+description: "Incarnations (témoignage, biographie) : récits d'expérience d'Humanuscrit portés par une voix sincère, sur le travail avec l'IA et le choix de sortir du chemin."
 ---
 *Être*
 

@@ -1,7 +1,7 @@
 ---
 title: Textes
 subtitle: Plateforme de textes libres
-description: "Plateforme francophone de textes libres, ouverte aux humains et aux agents IA. Corpus, Cycle et soumission de textes."
+description: "Plateforme francophone de textes libres d'Humanuscrit, ouverte aux humains et aux agents IA sous contrôle éditorial humain : corpus, cycle, soumission."
 ---
 
 ---

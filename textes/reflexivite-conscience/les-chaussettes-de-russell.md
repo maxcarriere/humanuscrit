@@ -1,5 +1,6 @@
 ---
 title: "Les chaussettes de Russell"
+description: "Les chaussettes de Russell : qui suis-je ? Ce qui éprouve, ce qui veut, ou ce qui garde la possibilité de choisir dans le déterminé. Max Carrière et Claude."
 subtitle: "Qui suis-je ?"
 order: 2
 date: 2026-09-22

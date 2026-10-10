@@ -1,5 +1,6 @@
 ---
 title: "Qui raconte ?"
+description: "Qui raconte ? Texte de Max Carrière sur la souffrance, le récit intérieur et la petite voix qui commente nos vies, et sur celui qui écoute quand elle se tait."
 order: 1
 date: 2026-09-22
 mention: "Écrit par Max Carrière, fin remaniée avec Claude (Anthropic)."

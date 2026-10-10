@@ -1,5 +1,6 @@
 ---
 title: "Qu'il est bon d'être fou..."
+description: "Qu'il est bon d'être fou, poème écrit par Max Carrière, sans IA : l'esprit fou, délesté de la raison et des conventions, s'ouvre à la pure conscience."
 order: 1
 mention: "Écrit par Max Carrière, sans l'assistance d'une IA."
 ---

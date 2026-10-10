@@ -1,5 +1,6 @@
 ---
 title: Existence
+description: "Existence, seuil ontologique : qu'est-ce qu'exister ? Trois principes, distinction, configuration, transformation. Coréflexion de Max Carrière et plusieurs IA."
 permalink: /textes/reflexions/existence/
 redirect_from:
   - /textes/reflexions/chapitre-0-existence/

@@ -1,5 +1,6 @@
 ---
 title: Éditeur
+description: "Humanuscrit, éditeur indépendant né d'un manuscrit évolutif : ligne éditoriale, accompagnement à l'autoédition, relecture, ISBN, dépôt légal, sans exclusivité."
 permalink: /edition/editeur/
 ---
 

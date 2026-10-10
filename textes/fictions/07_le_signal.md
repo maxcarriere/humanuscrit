@@ -1,5 +1,6 @@
 ---
 title: "Le Signal"
+description: "Le Signal, chapitre 7 de System Down, ouvre l'acte II (accès libre) : une physicienne capte le signal d'une étoile qui s'effondre. La Terre est dans le cône."
 permalink: /textes/fictions/le-signal/
 redirect_from:
   - /productions/system-down/chapitre-7/

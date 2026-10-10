@@ -1,5 +1,6 @@
 ---
 title: "Système : Vision énergétique"
+description: "Système, vision énergétique : ce qui anime le réel. Stocks, conductivités, potentiel, gradient et loi du flux. Coréflexion de Max Carrière et plusieurs IA."
 permalink: /textes/reflexions/systeme-vision-energetique/
 redirect_from:
   - /textes/reflexions/chapitre-2-systemes-vision-dynamique/

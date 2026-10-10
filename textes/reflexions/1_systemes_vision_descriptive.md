@@ -1,5 +1,6 @@
 ---
 title: "Système : Vision descriptive"
+description: "Système, vision descriptive : un formalisme minimal de la notion de système (graphe, état, action, force). Coréflexion de Max Carrière et plusieurs IA."
 permalink: /textes/reflexions/systeme-vision-descriptive/
 redirect_from:
   - /textes/reflexions/chapitre-1-systemes-vision-descriptive/

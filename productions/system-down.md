@@ -1,5 +1,6 @@
 ---
 title: "System Down, roman d'anticipation de Max Carrière"
+description: "System Down, roman d'anticipation de Max Carrière (Humanuscrit) : deepfakes, effondrement de la confiance, éveil de conscience. Parution le 16 octobre 2026."
 display_title: "> SYSTEM DOWN _"
 permalink: /productions/system-down/
 schema_book: true

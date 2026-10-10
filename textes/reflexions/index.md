@@ -1,5 +1,6 @@
 ---
 title: Réflexions : Philosophie / Science
+description: "Réflexions (philosophie, science) : essais d'Humanuscrit qui construisent une représentation du monde. Existence, systèmes, logique, en coréflexion avec l'IA."
 ---
 *Penser*
 

@@ -1,5 +1,6 @@
 ---
 title: Contemplations : Contes / Poésie
+description: "Contemplations (contes, poésie) : textes d'éveil d'Humanuscrit, contes et poèmes visant à émerveiller l'esprit, réveiller les émotions, élever la conscience."
 ---
 *Éveiller*
 

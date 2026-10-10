@@ -1,5 +1,6 @@
 ---
 title: Réception / Critiques
+description: "Réception et critiques : retours de lecture, analyses et transformations que le projet Humanuscrit suscite chez ceux qui le rencontrent. Section du corpus."
 ---
 *Être transformé*
 

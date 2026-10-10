@@ -1,5 +1,6 @@
 ---
 title: "Le cri inconscient des lycéens"
+description: "Le cri inconscient des lycéens, de Max Carrière et Claude, sur le mouvement lycéen de l'automne 2026 : une promesse d'ascension sociale qui ne tient plus."
 subtitle: "(contre les adultes inconscients)"
 order: 4
 date: 2026-10-08
