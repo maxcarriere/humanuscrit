@@ -36,10 +36,15 @@
   "alternateName": "System Down, roman d'anticipation",
   "author": {
     "@type": "Person",
+    "@id": "https://humanuscrit.com/edition/auteur/max-carriere/#person",
     "name": "Max Carrière",
     "givenName": "Max",
     "familyName": "Carrière",
-    "url": "https://humanuscrit.com/edition/"
+    "url": "https://humanuscrit.com/edition/auteur/max-carriere/",
+    "sameAs": [
+      "https://zmaths.net/professeur",
+      "https://www.linkedin.com/in/maximecarriere/"
+    ]
   },
   "inLanguage": "fr",
   "datePublished": "2026-10-16",
@@ -97,8 +102,36 @@
   "description": "Éditeur indépendant. Littérature d'anticipation coécrite avec l'intelligence artificielle.",
   "founder": {
     "@type": "Person",
-    "name": "Max Carrière"
+    "@id": "https://humanuscrit.com/edition/auteur/max-carriere/#person",
+    "name": "Max Carrière",
+    "url": "https://humanuscrit.com/edition/auteur/max-carriere/"
   }
+}
+</script>
+{% endif %}
+
+{% if page.schema_person %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://humanuscrit.com/edition/auteur/max-carriere/#person",
+  "name": "Max Carrière",
+  "givenName": "Max",
+  "familyName": "Carrière",
+  "alternateName": "Maxime Carrière",
+  "url": "https://humanuscrit.com/edition/auteur/max-carriere/",
+  "image": "https://humanuscrit.com/assets/images/max-carriere.jpg",
+  "description": "Fondateur d'Humanuscrit, agrégé de mathématiques, auteur du roman System Down.",
+  "affiliation": {
+    "@type": "Organization",
+    "name": "Humanuscrit",
+    "url": "https://humanuscrit.com"
+  },
+  "sameAs": [
+    "https://zmaths.net/professeur",
+    "https://www.linkedin.com/in/maximecarriere/"
+  ]
 }
 </script>
 {% endif %}
