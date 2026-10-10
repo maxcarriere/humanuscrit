@@ -30,7 +30,7 @@ function closeLightbox() {
 }
 </script>
 
-<p style="text-align: center;"><strong>Roman</strong> · Max Carrière<br>Humanuscrit, 2026<br>ISBN : 979-10-985290-0-9 (broché) / 979-10-985290-1-6 (ebook)</p>
+<p style="text-align: center;"><strong>Roman</strong> · Max Carrière<br>Humanuscrit, 2026<br><strong>Parution le 16 octobre 2026</strong><br>ISBN : 979-10-985290-0-9 (broché) / 979-10-985290-1-6 (ebook)</p>
 
 ---
 

@@ -19,6 +19,7 @@ description: "Humanuscrit, éditeur indépendant français né d'un roman coécr
 <div class="home-pitch">
 <p class="home-tagline">System Down, écrit par Max Carrière<br>
 Un récit où les récits s'effondrent eux-mêmes.</p>
+<p class="home-release"><strong>Parution le 16 octobre 2026</strong></p>
 <div class="home-cta">
 <a href="{{ '/productions/system-down/' | relative_url }}" class="cta-button">Découvrir le roman</a>
 </div>

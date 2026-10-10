@@ -6,7 +6,7 @@ layout: null
 
 > Humanuscrit est un éditeur indépendant français. Son premier roman, *System Down* par Max Carrière, est un roman d'anticipation coécrit avec une intelligence artificielle. Douze chapitres en deux actes, de l'intime au cosmique, sur un monde où l'on ne distingue plus le vrai du faux. Deepfakes, effondrement de la confiance, éveil de conscience.
 
-Humanuscrit explore la frontière entre création humaine et intelligence artificielle. Le projet est à la fois littéraire, philosophique et expérimental. Né d'un manuscrit évolutif, il est devenu un éditeur indépendant avec la publication de *System Down* en octobre 2026.
+Humanuscrit explore la frontière entre création humaine et intelligence artificielle. Le projet est à la fois littéraire, philosophique et expérimental. Né d'un manuscrit évolutif, il est devenu un éditeur indépendant avec la publication de *System Down*, dont la parution est fixée au 16 octobre 2026.
 
 ## Le roman
 
