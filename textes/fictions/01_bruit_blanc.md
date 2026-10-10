@@ -6,6 +6,13 @@ redirect_from:
   - /productions/system-down/chapitre-1/
   - /textes/fictions/01_bruit_blanc.html
 subtitle: "Extrait du roman System Down"
+image:
+  path: /assets/images/system_down_couv_avec_titre.png
+  width: 582
+  height: 899
+  alt: "Couverture de System Down, roman de Max Carrière"
+twitter:
+  card: summary_large_image
 order: 1
 date: 2026-02-03
 last_modified_at: 2026-02-06

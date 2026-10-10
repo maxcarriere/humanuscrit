@@ -21,6 +21,15 @@ defaults:
       path: ""
     values:
       layout: page
+      # Image de partage par défaut (og:image, twitter:image) : logo carré,
+      # d'où la carte « summary » (une grande carte 1,91:1 le rognerait).
+      image:
+        path: /assets/images/logo.png
+        width: 400
+        height: 385
+        alt: "Logo d'Humanuscrit"
+      twitter:
+        card: summary
   - scope:
       path: "textes/reflexions"
     values:
