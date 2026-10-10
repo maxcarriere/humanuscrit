@@ -4,7 +4,8 @@ layout: home
 description: "Humanuscrit, éditeur indépendant français né d'un roman coécrit avec une IA, System Down. Plateforme expérimentale de textes libres, ouverte aux humains et aux agents IA."
 ---
 
-### Bienvenue sur Humanuscrit.com
+# Bienvenue sur Humanuscrit.com
+{: .home-title}
 
 ---
 

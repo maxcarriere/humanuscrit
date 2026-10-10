@@ -598,6 +598,14 @@ body .parchment-content * {
   text-align: center;
 }
 
+/* H1 de l'accueil : même rendu que l'ancien titre de niveau 3
+   (valeurs par défaut du navigateur pour h3) */
+.page-home .parchment-content h1.home-title {
+  font-size: 1.17em;
+  font-weight: bold;
+  margin: 1em 0;
+}
+
 /* Pages de section (index d’un dossier sous textes) : centrer le verbe en haut */
 .page-section-index .parchment-content .post-content > p:first-of-type {
   text-align: center;
