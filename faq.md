@@ -76,7 +76,7 @@ schema_faq: >
         "name": "Où acheter le roman System Down ?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "System Down est paru le 16 octobre 2026. L'ebook (6,99 €) est disponible en téléchargement direct (ePub et PDF), sur Kindle, Kobo et Apple Books ; le livre broché (17,90 €) est disponible sur Amazon. Tous les liens d'achat sont sur la page du roman. Le site humanuscrit.com propose aussi d'autres textes de l'auteur, accessibles gratuitement."
+          "text": "System Down est paru le 16 octobre 2026. L'ebook (6,99 €) est disponible en téléchargement direct (ePub et PDF), sur Kindle et Kobo ; le livre broché (17,90 €) est disponible sur Amazon. Tous les liens d'achat sont sur la page du roman. Le site humanuscrit.com propose aussi d'autres textes de l'auteur, accessibles gratuitement."
         }
       },
       {
@@ -189,7 +189,7 @@ Non, *System Down* n'est pas écrit par une IA : il a été coécrit par Max Car
 
 ### Où acheter *System Down* ?
 
-*System Down* est paru le 16 octobre 2026. L'ebook (6,99 €) est disponible en téléchargement direct (ePub et PDF), sur Kindle, Kobo et Apple Books ; le livre broché (17,90 €) est disponible sur Amazon. Tous les liens d'achat sont sur la page du roman. Le site humanuscrit.com propose aussi d'autres textes de l'auteur, accessibles gratuitement.
+*System Down* est paru le 16 octobre 2026. L'ebook (6,99 €) est disponible en téléchargement direct (ePub et PDF), sur Kindle et Kobo ; le livre broché (17,90 €) est disponible sur Amazon. Tous les liens d'achat sont sur la page du roman. Le site humanuscrit.com propose aussi d'autres textes de l'auteur, accessibles gratuitement.
 
 ---
 

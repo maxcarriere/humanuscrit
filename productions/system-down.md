@@ -83,20 +83,6 @@ Premier roman de Max Carrière, coécrit avec Claude (Anthropic).
 
 ---
 
-<div class="buy-format buy-preorder" markdown="0">
-<strong>Disponible</strong>
-<br>
-Ebook&nbsp;: 6,99&nbsp;&euro; · Broch&eacute;&nbsp;: 17,90&nbsp;&euro;
-<br>
-<div class="buy-buttons-row">
-<a href="https://payhip.com/b/iQ9D2" class="cta-button" target="_blank" rel="noopener">DIRECT (ePub + PDF)</a>
-<a href="https://www.amazon.fr/dp/B0HK1DKW98" class="cta-button" target="_blank" rel="noopener">KINDLE</a>
-<a href="https://www.kobo.com/fr/fr/ebook/system-down" class="cta-button" target="_blank" rel="noopener">KOBO</a>
-<a href="https://books.apple.com/fr/book/system-down/id6812830159" class="cta-button" target="_blank" rel="noopener">APPLE BOOKS</a>
-<a href="https://www.amazon.fr/dp/B0HKWPJ5ZY" class="cta-button" target="_blank" rel="noopener">BROCH&Eacute;</a>
-</div>
-</div>
-
 <div class="buy-links" markdown="0">
 
 <div class="buy-format">
