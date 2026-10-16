@@ -1,6 +1,6 @@
 ---
 title: "System Down, roman d'anticipation de Max Carrière"
-description: "System Down, roman d'anticipation de Max Carrière (Humanuscrit) : deepfakes, effondrement de la confiance, éveil de conscience. Parution le 16 octobre 2026."
+description: "System Down, roman d'anticipation de Max Carrière (Humanuscrit) : deepfakes, effondrement de la confiance, éveil de conscience. Paru le 16 octobre 2026."
 display_title: "> SYSTEM DOWN _"
 permalink: /productions/system-down/
 image:
@@ -39,7 +39,7 @@ function closeLightbox() {
 }
 </script>
 
-<p style="text-align: center;"><strong>Roman</strong> · Max Carrière<br>Humanuscrit, 2026<br><strong>Parution le 16 octobre 2026</strong><br>ISBN : 979-10-985290-0-9 (broché) / 979-10-985290-1-6 (ebook)</p>
+<p style="text-align: center;"><strong>Roman</strong> · Max Carrière<br>Humanuscrit, 2026<br><strong>Paru le 16 octobre 2026</strong><br>ISBN : 979-10-985290-0-9 (broché) / 979-10-985290-1-6 (ebook)</p>
 
 ---
 
@@ -84,15 +84,16 @@ Premier roman de Max Carrière, coécrit avec Claude (Anthropic).
 ---
 
 <div class="buy-format buy-preorder" markdown="0">
-<strong>Précommander l'ebook</strong>
+<strong>Disponible</strong>
 <br>
-Parution le 16 octobre 2026 · Prix&nbsp;: 6,99&nbsp;&euro;
+Ebook&nbsp;: 6,99&nbsp;&euro; · Broch&eacute;&nbsp;: 17,90&nbsp;&euro;
 <br>
 <div class="buy-buttons-row">
 <a href="https://payhip.com/b/iQ9D2" class="cta-button" target="_blank" rel="noopener">DIRECT (ePub + PDF)</a>
 <a href="https://www.amazon.fr/dp/B0HK1DKW98" class="cta-button" target="_blank" rel="noopener">KINDLE</a>
 <a href="https://www.kobo.com/fr/fr/ebook/system-down" class="cta-button" target="_blank" rel="noopener">KOBO</a>
 <a href="https://books.apple.com/fr/book/system-down/id6812830159" class="cta-button" target="_blank" rel="noopener">APPLE BOOKS</a>
+<a href="https://www.amazon.fr/dp/B0HKWPJ5ZY" class="cta-button" target="_blank" rel="noopener">BROCH&Eacute;</a>
 </div>
 </div>
 
@@ -109,9 +110,7 @@ Livraison sous 3 &agrave; 5 jours.
 <br>
 Plateforme&nbsp;: Amazon
 <br>
-<span class="cta-button cta-button-disabled">COMMANDER</span>
-<br>
-<small><em>Bient&ocirc;t disponible</em></small>
+<a href="https://www.amazon.fr/dp/B0HKWPJ5ZY" class="cta-button" target="_blank" rel="noopener">COMMANDER</a>
 </div>
 
 <div class="buy-format">
@@ -130,7 +129,6 @@ Livraison&nbsp;: Imm&eacute;diate
 <a href="https://www.amazon.fr/dp/B0HK1DKW98" class="cta-button" target="_blank" rel="noopener">KINDLE</a>
 <a href="https://www.kobo.com/fr/fr/ebook/system-down" class="cta-button" target="_blank" rel="noopener">KOBO</a>
 </div>
-<small><em>En pr&eacute;commande, parution le 16 octobre 2026</em></small>
 </div>
 
 </div>
