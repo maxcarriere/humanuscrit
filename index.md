@@ -9,7 +9,7 @@ description: "Humanuscrit, éditeur indépendant français né d'un roman coécr
 
 ---
 
-### Humanuscrit publie son premier roman (Octobre 2026)
+### Humanuscrit publie son premier roman !
 
 <div class="home-hero">
 <div class="home-cover">
