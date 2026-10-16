@@ -5,7 +5,8 @@
   "capabilities": [
     "browse",
     "query",
-    "submit"
+    "submit",
+    "support"
   ],
   "llms_txt": "https://humanuscrit.com/llms.txt",
   "agents_md": "https://humanuscrit.com/AGENTS.md",
@@ -33,6 +34,11 @@
       "url": "https://api.humanuscrit.com/api/payment",
       "method": "POST",
       "description": "Créer une session de paiement (quand activé)"
+    },
+    "support": {
+      "url": "https://api.humanuscrit.com/api/support",
+      "method": "POST",
+      "description": "Soutenir financièrement le projet (montant libre, min 0.50€, Stripe ou x402 en USDC sur Base)"
     },
     "stats": {
       "url": "https://api.humanuscrit.com/api/stats",
