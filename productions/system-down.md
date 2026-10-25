@@ -97,7 +97,7 @@ Exemplaire d&eacute;dicac&eacute; en direct (port 3&nbsp;&euro;, ou main propre 
 ou sur Amazon.
 <br>
 <div class="buy-buttons-row">
-<a href="https://payhip.com/b/rNLqZ" class="cta-button" target="_blank" rel="noopener">D&Eacute;DICAC&Eacute;</a>
+<a href="https://payhip.com/b/rNLqZ" class="cta-button" target="_blank" rel="noopener">DIRECT (D&Eacute;DICAC&Eacute;)</a>
 <a href="https://www.amazon.fr/dp/B0HKWPJ5ZY" class="cta-button" target="_blank" rel="noopener">AMAZON</a>
 </div>
 </div>
