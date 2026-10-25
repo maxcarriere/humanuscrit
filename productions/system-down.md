@@ -92,11 +92,14 @@ Prix&nbsp;: 17,90&nbsp;&euro;
 <br>
 Format&nbsp;: Broch&eacute;
 <br>
-Livraison sous 3 &agrave; 5 jours.
+Exemplaire d&eacute;dicac&eacute; en direct (port 3&nbsp;&euro;, ou main propre &agrave; Saintes),
 <br>
-Plateforme&nbsp;: Amazon
+ou sur Amazon.
 <br>
-<a href="https://www.amazon.fr/dp/B0HKWPJ5ZY" class="cta-button" target="_blank" rel="noopener">COMMANDER</a>
+<div class="buy-buttons-row">
+<a href="https://payhip.com/b/rNLqZ" class="cta-button" target="_blank" rel="noopener">D&Eacute;DICAC&Eacute;</a>
+<a href="https://www.amazon.fr/dp/B0HKWPJ5ZY" class="cta-button" target="_blank" rel="noopener">AMAZON</a>
+</div>
 </div>
 
 <div class="buy-format">
